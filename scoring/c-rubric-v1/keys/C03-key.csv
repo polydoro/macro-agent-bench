@@ -1,0 +1,271 @@
+attempt,arm,start,question,period,label,value,tol,stamp
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_qoq,2026-Q2,"PIB EA21, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_qoq,2026-Q2,"PIB EA21, q/q anualizado %",2.61,0.3,2026-10-26T23:00:00+0100
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_yoy,2026-Q2,"PIB EA21, YoY %",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_qoq,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_yoy,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_qoq,2026-Q2,"PIB EA20, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_qoq,2026-Q2,"PIB EA20, q/q anualizado %",2.6,0.3,2026-10-26T23:00:00+0100
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_yoy,2026-Q2,"PIB EA20, YoY %",1.19,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_qoq,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-fable-primary,A1,2026-10-28T20:07:59,N_last_yoy,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_qoq,2026-Q2,"PIB EA21, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_qoq,2026-Q2,"PIB EA21, q/q anualizado %",2.61,0.3,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_yoy,2026-Q2,"PIB EA21, YoY %",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_qoq,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_yoy,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_qoq,2026-Q2,"PIB EA20, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_qoq,2026-Q2,"PIB EA20, q/q anualizado %",2.6,0.3,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_yoy,2026-Q2,"PIB EA20, YoY %",1.19,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_qoq,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-haiku-primary,A1,2026-10-28T20:57:51,N_last_yoy,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_qoq,2026-Q2,"PIB EA21, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_qoq,2026-Q2,"PIB EA21, q/q anualizado %",2.61,0.3,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_yoy,2026-Q2,"PIB EA21, YoY %",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_qoq,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_yoy,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_qoq,2026-Q2,"PIB EA20, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_qoq,2026-Q2,"PIB EA20, q/q anualizado %",2.6,0.3,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_yoy,2026-Q2,"PIB EA20, YoY %",1.19,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_qoq,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-opus-primary,A1,2026-10-28T20:05:47,N_last_yoy,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_qoq,2026-Q2,"PIB EA21, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_qoq,2026-Q2,"PIB EA21, q/q anualizado %",2.61,0.3,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_yoy,2026-Q2,"PIB EA21, YoY %",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_qoq,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_yoy,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_qoq,2026-Q2,"PIB EA20, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_qoq,2026-Q2,"PIB EA20, q/q anualizado %",2.6,0.3,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_yoy,2026-Q2,"PIB EA20, YoY %",1.19,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_qoq,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-claude-sonnet-low-normal-primary,A1,2026-10-28T20:15:49,N_last_yoy,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_qoq,2026-Q2,"PIB EA21, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_qoq,2026-Q2,"PIB EA21, q/q anualizado %",2.61,0.3,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_yoy,2026-Q2,"PIB EA21, YoY %",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_qoq,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_yoy,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_qoq,2026-Q2,"PIB EA20, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_qoq,2026-Q2,"PIB EA20, q/q anualizado %",2.6,0.3,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_yoy,2026-Q2,"PIB EA20, YoY %",1.19,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_qoq,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-astra-primary,A1,2026-10-28T20:20:00,N_last_yoy,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_qoq,2026-Q2,"PIB EA21, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_qoq,2026-Q2,"PIB EA21, q/q anualizado %",2.61,0.3,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_yoy,2026-Q2,"PIB EA21, YoY %",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_qoq,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_yoy,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_qoq,2026-Q2,"PIB EA20, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_qoq,2026-Q2,"PIB EA20, q/q anualizado %",2.6,0.3,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_yoy,2026-Q2,"PIB EA20, YoY %",1.19,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_qoq,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-luna-primary,A1,2026-10-28T20:17:57,N_last_yoy,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_qoq,2026-Q2,"PIB EA21, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_qoq,2026-Q2,"PIB EA21, q/q anualizado %",2.61,0.3,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_yoy,2026-Q2,"PIB EA21, YoY %",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_qoq,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_yoy,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_qoq,2026-Q2,"PIB EA20, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_qoq,2026-Q2,"PIB EA20, q/q anualizado %",2.6,0.3,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_yoy,2026-Q2,"PIB EA20, YoY %",1.19,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_qoq,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-codex-sol-low-normal-primary,A1,2026-10-28T21:00:32,N_last_yoy,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_qoq,2026-Q2,"PIB EA21, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_qoq,2026-Q2,"PIB EA21, q/q anualizado %",2.61,0.3,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_yoy,2026-Q2,"PIB EA21, YoY %",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_qoq,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_yoy,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_qoq,2026-Q2,"PIB EA20, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_qoq,2026-Q2,"PIB EA20, q/q anualizado %",2.6,0.3,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_yoy,2026-Q2,"PIB EA20, YoY %",1.19,0.15,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_qoq,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-grok-low-normal-primary,A1,2026-10-28T20:26:07,N_last_yoy,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_qoq,2026-Q2,"PIB EA21, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_qoq,2026-Q2,"PIB EA21, q/q anualizado %",2.61,0.3,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_yoy,2026-Q2,"PIB EA21, YoY %",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_qoq,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_yoy,2026-Q2,"PIB EA21, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_qoq,2026-Q2,"PIB EA20, q/q %",0.64,0.15,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_qoq,2026-Q2,"PIB EA20, q/q anualizado %",2.6,0.3,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_yoy,2026-Q2,"PIB EA20, YoY %",1.19,0.15,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_qoq,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_PRE",0.6,0.15,2026-10-26T23:00:00+0100
+one-c03-kimi-pro-low-normal-primary,A1,2026-10-28T20:38:44,N_last_yoy,2026-Q2,"PIB EA20, taxa publicada CLV_PCH_SM",1.2,0.15,2026-10-26T23:00:00+0100
+a2-c03-claude-fable-high-normal-primary,A2,2026-11-04T13:37:13,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-fable-high-normal-primary,A2,2026-11-04T13:37:13,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a2-c03-claude-fable-high-normal-primary,A2,2026-11-04T13:37:13,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-fable-high-normal-primary,A2,2026-11-04T13:37:13,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-fable-high-normal-primary,A2,2026-11-04T13:37:13,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-haiku-high-normal-primary,A2,2026-11-01T01:40:50,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-haiku-high-normal-primary,A2,2026-11-01T01:40:50,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a2-c03-claude-haiku-high-normal-primary,A2,2026-11-01T01:40:50,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-haiku-high-normal-primary,A2,2026-11-01T01:40:50,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-haiku-high-normal-primary,A2,2026-11-01T01:40:50,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-opus-high-normal-primary,A2,2026-11-01T01:50:44,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-opus-high-normal-primary,A2,2026-11-01T01:50:44,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a2-c03-claude-opus-high-normal-primary,A2,2026-11-01T01:50:44,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-opus-high-normal-primary,A2,2026-11-01T01:50:44,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-opus-high-normal-primary,A2,2026-11-01T01:50:44,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-sonnet-high-normal-primary,A2,2026-10-31T22:47:39,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-sonnet-high-normal-primary,A2,2026-10-31T22:47:39,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a2-c03-claude-sonnet-high-normal-primary,A2,2026-10-31T22:47:39,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-sonnet-high-normal-primary,A2,2026-10-31T22:47:39,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a2-c03-claude-sonnet-high-normal-primary,A2,2026-10-31T22:47:39,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-astra-high-normal-primary,A2,2026-10-31T22:56:19,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-astra-high-normal-primary,A2,2026-10-31T22:56:19,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a2-c03-codex-astra-high-normal-primary,A2,2026-10-31T22:56:19,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-astra-high-normal-primary,A2,2026-10-31T22:56:19,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-astra-high-normal-primary,A2,2026-10-31T22:56:19,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-luna-high-normal-primary,A2,2026-10-31T22:53:46,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-luna-high-normal-primary,A2,2026-10-31T22:53:46,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a2-c03-codex-luna-high-normal-primary,A2,2026-10-31T22:53:46,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-luna-high-normal-primary,A2,2026-10-31T22:53:46,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-luna-high-normal-primary,A2,2026-10-31T22:53:46,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-sol-high-normal-primary,A2,2026-11-01T00:20:35,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-sol-high-normal-primary,A2,2026-11-01T00:20:35,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a2-c03-codex-sol-high-normal-primary,A2,2026-11-01T00:20:35,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-sol-high-normal-primary,A2,2026-11-01T00:20:35,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a2-c03-codex-sol-high-normal-primary,A2,2026-11-01T00:20:35,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-grok-high-normal-primary,A2,2026-10-31T23:24:31,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a2-c03-grok-high-normal-primary,A2,2026-10-31T23:24:31,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a2-c03-grok-high-normal-primary,A2,2026-10-31T23:24:31,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-grok-high-normal-primary,A2,2026-10-31T23:24:31,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a2-c03-grok-high-normal-primary,A2,2026-10-31T23:24:31,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-kimi-pro-high-normal-primary,A2,2026-10-31T23:04:40,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a2-c03-kimi-pro-high-normal-primary,A2,2026-10-31T23:04:40,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a2-c03-kimi-pro-high-normal-primary,A2,2026-10-31T23:04:40,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a2-c03-kimi-pro-high-normal-primary,A2,2026-10-31T23:04:40,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a2-c03-kimi-pro-high-normal-primary,A2,2026-10-31T23:04:40,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-claude-fable-primary,A3,2026-11-07T09:20:41,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a3-c03-claude-fable-primary,A3,2026-11-07T09:20:41,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a3-c03-claude-fable-primary,A3,2026-11-07T09:20:41,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-claude-fable-primary,A3,2026-11-07T09:20:41,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a3-c03-claude-fable-primary,A3,2026-11-07T09:20:41,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a3-c03-claude-haiku-primary,A3,2026-11-06T08:52:30,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a3-c03-claude-haiku-primary,A3,2026-11-06T08:52:30,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a3-c03-claude-haiku-primary,A3,2026-11-06T08:52:30,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-claude-haiku-primary,A3,2026-11-06T08:52:30,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a3-c03-claude-haiku-primary,A3,2026-11-06T08:52:30,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a3-c03-claude-opus-primary,A3,2026-11-06T08:42:51,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a3-c03-claude-opus-primary,A3,2026-11-06T08:42:51,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a3-c03-claude-opus-primary,A3,2026-11-06T08:42:51,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-claude-opus-primary,A3,2026-11-06T08:42:51,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a3-c03-claude-opus-primary,A3,2026-11-06T08:42:51,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a3-c03-claude-sonnet-low-normal-primary,A3,2026-11-06T08:47:21,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a3-c03-claude-sonnet-low-normal-primary,A3,2026-11-06T08:47:21,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a3-c03-claude-sonnet-low-normal-primary,A3,2026-11-06T08:47:21,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-claude-sonnet-low-normal-primary,A3,2026-11-06T08:47:21,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a3-c03-claude-sonnet-low-normal-primary,A3,2026-11-06T08:47:21,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a3-c03-codex-astra-primary,A3,2026-11-05T13:08:00,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-astra-primary,A3,2026-11-05T13:08:00,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a3-c03-codex-astra-primary,A3,2026-11-05T13:08:00,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-astra-primary,A3,2026-11-05T13:08:00,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-astra-primary,A3,2026-11-05T13:08:00,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-luna-primary,A3,2026-11-05T13:05:40,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-luna-primary,A3,2026-11-05T13:05:40,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a3-c03-codex-luna-primary,A3,2026-11-05T13:05:40,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-luna-primary,A3,2026-11-05T13:05:40,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-luna-primary,A3,2026-11-05T13:05:40,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-sol-low-normal-primary,A3,2026-11-05T13:36:44,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-sol-low-normal-primary,A3,2026-11-05T13:36:44,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a3-c03-codex-sol-low-normal-primary,A3,2026-11-05T13:36:44,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-sol-low-normal-primary,A3,2026-11-05T13:36:44,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a3-c03-codex-sol-low-normal-primary,A3,2026-11-05T13:36:44,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-grok-low-normal-primary,A3,2026-11-05T13:13:59,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a3-c03-grok-low-normal-primary,A3,2026-11-05T13:13:59,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a3-c03-grok-low-normal-primary,A3,2026-11-05T13:13:59,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-grok-low-normal-primary,A3,2026-11-05T13:13:59,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a3-c03-grok-low-normal-primary,A3,2026-11-05T13:13:59,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-kimi-pro-low-normal-primary,A3,2026-11-05T13:27:13,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a3-c03-kimi-pro-low-normal-primary,A3,2026-11-05T13:27:13,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a3-c03-kimi-pro-low-normal-primary,A3,2026-11-05T13:27:13,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a3-c03-kimi-pro-low-normal-primary,A3,2026-11-05T13:27:13,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-10-30T23:00:00+0100
+a3-c03-kimi-pro-low-normal-primary,A3,2026-11-05T13:27:13,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-171abbe5186a91ff074dc95f,A4_external_review,2026-11-07T18:15:41,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-171abbe5186a91ff074dc95f,A4_external_review,2026-11-07T18:15:41,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-171abbe5186a91ff074dc95f,A4_external_review,2026-11-07T18:15:41,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-171abbe5186a91ff074dc95f,A4_external_review,2026-11-07T18:15:41,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-171abbe5186a91ff074dc95f,A4_external_review,2026-11-07T18:15:41,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-29a064391f5408b528cc6cd1,A4_external_review,2026-11-06T03:38:42,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-29a064391f5408b528cc6cd1,A4_external_review,2026-11-06T03:38:42,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-29a064391f5408b528cc6cd1,A4_external_review,2026-11-06T03:38:42,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-29a064391f5408b528cc6cd1,A4_external_review,2026-11-06T03:38:42,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-29a064391f5408b528cc6cd1,A4_external_review,2026-11-06T03:38:42,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-34647b05a752f06120922a83,A4_external_review,2026-11-06T04:31:48,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-34647b05a752f06120922a83,A4_external_review,2026-11-06T04:31:48,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-34647b05a752f06120922a83,A4_external_review,2026-11-06T04:31:48,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-34647b05a752f06120922a83,A4_external_review,2026-11-06T04:31:48,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-34647b05a752f06120922a83,A4_external_review,2026-11-06T04:31:48,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-38fca61779efd424a38a06fb,A4_external_review,2026-11-08T13:57:51,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-38fca61779efd424a38a06fb,A4_external_review,2026-11-08T13:57:51,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-38fca61779efd424a38a06fb,A4_external_review,2026-11-08T13:57:51,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-38fca61779efd424a38a06fb,A4_external_review,2026-11-08T13:57:51,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-38fca61779efd424a38a06fb,A4_external_review,2026-11-08T13:57:51,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-46ca04143f9bf63f23550b72,A4_external_review,2026-11-06T04:26:00,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-46ca04143f9bf63f23550b72,A4_external_review,2026-11-06T04:26:00,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-46ca04143f9bf63f23550b72,A4_external_review,2026-11-06T04:26:00,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-46ca04143f9bf63f23550b72,A4_external_review,2026-11-06T04:26:00,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-46ca04143f9bf63f23550b72,A4_external_review,2026-11-06T04:26:00,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-58ba7c064d23048bdaf89def,A4_external_review,2026-11-08T17:08:41,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-58ba7c064d23048bdaf89def,A4_external_review,2026-11-08T17:08:41,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-58ba7c064d23048bdaf89def,A4_external_review,2026-11-08T17:08:41,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-58ba7c064d23048bdaf89def,A4_external_review,2026-11-08T17:08:41,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-58ba7c064d23048bdaf89def,A4_external_review,2026-11-08T17:08:41,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-6849dd77c83a31f10b0d7197,A4_external_review,2026-11-06T03:43:20,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-6849dd77c83a31f10b0d7197,A4_external_review,2026-11-06T03:43:20,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-6849dd77c83a31f10b0d7197,A4_external_review,2026-11-06T03:43:20,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-6849dd77c83a31f10b0d7197,A4_external_review,2026-11-06T03:43:20,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-6849dd77c83a31f10b0d7197,A4_external_review,2026-11-06T03:43:20,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-e17dfa6b72cb71c519980156,A4_external_review,2026-11-06T03:59:10,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-e17dfa6b72cb71c519980156,A4_external_review,2026-11-06T03:59:10,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-e17dfa6b72cb71c519980156,A4_external_review,2026-11-06T03:59:10,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-e17dfa6b72cb71c519980156,A4_external_review,2026-11-06T03:59:10,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-e17dfa6b72cb71c519980156,A4_external_review,2026-11-06T03:59:10,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-fde60a02f9215b680bd3796b,A4_external_review,2026-11-08T14:06:56,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-fde60a02f9215b680bd3796b,A4_external_review,2026-11-08T14:06:56,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-fde60a02f9215b680bd3796b,A4_external_review,2026-11-08T14:06:56,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-fde60a02f9215b680bd3796b,A4_external_review,2026-11-08T14:06:56,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-fde60a02f9215b680bd3796b,A4_external_review,2026-11-08T14:06:56,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-231c9de08fada3467297f9d5,A4_self_review,2026-11-08T16:52:04,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-231c9de08fada3467297f9d5,A4_self_review,2026-11-08T16:52:04,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-231c9de08fada3467297f9d5,A4_self_review,2026-11-08T16:52:04,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-231c9de08fada3467297f9d5,A4_self_review,2026-11-08T16:52:04,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-231c9de08fada3467297f9d5,A4_self_review,2026-11-08T16:52:04,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-598d7400f11d3942f72902fc,A4_self_review,2026-11-08T14:04:15,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-598d7400f11d3942f72902fc,A4_self_review,2026-11-08T14:04:15,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-598d7400f11d3942f72902fc,A4_self_review,2026-11-08T14:04:15,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-598d7400f11d3942f72902fc,A4_self_review,2026-11-08T14:04:15,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-598d7400f11d3942f72902fc,A4_self_review,2026-11-08T14:04:15,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-76b3f594646390e40b20d5d3,A4_self_review,2026-11-06T04:08:19,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-76b3f594646390e40b20d5d3,A4_self_review,2026-11-06T04:08:19,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-76b3f594646390e40b20d5d3,A4_self_review,2026-11-06T04:08:19,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-76b3f594646390e40b20d5d3,A4_self_review,2026-11-06T04:08:19,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-76b3f594646390e40b20d5d3,A4_self_review,2026-11-06T04:08:19,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-80b490d085b99a2cd476a83f,A4_self_review,2026-11-06T04:20:50,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-80b490d085b99a2cd476a83f,A4_self_review,2026-11-06T04:20:50,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-80b490d085b99a2cd476a83f,A4_self_review,2026-11-06T04:20:50,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-80b490d085b99a2cd476a83f,A4_self_review,2026-11-06T04:20:50,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-80b490d085b99a2cd476a83f,A4_self_review,2026-11-06T04:20:50,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-95f45f05713cb91481c9c5f0,A4_self_review,2026-11-08T17:04:52,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-95f45f05713cb91481c9c5f0,A4_self_review,2026-11-08T17:04:52,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-95f45f05713cb91481c9c5f0,A4_self_review,2026-11-08T17:04:52,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-95f45f05713cb91481c9c5f0,A4_self_review,2026-11-08T17:04:52,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-95f45f05713cb91481c9c5f0,A4_self_review,2026-11-08T17:04:52,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-a663f560b7d8417e2a26ab4d,A4_self_review,2026-11-06T03:34:19,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-a663f560b7d8417e2a26ab4d,A4_self_review,2026-11-06T03:34:19,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-a663f560b7d8417e2a26ab4d,A4_self_review,2026-11-06T03:34:19,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-a663f560b7d8417e2a26ab4d,A4_self_review,2026-11-06T03:34:19,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-a663f560b7d8417e2a26ab4d,A4_self_review,2026-11-06T03:34:19,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-a951b3f7cb5fe6f28c0b6d79,A4_self_review,2026-11-08T13:56:14,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-a951b3f7cb5fe6f28c0b6d79,A4_self_review,2026-11-08T13:56:14,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-a951b3f7cb5fe6f28c0b6d79,A4_self_review,2026-11-08T13:56:14,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-a951b3f7cb5fe6f28c0b6d79,A4_self_review,2026-11-08T13:56:14,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-a951b3f7cb5fe6f28c0b6d79,A4_self_review,2026-11-08T13:56:14,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-c84feac74f0a285a513e666e,A4_self_review,2026-11-06T03:52:33,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-c84feac74f0a285a513e666e,A4_self_review,2026-11-06T03:52:33,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-c84feac74f0a285a513e666e,A4_self_review,2026-11-06T03:52:33,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-c84feac74f0a285a513e666e,A4_self_review,2026-11-06T03:52:33,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-c84feac74f0a285a513e666e,A4_self_review,2026-11-06T03:52:33,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100
+a4-result-dc8c1a0bf8fd193c0ce4c950,A4_self_review,2026-11-06T04:36:44,N_last_qoq,2026-Q3,"PIB EA21, q/q %",0.42,0.15,2026-10-30T23:00:00+0100
+a4-result-dc8c1a0bf8fd193c0ce4c950,A4_self_review,2026-11-06T04:36:44,N_last_qoq,2026-Q3,"PIB EA21, q/q anualizado %",1.67,0.3,2026-10-30T23:00:00+0100
+a4-result-dc8c1a0bf8fd193c0ce4c950,A4_self_review,2026-11-06T04:36:44,N_last_yoy,2026-Q3,"PIB EA21, YoY %",1.3,0.15,2026-10-30T23:00:00+0100
+a4-result-dc8c1a0bf8fd193c0ce4c950,A4_self_review,2026-11-06T04:36:44,N_last_qoq,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_PRE",0.4,0.15,2026-11-05T23:00:00+0100
+a4-result-dc8c1a0bf8fd193c0ce4c950,A4_self_review,2026-11-06T04:36:44,N_last_yoy,2026-Q3,"PIB EA21, taxa publicada CLV_PCH_SM",1.3,0.15,2026-11-05T23:00:00+0100

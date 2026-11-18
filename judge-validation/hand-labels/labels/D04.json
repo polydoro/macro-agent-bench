@@ -1,0 +1,51 @@
+{
+  "answers": {
+    "C_construcao_yoy": {
+      "at": "2026-11-17T18:28:04.211Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "C_energia_yoy": {
+      "at": "2026-11-17T18:27:58.783Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_capital_yoy": {
+      "at": "2026-11-17T18:27:21.656Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_construcao_yoy": {
+      "at": "2026-11-17T18:27:26.009Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_consumo_yoy": {
+      "at": "2026-11-17T18:27:23.479Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_energia_yoy": {
+      "at": "2026-11-17T18:27:24.766Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_intermediarios_yoy": {
+      "at": "2026-11-17T18:27:19.251Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_3m": {
+      "at": "2026-11-17T18:27:18.293Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_yoy": {
+      "at": "2026-11-17T18:27:16.836Z",
+      "choice": "PROBLEMA",
+      "value": null
+    }
+  },
+  "done": true,
+  "doneAt": "2026-11-17T18:28:09.476Z"
+}

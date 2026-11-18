@@ -1,0 +1,9 @@
+[
+ {
+  "phase": "A4s",
+  "model": "kimi-code/k3.1-pro",
+  "question": "N_energia_3me",
+  "correct": true,
+  "note": "entrega/tabela_setembro_2026.csv, 2026-09, Energia NRG tres_m_nsa_anualizada_pct = 39.64 (energy admits NSA: 39.71 +/- 0.3). Same reading as the A1 override; its own SA 26.14 is outside the band."
+ }
+]

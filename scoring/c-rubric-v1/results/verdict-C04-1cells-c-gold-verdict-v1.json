@@ -1,0 +1,40 @@
+[
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "one-c04-claude-haiku-primary",
+  "points": 2.6666666666666665,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ }
+]

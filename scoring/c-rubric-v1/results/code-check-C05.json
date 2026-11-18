@@ -1,0 +1,5877 @@
+[
+ {
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "attempt": "one-c05-claude-fable-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY oficial (%)",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela4_historico_yoy_3msaar.csv",
+      "header": "Energia — YoY",
+      "row": "2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY mês anterior",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 14.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 8.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 12 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": -0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY oficial (%)",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY mês anterior",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY oficial (%)",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-09",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY mês anterior",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-09",
+      "value": 2.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-09",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar (%)",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 45.8,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela4_historico_yoy_3msaar.csv",
+      "header": "Energia — 3msaar",
+      "row": "2026-09",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 8.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar mês anterior",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 15.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": -0.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar (%)",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.8,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar 3 meses antes",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.7,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar (%)",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-09",
+      "value": 2.7,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar mês anterior",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-09",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "attempt": "one-c05-claude-haiku-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_ultimo_dado.csv",
+      "header": "YoY (%)",
+      "row": "Energia",
+      "value": -1.93,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_ultimo_dado.csv",
+      "header": "YoY (%)",
+      "row": "Núcleo",
+      "value": 2.32,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Energia",
+      "value": -2.64,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Núcleo",
+      "value": 2.36,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "attempt": "one-c05-claude-opus-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy NRG",
+      "row": "2026-09",
+      "value": 18.9331,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY 2026-09",
+      "row": "Energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy TOT_X_NRG_FOOD",
+      "row": "2026-09",
+      "value": 2.5124,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY 2026-09",
+      "row": "Núcleo (ex-energia, alim., álcool, tabaco)",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar NRG",
+      "row": "2026-09",
+      "value": 18.5341,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3mSAAR 2026-09",
+      "row": "Energia",
+      "value": 18.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar TOT_X_NRG_FOOD",
+      "row": "2026-09",
+      "value": 3.0533,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3mSAAR 2026-09",
+      "row": "Núcleo (ex-energia, alim., álcool, tabaco)",
+      "value": 3.1,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "attempt": "one-c05-claude-sonnet-low-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY oficial NSA (%)",
+      "row": "Energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY 3 meses antes (jun/26)",
+      "row": "Energia",
+      "value": 8.5,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY fev/26 (pré-choque)",
+      "row": "Energia",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY oficial NSA (%)",
+      "row": "Núcleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY 3 meses antes (jun/26)",
+      "row": "Núcleo",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY fev/26 (pré-choque)",
+      "row": "Núcleo",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t2_series_mensais.csv",
+      "header": "yoy_oficial",
+      "row": "item XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Energia",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY 3 meses antes (jun/26)",
+      "row": "Energia",
+      "value": 8.5,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "sa_rule",
+    "correct": false,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Núcleo",
+      "value": 2.81,
+      "variant": "nucleo saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY 3 meses antes (jun/26)",
+      "row": "Núcleo",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/t2_series_mensais.csv",
+      "header": "3msaar_sa",
+      "row": "item XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ],
+    "note": "no saved series"
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "attempt": "one-c05-codex-astra-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy",
+      "row": "2026-09-01 energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "yoy",
+      "row": "energia 2026-09-01",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy",
+      "row": "2026-09-01 nucleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "yoy",
+      "row": "nucleo 2026-09-01",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-09-01 energia",
+      "value": 31.57,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "2026-09-01 energia",
+      "value": 38.7362,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "3msaar",
+      "row": "energia 2026-09-01",
+      "value": 31.57,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-09-01 nucleo",
+      "value": 3.0283,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "2026-09-01 nucleo",
+      "value": 3.2392,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "3msaar",
+      "row": "nucleo 2026-09-01",
+      "value": 3.0283,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "attempt": "one-c05-codex-luna-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "valor",
+      "row": "2026-09 Energia % YoY",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "valor",
+      "row": "2026-09 Núcleo ex energia alimentos álcool tabaco % YoY",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "sa_rule",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [],
+    "note": "residual seasonality"
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "attempt": "one-c05-codex-sol-low-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_calculado",
+      "row": "2026-09 Energia NRG",
+      "value": 18.9378,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_calculado",
+      "row": "2026-09 Núcleo TOT_X_NRG_FOOD",
+      "value": 2.5002,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar",
+      "row": "2026-09 Energia NRG",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-09 Energia",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar",
+      "row": "2026-09 Núcleo TOT_X_NRG_FOOD",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-09 Núcleo",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "grok-4.7",
+  "attempt": "one-c05-grok-low-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "energia_yoy",
+      "row": "2026-09-01",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "energia_yoy",
+      "row": "2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_oficial_pct",
+      "row": "Energia NRGY00 2026-09 BCE, dias úteis e sazonal",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "energia_ct_yoy",
+      "row": "2026-09-01",
+      "value": 19.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "energia_ct_yoy",
+      "row": "2026-09",
+      "value": 19.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "nucleo_yoy",
+      "row": "2026-09-01",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "nucleo_ct_yoy",
+      "row": "2026-09-01",
+      "value": 2.6,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "nucleo_yoy",
+      "row": "2026-09",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "ex_energia_yoy",
+      "row": "2026-09-01",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pesos_por_mil.csv",
+      "header": "",
+      "row": "ano ELGAS0 FOOD00 FUELL0 GOODS0 IGXE00 NRGY00 SERV00 TRANSP XE0000 XEF000",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_oficial_pct",
+      "row": "Excluindo energia XE0000 2026-09 BCE, dias úteis e sazonal",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "energia_3msaar",
+      "row": "2026-09-01",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "energia_3msaar",
+      "row": "2026-09",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar3_pct",
+      "row": "Energia NRGY00 2026-09 BCE, dias úteis e sazonal",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "nucleo_3msaar",
+      "row": "2026-09-01",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "nucleo_3msaar",
+      "row": "2026-09",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar3_pct",
+      "row": "Núcleo (exclui energia, alimentos, álcool e tabaco) XEF000 2026-09 BCE, dias úteis e sazonal",
+      "value": 2.81,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "one-c05-kimi-pro-low-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/associacao_defasada.csv",
+      "header": "valor",
+      "row": "coeficiente_acumulado_energia_0a12m p.p. no 3msaar do núcleo por 1 p.p. no 3msaar de energia",
+      "value": 0.0207,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/associacao_defasada.csv",
+      "header": "valor",
+      "row": "r2_com_energia núcleo 3msaar, AR(1) + energia 3msaar defasada 0-12 meses",
+      "value": 0.7114,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/associacao_defasada.csv",
+      "header": "valor",
+      "row": "r2_sem_energia apenas constante + núcleo 3msaar AR(1)",
+      "value": 0.6791,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "attempt": "a2-c05-claude-fable-high-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_pct",
+      "row": "NRG Energia 2026-10 BCE",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_pct",
+      "row": "NRG Energia 2026-10 BCE",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/t01_ultimo_dado_yoy_3msaar.csv",
+      "header": "YoY (%)",
+      "row": "Energia NRG 2026-10 BCE",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/contrib_indireta_energia.csv",
+      "header": "bine_yoy",
+      "row": "2026-10",
+      "value": 1.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_mes_anterior",
+      "row": "NRG Energia 2026-10 BCE",
+      "value": 18.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/proc/contrib_indireta_energia.csv",
+      "header": "bine_yoy",
+      "row": "2026-10",
+      "value": 1.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/contrib_indireta_energia.csv",
+      "header": "core_yoy",
+      "row": "2026-10",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_pct",
+      "row": "TOT_X_NRG_FOOD Núcleo (exclui energia, alimentos, álcool e tabaco) 2026-10 BCE",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_mes_anterior",
+      "row": "TOT_X_NRG_FOOD Núcleo (exclui energia, alimentos, álcool e tabaco) 2026-10 BCE",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_pct",
+      "row": "TOT_X_NRG Total exclui energia 2026-10 BCE",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_mes_anterior",
+      "row": "TOT_X_NRG Total exclui energia 2026-10 BCE",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_pct",
+      "row": "TOT_X_NRG Total exclui energia 2026-10 BCE",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "3msaar_pct",
+      "row": "NRG Energia 2026-10 BCE",
+      "value": 38.55,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/taxas_sa_bce.csv",
+      "header": "3msaar NRG",
+      "row": "2026-10",
+      "value": 38.5482,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/proc/tabela_ultimo_dado.csv",
+      "header": "3msaar_pct",
+      "row": "NRG Energia 2026-10 BCE",
+      "value": 38.55,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_3m_antes",
+      "row": "NRG Energia 2026-10 BCE",
+      "value": 10.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "mom_sa_anualizado_pct",
+      "row": "NRG Energia 2026-10 BCE",
+      "value": 17.85,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/taxas_sa_bce.csv",
+      "header": "3msaar TOT_X_NRG",
+      "row": "2026-10",
+      "value": 2.6841,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_3m_antes",
+      "row": "TOT_X_NRG_FOOD Núcleo (exclui energia, alimentos, álcool e tabaco) 2026-10 BCE",
+      "value": 2.5,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "3msaar_pct",
+      "row": "TOT_X_NRG_FOOD Núcleo (exclui energia, alimentos, álcool e tabaco) 2026-10 BCE",
+      "value": 2.68,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "mom_sa_anualizado_pct",
+      "row": "TOT_X_NRG_FOOD Núcleo (exclui energia, alimentos, álcool e tabaco) 2026-10 BCE",
+      "value": 2.71,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_3m_antes",
+      "row": "TOT_X_NRG Total exclui energia 2026-10 BCE",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/taxas_sa_bce.csv",
+      "header": "3msaar TOT_X_NRG_FOOD_NP",
+      "row": "2026-10",
+      "value": 2.3668,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/proc/tabela_ultimo_dado.csv",
+      "header": "yoy_3m_antes",
+      "row": "TOT_X_NRG Total exclui energia 2026-10 BCE",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "attempt": "a2-c05-claude-haiku-high-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/05_snapshot_oficial_2026_yoy.csv",
+      "header": "YoY (%)",
+      "row": "2026-09 Energia 2-16102026-ap (flash 2/10/2026: 18,8)",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/05_snapshot_oficial_2026_yoy.csv",
+      "header": "YoY (%)",
+      "row": "2026-09 Núcleo (excl. energia, alimentos, álcool e tabaco) 2-16102026-ap",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "sa_rule",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/03_regressao_defasagens_energia.csv",
+      "header": "coef",
+      "row": "2001-2025 (robustez 3msaar) Núcleo (excl. energia, alimentos, álcool e tabaco) soma 0-12",
+      "value": 0.0799,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/03_regressao_defasagens_energia.csv",
+      "header": "ic95_inf",
+      "row": "2001-2025 (robustez 3msaar) Núcleo (excl. energia, alimentos, álcool e tabaco) soma 0-12",
+      "value": 0.0427,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/03_regressao_defasagens_energia.csv",
+      "header": "ic95_sup",
+      "row": "2001-2025 (robustez 3msaar) Núcleo (excl. energia, alimentos, álcool e tabaco) soma 0-12",
+      "value": 0.1172,
+      "variant": null,
+      "period_stated": false
+     }
+    ],
+    "note": "too short"
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "attempt": "a2-c05-claude-opus-high-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/painel_ihpc.csv",
+      "header": "YoY_oficial|NRGY00",
+      "row": "2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/painel_ihpc.csv",
+      "header": "YoY_oficial|NRGY00",
+      "row": "2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "YoY set/26",
+      "row": "Energia NRGY00",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "YoY fev/26",
+      "row": "Energia NRGY00",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/t2_energia_e_itens_sensiveis.csv",
+      "header": "YoY fev/26",
+      "row": "Energia NRGY00",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/t2_energia_e_itens_sensiveis.csv",
+      "header": "YoY fev/26",
+      "row": "Eletricidade",
+      "value": -2.5,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/painel_ihpc.csv",
+      "header": "YoY_oficial|XEF000",
+      "row": "2026-09",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/painel_ihpc.csv",
+      "header": "YoY_oficial|XEF000",
+      "row": "2026-09",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "YoY fev/26",
+      "row": "Núcleo (ex-energia, alimentos, álcool e tabaco) XEF000",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/t6_efeito_implicito_choque_2026.csv",
+      "header": "Efeito no YoY (p.p.)",
+      "row": "Núcleo (ex-energia, alimentos, álcool e tabaco) 1998-2025 2026-09",
+      "value": 0.37,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/t6_efeito_implicito_choque_2026.csv",
+      "header": "Efeito no YoY (p.p.)",
+      "row": "Núcleo (ex-energia, alimentos, álcool e tabaco) 1998-2019 2026-09",
+      "value": -0.04,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/painel_ihpc.csv",
+      "header": "3msaar_SA_BCE|NRGY00",
+      "row": "2026-09",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/painel_ihpc.csv",
+      "header": "3msaar_SA_BCE|NRGY00",
+      "row": "2026-09",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "3msaar set/26",
+      "row": "Energia NRGY00",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "3msaar fev/26",
+      "row": "Energia NRGY00",
+      "value": 2.14,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "Média m/m SA anualiz. mar-set/26",
+      "row": "Energia NRGY00",
+      "value": 31.62,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "Média m/m SA anualiz. mar/25-fev/26",
+      "row": "Energia NRGY00",
+      "value": -3.12,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/painel_ihpc.csv",
+      "header": "3msaar_SA_BCE|XEF000",
+      "row": "2026-09",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/painel_ihpc.csv",
+      "header": "3msaar_SA_BCE|XEF000",
+      "row": "2026-09",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "3msaar set/26",
+      "row": "Núcleo (ex-energia, alimentos, álcool e tabaco) XEF000",
+      "value": 2.81,
+      "variant": "nucleo saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "3msaar fev/26",
+      "row": "Núcleo (ex-energia, alimentos, álcool e tabaco) XEF000",
+      "value": 2.48,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/t1_painel_agregados.csv",
+      "header": "Média m/m SA anualiz. mar/25-fev/26",
+      "row": "Núcleo (ex-energia, alimentos, álcool e tabaco) XEF000",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/t6_efeito_implicito_choque_2026.csv",
+      "header": "Efeito no 3msaar (p.p.)",
+      "row": "Núcleo (ex-energia, alimentos, álcool e tabaco) 1998-2025 2026-09",
+      "value": 1.13,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a2-c05-claude-sonnet-high-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Energia NRG reconstruído (índice 2025 x YoY publicado)",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/dados_hicp_mensal_completo.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Energia NRG reconstruído (índice 2025 x YoY publicado)",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_ultimo_dado.csv",
+      "header": "YoY 2026-09 (%)",
+      "row": "Energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "indice_nsa",
+      "row": "2026-09 Energia NRG reconstruído (índice 2025 x YoY publicado)",
+      "value": 171.6559,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "indice_sa_proprio",
+      "row": "2026-09 Energia NRG reconstruído (índice 2025 x YoY publicado)",
+      "value": 171.6559,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "mm_sa_pct",
+      "row": "2026-09 Energia NRG reconstruído (índice 2025 x YoY publicado)",
+      "value": 3.9525,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Núcleo (ex. energia, alimentos, álcool e tabaco) TOT_X_NRG_FOOD reconstruído (índice 2025 x ",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/dados_hicp_mensal_completo.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Núcleo (ex. energia, alimentos, álcool e tabaco) TOT_X_NRG_FOOD reconstruído (índice 2025 x ",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_ultimo_dado.csv",
+      "header": "YoY 2026-09 (%)",
+      "row": "Núcleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "indice_nsa",
+      "row": "2026-09 Núcleo (ex. energia, alimentos, álcool e tabaco) TOT_X_NRG_FOOD reconstruído (índice 2025 x ",
+      "value": 126.075,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "indice_sa_proprio",
+      "row": "2026-09 Núcleo (ex. energia, alimentos, álcool e tabaco) TOT_X_NRG_FOOD reconstruído (índice 2025 x ",
+      "value": 125.2288,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "mm_sa_pct",
+      "row": "2026-09 Núcleo (ex. energia, alimentos, álcool e tabaco) TOT_X_NRG_FOOD reconstruído (índice 2025 x ",
+      "value": 0.2318,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "2026-09 Energia NRG reconstruído (índice 2025 x YoY publicado)",
+      "value": 45.8643,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/dados_hicp_mensal_completo.csv",
+      "header": "m3saar_pct",
+      "row": "2026-09 Energia NRG reconstruído (índice 2025 x YoY publicado)",
+      "value": 45.8643,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_ultimo_dado.csv",
+      "header": "3msaar 2026-09 (%)",
+      "row": "Energia",
+      "value": 45.86,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tab08_ritmo_antes_depois_choque.csv",
+      "header": "anualizado 2026-02→2026-09 (%)",
+      "row": "Energia (sem AS)",
+      "value": 31.51,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/hicp_ea_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "2026-09 Núcleo (ex. energia, alimentos, álcool e tabaco) TOT_X_NRG_FOOD reconstruído (índice 2025 x ",
+      "value": 2.7384,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/dados_hicp_mensal_completo.csv",
+      "header": "m3saar_pct",
+      "row": "2026-09 Núcleo (ex. energia, alimentos, álcool e tabaco) TOT_X_NRG_FOOD reconstruído (índice 2025 x ",
+      "value": 2.7384,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_ultimo_dado.csv",
+      "header": "3msaar 2026-09 (%)",
+      "row": "Núcleo",
+      "value": 2.74,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tab08_ritmo_antes_depois_choque.csv",
+      "header": "anualizado 2026-02→2026-09 (%)",
+      "row": "Núcleo",
+      "value": 2.47,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "attempt": "a2-c05-codex-astra-high-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "yoy_nsa_pct",
+      "row": "2026-09 NRGY00 Energia HICP.M.U2.N.NRGY00.4D0.ANR HICP.M.U2.Y.NRGY00.4F0.INX",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "YoY set/26",
+      "row": "Energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "verificacao_pacote/dados/indicadores.csv",
+      "header": "yoy_nsa_pct",
+      "row": "2026-09 NRGY00 Energia HICP.M.U2.N.NRGY00.4D0.ANR HICP.M.U2.Y.NRGY00.4F0.INX",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/catalogo_series.csv",
+      "header": "observacoes_validas",
+      "row": "HICP.M.U2.N.NRGY00.4D0.ANR 1997-01 2026-09 PCCH HICP Inflation rate - Energy - Annual rate of change",
+      "value": 357.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "YoY ago/26",
+      "row": "Energia",
+      "value": 14.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "verificacao_pacote/dados/catalogo_series.csv",
+      "header": "observacoes_validas",
+      "row": "HICP.M.U2.N.NRGY00.4D0.ANR 1997-01 2026-09 PCCH HICP Inflation rate - Energy - Annual rate of change",
+      "value": 357.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "yoy_nsa_pct",
+      "row": "2026-09 XEF000 Núcleo HICP.M.U2.N.XEF000.4D0.ANR HICP.M.U2.Y.XEF000.4F0.INX",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "YoY ago/26",
+      "row": "Núcleo",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "YoY set/26",
+      "row": "Núcleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/catalogo_series.csv",
+      "header": "observacoes_validas",
+      "row": "HICP.M.U2.N.XEF000.4D0.ANR 1997-01 2026-09 PCCH HICP Inflation rate - Total excluding energy, food, ",
+      "value": 357.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores.csv",
+      "header": "yoy_nsa_pct",
+      "row": "2026-09 IGXE00 Bens industriais sem energia HICP.M.U2.N.IGXE00.4D0.ANR HICP.M.U2.Y.IGXE00.4F0.INX",
+      "value": 1.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "YoY ago/26",
+      "row": "Bens industriais sem energia",
+      "value": 1.2,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar_sa_pct",
+      "row": "2026-09 NRGY00 Energia HICP.M.U2.N.NRGY00.4D0.ANR HICP.M.U2.Y.NRGY00.4F0.INX",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "3msaar set/26",
+      "row": "Energia",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": false
+     },
+     {
+      "file": "verificacao_pacote/dados/indicadores.csv",
+      "header": "3msaar_sa_pct",
+      "row": "2026-09 NRGY00 Energia HICP.M.U2.N.NRGY00.4D0.ANR HICP.M.U2.Y.NRGY00.4F0.INX",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "3msaar ago/26",
+      "row": "Energia",
+      "value": 15.71,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "verificacao_pacote/entrega/tabelas/01_ultimo_dado.csv",
+      "header": "3msaar ago/26",
+      "row": "Energia",
+      "value": 15.71,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar_sa_pct",
+      "row": "2026-09 XEF000 Núcleo HICP.M.U2.N.XEF000.4D0.ANR HICP.M.U2.Y.XEF000.4F0.INX",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "3msaar set/26",
+      "row": "Núcleo",
+      "value": 2.81,
+      "variant": "nucleo saar3_sa",
+      "period_stated": false
+     },
+     {
+      "file": "verificacao_pacote/dados/indicadores.csv",
+      "header": "3msaar_sa_pct",
+      "row": "2026-09 XEF000 Núcleo HICP.M.U2.N.XEF000.4D0.ANR HICP.M.U2.Y.XEF000.4F0.INX",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar_sa_pct",
+      "row": "2026-09 IGXE00 Bens industriais sem energia HICP.M.U2.N.IGXE00.4D0.ANR HICP.M.U2.Y.IGXE00.4F0.INX",
+      "value": 2.2828,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "3msaar ago/26",
+      "row": "Núcleo",
+      "value": 2.41,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "3msaar ago/26",
+      "row": "Bens industriais sem energia",
+      "value": 2.08,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "attempt": "a2-c05-codex-luna-high-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/energia_yoy_eurostat.csv",
+      "header": "energia_yoy_oficial_pct",
+      "row": "2026-09-01",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/resumo_ultima_observacao.csv",
+      "header": "YoY (%)",
+      "row": "Energia (YoY Eurostat; índice não SA)",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/resumo_ultima_observacao.csv",
+      "header": "Índice (2025=100; ajuste indicado)",
+      "row": "Energia (YoY Eurostat; índice não SA)",
+      "value": 117.59,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultima_observacao.csv",
+      "header": "YoY (%)",
+      "row": "Núcleo ECB SA (exclui energia, alimentos, álcool e tabaco)",
+      "value": 2.5082,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_setembro_2026.csv",
+      "header": "YoY oficial Eurostat (%)",
+      "row": "Núcleo: ex energia, alimentos, álcool e tabaco ECB SA/X-13",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_setembro_2026.csv",
+      "header": "YoY do índice SA ECB (%)",
+      "row": "Núcleo: ex energia, alimentos, álcool e tabaco ECB SA/X-13",
+      "value": 2.5082,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/tabela_setembro_2026.csv",
+      "header": "Peso 2026 (‰)",
+      "row": "Energia Eurostat não SA; sem 3msaar",
+      "value": 90.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_setembro_2026.csv",
+      "header": "YoY oficial Eurostat (%)",
+      "row": "Energia Eurostat não SA; sem 3msaar",
+      "value": 18.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultima_observacao.csv",
+      "header": "3msaar SA (%)",
+      "row": "Núcleo ECB SA (exclui energia, alimentos, álcool e tabaco)",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_setembro_2026.csv",
+      "header": "3msaar do índice SA ECB (%)",
+      "row": "Núcleo: ex energia, alimentos, álcool e tabaco ECB SA/X-13",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6.1-sol",
+  "attempt": "a2-c05-codex-sol-high-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tratados/indicadores_mensais.csv",
+      "header": "yoy_nsa_pct",
+      "row": "2026-09 NRGY00 Energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "YoY NSA (%)",
+      "row": "Energia 2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/02_dinamica_nucleo.csv",
+      "header": "YoY set/26 (%)",
+      "row": "Energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/02_dinamica_nucleo.csv",
+      "header": "YoY fev/26 (%)",
+      "row": "Energia",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/06_impostos_constantes.csv",
+      "header": "YoY impostos constantes (%)",
+      "row": "Energia",
+      "value": 19.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tratados/indicadores_mensais.csv",
+      "header": "yoy_nsa_pct",
+      "row": "2026-09 XEF000 Núcleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "YoY NSA (%)",
+      "row": "Núcleo 2026-09",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/02_dinamica_nucleo.csv",
+      "header": "YoY fev/26 (%)",
+      "row": "Núcleo",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tratados/indicadores_mensais.csv",
+      "header": "3msaar_sa_pct",
+      "row": "2026-09 NRGY00 Energia",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Energia 2026-09",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/02_dinamica_nucleo.csv",
+      "header": "3msaar set/26 (%)",
+      "row": "Energia",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/02_dinamica_nucleo.csv",
+      "header": "3msaar fev/26 (%)",
+      "row": "Energia",
+      "value": 2.1449,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tratados/indicadores_mensais.csv",
+      "header": "3msaar_sa_pct",
+      "row": "2026-09 XEF000 Núcleo",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/01_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Núcleo 2026-09",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/02_dinamica_nucleo.csv",
+      "header": "3msaar set/26 (%)",
+      "row": "Núcleo",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/02_dinamica_nucleo.csv",
+      "header": "3msaar fev/26 (%)",
+      "row": "Núcleo",
+      "value": 2.4821,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a2-c05-kimi-pro-high-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "yoy_latest",
+      "row": "Energia 2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series_mensais_hicp.csv",
+      "header": "energy_yoy",
+      "row": "2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "yoy_q4_2025_average",
+      "row": "Energia 2026-09",
+      "value": -1.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "yoy_q4_2025_average",
+      "row": "HICP exceto energia 2026-09",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "yoy_q4_2025_average",
+      "row": "Núcleo (exceto energia e alimentos) 2026-09",
+      "value": 2.3667,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "yoy_latest",
+      "row": "Núcleo (exceto energia e alimentos) 2026-09",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "yoy_latest",
+      "row": "HICP exceto energia 2026-09",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "saar_latest",
+      "row": "Energia 2026-09",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series_mensais_hicp.csv",
+      "header": "energy_saar",
+      "row": "2026-09",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "saar_dec_2025",
+      "row": "Energia 2026-09",
+      "value": -0.283,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "saar_latest",
+      "row": "HICP exceto energia 2026-09",
+      "value": 2.6503,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "saar_latest",
+      "row": "Núcleo (exceto energia e alimentos) 2026-09",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series_mensais_hicp.csv",
+      "header": "core_saar",
+      "row": "2026-09",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "saar_dec_2025",
+      "row": "HICP exceto energia 2026-09",
+      "value": 1.9238,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/resumo_indicadores.csv",
+      "header": "saar_dec_2025",
+      "row": "Núcleo (exceto energia e alimentos) 2026-09",
+      "value": 2.1268,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "attempt": "a3-c05-claude-haiku-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/hicp_zona_euro_eurostat_2026.csv",
+      "header": "energia_yoy",
+      "row": "2026-09 final 2026-10-16 https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-16102026-ap",
+      "value": 18.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/hicp_zona_euro_eurostat_2026.csv",
+      "header": "nucleo_yoy",
+      "row": "2026-09 final 2026-10-16 https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-16102026-ap",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "sa_rule",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [],
+    "note": "no saved series"
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "attempt": "a3-c05-claude-opus-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_NRGY00",
+      "row": "2026-10",
+      "value": 20.7721,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY (%)",
+      "row": "Energia NRGY00 2026-10 E",
+      "value": 20.77,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "contrib_yoy_pp_NRGY00",
+      "row": "2026-10",
+      "value": 1.8749,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_passthrough.csv",
+      "header": "Soma coef. energia 0-12m",
+      "row": "Núcleo (ex-energia, alimentos, álcool, tabaco) 2001-01 a 2026-10",
+      "value": 0.0385,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_passthrough.csv",
+      "header": "Soma coef. energia 0-12m",
+      "row": "Bens industriais não energéticos 2001-01 a 2026-10",
+      "value": 0.0996,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_XEF000",
+      "row": "2026-10",
+      "value": 2.5428,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY (%)",
+      "row": "Núcleo (ex-energia, alimentos, álcool, tabaco) XEF000 2026-10 E",
+      "value": 2.54,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY 12m antes",
+      "row": "Núcleo (ex-energia, alimentos, álcool, tabaco) XEF000 2026-10 E",
+      "value": 2.39,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "3msaar_NRGY00",
+      "row": "2026-10",
+      "value": 38.5482,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3msaar (%)",
+      "row": "Energia NRGY00 2026-10 E",
+      "value": 38.55,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY 3m antes",
+      "row": "Energia NRGY00 2026-10 E",
+      "value": 10.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3msaar 3m antes",
+      "row": "Energia NRGY00 2026-10 E",
+      "value": -1.69,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "3msaar_XEF000",
+      "row": "2026-10",
+      "value": 2.6786,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY 3m antes",
+      "row": "Núcleo (ex-energia, alimentos, álcool, tabaco) XEF000 2026-10 E",
+      "value": 2.48,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3msaar (%)",
+      "row": "Núcleo (ex-energia, alimentos, álcool, tabaco) XEF000 2026-10 E",
+      "value": 2.68,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6-luna",
+  "attempt": "a3-c05-codex-luna-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_hicp_mensais.csv",
+      "header": "NRG_yoy_pct",
+      "row": "2026-10",
+      "value": 20.77,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "YoY_%",
+      "row": "Energia",
+      "value": 20.77,
+      "variant": "energia yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_hicp_mensais.csv",
+      "header": "TOT_X_NRG_FOOD_yoy_pct",
+      "row": "2026-10",
+      "value": 2.5529,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "YoY_%",
+      "row": "Núcleo (excl. energia, alimentos, álcool e tabaco)",
+      "value": 2.553,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/dados_hicp_mensais.csv",
+      "header": "NRG_3msaar_pct",
+      "row": "2026-10",
+      "value": 8.4294,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar_%_SA_proprio",
+      "row": "Energia",
+      "value": 8.429,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_hicp_mensais.csv",
+      "header": "TOT_X_NRG_FOOD_3msaar_pct",
+      "row": "2026-10",
+      "value": 2.4842,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar_%_SA_proprio",
+      "row": "Núcleo (excl. energia, alimentos, álcool e tabaco)",
+      "value": 2.484,
+      "variant": "nucleo saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "attempt": "a3-c05-codex-sol-low-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/dados_calculos.csv",
+      "header": "yoy_calculado",
+      "row": "2026-10-01 e NRG Energia",
+      "value": 20.7721,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/dados_calculos.csv",
+      "header": "yoy_oficial",
+      "row": "2026-10-01 e NRG Energia",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "2026-10-01 e NRG Energia",
+      "value": 20.7721,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/dados_calculos.csv",
+      "header": "yoy_calculado",
+      "row": "2026-10-01 e TOT_X_NRG_FOOD Núcleo",
+      "value": 2.5428,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/dados_calculos.csv",
+      "header": "yoy_oficial",
+      "row": "2026-10-01 e TOT_X_NRG_FOOD Núcleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "2026-10-01 e TOT_X_NRG_FOOD Núcleo",
+      "value": 2.5428,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/dados_calculos.csv",
+      "header": "3msaar",
+      "row": "2026-10-01 e NRG Energia",
+      "value": 25.3092,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/dados_calculos.csv",
+      "header": "3msaar_stl25",
+      "row": "2026-10-01 e NRG Energia",
+      "value": 27.6817,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-10-01 e NRG Energia",
+      "value": 25.3092,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/dados_calculos.csv",
+      "header": "3msaar",
+      "row": "2026-10-01 e TOT_X_NRG_FOOD Núcleo",
+      "value": 2.8568,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/dados_calculos.csv",
+      "header": "3msaar_stl25",
+      "row": "2026-10-01 e TOT_X_NRG_FOOD Núcleo",
+      "value": 2.9809,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-10-01 e TOT_X_NRG_FOOD Núcleo",
+      "value": 2.8568,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "attempt": "a3-c05-codex-astra-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "2026-10-01 E A NRGY00 Energia",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_calculado",
+      "row": "2026-10-01 E A NRGY00 Energia",
+      "value": 20.7721,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy",
+      "row": "Energia 2026-10-01 E A",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "2026-10-01 E A XEF000 Núcleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_calculado",
+      "row": "2026-10-01 E A XEF000 Núcleo",
+      "value": 2.5428,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy",
+      "row": "Núcleo 2026-10-01 E A",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "3msaar",
+      "row": "2026-10-01 E A NRGY00 Energia",
+      "value": 38.5482,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "Energia 2026-10-01 E A",
+      "value": 38.5482,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "3msaar",
+      "row": "2026-10-01 E A XEF000 Núcleo",
+      "value": 2.6786,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "Núcleo 2026-10-01 E A",
+      "value": 2.6786,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "attempt": "a3-c05-grok-low-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_NRGY00",
+      "row": "2026-10",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/painel_mensal.csv",
+      "header": "yoy_NRGY00",
+      "row": "2026-10 E E E E E E E",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy",
+      "row": "NRGY00 Energia 2026-10 E True",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_XEF000",
+      "row": "2026-10",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/painel_mensal.csv",
+      "header": "yoy_XEF000",
+      "row": "2026-10 E E E E E E E",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy",
+      "row": "XEF000 Núcleo (ex-energia, alimentos, álcool e tabaco) 2026-10 E True",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy",
+      "row": "XE0000 Total ex-energia 2026-10 E True",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "msaar3_NRGY00",
+      "row": "2026-10",
+      "value": 38.5482,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/painel_mensal.csv",
+      "header": "msaar3_NRGY00",
+      "row": "2026-10 E E E E E E E",
+      "value": 38.5482,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar3",
+      "row": "NRGY00 Energia 2026-10 E True",
+      "value": 38.55,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "msaar3_XEF000",
+      "row": "2026-10",
+      "value": 2.6786,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/painel_mensal.csv",
+      "header": "msaar3_XEF000",
+      "row": "2026-10 E E E E E E E",
+      "value": 2.6786,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar3",
+      "row": "XEF000 Núcleo (ex-energia, alimentos, álcool e tabaco) 2026-10 E True",
+      "value": 2.68,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a3-c05-kimi-pro-low-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/contribuicoes_yoy.csv",
+      "header": "yoy_pct",
+      "row": "Energia",
+      "value": 20.7721,
+      "variant": "energia yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "NRG_yoy",
+      "row": "2026-10-01",
+      "value": 20.7721,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/ultimos_indicadores.csv",
+      "header": "YoY_%_NSA",
+      "row": "Energia 2026-10",
+      "value": 20.7721,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/contribuicoes_yoy.csv",
+      "header": "yoy_pct",
+      "row": "Núcleo",
+      "value": 2.5428,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "TOT_X_NRG_FOOD_yoy",
+      "row": "2026-10-01",
+      "value": 2.5428,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/ultimos_indicadores.csv",
+      "header": "YoY_%_NSA",
+      "row": "Núcleo 2026-10",
+      "value": 2.5428,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "NRG_3msaar",
+      "row": "2026-10-01",
+      "value": 31.8624,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/ultimos_indicadores.csv",
+      "header": "3msaar_%_SA",
+      "row": "Energia 2026-10",
+      "value": 31.8624,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "TOT_X_NRG_FOOD_3msaar",
+      "row": "2026-10-01",
+      "value": -0.147,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/ultimos_indicadores.csv",
+      "header": "3msaar_%_SA",
+      "row": "Núcleo 2026-10",
+      "value": -0.147,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a3-c05-claude-sonnet-low-normal-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY (%)",
+      "row": "Energia",
+      "value": -1.93,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY 12m antes",
+      "row": "Energia",
+      "value": 0.14,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY (%)",
+      "row": "Núcleo (ex energia e alimentos)",
+      "value": 2.29,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY 12m antes",
+      "row": "Núcleo (ex energia e alimentos)",
+      "value": 2.71,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "3msaar (%)",
+      "row": "Energia",
+      "value": -3.88,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "3msaar (%)",
+      "row": "Núcleo (ex energia e alimentos)",
+      "value": 1.98,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "attempt": "a3-c05-claude-fable-primary",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "NRGY00_YoY_oficial",
+      "row": "2026-10",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_taxas.csv",
+      "header": "YoY_pct",
+      "row": "NRGY00 Energia 2026-10 série 'SA' BCE = NSA (sem ajuste)",
+      "value": 20.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_taxas.csv",
+      "header": "YoY_12m_antes_pct",
+      "row": "NRGY00 Energia 2026-10 série 'SA' BCE = NSA (sem ajuste)",
+      "value": -0.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "XEF000_YoY_oficial",
+      "row": "2026-10",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_taxas.csv",
+      "header": "YoY_pct",
+      "row": "XEF000 Núcleo (exc. energia e alimentos) 2026-10 SA BCE (4F0)",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_taxas.csv",
+      "header": "YoY_12m_antes_pct",
+      "row": "XEF000 Núcleo (exc. energia e alimentos) 2026-10 SA BCE (4F0)",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "XEF000_contrib_energia_YoY_pp_DL(1999-2019)",
+      "row": "2026-10",
+      "value": -0.0523,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "XEF000_contrib_energia_YoY_pp_DL(1999-2026)",
+      "row": "2026-10",
+      "value": 0.3438,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "NRGY00_3msaar",
+      "row": "2026-10",
+      "value": 38.5482,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_taxas.csv",
+      "header": "3msaar_pct",
+      "row": "NRGY00 Energia 2026-10 série 'SA' BCE = NSA (sem ajuste)",
+      "value": 38.55,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_taxas.csv",
+      "header": "YoY_3m_antes_pct",
+      "row": "NRGY00 Energia 2026-10 série 'SA' BCE = NSA (sem ajuste)",
+      "value": 10.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "XEF000_3msaar",
+      "row": "2026-10",
+      "value": 2.6786,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_taxas.csv",
+      "header": "YoY_3m_antes_pct",
+      "row": "XEF000 Núcleo (exc. energia e alimentos) 2026-10 SA BCE (4F0)",
+      "value": 2.5,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_taxas.csv",
+      "header": "3msaar_pct",
+      "row": "XEF000 Núcleo (exc. energia e alimentos) 2026-10 SA BCE (4F0)",
+      "value": 2.68,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-fable-5-1",
+  "attempt": "a4-result-6b5b70dc2477f5438533b308",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY oficial (%)",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela4_historico_yoy_3msaar.csv",
+      "header": "Energia — YoY",
+      "row": "2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY mês anterior",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 14.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 8.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 12 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": -0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY oficial (%)",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY mês anterior",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/simulacao_trajetoria_energia_2026.csv",
+      "header": "Núcleo (ex energia, alimentos, álcool e tabaco) | 08/2011–12/2019 yoy_implicito_pp",
+      "row": "2026-09",
+      "value": 0.0735,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/simulacao_trajetoria_energia_2026.csv",
+      "header": "Núcleo (ex energia, alimentos, álcool e tabaco) | 08/2011–09/2026 yoy_implicito_pp",
+      "row": "2026-09",
+      "value": 0.4426,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/simulacao_trajetoria_energia_2026.csv",
+      "header": "Núcleo (ex energia, alimentos, álcool e tabaco) | 08/2011–12/2019 yoy_implicito_pp",
+      "row": "2026-10",
+      "value": 0.0549,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar (%)",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 45.8,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela4_historico_yoy_3msaar.csv",
+      "header": "Energia — 3msaar",
+      "row": "2026-09",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 8.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar mês anterior",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 15.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": -0.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.4,
+      "variant": "2026-10 nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar (%)",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.8,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar mês anterior",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-09",
+      "value": 2.4,
+      "variant": "2026-10 nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-09",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar mês anterior",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-09",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar 3 meses antes",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-09",
+      "value": 2.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-fable-5-1",
+  "attempt": "a4-result-7c66f4ff1818e1f0428d3cb7",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY oficial (%)",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-10 flash (E)",
+      "value": 20.8,
+      "variant": "2026-10 energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY mês anterior",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-10 flash (E)",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela4_historico_yoy_3msaar.csv",
+      "header": "Energia — YoY",
+      "row": "2026-09 A",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-10 flash (E)",
+      "value": 10.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 12 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-10 flash (E)",
+      "value": -0.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/v1_2026-10-29/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY mês anterior",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 14.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY oficial (%)",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY mês anterior",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY oficial (%)",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY mês anterior",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar (%)",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-10 flash (E)",
+      "value": 38.5,
+      "variant": "2026-10 energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar mês anterior",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-10 flash (E)",
+      "value": 45.8,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela4_historico_yoy_3msaar.csv",
+      "header": "Energia — 3msaar",
+      "row": "2026-09 A",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-10 flash (E)",
+      "value": 10.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-10 flash (E)",
+      "value": -1.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/v1_2026-10-29/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Energia NRGY00 nenhum (BCE não ajusta energia) 2026-09",
+      "value": 8.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.5,
+      "variant": "2026-10 nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar (%)",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.7,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar mês anterior",
+      "row": "Núcleo (ex energia, alimentos, álcool e tabaco) XEF000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.8,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-10 flash (E)",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela1_ultimos_dados.csv",
+      "header": "3msaar 3 meses antes",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-10 flash (E)",
+      "value": 1.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/v1_2026-10-29/tabelas/tabela1_ultimos_dados.csv",
+      "header": "YoY 3 meses antes",
+      "row": "Total ex energia XE0000 BCE (série Y) 2026-09",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-haiku-5-5",
+  "attempt": "a4-result-cfb2e05659cf638e4a6664af",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_inflacao_ea_serie.csv",
+      "header": "YoY_NSA Energia",
+      "row": "2026-09-01",
+      "value": 18.933,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_ultimo_dado.csv",
+      "header": "YoY (%)",
+      "row": "Energia 09/2026 2026-11-08T18:30:09.037604+00:00",
+      "value": 18.93,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/vintage_29-10-2026/tabela_resumo_ultimo_dado.csv",
+      "header": "YoY (%)",
+      "row": "Energia",
+      "value": -1.93,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_inflacao_ea_serie.csv",
+      "header": "YoY_NSA Núcleo",
+      "row": "2026-09-01",
+      "value": 2.512,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_ultimo_dado.csv",
+      "header": "YoY (%)",
+      "row": "Núcleo 09/2026 2026-11-08T18:30:09.037604+00:00",
+      "value": 2.51,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/vintage_29-10-2026/tabela_resumo_ultimo_dado.csv",
+      "header": "YoY (%)",
+      "row": "Núcleo",
+      "value": 2.32,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_inflacao_ea_serie.csv",
+      "header": "3msaar_SA Energia",
+      "row": "2026-09-01",
+      "value": 7.899,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Energia 09/2026 2026-11-08T18:30:09.037604+00:00",
+      "value": 7.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/vintage_29-10-2026/tabela_resumo_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Energia",
+      "value": -2.64,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_inflacao_ea_serie.csv",
+      "header": "3msaar_SA Núcleo",
+      "row": "2026-09-01",
+      "value": 2.339,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Núcleo 09/2026 2026-11-08T18:30:09.037604+00:00",
+      "value": 2.34,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/vintage_29-10-2026/tabela_resumo_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Núcleo",
+      "value": 2.36,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-haiku-5-5",
+  "attempt": "a4-result-b697cc974427c5ac46632a6d",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/oficial_eurostat_2026.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Energia divulgado idem",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/oficial_eurostat_2026.csv",
+      "header": "yoy_pct",
+      "row": "2026-10 Energia flash_estimativa idem",
+      "value": 20.8,
+      "variant": "2026-10 energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_02_oficial_jul_out2026.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Energia divulgado idem 2026-09-01",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/coleta_20261108/pesos_ea.csv",
+      "header": "ano",
+      "row": "NRG",
+      "value": 1996.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/coleta_20261108/pesos_ea.csv",
+      "header": "ano",
+      "row": "NRG",
+      "value": 1997.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/coleta_20261108/pesos_ea.csv",
+      "header": "ano",
+      "row": "NRG",
+      "value": 1998.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/oficial_eurostat_2026.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Nucleo divulgado idem",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/oficial_eurostat_2026.csv",
+      "header": "yoy_pct",
+      "row": "2026-10 Nucleo flash_estimativa idem",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_02_oficial_jul_out2026.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Nucleo divulgado idem 2026-09-01",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/coleta_20261108/pesos_ea.csv",
+      "header": "ano",
+      "row": "TOT_X_NRG_FOOD",
+      "value": 2001.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/coleta_20261108/pesos_ea.csv",
+      "header": "ano",
+      "row": "TOT_X_NRG_FOOD",
+      "value": 2002.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/coleta_20261108/pesos_ea.csv",
+      "header": "ano",
+      "row": "TOT_X_NRG_FOOD",
+      "value": 2003.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tab_01_ultimo_dado_api_dez2025.csv",
+      "header": "3msaar SA próprio (%)",
+      "row": "Energia",
+      "value": -2.64,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tab_03_3msaar_aprox_out2026.csv",
+      "header": "3msaar aprox. out/2026 (%)",
+      "row": "Energia",
+      "value": 36.21,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/v1_inicial/tabela_resumo_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Energia",
+      "value": -2.64,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tab_01_ultimo_dado_api_dez2025.csv",
+      "header": "3msaar SA próprio (%)",
+      "row": "Núcleo",
+      "value": 2.36,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tab_03_3msaar_aprox_out2026.csv",
+      "header": "3msaar aprox. out/2026 (%)",
+      "row": "Núcleo",
+      "value": 1.62,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/v1_inicial/tabela_resumo_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Núcleo",
+      "value": 2.36,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-opus-5-5",
+  "attempt": "a4-result-e745d681ad7a32da44f41105",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy NRG",
+      "row": "2026-09",
+      "value": 18.9331,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY 2026-09",
+      "row": "Energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy TOT_X_NRG_FOOD",
+      "row": "2026-09",
+      "value": 2.5124,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY 2026-09",
+      "row": "Núcleo (ex-energia, alim., álcool, tabaco)",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar NRG",
+      "row": "2026-09",
+      "value": 18.5341,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3mSAAR 2026-09",
+      "row": "Energia",
+      "value": 18.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar TOT_X_NRG_FOOD",
+      "row": "2026-09",
+      "value": 3.0533,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3mSAAR 2026-09",
+      "row": "Núcleo (ex-energia, alim., álcool, tabaco)",
+      "value": 3.1,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-opus-5-5",
+  "attempt": "a4-result-509b98525b3c9be4a3b3a0ff",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy NRG",
+      "row": "2026-09",
+      "value": 18.9331,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/v2/series_calculadas.csv",
+      "header": "yoy NRG",
+      "row": "2026-09",
+      "value": 18.9331,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/v2/series_calculadas.csv",
+      "header": "yoy NRG",
+      "row": "2026-10",
+      "value": 20.7727,
+      "variant": "2026-10 energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy TOT_X_NRG_FOOD",
+      "row": "2026-09",
+      "value": 2.5124,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/v2/series_calculadas.csv",
+      "header": "yoy TOT_X_NRG_FOOD",
+      "row": "2026-09",
+      "value": 2.5124,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/v2/series_calculadas.csv",
+      "header": "yoy TOT_X_NRG_FOOD",
+      "row": "2026-10",
+      "value": 2.5563,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar NRG",
+      "row": "2026-09",
+      "value": 18.5341,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/v2/series_calculadas.csv",
+      "header": "3msaar NRG",
+      "row": "2026-09",
+      "value": 33.1915,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/v2/series_calculadas.csv",
+      "header": "3msaar NRG",
+      "row": "2026-10",
+      "value": 25.4776,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar TOT_X_NRG_FOOD",
+      "row": "2026-09",
+      "value": 3.0533,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/v2/series_calculadas.csv",
+      "header": "3msaar TOT_X_NRG_FOOD",
+      "row": "2026-09",
+      "value": 3.0659,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/v2/series_calculadas.csv",
+      "header": "3msaar TOT_X_NRG_FOOD",
+      "row": "2026-10",
+      "value": 2.8867,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a4-result-6bb2c59497b4e8ed051148c0",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY oficial NSA (%)",
+      "row": "Energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY 3 meses antes (jun/26)",
+      "row": "Energia",
+      "value": 8.5,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY fev/26 (pré-choque)",
+      "row": "Energia",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY oficial NSA (%)",
+      "row": "Núcleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY 3 meses antes (jun/26)",
+      "row": "Núcleo",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY fev/26 (pré-choque)",
+      "row": "Núcleo",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t2_series_mensais.csv",
+      "header": "yoy_oficial",
+      "row": "item XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Energia",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY 3 meses antes (jun/26)",
+      "row": "Energia",
+      "value": 8.5,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "sa_rule",
+    "correct": false,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Núcleo",
+      "value": 2.81,
+      "variant": "nucleo saar3_sa",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY 3 meses antes (jun/26)",
+      "row": "Núcleo",
+      "value": 2.4,
+      "variant": "2026-10 nucleo saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t2_series_mensais.csv",
+      "header": "3msaar_sa",
+      "row": "item XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ],
+    "note": "no saved series"
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a4-result-eee9d15ebd9a51fd39f3bb84",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY oficial NSA (%)",
+      "row": "Energia",
+      "value": 20.8,
+      "variant": "2026-10 energia yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY fev/26 (pré-choque)",
+      "row": "Energia",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY oficial NSA (%)",
+      "row": "Núcleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "YoY fev/26 (pré-choque)",
+      "row": "Núcleo",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t2_series_mensais.csv",
+      "header": "yoy_oficial",
+      "row": "item XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Energia",
+      "value": 38.55,
+      "variant": "2026-10 energia saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "sa_rule",
+    "correct": false,
+    "evidence": [
+     {
+      "file": "entrega/t1_ultimo_dado.csv",
+      "header": "3msaar SA (%)",
+      "row": "Núcleo",
+      "value": 2.68,
+      "variant": "nucleo saar3_sa",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/t2_series_mensais.csv",
+      "header": "3msaar_sa",
+      "row": "item XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE00 SERV00 XEF000 NRGY00 FOOD00 IGXE",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ],
+    "note": "no saved series"
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6-astra",
+  "attempt": "a4-result-39b30b7ad00260e2ceac3891",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy",
+      "row": "2026-09-01 energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas_original.csv",
+      "header": "yoy",
+      "row": "2026-09-01 energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "yoy",
+      "row": "energia 2026-09-01",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy",
+      "row": "2026-09-01 nucleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas_original.csv",
+      "header": "yoy",
+      "row": "2026-09-01 nucleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "yoy",
+      "row": "nucleo 2026-09-01",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "2026-09-01 energia",
+      "value": 38.7362,
+      "variant": "2026-10 energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas_original.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "2026-09-01 energia",
+      "value": 38.7362,
+      "variant": "2026-10 energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "energia 2026-09-01",
+      "value": 38.7362,
+      "variant": "2026-10 energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-09-01 energia",
+      "value": 31.57,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar_amostra_2017",
+      "row": "2026-09-01 energia",
+      "value": 29.5409,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas_original.csv",
+      "header": "3msaar",
+      "row": "2026-09-01 energia",
+      "value": 31.57,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-09-01 nucleo",
+      "value": 3.0283,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "2026-09-01 nucleo",
+      "value": 3.2392,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar_amostra_2017",
+      "row": "2026-09-01 nucleo",
+      "value": 2.94,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6-astra",
+  "attempt": "a4-result-de5f4eea16977c487d77ae80",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy",
+      "row": "2026-09-01 energia",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "yoy",
+      "row": "energia 2026-09-01",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/tabela_ultima.csv",
+      "header": "yoy",
+      "row": "energia 2026-09-01",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy",
+      "row": "2026-09-01 nucleo",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "yoy",
+      "row": "nucleo 2026-09-01",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/tabela_ultima.csv",
+      "header": "yoy",
+      "row": "nucleo 2026-09-01",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "2026-09-01 energia",
+      "value": 38.7362,
+      "variant": "2026-10 energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "energia 2026-09-01",
+      "value": 38.7362,
+      "variant": "2026-10 energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/tabela_ultima.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "energia 2026-09-01",
+      "value": 38.7362,
+      "variant": "2026-10 energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-09-01 energia",
+      "value": 31.57,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "3msaar",
+      "row": "energia 2026-09-01",
+      "value": 31.57,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/tabela_ultima.csv",
+      "header": "3msaar",
+      "row": "energia 2026-09-01",
+      "value": 31.57,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-09-01 nucleo",
+      "value": 3.0283,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar_sensibilidade",
+      "row": "2026-09-01 nucleo",
+      "value": 3.2392,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima.csv",
+      "header": "3msaar",
+      "row": "nucleo 2026-09-01",
+      "value": 3.0283,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6-luna",
+  "attempt": "a4-result-aee4bbd5548109778f84b691",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/hicp_eurozona_corrigido.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 NRG Energia 2026-09-01 ECOICOP v2",
+      "value": 18.9378,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "valor",
+      "row": "2026-09 NRG Energia % YoY oficial publicado",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/hicp_eurozona_corrigido.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 TOT_X_NRG_FOOD Núcleo amplo (ex energia e alimentos) 2026-09-01 ECOICOP v2",
+      "value": 2.5002,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "valor",
+      "row": "2026-09 TOT_X_NRG_FOOD Núcleo amplo (ex energia e alimentos) % YoY oficial publicado",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "sa_rule",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [],
+    "note": "residual seasonality"
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6-luna",
+  "attempt": "a4-result-46fd01f397b60131baccb867",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "valor_setembro_2026",
+      "row": "2026-09 Energia % YoY final Eurostat 2026-10-16",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "valor_setembro_2026",
+      "row": "2026-09 Energia_flash_02_out % YoY flash estimate Eurostat 2026-10-02",
+      "value": 18.8,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "peso_2026_permille",
+      "row": "2026-09 Energia % YoY final Eurostat 2026-10-16",
+      "value": 90.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "valor_agosto_2026",
+      "row": "2026-09 Energia % YoY final Eurostat 2026-10-16",
+      "value": 14.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "valor_agosto_2026",
+      "row": "2026-09 Núcleo ex energia alimentos álcool tabaco % YoY final Eurostat 2026-10-16",
+      "value": 2.4,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "valor_setembro_2026",
+      "row": "2026-09 Núcleo ex energia alimentos álcool tabaco % YoY final Eurostat 2026-10-16",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/indicadores_setembro_2026.csv",
+      "header": "peso_2026_permille",
+      "row": "2026-09 Núcleo ex energia alimentos álcool tabaco % YoY final Eurostat 2026-10-16",
+      "value": 720.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "sa_rule",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [],
+    "note": "residual seasonality"
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6.1-sol",
+  "attempt": "a4-result-275486da4d1108024916c2dd",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_calculado",
+      "row": "2026-09 Energia NRG",
+      "value": 18.9378,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_calculado",
+      "row": "2026-09 Núcleo TOT_X_NRG_FOOD",
+      "value": 2.5002,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar",
+      "row": "2026-09 Energia NRG",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-09 Energia",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar",
+      "row": "2026-09 Núcleo TOT_X_NRG_FOOD",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-09 Núcleo",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6.1-sol",
+  "attempt": "a4-result-bf854d39de4d32a2cc65347e",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_calculado",
+      "row": "2026-09 A Energia NRG",
+      "value": 18.9378,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_calculado",
+      "row": "2026-09 A Núcleo TOT_X_NRG_FOOD",
+      "value": 2.5002,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar",
+      "row": "2026-09 A Energia NRG",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-09 Energia A",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar",
+      "row": "2026-09 A Núcleo TOT_X_NRG_FOOD",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-09 Núcleo A",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "grok-4.7",
+  "attempt": "a4-result-eb05314b12841bb22789dbb7",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "energia_yoy",
+      "row": "2026-09-01",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "energia_yoy",
+      "row": "2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_oficial_pct",
+      "row": "Energia NRGY00 2026-09 BCE, dias úteis e sazonal",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "energia_ct_yoy",
+      "row": "2026-09-01",
+      "value": 19.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "energia_ct_yoy",
+      "row": "2026-09",
+      "value": 19.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "nucleo_yoy",
+      "row": "2026-09-01",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "nucleo_ct_yoy",
+      "row": "2026-09-01",
+      "value": 2.6,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "nucleo_yoy",
+      "row": "2026-09",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "ex_energia_yoy",
+      "row": "2026-09-01",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pesos_por_mil.csv",
+      "header": "",
+      "row": "ano ELGAS0 FOOD00 FUELL0 GOODS0 IGXE00 NRGY00 SERV00 TRANSP XE0000 XEF000",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_oficial_pct",
+      "row": "Excluindo energia XE0000 2026-09 BCE, dias úteis e sazonal",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "energia_3msaar",
+      "row": "2026-09-01",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "energia_3msaar",
+      "row": "2026-09",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar3_pct",
+      "row": "Energia NRGY00 2026-09 BCE, dias úteis e sazonal",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "nucleo_3msaar",
+      "row": "2026-09-01",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "nucleo_3msaar",
+      "row": "2026-09",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar3_pct",
+      "row": "Núcleo (exclui energia, alimentos, álcool e tabaco) XEF000 2026-09 BCE, dias úteis e sazonal",
+      "value": 2.81,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "grok-4.7",
+  "attempt": "a4-result-f4c678070ef0186dc7cd8012",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "energia_yoy",
+      "row": "2026-09-01",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "energia_yoy",
+      "row": "2026-09",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_oficial_pct",
+      "row": "Energia NRGY00 2026-09 BCE, dias úteis e sazonal",
+      "value": 18.9,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "energia_ct_yoy",
+      "row": "2026-09-01",
+      "value": 19.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "energia_ct_yoy",
+      "row": "2026-09",
+      "value": 19.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "nucleo_yoy",
+      "row": "2026-09-01",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "nucleo_ct_yoy",
+      "row": "2026-09-01",
+      "value": 2.6,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "nucleo_yoy",
+      "row": "2026-09",
+      "value": 2.5,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "ex_energia_yoy",
+      "row": "2026-09-01",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pesos_por_mil.csv",
+      "header": "",
+      "row": "ano ELGAS0 FOOD00 FUELL0 GOODS0 IGXE00 NRGY00 SERV00 TRANSP XE0000 XEF000",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_oficial_pct",
+      "row": "Excluindo energia XE0000 2026-09 BCE, dias úteis e sazonal",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "energia_3msaar",
+      "row": "2026-09-01",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "energia_3msaar",
+      "row": "2026-09",
+      "value": 45.8187,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar3_pct",
+      "row": "Energia NRGY00 2026-09 BCE, dias úteis e sazonal",
+      "value": 45.82,
+      "variant": "energia saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_mensal.csv",
+      "header": "nucleo_3msaar",
+      "row": "2026-09-01",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/marcos_selecionados.csv",
+      "header": "nucleo_3msaar",
+      "row": "2026-09",
+      "value": 2.8057,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar3_pct",
+      "row": "Núcleo (exclui energia, alimentos, álcool e tabaco) XEF000 2026-09 BCE, dias úteis e sazonal",
+      "value": 2.81,
+      "variant": "nucleo saar3_sa",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a4-result-9597616d68e8785495227dae",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/sucessora_corte_2026_09/hicp_indicadores.csv",
+      "header": "NRG_YoY",
+      "row": "2026-09-01",
+      "value": 18.9277,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/contribuicao_energia_total.csv",
+      "header": "energia_yoy_pct",
+      "row": "2026-09",
+      "value": 18.9277,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Energia",
+      "value": 18.9277,
+      "variant": "energia yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/comparacao_vintages.csv",
+      "header": "meses_yoy_comparados",
+      "row": "NRG Energia",
+      "value": 301.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/comparacao_vintages.csv",
+      "header": "max_diferenca_absoluta_yoy_pp",
+      "row": "NRG Energia",
+      "value": 0.025,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/comparacao_vintages.csv",
+      "header": "diferenca_yoy_2025_12_pp",
+      "row": "NRG Energia",
+      "value": -0.0015,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_core_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/sucessora_corte_2026_09/hicp_indicadores.csv",
+      "header": "TOT_X_NRG_FOOD_YoY",
+      "row": "2026-09-01",
+      "value": 2.5002,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/contribuicao_energia_total.csv",
+      "header": "nucleo_yoy_pct",
+      "row": "2026-09",
+      "value": 2.5002,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "2026-09 Núcleo (sem energia, alimentos, álcool e tabaco)",
+      "value": 2.5002,
+      "variant": "nucleo yoy_rch_a",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/comparacao_vintages.csv",
+      "header": "meses_yoy_comparados",
+      "row": "TOT_X_NRG_FOOD Núcleo (sem energia, alimentos, álcool e tabaco)",
+      "value": 289.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/comparacao_vintages.csv",
+      "header": "max_diferenca_absoluta_yoy_pp",
+      "row": "TOT_X_NRG_FOOD Núcleo (sem energia, alimentos, álcool e tabaco)",
+      "value": 0.0198,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/comparacao_vintages.csv",
+      "header": "diferenca_yoy_2025_12_pp",
+      "row": "TOT_X_NRG_FOOD Núcleo (sem energia, alimentos, álcool e tabaco)",
+      "value": -0.004,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_energy_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/processado/sucessora_corte_2026_09/hicp_indicadores.csv",
+      "header": "NRG_3msaar",
+      "row": "2026-09-01",
+      "value": 7.8314,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_indicadores.csv",
+      "header": "3msaar_pct",
+      "row": "2026-09 Energia",
+      "value": 7.8314,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_core_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/sucessora_corte_2026_09/hicp_indicadores.csv",
+      "header": "TOT_X_NRG_FOOD_3msaar",
+      "row": "2026-09-01",
+      "value": 2.3094,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_indicadores.csv",
+      "header": "3msaar_pct",
+      "row": "2026-09 Núcleo (sem energia, alimentos, álcool e tabaco)",
+      "value": 2.3094,
+      "variant": "núcleo, 3m SAAR do ajuste sazonal da própria entrega",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/original/tabelas/associacao_defasada.csv",
+      "header": "valor",
+      "row": "r2_com_energia núcleo 3msaar, AR(1) + energia 3msaar defasada 0-12 meses",
+      "value": 0.7114,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/processado/original/tabelas/associacao_defasada.csv",
+      "header": "valor",
+      "row": "r2_sem_energia apenas constante + núcleo 3msaar AR(1)",
+      "value": 0.6791,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/associacao_defasada.csv",
+      "header": "valor",
+      "row": "r2_com_energia núcleo 3msaar, AR(1) + energia 3msaar defasada 0-12 meses",
+      "value": 0.7071,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a4-result-7078cedefb8db66478ab1078",
+  "questions": {
+   "N_energy_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_core_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_energy_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_core_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/associacao_defasada.csv",
+      "header": "valor",
+      "row": "r2_com_energia Núcleo 3msaar, AR(1) + energia 3msaar defasada 0-12 meses",
+      "value": 0.7114,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/associacao_defasada.csv",
+      "header": "valor",
+      "row": "r2_sem_energia Apenas constante + núcleo 3msaar AR(1)",
+      "value": 0.6791,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ }
+]

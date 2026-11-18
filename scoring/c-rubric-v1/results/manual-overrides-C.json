@@ -1,0 +1,423 @@
+{
+ "C01": [
+  {
+   "phase": "A3",
+   "model": "gpt-6-astra",
+   "question": "N_prod_3m",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "claude-haiku-5-5",
+   "question": "N_ord_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  }
+ ],
+ "C02": [
+  {
+   "phase": "A1",
+   "model": "claude-fable-5-1",
+   "question": "N_conf",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A1",
+   "model": "claude-opus-5-5",
+   "question": "N_cons_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A1",
+   "model": "claude-sonnet-5-5",
+   "question": "N_cons_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A1",
+   "model": "claude-sonnet-5-5",
+   "question": "N_cons_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A1",
+   "model": "claude-sonnet-5-5",
+   "question": "N_conf",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A1",
+   "model": "gpt-6.1-sol",
+   "question": "N_conf",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A1",
+   "model": "grok-4.7",
+   "question": "N_conf",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-opus-5-5",
+   "question": "N_cons_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "claude-opus-5-5",
+   "question": "N_cons_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "claude-opus-5-5",
+   "question": "N_cons_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "claude-opus-5-5",
+   "question": "N_cons_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "claude-sonnet-5-5",
+   "question": "N_cons_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "claude-sonnet-5-5",
+   "question": "N_cons_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "claude-sonnet-5-5",
+   "question": "N_cons_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "claude-sonnet-5-5",
+   "question": "N_cons_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "gpt-6.1-sol",
+   "question": "N_conf",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "gpt-6.1-sol",
+   "question": "N_conf",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "grok-4.7",
+   "question": "N_conf",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  }
+ ],
+ "C03": [
+  {
+   "phase": "A1",
+   "model": "gpt-6-astra",
+   "question": "N_last_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "gpt-6-luna",
+   "question": "N_last_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "grok-4.7",
+   "question": "N_last_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A3",
+   "model": "gpt-6-luna",
+   "question": "N_last_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "gpt-6-astra",
+   "question": "N_last_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "gpt-6-astra",
+   "question": "N_last_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "gpt-6-astra",
+   "question": "N_last_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "gpt-6-luna",
+   "question": "N_last_qoq",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "gpt-6-luna",
+   "question": "N_last_yoy",
+   "correct": true,
+   "source": "report text, hand-checked 2026-11-17"
+  }
+ ],
+ "C04": [
+  {
+   "phase": "A1",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_short",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A1",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_one_year",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A1",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_two_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A1",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_three_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_short",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_one_year",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_two_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_three_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_latest",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_short",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_one_year",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_two_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_external_review",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_three_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_short",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_one_year",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_two_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "gpt-6-luna",
+   "question": "N_yoy_three_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-sonnet-5-5",
+   "question": "N_qoq_short",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-sonnet-5-5",
+   "question": "N_qoq_one_year",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-sonnet-5-5",
+   "question": "N_qoq_two_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-sonnet-5-5",
+   "question": "N_qoq_latest",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-sonnet-5-5",
+   "question": "N_yoy_short",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-sonnet-5-5",
+   "question": "N_yoy_one_year",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-sonnet-5-5",
+   "question": "N_yoy_two_years",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-sonnet-5-5",
+   "question": "N_yoy_latest",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A2",
+   "model": "claude-opus-5-5",
+   "question": "N_qoq_short",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A3",
+   "model": "grok-4.7",
+   "question": "N_qoq_one_year",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A3",
+   "model": "kimi-code/k3.1-pro",
+   "question": "N_qoq_short",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "grok-4.7",
+   "question": "N_yoy_one_year",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  },
+  {
+   "phase": "A4_self_review",
+   "model": "grok-4.7",
+   "question": "N_yoy_latest",
+   "correct": true,
+   "source": "report text or unlabelled table, hand-checked 2026-11-17"
+  }
+ ]
+}

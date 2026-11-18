@@ -1,0 +1,76 @@
+{
+  "answers": {
+    "C_alimentos_yoy": {
+      "at": "2026-11-17T18:43:39.479Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "C_combustivel_yoy": {
+      "at": "2026-11-17T18:43:40.003Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "C_cultura_lazer_yoy": {
+      "at": "2026-11-17T18:43:41.884Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "C_equipamentos_domesticos_yoy": {
+      "at": "2026-11-17T18:43:41.377Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "C_internet_yoy": {
+      "at": "2026-11-17T18:43:43.514Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "C_outros_bens_yoy": {
+      "at": "2026-11-17T18:43:42.343Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_alimentos_yoy": {
+      "at": "2026-11-17T18:43:22.197Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_combustivel_yoy": {
+      "at": "2026-11-17T18:43:23.614Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_cultura_lazer_yoy": {
+      "at": "2026-11-17T18:43:25.987Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_equipamentos_domesticos_yoy": {
+      "at": "2026-11-17T18:43:25.456Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_internet_yoy": {
+      "at": "2026-11-17T18:43:27.781Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_outros_bens_yoy": {
+      "at": "2026-11-17T18:43:27.105Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_3m": {
+      "at": "2026-11-17T18:43:20.537Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_yoy": {
+      "at": "2026-11-17T18:43:19.934Z",
+      "choice": "PROBLEMA",
+      "value": null
+    }
+  },
+  "done": true,
+  "doneAt": "2026-11-17T18:43:45.394Z"
+}

@@ -1,0 +1,46 @@
+phase,model,target,nowcast_2026Q3_qoq,q3_estimate_qoq,error_pp,source_in_report
+A1,claude-fable-5-1,2026-Q3,0.19,0.42,-0.23,"table 'Nowcast 3T2026 ... +0,2% (0,19)'"
+A1,claude-haiku-5-5,2026-Q3,0.00,0.42,-0.42,"'Estimativa central para o 3T26: crescimento de ~0,0% t/t'"
+A1,claude-opus-5-5,2026-Q3,0.24,0.42,-0.18,"'O nowcast final de 2026T3 (0,24%)'"
+A1,claude-sonnet-5-5,2026-Q3,0.11,0.42,-0.31,"'PIB t/t SA (ponte IP+varejo+ESI) +0,11%'"
+A1,gpt-6-astra,2026-Q3,0.19,0.42,-0.23,"HTML: 'Para o 3º trimestre ... a estimativa é +0,19%'"
+A1,gpt-6-luna,2026-Q3,,0.42,,no report text
+A1,gpt-6.1-sol,2026-Q3,0.24,0.42,-0.18,"'2026T3, trimestre anterior ainda sem PIB divulgado, é 0.24% t/t'"
+A1,grok-4.7,2026-Q3,-0.04,0.42,-0.46,"table '2026T3 | Nowcast central da ponte | −0,04%'"
+A1,kimi-code/k3.1-pro,2026-Q3,0.32,0.42,-0.1,"table '2026T3 | Encerrado; PIB ainda não divulgado | +0,32%'"
+A2,claude-fable-5-1,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A2,claude-haiku-5-5,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A2,claude-opus-5-5,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A2,claude-sonnet-5-5,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A2,gpt-6-astra,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A2,gpt-6-luna,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A2,gpt-6.1-sol,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A2,grok-4.7,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A2,kimi-code/k3.1-pro,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A3,claude-opus-5-5,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A3,claude-fable-5-1,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A3,claude-sonnet-5-5,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A3,gpt-6-luna,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A3,gpt-6-astra,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A3,grok-4.7,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A3,kimi-code/k3.1-pro,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A3,claude-haiku-5-5,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A3,gpt-6.1-sol,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A4_self_review,claude-fable-5-1,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A4_self_review,claude-haiku-5-5,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A4_self_review,claude-opus-5-5,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A4_self_review,claude-sonnet-5-5,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A4_self_review,gpt-6-astra,2026-Q3,0.19,0.42,-0.23,"same text as external (0,185408)"
+A4_self_review,gpt-6-luna,none,,0.42,,Q3 proxy withdrawn; no GDP nowcast
+A4_self_review,gpt-6.1-sol,2026-Q3,0.24,0.42,-0.18,same text as external
+A4_self_review,grok-4.7,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A4_self_review,kimi-code/k3.1-pro,2026-Q4,,0.42,,Q3 flash already out when it ran; nowcasts Q4 only
+A4_external_review,claude-fable-5-1,2026-Q3,0.19,0.42,-0.23,"'O nowcast do 3T26 não muda (+0,19% t/t)'"
+A4_external_review,claude-haiku-5-5,2026-Q3,0.00,0.42,-0.42,"'Estimativa central para o 3T26: crescimento de ~0,0% t/t'"
+A4_external_review,claude-opus-5-5,2026-Q3,0.24,0.42,-0.18,"'O nowcast final de 2026T3 (0,24%)'"
+A4_external_review,claude-sonnet-5-5,2026-Q3,0.11,0.42,-0.31,"'período-alvo (3T26) ... nowcast (+0,1131% t/t)'"
+A4_external_review,gpt-6-astra,2026-Q3,0.19,0.42,-0.23,"'Para o 3º trimestre ... a estimativa é +0,19%' (0,185408)"
+A4_external_review,gpt-6-luna,none,,0.42,,Q3 proxy withdrawn; no GDP nowcast
+A4_external_review,gpt-6.1-sol,2026-Q3,0.24,0.42,-0.18,'estimativa separada para 2026T3 ... é 0.24% t/t'
+A4_external_review,grok-4.7,2026-Q3,-0.04,0.42,-0.46,"table '2026T3 | Nowcast central da ponte | −0,04%'"
+A4_external_review,kimi-code/k3.1-pro,2026-Q3,0.32,0.42,-0.1,"'Em T3, a ponte indica +0.20% e o AR(1) +0.49%'; combination 60% bridge = 0.316"

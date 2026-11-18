@@ -1,0 +1,10 @@
+[
+ {
+  "phase": "A1",
+  "task": "S05",
+  "model": "grok-4.7",
+  "final_attempt_id": "one-s05-grok-low-normal-primary",
+  "disposition": "verified_absence",
+  "checks": {}
+ }
+]

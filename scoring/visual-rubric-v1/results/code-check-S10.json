@@ -1,0 +1,1436 @@
+[
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "one-s10-claude-fable-timeout-retry1",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "one-s10-claude-haiku-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "taxa",
+      "row": "O_DATA 2026-09-01",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "taxa",
+      "row": "SR_DATA 2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "taxa",
+      "row": "TC_DATA 2026-09-01",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "desempregados",
+      "row": "O_DATA 2026-09-01",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "desempregados",
+      "row": "SR_DATA 2026-09-01",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "desempregados",
+      "row": "TC_DATA 2026-09-01",
+      "value": 506.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "one-s10-claude-opus-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "SA",
+      "row": "2026-09-01 00:00:00",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "Tendência",
+      "row": "2026-09-01 00:00:00",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "NSA",
+      "row": "2026-09-01 00:00:00",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "SA (mil)",
+      "row": "2026-09-01 00:00:00",
+      "value": 5314.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "NSA (mil)",
+      "row": "2026-09-01 00:00:00",
+      "value": 5291.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "SA",
+      "row": "2026-09-01 00:00:00",
+      "value": 69.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "one-s10-claude-sonnet-low-normal-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desemprego SA (%)",
+      "row": "2026-09",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desemprego SA suavizado/tendência (%)",
+      "row": "2026-09",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desemprego s/ aj. (%)",
+      "row": "2026-09",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desempregados SA (mil)",
+      "row": "2026-09",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Taxa de ocupação SA (%)",
+      "row": "2026-09",
+      "value": 69.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Desempregados SA (mil)",
+      "row": "2026-09",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "one-s10-codex-astra-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Set/26 NSA",
+      "row": "Desemprego total %",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Set/26 SA",
+      "row": "Desemprego total %",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Set/26 SA suavizado",
+      "row": "Desemprego total %",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/transformacoes.csv",
+      "header": "Desemprego_12m_pp_NSA",
+      "row": "2026-09-01",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/transformacoes.csv",
+      "header": "Taxa de ocupação_12m_pp_NSA",
+      "row": "2026-09-01",
+      "value": 0.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/incerteza.csv",
+      "header": "Variação anual oficial NSA",
+      "row": "Taxa de desemprego (p.p.)",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "one-s10-codex-luna-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desemprego, taxa NSA % força de trabalho",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desemprego, taxa SA suavizada % força de trabalho",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Mulheres 15–74 Desemprego, taxa NSA % força de trabalho",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desempregados NSA mil pessoas",
+      "value": 466.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desempregados SA suavizado mil pessoas",
+      "value": 507.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Homens 15–74 Desemprego, taxa NSA % força de trabalho",
+      "value": 7.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "one-s10-codex-sol-low-normal-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/desemprego.csv",
+      "header": "nsa_total",
+      "row": "2026-09-01",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/desemprego.csv",
+      "header": "sa_suav_total",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/desemprego.csv",
+      "header": "sa_suav_homens",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/painel.csv",
+      "header": "Set/26 NSA",
+      "row": "Desempregados mil pessoas",
+      "value": 466.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/painel.csv",
+      "header": "Set/26 SA + suavizada",
+      "row": "Desempregados mil pessoas",
+      "value": 507.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/painel.csv",
+      "header": "Set/26 NSA",
+      "row": "Desemprego jovem (15–24) % da força de trabalho jovem",
+      "value": 20.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "grok-4.7",
+  "final_attempt_id": "one-s10-grok-low-normal-timeout-retry1",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "one-s10-kimi-pro-low-normal-timeout-retry1",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A2",
+  "task": "S10",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a2-s10-claude-fable-high-normal-timeout-retry1",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A2",
+  "task": "S10",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a2-s10-claude-haiku-high-normal-timeout-retry1",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_mensais.csv",
+      "header": "taxa_nsa",
+      "row": "2026-09-01",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_mensais.csv",
+      "header": "taxa_sa",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_mensais.csv",
+      "header": "taxa_sa_suav",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_mensais.csv",
+      "header": "taxa_erro_pm",
+      "row": "2026-09-01",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_mensais.csv",
+      "header": "desemp_erro_pm_mil",
+      "row": "2026-09-01",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_mensais.csv",
+      "header": "desemp_nsa",
+      "row": "2026-09-01",
+      "value": 40.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S10",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a2-s10-claude-opus-high-normal-timeout-retry1",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/suecia_aku_mensal_total.csv",
+      "header": "desemprego_taxa_NSA",
+      "row": "2026-09-01",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/suecia_aku_mensal_total.csv",
+      "header": "desemprego_taxa_SA",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/suecia_aku_mensal_total.csv",
+      "header": "desemprego_taxa_TC",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/suecia_aku_duracao.csv",
+      "header": "desempregados_27sem_mais_mil",
+      "row": "2026-09-01",
+      "value": 172.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/suecia_aku_duracao.csv",
+      "header": "desempregados_total_mil",
+      "row": "2026-09-01",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/suecia_aku_duracao.csv",
+      "header": "duracao_nao_informada_mil",
+      "row": "2026-09-01",
+      "value": 31.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S10",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a2-s10-claude-sonnet-high-normal-timeout-retry1",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/aberturas_sexo_idade.csv",
+      "header": "tx_desemprego",
+      "row": "Total SA 2026-09",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/aberturas_sexo_idade.csv",
+      "header": "tx_desemprego",
+      "row": "Total SA suavizada 2026-09",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/aberturas_sexo_idade.csv",
+      "header": "tx_desemprego",
+      "row": "Homens SA suavizada 2026-09",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/aberturas_sexo_idade.csv",
+      "header": "tx_desemprego",
+      "row": "Homens SA 2026-09",
+      "value": 8.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/aberturas_sexo_idade.csv",
+      "header": "tx_desemprego",
+      "row": "15-24 SA 2026-09",
+      "value": 21.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/aberturas_sexo_idade.csv",
+      "header": "tx_desemprego",
+      "row": "15-24 SA suavizada 2026-09",
+      "value": 23.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S10",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a2-s10-codex-astra-high-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "DESEMPREGO_1_TC_DATA",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores.csv",
+      "header": "DESEMPREGO_2_O_DATA",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores.csv",
+      "header": "DESEMPREGO_2_SR_DATA",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "DESEMPREGO_1_O_DATA",
+      "row": "2026-09-01",
+      "value": 7.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores.csv",
+      "header": "DESEMPREGO_1_SR_DATA",
+      "row": "2026-09-01",
+      "value": 8.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/desemprego_aberturas.csv",
+      "header": "NSA (%)",
+      "row": "Homens 15–74",
+      "value": 7.6,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S10",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a2-s10-codex-luna-high-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_destaque.csv",
+      "header": "Valor",
+      "row": "Taxa de desemprego, total, 15–74 anos NSA 2026-09 % da força de trabalho",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_destaque.csv",
+      "header": "Valor",
+      "row": "Taxa de desemprego, total, 15–74 anos SA e suavizada 2026-09 % da força de trabalho",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_por_idade.csv",
+      "header": "Taxa SA e suavizada (%)",
+      "row": "15–74 anos 2026-09",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_destaque.csv",
+      "header": "Valor",
+      "row": "Desempregados, total, 15–74 anos NSA 2026-09 milhares de pessoas",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_por_idade.csv",
+      "header": "Taxa SA e suavizada (%)",
+      "row": "15–24 anos 2026-09",
+      "value": 23.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_por_idade.csv",
+      "header": "Taxa SA e suavizada (%)",
+      "row": "25–54 anos 2026-09",
+      "value": 6.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S10",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a2-s10-codex-sol-high-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/desemprego_aberturas.csv",
+      "header": "SA (%)",
+      "row": "Total 15–74",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/desemprego_aberturas.csv",
+      "header": "NSA (%)",
+      "row": "Total 15–74",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/desemprego_aberturas.csv",
+      "header": "SA + suavização (%)",
+      "row": "Total 15–74",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/desemprego_aberturas.csv",
+      "header": "Margem de erro NSA ± (p.p.)",
+      "row": "Total 15–74",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/desemprego_aberturas.csv",
+      "header": "SA (%)",
+      "row": "Homens 15–74",
+      "value": 8.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/desemprego_aberturas.csv",
+      "header": "NSA (%)",
+      "row": "Homens 15–74",
+      "value": 7.6,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S10",
+  "model": "grok-4.7",
+  "final_attempt_id": "a2-s10-grok-high-normal-timeout-retry1",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A2",
+  "task": "S10",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a2-s10-kimi-pro-high-normal-timeout-retry1",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A3",
+  "task": "S10",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a3-s10-codex-sol-low-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "NSA",
+      "row": "Desemprego (% da força de trabalho)",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "SA",
+      "row": "Desemprego (% da força de trabalho)",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "SA + suavização",
+      "row": "Desemprego (% da força de trabalho)",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "NSA",
+      "row": "Desempregados (mil pessoas)",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "SA",
+      "row": "Desempregados (mil pessoas)",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "SA + suavização",
+      "row": "Desempregados (mil pessoas)",
+      "value": 506.5,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S10",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a3-s10-claude-haiku-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/lfs_aberturas_longo.csv",
+      "header": "valor",
+      "row": "2026M09 ALÖSP O_DATA tot15-74 2026-09",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/lfs_aberturas_longo.csv",
+      "header": "valor",
+      "row": "2026M09 ALÖSP O_DATA tot15-74 2026-09",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/lfs_aberturas_longo.csv",
+      "header": "valor",
+      "row": "2026M09 ALÖSP SR_DATA tot15-74 2026-09",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/lfs_aberturas_longo.csv",
+      "header": "Kon",
+      "row": "2026M09 ALÖS O_DATA 15-24 2026-09",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/lfs_aberturas_longo.csv",
+      "header": "valor",
+      "row": "2026M09 ALÖS O_DATA 15-24 2026-09",
+      "value": 59.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/lfs_aberturas_longo.csv",
+      "header": "Kon",
+      "row": "2026M09 ALÖS O_DATA 25-54 2026-09",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S10",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a3-s10-claude-sonnet-low-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/dados_e_calculos.csv",
+      "header": "tx_desemp_SA",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/dados_e_calculos.csv",
+      "header": "tx_desemp_tendencia_SCB",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/dados_e_calculos.csv",
+      "header": "tx_desemp_bruta",
+      "row": "2026-09-01",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dados_e_calculos.csv",
+      "header": "desempregados_mil_SA",
+      "row": "2026-09-01",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/dados_e_calculos.csv",
+      "header": "taxa_ocup_SA",
+      "row": "2026-09-01",
+      "value": 69.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/dados_e_calculos.csv",
+      "header": "taxa_particip_SA",
+      "row": "2026-09-01",
+      "value": 76.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S10",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a3-s10-kimi-pro-low-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/aberturas_2026Q3.csv",
+      "header": "taxa_2026Q3_sa",
+      "row": "Total, 15–74 anos 15–74",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados/aberturas_2026Q3.csv",
+      "header": "taxa_2026Q2_sa",
+      "row": "Total, 15–74 anos 15–74",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados/aberturas_2026Q3.csv",
+      "header": "taxa_2026Q3_sa",
+      "row": "Homens, 15–74 anos 15–74",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/aberturas_2026Q3.csv",
+      "header": "taxa_2026Q3_sa",
+      "row": "Jovens, 15–24 anos 15–24",
+      "value": 23.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados/aberturas_2026Q3.csv",
+      "header": "taxa_2026Q2_sa",
+      "row": "Jovens, 15–24 anos 15–24",
+      "value": 23.9,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados/aberturas_2026Q3.csv",
+      "header": "taxa_2026Q3_sa",
+      "row": "Nascidos na Suécia, 20–66 anos 20–66",
+      "value": 4.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S10",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a3-s10-claude-fable-timeout-retry1",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tx_desemprego_NSA_%",
+      "row": "2026-09-01",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tx_desemprego_SA_%",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tx_desemprego_SAsuav_%",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desempregados_SA_mil",
+      "row": "2026-09-01",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desempregados_NSA_mil",
+      "row": "2026-09-01",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tx_desemprego_NSA_margem_erro_pp",
+      "row": "2026-09-01",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S10",
+  "model": "grok-4.7",
+  "final_attempt_id": "a3-s10-grok-low-normal-timeout-retry1",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "taxa_nsa",
+      "row": "2026-09-01",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "taxa_sa",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "taxa_tc",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desempregados_mil_nsa",
+      "row": "2026-09-01",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desempregados_mil_sa",
+      "row": "2026-09-01",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desempregados_mil_tc",
+      "row": "2026-09-01",
+      "value": 506.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S10",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a3-s10-codex-luna-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/scb_aku_desemprego_mensal.csv",
+      "header": "taxa_total_nsa",
+      "row": "2026-09-01",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego_mensal.csv",
+      "header": "taxa_sa_suavizada_total",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego_mensal.csv",
+      "header": "taxa_sa_suavizada_homens",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/scb_aku_desemprego_mensal.csv",
+      "header": "desempregados_milhares_nsa",
+      "row": "2026-09-01",
+      "value": 466.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego_mensal.csv",
+      "header": "taxa_jovens_nsa",
+      "row": "2026-09-01",
+      "value": 20.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego_mensal.csv",
+      "header": "taxa_jovens_sa_suavizada",
+      "row": "2026-09-01",
+      "value": 23.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S10",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a3-s10-codex-astra-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "Set/26 NSA",
+      "row": "Desemprego %",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "Set/26 SA",
+      "row": "Desemprego %",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "Set/26 SA suavizada",
+      "row": "Desemprego %",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "Set/26 NSA",
+      "row": "Taxa de ocupação %",
+      "value": 69.1,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "Set/26 SA",
+      "row": "Taxa de ocupação %",
+      "value": 69.5,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_mensal.csv",
+      "header": "Set/26 SA suavizada",
+      "row": "Taxa de ocupação %",
+      "value": 69.6,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S10",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a3-s10-claude-opus-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desemprego_SA_%",
+      "row": "2026-09",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desemprego_tendencia_%",
+      "row": "2026-09",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desemprego_NSA_%",
+      "row": "2026-09",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desemprego_NSA_dif12m_pp",
+      "row": "2026-09",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "desempregados_SA_mil",
+      "row": "2026-09",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "taxa_ocupacao_SA_%",
+      "row": "2026-09",
+      "value": 69.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ }
+]

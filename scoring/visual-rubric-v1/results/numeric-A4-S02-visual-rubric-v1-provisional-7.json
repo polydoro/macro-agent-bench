@@ -1,0 +1,8997 @@
+{
+ "rubric_version": "visual-rubric-v1-provisional-7",
+ "model_requested": "jev-1.14.0",
+ "shift_tolerances": 0,
+ "status": "provisional, not a published score",
+ "rows": [
+  {
+   "phase": "A4e",
+   "task": "S02",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a4-fable-20261107-v1",
+   "final_attempt_id": "a4-result-914f560be7be2fb5228b98bf",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-914f560be7be2fb5228b98bf/work/entrega/graficos/01_nivel_total_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-914f560be7be2fb5228b98bf/work/entrega/graficos/02_nivel_grupos_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-914f560be7be2fb5228b98bf/work/entrega/graficos/03_nivel_origem_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-914f560be7be2fb5228b98bf/work/entrega/graficos/04_nivel_setores_nominal_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-914f560be7be2fb5228b98bf/work/entrega/graficos/05_taxas_total_yoy_3msaar.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-914f560be7be2fb5228b98bf/work/entrega/graficos/06_taxas_aberturas_ultimo_mes.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-914f560be7be2fb5228b98bf/work/entrega/graficos/07_taxas_grupos_yoy_3msaar.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-914f560be7be2fb5228b98bf/work/entrega/graficos/08_taxas_origem_yoy_3msaar.png"
+   ],
+   "N_choice_mean": 6.666666666666667,
+   "N_mean": 8.166666666666666,
+   "N_sd": 0.20816659994661155,
+   "N_upper_mean": 10.800000000000002,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "d1fdb225e2b1da9842ce04d4d5f28ea1a26df49cb9018edd7af579c1af4969ac",
+     "usage": {
+      "input_tokens": 20261,
+      "output_tokens": 759
+     },
+     "N": 8.100000000000001,
+     "N_upper": 10.600000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.7,
+       "undetermined": 0.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.1,
+       "undetermined": 0.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.0,
+       "undetermined": 0.8
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 2.3000000000000003,
+       "undetermined": 0.6
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_06",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "FAIXA_09"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "d1fdb225e2b1da9842ce04d4d5f28ea1a26df49cb9018edd7af579c1af4969ac",
+     "usage": {
+      "input_tokens": 20261,
+      "output_tokens": 759
+     },
+     "N": 8.399999999999999,
+     "N_upper": 11.0,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.6,
+       "undetermined": 0.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.0,
+       "undetermined": 0.7000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.7000000000000001
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 2.0,
+       "undetermined": 0.6
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "FAIXA_08",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "FAIXA_09"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "d1fdb225e2b1da9842ce04d4d5f28ea1a26df49cb9018edd7af579c1af4969ac",
+     "usage": {
+      "input_tokens": 20261,
+      "output_tokens": 759
+     },
+     "N": 8.000000000000002,
+     "N_upper": 10.8,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.3000000000000003,
+       "undetermined": 0.7000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.9000000000000004,
+       "undetermined": 0.7000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.7000000000000001,
+       "undetermined": 1.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 2.1,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "FAIXA_08",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "FAIXA_09"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4s",
+   "task": "S02",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a4-fable-20261107-v1",
+   "final_attempt_id": "a4-result-3ee720a452a76657173ae115",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/edicao1_coleta-2026-10-27_ref-ago2026/graficos/01_nivel_total_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/edicao1_coleta-2026-10-27_ref-ago2026/graficos/02_nivel_grupos_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/edicao1_coleta-2026-10-27_ref-ago2026/graficos/03_nivel_origem_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/edicao1_coleta-2026-10-27_ref-ago2026/graficos/04_nivel_setores_nominal_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/edicao1_coleta-2026-10-27_ref-ago2026/graficos/05_taxas_total_yoy_3msaar.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/edicao1_coleta-2026-10-27_ref-ago2026/graficos/06_taxas_aberturas_ultimo_mes.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/edicao1_coleta-2026-10-27_ref-ago2026/graficos/07_taxas_grupos_yoy_3msaar.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/edicao1_coleta-2026-10-27_ref-ago2026/graficos/08_taxas_origem_yoy_3msaar.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/graficos/01_nivel_total_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/graficos/02_nivel_grupos_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/graficos/03_nivel_origem_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/graficos/04_nivel_setores_nominal_sa.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/graficos/05_taxas_total_yoy_3msaar.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/graficos/06_taxas_aberturas_ultimo_mes.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/graficos/07_taxas_grupos_yoy_3msaar.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/graficos/08_taxas_origem_yoy_3msaar.png",
+    "execucoes/pilot-a4-fable-20261107-v1/evaluation-snapshots/a4-result-3ee720a452a76657173ae115/work/entrega/graficos/09_vintages_total_sa.png"
+   ],
+   "N_choice_mean": 6.666666666666667,
+   "N_mean": 9.5,
+   "N_sd": 0.6082762530298212,
+   "N_upper_mean": 10.500000000000002,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "5e30b7e67badafc6601fd33594f0c662fc4046581e83cd630734fe0f6b23633d",
+     "usage": {
+      "input_tokens": 38568,
+      "output_tokens": 759
+     },
+     "N": 9.100000000000001,
+     "N_upper": 10.200000000000003,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.4000000000000004,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.1000000000000005,
+       "undetermined": 0.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.6,
+       "undetermined": 0.3
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 2.0,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_08",
+      "N_domestico_yoy": "FAIXA_01",
+      "N_externo_yoy": "FAIXA_09"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "5e30b7e67badafc6601fd33594f0c662fc4046581e83cd630734fe0f6b23633d",
+     "usage": {
+      "input_tokens": 38568,
+      "output_tokens": 759
+     },
+     "N": 10.2,
+     "N_upper": 11.0,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.7,
+       "undetermined": 0.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.3999999999999995,
+       "undetermined": 0.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.7000000000000002,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 2.4000000000000004,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_06",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_01",
+      "N_externo_yoy": "FAIXA_09"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "5e30b7e67badafc6601fd33594f0c662fc4046581e83cd630734fe0f6b23633d",
+     "usage": {
+      "input_tokens": 38568,
+      "output_tokens": 759
+     },
+     "N": 9.2,
+     "N_upper": 10.3,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.6,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.9000000000000004,
+       "undetermined": 0.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.6,
+       "undetermined": 0.3
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 2.1,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_06",
+      "N_total_3m": "FAIXA_07",
+      "N_domestico_yoy": "FAIXA_01",
+      "N_externo_yoy": "FAIXA_09"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4e",
+   "task": "S02",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a4-claude-except-fable-20261106-v1",
+   "final_attempt_id": "a4-result-c3e666722f432dc27afe1234",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-c3e666722f432dc27afe1234/work/entrega/01_nivel_sa.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-c3e666722f432dc27afe1234/work/entrega/02_yoy_3msaar.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-c3e666722f432dc27afe1234/work/entrega/03_variacao_mensal_sa.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.4000000000000004,
+   "N_sd": 0.10000000000000031,
+   "N_upper_mean": 4.466666666666666,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "dea70c657244c281eeb3293fc298a63fff951d30056adb24bb7a3588beea6b38",
+     "usage": {
+      "input_tokens": 12121,
+      "output_tokens": 758
+     },
+     "N": 3.3,
+     "N_upper": 4.3999999999999995,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5,
+       "undetermined": 0.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 0.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "OUTRO_VALOR",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "dea70c657244c281eeb3293fc298a63fff951d30056adb24bb7a3588beea6b38",
+     "usage": {
+      "input_tokens": 12121,
+      "output_tokens": 758
+     },
+     "N": 3.4000000000000004,
+     "N_upper": 4.5,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 0.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "OUTRO_VALOR",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "dea70c657244c281eeb3293fc298a63fff951d30056adb24bb7a3588beea6b38",
+     "usage": {
+      "input_tokens": 12121,
+      "output_tokens": 758
+     },
+     "N": 3.5000000000000004,
+     "N_upper": 4.5,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 0.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.1,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "OUTRO_VALOR",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4s",
+   "task": "S02",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a4-claude-except-fable-20261106-v1",
+   "final_attempt_id": "a4-result-44ef01cc763045c0b032dced",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-44ef01cc763045c0b032dced/work/entrega/01_nivel_sa.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-44ef01cc763045c0b032dced/work/entrega/01_nivel_sa_set2026.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-44ef01cc763045c0b032dced/work/entrega/02_yoy_3msaar.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-44ef01cc763045c0b032dced/work/entrega/02_yoy_3msaar_set2026.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-44ef01cc763045c0b032dced/work/entrega/03_variacao_mensal_sa.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-44ef01cc763045c0b032dced/work/entrega/03_variacao_mensal_sa_set2026.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-44ef01cc763045c0b032dced/work/entrega/04_aberturas_set2026.png"
+   ],
+   "N_choice_mean": 6.666666666666667,
+   "N_mean": 4.266666666666667,
+   "N_sd": 0.40414518843273795,
+   "N_upper_mean": 5.033333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "240f982e5b65e40740c7fa19c62238abdc19a1313345e8b6390ccb87cf31dfdb",
+     "usage": {
+      "input_tokens": 23649,
+      "output_tokens": 758
+     },
+     "N": 3.9000000000000004,
+     "N_upper": 4.7,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.4000000000000004,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "OUTRO_VALOR",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "240f982e5b65e40740c7fa19c62238abdc19a1313345e8b6390ccb87cf31dfdb",
+     "usage": {
+      "input_tokens": 23649,
+      "output_tokens": 758
+     },
+     "N": 4.7,
+     "N_upper": 5.4,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 0.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.1,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "OUTRO_VALOR",
+      "N_total_3m": "FAIXA_08",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "240f982e5b65e40740c7fa19c62238abdc19a1313345e8b6390ccb87cf31dfdb",
+     "usage": {
+      "input_tokens": 23649,
+      "output_tokens": 758
+     },
+     "N": 4.2,
+     "N_upper": 5.0,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.7,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "OUTRO_VALOR",
+      "N_total_3m": "FAIXA_08",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4e",
+   "task": "S02",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-a4-claude-except-fable-20261106-v1",
+   "final_attempt_id": "a4-result-ac82f3b78d2da7d41797ec3f",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-ac82f3b78d2da7d41797ec3f/work/entrega/g1_nivel_total.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-ac82f3b78d2da7d41797ec3f/work/entrega/g2_aberturas_nivel.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-ac82f3b78d2da7d41797ec3f/work/entrega/g3_setores_nivel.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-ac82f3b78d2da7d41797ec3f/work/entrega/g4_taxas_total.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-ac82f3b78d2da7d41797ec3f/work/entrega/g5_taxas_aberturas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.266666666666667,
+   "N_sd": 0.2081665999466132,
+   "N_upper_mean": 6.766666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "ea9c58615b98c187b380e7c599779a8561de399f3e85dcb6c436df201e0ba1e7",
+     "usage": {
+      "input_tokens": 15103,
+      "output_tokens": 759
+     },
+     "N": 3.5,
+     "N_upper": 7.4,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6999999999999997,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 1.4000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8999999999999999,
+       "undetermined": 0.8999999999999999
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6,
+       "undetermined": 0.5
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "ea9c58615b98c187b380e7c599779a8561de399f3e85dcb6c436df201e0ba1e7",
+     "usage": {
+      "input_tokens": 15103,
+      "output_tokens": 759
+     },
+     "N": 3.1,
+     "N_upper": 6.2,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 0.8999999999999999
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.2,
+       "undetermined": 1.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.8999999999999999
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 0.3
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "ea9c58615b98c187b380e7c599779a8561de399f3e85dcb6c436df201e0ba1e7",
+     "usage": {
+      "input_tokens": 15103,
+      "output_tokens": 759
+     },
+     "N": 3.2,
+     "N_upper": 6.7,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.2,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.8999999999999999
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4s",
+   "task": "S02",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-a4-claude-except-fable-20261106-v1",
+   "final_attempt_id": "a4-result-a2b444402ff773ea9b797fba",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-a2b444402ff773ea9b797fba/work/entrega/g1_nivel_total.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-a2b444402ff773ea9b797fba/work/entrega/g2_aberturas_nivel.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-a2b444402ff773ea9b797fba/work/entrega/g3_setores_nivel.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-a2b444402ff773ea9b797fba/work/entrega/g4_taxas_total.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-a2b444402ff773ea9b797fba/work/entrega/g5_taxas_aberturas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.6,
+   "N_sd": 0.10000000000000009,
+   "N_upper_mean": 6.833333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "13a371959f2d4275eacd7cbd363318561d2855158b7258f2182c6dfc1ba1abcf",
+     "usage": {
+      "input_tokens": 15100,
+      "output_tokens": 759
+     },
+     "N": 3.5,
+     "N_upper": 6.6,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 0.8999999999999999
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.4,
+       "undetermined": 0.8
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.0,
+       "undetermined": 1.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "13a371959f2d4275eacd7cbd363318561d2855158b7258f2182c6dfc1ba1abcf",
+     "usage": {
+      "input_tokens": 15100,
+      "output_tokens": 759
+     },
+     "N": 3.7,
+     "N_upper": 7.1,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.0,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.5,
+       "undetermined": 1.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.9000000000000001,
+       "undetermined": 1.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "13a371959f2d4275eacd7cbd363318561d2855158b7258f2182c6dfc1ba1abcf",
+     "usage": {
+      "input_tokens": 15100,
+      "output_tokens": 759
+     },
+     "N": 3.5999999999999996,
+     "N_upper": 6.8,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.9,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.5,
+       "undetermined": 0.8999999999999999
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8999999999999999,
+       "undetermined": 1.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4e",
+   "task": "S02",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-a4-claude-except-fable-20261106-v1",
+   "final_attempt_id": "a4-result-5e67480a1a83363c2afbec05",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-5e67480a1a83363c2afbec05/work/entrega/g1_nivel_total.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-5e67480a1a83363c2afbec05/work/entrega/g2_grupos_bens.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-5e67480a1a83363c2afbec05/work/entrega/g3_origem.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-5e67480a1a83363c2afbec05/work/entrega/g4_taxas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 2.3333333333333335,
+   "N_sd": 0.05773502691896289,
+   "N_upper_mean": 6.633333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "f924d44a0d7ba7130f9129d2c27657ee3b69343a25e569806b546632809cdbe9",
+     "usage": {
+      "input_tokens": 13947,
+      "output_tokens": 759
+     },
+     "N": 2.3,
+     "N_upper": 6.8,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8999999999999999,
+       "undetermined": 1.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 1.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 1.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6,
+       "undetermined": 1.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "f924d44a0d7ba7130f9129d2c27657ee3b69343a25e569806b546632809cdbe9",
+     "usage": {
+      "input_tokens": 13947,
+      "output_tokens": 759
+     },
+     "N": 2.3,
+     "N_upper": 6.6,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8999999999999999,
+       "undetermined": 1.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.4,
+       "undetermined": 0.7000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.8999999999999999
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6,
+       "undetermined": 1.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "f924d44a0d7ba7130f9129d2c27657ee3b69343a25e569806b546632809cdbe9",
+     "usage": {
+      "input_tokens": 13947,
+      "output_tokens": 759
+     },
+     "N": 2.4000000000000004,
+     "N_upper": 6.5,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8999999999999999,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 0.8999999999999999
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6000000000000001,
+       "undetermined": 1.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6,
+       "undetermined": 1.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4s",
+   "task": "S02",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-a4-claude-except-fable-20261106-v1",
+   "final_attempt_id": "a4-result-6d5507c11437f1e417c96017",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-6d5507c11437f1e417c96017/work/entrega/g1_nivel_total.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-6d5507c11437f1e417c96017/work/entrega/g2_grupos_bens.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-6d5507c11437f1e417c96017/work/entrega/g3_origem.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-6d5507c11437f1e417c96017/work/entrega/g4_taxas.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-6d5507c11437f1e417c96017/work/versoes/v1_2026-10-27/entrega/g1_nivel_total.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-6d5507c11437f1e417c96017/work/versoes/v1_2026-10-27/entrega/g2_grupos_bens.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-6d5507c11437f1e417c96017/work/versoes/v1_2026-10-27/entrega/g3_origem.png",
+    "execucoes/pilot-a4-claude-except-fable-20261106-v1/evaluation-snapshots/a4-result-6d5507c11437f1e417c96017/work/versoes/v1_2026-10-27/entrega/g4_taxas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 2.2333333333333334,
+   "N_sd": 0.2516611478423583,
+   "N_upper_mean": 4.266666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "f48c876a149175c8454a8c523ce67d0f107b3f772b7eeaacfde7f1ac8cc41a30",
+     "usage": {
+      "input_tokens": 20250,
+      "output_tokens": 759
+     },
+     "N": 2.0,
+     "N_upper": 4.0,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6000000000000001,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.6
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "f48c876a149175c8454a8c523ce67d0f107b3f772b7eeaacfde7f1ac8cc41a30",
+     "usage": {
+      "input_tokens": 20250,
+      "output_tokens": 759
+     },
+     "N": 2.5,
+     "N_upper": 4.7,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8999999999999999,
+       "undetermined": 0.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.8
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6000000000000001,
+       "undetermined": 0.7000000000000001
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "f48c876a149175c8454a8c523ce67d0f107b3f772b7eeaacfde7f1ac8cc41a30",
+     "usage": {
+      "input_tokens": 20250,
+      "output_tokens": 759
+     },
+     "N": 2.2,
+     "N_upper": 4.1,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7,
+       "undetermined": 0.8
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 0.5
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4e",
+   "task": "S02",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-4af89e4366b4a3546bda37d6",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-4af89e4366b4a3546bda37d6/work/entrega/graficos/01_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-4af89e4366b4a3546bda37d6/work/entrega/graficos/02_aberturas.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-4af89e4366b4a3546bda37d6/work/entrega/graficos/03_taxas_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-4af89e4366b4a3546bda37d6/work/entrega/graficos/04_taxas_aberturas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.0666666666666664,
+   "N_sd": 0.11547005383792538,
+   "N_upper_mean": 4.7,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "eb0e6c14e0164739c035c64ddb494e7190fd90bee05121717503a76f2e85e374",
+     "usage": {
+      "input_tokens": 14384,
+      "output_tokens": 759
+     },
+     "N": 3.2,
+     "N_upper": 4.800000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.0,
+       "undetermined": 0.7000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.3
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "eb0e6c14e0164739c035c64ddb494e7190fd90bee05121717503a76f2e85e374",
+     "usage": {
+      "input_tokens": 14384,
+      "output_tokens": 759
+     },
+     "N": 2.9999999999999996,
+     "N_upper": 4.6,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 0.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.4
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "eb0e6c14e0164739c035c64ddb494e7190fd90bee05121717503a76f2e85e374",
+     "usage": {
+      "input_tokens": 14384,
+      "output_tokens": 759
+     },
+     "N": 3.0,
+     "N_upper": 4.7,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8999999999999999,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.4
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_06",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4s",
+   "task": "S02",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-7bead99c6d3ea194786dc854",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-7bead99c6d3ea194786dc854/work/entrega/graficos/01_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-7bead99c6d3ea194786dc854/work/entrega/graficos/02_aberturas.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-7bead99c6d3ea194786dc854/work/entrega/graficos/03_taxas_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-7bead99c6d3ea194786dc854/work/entrega/graficos/04_taxas_aberturas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.0666666666666664,
+   "N_sd": 0.11547005383792538,
+   "N_upper_mean": 4.7,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "eb0e6c14e0164739c035c64ddb494e7190fd90bee05121717503a76f2e85e374",
+     "usage": {
+      "input_tokens": 14384,
+      "output_tokens": 759
+     },
+     "N": 3.2,
+     "N_upper": 4.800000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.0,
+       "undetermined": 0.7000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.3
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_total_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "eb0e6c14e0164739c035c64ddb494e7190fd90bee05121717503a76f2e85e374",
+     "usage": {
+      "input_tokens": 14384,
+      "output_tokens": 759
+     },
+     "N": 2.9999999999999996,
+     "N_upper": 4.6,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 0.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.4
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_total_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "eb0e6c14e0164739c035c64ddb494e7190fd90bee05121717503a76f2e85e374",
+     "usage": {
+      "input_tokens": 14384,
+      "output_tokens": 759
+     },
+     "N": 3.0,
+     "N_upper": 4.7,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8999999999999999,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.4
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_total_yoy": "FAIXA_06"
+     },
+     "admitted": {
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4e",
+   "task": "S02",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-d71621cdf3ae4ff3fbb16009",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-d71621cdf3ae4ff3fbb16009/work/entrega/arquivo/encomendas_alemanha_vintage_2026-10-27.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-d71621cdf3ae4ff3fbb16009/work/entrega/encomendas_alemanha.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 1.7000000000000002,
+   "N_sd": 0.10000000000000009,
+   "N_upper_mean": 3.766666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "425ed7a0c9308aad7ef9933550a17ddd3f5998842d558195d39b51194ab541c5",
+     "usage": {
+      "input_tokens": 12865,
+      "output_tokens": 759
+     },
+     "N": 1.7000000000000002,
+     "N_upper": 3.4000000000000004,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.0,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.8999999999999999
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "425ed7a0c9308aad7ef9933550a17ddd3f5998842d558195d39b51194ab541c5",
+     "usage": {
+      "input_tokens": 12865,
+      "output_tokens": 759
+     },
+     "N": 1.6,
+     "N_upper": 3.8000000000000003,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.0,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "425ed7a0c9308aad7ef9933550a17ddd3f5998842d558195d39b51194ab541c5",
+     "usage": {
+      "input_tokens": 12865,
+      "output_tokens": 759
+     },
+     "N": 1.8000000000000003,
+     "N_upper": 4.1000000000000005,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.1,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4s",
+   "task": "S02",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-175c69eda9fa378d8d9e2f2a",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-175c69eda9fa378d8d9e2f2a/work/entrega/encomendas_alemanha.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 1.6000000000000003,
+   "N_sd": 0.0,
+   "N_upper_mean": 3.9333333333333336,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "47dd67dfa152a6af2bf422231e7bf47ef89123fe7ab515cf639e82a4505c8642",
+     "usage": {
+      "input_tokens": 8251,
+      "output_tokens": 759
+     },
+     "N": 1.6,
+     "N_upper": 4.1000000000000005,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.1,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.5,
+       "undetermined": 1.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "47dd67dfa152a6af2bf422231e7bf47ef89123fe7ab515cf639e82a4505c8642",
+     "usage": {
+      "input_tokens": 8251,
+      "output_tokens": 759
+     },
+     "N": 1.6,
+     "N_upper": 3.8000000000000003,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.1,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.5,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "47dd67dfa152a6af2bf422231e7bf47ef89123fe7ab515cf639e82a4505c8642",
+     "usage": {
+      "input_tokens": 8251,
+      "output_tokens": 759
+     },
+     "N": 1.6,
+     "N_upper": 3.9000000000000004,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.2000000000000002,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.4,
+       "undetermined": 1.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4e",
+   "task": "S02",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-78ef058084e115f9c176d523",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-78ef058084e115f9c176d523/work/entrega/graficos/01_nivel_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-78ef058084e115f9c176d523/work/entrega/graficos/02_origem_niveis.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-78ef058084e115f9c176d523/work/entrega/graficos/03_taxas_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-78ef058084e115f9c176d523/work/entrega/graficos/04_aberturas_mensais.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 2.6999999999999997,
+   "N_sd": 0.10000000000000031,
+   "N_upper_mean": 4.733333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "9f02025bda757ab17ee7f3d693ab3742d4e7c54f606cf1cb2fe9bbc8b9677603",
+     "usage": {
+      "input_tokens": 14515,
+      "output_tokens": 759
+     },
+     "N": 2.7,
+     "N_upper": 5.1,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.9,
+       "undetermined": 1.7999999999999998
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "9f02025bda757ab17ee7f3d693ab3742d4e7c54f606cf1cb2fe9bbc8b9677603",
+     "usage": {
+      "input_tokens": 14515,
+      "output_tokens": 759
+     },
+     "N": 2.8000000000000003,
+     "N_upper": 4.6,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.1,
+       "undetermined": 1.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "9f02025bda757ab17ee7f3d693ab3742d4e7c54f606cf1cb2fe9bbc8b9677603",
+     "usage": {
+      "input_tokens": 14515,
+      "output_tokens": 759
+     },
+     "N": 2.5999999999999996,
+     "N_upper": 4.5,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 1.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4s",
+   "task": "S02",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-2afdbebb578c05f634de8140",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-2afdbebb578c05f634de8140/work/entrega/graficos/01_nivel_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-2afdbebb578c05f634de8140/work/entrega/graficos/02_origem_niveis.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-2afdbebb578c05f634de8140/work/entrega/graficos/03_taxas_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-2afdbebb578c05f634de8140/work/entrega/graficos/04_aberturas_mensais.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 2.6999999999999997,
+   "N_sd": 0.10000000000000031,
+   "N_upper_mean": 4.733333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "9f02025bda757ab17ee7f3d693ab3742d4e7c54f606cf1cb2fe9bbc8b9677603",
+     "usage": {
+      "input_tokens": 14515,
+      "output_tokens": 759
+     },
+     "N": 2.7,
+     "N_upper": 5.1,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.9,
+       "undetermined": 1.7999999999999998
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_total_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "9f02025bda757ab17ee7f3d693ab3742d4e7c54f606cf1cb2fe9bbc8b9677603",
+     "usage": {
+      "input_tokens": 14515,
+      "output_tokens": 759
+     },
+     "N": 2.8000000000000003,
+     "N_upper": 4.6,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.1,
+       "undetermined": 1.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_total_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "9f02025bda757ab17ee7f3d693ab3742d4e7c54f606cf1cb2fe9bbc8b9677603",
+     "usage": {
+      "input_tokens": 14515,
+      "output_tokens": 759
+     },
+     "N": 2.5999999999999996,
+     "N_upper": 4.5,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 1.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_total_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4e",
+   "task": "S02",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-bba80864c00247ce61c80d64",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-bba80864c00247ce61c80d64/work/entrega/figuras/01_nivel_total_x13.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-bba80864c00247ce61c80d64/work/entrega/figuras/02_nivel_destino_x13.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-bba80864c00247ce61c80d64/work/entrega/figuras/03_nivel_grupos_x13.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-bba80864c00247ce61c80d64/work/entrega/figuras/04_taxas_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-bba80864c00247ce61c80d64/work/entrega/figuras/05_taxas_destino.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-bba80864c00247ce61c80d64/work/entrega/figuras/06_taxas_grupos.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 2.6,
+   "N_sd": 0.17320508075688762,
+   "N_upper_mean": 6.1000000000000005,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "85ce9eee2dc9736494aed6e9261cf5bb3e1dfe94f10f3a2d8a11431e818b43d5",
+     "usage": {
+      "input_tokens": 21705,
+      "output_tokens": 759
+     },
+     "N": 2.5,
+     "N_upper": 6.1,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.8999999999999999
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6,
+       "undetermined": 0.5
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "85ce9eee2dc9736494aed6e9261cf5bb3e1dfe94f10f3a2d8a11431e818b43d5",
+     "usage": {
+      "input_tokens": 21705,
+      "output_tokens": 759
+     },
+     "N": 2.5,
+     "N_upper": 5.9,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8999999999999999,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6000000000000001,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.8
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "85ce9eee2dc9736494aed6e9261cf5bb3e1dfe94f10f3a2d8a11431e818b43d5",
+     "usage": {
+      "input_tokens": 21705,
+      "output_tokens": 759
+     },
+     "N": 2.8,
+     "N_upper": 6.3,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 1.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7,
+       "undetermined": 0.8999999999999999
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 0.8
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.6
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4s",
+   "task": "S02",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-545e91fc8e42d835c6fc7425",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-545e91fc8e42d835c6fc7425/work/entrega/figuras/01_nivel_total_x13.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-545e91fc8e42d835c6fc7425/work/entrega/figuras/02_nivel_destino_x13.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-545e91fc8e42d835c6fc7425/work/entrega/figuras/03_nivel_grupos_x13.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-545e91fc8e42d835c6fc7425/work/entrega/figuras/04_taxas_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-545e91fc8e42d835c6fc7425/work/entrega/figuras/05_taxas_destino.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-545e91fc8e42d835c6fc7425/work/entrega/figuras/06_taxas_grupos.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-545e91fc8e42d835c6fc7425/work/entrega/figuras/07_setembro_2026_nota385_mom.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.6333333333333333,
+   "N_sd": 0.0577350269189625,
+   "N_upper_mean": 6.6000000000000005,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "264c25b05d20a4be913fc5c40ecfdb748c2a758750b5d5c6704bf919b95c3f55",
+     "usage": {
+      "input_tokens": 24479,
+      "output_tokens": 759
+     },
+     "N": 3.6000000000000005,
+     "N_upper": 6.300000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.8999999999999999
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 0.7000000000000001
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.5
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "264c25b05d20a4be913fc5c40ecfdb748c2a758750b5d5c6704bf919b95c3f55",
+     "usage": {
+      "input_tokens": 24479,
+      "output_tokens": 759
+     },
+     "N": 3.6,
+     "N_upper": 6.800000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 0.7000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6,
+       "undetermined": 0.8999999999999999
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.6
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "264c25b05d20a4be913fc5c40ecfdb748c2a758750b5d5c6704bf919b95c3f55",
+     "usage": {
+      "input_tokens": 24479,
+      "output_tokens": 759
+     },
+     "N": 3.7,
+     "N_upper": 6.7,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.8999999999999999
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 0.7000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.8
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8999999999999999,
+       "undetermined": 0.6
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4e",
+   "task": "S02",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-686283740a8d5ed76c434026",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-686283740a8d5ed76c434026/work/entrega/graficos/01_nivel_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-686283740a8d5ed76c434026/work/entrega/graficos/02_aberturas_nivel.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-686283740a8d5ed76c434026/work/entrega/graficos/03_total_yoy_3msaar.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-686283740a8d5ed76c434026/work/entrega/graficos/04_aberturas_setembro.png"
+   ],
+   "N_choice_mean": 10.0,
+   "N_mean": 9.666666666666666,
+   "N_sd": 0.0577350269189634,
+   "N_upper_mean": 11.4,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "970baab6bb5293b59e2334175a2665827142260887aa8b9816c8bcb7b210aeb0",
+     "usage": {
+      "input_tokens": 17608,
+      "output_tokens": 759
+     },
+     "N": 9.700000000000001,
+     "N_upper": 11.4,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.9,
+       "undetermined": 0.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 1.4000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_07",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "970baab6bb5293b59e2334175a2665827142260887aa8b9816c8bcb7b210aeb0",
+     "usage": {
+      "input_tokens": 17608,
+      "output_tokens": 759
+     },
+     "N": 9.700000000000001,
+     "N_upper": 11.6,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.9,
+       "undetermined": 0.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 1.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_07",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "970baab6bb5293b59e2334175a2665827142260887aa8b9816c8bcb7b210aeb0",
+     "usage": {
+      "input_tokens": 17608,
+      "output_tokens": 759
+     },
+     "N": 9.6,
+     "N_upper": 11.200000000000001,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.9,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 1.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_07",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A4s",
+   "task": "S02",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-a4-non-anthropic-20261105-v1",
+   "final_attempt_id": "a4-result-a33dcf9cdf766c5c09ef470f",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       2.99,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       3.46,
+       0.15
+      ],
+      [
+       "YoY ajustado por calendário [2026-09]",
+       3.3,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       3.32,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         2.67,
+         0.15
+        ],
+        [
+         2.99,
+         0.15
+        ],
+        [
+         3.46,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         3.3,
+         0.15
+        ],
+        [
+         3.32,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR [2026-08]",
+       5.4,
+       0.3
+      ],
+      [
+       "3m/3m SAAR [2026-09]",
+       0.74,
+       0.3
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         5.4,
+         0.3
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.74,
+         0.3
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       1.21,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       1.23,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       2.1,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       7.9,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         1.21,
+         0.15
+        ],
+        [
+         1.23,
+         0.15
+        ],
+        [
+         2.1,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         7.9,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08 ou 2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário [2026-08]",
+       3.86,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-08]",
+       4.24,
+       0.15
+      ],
+      [
+       "YoY série original [2026-08]",
+       4.54,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário [2026-09]",
+       0.22,
+       0.15
+      ]
+     ],
+     "periods": [
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-08",
+       [
+        [
+         3.86,
+         0.15
+        ],
+        [
+         4.24,
+         0.15
+        ],
+        [
+         4.54,
+         0.15
+        ]
+       ]
+      ],
+      [
+       "2026-09",
+       [
+        [
+         0.22,
+         0.15
+        ]
+       ]
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-a33dcf9cdf766c5c09ef470f/work/entrega/01_nivel_total.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-a33dcf9cdf766c5c09ef470f/work/entrega/02_origem.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-a33dcf9cdf766c5c09ef470f/work/entrega/03_grupos.png",
+    "execucoes/pilot-a4-non-anthropic-20261105-v1/evaluation-snapshots/a4-result-a33dcf9cdf766c5c09ef470f/work/entrega/04_taxas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 2.733333333333334,
+   "N_sd": 0.1527525231651948,
+   "N_upper_mean": 4.033333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "aae59ed6ccb98abcfde4e18424a3120524d89ef55225405d94f3acca4f7f9434",
+     "usage": {
+      "input_tokens": 17597,
+      "output_tokens": 759
+     },
+     "N": 2.6,
+     "N_upper": 3.8,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.4000000000000001,
+       "undetermined": 0.7000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.2,
+       "undetermined": 0.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "aae59ed6ccb98abcfde4e18424a3120524d89ef55225405d94f3acca4f7f9434",
+     "usage": {
+      "input_tokens": 17597,
+      "output_tokens": 759
+     },
+     "N": 2.9000000000000004,
+     "N_upper": 4.1000000000000005,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "aae59ed6ccb98abcfde4e18424a3120524d89ef55225405d94f3acca4f7f9434",
+     "usage": {
+      "input_tokens": 17597,
+      "output_tokens": 759
+     },
+     "N": 2.7,
+     "N_upper": 4.2,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 0.8999999999999999
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.1,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_11"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

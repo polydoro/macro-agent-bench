@@ -1,0 +1,28 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A1,S11,claude-fable-5-1,scored,30.33,30.0,0.33,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,claude-haiku-5-5,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous
+A1,S11,claude-opus-5-5,scored,30.33,30.0,0.33,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,claude-sonnet-5-5,scored,32.33,30.0,2.33,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,gpt-6-astra,scored,30.67,30.0,0.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,gpt-6-luna,scored,36.67,30.0,6.67,
+A1,S11,gpt-6.1-sol,scored,30.0,30.0,0.0,demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,grok-4.7,scored,30.0,30.0,0.0,
+A1,S11,kimi-code/k3.1-pro,scored,31.67,30.0,1.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,claude-fable-5-1,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,claude-haiku-5-5,scored,38.33,30.0,8.33,total_native:manual demanda_empresas_native:manual padroes_habitacao_native:manual demanda_habitacao_native:manual padroes_consumo_native:manual demanda_consumo_native:manual
+A2,S11,claude-opus-5-5,scored,31.0,30.0,1.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,claude-sonnet-5-5,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,gpt-6-astra,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,gpt-6-luna,scored,36.33,30.0,6.33,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,gpt-6.1-sol,scored,33.67,30.0,3.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S11,kimi-code/k3.1-pro,verified_absence,0.0,0.0,0.0,
+A3,S11,claude-fable-5-1,scored,31.67,30.0,1.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous
+A3,S11,claude-haiku-5-5,scored,12.67,12.0,0.67,total_native:none demanda_empresas_native:none padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A3,S11,claude-opus-5-5,scored,40.0,30.0,10.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A3,S11,claude-sonnet-5-5,scored,30.0,30.0,0.0,total_native:manual demanda_empresas_native:manual padroes_habitacao_native:manual demanda_habitacao_native:manual padroes_consumo_native:manual demanda_consumo_native:manual
+A3,S11,gpt-6-astra,scored,31.0,30.0,1.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A3,S11,gpt-6-luna,scored,31.67,30.0,1.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous
+A3,S11,gpt-6.1-sol,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A3,S11,grok-4.7,scored,30.0,30.0,0.0,total_native:manual demanda_empresas_native:manual padroes_habitacao_native:manual demanda_habitacao_native:manual padroes_consumo_native:manual demanda_consumo_native:manual
+A3,S11,kimi-code/k3.1-pro,verified_absence,0.0,0.0,0.0,

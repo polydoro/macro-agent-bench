@@ -1,0 +1,4002 @@
+{
+ "rubric_version": "visual-rubric-v1-provisional-7",
+ "rubric_sha256": {
+  "S10": "3b78335c5f57901df3c334f26bb9f5511ccfeef31bea9786f53a31948e693442"
+ },
+ "model_requested": "jev-1.14.0",
+ "status": "provisional, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-fable-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "L_mean": 0.0,
+   "U_mean": 0.0
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-haiku-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "6bc62fd73ce5520d7e920e5892be15707de413783ec323ba3dcf1b91c3b48471",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11570,
+      "output_tokens": 280
+     },
+     "L": 58.349999999999994,
+     "U": 58.349999999999994,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.4,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "6bc62fd73ce5520d7e920e5892be15707de413783ec323ba3dcf1b91c3b48471",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11570,
+      "output_tokens": 280
+     },
+     "L": 58.35,
+     "U": 58.35,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.450000000000001,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "6bc62fd73ce5520d7e920e5892be15707de413783ec323ba3dcf1b91c3b48471",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11570,
+      "output_tokens": 280
+     },
+     "L": 58.5,
+     "U": 58.5,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 58.4,
+   "L_sd": 0.0866025403784451,
+   "L_min": 58.349999999999994,
+   "L_max": 58.5,
+   "U_mean": 58.4,
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-haiku-primary/work/entrega/01_taxa_desemprego_nivel.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-haiku-primary/work/entrega/02_taxa_variacao_aa_e_3m.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-haiku-primary/work/entrega/03_desempregados_nivel_e_variacao.png"
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-opus-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "b3dbb9401b4d11244ef0fd000aa78ad152e4f22107ce549875e309b7fc4cbfb2",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11848,
+      "output_tokens": 280
+     },
+     "L": 55.75,
+     "U": 55.95,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.350000000000001,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 6.949999999999999,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "b3dbb9401b4d11244ef0fd000aa78ad152e4f22107ce549875e309b7fc4cbfb2",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11848,
+      "output_tokens": 280
+     },
+     "L": 55.95,
+     "U": 56.150000000000006,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.350000000000001,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.1,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "b3dbb9401b4d11244ef0fd000aa78ad152e4f22107ce549875e309b7fc4cbfb2",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11848,
+      "output_tokens": 280
+     },
+     "L": 55.9,
+     "U": 56.0,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.4,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 6.950000000000001,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 55.86666666666667,
+   "L_sd": 0.10408329997330755,
+   "L_min": 55.75,
+   "L_max": 55.95,
+   "U_mean": 56.03333333333334,
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-opus-primary/work/entrega/g1_desemprego_total.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-opus-primary/work/entrega/g2_aberturas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-opus-primary/work/entrega/g3_taxas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-opus-primary/work/entrega/g4_ocupacao_participacao.png"
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-sonnet-low-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "e1042cc3e5da7d22987fc887c889122b87ef234dd7100966b86098ddfb831e83",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 12526,
+      "output_tokens": 280
+     },
+     "L": 54.699999999999996,
+     "U": 55.2,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.65,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.4,
+       "undetermined": 0.4
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.35,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "e1042cc3e5da7d22987fc887c889122b87ef234dd7100966b86098ddfb831e83",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 12526,
+      "output_tokens": 280
+     },
+     "L": 55.3,
+     "U": 55.6,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.65,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.6,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.5,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.800000000000001,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "e1042cc3e5da7d22987fc887c889122b87ef234dd7100966b86098ddfb831e83",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 12526,
+      "output_tokens": 280
+     },
+     "L": 54.800000000000004,
+     "U": 55.10000000000001,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.6,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.6,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.5,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.35,
+       "undetermined": 0.1
+      }
+     }
+    }
+   ],
+   "L_mean": 54.93333333333334,
+   "L_sd": 0.3214550253664309,
+   "L_min": 54.699999999999996,
+   "L_max": 55.3,
+   "U_mean": 55.300000000000004,
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-sonnet-low-normal-primary/work/entrega/g1_desemprego.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-sonnet-low-normal-primary/work/entrega/g2_ocupacao_forca.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-sonnet-low-normal-primary/work/entrega/g3_sexo_idade.png"
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-codex-astra-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a1814eb797938ad8621c683fc57f628328e85b802f2bd7a570189d1902d71879",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 15437,
+      "output_tokens": 280
+     },
+     "L": 55.9,
+     "U": 56.099999999999994,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.3,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.3,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a1814eb797938ad8621c683fc57f628328e85b802f2bd7a570189d1902d71879",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 15437,
+      "output_tokens": 280
+     },
+     "L": 56.10000000000001,
+     "U": 56.3,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.450000000000001,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.199999999999999,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a1814eb797938ad8621c683fc57f628328e85b802f2bd7a570189d1902d71879",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 15437,
+      "output_tokens": 280
+     },
+     "L": 56.45,
+     "U": 56.64999999999999,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.5,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.45,
+       "undetermined": 0.1
+      }
+     }
+    }
+   ],
+   "L_mean": 56.150000000000006,
+   "L_sd": 0.2783882181415025,
+   "L_min": 55.9,
+   "L_max": 56.45,
+   "U_mean": 56.349999999999994,
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/01_desemprego.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/02_aberturas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/03_niveis.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/04_variacoes_taxas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/05_emprego_crescimento.png"
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-codex-luna-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "e59169982bca206af64db37e9eed0af5b6e05a156b774e2975107f772fe3d6e5",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 5261,
+      "output_tokens": 282
+     },
+     "L": 37.65,
+     "U": 37.65,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.949999999999999,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "e59169982bca206af64db37e9eed0af5b6e05a156b774e2975107f772fe3d6e5",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 5261,
+      "output_tokens": 282
+     },
+     "L": 37.849999999999994,
+     "U": 37.95,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.1
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.149999999999999,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "e59169982bca206af64db37e9eed0af5b6e05a156b774e2975107f772fe3d6e5",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 5261,
+      "output_tokens": 282
+     },
+     "L": 37.8,
+     "U": 37.8,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.0,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 37.76666666666666,
+   "L_sd": 0.1040832999733047,
+   "L_min": 37.65,
+   "L_max": 37.849999999999994,
+   "U_mean": 37.800000000000004,
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-luna-primary/work/entrega/desemprego_suecia_set_2026.png"
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-codex-sol-low-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "31e7bfc6b097fb2703104d83343e4edc4320d185cc10558b2ec82b571f149d8f",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 10340,
+      "output_tokens": 280
+     },
+     "L": 53.449999999999996,
+     "U": 54.25,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.100000000000001,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.2,
+       "undetermined": 0.6
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 6.799999999999999,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "31e7bfc6b097fb2703104d83343e4edc4320d185cc10558b2ec82b571f149d8f",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 10340,
+      "output_tokens": 280
+     },
+     "L": 53.400000000000006,
+     "U": 53.99999999999999,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.550000000000001,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.4,
+       "undetermined": 0.4
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.0,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "31e7bfc6b097fb2703104d83343e4edc4320d185cc10558b2ec82b571f149d8f",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 10340,
+      "output_tokens": 280
+     },
+     "L": 53.49999999999999,
+     "U": 53.99999999999999,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.6,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.4,
+       "undetermined": 0.4
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.05,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 53.449999999999996,
+   "L_sd": 0.049999999999993605,
+   "L_min": 53.400000000000006,
+   "L_max": 53.49999999999999,
+   "U_mean": 54.083333333333336,
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-sol-low-normal-primary/work/entrega/01_desemprego.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-sol-low-normal-primary/work/entrega/02_aberturas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-sol-low-normal-primary/work/entrega/03_variacoes.png"
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-grok-low-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "L_mean": 0.0,
+   "U_mean": 0.0
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-kimi-pro-low-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "L_mean": 0.0,
+   "U_mean": 0.0
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-claude-fable-high-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "L_mean": 0.0,
+   "U_mean": 0.0
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-claude-haiku-high-normal-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "df0b42dc4bce6fd56a9e26128cdabe4d242f84e6e7133303c14cef3f8ee57856",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11043,
+      "output_tokens": 280
+     },
+     "L": 56.24999999999999,
+     "U": 56.349999999999994,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.149999999999999,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.299999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.9,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "df0b42dc4bce6fd56a9e26128cdabe4d242f84e6e7133303c14cef3f8ee57856",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11043,
+      "output_tokens": 280
+     },
+     "L": 56.2,
+     "U": 56.2,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.8,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.299999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.200000000000001,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "df0b42dc4bce6fd56a9e26128cdabe4d242f84e6e7133303c14cef3f8ee57856",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11043,
+      "output_tokens": 280
+     },
+     "L": 56.15,
+     "U": 56.25,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.25,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.350000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.65,
+       "undetermined": 0.1
+      }
+     }
+    }
+   ],
+   "L_mean": 56.199999999999996,
+   "L_sd": 0.04999999999999716,
+   "L_min": 56.15,
+   "L_max": 56.24999999999999,
+   "U_mean": 56.26666666666667,
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/01_taxa_nivel_sa.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/02_variacao_yoy_e_3m_pp.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/03_desempregados_sa_mil.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/04_recortes_sexo_idade_sa.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/05_referencia_scb_eurostat.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/06_contexto_participacao_emprego_sa.png"
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-claude-opus-high-normal-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "9004cf9691d24bef1991220e42103cdef91d7057eb4f61fe73a89680c26dff05",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 18515,
+      "output_tokens": 280
+     },
+     "L": 58.0,
+     "U": 58.0,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.149999999999999,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.299999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "9004cf9691d24bef1991220e42103cdef91d7057eb4f61fe73a89680c26dff05",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 18515,
+      "output_tokens": 280
+     },
+     "L": 57.9,
+     "U": 57.9,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.2,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.25,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "9004cf9691d24bef1991220e42103cdef91d7057eb4f61fe73a89680c26dff05",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 18515,
+      "output_tokens": 280
+     },
+     "L": 58.400000000000006,
+     "U": 58.400000000000006,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.450000000000001,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.25,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 58.1,
+   "L_sd": 0.2645751311064628,
+   "L_min": 57.9,
+   "L_max": 58.400000000000006,
+   "U_mean": 58.1,
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g01_taxa_desemprego_nivel.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g02_taxa_desemprego_aberturas.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g03_taxa_desemprego_variacoes_pp.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g04_niveis_ocupados_desempregados_FT.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g05_ocupados_FT_yoy_3msaar.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g06_taxa_emprego_participacao.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g07_desemprego_longa_duracao.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g08_arbetsformedlingen_registrados.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g09_comparacao_internacional.png"
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-claude-sonnet-high-normal-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "8433fbb255e8b1a39f22840323d9c98e43dc15f0d79244e8decbd23da2fa28c6",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 17559,
+      "output_tokens": 280
+     },
+     "L": 58.89999999999999,
+     "U": 58.89999999999999,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.299999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "8433fbb255e8b1a39f22840323d9c98e43dc15f0d79244e8decbd23da2fa28c6",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 17559,
+      "output_tokens": 280
+     },
+     "L": 58.75,
+     "U": 58.75,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.149999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "8433fbb255e8b1a39f22840323d9c98e43dc15f0d79244e8decbd23da2fa28c6",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 17559,
+      "output_tokens": 280
+     },
+     "L": 58.85,
+     "U": 58.85,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.350000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 58.833333333333336,
+   "L_sd": 0.07637626158259377,
+   "L_min": 58.75,
+   "L_max": 58.89999999999999,
+   "U_mean": 58.833333333333336,
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/01_nivel_total_SA.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/02_aberturas_taxa_desemprego_SA.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/03_taxas_total.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/04_aberturas_variacao_taxa.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/05_nsa_sa_tendencia.png"
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-codex-astra-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "0b6e719532c526c48d029e824b644d546a8275a11a5434470fa9254d70725309",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 14299,
+      "output_tokens": 280
+     },
+     "L": 57.199999999999996,
+     "U": 57.199999999999996,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.9,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "0b6e719532c526c48d029e824b644d546a8275a11a5434470fa9254d70725309",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 14299,
+      "output_tokens": 280
+     },
+     "L": 57.15,
+     "U": 57.15,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.0,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "0b6e719532c526c48d029e824b644d546a8275a11a5434470fa9254d70725309",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 14299,
+      "output_tokens": 280
+     },
+     "L": 57.4,
+     "U": 57.4,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.200000000000001,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 57.25,
+   "L_sd": 0.13228756555323007,
+   "L_min": 57.15,
+   "L_max": 57.4,
+   "U_mean": 57.25,
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/01_desemprego.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/02_atividade_niveis.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/03_aberturas.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/04_variacoes_pp.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/05_atividade_taxas.png"
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-codex-luna-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "f4b44709967fa2881bdd9d90a0f561b167aafec48de070931b5f0e080007b5ea",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8420,
+      "output_tokens": 280
+     },
+     "L": 55.95,
+     "U": 56.15,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 6.550000000000001,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "f4b44709967fa2881bdd9d90a0f561b167aafec48de070931b5f0e080007b5ea",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8420,
+      "output_tokens": 280
+     },
+     "L": 55.9,
+     "U": 56.00000000000001,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 6.35,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "f4b44709967fa2881bdd9d90a0f561b167aafec48de070931b5f0e080007b5ea",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8420,
+      "output_tokens": 280
+     },
+     "L": 55.8,
+     "U": 56.0,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 6.3,
+       "undetermined": 0.1
+      }
+     }
+    }
+   ],
+   "L_mean": 55.88333333333333,
+   "L_sd": 0.07637626158259997,
+   "L_min": 55.8,
+   "L_max": 55.95,
+   "U_mean": 56.050000000000004,
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-luna-high-normal-primary/work/entrega/desemprego_suecia_sexo.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-luna-high-normal-primary/work/entrega/desemprego_suecia_taxa.png"
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-codex-sol-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "759dbac52011ccf78a3a79043d73b966caabdf5cde4e1a3892e38be8a170ae51",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 15864,
+      "output_tokens": 280
+     },
+     "L": 57.5,
+     "U": 57.5,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.399999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.4,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "759dbac52011ccf78a3a79043d73b966caabdf5cde4e1a3892e38be8a170ae51",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 15864,
+      "output_tokens": 280
+     },
+     "L": 57.4,
+     "U": 57.4,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.350000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.4,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "759dbac52011ccf78a3a79043d73b966caabdf5cde4e1a3892e38be8a170ae51",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 15864,
+      "output_tokens": 280
+     },
+     "L": 57.449999999999996,
+     "U": 57.449999999999996,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.299999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.4,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 57.449999999999996,
+   "L_sd": 0.05000000000000071,
+   "L_min": 57.4,
+   "L_max": 57.5,
+   "U_mean": 57.449999999999996,
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/01_desemprego_total.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/02_niveis_emprego.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/03_aberturas.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/04_crescimento_emprego.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/05_variacoes_pp.png"
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-grok-high-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "L_mean": 0.0,
+   "U_mean": 0.0
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-kimi-pro-high-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "L_mean": 0.0,
+   "U_mean": 0.0
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-codex-sol-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "83fbdecd2dc0242b25c1e4aff81182380beae0b49f15a4c7a58a79e74c3a9bb5",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 15173,
+      "output_tokens": 280
+     },
+     "L": 58.8,
+     "U": 58.8,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.450000000000001,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.8,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "83fbdecd2dc0242b25c1e4aff81182380beae0b49f15a4c7a58a79e74c3a9bb5",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 15173,
+      "output_tokens": 280
+     },
+     "L": 59.5,
+     "U": 59.5,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "83fbdecd2dc0242b25c1e4aff81182380beae0b49f15a4c7a58a79e74c3a9bb5",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 15173,
+      "output_tokens": 280
+     },
+     "L": 59.349999999999994,
+     "U": 59.349999999999994,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.75,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 59.21666666666666,
+   "L_sd": 0.3685557397916003,
+   "L_min": 58.8,
+   "L_max": 59.5,
+   "U_mean": 59.21666666666666,
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-sol-low-normal-primary/work/entrega/01_niveis.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-sol-low-normal-primary/work/entrega/02_desemprego.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-sol-low-normal-primary/work/entrega/03_variacoes.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-sol-low-normal-primary/work/entrega/04_trimestre.png"
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-claude-haiku-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "b0b886e70380387e7c89b50d7bd2f28f2413191996bc849a0e7b8cd1bb9c0939",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8392,
+      "output_tokens": 280
+     },
+     "L": 53.1,
+     "U": 53.3,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.1,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.1,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.8,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.6,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 6.5,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "b0b886e70380387e7c89b50d7bd2f28f2413191996bc849a0e7b8cd1bb9c0939",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8392,
+      "output_tokens": 280
+     },
+     "L": 52.55,
+     "U": 52.95,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.049999999999999,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.0,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.6,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.5,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 6.4,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "b0b886e70380387e7c89b50d7bd2f28f2413191996bc849a0e7b8cd1bb9c0939",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8392,
+      "output_tokens": 280
+     },
+     "L": 52.550000000000004,
+     "U": 52.949999999999996,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.1,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.25,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.6,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.4,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 6.2,
+       "undetermined": 0.1
+      }
+     }
+    }
+   ],
+   "L_mean": 52.73333333333333,
+   "L_sd": 0.3175426480542946,
+   "L_min": 52.55,
+   "L_max": 53.1,
+   "U_mean": 53.06666666666666,
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-haiku-primary/work/entrega/fig1_desempregados_nivel_SA.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-haiku-primary/work/entrega/fig2_taxa_e_variacoes.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-haiku-primary/work/entrega/fig3_aberturas_taxa_SA.png"
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-claude-sonnet-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a02608212d1c96b20da2166ea16810e7ff71803a48a9b9667c7475c4cfb6ade8",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11846,
+      "output_tokens": 280
+     },
+     "L": 58.15,
+     "U": 58.15,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.350000000000001,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a02608212d1c96b20da2166ea16810e7ff71803a48a9b9667c7475c4cfb6ade8",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11846,
+      "output_tokens": 280
+     },
+     "L": 58.1,
+     "U": 58.1,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.4,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.5,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a02608212d1c96b20da2166ea16810e7ff71803a48a9b9667c7475c4cfb6ade8",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 11846,
+      "output_tokens": 280
+     },
+     "L": 58.24999999999999,
+     "U": 58.24999999999999,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.4,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 58.166666666666664,
+   "L_sd": 0.07637626158259299,
+   "L_min": 58.1,
+   "L_max": 58.24999999999999,
+   "U_mean": 58.166666666666664,
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g1_taxa_desemprego.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g2_variacao_pp.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g3_ocupados_nivel.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g4_ocupados_forca_taxas.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g5_aberturas.png"
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-kimi-pro-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "dcd155d6b9ff28afdbd3793734d26e84adef4ef64e0d967e1006e692a0307248",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8064,
+      "output_tokens": 280
+     },
+     "L": 55.8,
+     "U": 56.0,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.2,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.5,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.4,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.5,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.2,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "dcd155d6b9ff28afdbd3793734d26e84adef4ef64e0d967e1006e692a0307248",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8064,
+      "output_tokens": 280
+     },
+     "L": 56.199999999999996,
+     "U": 56.199999999999996,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.4,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.8,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.7,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.399999999999999,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "dcd155d6b9ff28afdbd3793734d26e84adef4ef64e0d967e1006e692a0307248",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8064,
+      "output_tokens": 280
+     },
+     "L": 56.2,
+     "U": 56.4,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.0,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.450000000000001,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.6,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.85,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.299999999999999,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 56.06666666666666,
+   "L_sd": 0.23094010767585155,
+   "L_min": 55.8,
+   "L_max": 56.2,
+   "U_mean": 56.199999999999996,
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-kimi-pro-low-normal-primary/work/entrega/figura.png"
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-claude-fable-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a21e8a7598ffb49bff8c2dec0869a72bb3455d61933a2f0e2cd361619e63b248",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 18987,
+      "output_tokens": 280
+     },
+     "L": 56.95,
+     "U": 57.150000000000006,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.4,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.450000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.15,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a21e8a7598ffb49bff8c2dec0869a72bb3455d61933a2f0e2cd361619e63b248",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 18987,
+      "output_tokens": 280
+     },
+     "L": 56.7,
+     "U": 56.800000000000004,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.200000000000001,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.399999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.200000000000001,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a21e8a7598ffb49bff8c2dec0869a72bb3455d61933a2f0e2cd361619e63b248",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 18987,
+      "output_tokens": 280
+     },
+     "L": 57.1,
+     "U": 57.3,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.3,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.5,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.35,
+       "undetermined": 0.1
+      }
+     }
+    }
+   ],
+   "L_mean": 56.916666666666664,
+   "L_sd": 0.20207259421636836,
+   "L_min": 56.7,
+   "L_max": 57.1,
+   "U_mean": 57.083333333333336,
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig1_nivel_sa_desempregados_empregados.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig2_taxa_desemprego.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig3_aberturas_idade_sexo.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig4_taxas_emprego_participacao.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig5_emprego_desempregados_yoy_3msaar.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig6_taxa_desemprego_variacoes_pp.png"
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-grok-low-normal-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "99f3d9455f72038746033487d22f48dc41726b906348805294a65d7e424dfab8",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 19352,
+      "output_tokens": 280
+     },
+     "L": 57.05,
+     "U": 57.05,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.75,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.55,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "99f3d9455f72038746033487d22f48dc41726b906348805294a65d7e424dfab8",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 19352,
+      "output_tokens": 280
+     },
+     "L": 56.6,
+     "U": 56.6,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.6,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.350000000000001,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "99f3d9455f72038746033487d22f48dc41726b906348805294a65d7e424dfab8",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 19352,
+      "output_tokens": 280
+     },
+     "L": 57.3,
+     "U": 57.3,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.95,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.85,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.7,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 56.98333333333333,
+   "L_sd": 0.3547299442298771,
+   "L_min": 56.6,
+   "L_max": 57.3,
+   "U_mean": 56.98333333333333,
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/01_taxa_total.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/02_aberturas_taxa_tc.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/03_variacao_pontos_percentuais.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/04_nivel_pessoas.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/05_origem.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/06_emprego_participacao.png"
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-codex-luna-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "e1c88a339bed38f0fe8cf48c1d8f722f33df34ebf3ac28b2ad8a48abcc18db70",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8307,
+      "output_tokens": 280
+     },
+     "L": 50.55,
+     "U": 50.95,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.9,
+       "undetermined": 0.1
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.5,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.2,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.0,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 4.95,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "e1c88a339bed38f0fe8cf48c1d8f722f33df34ebf3ac28b2ad8a48abcc18db70",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8307,
+      "output_tokens": 280
+     },
+     "L": 49.849999999999994,
+     "U": 50.24999999999999,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.35,
+       "undetermined": 0.1
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.3,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.0,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.049999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 5.15,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "e1c88a339bed38f0fe8cf48c1d8f722f33df34ebf3ac28b2ad8a48abcc18db70",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8307,
+      "output_tokens": 280
+     },
+     "L": 50.349999999999994,
+     "U": 50.65,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.9,
+       "undetermined": 0.1
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.5,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 18.799999999999997,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.0,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 5.15,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 50.25,
+   "L_sd": 0.3605551275464001,
+   "L_min": 49.849999999999994,
+   "L_max": 50.55,
+   "U_mean": 50.61666666666667,
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-luna-primary/work/entrega/01_taxa_desemprego_mensal.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-luna-primary/work/entrega/02_desempregados_nsa.png"
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-codex-astra-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "24fc4b97dac843f35f12371c3d0b00c78fc0052c618ac00cbd476ba7ef286f0c",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 12076,
+      "output_tokens": 280
+     },
+     "L": 55.6,
+     "U": 55.6,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.049999999999999,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.1,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "24fc4b97dac843f35f12371c3d0b00c78fc0052c618ac00cbd476ba7ef286f0c",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 12076,
+      "output_tokens": 280
+     },
+     "L": 55.45,
+     "U": 55.45,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.9,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.1,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "24fc4b97dac843f35f12371c3d0b00c78fc0052c618ac00cbd476ba7ef286f0c",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 12076,
+      "output_tokens": 280
+     },
+     "L": 55.55,
+     "U": 55.55,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.95,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.15,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 55.53333333333333,
+   "L_sd": 0.0763762615825961,
+   "L_min": 55.45,
+   "L_max": 55.6,
+   "U_mean": 55.53333333333333,
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-astra-primary/work/entrega/01_niveis.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-astra-primary/work/entrega/02_aberturas.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-astra-primary/work/entrega/03_variacoes.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-astra-primary/work/entrega/04_trimestral.png"
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-claude-opus-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "d86e8a12b57131f478e254ecf11da90c486956f3e9c0a8263c00858d657527fe",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8176,
+      "output_tokens": 280
+     },
+     "L": 55.5,
+     "U": 55.800000000000004,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.049999999999999,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 19.8,
+       "undetermined": 0.2
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.3,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "d86e8a12b57131f478e254ecf11da90c486956f3e9c0a8263c00858d657527fe",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8176,
+      "output_tokens": 280
+     },
+     "L": 55.85,
+     "U": 55.95,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.299999999999999,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.1,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "d86e8a12b57131f478e254ecf11da90c486956f3e9c0a8263c00858d657527fe",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 8176,
+      "output_tokens": 280
+     },
+     "L": 55.5,
+     "U": 55.8,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 8.8,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.55,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.3,
+       "undetermined": 0.2
+      }
+     }
+    }
+   ],
+   "L_mean": 55.61666666666667,
+   "L_sd": 0.20207259421636983,
+   "L_min": 55.5,
+   "L_max": 55.85,
+   "U_mean": 55.85,
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-opus-primary/work/entrega/suecia_desemprego.png"
+   ]
+  }
+ ]
+}

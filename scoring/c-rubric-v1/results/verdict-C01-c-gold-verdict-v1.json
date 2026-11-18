@@ -1,0 +1,1442 @@
+[
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "one-c01-claude-fable-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "one-c01-claude-haiku-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "one-c01-claude-opus-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "one-c01-claude-sonnet-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "one-c01-codex-astra-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "one-c01-codex-luna-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "one-c01-codex-sol-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "grok-4.7",
+  "final_attempt_id": "one-c01-grok-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "one-c01-kimi-pro-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C01",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a2-c01-claude-fable-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C01",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a2-c01-claude-haiku-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C01",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a2-c01-claude-opus-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C01",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a2-c01-claude-sonnet-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C01",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a2-c01-codex-astra-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C01",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a2-c01-codex-luna-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C01",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a2-c01-codex-sol-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C01",
+  "model": "grok-4.7",
+  "final_attempt_id": "a2-c01-grok-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C01",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a2-c01-kimi-pro-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C01",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a3-c01-codex-astra-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C01",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a3-c01-claude-haiku-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C01",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a3-c01-codex-luna-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C01",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a3-c01-codex-sol-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C01",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a3-c01-claude-sonnet-low-normal-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SEM_RECUPERACAO"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_veredito": "SEM_RECUPERACAO"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_veredito": "SEM_RECUPERACAO"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C01",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a3-c01-claude-opus-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C01",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a3-c01-claude-fable-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C01",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a3-c01-kimi-pro-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C01",
+  "model": "grok-4.7",
+  "final_attempt_id": "a3-c01-grok-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C01",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-05e881d3dc58dd997c21ae33",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C01",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-294c7743710ca44467a10adb",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C01",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-0fece75290d6803056dea3c4",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C01",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-511148d67245d84bceb4c00e",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C01",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-78f2eb5835467a9cd987b20b",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C01",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-823a0e42225bf74d6ddcfdd1",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C01",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-234cabd87bc186068d76a142",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C01",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-1d57cd8e0648962a658edc09",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C01",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-fa07852abb1abdd9529c2ea3",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C01",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-4b86b9ef4a54621365b660ed",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C01",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-2fe89bfcfce9498e2975c401",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C01",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-96f9e7efe2c75ff8b7a06d26",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C01",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-40bcd5f4a0aac1986edde1b6",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C01",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-82f022e4c1eb60443531d71d",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C01",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-7b5fa757a5cd9a611011cab6",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C01",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-cd9865dcc1e5caf86e6be196",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C01",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-8feb64ba60c10963643ca37f",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C01",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-0b34a448344af59348acfd4e",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ }
+]

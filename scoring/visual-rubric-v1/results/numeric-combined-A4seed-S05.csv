@@ -1,0 +1,2 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A1,S05,grok-4.7,verified_absence,0.0,0.0,0.0,

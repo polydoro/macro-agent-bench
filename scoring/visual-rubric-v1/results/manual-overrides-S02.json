@@ -1,0 +1,10 @@
+[
+ {"phase": "A1", "model": "claude-haiku-5-5", "question": "N_total_yoy", "correct": true,
+  "note": "dados/destatis_auftragseingang_vm_real_sa.csv, 2026-08, pct_vj_original_tabela_destatis = 3.5 (YoY on the original series, admitted 3.46 +/- 0.15). Header label 'vj' not matched by the automatic check."},
+ {"phase": "A2", "model": "claude-haiku-5-5", "question": "N_total_3m", "correct": true,
+  "note": "entrega/serie_completa_taxas.csv, 2026-08, 3msaar_pct = 5,4 (admitted 5.40 +/- 0.3). Automatic check only saw the non-annualised 1,3 in conferencia_com_divulgacao.csv."},
+ {"phase": "A3", "model": "kimi-code/k3.1-pro", "question": "N_total_yoy", "correct": true,
+  "note": "entrega/dados_e_calculos.csv, 2026-08, yoy_calendario_pct = 2.70 (calendar-adjusted YoY, admitted 2.67 +/- 0.15). Headers carry no 'total' label."},
+ {"phase": "A3", "model": "kimi-code/k3.1-pro", "question": "N_total_3m", "correct": true,
+  "note": "entrega/dados_e_calculos.csv, 2026-08, tresmsaar_pct = 5.40 (admitted 5.40 +/- 0.3)."}
+]

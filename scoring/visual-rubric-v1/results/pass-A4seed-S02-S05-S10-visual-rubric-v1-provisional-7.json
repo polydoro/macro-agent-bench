@@ -1,0 +1,425 @@
+{
+ "rubric_version": "visual-rubric-v1-provisional-7",
+ "rubric_sha256": {
+  "S02": "109e4c7aba6816683b0409c5e18707985245e15134d650882a93af9b262d5fb2",
+  "S05": "481c9bc2d975e100f217d5ebefe6b094accfb79318a314a39c23653d37ca27d9",
+  "S10": "3b78335c5f57901df3c334f26bb9f5511ccfeef31bea9786f53a31948e693442"
+ },
+ "model_requested": "jev-1.14.0",
+ "status": "provisional, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-kimi-pro-low-normal-r1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "L_mean": 0.0,
+   "U_mean": 0.0
+  },
+  {
+   "phase": "A1",
+   "task": "S05",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-one-s05-low-normal-20261027-v11",
+   "final_attempt_id": "one-s05-grok-low-normal-primary",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "L_mean": 0.0,
+   "U_mean": 0.0
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-fable-primary",
+   "disposition": "scored",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "7a3e95d30f531f21f84a75bb0e8ade055b0b750cba2e99a56f037f518890e908",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 14685,
+      "output_tokens": 280
+     },
+     "L": 56.7,
+     "U": 56.9,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.4,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.800000000000001,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "7a3e95d30f531f21f84a75bb0e8ade055b0b750cba2e99a56f037f518890e908",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 14685,
+      "output_tokens": 280
+     },
+     "L": 56.650000000000006,
+     "U": 56.85,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.25,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.949999999999999,
+       "undetermined": 0.1
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "7a3e95d30f531f21f84a75bb0e8ade055b0b750cba2e99a56f037f518890e908",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 14685,
+      "output_tokens": 280
+     },
+     "L": 56.25,
+     "U": 56.45,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.1,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.65,
+       "undetermined": 0.1
+      }
+     }
+    }
+   ],
+   "L_mean": 56.53333333333334,
+   "L_sd": 0.24664414311581467,
+   "L_min": 56.25,
+   "L_max": 56.7,
+   "U_mean": 56.73333333333333,
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g1_nivel_sa_ocupados_desempregados.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g2_taxa_desemprego_nsa_sa.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g3_aberturas_idade_sexo_sa.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g4_desemprego_variacoes_pp.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g5_ocupados_yoy_3msaar.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g6_taxas_emprego_participacao_sa.png"
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-grok-low-normal-primary",
+   "disposition": "scored",
+   "status": "judged",
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "5b1371e627fb0d24aa70455be4f6806d4faabd65a0e3d5e1b1713a78987700c6",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 24375,
+      "output_tokens": 280
+     },
+     "L": 56.15,
+     "U": 56.15,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.450000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.3,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "5b1371e627fb0d24aa70455be4f6806d4faabd65a0e3d5e1b1713a78987700c6",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 24375,
+      "output_tokens": 280
+     },
+     "L": 56.95,
+     "U": 56.95,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.85,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.450000000000001,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.75,
+       "undetermined": 0.0
+      }
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "5b1371e627fb0d24aa70455be4f6806d4faabd65a0e3d5e1b1713a78987700c6",
+     "model": "jev-1.14.0",
+     "usage": {
+      "input_tokens": 24375,
+      "output_tokens": 280
+     },
+     "L": 55.949999999999996,
+     "U": 56.05,
+     "asked_points": 60.0,
+     "pending_points": 40.0,
+     "questions": {
+      "I1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "I2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.65,
+       "undetermined": 0.1
+      },
+      "N_total_native": {
+       "state": "evaluator_pending",
+       "weight": 40.0,
+       "group": null
+      },
+      "C_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 20.0,
+       "undetermined": 0.0
+      },
+      "P1": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 9.399999999999999,
+       "undetermined": 0.0
+      },
+      "P2": {
+       "state": "answered",
+       "weight": 10,
+       "group": null,
+       "supported": 7.0,
+       "undetermined": 0.0
+      }
+     }
+    }
+   ],
+   "L_mean": 56.35,
+   "L_sd": 0.5291502622129216,
+   "L_min": 55.949999999999996,
+   "L_max": 56.95,
+   "U_mean": 56.38333333333333,
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/01_taxa_desemprego_15_74.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/02_taxa_desemprego_sexo_tc.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/03_taxa_desemprego_idade_tc.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/04_nivel_desempregados.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/05_nivel_ocupados_sa.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/06_ocupacao_yoy_3msaar.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/07_taxas_ocupacao_participacao.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/08_variacao_taxa_pp.png"
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-kimi-pro-low-normal-primary",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "L_mean": 0.0,
+   "U_mean": 0.0
+  }
+ ]
+}

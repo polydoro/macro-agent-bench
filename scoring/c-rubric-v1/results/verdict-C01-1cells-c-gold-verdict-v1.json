@@ -1,0 +1,34 @@
+[
+ {
+  "phase": "A1",
+  "task": "C01",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "one-c01-claude-opus-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_veredito": "SINAIS_MISTOS"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_veredito": [
+    "SINAIS_MISTOS"
+   ]
+  }
+ }
+]

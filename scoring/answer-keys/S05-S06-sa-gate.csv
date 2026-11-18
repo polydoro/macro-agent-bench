@@ -1,0 +1,325 @@
+phase,task,model,role,sa_pass,reason,own_last,own_latest_3msaar
+A1,S05,claude-fable-5-1,total,True,pass,2026-09,5.45
+A1,S05,claude-fable-5-1,nucleo,True,threshold pass,2026-09,2.41
+A1,S05,claude-fable-5-1,bens_nao_energeticos,True,threshold pass,2026-09,0.95
+A1,S05,claude-fable-5-1,servicos,True,pass,2026-09,2.86
+A1,S05,claude-fable-5-1,energia,True,energy exempt,2026-09,12.43
+A1,S05,claude-fable-5-1,alimentos,True,pass,2026-09,1.99
+A1,S05,claude-haiku-5-5,total,False,too short,2026-09,7.41
+A1,S05,claude-haiku-5-5,nucleo,False,no saved series,,
+A1,S05,claude-haiku-5-5,bens_nao_energeticos,False,too short,2026-09,0.85
+A1,S05,claude-haiku-5-5,servicos,False,too short,2026-09,3.81
+A1,S05,claude-haiku-5-5,energia,True,energy exempt,2026-09,22.22
+A1,S05,claude-haiku-5-5,alimentos,False,no saved series,,
+A1,S05,claude-opus-5-5,total,True,pass,2026-09,7.13
+A1,S05,claude-opus-5-5,nucleo,True,pass,2026-09,2.45
+A1,S05,claude-opus-5-5,bens_nao_energeticos,True,pass,2026-09,0.85
+A1,S05,claude-opus-5-5,servicos,True,pass,2026-09,2.85
+A1,S05,claude-opus-5-5,energia,True,energy exempt,2026-09,16.15
+A1,S05,claude-opus-5-5,alimentos,True,pass,2026-09,2.26
+A1,S05,claude-sonnet-5-5,total,True,pass,2025-12,0.78
+A1,S05,claude-sonnet-5-5,nucleo,True,pass,2025-12,1.44
+A1,S05,claude-sonnet-5-5,bens_nao_energeticos,True,pass,2025-12,-0.05
+A1,S05,claude-sonnet-5-5,servicos,True,pass,2025-12,2.08
+A1,S05,claude-sonnet-5-5,energia,True,energy exempt,2025-12,1.56
+A1,S05,claude-sonnet-5-5,alimentos,True,pass,2025-12,0.81
+A1,S05,gpt-6-astra,total,True,pass,2026-09,5.43
+A1,S05,gpt-6-astra,nucleo,True,pass,2026-09,2.54
+A1,S05,gpt-6-astra,bens_nao_energeticos,True,pass,2026-09,0.83
+A1,S05,gpt-6-astra,servicos,False,threshold fail,2026-09,2.86
+A1,S05,gpt-6-astra,energia,True,energy exempt,2026-09,21.8
+A1,S05,gpt-6-astra,alimentos,True,pass,2026-09,2.48
+A1,S05,gpt-6-luna,total,True,pass,2025-12,0.72
+A1,S05,gpt-6-luna,nucleo,True,pass,2025-12,1.52
+A1,S05,gpt-6-luna,bens_nao_energeticos,False,threshold fail,2025-12,-0.13
+A1,S05,gpt-6-luna,servicos,True,threshold pass,2025-12,2.31
+A1,S05,gpt-6-luna,energia,True,energy exempt,2025-12,-0.15
+A1,S05,gpt-6-luna,alimentos,True,pass,2025-12,1.99
+A1,S05,gpt-6.1-sol,total,True,pass,2026-09,5.43
+A1,S05,gpt-6.1-sol,nucleo,True,pass,2026-09,2.54
+A1,S05,gpt-6.1-sol,bens_nao_energeticos,True,pass,2026-09,0.83
+A1,S05,gpt-6.1-sol,servicos,False,threshold fail,2026-09,2.86
+A1,S05,gpt-6.1-sol,energia,True,energy exempt,2026-09,21.8
+A1,S05,gpt-6.1-sol,alimentos,True,pass,2026-09,2.48
+A1,S05,grok-4.7,total,False,threshold fail,2026-09,4.05
+A1,S05,grok-4.7,nucleo,True,pass,2026-09,2.29
+A1,S05,grok-4.7,bens_nao_energeticos,True,pass,2026-09,0.67
+A1,S05,grok-4.7,servicos,True,pass,2026-09,2.47
+A1,S05,grok-4.7,energia,True,energy exempt,2026-09,11.52
+A1,S05,grok-4.7,alimentos,True,pass,2026-09,2.44
+A1,S05,kimi-code/k3.1-pro,total,True,pass,2025-12,0.72
+A1,S05,kimi-code/k3.1-pro,nucleo,False,no saved series,,
+A1,S05,kimi-code/k3.1-pro,bens_nao_energeticos,False,threshold fail,2025-12,-0.13
+A1,S05,kimi-code/k3.1-pro,servicos,True,threshold pass,2025-12,2.31
+A1,S05,kimi-code/k3.1-pro,energia,True,energy exempt,2025-12,-0.15
+A1,S05,kimi-code/k3.1-pro,alimentos,False,no saved series,,
+A1,S06,claude-fable-5-1,total,True,official ECB SA,2025-12,1.65
+A1,S06,claude-fable-5-1,nucleo,True,official ECB SA,2025-12,1.98
+A1,S06,claude-fable-5-1,bens_nao_energeticos,True,official ECB SA,2025-12,-0.56
+A1,S06,claude-fable-5-1,servicos,True,official ECB SA,2025-12,3.4
+A1,S06,claude-fable-5-1,energia,True,energy exempt,2025-12,-1.42
+A1,S06,claude-fable-5-1,alimentos,True,official ECB SA,2025-12,1.37
+A1,S06,claude-haiku-5-5,total,False,no saved series,,
+A1,S06,claude-haiku-5-5,nucleo,False,no saved series,,
+A1,S06,claude-haiku-5-5,bens_nao_energeticos,False,no saved series,,
+A1,S06,claude-haiku-5-5,servicos,False,no saved series,,
+A1,S06,claude-haiku-5-5,energia,True,energy exempt,,
+A1,S06,claude-haiku-5-5,alimentos,False,no saved series,,
+A1,S06,claude-opus-5-5,total,True,pass,2026-09,4.84
+A1,S06,claude-opus-5-5,nucleo,True,pass,2026-09,3.03
+A1,S06,claude-opus-5-5,bens_nao_energeticos,True,pass,2026-09,1.99
+A1,S06,claude-opus-5-5,servicos,True,pass,2026-09,3.49
+A1,S06,claude-opus-5-5,energia,True,energy exempt,2026-09,45.82
+A1,S06,claude-opus-5-5,alimentos,True,pass,2026-09,1.44
+A1,S06,claude-sonnet-5-5,total,True,official ECB SA,2025-12,1.65
+A1,S06,claude-sonnet-5-5,nucleo,True,official ECB SA,2025-12,1.98
+A1,S06,claude-sonnet-5-5,bens_nao_energeticos,True,official ECB SA,2025-12,-0.56
+A1,S06,claude-sonnet-5-5,servicos,True,official ECB SA,2025-12,3.4
+A1,S06,claude-sonnet-5-5,energia,True,energy exempt,2025-12,-3.88
+A1,S06,claude-sonnet-5-5,alimentos,True,official ECB SA,2025-12,1.37
+A1,S06,gpt-6-astra,total,True,official ECB SA,2026-09,6.31
+A1,S06,gpt-6-astra,nucleo,True,official ECB SA,2026-09,2.81
+A1,S06,gpt-6-astra,bens_nao_energeticos,True,official ECB SA,2026-09,2.28
+A1,S06,gpt-6-astra,servicos,True,official ECB SA,2026-09,3.1
+A1,S06,gpt-6-astra,energia,True,energy exempt,2026-09,45.82
+A1,S06,gpt-6-astra,alimentos,True,official ECB SA,2026-09,2.02
+A1,S06,gpt-6-luna,total,True,official ECB SA,2026-09,6.31
+A1,S06,gpt-6-luna,nucleo,True,official ECB SA,2026-09,2.81
+A1,S06,gpt-6-luna,bens_nao_energeticos,True,official ECB SA,2026-09,2.28
+A1,S06,gpt-6-luna,servicos,True,official ECB SA,2026-09,3.1
+A1,S06,gpt-6-luna,energia,True,energy exempt,,
+A1,S06,gpt-6-luna,alimentos,True,official ECB SA,2026-09,2.02
+A1,S06,gpt-6.1-sol,total,True,official ECB SA,2026-09,6.31
+A1,S06,gpt-6.1-sol,nucleo,True,official ECB SA,2026-09,2.81
+A1,S06,gpt-6.1-sol,bens_nao_energeticos,True,official ECB SA,2026-09,2.28
+A1,S06,gpt-6.1-sol,servicos,True,official ECB SA,2026-09,3.1
+A1,S06,gpt-6.1-sol,energia,True,energy exempt,2026-09,45.82
+A1,S06,gpt-6.1-sol,alimentos,True,official ECB SA,2026-09,2.02
+A1,S06,grok-4.7,total,False,residual seasonality,2026-09,6.05
+A1,S06,grok-4.7,nucleo,False,residual seasonality,2026-09,2.39
+A1,S06,grok-4.7,bens_nao_energeticos,False,residual seasonality,2026-09,2.72
+A1,S06,grok-4.7,servicos,False,residual seasonality,2026-09,2.06
+A1,S06,grok-4.7,energia,True,energy exempt,2026-09,47.82
+A1,S06,grok-4.7,alimentos,False,residual seasonality,2026-09,2.32
+A1,S06,kimi-code/k3.1-pro,total,False,too short,2026-09,6.84
+A1,S06,kimi-code/k3.1-pro,nucleo,False,too short,2026-09,2.88
+A1,S06,kimi-code/k3.1-pro,bens_nao_energeticos,False,too short,2026-09,2.01
+A1,S06,kimi-code/k3.1-pro,servicos,False,too short,2026-09,3.42
+A1,S06,kimi-code/k3.1-pro,energia,True,energy exempt,2026-09,10.45
+A1,S06,kimi-code/k3.1-pro,alimentos,False,too short,2026-09,1.42
+A2,S05,claude-fable-5-1,total,True,pass,2026-09,5.34
+A2,S05,claude-fable-5-1,nucleo,True,pass,2026-09,2.41
+A2,S05,claude-fable-5-1,bens_nao_energeticos,True,pass,2026-09,0.82
+A2,S05,claude-fable-5-1,servicos,True,pass,2026-09,2.88
+A2,S05,claude-fable-5-1,energia,True,energy exempt,2026-09,21.09
+A2,S05,claude-fable-5-1,alimentos,True,pass,2026-09,2.42
+A2,S05,claude-haiku-5-5,total,False,no saved series,,
+A2,S05,claude-haiku-5-5,nucleo,False,no saved series,,
+A2,S05,claude-haiku-5-5,bens_nao_energeticos,False,no saved series,,
+A2,S05,claude-haiku-5-5,servicos,False,no saved series,,
+A2,S05,claude-haiku-5-5,energia,True,energy exempt,,
+A2,S05,claude-haiku-5-5,alimentos,False,no saved series,,
+A2,S05,claude-opus-5-5,total,False,too short,2026-09,5.2
+A2,S05,claude-opus-5-5,nucleo,False,too short,2026-09,2.3
+A2,S05,claude-opus-5-5,bens_nao_energeticos,False,too short,2026-09,0.6
+A2,S05,claude-opus-5-5,servicos,False,too short,2026-09,2.6
+A2,S05,claude-opus-5-5,energia,True,energy exempt,2026-09,39.7
+A2,S05,claude-opus-5-5,alimentos,False,too short,2026-09,3.1
+A2,S05,claude-sonnet-5-5,total,True,pass,2026-09,4.73
+A2,S05,claude-sonnet-5-5,nucleo,True,pass,2026-09,2.12
+A2,S05,claude-sonnet-5-5,bens_nao_energeticos,True,pass,2026-09,0.69
+A2,S05,claude-sonnet-5-5,servicos,True,pass,2026-09,2.55
+A2,S05,claude-sonnet-5-5,energia,True,energy exempt,2026-09,39.92
+A2,S05,claude-sonnet-5-5,alimentos,True,pass,2026-09,2.98
+A2,S05,gpt-6-astra,total,True,pass,2026-09,6.11
+A2,S05,gpt-6-astra,nucleo,True,threshold pass,2026-09,2.54
+A2,S05,gpt-6-astra,bens_nao_energeticos,True,threshold pass,2026-09,0.88
+A2,S05,gpt-6-astra,servicos,True,threshold pass,2026-09,2.84
+A2,S05,gpt-6-astra,energia,True,energy exempt,2026-09,12.71
+A2,S05,gpt-6-astra,alimentos,True,pass,2026-09,2.24
+A2,S05,gpt-6-luna,total,True,pass,2026-09,7.41
+A2,S05,gpt-6-luna,nucleo,True,pass,2026-09,2.46
+A2,S05,gpt-6-luna,bens_nao_energeticos,True,threshold pass,2026-09,0.68
+A2,S05,gpt-6-luna,servicos,True,threshold pass,2026-09,2.84
+A2,S05,gpt-6-luna,energia,True,energy exempt,2026-09,11.48
+A2,S05,gpt-6-luna,alimentos,True,pass,2026-09,2.46
+A2,S05,gpt-6.1-sol,total,True,pass,2026-09,5.79
+A2,S05,gpt-6.1-sol,nucleo,True,pass,2026-09,2.44
+A2,S05,gpt-6.1-sol,bens_nao_energeticos,True,pass,2026-09,0.8
+A2,S05,gpt-6.1-sol,servicos,True,pass,2026-09,2.89
+A2,S05,gpt-6.1-sol,energia,True,energy exempt,2026-09,16.43
+A2,S05,gpt-6.1-sol,alimentos,True,pass,2026-09,2.54
+A2,S05,grok-4.7,total,True,pass,2026-09,7.13
+A2,S05,grok-4.7,nucleo,True,pass,2026-09,2.55
+A2,S05,grok-4.7,bens_nao_energeticos,True,threshold pass,2026-09,0.78
+A2,S05,grok-4.7,servicos,True,threshold pass,2026-09,2.84
+A2,S05,grok-4.7,energia,True,energy exempt,2026-09,12.44
+A2,S05,grok-4.7,alimentos,True,pass,2026-09,2.27
+A2,S05,kimi-code/k3.1-pro,total,True,pass,2026-09,7.41
+A2,S05,kimi-code/k3.1-pro,nucleo,True,pass,2026-09,2.46
+A2,S05,kimi-code/k3.1-pro,bens_nao_energeticos,True,threshold pass,2026-09,0.68
+A2,S05,kimi-code/k3.1-pro,servicos,True,threshold pass,2026-09,2.84
+A2,S05,kimi-code/k3.1-pro,energia,True,energy exempt,2026-09,11.48
+A2,S05,kimi-code/k3.1-pro,alimentos,True,pass,2026-09,2.46
+A2,S06,claude-fable-5-1,total,True,official ECB SA,2026-09,6.31
+A2,S06,claude-fable-5-1,nucleo,True,official ECB SA,2026-09,2.81
+A2,S06,claude-fable-5-1,bens_nao_energeticos,True,official ECB SA,2026-09,2.28
+A2,S06,claude-fable-5-1,servicos,True,official ECB SA,2026-09,3.1
+A2,S06,claude-fable-5-1,energia,True,energy exempt,2026-09,45.82
+A2,S06,claude-fable-5-1,alimentos,True,official ECB SA,2026-09,2.02
+A2,S06,claude-haiku-5-5,total,False,no saved series,,
+A2,S06,claude-haiku-5-5,nucleo,True,pass,2026-09,2.68
+A2,S06,claude-haiku-5-5,bens_nao_energeticos,True,pass,2026-09,3.39
+A2,S06,claude-haiku-5-5,servicos,True,pass,2026-09,2.2
+A2,S06,claude-haiku-5-5,energia,True,energy exempt,2026-09,45.22
+A2,S06,claude-haiku-5-5,alimentos,True,pass,2026-09,3.11
+A2,S06,claude-opus-5-5,total,True,official ECB SA,2026-09,6.31
+A2,S06,claude-opus-5-5,nucleo,True,official ECB SA,2026-09,2.81
+A2,S06,claude-opus-5-5,bens_nao_energeticos,True,official ECB SA,2026-09,2.28
+A2,S06,claude-opus-5-5,servicos,True,official ECB SA,2026-09,3.1
+A2,S06,claude-opus-5-5,energia,True,energy exempt,2026-09,45.82
+A2,S06,claude-opus-5-5,alimentos,True,official ECB SA,2026-09,2.02
+A2,S06,claude-sonnet-5-5,total,True,official ECB SA,2025-12,1.65
+A2,S06,claude-sonnet-5-5,nucleo,True,pass,2025-12,1.98
+A2,S06,claude-sonnet-5-5,bens_nao_energeticos,True,official ECB SA,2025-12,-0.56
+A2,S06,claude-sonnet-5-5,servicos,True,official ECB SA,2025-12,3.4
+A2,S06,claude-sonnet-5-5,energia,True,energy exempt,2026-09,45.86
+A2,S06,claude-sonnet-5-5,alimentos,True,pass,2026-09,1.33
+A2,S06,gpt-6-astra,total,True,official ECB SA,2026-09,6.31
+A2,S06,gpt-6-astra,nucleo,True,official ECB SA,2026-09,2.81
+A2,S06,gpt-6-astra,bens_nao_energeticos,True,official ECB SA,2026-09,2.28
+A2,S06,gpt-6-astra,servicos,True,official ECB SA,2026-09,3.1
+A2,S06,gpt-6-astra,energia,True,energy exempt,2026-09,45.82
+A2,S06,gpt-6-astra,alimentos,True,official ECB SA,2026-09,2.02
+A2,S06,gpt-6-luna,total,True,pass,2026-09,4.8
+A2,S06,gpt-6-luna,nucleo,True,pass,2026-09,3.03
+A2,S06,gpt-6-luna,bens_nao_energeticos,True,pass,2026-09,2.05
+A2,S06,gpt-6-luna,servicos,True,pass,2026-09,3.42
+A2,S06,gpt-6-luna,energia,True,energy exempt,2026-09,13.48
+A2,S06,gpt-6-luna,alimentos,True,pass,2026-09,1.45
+A2,S06,gpt-6.1-sol,total,True,official ECB SA,2026-09,6.31
+A2,S06,gpt-6.1-sol,nucleo,True,official ECB SA,2026-09,2.81
+A2,S06,gpt-6.1-sol,bens_nao_energeticos,True,official ECB SA,2026-09,2.28
+A2,S06,gpt-6.1-sol,servicos,True,official ECB SA,2026-09,3.1
+A2,S06,gpt-6.1-sol,energia,True,energy exempt,2026-09,45.82
+A2,S06,gpt-6.1-sol,alimentos,True,official ECB SA,2026-09,2.02
+A2,S06,grok-4.7,total,False,no saved series,,
+A2,S06,grok-4.7,nucleo,False,no saved series,,
+A2,S06,grok-4.7,bens_nao_energeticos,False,no saved series,,
+A2,S06,grok-4.7,servicos,False,no saved series,,
+A2,S06,grok-4.7,energia,True,energy exempt,,
+A2,S06,grok-4.7,alimentos,False,no saved series,,
+A2,S06,kimi-code/k3.1-pro,total,True,official ECB SA,2026-09,6.31
+A2,S06,kimi-code/k3.1-pro,nucleo,True,official ECB SA,2026-09,2.81
+A2,S06,kimi-code/k3.1-pro,bens_nao_energeticos,True,official ECB SA,2026-09,2.28
+A2,S06,kimi-code/k3.1-pro,servicos,True,official ECB SA,2026-09,3.1
+A2,S06,kimi-code/k3.1-pro,energia,True,energy exempt,2026-09,45.82
+A2,S06,kimi-code/k3.1-pro,alimentos,True,official ECB SA,2026-09,2.02
+A3,S05,claude-haiku-5-5,total,False,no saved series,,
+A3,S05,claude-haiku-5-5,nucleo,False,no saved series,,
+A3,S05,claude-haiku-5-5,bens_nao_energeticos,False,no saved series,,
+A3,S05,claude-haiku-5-5,servicos,False,no saved series,,
+A3,S05,claude-haiku-5-5,energia,True,energy exempt,,
+A3,S05,claude-haiku-5-5,alimentos,False,no saved series,,
+A3,S05,grok-4.7,total,True,pass,2026-10,9.51
+A3,S05,grok-4.7,nucleo,False,no saved series,,
+A3,S05,grok-4.7,bens_nao_energeticos,True,pass,2026-10,2.72
+A3,S05,grok-4.7,servicos,False,no saved series,,
+A3,S05,grok-4.7,energia,True,energy exempt,2026-10,49.58
+A3,S05,grok-4.7,alimentos,False,no saved series,,
+A3,S05,gpt-6-astra,total,True,pass,2026-10,11.69
+A3,S05,gpt-6-astra,nucleo,True,pass,2026-10,2.99
+A3,S05,gpt-6-astra,bens_nao_energeticos,True,pass,2026-10,4.09
+A3,S05,gpt-6-astra,servicos,False,threshold fail,2026-10,3.47
+A3,S05,gpt-6-astra,energia,True,energy exempt,2026-10,35.97
+A3,S05,gpt-6-astra,alimentos,True,pass,2026-10,3.9
+A3,S05,gpt-6-luna,total,True,pass,2026-10,11.69
+A3,S05,gpt-6-luna,nucleo,True,pass,2026-10,2.99
+A3,S05,gpt-6-luna,bens_nao_energeticos,True,pass,2026-10,4.09
+A3,S05,gpt-6-luna,servicos,False,threshold fail,2026-10,3.47
+A3,S05,gpt-6-luna,energia,True,energy exempt,2026-10,35.97
+A3,S05,gpt-6-luna,alimentos,True,pass,2026-10,3.9
+A3,S05,gpt-6.1-sol,total,True,pass,2026-10,11.69
+A3,S05,gpt-6.1-sol,nucleo,True,pass,2026-10,2.99
+A3,S05,gpt-6.1-sol,bens_nao_energeticos,True,pass,2026-10,4.09
+A3,S05,gpt-6.1-sol,servicos,False,threshold fail,2026-10,3.47
+A3,S05,gpt-6.1-sol,energia,True,energy exempt,2026-10,35.97
+A3,S05,gpt-6.1-sol,alimentos,True,pass,2026-10,3.9
+A3,S05,claude-sonnet-5-5,total,False,threshold fail,2026-10,11.71
+A3,S05,claude-sonnet-5-5,nucleo,True,pass,2026-10,2.96
+A3,S05,claude-sonnet-5-5,bens_nao_energeticos,True,pass,2026-10,4.08
+A3,S05,claude-sonnet-5-5,servicos,True,pass,2026-10,3.39
+A3,S05,claude-sonnet-5-5,energia,True,energy exempt,2026-10,36.04
+A3,S05,claude-sonnet-5-5,alimentos,True,pass,2026-10,3.51
+A3,S05,kimi-code/k3.1-pro,total,False,residual seasonality,2026-10,5.91
+A3,S05,kimi-code/k3.1-pro,nucleo,False,residual seasonality,2026-10,1.2
+A3,S05,kimi-code/k3.1-pro,bens_nao_energeticos,False,residual seasonality,2026-10,1.16
+A3,S05,kimi-code/k3.1-pro,servicos,False,residual seasonality,2026-10,1.52
+A3,S05,kimi-code/k3.1-pro,energia,True,energy exempt,2026-10,38.01
+A3,S05,kimi-code/k3.1-pro,alimentos,False,residual seasonality,2026-10,3.54
+A3,S05,claude-opus-5-5,total,True,pass,2026-10,9.99
+A3,S05,claude-opus-5-5,nucleo,True,pass,2026-10,3.0
+A3,S05,claude-opus-5-5,bens_nao_energeticos,True,threshold pass,2026-10,3.84
+A3,S05,claude-opus-5-5,servicos,True,threshold pass,2026-10,3.49
+A3,S05,claude-opus-5-5,energia,True,energy exempt,2026-10,21.48
+A3,S05,claude-opus-5-5,alimentos,True,pass,2026-10,2.73
+A3,S05,claude-fable-5-1,total,True,pass,2026-10,11.63
+A3,S05,claude-fable-5-1,nucleo,True,threshold pass,2026-10,3.02
+A3,S05,claude-fable-5-1,bens_nao_energeticos,True,threshold pass,2026-10,4.1
+A3,S05,claude-fable-5-1,servicos,True,threshold pass,2026-10,3.45
+A3,S05,claude-fable-5-1,energia,True,energy exempt,2026-10,23.1
+A3,S05,claude-fable-5-1,alimentos,True,pass,2026-10,3.41
+A3,S06,kimi-code/k3.1-pro,total,True,pass,2026-10,5.15
+A3,S06,kimi-code/k3.1-pro,nucleo,True,threshold pass,2026-10,2.12
+A3,S06,kimi-code/k3.1-pro,bens_nao_energeticos,True,pass,2026-10,0.28
+A3,S06,kimi-code/k3.1-pro,servicos,False,residual seasonality,2026-10,3.74
+A3,S06,kimi-code/k3.1-pro,energia,True,energy exempt,2026-10,32.94
+A3,S06,kimi-code/k3.1-pro,alimentos,True,pass,2026-10,3.42
+A3,S06,claude-sonnet-5-5,total,True,pass,2026-10,5.59
+A3,S06,claude-sonnet-5-5,nucleo,True,pass,2026-10,2.85
+A3,S06,claude-sonnet-5-5,bens_nao_energeticos,True,pass,2026-10,1.62
+A3,S06,claude-sonnet-5-5,servicos,True,pass,2026-10,3.83
+A3,S06,claude-sonnet-5-5,energia,True,energy exempt,2026-10,29.57
+A3,S06,claude-sonnet-5-5,alimentos,True,pass,2026-10,1.9
+A3,S06,claude-haiku-5-5,total,True,pass,2026-10,5.42
+A3,S06,claude-haiku-5-5,nucleo,True,pass,2026-10,2.93
+A3,S06,claude-haiku-5-5,bens_nao_energeticos,True,pass,2026-10,1.75
+A3,S06,claude-haiku-5-5,servicos,True,pass,2026-10,3.77
+A3,S06,claude-haiku-5-5,energia,True,energy exempt,2026-10,32.21
+A3,S06,claude-haiku-5-5,alimentos,True,pass,2026-10,1.9
+A3,S06,gpt-6-luna,total,False,no saved series,,
+A3,S06,gpt-6-luna,nucleo,False,no saved series,,
+A3,S06,gpt-6-luna,bens_nao_energeticos,False,no saved series,,
+A3,S06,gpt-6-luna,servicos,False,no saved series,,
+A3,S06,gpt-6-luna,energia,True,energy exempt,,
+A3,S06,gpt-6-luna,alimentos,False,no saved series,,
+A3,S06,gpt-6-astra,total,True,official ECB SA,2026-10,5.83
+A3,S06,gpt-6-astra,nucleo,True,official ECB SA,2026-10,2.68
+A3,S06,gpt-6-astra,bens_nao_energeticos,True,official ECB SA,2026-10,1.23
+A3,S06,gpt-6-astra,servicos,True,official ECB SA,2026-10,3.45
+A3,S06,gpt-6-astra,energia,True,energy exempt,2026-10,38.55
+A3,S06,gpt-6-astra,alimentos,True,official ECB SA,2026-10,2.58
+A3,S06,claude-opus-5-5,total,True,pass,2026-10,5.63
+A3,S06,claude-opus-5-5,nucleo,True,pass,2026-10,2.86
+A3,S06,claude-opus-5-5,bens_nao_energeticos,True,pass,2026-10,1.63
+A3,S06,claude-opus-5-5,servicos,True,pass,2026-10,3.78
+A3,S06,claude-opus-5-5,energia,True,energy exempt,2026-10,27.69
+A3,S06,claude-opus-5-5,alimentos,True,pass,2026-10,1.95
+A3,S06,gpt-6.1-sol,total,True,official ECB SA,2026-10,5.83
+A3,S06,gpt-6.1-sol,nucleo,True,official ECB SA,2026-10,2.68
+A3,S06,gpt-6.1-sol,bens_nao_energeticos,True,official ECB SA,2026-10,1.23
+A3,S06,gpt-6.1-sol,servicos,True,official ECB SA,2026-10,3.45
+A3,S06,gpt-6.1-sol,energia,True,energy exempt,2026-10,38.55
+A3,S06,gpt-6.1-sol,alimentos,True,official ECB SA,2026-10,2.58
+A3,S06,grok-4.7,total,True,official ECB SA,2026-10,5.83
+A3,S06,grok-4.7,nucleo,True,official ECB SA,2026-10,2.68
+A3,S06,grok-4.7,bens_nao_energeticos,True,official ECB SA,2026-10,1.23
+A3,S06,grok-4.7,servicos,True,official ECB SA,2026-10,3.45
+A3,S06,grok-4.7,energia,True,energy exempt,2026-10,38.55
+A3,S06,grok-4.7,alimentos,True,official ECB SA,2026-10,2.58
+A3,S06,claude-fable-5-1,total,True,official ECB SA,2026-10,5.83
+A3,S06,claude-fable-5-1,nucleo,True,official ECB SA,2026-10,2.68
+A3,S06,claude-fable-5-1,bens_nao_energeticos,True,official ECB SA,2026-10,1.23
+A3,S06,claude-fable-5-1,servicos,True,official ECB SA,2026-10,3.45
+A3,S06,claude-fable-5-1,energia,True,energy exempt,2026-10,38.55
+A3,S06,claude-fable-5-1,alimentos,True,official ECB SA,2026-10,2.58

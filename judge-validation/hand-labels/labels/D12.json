@@ -1,0 +1,47 @@
+{
+  "answers": {
+    "N_alimentos_yoy": {
+      "at": "2026-11-17T18:40:22.444Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_combustivel_yoy": {
+      "at": "2026-11-17T18:40:24.584Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_cultura_lazer_yoy": {
+      "at": "2026-11-17T18:40:26.987Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_equipamentos_domesticos_yoy": {
+      "at": "2026-11-17T18:40:26.123Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_internet_yoy": {
+      "at": "2026-11-17T18:40:29.477Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_outros_bens_yoy": {
+      "at": "2026-11-17T18:40:28.254Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_3m": {
+      "at": "2026-11-17T18:40:21.835Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_yoy": {
+      "at": "2026-11-17T18:40:20.465Z",
+      "choice": "PROBLEMA",
+      "value": null
+    }
+  },
+  "done": true,
+  "doneAt": "2026-11-17T18:41:46.896Z",
+  "note": "Ele também adiciona um gráfico de valor. Os erros estão concentrados em não exibir os valores do yoy e 3msaar no gráfico, mas fazer um separado com os níveis da ponta\n"
+}

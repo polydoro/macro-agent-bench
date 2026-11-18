@@ -1,0 +1,2301 @@
+{
+ "L001": {
+  "task": "C01",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L002": {
+  "task": "C01",
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0
+  }
+ },
+ "L003": {
+  "task": "C01",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 0.0,
+   "N_ord_yoy": 0.0,
+   "N_ord_3m": 0.0
+  }
+ },
+ "L004": {
+  "task": "C01",
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0
+  }
+ },
+ "L005": {
+  "task": "C01",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L006": {
+  "task": "C01",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0
+  }
+ },
+ "L007": {
+  "task": "C01",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L008": {
+  "task": "C01",
+  "phase": "A1",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L009": {
+  "task": "C01",
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 0.6666666666666666,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L010": {
+  "task": "C01",
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L011": {
+  "task": "C01",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 0.0
+  }
+ },
+ "L012": {
+  "task": "C01",
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L013": {
+  "task": "C01",
+  "phase": "A2",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L014": {
+  "task": "C01",
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L015": {
+  "task": "C01",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0
+  }
+ },
+ "L016": {
+  "task": "C01",
+  "phase": "A2",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L017": {
+  "task": "C01",
+  "phase": "A2",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L018": {
+  "task": "C01",
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L019": {
+  "task": "C01",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L020": {
+  "task": "C01",
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0
+  }
+ },
+ "L021": {
+  "task": "C01",
+  "phase": "A3",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0
+  }
+ },
+ "L022": {
+  "task": "C01",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L023": {
+  "task": "C01",
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0
+  }
+ },
+ "L024": {
+  "task": "C01",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L025": {
+  "task": "C01",
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L026": {
+  "task": "C01",
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_prod_yoy": 0.6666666666666666,
+   "N_prod_3m": 0.3333333333333333,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L027": {
+  "task": "C01",
+  "phase": "A3",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L028": {
+  "task": "C02",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L029": {
+  "task": "C02",
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0
+  }
+ },
+ "L030": {
+  "task": "C02",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L031": {
+  "task": "C02",
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L032": {
+  "task": "C02",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L033": {
+  "task": "C02",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0
+  }
+ },
+ "L034": {
+  "task": "C02",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L035": {
+  "task": "C02",
+  "phase": "A1",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L036": {
+  "task": "C02",
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0
+  }
+ },
+ "L037": {
+  "task": "C02",
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L038": {
+  "task": "C02",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L039": {
+  "task": "C02",
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L040": {
+  "task": "C02",
+  "phase": "A2",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L041": {
+  "task": "C02",
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L042": {
+  "task": "C02",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L043": {
+  "task": "C02",
+  "phase": "A2",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L044": {
+  "task": "C02",
+  "phase": "A2",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L045": {
+  "task": "C02",
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L046": {
+  "task": "C02",
+  "phase": "A3",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0
+  }
+ },
+ "L047": {
+  "task": "C02",
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L048": {
+  "task": "C02",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L049": {
+  "task": "C02",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L050": {
+  "task": "C02",
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L051": {
+  "task": "C02",
+  "phase": "A3",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L052": {
+  "task": "C02",
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L053": {
+  "task": "C02",
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L054": {
+  "task": "C02",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0,
+   "N_sav": 1.0
+  }
+ },
+ "L055": {
+  "task": "C03",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L056": {
+  "task": "C03",
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L057": {
+  "task": "C03",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L058": {
+  "task": "C03",
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L059": {
+  "task": "C03",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L060": {
+  "task": "C03",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L061": {
+  "task": "C03",
+  "phase": "A1",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_last_qoq": 1.0
+  }
+ },
+ "L062": {
+  "task": "C03",
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_last_qoq": 1.0
+  }
+ },
+ "L063": {
+  "task": "C03",
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 0.0
+  }
+ },
+ "L064": {
+  "task": "C03",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L065": {
+  "task": "C03",
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L066": {
+  "task": "C03",
+  "phase": "A2",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L067": {
+  "task": "C03",
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L068": {
+  "task": "C03",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L069": {
+  "task": "C03",
+  "phase": "A2",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L070": {
+  "task": "C03",
+  "phase": "A2",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L071": {
+  "task": "C03",
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L072": {
+  "task": "C03",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L073": {
+  "task": "C03",
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L074": {
+  "task": "C03",
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L075": {
+  "task": "C03",
+  "phase": "A3",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L076": {
+  "task": "C03",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L077": {
+  "task": "C03",
+  "phase": "A3",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L078": {
+  "task": "C03",
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L079": {
+  "task": "C03",
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L080": {
+  "task": "C03",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L081": {
+  "task": "C04",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_two_years": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.3333333333333333,
+   "N_yoy_latest": 0.0
+  }
+ },
+ "L082": {
+  "task": "C04",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0
+  }
+ },
+ "L083": {
+  "task": "C04",
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_qoq_one_year": 1.0,
+   "N_qoq_latest": 0.0
+  }
+ },
+ "L084": {
+  "task": "C04",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 0.6666666666666666,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L085": {
+  "task": "C04",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 1.0,
+   "N_yoy_three_years": 1.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L086": {
+  "task": "C04",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_yoy_short": 0.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L087": {
+  "task": "C04",
+  "phase": "A1",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_yoy_one_year": 0.0
+  }
+ },
+ "L088": {
+  "task": "C04",
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_qoq_short": 1.0
+  }
+ },
+ "L089": {
+  "task": "C04",
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_two_years": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0,
+   "N_yoy_short": 0.0,
+   "N_yoy_one_year": 0.6666666666666666,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.6666666666666666,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L090": {
+  "task": "C04",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_qoq_short": 0.3333333333333333,
+   "N_qoq_one_year": 0.0,
+   "N_qoq_two_years": 0.0,
+   "N_qoq_latest": 0.0
+  }
+ },
+ "L091": {
+  "task": "C04",
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_two_years": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0,
+   "N_yoy_one_year": 0.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 0.0
+  }
+ },
+ "L092": {
+  "task": "C04",
+  "phase": "A2",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_two_years": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0,
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 1.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L093": {
+  "task": "C04",
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_latest": 1.0,
+   "N_yoy_short": 0.0,
+   "N_yoy_one_year": 0.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 0.0
+  }
+ },
+ "L094": {
+  "task": "C04",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 1.0,
+   "N_yoy_three_years": 0.3333333333333333,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L095": {
+  "task": "C04",
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_latest": 1.0
+  }
+ },
+ "L096": {
+  "task": "C04",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_yoy_short": 0.0,
+   "N_yoy_one_year": 0.6666666666666666,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L097": {
+  "task": "C04",
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L098": {
+  "task": "C04",
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_latest": 1.0
+  }
+ },
+ "L099": {
+  "task": "C04",
+  "phase": "A3",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_latest": 0.0
+  }
+ },
+ "L100": {
+  "task": "C04",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0
+  }
+ },
+ "L101": {
+  "task": "C04",
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_qoq_short": 1.0
+  }
+ },
+ "L102": {
+  "task": "C04",
+  "phase": "A3",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L103": {
+  "task": "C04",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0
+  }
+ },
+ "L104": {
+  "task": "C05",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L105": {
+  "task": "C05",
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0
+  }
+ },
+ "L106": {
+  "task": "C05",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L107": {
+  "task": "C05",
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0
+  }
+ },
+ "L108": {
+  "task": "C05",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L109": {
+  "task": "C05",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0
+  }
+ },
+ "L110": {
+  "task": "C05",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L111": {
+  "task": "C05",
+  "phase": "A1",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L112": {
+  "task": "C05",
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L113": {
+  "task": "C05",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0
+  }
+ },
+ "L114": {
+  "task": "C05",
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L115": {
+  "task": "C05",
+  "phase": "A2",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L116": {
+  "task": "C05",
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L117": {
+  "task": "C05",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L118": {
+  "task": "C05",
+  "phase": "A2",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L119": {
+  "task": "C05",
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L120": {
+  "task": "C05",
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_core_yoy": 0.0
+  }
+ },
+ "L121": {
+  "task": "C05",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L122": {
+  "task": "C05",
+  "phase": "A3",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L123": {
+  "task": "C05",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L124": {
+  "task": "C05",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L125": {
+  "task": "C05",
+  "phase": "A3",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L126": {
+  "task": "C05",
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L127": {
+  "task": "C05",
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L128": {
+  "task": "C01",
+  "phase": "A4_external_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L129": {
+  "task": "C01",
+  "phase": "A4_self_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L130": {
+  "task": "C01",
+  "phase": "A4_external_review",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0
+  }
+ },
+ "L131": {
+  "task": "C01",
+  "phase": "A4_self_review",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0
+  }
+ },
+ "L132": {
+  "task": "C01",
+  "phase": "A4_external_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 0.0,
+   "N_ord_yoy": 0.0,
+   "N_ord_3m": 0.0
+  }
+ },
+ "L133": {
+  "task": "C01",
+  "phase": "A4_self_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 0.0,
+   "N_ord_3m": 0.0
+  }
+ },
+ "L134": {
+  "task": "C01",
+  "phase": "A4_external_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L135": {
+  "task": "C01",
+  "phase": "A4_self_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0
+  }
+ },
+ "L136": {
+  "task": "C01",
+  "phase": "A4_external_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L137": {
+  "task": "C01",
+  "phase": "A4_self_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L138": {
+  "task": "C01",
+  "phase": "A4_external_review",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0
+  }
+ },
+ "L139": {
+  "task": "C01",
+  "phase": "A4_self_review",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0
+  }
+ },
+ "L140": {
+  "task": "C01",
+  "phase": "A4_external_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L141": {
+  "task": "C01",
+  "phase": "A4_self_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L142": {
+  "task": "C01",
+  "phase": "A4_external_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L143": {
+  "task": "C01",
+  "phase": "A4_self_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L144": {
+  "task": "C01",
+  "phase": "A4_external_review",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L145": {
+  "task": "C01",
+  "phase": "A4_self_review",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_prod_yoy": 1.0,
+   "N_prod_3m": 1.0,
+   "N_ord_yoy": 1.0,
+   "N_ord_3m": 1.0
+  }
+ },
+ "L146": {
+  "task": "C02",
+  "phase": "A4_external_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L147": {
+  "task": "C02",
+  "phase": "A4_self_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L148": {
+  "task": "C02",
+  "phase": "A4_external_review",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L149": {
+  "task": "C02",
+  "phase": "A4_self_review",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L150": {
+  "task": "C02",
+  "phase": "A4_external_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L151": {
+  "task": "C02",
+  "phase": "A4_self_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L152": {
+  "task": "C02",
+  "phase": "A4_external_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L153": {
+  "task": "C02",
+  "phase": "A4_self_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L154": {
+  "task": "C02",
+  "phase": "A4_external_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L155": {
+  "task": "C02",
+  "phase": "A4_self_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L156": {
+  "task": "C02",
+  "phase": "A4_external_review",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0
+  }
+ },
+ "L157": {
+  "task": "C02",
+  "phase": "A4_self_review",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0
+  }
+ },
+ "L158": {
+  "task": "C02",
+  "phase": "A4_external_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L159": {
+  "task": "C02",
+  "phase": "A4_self_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L160": {
+  "task": "C02",
+  "phase": "A4_external_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L161": {
+  "task": "C02",
+  "phase": "A4_self_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_sav": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L162": {
+  "task": "C02",
+  "phase": "A4_external_review",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L163": {
+  "task": "C02",
+  "phase": "A4_self_review",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_cons_qoq": 1.0,
+   "N_cons_yoy": 1.0,
+   "N_ret_yoy": 1.0,
+   "N_ret_3m": 1.0,
+   "N_conf": 1.0
+  }
+ },
+ "L164": {
+  "task": "C03",
+  "phase": "A4_external_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L165": {
+  "task": "C03",
+  "phase": "A4_self_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L166": {
+  "task": "C03",
+  "phase": "A4_external_review",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L167": {
+  "task": "C03",
+  "phase": "A4_self_review",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L168": {
+  "task": "C03",
+  "phase": "A4_external_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L169": {
+  "task": "C03",
+  "phase": "A4_self_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L170": {
+  "task": "C03",
+  "phase": "A4_external_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L171": {
+  "task": "C03",
+  "phase": "A4_self_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L172": {
+  "task": "C03",
+  "phase": "A4_external_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L173": {
+  "task": "C03",
+  "phase": "A4_self_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L174": {
+  "task": "C03",
+  "phase": "A4_self_review",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L175": {
+  "task": "C03",
+  "phase": "A4_external_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L176": {
+  "task": "C03",
+  "phase": "A4_self_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L177": {
+  "task": "C03",
+  "phase": "A4_external_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L178": {
+  "task": "C03",
+  "phase": "A4_self_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 1.0
+  }
+ },
+ "L179": {
+  "task": "C03",
+  "phase": "A4_external_review",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_last_qoq": 1.0,
+   "N_last_yoy": 0.0
+  }
+ },
+ "L180": {
+  "task": "C03",
+  "phase": "A4_self_review",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_last_qoq": 1.0
+  }
+ },
+ "L181": {
+  "task": "C04",
+  "phase": "A4_external_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_two_years": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0,
+   "N_yoy_one_year": 0.3333333333333333,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 0.0
+  }
+ },
+ "L182": {
+  "task": "C04",
+  "phase": "A4_self_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_two_years": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 0.0
+  }
+ },
+ "L183": {
+  "task": "C04",
+  "phase": "A4_external_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0
+  }
+ },
+ "L184": {
+  "task": "C04",
+  "phase": "A4_self_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_three_years": 1.0,
+   "N_qoq_latest": 1.0
+  }
+ },
+ "L185": {
+  "task": "C04",
+  "phase": "A4_external_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_qoq_one_year": 1.0,
+   "N_qoq_latest": 0.0
+  }
+ },
+ "L186": {
+  "task": "C04",
+  "phase": "A4_self_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_qoq_one_year": 1.0,
+   "N_qoq_latest": 1.0
+  }
+ },
+ "L187": {
+  "task": "C04",
+  "phase": "A4_external_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L188": {
+  "task": "C04",
+  "phase": "A4_self_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L189": {
+  "task": "C04",
+  "phase": "A4_external_review",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 1.0,
+   "N_yoy_three_years": 1.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L190": {
+  "task": "C04",
+  "phase": "A4_self_review",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 1.0,
+   "N_yoy_three_years": 1.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L191": {
+  "task": "C04",
+  "phase": "A4_external_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_yoy_short": 0.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L192": {
+  "task": "C04",
+  "phase": "A4_self_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_yoy_short": 0.0,
+   "N_yoy_one_year": 0.0,
+   "N_yoy_two_years": 0.0,
+   "N_yoy_three_years": 0.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L193": {
+  "task": "C04",
+  "phase": "A4_external_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_yoy_one_year": 0.0
+  }
+ },
+ "L194": {
+  "task": "C04",
+  "phase": "A4_self_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_qoq_short": 1.0,
+   "N_qoq_one_year": 1.0,
+   "N_qoq_latest": 1.0,
+   "N_yoy_short": 1.0,
+   "N_yoy_one_year": 1.0,
+   "N_yoy_latest": 1.0
+  }
+ },
+ "L195": {
+  "task": "C04",
+  "phase": "A4_external_review",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_qoq_short": 1.0
+  }
+ },
+ "L196": {
+  "task": "C04",
+  "phase": "A4_self_review",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_qoq_short": 1.0
+  }
+ },
+ "L197": {
+  "task": "C05",
+  "phase": "A4_external_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L198": {
+  "task": "C05",
+  "phase": "A4_self_review",
+  "model": "claude-fable-5-1",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L199": {
+  "task": "C05",
+  "phase": "A4_external_review",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L200": {
+  "task": "C05",
+  "phase": "A4_self_review",
+  "model": "claude-haiku-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0
+  }
+ },
+ "L201": {
+  "task": "C05",
+  "phase": "A4_external_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L202": {
+  "task": "C05",
+  "phase": "A4_self_review",
+  "model": "claude-opus-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L203": {
+  "task": "C05",
+  "phase": "A4_external_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0
+  }
+ },
+ "L204": {
+  "task": "C05",
+  "phase": "A4_self_review",
+  "model": "claude-sonnet-5-5",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0
+  }
+ },
+ "L205": {
+  "task": "C05",
+  "phase": "A4_external_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 0.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L206": {
+  "task": "C05",
+  "phase": "A4_self_review",
+  "model": "gpt-6-astra",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 0.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L207": {
+  "task": "C05",
+  "phase": "A4_external_review",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0
+  }
+ },
+ "L208": {
+  "task": "C05",
+  "phase": "A4_self_review",
+  "model": "gpt-6-luna",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0
+  }
+ },
+ "L209": {
+  "task": "C05",
+  "phase": "A4_external_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L210": {
+  "task": "C05",
+  "phase": "A4_self_review",
+  "model": "gpt-6.1-sol",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L211": {
+  "task": "C05",
+  "phase": "A4_external_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L212": {
+  "task": "C05",
+  "phase": "A4_self_review",
+  "model": "grok-4.7",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_energy_3m": 1.0,
+   "N_core_3m": 1.0
+  }
+ },
+ "L213": {
+  "task": "C05",
+  "phase": "A4_external_review",
+  "model": "kimi-code/k3.1-pro",
+  "jev_credit": {
+   "N_energy_yoy": 1.0,
+   "N_core_yoy": 1.0,
+   "N_core_3m": 1.0
+  }
+ }
+}

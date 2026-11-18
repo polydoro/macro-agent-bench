@@ -1,0 +1,23 @@
+[
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "question": "N_compras_importantes_native",
+  "correct": true,
+  "note": "entrega/tabela_saldos_componentes.csv, column out/26, 'Oportunidade de compras importantes' = -40,93. Row group text 'Nível de vida, desemprego...' misled the automatic role."
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "question": "N_desemprego_esperado_native",
+  "correct": true,
+  "note": "entrega/tabela_saldos_componentes.csv, column out/26, 'Desemprego, perspectivas' = 60,62."
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "question": "N_nivel_vida_futuro_native",
+  "correct": true,
+  "note": "entrega/dados_e_calculos.csv, periodo 2026-10, nv_futuro = -66.72."
+ }
+]

@@ -1,0 +1,4701 @@
+[
+ {
+  "phase": "A4e",
+  "task": "S11",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-85dd8fc219139af4c52e4662",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/padroes_credito_realizado.csv",
+      "header": "Empresas (NFC)",
+      "row": "2026Q3",
+      "value": 8.55,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Empresas (NFC) Padrões de crédito (+ = aperto) 4T2002 3T2026",
+      "value": 8.6,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "Média desde o início",
+      "row": "Empresas (NFC) Padrões de crédito (+ = aperto) 4T2002 3T2026",
+      "value": 8.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "N",
+      "row": "Padrões de crédito Empresas (NFC) desde início 1T2003 3T2026",
+      "value": 95.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Surpresa média (p.p.)",
+      "row": "Padrões de crédito Empresas (NFC) desde início 1T2003 3T2026",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Mediana (p.p.)",
+      "row": "Padrões de crédito Empresas (NFC) desde início 1T2003 3T2026",
+      "value": -0.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/demanda_realizado.csv",
+      "header": "Empresas (NFC)",
+      "row": "2026Q3",
+      "value": -6.39,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Empresas (NFC) Demanda (+ = aumento) 4T2002 3T2026",
+      "value": -6.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "N",
+      "row": "Demanda Empresas (NFC) desde início 1T2003 3T2026",
+      "value": 95.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Surpresa média (p.p.)",
+      "row": "Demanda Empresas (NFC) desde início 1T2003 3T2026",
+      "value": -11.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Mediana (p.p.)",
+      "row": "Demanda Empresas (NFC) desde início 1T2003 3T2026",
+      "value": -10.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/padroes_credito_realizado.csv",
+      "header": "Famílias: habitação",
+      "row": "2026Q3",
+      "value": -0.27,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Surpresa média (p.p.)",
+      "row": "Padrões de crédito Famílias: habitação desde início 1T2003 3T2026",
+      "value": -0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Mediana (p.p.)",
+      "row": "Padrões de crédito Famílias: habitação desde início 1T2003 3T2026",
+      "value": -0.6,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "N",
+      "row": "Padrões de crédito Famílias: habitação desde início 1T2003 3T2026",
+      "value": 95.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Erro absoluto médio (p.p.)",
+      "row": "Padrões de crédito Famílias: habitação desde início 1T2003 3T2026",
+      "value": 5.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "N",
+      "row": "Padrões de crédito Famílias: habitação desde 1T2015 1T2015 3T2026",
+      "value": 47.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/demanda_realizado.csv",
+      "header": "Famílias: habitação",
+      "row": "2026Q3",
+      "value": -26.92,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Famílias: habitação Demanda (+ = aumento) 4T2002 3T2026",
+      "value": -26.9,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/fatores_subitens.csv",
+      "header": "H.H.ZZ.DR",
+      "row": "2026Q3",
+      "value": -5.91,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "N",
+      "row": "Demanda Famílias: habitação desde início 1T2003 3T2026",
+      "value": 95.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Surpresa média (p.p.)",
+      "row": "Demanda Famílias: habitação desde início 1T2003 3T2026",
+      "value": 2.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/padroes_credito_realizado.csv",
+      "header": "Famílias: crédito ao consumo",
+      "row": "2026Q3",
+      "value": 14.04,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Famílias: crédito ao consumo Padrões de crédito (+ = aperto) 4T2002 3T2026",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "2T2026 realizado",
+      "row": "Famílias: crédito ao consumo Termos e condições gerais (+ = aperto) 1T2015 3T2026",
+      "value": 13.9,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "N",
+      "row": "Padrões de crédito Famílias: crédito ao consumo desde início 1T2003 3T2026",
+      "value": 95.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Surpresa média (p.p.)",
+      "row": "Padrões de crédito Famílias: crédito ao consumo desde início 1T2003 3T2026",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Mediana (p.p.)",
+      "row": "Padrões de crédito Famílias: crédito ao consumo desde início 1T2003 3T2026",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/demanda_realizado.csv",
+      "header": "Famílias: crédito ao consumo",
+      "row": "2026Q3",
+      "value": -2.44,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Mediana (p.p.)",
+      "row": "Demanda Famílias: crédito ao consumo desde 1T2015 1T2015 3T2026",
+      "value": -2.5,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "2T2026 realizado",
+      "row": "Famílias: crédito ao consumo Demanda (+ = aumento) 4T2002 3T2026",
+      "value": -2.1,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "N",
+      "row": "Demanda Famílias: crédito ao consumo desde início 1T2003 3T2026",
+      "value": 95.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Surpresa média (p.p.)",
+      "row": "Demanda Famílias: crédito ao consumo desde início 1T2003 3T2026",
+      "value": -6.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/surpresas_historico.csv",
+      "header": "Mediana (p.p.)",
+      "row": "Demanda Famílias: crédito ao consumo desde início 1T2003 3T2026",
+      "value": -5.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S11",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-a700009414ac65b081c93ae6",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/padroes_credito_realizado.csv",
+      "header": "Empresas (NFC)",
+      "row": "2026Q3",
+      "value": 8.55,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Empresas (NFC) Padrões de crédito (+ = aperto)",
+      "value": 8.6,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "Média 2003–hoje",
+      "row": "Empresas (NFC) Padrões de crédito (+ = aperto)",
+      "value": 8.4,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/itens_padroes_empresas.csv",
+      "header": "BC",
+      "row": "2026Q3",
+      "value": -3.18,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_padroes_empresas.csv",
+      "header": "NBC",
+      "row": "2026Q3",
+      "value": -0.25,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_padroes_empresas.csv",
+      "header": "MFC",
+      "row": "2026Q3",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/demanda_realizado.csv",
+      "header": "Empresas (NFC)",
+      "row": "2026Q3",
+      "value": -6.39,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Empresas (NFC) Demanda (+ = aumento)",
+      "value": -6.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/itens_demanda_empresas.csv",
+      "header": "FIX",
+      "row": "2026Q3",
+      "value": -3.11,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_demanda_empresas.csv",
+      "header": "INV",
+      "row": "2026Q3",
+      "value": 11.77,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_demanda_empresas.csv",
+      "header": "MAA",
+      "row": "2026Q3",
+      "value": -0.11,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/itens_padroes_habitacao.csv",
+      "header": "NBC",
+      "row": "2026Q3",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/padroes_credito_realizado.csv",
+      "header": "Famílias: habitação",
+      "row": "2026Q3",
+      "value": -0.27,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Famílias: habitação Padrões de crédito (+ = aperto)",
+      "value": -0.3,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/itens_padroes_habitacao.csv",
+      "header": "BC",
+      "row": "2026Q3",
+      "value": -1.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "Média 2003–hoje",
+      "row": "Famílias: habitação Padrões de crédito (+ = aperto)",
+      "value": 5.6,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "Média 2015–hoje",
+      "row": "Famílias: habitação Padrões de crédito (+ = aperto)",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/demanda_realizado.csv",
+      "header": "Famílias: habitação",
+      "row": "2026Q3",
+      "value": -26.92,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Famílias: habitação Demanda (+ = aumento)",
+      "value": -26.9,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/itens_demanda_habitacao.csv",
+      "header": "DR",
+      "row": "2026Q3",
+      "value": -5.91,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_demanda_habitacao.csv",
+      "header": "RFR",
+      "row": "2026Q3",
+      "value": 0.52,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_demanda_habitacao.csv",
+      "header": "IFS",
+      "row": "2026Q3",
+      "value": 3.14,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/padroes_credito_realizado.csv",
+      "header": "Famílias: crédito ao consumo",
+      "row": "2026Q3",
+      "value": 14.04,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Famílias: crédito ao consumo Padrões de crédito (+ = aperto)",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/itens_padroes_consumo.csv",
+      "header": "BC",
+      "row": "2026Q3",
+      "value": -0.61,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_padroes_consumo.csv",
+      "header": "NBC",
+      "row": "2026Q3",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_padroes_consumo.csv",
+      "header": "CWC",
+      "row": "2026Q3",
+      "value": 16.89,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/demanda_realizado.csv",
+      "header": "Famílias: crédito ao consumo",
+      "row": "2026Q3",
+      "value": -2.44,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_resumo_ultima_rodada.csv",
+      "header": "3T2026 realizado",
+      "row": "Famílias: crédito ao consumo Demanda (+ = aumento)",
+      "value": -2.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/itens_demanda_consumo.csv",
+      "header": "SDC",
+      "row": "2026Q3",
+      "value": -6.52,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_demanda_consumo.csv",
+      "header": "CRE",
+      "row": "2026Q3",
+      "value": -1.79,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/itens_demanda_consumo.csv",
+      "header": "IFS",
+      "row": "2026Q3",
+      "value": 2.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S11",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-665f779c6f298daa79e0889c",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A4s",
+  "task": "S11",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-4f5884bca17bca0f35985347",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q4 2026-Q3 Empresas Critérios Observado",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.O.E.Z.B3.ST.S.WFNET",
+      "row": "2026-Q4",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.O.E.Z.B3.ST.S.WFNET",
+      "row": "2026-Q4",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q3 2026-Q2 Empresas Critérios Observado",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.O.E.Z.B3.ST.S.WFNET",
+      "row": "2026-Q3",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.O.E.Z.B3.ST.S.WFNET",
+      "row": "2026-Q3",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q4 2026-Q3 Empresas Procura Observado",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.O.E.Z.B3.ZZ.D.WFNET",
+      "row": "2026-Q4",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.O.E.Z.B3.ZZ.D.WFNET",
+      "row": "2026-Q4",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q3 2026-Q2 Empresas Procura Observado",
+      "value": 2.5899,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.O.E.Z.B3.ZZ.D.WFNET",
+      "row": "2026-Q3",
+      "value": 2.5899,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.O.E.Z.B3.ZZ.D.WFNET",
+      "row": "2026-Q3",
+      "value": 2.5899,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q4 2026-Q3 Habitação Critérios Observado",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.H.B3.ST.S.WFNET",
+      "row": "2026-Q4",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.H.B3.ST.S.WFNET",
+      "row": "2026-Q4",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q3 2026-Q2 Habitação Critérios Observado",
+      "value": 8.802,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.H.B3.ST.S.WFNET",
+      "row": "2026-Q3",
+      "value": 8.802,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.H.B3.ST.S.WFNET",
+      "row": "2026-Q3",
+      "value": 8.802,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q4 2026-Q3 Habitação Procura Observado",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.H.B3.ZZ.D.WFNET",
+      "row": "2026-Q4",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.H.B3.ZZ.D.WFNET",
+      "row": "2026-Q4",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q3 2026-Q2 Habitação Procura Observado",
+      "value": -15.3276,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.H.B3.ZZ.D.WFNET",
+      "row": "2026-Q3",
+      "value": -15.3276,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.H.B3.ZZ.D.WFNET",
+      "row": "2026-Q3",
+      "value": -15.3276,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q4 2026-Q3 Consumo Critérios Observado",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.C.B3.ST.S.WFNET",
+      "row": "2026-Q4",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.C.B3.ST.S.WFNET",
+      "row": "2026-Q4",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q3 2026-Q2 Consumo Critérios Observado",
+      "value": 12.3348,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.C.B3.ST.S.WFNET",
+      "row": "2026-Q3",
+      "value": 12.3348,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.C.B3.ST.S.WFNET",
+      "row": "2026-Q3",
+      "value": 12.3348,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q3 2026-Q2 Consumo Procura Observado",
+      "value": -2.1149,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_longa.csv",
+      "header": "saldo_liquido_pp",
+      "row": "2026-Q4 2026-Q3 Consumo Procura Observado",
+      "value": -2.4415,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/bls_zona_euro_series.csv",
+      "header": "BLS.Q.U2.ALL.Z.H.C.B3.ZZ.D.WFNET",
+      "row": "2026-Q3",
+      "value": -2.1149,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S11",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-85b333fc28018c1f993e20d6",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Padrões - empresas (total)",
+      "row": "2026Q3",
+      "value": 8.55,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q3",
+      "row": "Padrões - empresas (total) 2002Q4 2026Q3",
+      "value": 8.6,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Média (série completa)",
+      "row": "Padrões - empresas (total) 2002Q4 2026Q3",
+      "value": 8.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - empresas (total)",
+      "row": "2026Q3",
+      "value": 5.27,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - empresas (total)",
+      "row": "2026Q4",
+      "value": 7.24,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q2",
+      "row": "Padrões - empresas (total) 2002Q4 2026Q3",
+      "value": 7.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Demanda - empresas (total)",
+      "row": "2026Q3",
+      "value": -6.39,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q3",
+      "row": "Demanda - empresas (total) 2002Q4 2026Q3",
+      "value": -6.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - empresas (total)",
+      "row": "2026Q3",
+      "value": 4.21,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - empresas (total)",
+      "row": "2026Q4",
+      "value": -1.35,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q2",
+      "row": "Demanda - empresas (total) 2002Q4 2026Q3",
+      "value": 2.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Padrões - habitação",
+      "row": "2026Q3",
+      "value": -0.27,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q3",
+      "row": "Padrões - habitação 2002Q4 2026Q3",
+      "value": -0.3,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - habitação",
+      "row": "2026Q3",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - habitação",
+      "row": "2026Q4",
+      "value": 10.23,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q2",
+      "row": "Padrões - habitação 2002Q4 2026Q3",
+      "value": 8.8,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Demanda - habitação",
+      "row": "2026Q3",
+      "value": -26.92,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q3",
+      "row": "Demanda - habitação 2002Q4 2026Q3",
+      "value": -26.9,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - habitação",
+      "row": "2026Q3",
+      "value": -12.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - habitação",
+      "row": "2026Q4",
+      "value": -35.61,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q2",
+      "row": "Demanda - habitação 2002Q4 2026Q3",
+      "value": -15.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Padrões - consumo e outros",
+      "row": "2026Q3",
+      "value": 14.04,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q3",
+      "row": "Padrões - consumo e outros 2002Q4 2026Q3",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - consumo e outros",
+      "row": "2026Q3",
+      "value": 11.36,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - consumo e outros",
+      "row": "2026Q4",
+      "value": 16.26,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q2",
+      "row": "Padrões - consumo e outros 2002Q4 2026Q3",
+      "value": 12.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Demanda - consumo e outros",
+      "row": "2026Q3",
+      "value": -2.44,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q2",
+      "row": "Demanda - consumo e outros 2002Q4 2026Q3",
+      "value": -2.1,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026Q3",
+      "row": "Demanda - consumo e outros 2002Q4 2026Q3",
+      "value": -2.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - consumo e outros",
+      "row": "2026Q3",
+      "value": -0.35,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - consumo e outros",
+      "row": "2026Q4",
+      "value": -13.96,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "N obs.",
+      "row": "Demanda - consumo e outros 2002Q4 2026Q3",
+      "value": 96.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S11",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-1da213f01de9464387ccd793",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Padrões - empresas (total)",
+      "row": "2026Q3",
+      "value": 8.55,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - empresas (total)",
+      "row": "2026Q3",
+      "value": 5.27,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - empresas (total)",
+      "row": "2026Q4",
+      "value": 7.24,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Demanda - empresas (total)",
+      "row": "2026Q3",
+      "value": -6.39,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - empresas (total)",
+      "row": "2026Q3",
+      "value": 4.21,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - empresas (total)",
+      "row": "2026Q4",
+      "value": -1.35,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Padrões - habitação",
+      "row": "2026Q3",
+      "value": -0.27,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - habitação",
+      "row": "2026Q3",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - habitação",
+      "row": "2026Q4",
+      "value": 10.23,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Demanda - habitação",
+      "row": "2026Q3",
+      "value": -26.92,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - habitação",
+      "row": "2026Q3",
+      "value": -12.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - habitação",
+      "row": "2026Q4",
+      "value": -35.61,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Padrões - consumo e outros",
+      "row": "2026Q3",
+      "value": 14.04,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - consumo e outros",
+      "row": "2026Q3",
+      "value": 11.36,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Padrões - consumo e outros",
+      "row": "2026Q4",
+      "value": 16.26,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_realizado_B3.csv",
+      "header": "Demanda - consumo e outros",
+      "row": "2026Q3",
+      "value": -2.44,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - consumo e outros",
+      "row": "2026Q3",
+      "value": -0.35,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_expectativas_F3.csv",
+      "header": "Demanda - consumo e outros",
+      "row": "2026Q4",
+      "value": -13.96,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S11",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-661f2d1b06a845f06a61172d",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ST.S.WFNET Empresas Padrões de crédito B3 2026-Q4 Credit standards-Overall-Enterprise",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Empresas Padrões de crédito B3",
+      "row": "2026Q3",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Ultimo",
+      "row": "Empresas Padrões de crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": 8.6,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ST.S.WFNET Empresas Padrões de crédito B3 2026-Q3 Credit standards-Overall-Enterprise",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Tri_anterior",
+      "row": "Empresas Padrões de crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": 7.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_n",
+      "row": "Empresas Padrões de crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": 96.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ZZ.D.WFNET Empresas Demanda por crédito B3 2026-Q4 Loan demand-Overall-Enterprise",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Empresas Demanda por crédito B3",
+      "row": "2026Q3",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Ultimo",
+      "row": "Empresas Demanda por crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": -6.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ZZ.D.WFNET Empresas Demanda por crédito B3 2026-Q3 Loan demand-Overall-Enterprise",
+      "value": 2.5899,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Tri_anterior",
+      "row": "Empresas Demanda por crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": 2.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_hist",
+      "row": "Empresas Demanda por crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": -1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ST.S.WFNET Habitação Padrões de crédito B3 2026-Q4 Credit standards-Household",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Habitação Padrões de crédito B3",
+      "row": "2026Q3",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Ultimo",
+      "row": "Habitação Padrões de crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": -0.3,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ST.S.WFNET Habitação Padrões de crédito B3 2026-Q3 Credit standards-Household",
+      "value": 8.802,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.C.B3.ST.S.WFNET Consumo Padrões de crédito B3 2026-Q3 Credit standards-Household",
+      "value": 12.3348,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.C.B3.ST.S.WFNET Consumo Padrões de crédito B3 2026-Q4 Credit standards-Household",
+      "value": 14.041,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ZZ.D.WFNET Habitação Demanda por crédito B3 2026-Q4 Loan demand-Household",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Habitação Demanda por crédito B3",
+      "row": "2026Q3",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Ultimo",
+      "row": "Habitação Demanda por crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": -26.9,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ZZ.D.WFNET Habitação Demanda por crédito B3 2026-Q3 Loan demand-Household",
+      "value": -15.3276,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.C.B3.ZZ.D.WFNET Consumo Demanda por crédito B3 2026-Q3 Loan demand-Household",
+      "value": -2.1149,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.C.B3.ZZ.D.WFNET Consumo Demanda por crédito B3 2026-Q4 Loan demand-Household",
+      "value": -2.4415,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Consumo Padrões de crédito B3",
+      "row": "2026Q3",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Ultimo",
+      "row": "Consumo Padrões de crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Tri_anterior",
+      "row": "Consumo Padrões de crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": 12.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_hist",
+      "row": "Consumo Padrões de crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": 5.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_n",
+      "row": "Consumo Padrões de crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": 96.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Consumo Demanda por crédito B3",
+      "row": "2026Q3",
+      "value": -2.4415,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Ultimo",
+      "row": "Consumo Demanda por crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": -2.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Tri_anterior",
+      "row": "Consumo Demanda por crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": -2.1,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_hist",
+      "row": "Consumo Demanda por crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_n",
+      "row": "Consumo Demanda por crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": 96.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_ult4",
+      "row": "Consumo Demanda por crédito 2026Q3 2002Q4 2026Q3 2026Q4",
+      "value": -4.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S11",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-a5dbfdcdd563dced5b780c23",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ST.S.WFNET Empresas Padrões de crédito B3 2026-Q4 Credit standards-Overall-Enterprise",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls_2026-11-07/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ST.S.WFNET Empresas Padrões de crédito B3 2026-Q4 Credit standards-Overall-Enterprise",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Empresas Padrões de crédito B3",
+      "row": "2026Q3",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ST.S.WFNET Empresas Padrões de crédito B3 2026-Q3 Credit standards-Overall-Enterprise",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls_2026-11-07/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ST.S.WFNET Empresas Padrões de crédito B3 2026-Q3 Credit standards-Overall-Enterprise",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_realizado_vs_esperado.csv",
+      "header": "Diferenca_pp",
+      "row": "Empresas Padrões de crédito",
+      "value": 3.3,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ZZ.D.WFNET Empresas Demanda por crédito B3 2026-Q4 Loan demand-Overall-Enterprise",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls_2026-11-07/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ZZ.D.WFNET Empresas Demanda por crédito B3 2026-Q4 Loan demand-Overall-Enterprise",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Empresas Demanda por crédito B3",
+      "row": "2026Q3",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ZZ.D.WFNET Empresas Demanda por crédito B3 2026-Q3 Loan demand-Overall-Enterprise",
+      "value": 2.5899,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls_2026-11-07/bls_series.csv",
+      "header": "valor",
+      "row": "O.E.Z.B3.ZZ.D.WFNET Empresas Demanda por crédito B3 2026-Q3 Loan demand-Overall-Enterprise",
+      "value": 2.5899,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_realizado_vs_esperado.csv",
+      "header": "Diferenca_pp",
+      "row": "Empresas Demanda por crédito",
+      "value": -10.6,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ST.S.WFNET Habitação Padrões de crédito B3 2026-Q4 Credit standards-Household",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls_2026-11-07/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ST.S.WFNET Habitação Padrões de crédito B3 2026-Q4 Credit standards-Household",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Habitação Padrões de crédito B3",
+      "row": "2026Q3",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ST.S.WFNET Habitação Padrões de crédito B3 2026-Q3 Credit standards-Household",
+      "value": 8.802,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.C.B3.ST.S.WFNET Consumo Padrões de crédito B3 2026-Q3 Credit standards-Household",
+      "value": 12.3348,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.C.B3.ST.S.WFNET Consumo Padrões de crédito B3 2026-Q4 Credit standards-Household",
+      "value": 14.041,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ZZ.D.WFNET Habitação Demanda por crédito B3 2026-Q4 Loan demand-Household",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls_2026-11-07/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ZZ.D.WFNET Habitação Demanda por crédito B3 2026-Q4 Loan demand-Household",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Habitação Demanda por crédito B3",
+      "row": "2026Q3",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.H.B3.ZZ.D.WFNET Habitação Demanda por crédito B3 2026-Q3 Loan demand-Household",
+      "value": -15.3276,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.C.B3.ZZ.D.WFNET Consumo Demanda por crédito B3 2026-Q3 Loan demand-Household",
+      "value": -2.1149,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/bls/bls_series.csv",
+      "header": "valor",
+      "row": "Z.H.C.B3.ZZ.D.WFNET Consumo Demanda por crédito B3 2026-Q4 Loan demand-Household",
+      "value": -2.4415,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Consumo Padrões de crédito B3",
+      "row": "2026Q3",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_realizado_vs_esperado.csv",
+      "header": "Realizado",
+      "row": "Consumo Padrões de crédito",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Ultimo",
+      "row": "Consumo Padrões de crédito 2026Q3 2026Q4",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_bls_realizado_vs_esperado.csv",
+      "header": "Diferenca_pp",
+      "row": "Consumo Padrões de crédito",
+      "value": 2.6,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Tri_anterior",
+      "row": "Consumo Padrões de crédito 2026Q3 2026Q4",
+      "value": 12.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_2003_ult",
+      "row": "Consumo Padrões de crédito 2026Q3 2026Q4",
+      "value": 5.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_bls_por_trimestre_referencia.csv",
+      "header": "Consumo Demanda por crédito B3",
+      "row": "2026Q3",
+      "value": -2.4415,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_realizado_vs_esperado.csv",
+      "header": "Realizado",
+      "row": "Consumo Demanda por crédito",
+      "value": -2.4,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_bls_realizado_vs_esperado.csv",
+      "header": "Diferenca_pp",
+      "row": "Consumo Demanda por crédito",
+      "value": -2.1,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_2003_ult",
+      "row": "Consumo Demanda por crédito 2026Q3 2026Q4",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_bls_resumo.csv",
+      "header": "Media_ult4",
+      "row": "Consumo Demanda por crédito 2026Q3 2026Q4",
+      "value": -4.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S11",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-2bd0951d8b6aa0a5acd9173c",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Credit standards Q3 26",
+      "row": "Euro area",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Credit standards Avg",
+      "row": "Euro area",
+      "value": 8.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Empresas: critérios",
+      "row": "Zona do euro",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Credit standards Q2 26",
+      "row": "Euro area",
+      "value": 7.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_15.csv",
+      "header": "Credit standards Q4 2025 - Q3 2026",
+      "row": "Loans to enterprises",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/tabela_bce_15.csv",
+      "header": "Credit standards Q4 2026 - Q3 2027",
+      "row": "Loans to enterprises",
+      "value": 6.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Demand Q3 26",
+      "row": "Euro area",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Empresas: demanda",
+      "row": "Zona do euro",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026-T3",
+      "row": "Empresas Demanda",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Demand Q2 26",
+      "row": "Euro area",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Demand Avg",
+      "row": "Euro area",
+      "value": -1.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Surpresa T3 (p.p.)",
+      "row": "Empresas Demanda",
+      "value": -10.5942,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Credit standards Q3 26",
+      "row": "Euro area",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Habitação: critérios",
+      "row": "Zona do euro",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026-T3",
+      "row": "Habitação Critérios",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Credit standards Q2 26",
+      "row": "Euro area",
+      "value": 9.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Credit standards Avg",
+      "row": "Euro area",
+      "value": 6.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_15.csv",
+      "header": "Credit standards Q4 2025 - Q3 2026",
+      "row": "Loans to households for house purchase",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Demand Q3 26",
+      "row": "Euro area",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Habitação: demanda",
+      "row": "Zona do euro",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026-T3",
+      "row": "Habitação Demanda",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Demand Q2 26",
+      "row": "Euro area",
+      "value": -15.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Demand Avg",
+      "row": "Euro area",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Surpresa T3 (p.p.)",
+      "row": "Habitação Demanda",
+      "value": -14.7207,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Credit standards Q3 26",
+      "row": "Euro area",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Consumo: critérios",
+      "row": "Zona do euro",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026-T3",
+      "row": "Consumo e outros Critérios",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Credit standards Q2 26",
+      "row": "Euro area",
+      "value": 12.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Credit standards Avg",
+      "row": "Euro area",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "Qualidade de crédito: efeito nos critérios T3",
+      "row": "Consumo e outros",
+      "value": 9.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Demand Q2 26",
+      "row": "Euro area",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Demand Q3 26",
+      "row": "Euro area",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Consumo: demanda",
+      "row": "Zona do euro",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Demand Avg",
+      "row": "Euro area",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S11",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-e414255ecc4cc3a50bc8f49a",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Credit standards Q3 26",
+      "row": "Euro area",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Credit standards Avg",
+      "row": "Euro area",
+      "value": 8.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Empresas: critérios",
+      "row": "Zona do euro",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Credit standards Q2 26",
+      "row": "Euro area",
+      "value": 7.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_15.csv",
+      "header": "Credit standards Q4 2025 - Q3 2026",
+      "row": "Loans to enterprises",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/tabela_bce_15.csv",
+      "header": "Credit standards Q4 2026 - Q3 2027",
+      "row": "Loans to enterprises",
+      "value": 6.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Demand Q3 26",
+      "row": "Euro area",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Empresas: demanda",
+      "row": "Zona do euro",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026-T3",
+      "row": "Empresas Demanda",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Demand Q2 26",
+      "row": "Euro area",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Enterprises Demand Avg",
+      "row": "Euro area",
+      "value": -1.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Surpresa T3 (p.p.)",
+      "row": "Empresas Demanda",
+      "value": -10.5942,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Credit standards Q3 26",
+      "row": "Euro area",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Habitação: critérios",
+      "row": "Zona do euro",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026-T3",
+      "row": "Habitação Critérios",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Credit standards Q2 26",
+      "row": "Euro area",
+      "value": 9.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Credit standards Avg",
+      "row": "Euro area",
+      "value": 6.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_15.csv",
+      "header": "Credit standards Q4 2025 - Q3 2026",
+      "row": "Loans to households for house purchase",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Demand Q3 26",
+      "row": "Euro area",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Habitação: demanda",
+      "row": "Zona do euro",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026-T3",
+      "row": "Habitação Demanda",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Demand Q2 26",
+      "row": "Euro area",
+      "value": -15.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "House purchase Demand Avg",
+      "row": "Euro area",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Surpresa T3 (p.p.)",
+      "row": "Habitação Demanda",
+      "value": -14.7207,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Credit standards Q3 26",
+      "row": "Euro area",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Consumo: critérios",
+      "row": "Zona do euro",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026-T3",
+      "row": "Consumo e outros Critérios",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Credit standards Q2 26",
+      "row": "Euro area",
+      "value": 12.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Credit standards Avg",
+      "row": "Euro area",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "Qualidade de crédito: efeito nos critérios T3",
+      "row": "Consumo e outros",
+      "value": 9.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Demand Q2 26",
+      "row": "Euro area",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Demand Q3 26",
+      "row": "Euro area",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Consumo: demanda",
+      "row": "Zona do euro",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabela_bce_00.csv",
+      "header": "Consumer credit Demand Avg",
+      "row": "Euro area",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S11",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-d7454d927d60457be12825a7",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Empresas Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Empresas Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Empresas Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Empresas Impacto do portfolio de ativos de politica monetaria sobre padroes de credito Q4 2025-Q3 20",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Empresas Impacto do portfolio de ativos de politica monetaria sobre padroes de credito Q4 2025-Q3 20",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Empresas Demanda Q3 2026 percentual liquido de bancos",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Empresas Demanda Q3 2026 percentual liquido de bancos",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Empresas Demanda Q3 2026 percentual liquido de bancos",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_padroes_habitacao_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Habitacao Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Habitacao Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Habitacao Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_habitacao_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Habitacao Demanda Q3 2026 percentual liquido de bancos",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Habitacao Demanda Q3 2026 percentual liquido de bancos",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Habitacao Demanda Q3 2026 percentual liquido de bancos",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_padroes_consumo_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_consumo_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Demanda Q3 2026 percentual liquido de bancos",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Demanda Q3 2026 percentual liquido de bancos",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Demanda Q3 2026 percentual liquido de bancos",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S11",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-b1d292cc10434e187004732f",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Empresas Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Empresas Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Empresas Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Empresas Impacto da carteira de ativos do BCE sobre padroes Q4 2025-Q3 2026 percentual liquido de ba",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Empresas Impacto da carteira de ativos do BCE sobre padroes Q4 2025-Q3 2026 percentual liquido de ba",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Empresas Demanda Q3 2026 percentual liquido de bancos",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Empresas Demanda Q3 2026 percentual liquido de bancos",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Empresas Demanda Q3 2026 percentual liquido de bancos",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Habitacao Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Habitacao Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Habitacao Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Habitacao Impacto da carteira de ativos do BCE sobre padroes Q4 2025-Q3 2026 percentual liquido de b",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Habitacao Impacto da carteira de ativos do BCE sobre padroes Q4 2025-Q3 2026 percentual liquido de b",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Habitacao Demanda Q3 2026 percentual liquido de bancos",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Habitacao Demanda Q3 2026 percentual liquido de bancos",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Habitacao Demanda Q3 2026 percentual liquido de bancos",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Padroes de credito Q3 2026 percentual liquido de bancos",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Impacto da carteira de ativos do BCE sobre padroes Q4 2025-Q3 2026 percentual liq",
+      "value": 4.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Impacto da carteira de ativos do BCE sobre padroes Q4 2025-Q3 2026 percentual liq",
+      "value": 4.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/bls_q3_2026.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Demanda Q3 2026 percentual liquido de bancos",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_publicados.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Demanda Q3 2026 percentual liquido de bancos",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "observado",
+      "row": "Credito ao consumo Demanda Q3 2026 percentual liquido de bancos",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S11",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-ff412e82b71c3a1a4e8abea8",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Empresas Critérios",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Empresas Critérios",
+      "value": 8.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Empresas Critérios",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Empresas Demanda",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Empresas Demanda",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Empresas Demanda",
+      "value": -1.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Habitação Critérios",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Habitação Critérios",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Habitação Critérios",
+      "value": 6.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Habitação Demanda",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Habitação Demanda",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Habitação Demanda",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Consumo e outros Critérios",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Consumo e outros Critérios",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Consumo e outros Critérios",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Consumo e outros Demanda",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Consumo e outros Demanda",
+      "value": -2.4415,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Consumo e outros Demanda",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S11",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-6b16385b57dec44f8bb8c919",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisao/tabela_principal_inicial.csv",
+      "header": "2026Q3 observado",
+      "row": "Empresas Critérios",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Empresas Critérios",
+      "value": 9.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Empresas Critérios",
+      "value": 8.0,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisao/tabela_principal_inicial.csv",
+      "header": "2026Q3 observado",
+      "row": "Empresas Demanda",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Empresas Demanda",
+      "value": -6.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Empresas Demanda",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Empresas Demanda",
+      "value": -1.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisao/tabela_principal_inicial.csv",
+      "header": "2026Q3 observado",
+      "row": "Habitação Critérios",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Habitação Critérios",
+      "value": 0.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Habitação Critérios",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Habitação Critérios",
+      "value": 6.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisao/tabela_principal_inicial.csv",
+      "header": "2026Q3 observado",
+      "row": "Habitação Demanda",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Habitação Demanda",
+      "value": -27.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Habitação Demanda",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Habitação Demanda",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisao/tabela_principal_inicial.csv",
+      "header": "2026Q3 observado",
+      "row": "Consumo e outros Critérios",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Consumo e outros Critérios",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Consumo e outros Critérios",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Consumo e outros Critérios",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisao/tabela_principal_inicial.csv",
+      "header": "2026Q3 observado",
+      "row": "Consumo e outros Demanda",
+      "value": -2.4415,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "2026Q3",
+      "row": "Euro area Consumo e outros Demanda",
+      "value": -2.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "2026Q3 observado",
+      "row": "Consumo e outros Demanda",
+      "value": -2.4415,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "Média histórica exclui rodada atual",
+      "row": "Euro area Consumo e outros Demanda",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S11",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-41507767fc319a9ce86f4647",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Empresas",
+      "value": 8.6,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Empresas",
+      "value": 8.6,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_empresas_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Empresas",
+      "value": -6.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Empresas",
+      "value": -6.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_padroes_habitacao_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Habitação",
+      "value": -0.3,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Habitação",
+      "value": -0.3,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_habitacao_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Habitação",
+      "value": -26.9,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Habitação",
+      "value": -26.9,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_padroes_consumo_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Consumo e outro crédito",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Consumo e outro crédito",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_consumo_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Consumo e outro crédito",
+      "value": -2.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Consumo e outro crédito",
+      "value": -2.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S11",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-1d960079b96c4935ff3dbaff",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Empresas",
+      "value": 8.6,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Empresas",
+      "value": 8.6,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_empresas_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Empresas",
+      "value": -6.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Empresas",
+      "value": -6.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_padroes_habitacao_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Habitação",
+      "value": -0.3,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Habitação",
+      "value": -0.3,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_habitacao_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Habitação",
+      "value": -26.9,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Habitação",
+      "value": -26.9,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_padroes_consumo_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Consumo e outro crédito",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET padroes Consumo e outro crédito",
+      "value": 14.0,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_demanda_consumo_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Consumo e outro crédito",
+      "value": -2.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_paises.csv",
+      "header": "realizado_2026-Q3",
+      "row": "Zona do euro WFNET demanda Consumo e outro crédito",
+      "value": -2.4,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S11",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-fe80c287fbc77d640bfadf86",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Empresas | Padrões de crédito | Realizado",
+      "row": "2026-Q4",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Empresas Padrões de crédito saldo líquido (% dos bancos)",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "OBS_VALUE",
+      "row": "BLS.Q.U2.ALL.O.E.Z.B3.ST.S.WFNET 2026-Q4 PC Credit standards-Overall-Enterprise Euro area (changing ",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Empresas | Padrões de crédito | Realizado",
+      "row": "2026-Q3",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Empresas Padrões de crédito saldo líquido (% dos bancos)",
+      "value": 1.2574,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "OBS_VALUE",
+      "row": "BLS.Q.U2.ALL.O.E.Z.B3.ST.S.WFNET 2026-Q3 PC Credit standards-Overall-Enterprise Euro area (changing ",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Empresas | Demanda | Realizado",
+      "row": "2026-Q4",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Empresas Demanda saldo líquido (% dos bancos)",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_zona_euro.csv",
+      "header": "2026T3_realizado",
+      "row": "Empresas Demanda saldo líquido (% dos bancos)",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Empresas | Demanda | Realizado",
+      "row": "2026-Q3",
+      "value": 2.5899,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Empresas Demanda saldo líquido (% dos bancos)",
+      "value": -8.9783,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_zona_euro.csv",
+      "header": "Variação_trimestral_pp",
+      "row": "Empresas Demanda saldo líquido (% dos bancos)",
+      "value": -8.9783,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Habitação | Padrões de crédito | Realizado",
+      "row": "2026-Q4",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Habitação Padrões de crédito saldo líquido (% dos bancos)",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "OBS_VALUE",
+      "row": "BLS.Q.U2.ALL.Z.H.H.B3.ST.S.WFNET 2026-Q4 PC Credit standards-Household Euro area (changing compositi",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Habitação | Padrões de crédito | Realizado",
+      "row": "2026-Q3",
+      "value": 8.802,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Habitação Padrões de crédito saldo líquido (% dos bancos)",
+      "value": -9.0693,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "OBS_VALUE",
+      "row": "BLS.Q.U2.ALL.Z.H.H.B3.ST.S.WFNET 2026-Q3 PC Credit standards-Household Euro area (changing compositi",
+      "value": 8.802,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Habitação | Demanda | Realizado",
+      "row": "2026-Q4",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Habitação Demanda saldo líquido (% dos bancos)",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_zona_euro.csv",
+      "header": "2026T3_realizado",
+      "row": "Habitação Demanda saldo líquido (% dos bancos)",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Habitação | Demanda | Realizado",
+      "row": "2026-Q3",
+      "value": -15.3276,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Habitação Demanda saldo líquido (% dos bancos)",
+      "value": -11.5965,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_zona_euro.csv",
+      "header": "Variação_trimestral_pp",
+      "row": "Habitação Demanda saldo líquido (% dos bancos)",
+      "value": -11.5965,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Padrões de crédito | Realizado",
+      "row": "2026-Q4",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Crédito ao consumo Padrões de crédito saldo líquido (% dos bancos)",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_zona_euro.csv",
+      "header": "2026T3_realizado",
+      "row": "Crédito ao consumo Padrões de crédito saldo líquido (% dos bancos)",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Padrões de crédito | Realizado",
+      "row": "2026-Q3",
+      "value": 12.3348,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Crédito ao consumo Padrões de crédito saldo líquido (% dos bancos)",
+      "value": 1.7062,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_zona_euro.csv",
+      "header": "Variação_trimestral_pp",
+      "row": "Crédito ao consumo Padrões de crédito saldo líquido (% dos bancos)",
+      "value": 1.7062,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Demanda | Realizado",
+      "row": "2026-Q3",
+      "value": -2.1149,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Demanda | Realizado",
+      "row": "2026-Q4",
+      "value": -2.4415,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Crédito ao consumo Demanda saldo líquido (% dos bancos)",
+      "value": -2.4415,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Crédito ao consumo Demanda saldo líquido (% dos bancos)",
+      "value": -0.3265,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_zona_euro.csv",
+      "header": "Variação_trimestral_pp",
+      "row": "Crédito ao consumo Demanda saldo líquido (% dos bancos)",
+      "value": -0.3265,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S11",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-08aab8133db21adf049efd44",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Empresas | Padrões de crédito | Realizado",
+      "row": "2026-Q4",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Empresas | Padrões de crédito | Realizado",
+      "row": "2026-Q4",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Empresas Padrões de crédito saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": 8.5523,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Empresas | Padrões de crédito | Realizado",
+      "row": "2026-Q3",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Empresas | Padrões de crédito | Realizado",
+      "row": "2026-Q3",
+      "value": 7.2949,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Empresas Padrões de crédito saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": 1.2574,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_empresas_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Empresas | Demanda | Realizado",
+      "row": "2026-Q4",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Empresas | Demanda | Realizado",
+      "row": "2026-Q4",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Empresas Demanda saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": -6.3884,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Empresas | Demanda | Realizado",
+      "row": "2026-Q3",
+      "value": 2.5899,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Empresas | Demanda | Realizado",
+      "row": "2026-Q3",
+      "value": 2.5899,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Empresas Demanda saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": -8.9783,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Habitação | Padrões de crédito | Realizado",
+      "row": "2026-Q4",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Habitação | Padrões de crédito | Realizado",
+      "row": "2026-Q4",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Habitação Padrões de crédito saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": -0.2673,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Habitação | Padrões de crédito | Realizado",
+      "row": "2026-Q3",
+      "value": 8.802,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Habitação | Padrões de crédito | Realizado",
+      "row": "2026-Q3",
+      "value": 8.802,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Habitação Padrões de crédito saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": -9.0693,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_habitacao_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Habitação | Demanda | Realizado",
+      "row": "2026-Q4",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Habitação | Demanda | Realizado",
+      "row": "2026-Q4",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Habitação Demanda saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": -26.9241,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Habitação | Demanda | Realizado",
+      "row": "2026-Q3",
+      "value": -15.3276,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Habitação | Demanda | Realizado",
+      "row": "2026-Q3",
+      "value": -15.3276,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Habitação Demanda saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": -11.5965,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_padroes_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Padrões de crédito | Realizado",
+      "row": "2026-Q4",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Padrões de crédito | Realizado",
+      "row": "2026-Q4",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "2026T3_realizado",
+      "row": "Crédito ao consumo Padrões de crédito saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": 14.041,
+      "variant": "[2026-Q4]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Padrões de crédito | Realizado",
+      "row": "2026-Q3",
+      "value": 12.3348,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Padrões de crédito | Realizado",
+      "row": "2026-Q3",
+      "value": 12.3348,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Crédito ao consumo Padrões de crédito saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": 1.7062,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_demanda_consumo_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Demanda | Realizado",
+      "row": "2026-Q3",
+      "value": -2.1149,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Demanda | Realizado",
+      "row": "2026-Q4",
+      "value": -2.4415,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/revisao_20261106_004514/bls_series_wide.csv",
+      "header": "Crédito ao consumo | Demanda | Realizado",
+      "row": "2026-Q3",
+      "value": -2.1149,
+      "variant": "[2026-Q4]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_bls_2026q3.xlsx",
+      "header": "Variação_trimestral_pp",
+      "row": "Crédito ao consumo Demanda saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": -0.3265,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_zona_euro.csv",
+      "header": "Variação_trimestral_pp",
+      "row": "Crédito ao consumo Demanda saldo líquido (% dos bancos); diferença trimestral em p.p.",
+      "value": -0.3265,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ }
+]

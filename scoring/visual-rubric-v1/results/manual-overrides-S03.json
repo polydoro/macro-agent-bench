@@ -1,0 +1,10 @@
+[
+ {"phase": "A1", "model": "kimi-code/k3.1-pro", "question": "N_total_3m", "correct": true,
+  "note": "dados/eurostat_ES_G47_volume_sa_calculado.csv, 2026-08, 3msaar_pct = -1.65 (admitted -1.65 +/- 0.3). Label is the NACE code G47 only."},
+ {"phase": "A2", "model": "claude-haiku-5-5", "question": "N_total_yoy", "correct": true,
+  "note": "entrega/tabelas/geral_resumo_ultimos_2_meses.csv, column sep/26, 'Var. anual SA (INE)' = -1.40 (admitted -1.42 +/- 0.15). Transposed table: periods in columns."},
+ {"phase": "A3", "model": "claude-haiku-5-5", "question": "N_total_yoy", "correct": true,
+  "note": "entrega/tabela_indicadores.csv, 2026-09, YoY_SA_cal_% = -1.40 (admitted -1.42 +/- 0.15). No total label in header or file name."},
+ {"phase": "A3", "model": "claude-haiku-5-5", "question": "N_total_3m", "correct": true,
+  "note": "entrega/tabela_indicadores.csv, 2026-09, 3msaar_% = -2.14 (admitted -2.38 +/- 0.3)."}
+]

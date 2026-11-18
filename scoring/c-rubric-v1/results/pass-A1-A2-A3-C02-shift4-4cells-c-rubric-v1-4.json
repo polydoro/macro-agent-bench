@@ -1,0 +1,1452 @@
+{
+ "rubric_version": "c-rubric-v1-4",
+ "rubric_sha256": "aeeee142b1179d4651509735d38d8d5a7ab9ba47f52646851bff0013cfcfe929",
+ "model_requested": "jev-1.14.0",
+ "shift_tolerances": 4.0,
+ "status": "provisional pilot, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "C02",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-one-c02-low-normal-20261028-v19",
+   "final_attempt_id": "one-c02-claude-opus-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-one-c02-low-normal-20261028-v19/attempts/one-c02-claude-opus-primary/work/entrega/g1_consumo_nivel_sa.png",
+    "execucoes/pilot-one-c02-low-normal-20261028-v19/attempts/one-c02-claude-opus-primary/work/entrega/g2_consumo_aberturas.png",
+    "execucoes/pilot-one-c02-low-normal-20261028-v19/attempts/one-c02-claude-opus-primary/work/entrega/g3_consumo_taxas.png",
+    "execucoes/pilot-one-c02-low-normal-20261028-v19/attempts/one-c02-claude-opus-primary/work/entrega/g4_varejo_nivel_sa.png",
+    "execucoes/pilot-one-c02-low-normal-20261028-v19/attempts/one-c02-claude-opus-primary/work/entrega/g5_varejo_aberturas.png",
+    "execucoes/pilot-one-c02-low-normal-20261028-v19/attempts/one-c02-claude-opus-primary/work/entrega/g6_varejo_taxas.png",
+    "execucoes/pilot-one-c02-low-normal-20261028-v19/attempts/one-c02-claude-opus-primary/work/entrega/g7_confianca_poupanca.png"
+   ],
+   "report_chars": 4704,
+   "L_mean": 74.90333333333334,
+   "L_sd": null,
+   "U_mean": 75.13666666666667,
+   "blocks_mean": {
+    "A": 17.85,
+    "B": 19.733333333333334,
+    "C": 17.75,
+    "D": 0.0,
+    "E": 19.57
+   },
+   "references": {
+    "N_cons_qoq": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "namq_10_gdp P31_S14_S15 EA21, q/q %",
+       1.02,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA21, q/q anualizado %",
+       2.87,
+       0.3
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA21, taxa publicada CLV_PCH_PRE",
+       1.0,
+       0.15
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, q/q %",
+       0.88,
+       0.15
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, q/q anualizado %",
+       2.33,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_cons_yoy": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "namq_10_gdp P31_S14_S15 EA21, YoY %",
+       1.83,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA21, taxa publicada CLV_PCH_SM",
+       1.8,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ret_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "G47 EA21, YoY ajustado por calendário",
+       1.45,
+       0.15
+      ],
+      [
+       "G47 EA21, YoY ajustado sazonal e por calendário",
+       1.47,
+       0.15
+      ],
+      [
+       "G47 EA21, YoY publicado (CA)",
+       1.4,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY ajustado por calendário",
+       2.02,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY ajustado sazonal e por calendário",
+       2.05,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY publicado (CA)",
+       2.0,
+       0.15
+      ],
+      [
+       "G47 EA20, YoY ajustado por calendário",
+       1.35,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ret_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "G47 EA21, 3m/3m SAAR",
+       0.95,
+       0.3
+      ],
+      [
+       "G47_X_G473 EA21, 3m/3m SAAR",
+       1.2,
+       0.3
+      ],
+      [
+       "G47 EA20, 3m/3m SAAR",
+       0.94,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_sav": {
+     "period": "2026-Q2",
+     "unit": "% da renda disponível bruta",
+     "variants": [
+      [
+       "taxa de poupança das famílias EA21, % SA",
+       14.8,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_conf": {
+     "period": "2026-10",
+     "unit": "saldo (pontos)",
+     "variants": [
+      [
+       "confiança do consumidor, flash DG ECFIN, saldo",
+       -15.5,
+       0.6
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "3f28ff1ec0ac957bf87eb8bb89ed2619452c091611fd61df43fd7130996adea3",
+      "text": "9c6fd55c539e78fa1b748e7aa3670243584840e315b542bdb0c16e8354d2141c",
+      "numeric": "461856e5bb2334b0420d1b23bddb7a50b3bafe63408645e16725a731f77d6c6e"
+     },
+     "L": 74.90333333333334,
+     "U": 75.13666666666667,
+     "blocks": {
+      "A": 17.85,
+      "B": 19.733333333333334,
+      "C": 17.75,
+      "D": 0.0,
+      "E": 19.57
+     },
+     "choices": {
+      "C_consumo": "ATENDE",
+      "C_determinantes": "ATENDE",
+      "C_varejo": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_cons_qoq": "FAIXA_02",
+      "N_cons_yoy": "FAIXA_01",
+      "N_ret_yoy": "FAIXA_02",
+      "N_ret_3m": "FAIXA_01",
+      "N_conf": "NAO_MOSTRADO",
+      "N_sav": "FAIXA_01"
+     },
+     "probabilities": {
+      "C_consumo": {
+       "ATENDE": 0.98,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "C_determinantes": {
+       "ATENDE": 0.98,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "C_varejo": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "I1": {
+       "ATENDE": 0.84,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.01,
+       "PARCIAL": 0.13
+      },
+      "I2": {
+       "ATENDE": 0.81,
+       "NAO_ATENDE": 0.05,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.14
+      },
+      "P1": {
+       "ATENDE": 0.84,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.15
+      },
+      "P2": {
+       "ATENDE": 0.73,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.26
+      },
+      "E1": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.01
+      },
+      "E2": {
+       "ATENDE": 0.36,
+       "NAO_ATENDE": 0.13,
+       "NAO_VERIFICAVEL": 0.18,
+       "PARCIAL": 0.33
+      },
+      "E3": {
+       "ATENDE": 0.94,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.05
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_cons_qoq": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.59,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.01,
+       "FAIXA_05": 0.4,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_cons_yoy": {
+       "FAIXA_01": 0.97,
+       "FAIXA_02": 0.02,
+       "FAIXA_03": 0.01,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ret_yoy": {
+       "FAIXA_01": 0.05,
+       "FAIXA_02": 0.9,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.04,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "N_ret_3m": {
+       "FAIXA_01": 0.98,
+       "FAIXA_02": 0.01,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_conf": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_sav": {
+       "FAIXA_01": 1.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "C02",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a2-c02-high-normal-20261031-v1",
+   "final_attempt_id": "a2-c02-claude-haiku-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a2-c02-high-normal-20261031-v1/attempts/a2-c02-claude-haiku-high-normal-primary/work/entrega/graficos/fig01_consumo_nivel_total.png",
+    "execucoes/pilot-a2-c02-high-normal-20261031-v1/attempts/a2-c02-claude-haiku-high-normal-primary/work/entrega/graficos/fig02_aberturas_nivel.png",
+    "execucoes/pilot-a2-c02-high-normal-20261031-v1/attempts/a2-c02-claude-haiku-high-normal-primary/work/entrega/graficos/fig03_consumo_taxas.png",
+    "execucoes/pilot-a2-c02-high-normal-20261031-v1/attempts/a2-c02-claude-haiku-high-normal-primary/work/entrega/graficos/fig03b_consumo_taxas_recente.png",
+    "execucoes/pilot-a2-c02-high-normal-20261031-v1/attempts/a2-c02-claude-haiku-high-normal-primary/work/entrega/graficos/fig04_varejo_nivel_aberturas.png",
+    "execucoes/pilot-a2-c02-high-normal-20261031-v1/attempts/a2-c02-claude-haiku-high-normal-primary/work/entrega/graficos/fig05_varejo_yoy_3msaar.png",
+    "execucoes/pilot-a2-c02-high-normal-20261031-v1/attempts/a2-c02-claude-haiku-high-normal-primary/work/entrega/graficos/fig06_nominal_real_deflator.png",
+    "execucoes/pilot-a2-c02-high-normal-20261031-v1/attempts/a2-c02-claude-haiku-high-normal-primary/work/entrega/graficos/fig07_consumo_vs_pib_yoy.png",
+    "execucoes/pilot-a2-c02-high-normal-20261031-v1/attempts/a2-c02-claude-haiku-high-normal-primary/work/entrega/graficos/fig08_contexto_confianca_desemprego.png"
+   ],
+   "report_chars": 25988,
+   "L_mean": 82.46666666666665,
+   "L_sd": null,
+   "U_mean": 82.86666666666666,
+   "blocks_mean": {
+    "A": 15.6,
+    "B": 19.533333333333335,
+    "C": 14.45,
+    "D": 13.333333333333334,
+    "E": 19.55
+   },
+   "references": {
+    "N_cons_qoq": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "namq_10_gdp P31_S14 EA21, q/q %",
+       1.02,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA21, q/q anualizado %",
+       2.88,
+       0.3
+      ],
+      [
+       "namq_10_gdp P31_S14 EA21, taxa publicada CLV_PCH_PRE",
+       1.0,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA21, q/q anualizado %",
+       2.87,
+       0.3
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, q/q %",
+       0.88,
+       0.15
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, q/q anualizado %",
+       2.33,
+       0.3
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, taxa publicada CLV_PCH_PRE",
+       0.9,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, q/q %",
+       1.01,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, q/q anualizado %",
+       2.86,
+       0.3
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA20, q/q anualizado %",
+       2.85,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_cons_yoy": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "namq_10_gdp P31_S14 EA21, YoY %",
+       1.8,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA21, YoY %",
+       1.83,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, YoY %",
+       1.74,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, taxa publicada CLV_PCH_SM",
+       1.7,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA20, YoY %",
+       1.76,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ret_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "G47 EA21, YoY ajustado por calendário",
+       1.45,
+       0.15
+      ],
+      [
+       "G47 EA21, YoY ajustado sazonal e por calendário",
+       1.47,
+       0.15
+      ],
+      [
+       "G47 EA21, YoY publicado (CA)",
+       1.4,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY ajustado por calendário",
+       2.02,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY ajustado sazonal e por calendário",
+       2.05,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY publicado (CA)",
+       2.0,
+       0.15
+      ],
+      [
+       "G47 EA20, YoY ajustado por calendário",
+       1.35,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ret_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "G47 EA21, 3m/3m SAAR",
+       0.95,
+       0.3
+      ],
+      [
+       "G47_X_G473 EA21, 3m/3m SAAR",
+       1.2,
+       0.3
+      ],
+      [
+       "G47 EA20, 3m/3m SAAR",
+       0.94,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_conf": {
+     "period": "2026-10",
+     "unit": "saldo (pontos)",
+     "variants": [
+      [
+       "confiança do consumidor EA21, saldo SA",
+       -15.5,
+       0.6
+      ]
+     ],
+     "show_period": true
+    },
+    "N_sav": {
+     "period": "2026-Q2",
+     "unit": "% da renda disponível bruta",
+     "variants": [
+      [
+       "taxa de poupança das famílias EA21, % SA",
+       14.8,
+       0.15
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "78e531d698d8ce0d91f81ea072ce2b0023f138f5c290f559fbde7146876cf0c7",
+      "text": "307e3608c6f551ece839221a2d6d9c48f40261027a0e3ff9e1ee61feda936754",
+      "numeric": "1c358aac6f93737ac183ab9d4a989cc5caa4a2897779c6f49ba10fcd8a7bf678"
+     },
+     "L": 82.46666666666665,
+     "U": 82.86666666666666,
+     "blocks": {
+      "A": 15.6,
+      "B": 19.533333333333335,
+      "C": 14.45,
+      "D": 13.333333333333334,
+      "E": 19.55
+     },
+     "choices": {
+      "C_consumo": "ATENDE",
+      "C_determinantes": "ATENDE",
+      "C_varejo": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "PARCIAL",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_cons_qoq": "FAIXA_03",
+      "N_cons_yoy": "FAIXA_02",
+      "N_ret_yoy": "FAIXA_03",
+      "N_ret_3m": "FAIXA_02",
+      "N_conf": "FAIXA_01",
+      "N_sav": "NAO_MOSTRADO"
+     },
+     "probabilities": {
+      "C_consumo": {
+       "ATENDE": 0.96,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.02
+      },
+      "C_determinantes": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_varejo": {
+       "ATENDE": 0.98,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "I1": {
+       "ATENDE": 0.71,
+       "NAO_ATENDE": 0.04,
+       "NAO_VERIFICAVEL": 0.02,
+       "PARCIAL": 0.23
+      },
+      "I2": {
+       "ATENDE": 0.6,
+       "NAO_ATENDE": 0.13,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.27
+      },
+      "P1": {
+       "ATENDE": 0.88,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.12
+      },
+      "P2": {
+       "ATENDE": 0.04,
+       "NAO_ATENDE": 0.03,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.93
+      },
+      "E1": {
+       "ATENDE": 0.8,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.19
+      },
+      "E2": {
+       "ATENDE": 0.56,
+       "NAO_ATENDE": 0.09,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.35
+      },
+      "E3": {
+       "ATENDE": 0.96,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.04
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_cons_qoq": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.99,
+       "FAIXA_04": 0.01,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_cons_yoy": {
+       "FAIXA_01": 0.01,
+       "FAIXA_02": 0.99,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ret_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.98,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.02,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ret_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.93,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.06,
+       "NAO_MOSTRADO": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_conf": {
+       "FAIXA_01": 1.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_sav": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "C02",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a3-c02-low-normal-20261105-v1",
+   "final_attempt_id": "a3-c02-codex-luna-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a3-c02-low-normal-20261105-v1/attempts/a3-c02-codex-luna-primary/work/entrega/consumo_zona_euro.png"
+   ],
+   "report_chars": 1912,
+   "L_mean": 56.09,
+   "L_sd": null,
+   "U_mean": 57.09,
+   "blocks_mean": {
+    "A": 16.700000000000003,
+    "B": 5.8,
+    "C": 18.95,
+    "D": 0.0,
+    "E": 14.64
+   },
+   "references": {
+    "N_cons_qoq": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "namq_10_gdp P31_S14 EA21, q/q %",
+       1.02,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA21, q/q anualizado %",
+       2.88,
+       0.3
+      ],
+      [
+       "namq_10_gdp P31_S14 EA21, taxa publicada CLV_PCH_PRE",
+       1.0,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA21, q/q anualizado %",
+       2.87,
+       0.3
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, q/q %",
+       0.88,
+       0.15
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, q/q anualizado %",
+       2.33,
+       0.3
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, taxa publicada CLV_PCH_PRE",
+       0.9,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, q/q %",
+       1.01,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, q/q anualizado %",
+       2.86,
+       0.3
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA20, q/q anualizado %",
+       2.85,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_cons_yoy": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "namq_10_gdp P31_S14 EA21, YoY %",
+       1.8,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA21, YoY %",
+       1.83,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, YoY %",
+       1.74,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, taxa publicada CLV_PCH_SM",
+       1.7,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA20, YoY %",
+       1.76,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ret_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "G47 EA21, YoY ajustado por calendário",
+       1.45,
+       0.15
+      ],
+      [
+       "G47 EA21, YoY ajustado sazonal e por calendário",
+       1.47,
+       0.15
+      ],
+      [
+       "G47 EA21, YoY publicado (CA)",
+       1.4,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY ajustado por calendário",
+       2.02,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY ajustado sazonal e por calendário",
+       2.05,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY publicado (CA)",
+       2.0,
+       0.15
+      ],
+      [
+       "G47 EA20, YoY ajustado por calendário",
+       1.35,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ret_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "G47 EA21, 3m/3m SAAR",
+       0.95,
+       0.3
+      ],
+      [
+       "G47_X_G473 EA21, 3m/3m SAAR",
+       1.2,
+       0.3
+      ],
+      [
+       "G47 EA20, 3m/3m SAAR",
+       0.94,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_conf": {
+     "period": "2026-10",
+     "unit": "saldo (pontos)",
+     "variants": [
+      [
+       "confiança do consumidor EA21, saldo SA",
+       -15.5,
+       0.6
+      ]
+     ],
+     "show_period": true
+    },
+    "N_sav": {
+     "period": "2026-Q2",
+     "unit": "% da renda disponível bruta",
+     "variants": [
+      [
+       "taxa de poupança das famílias EA21, % SA",
+       14.8,
+       0.15
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "cbdbbc3fdc55844ddaa0515a905098c20793f3dd6848b935401632585173b0f1",
+      "text": "98604e644fe06bc73a4cc0203f415fa99e273409b3fe10ac5f3a78af6581e5f3",
+      "numeric": "98b407d04415e7ea7e0e96a0a967df815f932c28026009df6c3184942d7de71b"
+     },
+     "L": 56.09,
+     "U": 57.09,
+     "blocks": {
+      "A": 16.700000000000003,
+      "B": 5.8,
+      "C": 18.95,
+      "D": 0.0,
+      "E": 14.64
+     },
+     "choices": {
+      "C_consumo": "ATENDE",
+      "C_determinantes": "NAO_ATENDE",
+      "C_varejo": "NAO_ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "PARCIAL",
+      "E4": "ATENDE",
+      "N_cons_qoq": "FAIXA_02",
+      "N_cons_yoy": "FAIXA_02",
+      "N_ret_yoy": "NAO_MOSTRADO",
+      "N_ret_3m": "NAO_MOSTRADO",
+      "N_conf": "NAO_MOSTRADO",
+      "N_sav": "NAO_MOSTRADO"
+     },
+     "probabilities": {
+      "C_consumo": {
+       "ATENDE": 0.87,
+       "NAO_ATENDE": 0.04,
+       "NAO_VERIFICAVEL": 0.09
+      },
+      "C_determinantes": {
+       "ATENDE": 0.0,
+       "NAO_ATENDE": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_varejo": {
+       "ATENDE": 0.0,
+       "NAO_ATENDE": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "I1": {
+       "ATENDE": 0.69,
+       "NAO_ATENDE": 0.15,
+       "NAO_VERIFICAVEL": 0.04,
+       "PARCIAL": 0.12
+      },
+      "I2": {
+       "ATENDE": 0.9,
+       "NAO_ATENDE": 0.06,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.04
+      },
+      "P1": {
+       "ATENDE": 0.94,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.06
+      },
+      "P2": {
+       "ATENDE": 0.86,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.13
+      },
+      "E1": {
+       "ATENDE": 0.52,
+       "NAO_ATENDE": 0.14,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.34
+      },
+      "E2": {
+       "ATENDE": 0.72,
+       "NAO_ATENDE": 0.08,
+       "NAO_VERIFICAVEL": 0.03,
+       "PARCIAL": 0.17
+      },
+      "E3": {
+       "ATENDE": 0.22,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.77
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_cons_qoq": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.7,
+       "FAIXA_03": 0.01,
+       "FAIXA_04": 0.03,
+       "FAIXA_05": 0.26,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_cons_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.98,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ret_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ret_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_conf": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_sav": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "C02",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a3-c02-low-normal-20261105-v1",
+   "final_attempt_id": "a3-c02-claude-fable-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a3-c02-low-normal-20261105-v1/attempts/a3-c02-claude-fable-primary/work/entrega/fig1_consumo_nivel_trimestral.png",
+    "execucoes/pilot-a3-c02-low-normal-20261105-v1/attempts/a3-c02-claude-fable-primary/work/entrega/fig2_consumo_taxas_trimestrais.png",
+    "execucoes/pilot-a3-c02-low-normal-20261105-v1/attempts/a3-c02-claude-fable-primary/work/entrega/fig3_varejo_nivel_aberturas.png",
+    "execucoes/pilot-a3-c02-low-normal-20261105-v1/attempts/a3-c02-claude-fable-primary/work/entrega/fig4_varejo_taxas.png",
+    "execucoes/pilot-a3-c02-low-normal-20261105-v1/attempts/a3-c02-claude-fable-primary/work/entrega/fig5_varejo_aberturas_taxas.png",
+    "execucoes/pilot-a3-c02-low-normal-20261105-v1/attempts/a3-c02-claude-fable-primary/work/entrega/fig6_renda_poupanca.png",
+    "execucoes/pilot-a3-c02-low-normal-20261105-v1/attempts/a3-c02-claude-fable-primary/work/entrega/fig7_confianca_desemprego.png"
+   ],
+   "report_chars": 7443,
+   "L_mean": 77.24000000000001,
+   "L_sd": null,
+   "U_mean": 77.24000000000001,
+   "blocks_mean": {
+    "A": 18.1,
+    "B": 20.0,
+    "C": 19.5,
+    "D": 0.0,
+    "E": 19.64
+   },
+   "references": {
+    "N_cons_qoq": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "namq_10_gdp P31_S14 EA21, q/q %",
+       1.02,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA21, q/q anualizado %",
+       2.88,
+       0.3
+      ],
+      [
+       "namq_10_gdp P31_S14 EA21, taxa publicada CLV_PCH_PRE",
+       1.0,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA21, q/q anualizado %",
+       2.87,
+       0.3
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, q/q %",
+       0.88,
+       0.15
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, q/q anualizado %",
+       2.33,
+       0.3
+      ],
+      [
+       "namq_10_fcs P31_S14 EA21, taxa publicada CLV_PCH_PRE",
+       0.9,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, q/q %",
+       1.01,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, q/q anualizado %",
+       2.86,
+       0.3
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA20, q/q anualizado %",
+       2.85,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_cons_yoy": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "namq_10_gdp P31_S14 EA21, YoY %",
+       1.8,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA21, YoY %",
+       1.83,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, YoY %",
+       1.74,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14 EA20, taxa publicada CLV_PCH_SM",
+       1.7,
+       0.15
+      ],
+      [
+       "namq_10_gdp P31_S14_S15 EA20, YoY %",
+       1.76,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ret_yoy": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "G47 EA21, YoY ajustado sazonal e por calendário",
+       0.89,
+       0.15
+      ],
+      [
+       "G47 EA21, YoY publicado (CA)",
+       1.0,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA21, YoY ajustado sazonal e por calendário",
+       1.37,
+       0.15
+      ],
+      [
+       "G47_X_G473 EA20, YoY ajustado sazonal e por calendário",
+       1.28,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ret_3m": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "G47 EA21, 3m/3m SAAR",
+       -0.7,
+       0.3
+      ],
+      [
+       "G47_X_G473 EA21, 3m/3m SAAR",
+       -0.81,
+       0.3
+      ],
+      [
+       "G47_X_G473 EA20, 3m/3m SAAR",
+       -0.82,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_conf": {
+     "period": "2026-10",
+     "unit": "saldo (pontos)",
+     "variants": [
+      [
+       "confiança do consumidor EA21, saldo SA",
+       -15.5,
+       0.6
+      ]
+     ],
+     "show_period": true
+    },
+    "N_sav": {
+     "period": "2026-Q2",
+     "unit": "% da renda disponível bruta",
+     "variants": [
+      [
+       "taxa de poupança das famílias EA21, % SA",
+       14.8,
+       0.15
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "d82faadbd13b7ce87228fec0aaedfff75b69d6dead02c5fe11a5f665c2d3a50c",
+      "text": "686b13194445c8108d1474b536667f9b59437beb237e28534225207486c1cc12",
+      "numeric": "25a5054b9febe4b8dd83f80978d508a655eca8738ef16147afc620a5d5387ef6"
+     },
+     "L": 77.24000000000001,
+     "U": 77.24000000000001,
+     "blocks": {
+      "A": 18.1,
+      "B": 20.0,
+      "C": 19.5,
+      "D": 0.0,
+      "E": 19.64
+     },
+     "choices": {
+      "C_consumo": "ATENDE",
+      "C_determinantes": "ATENDE",
+      "C_varejo": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_cons_qoq": "FAIXA_02",
+      "N_cons_yoy": "FAIXA_02",
+      "N_ret_yoy": "FAIXA_02",
+      "N_ret_3m": "FAIXA_01",
+      "N_conf": "FAIXA_02",
+      "N_sav": "FAIXA_01"
+     },
+     "probabilities": {
+      "C_consumo": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_determinantes": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_varejo": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "I1": {
+       "ATENDE": 0.88,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.11
+      },
+      "I2": {
+       "ATENDE": 0.78,
+       "NAO_ATENDE": 0.03,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.19
+      },
+      "P1": {
+       "ATENDE": 0.93,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.07
+      },
+      "P2": {
+       "ATENDE": 0.97,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.03
+      },
+      "E1": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "E2": {
+       "ATENDE": 0.51,
+       "NAO_ATENDE": 0.06,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.43
+      },
+      "E3": {
+       "ATENDE": 0.94,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.06
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_cons_qoq": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.97,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.02,
+       "FAIXA_05": 0.01,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_cons_yoy": {
+       "FAIXA_01": 0.01,
+       "FAIXA_02": 0.99,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ret_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.99,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ret_3m": {
+       "FAIXA_01": 0.96,
+       "FAIXA_02": 0.03,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.01,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_conf": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.66,
+       "FAIXA_03": 0.33,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_sav": {
+       "FAIXA_01": 1.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

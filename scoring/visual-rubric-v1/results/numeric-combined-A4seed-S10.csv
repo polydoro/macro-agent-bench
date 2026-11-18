@@ -1,0 +1,4 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A1,S10,claude-fable-5-1,scored,40.0,30.0,10.0,total_native:ambiguous
+A1,S10,grok-4.7,scored,40.0,30.0,10.0,total_native:ambiguous
+A1,S10,kimi-code/k3.1-pro,verified_absence,0.0,0.0,0.0,

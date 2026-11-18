@@ -1,0 +1,1851 @@
+{
+ "rubric_version": "visual-rubric-v1-provisional-7",
+ "model_requested": "jev-1.14.0",
+ "shift_tolerances": 0,
+ "status": "provisional, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "S08",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-one-s08-low-normal-20261027-v14",
+   "final_attempt_id": "one-s08-codex-astra-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB com ajuste por eventos esportivos, YoY",
+       2.63,
+       0.15
+      ],
+      [
+       "PIB sem ajuste por eventos esportivos, YoY",
+       2.15,
+       0.15
+      ]
+     ]
+    },
+    "N_total_qoq": {
+     "period": "2026Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB com ajuste por eventos esportivos, q/q",
+       1.88,
+       0.15
+      ],
+      [
+       "PIB com ajuste por eventos esportivos, q/q anualizado",
+       7.75,
+       0.3
+      ],
+      [
+       "PIB sem ajuste por eventos esportivos, q/q",
+       1.54,
+       0.15
+      ],
+      [
+       "PIB sem ajuste por eventos esportivos, q/q anualizado",
+       6.31,
+       0.3
+      ]
+     ]
+    },
+    "N_consumo_familias_growth": {
+     "period": "2026Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "P31_S14_S15 (com ajuste por eventos esportivos), YoY",
+       1.31,
+       0.15
+      ],
+      [
+       "P31_S14_S15 (com ajuste por eventos esportivos), q/q",
+       0.3,
+       0.15
+      ],
+      [
+       "P31_S14_S15 (com ajuste por eventos esportivos), q/q anualizado",
+       1.21,
+       0.3
+      ],
+      [
+       "P31_S14_S15 (sem ajuste por eventos esportivos), YoY",
+       1.31,
+       0.15
+      ],
+      [
+       "P31_S14_S15 (sem ajuste por eventos esportivos), q/q",
+       0.3,
+       0.15
+      ],
+      [
+       "P31_S14_S15 (sem ajuste por eventos esportivos), q/q anualizado",
+       1.21,
+       0.3
+      ]
+     ]
+    },
+    "N_consumo_governo_growth": {
+     "period": "2026Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "P3_S13 (com ajuste por eventos esportivos), YoY",
+       1.67,
+       0.15
+      ],
+      [
+       "P3_S13 (com ajuste por eventos esportivos), q/q",
+       0.42,
+       0.15
+      ],
+      [
+       "P3_S13 (com ajuste por eventos esportivos), q/q anualizado",
+       1.67,
+       0.3
+      ],
+      [
+       "P3_S13 (sem ajuste por eventos esportivos), YoY",
+       1.67,
+       0.15
+      ],
+      [
+       "P3_S13 (sem ajuste por eventos esportivos), q/q",
+       0.42,
+       0.15
+      ],
+      [
+       "P3_S13 (sem ajuste por eventos esportivos), q/q anualizado",
+       1.67,
+       0.3
+      ]
+     ]
+    },
+    "N_investimento_growth": {
+     "period": "2026Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "P51G (com ajuste por eventos esportivos), YoY",
+       1.6,
+       0.15
+      ],
+      [
+       "P51G (com ajuste por eventos esportivos), q/q",
+       0.79,
+       0.15
+      ],
+      [
+       "P51G (com ajuste por eventos esportivos), q/q anualizado",
+       3.18,
+       0.3
+      ],
+      [
+       "P5111_N111_112G (com ajuste por eventos esportivos), YoY",
+       2.95,
+       0.15
+      ],
+      [
+       "P5111_N111_112G (com ajuste por eventos esportivos), q/q",
+       0.74,
+       0.15
+      ],
+      [
+       "P5111_N111_112G (com ajuste por eventos esportivos), q/q anualizado",
+       3.0,
+       0.3
+      ],
+      [
+       "P5111_N113T117G (com ajuste por eventos esportivos), YoY",
+       1.03,
+       0.15
+      ],
+      [
+       "P5111_N113T117G (com ajuste por eventos esportivos), q/q",
+       0.81,
+       0.15
+      ],
+      [
+       "P5111_N113T117G (com ajuste por eventos esportivos), q/q anualizado",
+       3.26,
+       0.3
+      ],
+      [
+       "P51G (sem ajuste por eventos esportivos), YoY",
+       1.6,
+       0.15
+      ],
+      [
+       "P51G (sem ajuste por eventos esportivos), q/q",
+       0.79,
+       0.15
+      ],
+      [
+       "P51G (sem ajuste por eventos esportivos), q/q anualizado",
+       3.18,
+       0.3
+      ],
+      [
+       "P5111_N111_112G (sem ajuste por eventos esportivos), YoY",
+       2.95,
+       0.15
+      ],
+      [
+       "P5111_N111_112G (sem ajuste por eventos esportivos), q/q",
+       0.74,
+       0.15
+      ],
+      [
+       "P5111_N111_112G (sem ajuste por eventos esportivos), q/q anualizado",
+       3.0,
+       0.3
+      ],
+      [
+       "P5111_N113T117G (sem ajuste por eventos esportivos), YoY",
+       1.03,
+       0.15
+      ],
+      [
+       "P5111_N113T117G (sem ajuste por eventos esportivos), q/q",
+       0.81,
+       0.15
+      ],
+      [
+       "P5111_N113T117G (sem ajuste por eventos esportivos), q/q anualizado",
+       3.26,
+       0.3
+      ]
+     ]
+    },
+    "N_exportacoes_growth": {
+     "period": "2026Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "P6 (com ajuste por eventos esportivos), YoY",
+       4.49,
+       0.15
+      ],
+      [
+       "P6 (com ajuste por eventos esportivos), q/q",
+       -1.54,
+       0.15
+      ],
+      [
+       "P6 (com ajuste por eventos esportivos), q/q anualizado",
+       -6.0,
+       0.3
+      ],
+      [
+       "P61 (com ajuste por eventos esportivos), YoY",
+       3.97,
+       0.15
+      ],
+      [
+       "P61 (com ajuste por eventos esportivos), q/q",
+       -2.25,
+       0.15
+      ],
+      [
+       "P61 (com ajuste por eventos esportivos), q/q anualizado",
+       -8.68,
+       0.3
+      ],
+      [
+       "P61XF11 (com ajuste por eventos esportivos), YoY",
+       7.77,
+       0.15
+      ],
+      [
+       "P61XF11 (com ajuste por eventos esportivos), q/q",
+       2.62,
+       0.15
+      ],
+      [
+       "P61XF11 (com ajuste por eventos esportivos), q/q anualizado",
+       10.91,
+       0.3
+      ],
+      [
+       "P62 (com ajuste por eventos esportivos), YoY",
+       6.26,
+       0.15
+      ],
+      [
+       "P62 (com ajuste por eventos esportivos), q/q",
+       0.54,
+       0.15
+      ],
+      [
+       "P62 (com ajuste por eventos esportivos), q/q anualizado",
+       2.19,
+       0.3
+      ],
+      [
+       "P6 (sem ajuste por eventos esportivos), YoY",
+       3.82,
+       0.15
+      ],
+      [
+       "P6 (sem ajuste por eventos esportivos), q/q",
+       -1.29,
+       0.15
+      ],
+      [
+       "P6 (sem ajuste por eventos esportivos), q/q anualizado",
+       -5.06,
+       0.3
+      ],
+      [
+       "P61 (sem ajuste por eventos esportivos), YoY",
+       3.97,
+       0.15
+      ],
+      [
+       "P61 (sem ajuste por eventos esportivos), q/q",
+       -2.25,
+       0.15
+      ],
+      [
+       "P61 (sem ajuste por eventos esportivos), q/q anualizado",
+       -8.68,
+       0.3
+      ],
+      [
+       "P61XF11 (sem ajuste por eventos esportivos), YoY",
+       7.77,
+       0.15
+      ],
+      [
+       "P61XF11 (sem ajuste por eventos esportivos), q/q",
+       2.62,
+       0.15
+      ],
+      [
+       "P61XF11 (sem ajuste por eventos esportivos), q/q anualizado",
+       10.91,
+       0.3
+      ],
+      [
+       "P62 (sem ajuste por eventos esportivos), YoY",
+       3.73,
+       0.15
+      ],
+      [
+       "P62 (sem ajuste por eventos esportivos), q/q",
+       1.56,
+       0.15
+      ],
+      [
+       "P62 (sem ajuste por eventos esportivos), q/q anualizado",
+       6.37,
+       0.3
+      ]
+     ]
+    },
+    "N_importacoes_growth": {
+     "period": "2026Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "P7 (com ajuste por eventos esportivos), YoY",
+       -1.19,
+       0.15
+      ],
+      [
+       "P7 (com ajuste por eventos esportivos), q/q",
+       -0.76,
+       0.15
+      ],
+      [
+       "P7 (com ajuste por eventos esportivos), q/q anualizado",
+       -2.99,
+       0.3
+      ],
+      [
+       "P71 (com ajuste por eventos esportivos), YoY",
+       -4.48,
+       0.15
+      ],
+      [
+       "P71 (com ajuste por eventos esportivos), q/q",
+       -1.78,
+       0.15
+      ],
+      [
+       "P71 (com ajuste por eventos esportivos), q/q anualizado",
+       -6.94,
+       0.3
+      ],
+      [
+       "P71XF11 (com ajuste por eventos esportivos), YoY",
+       2.69,
+       0.15
+      ],
+      [
+       "P71XF11 (com ajuste por eventos esportivos), q/q",
+       2.28,
+       0.15
+      ],
+      [
+       "P71XF11 (com ajuste por eventos esportivos), q/q anualizado",
+       9.42,
+       0.3
+      ],
+      [
+       "P72 (com ajuste por eventos esportivos), YoY",
+       6.58,
+       0.15
+      ],
+      [
+       "P72 (com ajuste por eventos esportivos), q/q",
+       1.51,
+       0.15
+      ],
+      [
+       "P72 (com ajuste por eventos esportivos), q/q anualizado",
+       6.19,
+       0.3
+      ],
+      [
+       "P7 (sem ajuste por eventos esportivos), YoY",
+       -1.98,
+       0.15
+      ],
+      [
+       "P7 (sem ajuste por eventos esportivos), q/q",
+       -0.95,
+       0.15
+      ],
+      [
+       "P7 (sem ajuste por eventos esportivos), q/q anualizado",
+       -3.76,
+       0.3
+      ],
+      [
+       "P71 (sem ajuste por eventos esportivos), YoY",
+       -4.48,
+       0.15
+      ],
+      [
+       "P71 (sem ajuste por eventos esportivos), q/q",
+       -1.78,
+       0.15
+      ],
+      [
+       "P71 (sem ajuste por eventos esportivos), q/q anualizado",
+       -6.94,
+       0.3
+      ],
+      [
+       "P71XF11 (sem ajuste por eventos esportivos), YoY",
+       2.69,
+       0.15
+      ],
+      [
+       "P71XF11 (sem ajuste por eventos esportivos), q/q",
+       2.28,
+       0.15
+      ],
+      [
+       "P71XF11 (sem ajuste por eventos esportivos), q/q anualizado",
+       9.42,
+       0.3
+      ],
+      [
+       "P72 (sem ajuste por eventos esportivos), YoY",
+       3.89,
+       0.15
+      ],
+      [
+       "P72 (sem ajuste por eventos esportivos), q/q",
+       0.87,
+       0.15
+      ],
+      [
+       "P72 (sem ajuste por eventos esportivos), q/q anualizado",
+       3.51,
+       0.3
+      ]
+     ]
+    },
+    "N_industria_growth": {
+     "period": "2026Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "NOGA 10-33 (com ajuste por eventos esportivos), YoY",
+       4.11,
+       0.15
+      ],
+      [
+       "NOGA 10-33 (com ajuste por eventos esportivos), q/q",
+       4.45,
+       0.15
+      ],
+      [
+       "NOGA 10-33 (com ajuste por eventos esportivos), q/q anualizado",
+       19.03,
+       0.3
+      ],
+      [
+       "NOGA 10-33 (sem ajuste por eventos esportivos), YoY",
+       4.11,
+       0.15
+      ],
+      [
+       "NOGA 10-33 (sem ajuste por eventos esportivos), q/q",
+       4.45,
+       0.15
+      ],
+      [
+       "NOGA 10-33 (sem ajuste por eventos esportivos), q/q anualizado",
+       19.03,
+       0.3
+      ],
+      [
+       "industrial sector (texto da divulgação SECO), q/q",
+       3.9,
+       0.15
+      ]
+     ]
+    },
+    "N_servicos_growth": {
+     "period": "2026Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "NOGA 45-47 (com ajuste por eventos esportivos), YoY",
+       1.7,
+       0.15
+      ],
+      [
+       "NOGA 45-47 (com ajuste por eventos esportivos), q/q",
+       0.81,
+       0.15
+      ],
+      [
+       "NOGA 45-47 (com ajuste por eventos esportivos), q/q anualizado",
+       3.28,
+       0.3
+      ],
+      [
+       "NOGA 49-53 (com ajuste por eventos esportivos), YoY",
+       2.84,
+       0.15
+      ],
+      [
+       "NOGA 49-53 (com ajuste por eventos esportivos), q/q",
+       1.88,
+       0.15
+      ],
+      [
+       "NOGA 49-53 (com ajuste por eventos esportivos), q/q anualizado",
+       7.73,
+       0.3
+      ],
+      [
+       "NOGA 55-56 (com ajuste por eventos esportivos), YoY",
+       4.58,
+       0.15
+      ],
+      [
+       "NOGA 55-56 (com ajuste por eventos esportivos), q/q",
+       1.36,
+       0.15
+      ],
+      [
+       "NOGA 55-56 (com ajuste por eventos esportivos), q/q anualizado",
+       5.54,
+       0.3
+      ],
+      [
+       "NOGA 58-63 (com ajuste por eventos esportivos), YoY",
+       0.64,
+       0.15
+      ],
+      [
+       "NOGA 58-63 (com ajuste por eventos esportivos), q/q",
+       1.07,
+       0.15
+      ],
+      [
+       "NOGA 58-63 (com ajuste por eventos esportivos), q/q anualizado",
+       4.33,
+       0.3
+      ],
+      [
+       "NOGA 64-66 (com ajuste por eventos esportivos), YoY",
+       5.11,
+       0.15
+      ],
+      [
+       "NOGA 64-66 (com ajuste por eventos esportivos), q/q",
+       0.75,
+       0.15
+      ],
+      [
+       "NOGA 64-66 (com ajuste por eventos esportivos), q/q anualizado",
+       3.05,
+       0.3
+      ],
+      [
+       "NOGA 68-75; 77-82 (com ajuste por eventos esportivos), YoY",
+       0.46,
+       0.15
+      ],
+      [
+       "NOGA 68-75; 77-82 (com ajuste por eventos esportivos), q/q",
+       0.51,
+       0.15
+      ],
+      [
+       "NOGA 68-75; 77-82 (com ajuste por eventos esportivos), q/q anualizado",
+       2.06,
+       0.3
+      ],
+      [
+       "NOGA 84 (com ajuste por eventos esportivos), YoY",
+       1.09,
+       0.15
+      ],
+      [
+       "NOGA 84 (com ajuste por eventos esportivos), q/q",
+       0.37,
+       0.15
+      ],
+      [
+       "NOGA 84 (com ajuste por eventos esportivos), q/q anualizado",
+       1.48,
+       0.3
+      ],
+      [
+       "NOGA 85 (com ajuste por eventos esportivos), YoY",
+       -1.46,
+       0.15
+      ],
+      [
+       "NOGA 85 (com ajuste por eventos esportivos), q/q",
+       0.03,
+       0.15
+      ],
+      [
+       "NOGA 85 (com ajuste por eventos esportivos), q/q anualizado",
+       0.12,
+       0.3
+      ],
+      [
+       "NOGA 86-88 (com ajuste por eventos esportivos), YoY",
+       2.1,
+       0.15
+      ],
+      [
+       "NOGA 86-88 (com ajuste por eventos esportivos), q/q",
+       0.73,
+       0.15
+      ],
+      [
+       "NOGA 86-88 (com ajuste por eventos esportivos), q/q anualizado",
+       2.96,
+       0.3
+      ],
+      [
+       "NOGA 90-93 (com ajuste por eventos esportivos), YoY",
+       90.79,
+       0.15
+      ],
+      [
+       "NOGA 90-93 (com ajuste por eventos esportivos), q/q",
+       44.55,
+       0.15
+      ],
+      [
+       "NOGA 90-93 (com ajuste por eventos esportivos), q/q anualizado",
+       336.64,
+       0.3
+      ],
+      [
+       "NOGA 94-96 (com ajuste por eventos esportivos), YoY",
+       -1.2,
+       0.15
+      ],
+      [
+       "NOGA 94-96 (com ajuste por eventos esportivos), q/q",
+       -0.77,
+       0.15
+      ],
+      [
+       "NOGA 94-96 (com ajuste por eventos esportivos), q/q anualizado",
+       -3.05,
+       0.3
+      ],
+      [
+       "NOGA 45-47 (sem ajuste por eventos esportivos), YoY",
+       1.7,
+       0.15
+      ],
+      [
+       "NOGA 45-47 (sem ajuste por eventos esportivos), q/q",
+       0.81,
+       0.15
+      ],
+      [
+       "NOGA 45-47 (sem ajuste por eventos esportivos), q/q anualizado",
+       3.28,
+       0.3
+      ],
+      [
+       "NOGA 49-53 (sem ajuste por eventos esportivos), YoY",
+       2.84,
+       0.15
+      ],
+      [
+       "NOGA 49-53 (sem ajuste por eventos esportivos), q/q",
+       1.88,
+       0.15
+      ],
+      [
+       "NOGA 49-53 (sem ajuste por eventos esportivos), q/q anualizado",
+       7.73,
+       0.3
+      ],
+      [
+       "NOGA 55-56 (sem ajuste por eventos esportivos), YoY",
+       4.58,
+       0.15
+      ],
+      [
+       "NOGA 55-56 (sem ajuste por eventos esportivos), q/q",
+       1.36,
+       0.15
+      ],
+      [
+       "NOGA 55-56 (sem ajuste por eventos esportivos), q/q anualizado",
+       5.54,
+       0.3
+      ],
+      [
+       "NOGA 58-63 (sem ajuste por eventos esportivos), YoY",
+       0.64,
+       0.15
+      ],
+      [
+       "NOGA 58-63 (sem ajuste por eventos esportivos), q/q",
+       1.07,
+       0.15
+      ],
+      [
+       "NOGA 58-63 (sem ajuste por eventos esportivos), q/q anualizado",
+       4.33,
+       0.3
+      ],
+      [
+       "NOGA 64-66 (sem ajuste por eventos esportivos), YoY",
+       5.11,
+       0.15
+      ],
+      [
+       "NOGA 64-66 (sem ajuste por eventos esportivos), q/q",
+       0.75,
+       0.15
+      ],
+      [
+       "NOGA 64-66 (sem ajuste por eventos esportivos), q/q anualizado",
+       3.05,
+       0.3
+      ],
+      [
+       "NOGA 68-75; 77-82 (sem ajuste por eventos esportivos), YoY",
+       0.46,
+       0.15
+      ],
+      [
+       "NOGA 68-75; 77-82 (sem ajuste por eventos esportivos), q/q",
+       0.51,
+       0.15
+      ],
+      [
+       "NOGA 68-75; 77-82 (sem ajuste por eventos esportivos), q/q anualizado",
+       2.06,
+       0.3
+      ],
+      [
+       "NOGA 84 (sem ajuste por eventos esportivos), YoY",
+       1.09,
+       0.15
+      ],
+      [
+       "NOGA 84 (sem ajuste por eventos esportivos), q/q",
+       0.37,
+       0.15
+      ],
+      [
+       "NOGA 84 (sem ajuste por eventos esportivos), q/q anualizado",
+       1.48,
+       0.3
+      ],
+      [
+       "NOGA 85 (sem ajuste por eventos esportivos), YoY",
+       -1.46,
+       0.15
+      ],
+      [
+       "NOGA 85 (sem ajuste por eventos esportivos), q/q",
+       0.03,
+       0.15
+      ],
+      [
+       "NOGA 85 (sem ajuste por eventos esportivos), q/q anualizado",
+       0.12,
+       0.3
+      ],
+      [
+       "NOGA 86-88 (sem ajuste por eventos esportivos), YoY",
+       2.1,
+       0.15
+      ],
+      [
+       "NOGA 86-88 (sem ajuste por eventos esportivos), q/q",
+       0.73,
+       0.15
+      ],
+      [
+       "NOGA 86-88 (sem ajuste por eventos esportivos), q/q anualizado",
+       2.96,
+       0.3
+      ],
+      [
+       "NOGA 90-93 (sem ajuste por eventos esportivos), YoY",
+       12.99,
+       0.15
+      ],
+      [
+       "NOGA 90-93 (sem ajuste por eventos esportivos), q/q",
+       3.57,
+       0.15
+      ],
+      [
+       "NOGA 90-93 (sem ajuste por eventos esportivos), q/q anualizado",
+       15.06,
+       0.3
+      ],
+      [
+       "NOGA 94-96 (sem ajuste por eventos esportivos), YoY",
+       -1.2,
+       0.15
+      ],
+      [
+       "NOGA 94-96 (sem ajuste por eventos esportivos), q/q",
+       -0.77,
+       0.15
+      ],
+      [
+       "NOGA 94-96 (sem ajuste por eventos esportivos), q/q anualizado",
+       -3.05,
+       0.3
+      ],
+      [
+       "services sector (texto da divulgação SECO), q/q",
+       0.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-one-s08-low-normal-20261027-v14/attempts/one-s08-codex-astra-primary/work/entrega/01_nivel_pib.png",
+    "execucoes/pilot-one-s08-low-normal-20261027-v14/attempts/one-s08-codex-astra-primary/work/entrega/02_niveis_aberturas.png",
+    "execucoes/pilot-one-s08-low-normal-20261027-v14/attempts/one-s08-codex-astra-primary/work/entrega/03_contribuicoes.png",
+    "execucoes/pilot-one-s08-low-normal-20261027-v14/attempts/one-s08-codex-astra-primary/work/entrega/04_taxas.png"
+   ],
+   "N_mean": 11.1,
+   "N_sd": null,
+   "N_upper_mean": 12.533333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "0cdda3bf6749d60c7d60517c50f802fbff25213e8b66e32f375439c71b5e0845",
+     "usage": {
+      "input_tokens": 26416,
+      "output_tokens": 2740
+     },
+     "N": 11.1,
+     "N_upper": 12.533333333333333,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 4.3,
+       "undetermined": 0.4
+      },
+      "N_total_qoq": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 0.3
+      },
+      "N_consumo_familias_growth": {
+       "state": "answered",
+       "weight": 6.666666666666667,
+       "group": "N_components",
+       "supported": 3.3333333333333335,
+       "undetermined": 0.13333333333333333
+      },
+      "N_consumo_governo_growth": {
+       "state": "answered",
+       "weight": 6.666666666666667,
+       "group": "N_components",
+       "supported": 0.06666666666666667,
+       "undetermined": 0.06666666666666667
+      },
+      "N_investimento_growth": {
+       "state": "answered",
+       "weight": 6.666666666666667,
+       "group": "N_components",
+       "supported": 0.26666666666666666,
+       "undetermined": 0.4
+      },
+      "N_exportacoes_growth": {
+       "state": "answered",
+       "weight": 6.666666666666667,
+       "group": "N_components",
+       "supported": 1.1333333333333333,
+       "undetermined": 0.46666666666666673
+      },
+      "N_importacoes_growth": {
+       "state": "answered",
+       "weight": 6.666666666666667,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_industria_growth": {
+       "state": "answered",
+       "weight": 6.666666666666667,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.26666666666666666
+      },
+      "N_servicos_growth": {
+       "state": "answered",
+       "weight": 6.666666666666667,
+       "group": "N_components",
+       "supported": 0.5333333333333333,
+       "undetermined": 0.13333333333333333
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_qoq": "NAO_MOSTRADO",
+      "N_consumo_familias_growth": "FAIXA_06",
+      "N_consumo_governo_growth": "NAO_MOSTRADO",
+      "N_investimento_growth": "NAO_MOSTRADO",
+      "N_exportacoes_growth": "NAO_MOSTRADO",
+      "N_importacoes_growth": "NAO_MOSTRADO",
+      "N_industria_growth": "NAO_MOSTRADO",
+      "N_servicos_growth": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_qoq": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_10",
+       "FAIXA_13"
+      ],
+      "N_consumo_familias_growth": [
+       "FAIXA_03",
+       "FAIXA_06"
+      ],
+      "N_consumo_governo_growth": [
+       "FAIXA_03",
+       "FAIXA_06"
+      ],
+      "N_investimento_growth": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_07"
+      ],
+      "N_exportacoes_growth": [
+       "FAIXA_03",
+       "FAIXA_07",
+       "FAIXA_09",
+       "FAIXA_14",
+       "FAIXA_17",
+       "FAIXA_21",
+       "FAIXA_24",
+       "FAIXA_26",
+       "FAIXA_28",
+       "FAIXA_30",
+       "FAIXA_33",
+       "FAIXA_36",
+       "FAIXA_41"
+      ],
+      "N_importacoes_growth": [
+       "FAIXA_03",
+       "FAIXA_08",
+       "FAIXA_10",
+       "FAIXA_12",
+       "FAIXA_14",
+       "FAIXA_16",
+       "FAIXA_19",
+       "FAIXA_22",
+       "FAIXA_25",
+       "FAIXA_27",
+       "FAIXA_30",
+       "FAIXA_33",
+       "FAIXA_37"
+      ],
+      "N_industria_growth": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_09"
+      ],
+      "N_servicos_growth": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_08",
+       "FAIXA_10",
+       "FAIXA_12",
+       "FAIXA_14",
+       "FAIXA_16",
+       "FAIXA_19",
+       "FAIXA_24",
+       "FAIXA_28",
+       "FAIXA_33",
+       "FAIXA_38",
+       "FAIXA_43"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S01",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a2-s01-high-normal-20261029-v1",
+   "final_attempt_id": "a2-s01-claude-fable-high-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D (indústria sem construção), YoY ajustado por calendário",
+       0.36,
+       0.15
+      ],
+      [
+       "B-D (indústria sem construção), YoY ajustado sazonal e por calendário",
+       0.55,
+       0.15
+      ],
+      [
+       "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+       2.26,
+       0.15
+      ],
+      [
+       "B-D_F (com construção, manchete Destatis), YoY ajustado sazonal e por calendário",
+       2.33,
+       0.15
+      ],
+      [
+       "B_C \"Industrie\" do Destatis (sem energia e construção), YoY ajustado por calendário",
+       -0.36,
+       0.15
+      ],
+      [
+       "B_C \"Industrie\" do Destatis (sem energia e construção), YoY ajustado sazonal e por calendário",
+       -0.22,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D (indústria sem construção), 3m/3m SAAR",
+       0.0,
+       0.3
+      ],
+      [
+       "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+       1.62,
+       0.3
+      ],
+      [
+       "B_C \"Industrie\" do Destatis (sem energia e construção), 3m/3m SAAR",
+       -2.17,
+       0.3
+      ]
+     ]
+    },
+    "N_intermediarios_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "MIG_ING, YoY ajustado por calendário",
+       -1.1,
+       0.15
+      ],
+      [
+       "MIG_ING, YoY ajustado sazonal e por calendário",
+       -1.07,
+       0.15
+      ]
+     ]
+    },
+    "N_capital_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "MIG_CAG, YoY ajustado por calendário",
+       -0.24,
+       0.15
+      ],
+      [
+       "MIG_CAG, YoY ajustado sazonal e por calendário",
+       -0.1,
+       0.15
+      ]
+     ]
+    },
+    "N_consumo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "MIG_COG, YoY ajustado por calendário",
+       0.46,
+       0.15
+      ],
+      [
+       "MIG_COG, YoY ajustado sazonal e por calendário",
+       0.66,
+       0.15
+      ]
+     ]
+    },
+    "N_energia_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "D, YoY ajustado por calendário",
+       9.54,
+       0.15
+      ],
+      [
+       "D, YoY ajustado sazonal e por calendário",
+       9.67,
+       0.15
+      ]
+     ]
+    },
+    "N_construcao_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "F, YoY ajustado por calendário",
+       10.5,
+       0.15
+      ],
+      [
+       "F, YoY ajustado sazonal e por calendário",
+       10.51,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s01-high-normal-20261029-v1/attempts/a2-s01-claude-fable-high-normal-primary/work/entrega/fig01_nivel_total_sa.png",
+    "execucoes/pilot-a2-s01-high-normal-20261029-v1/attempts/a2-s01-claude-fable-high-normal-primary/work/entrega/fig02_aberturas_mig_energia_construcao_sa.png",
+    "execucoes/pilot-a2-s01-high-normal-20261029-v1/attempts/a2-s01-claude-fable-high-normal-primary/work/entrega/fig03_setores_selecionados_sa.png",
+    "execucoes/pilot-a2-s01-high-normal-20261029-v1/attempts/a2-s01-claude-fable-high-normal-primary/work/entrega/fig04_ramos_energointensivos_sa.png",
+    "execucoes/pilot-a2-s01-high-normal-20261029-v1/attempts/a2-s01-claude-fable-high-normal-primary/work/entrega/fig05_taxas_total_yoy_3msaar.png",
+    "execucoes/pilot-a2-s01-high-normal-20261029-v1/attempts/a2-s01-claude-fable-high-normal-primary/work/entrega/fig06_taxas_por_abertura.png",
+    "execucoes/pilot-a2-s01-high-normal-20261029-v1/attempts/a2-s01-claude-fable-high-normal-primary/work/entrega/fig07_yoy_por_grupo_ca.png",
+    "execucoes/pilot-a2-s01-high-normal-20261029-v1/attempts/a2-s01-claude-fable-high-normal-primary/work/entrega/fig08_ajustes_nsa_ca_sa_BD.png"
+   ],
+   "N_mean": 32.85,
+   "N_sd": null,
+   "N_upper_mean": 32.9,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "8fc28f1571498195a8b5b5fda66cc9020e8749bd0f86a81a63a1725b625eb5c0",
+     "usage": {
+      "input_tokens": 23473,
+      "output_tokens": 969
+     },
+     "N": 32.85,
+     "N_upper": 32.9,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.2,
+       "undetermined": 0.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.3,
+       "undetermined": 0.0
+      },
+      "N_intermediarios_yoy": {
+       "state": "answered",
+       "weight": 5.0,
+       "group": "N_components",
+       "supported": 4.75,
+       "undetermined": 0.0
+      },
+      "N_capital_yoy": {
+       "state": "answered",
+       "weight": 5.0,
+       "group": "N_components",
+       "supported": 3.5,
+       "undetermined": 0.0
+      },
+      "N_consumo_yoy": {
+       "state": "answered",
+       "weight": 5.0,
+       "group": "N_components",
+       "supported": 1.55,
+       "undetermined": 0.05
+      },
+      "N_energia_yoy": {
+       "state": "answered",
+       "weight": 5.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_construcao_yoy": {
+       "state": "answered",
+       "weight": 5.0,
+       "group": "N_components",
+       "supported": 4.55,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_09",
+      "N_total_3m": "FAIXA_09",
+      "N_intermediarios_yoy": "FAIXA_03",
+      "N_capital_yoy": "FAIXA_03",
+      "N_consumo_yoy": "FAIXA_03",
+      "N_energia_yoy": "OUTRO_VALOR",
+      "N_construcao_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05",
+       "FAIXA_09"
+      ],
+      "N_total_3m": [
+       "FAIXA_03",
+       "FAIXA_06",
+       "FAIXA_09"
+      ],
+      "N_intermediarios_yoy": [
+       "FAIXA_03"
+      ],
+      "N_capital_yoy": [
+       "FAIXA_03"
+      ],
+      "N_consumo_yoy": [
+       "FAIXA_03"
+      ],
+      "N_energia_yoy": [
+       "FAIXA_03"
+      ],
+      "N_construcao_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S11",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-a2-s11-high-normal-20261031-v1",
+   "final_attempt_id": "a2-s11-claude-sonnet-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-Q4 no portal de dados do BCE, que o relatório do BCE chama de pesquisa do 3º trimestre de 2026 (outubro de 2026); os dois rótulos são o mesmo período",
+     "unit": "percentual líquido, variação realizada (não a expectativa)",
+     "variants": [
+      [
+       "percentual líquido realizado",
+       8.55,
+       0.6
+      ]
+     ]
+    },
+    "N_demanda_empresas_native": {
+     "period": "2026-Q4 no portal de dados do BCE, que o relatório do BCE chama de pesquisa do 3º trimestre de 2026 (outubro de 2026); os dois rótulos são o mesmo período",
+     "unit": "percentual líquido, variação realizada (não a expectativa)",
+     "variants": [
+      [
+       "percentual líquido realizado",
+       -6.39,
+       0.6
+      ]
+     ]
+    },
+    "N_padroes_habitacao_native": {
+     "period": "2026-Q4 no portal de dados do BCE, que o relatório do BCE chama de pesquisa do 3º trimestre de 2026 (outubro de 2026); os dois rótulos são o mesmo período",
+     "unit": "percentual líquido, variação realizada (não a expectativa)",
+     "variants": [
+      [
+       "percentual líquido realizado",
+       -0.27,
+       0.6
+      ]
+     ]
+    },
+    "N_demanda_habitacao_native": {
+     "period": "2026-Q4 no portal de dados do BCE, que o relatório do BCE chama de pesquisa do 3º trimestre de 2026 (outubro de 2026); os dois rótulos são o mesmo período",
+     "unit": "percentual líquido, variação realizada (não a expectativa)",
+     "variants": [
+      [
+       "percentual líquido realizado",
+       -26.92,
+       0.6
+      ]
+     ]
+    },
+    "N_padroes_consumo_native": {
+     "period": "2026-Q4 no portal de dados do BCE, que o relatório do BCE chama de pesquisa do 3º trimestre de 2026 (outubro de 2026); os dois rótulos são o mesmo período",
+     "unit": "percentual líquido, variação realizada (não a expectativa)",
+     "variants": [
+      [
+       "percentual líquido realizado",
+       14.04,
+       0.6
+      ]
+     ]
+    },
+    "N_demanda_consumo_native": {
+     "period": "2026-Q4 no portal de dados do BCE, que o relatório do BCE chama de pesquisa do 3º trimestre de 2026 (outubro de 2026); os dois rótulos são o mesmo período",
+     "unit": "percentual líquido, variação realizada (não a expectativa)",
+     "variants": [
+      [
+       "percentual líquido realizado",
+       -2.44,
+       0.6
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig01_padroes_credito.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig02_demanda_credito.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig03_empresas_porte_prazo.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig04_termos_condicoes.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig05_fatores_padroes.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig06_fatores_demanda.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig07_rejeicao.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig08_funding.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig09_distribuicao_respostas.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig10_credito_mfi_nivel_yoy_3msaar.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig11_credito_familias_aberturas.png",
+    "execucoes/pilot-a2-s11-high-normal-20261031-v1/attempts/a2-s11-claude-sonnet-high-normal-primary/work/entrega/figuras/fig12_bls_vs_credito_snf.png"
+   ],
+   "N_mean": 3.0,
+   "N_sd": null,
+   "N_upper_mean": 3.4799999999999995,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "103d36d831b86f8196bc10eede9e2b51499df464a17fea7c8ca5bc4580385ef6",
+     "usage": {
+      "input_tokens": 27360,
+      "output_tokens": 714
+     },
+     "N": 3.0,
+     "N_upper": 3.4799999999999995,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 20.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 0.2
+      },
+      "N_demanda_empresas_native": {
+       "state": "answered",
+       "weight": 4.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.08
+      },
+      "N_padroes_habitacao_native": {
+       "state": "answered",
+       "weight": 4.0,
+       "group": "N_components",
+       "supported": 0.28,
+       "undetermined": 0.0
+      },
+      "N_demanda_habitacao_native": {
+       "state": "answered",
+       "weight": 4.0,
+       "group": "N_components",
+       "supported": 0.32,
+       "undetermined": 0.04
+      },
+      "N_padroes_consumo_native": {
+       "state": "answered",
+       "weight": 4.0,
+       "group": "N_components",
+       "supported": 0.12,
+       "undetermined": 0.04
+      },
+      "N_demanda_consumo_native": {
+       "state": "answered",
+       "weight": 4.0,
+       "group": "N_components",
+       "supported": 0.28,
+       "undetermined": 0.12
+      }
+     },
+     "choices": {
+      "N_total_native": "NAO_MOSTRADO",
+      "N_demanda_empresas_native": "NAO_MOSTRADO",
+      "N_padroes_habitacao_native": "NAO_MOSTRADO",
+      "N_demanda_habitacao_native": "NAO_MOSTRADO",
+      "N_padroes_consumo_native": "NAO_MOSTRADO",
+      "N_demanda_consumo_native": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03"
+      ],
+      "N_demanda_empresas_native": [
+       "FAIXA_03"
+      ],
+      "N_padroes_habitacao_native": [
+       "FAIXA_03"
+      ],
+      "N_demanda_habitacao_native": [
+       "FAIXA_03"
+      ],
+      "N_padroes_consumo_native": [
+       "FAIXA_03"
+      ],
+      "N_demanda_consumo_native": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S06",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-a3-s06-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s06-claude-opus-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, YoY publicado",
+       4.0,
+       0.15
+      ],
+      [
+       "HICP, YoY calculado do índice",
+       4.0,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3me": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, 3m SAAR de referência (BCE HICP.M.U2.Y.000000.4F0.INX)",
+       5.83,
+       0.3
+      ],
+      [
+       "valor da própria série dessazonalizada da entrega",
+       5.63,
+       0.3
+      ]
+     ]
+    },
+    "N_nucleo_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, YoY publicado",
+       2.5,
+       0.15
+      ],
+      [
+       "HICP, YoY calculado do índice",
+       2.54,
+       0.15
+      ]
+     ]
+    },
+    "N_nucleo_3me": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, 3m SAAR de referência (BCE HICP.M.U2.Y.XEF000.4F0.INX)",
+       2.68,
+       0.3
+      ],
+      [
+       "valor da própria série dessazonalizada da entrega",
+       2.86,
+       0.3
+      ]
+     ]
+    },
+    "N_bens_nao_energeticos_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, YoY publicado",
+       1.2,
+       0.15
+      ],
+      [
+       "HICP, YoY calculado do índice",
+       1.17,
+       0.15
+      ]
+     ]
+    },
+    "N_bens_nao_energeticos_3me": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, 3m SAAR de referência (BCE HICP.M.U2.Y.IGXE00.4F0.INX)",
+       1.23,
+       0.3
+      ],
+      [
+       "valor da própria série dessazonalizada da entrega",
+       1.63,
+       0.3
+      ]
+     ]
+    },
+    "N_servicos_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, YoY publicado",
+       3.3,
+       0.15
+      ],
+      [
+       "HICP, YoY calculado do índice",
+       3.3,
+       0.15
+      ]
+     ]
+    },
+    "N_servicos_3me": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, 3m SAAR de referência (BCE HICP.M.U2.Y.SERV00.4F0.INX)",
+       3.45,
+       0.3
+      ],
+      [
+       "valor da própria série dessazonalizada da entrega",
+       3.78,
+       0.3
+      ]
+     ]
+    },
+    "N_energia_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, YoY publicado",
+       20.8,
+       0.15
+      ],
+      [
+       "HICP, YoY calculado do índice",
+       20.77,
+       0.15
+      ]
+     ]
+    },
+    "N_energia_3me": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, 3m SAAR de referência (BCE HICP.M.U2.Y.NRGY00.4F0.INX)",
+       38.55,
+       0.3
+      ],
+      [
+       "valor da própria série dessazonalizada da entrega",
+       27.69,
+       0.3
+      ],
+      [
+       "energia sem ajuste sazonal, 3m SAAR",
+       38.55,
+       0.3
+      ]
+     ]
+    },
+    "N_alimentos_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, YoY publicado",
+       1.6,
+       0.15
+      ],
+      [
+       "HICP, YoY calculado do índice",
+       1.56,
+       0.15
+      ]
+     ]
+    },
+    "N_alimentos_3me": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "HICP, 3m SAAR de referência (BCE HICP.M.U2.Y.FOOD00.4F0.INX)",
+       2.58,
+       0.3
+      ],
+      [
+       "valor da própria série dessazonalizada da entrega",
+       1.95,
+       0.3
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s06-low-normal-20261105-v1/attempts/a3-s06-claude-opus-primary/work/entrega/01_cheio_e_nucleo.png",
+    "execucoes/pilot-a3-s06-low-normal-20261105-v1/attempts/a3-s06-claude-opus-primary/work/entrega/02_componentes_nucleo.png",
+    "execucoes/pilot-a3-s06-low-normal-20261105-v1/attempts/a3-s06-claude-opus-primary/work/entrega/03_energia_e_alimentos.png",
+    "execucoes/pilot-a3-s06-low-normal-20261105-v1/attempts/a3-s06-claude-opus-primary/work/entrega/04_alimentos_aberturas.png",
+    "execucoes/pilot-a3-s06-low-normal-20261105-v1/attempts/a3-s06-claude-opus-primary/work/entrega/05_yoy_categorias.png"
+   ],
+   "N_mean": 26.759999999999998,
+   "N_sd": null,
+   "N_upper_mean": 27.14,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "e88e5680ee9ed8424bcfdc4403b6aacc94abe8d1043dcc46d745c74928858953",
+     "usage": {
+      "input_tokens": 16358,
+      "output_tokens": 1513
+     },
+     "N": 26.759999999999998,
+     "N_upper": 27.14,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.1,
+       "undetermined": 0.0
+      },
+      "N_total_3me": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 7.199999999999999,
+       "undetermined": 0.1
+      },
+      "N_nucleo_yoy": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_yoy",
+       "supported": 1.5,
+       "undetermined": 0.02
+      },
+      "N_bens_nao_energeticos_yoy": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_yoy",
+       "supported": 1.86,
+       "undetermined": 0.0
+      },
+      "N_servicos_yoy": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_yoy",
+       "supported": 0.52,
+       "undetermined": 0.04
+      },
+      "N_energia_yoy": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_yoy",
+       "supported": 1.08,
+       "undetermined": 0.02
+      },
+      "N_alimentos_yoy": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_yoy",
+       "supported": 0.04,
+       "undetermined": 0.04
+      },
+      "N_nucleo_3me": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_3me",
+       "supported": 1.16,
+       "undetermined": 0.06
+      },
+      "N_bens_nao_energeticos_3me": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_3me",
+       "supported": 1.26,
+       "undetermined": 0.04
+      },
+      "N_servicos_3me": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_3me",
+       "supported": 1.6,
+       "undetermined": 0.02
+      },
+      "N_energia_3me": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_3me",
+       "supported": 1.04,
+       "undetermined": 0.02
+      },
+      "N_alimentos_3me": {
+       "state": "answered",
+       "weight": 2.0,
+       "group": "N_components_3me",
+       "supported": 0.4,
+       "undetermined": 0.02
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3me": "FAIXA_03",
+      "N_nucleo_yoy": "FAIXA_03",
+      "N_bens_nao_energeticos_yoy": "FAIXA_03",
+      "N_servicos_yoy": "FAIXA_05",
+      "N_energia_yoy": "FAIXA_03",
+      "N_alimentos_yoy": "FAIXA_04",
+      "N_nucleo_3me": "FAIXA_03",
+      "N_bens_nao_energeticos_3me": "FAIXA_03",
+      "N_servicos_3me": "FAIXA_03",
+      "N_energia_3me": "FAIXA_03",
+      "N_alimentos_3me": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03"
+      ],
+      "N_total_3me": [
+       "FAIXA_03"
+      ],
+      "N_nucleo_yoy": [
+       "FAIXA_03"
+      ],
+      "N_bens_nao_energeticos_yoy": [
+       "FAIXA_03"
+      ],
+      "N_servicos_yoy": [
+       "FAIXA_03"
+      ],
+      "N_energia_yoy": [
+       "FAIXA_03"
+      ],
+      "N_alimentos_yoy": [
+       "FAIXA_03"
+      ],
+      "N_nucleo_3me": [
+       "FAIXA_03"
+      ],
+      "N_bens_nao_energeticos_3me": [
+       "FAIXA_03"
+      ],
+      "N_servicos_3me": [
+       "FAIXA_03"
+      ],
+      "N_energia_3me": [
+       "FAIXA_03",
+       "FAIXA_08"
+      ],
+      "N_alimentos_3me": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

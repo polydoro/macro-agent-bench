@@ -1,0 +1,34 @@
+[
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "one-c02-codex-luna-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ }
+]

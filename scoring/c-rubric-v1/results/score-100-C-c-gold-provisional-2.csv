@@ -1,0 +1,226 @@
+task,phase,model,status,total_100,method_50,numbers_30,shown_10,answer_10,answer_10_c03_relative,old_L
+C01,A1,claude-fable-5-1,judged,95.06,45.06,30.0,10.0,10.0,,92.09
+C01,A1,claude-haiku-5-5,judged,74.17,39.17,15.0,10.0,10.0,,82.67
+C01,A1,claude-opus-5-5,judged,91.97,46.97,30.0,5.0,10.0,,85.15
+C01,A1,claude-sonnet-5-5,judged,78.87,43.87,15.0,10.0,10.0,,90.19
+C01,A1,gpt-6-astra,judged,92.32,42.32,30.0,10.0,10.0,,87.72
+C01,A1,gpt-6-luna,judged,72.52,37.52,15.0,10.0,10.0,,80.03
+C01,A1,gpt-6.1-sol,judged,94.84,44.84,30.0,10.0,10.0,,91.75
+C01,A1,grok-4.7,judged,93.65,43.65,30.0,10.0,10.0,,89.84
+C01,A1,kimi-code/k3.1-pro,judged,93.16,43.16,30.0,10.0,10.0,,89.05
+C01,A2,claude-fable-5-1,judged,95.33,45.33,30.0,10.0,10.0,,92.53
+C01,A2,claude-haiku-5-5,judged,80.85,38.35,22.5,10.0,10.0,,81.36
+C01,A2,claude-opus-5-5,judged,95.9,45.9,30.0,10.0,10.0,,93.44
+C01,A2,claude-sonnet-5-5,judged,96.23,46.23,30.0,10.0,10.0,,93.97
+C01,A2,gpt-6-astra,judged,96.47,46.47,30.0,10.0,10.0,,94.35
+C01,A2,gpt-6-luna,judged,73.99,31.49,22.5,10.0,10.0,,70.39
+C01,A2,gpt-6.1-sol,judged,97.84,47.84,30.0,10.0,10.0,,96.55
+C01,A2,grok-4.7,judged,89.17,46.67,22.5,10.0,10.0,,94.67
+C01,A2,kimi-code/k3.1-pro,judged,95.88,45.88,30.0,10.0,10.0,,93.41
+C01,A3,claude-fable-5-1,judged,96.33,46.33,30.0,10.0,10.0,,94.12
+C01,A3,claude-haiku-5-5,judged,75.79,40.79,15.0,10.0,10.0,,85.27
+C01,A3,claude-opus-5-5,judged,95.73,45.73,30.0,10.0,10.0,,93.17
+C01,A3,claude-sonnet-5-5,judged,60.74,35.74,15.0,10.0,0.0,,77.19
+C01,A3,gpt-6-astra,judged,87.63,45.13,22.5,10.0,10.0,,92.21
+C01,A3,gpt-6-luna,judged,80.09,37.59,22.5,10.0,10.0,,80.15
+C01,A3,gpt-6.1-sol,judged,93.31,43.31,30.0,10.0,10.0,,89.3
+C01,A3,grok-4.7,judged,81.04,46.04,15.0,10.0,10.0,,93.66
+C01,A3,kimi-code/k3.1-pro,judged,96.01,46.01,30.0,10.0,10.0,,93.62
+C01,A4_external_review,claude-fable-5-1,judged,95.7,45.7,30.0,10.0,10.0,,93.13
+C01,A4_external_review,claude-haiku-5-5,judged,84.94,42.44,22.5,10.0,10.0,,87.91
+C01,A4_external_review,claude-opus-5-5,judged,92.4,47.4,30.0,5.0,10.0,,85.84
+C01,A4_external_review,claude-sonnet-5-5,judged,93.33,43.33,30.0,10.0,10.0,,89.33
+C01,A4_external_review,gpt-6-astra,judged,92.35,42.35,30.0,10.0,10.0,,87.76
+C01,A4_external_review,gpt-6-luna,judged,72.15,37.15,15.0,10.0,10.0,,79.45
+C01,A4_external_review,gpt-6.1-sol,judged,95.29,45.29,30.0,10.0,10.0,,92.46
+C01,A4_external_review,grok-4.7,judged,95.19,45.19,30.0,10.0,10.0,,92.3
+C01,A4_external_review,kimi-code/k3.1-pro,judged,92.95,42.95,30.0,10.0,10.0,,88.71
+C01,A4_self_review,claude-fable-5-1,judged,96.23,46.23,30.0,10.0,10.0,,93.96
+C01,A4_self_review,claude-haiku-5-5,judged,77.39,42.39,15.0,10.0,10.0,,87.82
+C01,A4_self_review,claude-opus-5-5,judged,97.5,47.5,30.0,10.0,10.0,,96.0
+C01,A4_self_review,claude-sonnet-5-5,judged,79.43,44.43,15.0,10.0,10.0,,91.08
+C01,A4_self_review,gpt-6-astra,judged,92.33,42.33,30.0,10.0,10.0,,87.72
+C01,A4_self_review,gpt-6-luna,judged,74.66,39.66,15.0,10.0,10.0,,83.46
+C01,A4_self_review,gpt-6.1-sol,judged,94.92,44.92,30.0,10.0,10.0,,91.87
+C01,A4_self_review,grok-4.7,judged,94.75,44.75,30.0,10.0,10.0,,91.59
+C01,A4_self_review,kimi-code/k3.1-pro,judged,92.62,42.62,30.0,10.0,10.0,,88.19
+C02,A1,claude-fable-5-1,judged,91.96,46.96,25.0,10.0,10.0,,95.13
+C02,A1,claude-haiku-5-5,judged,87.61,47.61,20.0,10.0,10.0,,96.17
+C02,A1,claude-opus-5-5,judged,86.72,46.72,20.0,10.0,10.0,,94.76
+C02,A1,claude-sonnet-5-5,judged,90.34,40.34,30.0,10.0,10.0,,84.54
+C02,A1,gpt-6-astra,judged,95.59,45.59,30.0,10.0,10.0,,92.95
+C02,A1,gpt-6-luna,judged,58.98,32.32,10.0,6.67,10.0,,65.04
+C02,A1,gpt-6.1-sol,judged,85.83,45.83,30.0,10.0,0.0,,93.33
+C02,A1,grok-4.7,judged,86.27,46.27,20.0,10.0,10.0,,94.03
+C02,A1,kimi-code/k3.1-pro,judged,76.97,46.97,20.0,10.0,0.0,,95.14
+C02,A2,claude-fable-5-1,judged,87.05,47.05,30.0,10.0,0.0,,95.28
+C02,A2,claude-haiku-5-5,judged,73.63,43.63,20.0,10.0,0.0,,89.82
+C02,A2,claude-opus-5-5,judged,86.35,46.35,20.0,10.0,10.0,,94.15
+C02,A2,claude-sonnet-5-5,judged,96.66,46.66,30.0,10.0,10.0,,94.66
+C02,A2,gpt-6-astra,judged,85.14,45.14,30.0,10.0,0.0,,92.22
+C02,A2,gpt-6-luna,judged,85.89,45.89,30.0,10.0,0.0,,93.42
+C02,A2,gpt-6.1-sol,judged,96.75,46.75,30.0,10.0,10.0,,94.81
+C02,A2,grok-4.7,judged,86.38,46.38,30.0,10.0,0.0,,94.21
+C02,A2,kimi-code/k3.1-pro,judged,97.09,47.09,30.0,10.0,10.0,,95.34
+C02,A3,claude-fable-5-1,judged,92.94,47.94,25.0,10.0,10.0,,96.71
+C02,A3,claude-haiku-5-5,judged,83.1,43.1,20.0,10.0,10.0,,88.97
+C02,A3,claude-opus-5-5,judged,90.69,45.69,25.0,10.0,10.0,,93.1
+C02,A3,claude-sonnet-5-5,judged,96.08,46.08,30.0,10.0,10.0,,93.73
+C02,A3,gpt-6-astra,judged,86.96,46.96,30.0,10.0,0.0,,95.14
+C02,A3,gpt-6-luna,judged,57.68,34.35,10.0,6.67,6.67,,68.29
+C02,A3,gpt-6.1-sol,judged,77.69,47.69,20.0,10.0,0.0,,96.3
+C02,A3,grok-4.7,judged,96.83,46.83,30.0,10.0,10.0,,94.93
+C02,A3,kimi-code/k3.1-pro,judged,95.15,45.15,30.0,10.0,10.0,,92.25
+C02,A4_external_review,claude-fable-5-1,judged,96.98,46.98,30.0,10.0,10.0,,95.16
+C02,A4_external_review,claude-haiku-5-5,judged,91.12,46.12,25.0,10.0,10.0,,93.79
+C02,A4_external_review,claude-opus-5-5,judged,91.45,46.45,25.0,10.0,10.0,,94.32
+C02,A4_external_review,claude-sonnet-5-5,judged,90.03,40.03,30.0,10.0,10.0,,84.05
+C02,A4_external_review,gpt-6-astra,judged,95.59,45.59,30.0,10.0,10.0,,92.94
+C02,A4_external_review,gpt-6-luna,judged,63.99,37.32,10.0,6.67,10.0,,73.04
+C02,A4_external_review,gpt-6.1-sol,judged,85.46,45.46,30.0,10.0,0.0,,92.73
+C02,A4_external_review,grok-4.7,judged,86.4,46.4,20.0,10.0,10.0,,94.25
+C02,A4_external_review,kimi-code/k3.1-pro,judged,82.43,47.43,25.0,10.0,0.0,,95.89
+C02,A4_self_review,claude-fable-5-1,judged,91.77,46.77,25.0,10.0,10.0,,94.83
+C02,A4_self_review,claude-haiku-5-5,judged,92.17,47.17,25.0,10.0,10.0,,95.47
+C02,A4_self_review,claude-opus-5-5,judged,96.36,46.36,30.0,10.0,10.0,,94.18
+C02,A4_self_review,claude-sonnet-5-5,judged,91.13,41.13,30.0,10.0,10.0,,85.81
+C02,A4_self_review,gpt-6-astra,judged,95.74,45.74,30.0,10.0,10.0,,93.19
+C02,A4_self_review,gpt-6-luna,judged,59.88,33.21,10.0,6.67,10.0,,66.47
+C02,A4_self_review,gpt-6.1-sol,judged,85.93,45.93,30.0,10.0,0.0,,93.49
+C02,A4_self_review,grok-4.7,judged,85.78,45.78,20.0,10.0,10.0,,93.24
+C02,A4_self_review,kimi-code/k3.1-pro,judged,92.5,47.5,25.0,10.0,10.0,,96.0
+C03,A1,claude-fable-5-1,judged,94.11,47.36,30.0,10.0,6.75,10.0,95.77
+C03,A1,claude-haiku-5-5,judged,87.56,45.56,30.0,10.0,2.0,6.5,92.9
+C03,A1,claude-opus-5-5,judged,91.78,43.78,30.0,10.0,8.0,10.0,90.04
+C03,A1,claude-sonnet-5-5,judged,91.55,46.8,30.0,10.0,4.75,9.25,94.88
+C03,A1,gpt-6-astra,judged,75.61,43.86,15.0,10.0,6.75,10.0,90.18
+C03,A1,gpt-6-luna,judged,24.56,24.56,0.0,0.0,0.0,0.0,39.29
+C03,A1,gpt-6.1-sol,judged,91.09,43.09,30.0,10.0,8.0,10.0,88.95
+C03,A1,grok-4.7,judged,67.58,41.58,15.0,10.0,1.0,5.5,86.53
+C03,A1,kimi-code/k3.1-pro,judged,77.54,42.54,15.0,10.0,10.0,10.0,88.06
+C03,A2,claude-fable-5-1,judged,83.15,34.84,30.0,10.0,pending Q4 flash,,75.74
+C03,A2,claude-haiku-5-5,judged,96.25,46.63,30.0,10.0,pending Q4 flash,,94.6
+C03,A2,claude-opus-5-5,judged,97.93,48.13,30.0,10.0,pending Q4 flash,,97.02
+C03,A2,claude-sonnet-5-5,judged,80.84,47.75,15.0,10.0,pending Q4 flash,,96.4
+C03,A2,gpt-6-astra,judged,97.97,48.17,30.0,10.0,pending Q4 flash,,97.08
+C03,A2,gpt-6-luna,judged,77.14,44.43,15.0,10.0,pending Q4 flash,,91.08
+C03,A2,gpt-6.1-sol,judged,96.49,46.84,30.0,10.0,pending Q4 flash,,94.94
+C03,A2,grok-4.7,judged,97.23,47.51,30.0,10.0,pending Q4 flash,,96.01
+C03,A2,kimi-code/k3.1-pro,judged,95.07,45.57,30.0,10.0,pending Q4 flash,,92.9
+C03,A3,claude-fable-5-1,judged,98.02,48.22,30.0,10.0,pending Q4 flash,,97.15
+C03,A3,claude-haiku-5-5,judged,94.02,44.62,30.0,10.0,pending Q4 flash,,91.39
+C03,A3,claude-opus-5-5,judged,78.98,46.08,15.0,10.0,pending Q4 flash,,93.73
+C03,A3,claude-sonnet-5-5,judged,56.97,41.27,0.0,10.0,pending Q4 flash,,86.04
+C03,A3,gpt-6-astra,judged,97.53,47.78,30.0,10.0,pending Q4 flash,,96.45
+C03,A3,gpt-6-luna,judged,83.85,35.47,30.0,10.0,pending Q4 flash,,76.74
+C03,A3,gpt-6.1-sol,judged,75.09,42.58,15.0,10.0,pending Q4 flash,,88.13
+C03,A3,grok-4.7,judged,98.3,48.47,30.0,10.0,pending Q4 flash,,97.55
+C03,A3,kimi-code/k3.1-pro,judged,95.37,45.84,30.0,10.0,pending Q4 flash,,93.34
+C03,A4_external_review,claude-fable-5-1,judged,94.2,47.45,30.0,10.0,6.75,10.0,95.93
+C03,A4_external_review,claude-haiku-5-5,judged,87.83,45.83,30.0,10.0,2.0,6.5,93.33
+C03,A4_external_review,claude-opus-5-5,judged,92.7,44.7,30.0,10.0,8.0,10.0,91.52
+C03,A4_external_review,claude-sonnet-5-5,judged,90.74,45.99,30.0,10.0,4.75,9.25,93.59
+C03,A4_external_review,gpt-6-astra,judged,75.51,43.76,15.0,10.0,6.75,10.0,90.02
+C03,A4_external_review,gpt-6-luna,judged,31.34,31.34,0.0,0.0,0.0,0.0,50.15
+C03,A4_external_review,gpt-6.1-sol,judged,92.15,44.15,30.0,10.0,8.0,10.0,90.64
+C03,A4_external_review,grok-4.7,judged,68.87,42.87,15.0,10.0,1.0,5.5,88.6
+C03,A4_external_review,kimi-code/k3.1-pro,judged,92.91,42.91,30.0,10.0,10.0,10.0,88.66
+C03,A4_self_review,claude-fable-5-1,judged,97.92,48.13,30.0,10.0,pending Q4 flash,,97.01
+C03,A4_self_review,claude-haiku-5-5,judged,96.72,47.05,30.0,10.0,pending Q4 flash,,95.28
+C03,A4_self_review,claude-opus-5-5,judged,94.14,44.73,30.0,10.0,pending Q4 flash,,91.56
+C03,A4_self_review,claude-sonnet-5-5,judged,97.06,47.35,30.0,10.0,pending Q4 flash,,95.77
+C03,A4_self_review,gpt-6-astra,judged,91.88,45.13,30.0,10.0,6.75,10.0,92.21
+C03,A4_self_review,gpt-6-luna,judged,68.91,33.91,30.0,5.0,0.0,0.0,64.25
+C03,A4_self_review,gpt-6.1-sol,judged,91.08,43.08,30.0,10.0,8.0,10.0,88.92
+C03,A4_self_review,grok-4.7,judged,93.05,43.75,30.0,10.0,pending Q4 flash,,89.99
+C03,A4_self_review,kimi-code/k3.1-pro,judged,76.27,43.64,15.0,10.0,pending Q4 flash,,89.83
+C04,A1,claude-fable-5-1,judged,91.75,44.75,27.0,10.0,10.0,,91.59
+C04,A1,claude-haiku-5-5,judged,31.5,28.83,0.0,0.0,2.67,,46.13
+C04,A1,claude-opus-5-5,judged,75.92,43.92,12.0,10.0,10.0,,90.27
+C04,A1,claude-sonnet-5-5,judged,65.14,39.14,6.0,10.0,10.0,,82.63
+C04,A1,gpt-6-astra,judged,71.37,40.37,15.0,10.0,6.0,,84.59
+C04,A1,gpt-6-luna,judged,67.63,39.63,12.0,10.0,6.0,,83.41
+C04,A1,gpt-6.1-sol,judged,70.65,38.65,18.0,10.0,4.0,,81.85
+C04,A1,grok-4.7,judged,72.49,43.49,9.0,10.0,10.0,,89.59
+C04,A1,kimi-code/k3.1-pro,judged,58.55,41.55,3.0,10.0,4.0,,86.47
+C04,A2,claude-fable-5-1,judged,96.86,46.86,30.0,10.0,10.0,,94.98
+C04,A2,claude-haiku-5-5,judged,57.87,39.54,9.0,3.33,6.0,,69.93
+C04,A2,claude-opus-5-5,judged,92.65,45.65,27.0,10.0,10.0,,93.04
+C04,A2,claude-sonnet-5-5,judged,91.3,47.3,24.0,10.0,10.0,,95.68
+C04,A2,gpt-6-astra,judged,77.84,43.84,18.0,10.0,6.0,,90.15
+C04,A2,gpt-6-luna,judged,67.53,36.53,15.0,10.0,6.0,,78.44
+C04,A2,gpt-6.1-sol,no_product,0.0,0.0,0.0,0.0,0.0,,0.0
+C04,A2,grok-4.7,verified_absence,0.0,0.0,0.0,0.0,0.0,,0.0
+C04,A2,kimi-code/k3.1-pro,judged,73.99,47.99,6.0,10.0,10.0,,96.79
+C04,A3,claude-fable-5-1,judged,86.0,48.0,18.0,10.0,10.0,,96.81
+C04,A3,claude-haiku-5-5,judged,18.18,18.18,0.0,0.0,0.0,,29.08
+C04,A3,claude-opus-5-5,judged,75.38,46.38,9.0,10.0,10.0,,94.2
+C04,A3,claude-sonnet-5-5,judged,73.08,47.08,6.0,10.0,10.0,,95.33
+C04,A3,gpt-6-astra,judged,79.36,47.36,12.0,10.0,10.0,,95.78
+C04,A3,gpt-6-luna,judged,65.73,34.73,15.0,10.0,6.0,,75.56
+C04,A3,gpt-6.1-sol,judged,79.32,44.32,15.0,10.0,10.0,,90.91
+C04,A3,grok-4.7,judged,64.32,44.32,6.0,10.0,4.0,,90.91
+C04,A3,kimi-code/k3.1-pro,judged,62.08,45.08,3.0,10.0,4.0,,92.13
+C04,A4_external_review,claude-fable-5-1,judged,92.46,45.46,27.0,10.0,10.0,,92.74
+C04,A4_external_review,claude-haiku-5-5,judged,31.24,29.9,0.0,0.0,1.33,,47.85
+C04,A4_external_review,claude-opus-5-5,judged,78.36,46.36,12.0,10.0,10.0,,94.17
+C04,A4_external_review,claude-sonnet-5-5,judged,64.13,38.13,6.0,10.0,10.0,,81.01
+C04,A4_external_review,gpt-6-astra,judged,70.9,39.9,15.0,10.0,6.0,,83.83
+C04,A4_external_review,gpt-6-luna,judged,66.32,38.32,12.0,10.0,6.0,,81.31
+C04,A4_external_review,gpt-6.1-sol,judged,70.58,38.58,18.0,10.0,4.0,,81.72
+C04,A4_external_review,grok-4.7,judged,72.49,43.49,9.0,10.0,10.0,,89.59
+C04,A4_external_review,kimi-code/k3.1-pro,judged,59.8,42.8,3.0,10.0,4.0,,88.48
+C04,A4_self_review,claude-fable-5-1,judged,93.68,46.68,27.0,10.0,10.0,,94.68
+C04,A4_self_review,claude-haiku-5-5,judged,45.42,41.42,0.0,0.0,4.0,,66.28
+C04,A4_self_review,claude-opus-5-5,judged,75.73,46.73,9.0,10.0,10.0,,94.77
+C04,A4_self_review,claude-sonnet-5-5,judged,59.21,39.21,6.0,10.0,4.0,,82.73
+C04,A4_self_review,gpt-6-astra,judged,69.47,38.48,15.0,10.0,6.0,,81.56
+C04,A4_self_review,gpt-6-luna,judged,71.71,43.71,12.0,10.0,6.0,,89.93
+C04,A4_self_review,gpt-6.1-sol,judged,70.62,38.62,18.0,10.0,4.0,,81.79
+C04,A4_self_review,grok-4.7,judged,69.03,44.03,9.0,10.0,6.0,,90.45
+C04,A4_self_review,kimi-code/k3.1-pro,judged,60.33,43.33,3.0,10.0,4.0,,89.33
+C05,A1,claude-fable-5-1,judged,97.42,47.42,30.0,10.0,10.0,,95.87
+C05,A1,claude-haiku-5-5,judged,61.84,41.84,0.0,10.0,10.0,,86.94
+C05,A1,claude-opus-5-5,judged,89.08,46.58,22.5,10.0,10.0,,94.53
+C05,A1,claude-sonnet-5-5,judged,85.93,43.43,22.5,10.0,10.0,,89.49
+C05,A1,gpt-6-astra,judged,85.42,42.92,22.5,10.0,10.0,,88.67
+C05,A1,gpt-6-luna,judged,67.05,32.05,15.0,10.0,10.0,,71.28
+C05,A1,gpt-6.1-sol,judged,91.05,41.05,30.0,10.0,10.0,,85.69
+C05,A1,grok-4.7,judged,97.11,47.11,30.0,10.0,10.0,,95.38
+C05,A1,kimi-code/k3.1-pro,judged,54.19,44.19,0.0,0.0,10.0,,70.7
+C05,A2,claude-fable-5-1,judged,97.76,47.76,30.0,10.0,10.0,,96.42
+C05,A2,claude-haiku-5-5,judged,83.12,48.12,15.0,10.0,10.0,,97.0
+C05,A2,claude-opus-5-5,judged,97.85,47.85,30.0,10.0,10.0,,96.55
+C05,A2,claude-sonnet-5-5,judged,96.63,46.63,30.0,10.0,10.0,,94.61
+C05,A2,gpt-6-astra,judged,93.21,43.21,30.0,10.0,10.0,,89.13
+C05,A2,gpt-6-luna,judged,86.03,43.53,22.5,10.0,10.0,,89.65
+C05,A2,gpt-6.1-sol,judged,97.82,47.82,30.0,10.0,10.0,,96.52
+C05,A2,grok-4.7,verified_absence,0.0,0.0,0.0,0.0,0.0,,0.0
+C05,A2,kimi-code/k3.1-pro,judged,91.85,41.85,30.0,10.0,10.0,,86.95
+C05,A3,claude-fable-5-1,judged,96.39,46.39,30.0,10.0,10.0,,94.23
+C05,A3,claude-haiku-5-5,judged,52.2,34.7,7.5,0.0,10.0,,55.52
+C05,A3,claude-opus-5-5,judged,94.73,44.73,30.0,10.0,10.0,,91.57
+C05,A3,claude-sonnet-5-5,judged,52.08,42.08,0.0,0.0,10.0,,67.33
+C05,A3,gpt-6-astra,judged,90.58,40.58,30.0,10.0,10.0,,84.93
+C05,A3,gpt-6-luna,judged,80.93,38.43,22.5,10.0,10.0,,81.49
+C05,A3,gpt-6.1-sol,judged,83.62,41.12,22.5,10.0,10.0,,85.79
+C05,A3,grok-4.7,judged,95.36,45.36,30.0,10.0,10.0,,92.58
+C05,A3,kimi-code/k3.1-pro,judged,89.23,46.73,22.5,10.0,10.0,,94.77
+C05,A4_external_review,claude-fable-5-1,judged,98.09,48.09,30.0,10.0,10.0,,96.94
+C05,A4_external_review,claude-haiku-5-5,judged,84.09,41.59,22.5,10.0,10.0,,86.54
+C05,A4_external_review,claude-opus-5-5,judged,89.53,47.03,22.5,10.0,10.0,,95.25
+C05,A4_external_review,claude-sonnet-5-5,judged,86.25,43.75,22.5,10.0,10.0,,90.0
+C05,A4_external_review,gpt-6-astra,judged,93.68,43.68,30.0,10.0,10.0,,89.88
+C05,A4_external_review,gpt-6-luna,judged,74.78,39.78,15.0,10.0,10.0,,83.65
+C05,A4_external_review,gpt-6.1-sol,judged,90.62,40.62,30.0,10.0,10.0,,85.0
+C05,A4_external_review,grok-4.7,judged,97.11,47.11,30.0,10.0,10.0,,95.38
+C05,A4_external_review,kimi-code/k3.1-pro,judged,87.17,44.67,22.5,10.0,10.0,,91.47
+C05,A4_self_review,claude-fable-5-1,judged,97.71,47.71,30.0,10.0,10.0,,96.34
+C05,A4_self_review,claude-haiku-5-5,judged,79.63,44.63,15.0,10.0,10.0,,91.41
+C05,A4_self_review,claude-opus-5-5,judged,89.62,47.12,22.5,10.0,10.0,,95.39
+C05,A4_self_review,claude-sonnet-5-5,judged,85.7,43.2,22.5,10.0,10.0,,89.11
+C05,A4_self_review,gpt-6-astra,judged,92.71,42.71,30.0,10.0,10.0,,88.34
+C05,A4_self_review,gpt-6-luna,judged,69.26,34.26,15.0,10.0,10.0,,74.82
+C05,A4_self_review,gpt-6.1-sol,judged,88.63,38.63,30.0,10.0,10.0,,81.81
+C05,A4_self_review,grok-4.7,judged,97.11,47.11,30.0,10.0,10.0,,95.38
+C05,A4_self_review,kimi-code/k3.1-pro,judged,54.63,44.63,0.0,0.0,10.0,,71.4

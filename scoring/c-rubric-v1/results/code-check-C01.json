@@ -1,0 +1,6776 @@
+[
+ {
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "attempt": "one-c01-claude-fable-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY % (CA)",
+      "row": "Indústria total (B-D) 2026-08 2017-11",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY % (CA)",
+      "row": "Manufatura (C) 2026-08 2017-11",
+      "value": -0.4,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY % (CA)",
+      "row": "Bens de capital 2026-08 2017-11",
+      "value": -0.2,
+      "variant": "B_C, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "YoY %",
+      "row": "Emprego, manufatura (índice) 2026-08",
+      "value": -3.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "YoY %",
+      "row": "Horas trabalhadas, manufatura (índice) 2026-08",
+      "value": -2.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY % (CA)",
+      "row": "Bens intermediários 2026-08 2017-12",
+      "value": -1.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "3m/3m %",
+      "row": "Indústria total (B-D) 2026-08 2017-11",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "3msaar %",
+      "row": "Indústria total (B-D) 2026-08 2017-11",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "3msaar %",
+      "row": "Manufatura (C) 2026-08 2017-11",
+      "value": -2.3,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "3msaar %",
+      "row": "Emprego, manufatura (índice) 2026-08",
+      "value": -2.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "3msaar %",
+      "row": "Horas trabalhadas, manufatura (índice) 2026-08",
+      "value": -2.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "3m/3m %",
+      "row": "Manufatura (C) 2026-08 2017-11",
+      "value": -0.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SA/CA)",
+      "row": "Total – Indústria 2026-08 Vorläufiger Wert",
+      "value": 3.0,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SA/CA)",
+      "row": "Total – Bens intermediários 2026-08 Vorläufiger Wert",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SA/CA)",
+      "row": "Total – Bens de capital 2026-08 Vorläufiger Wert",
+      "value": 3.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SA/CA)",
+      "row": "Total – Bens de consumo 2026-08 Vorläufiger Wert",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3msaar %",
+      "row": "Total – Indústria 2026-08 Vorläufiger Wert",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Total – Indústria 2026-08 Vorläufiger Wert",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY 3m médio %",
+      "row": "Total – Indústria 2026-08 Vorläufiger Wert",
+      "value": 8.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Total – Bens intermediários 2026-08 Vorläufiger Wert",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "attempt": "one-c01-claude-haiku-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "DE_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": 0.362,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "EA_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": -1.074,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "DE_BD_3msaar_SA_%",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "EA_BD_3msaar_SA_%",
+      "row": "2026-08",
+      "value": -0.812,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "attempt": "one-c01-claude-opus-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "m/m %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "YoY %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "vs mín. desde 2023 %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.6,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "Nível SA (2021=100)",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 90.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "vs média 2019 %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": -13.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "Nível SA (2021=100)",
+      "row": "Produção — Transformação (C) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 90.8,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Transformação (C) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": -2.3,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Alimentos/bebidas/fumo 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "YoY %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 3.0,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "Nível SA (2021=100)",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 86.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "m/m %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": -10.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "vs média 2019 %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": -5.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Bens de capital 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 19.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Bens intermediários 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": -11.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Carteira (estoque) 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 11.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "attempt": "one-c01-claude-sonnet-low-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "yoy_CA",
+      "row": "Indústria total (B-D)",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "a3msaar_SA",
+      "row": "Indústria total (B-D)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "attempt": "one-c01-codex-astra-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/calculado_B-D.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 B-D",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/calculado_B-D_F.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 B-D_F",
+      "value": 2.2646,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "B-D_F Total produtivo (inclui construção) 2026-08",
+      "value": 2.2646,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "F Construção 2026-08",
+      "value": 10.5028,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "D Eletricidade e gás 2026-08",
+      "value": 9.5436,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "C20 Química 2026-08",
+      "value": -3.1373,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/calculado_B-D.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 B-D",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/calculado_B-D_F.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 B-D_F",
+      "value": 1.6197,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "B-D_F Total produtivo (inclui construção) 2026-08",
+      "value": 1.6197,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "F Construção 2026-08",
+      "value": 9.9474,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "D Eletricidade e gás 2026-08",
+      "value": 27.3131,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "C20 Química 2026-08",
+      "value": -11.3469,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "YoY_CA_pct",
+      "row": "Encomendas totais orders.html 2026-08",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "3msaar_aprox_pct",
+      "row": "Encomendas totais orders.html 2026-08",
+      "value": 5.3023,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "3m_3m_SA_pct",
+      "row": "Encomendas totais orders.html 2026-08",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "attempt": "one-c01-codex-luna-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "YoY_pct",
+      "row": "2026-08-01",
+      "value": 0.5543,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "m_m_pct",
+      "row": "Produção industrial (sem energia e construção) Índice real SA, 2021=100 agosto/2026 Destatis; variaç",
+      "value": 0.6,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "YoY_pct",
+      "row": "Produção industrial (sem energia e construção) Índice real SA, 2021=100 agosto/2026 Destatis; variaç",
+      "value": -0.4,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "m_m_pct",
+      "row": "Faturamento real, manufatura Variação percentual agosto/2026 Destatis; mensal SA; YoY calendar-adjus",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "YoY_pct",
+      "row": "Faturamento real, manufatura Variação percentual agosto/2026 Destatis; mensal SA; YoY calendar-adjus",
+      "value": 0.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao_eurostat.csv",
+      "header": "3msaar_%_média3m_vs3m_anterior",
+      "row": "Produção industrial, mineração + manufatura + energia (Eurostat B-D) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "YoY_pct",
+      "row": "Estoque de encomendas, manufatura Índice real SA, 2021=100 agosto/2026 Destatis; alcance 9,0 meses",
+      "value": 10.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "attempt": "one-c01-codex-sol-low-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "producao_total 2026-08 YoY_CA % producao_comunicado.html",
+      "value": 2.3,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 B-D Indústria B–D (sem construção)",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY calendário (%)",
+      "row": "B-D Indústria B–D (sem construção) 2026-08",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_total_extraida.csv",
+      "header": "YoY_NSA",
+      "row": "2026-08-01",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "3msaar_quando_aplicavel",
+      "row": "producao_total 2026-08 3m_sobre_3m_SA % producao_comunicado.html",
+      "value": 1.6096,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 B-D Indústria B–D (sem construção)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "3msaar (%)",
+      "row": "B-D Indústria B–D (sem construção) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "producao_total 2026-08 3m_sobre_3m_SA % producao_comunicado.html",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/encomendas_extraidas.csv",
+      "header": "YoY_NSA",
+      "row": "2026-08-01",
+      "value": 3.5,
+      "variant": "YoY série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "encomendas_total 2026-08 YoY_CA % encomendas_comunicado.html",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 ORDERS Novas encomendas, setores selecionados",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "3msaar_quando_aplicavel",
+      "row": "encomendas_total 2026-08 3m_sobre_3m_SA % encomendas_comunicado.html",
+      "value": 5.3023,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 ORDERS Novas encomendas, setores selecionados",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "3msaar (%)",
+      "row": "ORDERS Novas encomendas, setores selecionados 2026-08",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "encomendas_total 2026-08 3m_sobre_3m_SA % encomendas_comunicado.html",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "grok-4.7",
+  "attempt": "one-c01-grok-low-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_industria_18m.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08",
+      "value": -0.36,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Produção B–D, volume 2026-08 CA",
+      "value": 0.36,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Produção indústria, volume 2026-08 CA",
+      "value": -0.36,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pessoas ocupadas, manufatura C, Eurostat 2026-08 SCA",
+      "value": -3.65,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Horas trabalhadas, manufatura C, Eurostat 2026-08 CA",
+      "value": -2.57,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_industria_18m.csv",
+      "header": "m3saar_pct",
+      "row": "2026-08",
+      "value": -1.88,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Produção B–D, volume 2026-08 CA",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Produção indústria, volume 2026-08 CA",
+      "value": -1.88,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pessoas ocupadas, manufatura C, Eurostat 2026-08 SCA",
+      "value": -2.89,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Horas trabalhadas, manufatura C, Eurostat 2026-08 CA",
+      "value": -2.89,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pedidos_totais_18m.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08",
+      "value": 2.99,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos totais, volume SCA 2026-08 SCA",
+      "value": 2.99,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos bens de capital, volume SCA 2026-08 SCA",
+      "value": 3.91,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos bens intermediários, volume SCA 2026-08 SCA",
+      "value": 1.99,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Estoque de pedidos, volume SCA 2026-08 SCA",
+      "value": 10.79,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pedidos_totais_18m.csv",
+      "header": "m3saar_pct",
+      "row": "2026-08",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pedidos totais, volume SCA 2026-08 SCA",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pedidos bens de capital, volume SCA 2026-08 SCA",
+      "value": 19.68,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pedidos bens intermediários, volume SCA 2026-08 SCA",
+      "value": -11.69,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Estoque de pedidos, volume SCA 2026-08 SCA",
+      "value": 11.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "one-c01-kimi-pro-low-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "industria_total yoy_pct",
+      "row": "2026-08-01",
+      "value": 0.5543,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "transformacao yoy_pct",
+      "row": "2026-08-01",
+      "value": -0.2198,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "bens_capital yoy_pct",
+      "row": "2026-08-01",
+      "value": -0.1037,
+      "variant": "B_C, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "quimicos yoy_pct",
+      "row": "2026-08-01",
+      "value": -3.23,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "metalurgia_basica yoy_pct",
+      "row": "2026-08-01",
+      "value": -1.9934,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "maquinas yoy_pct",
+      "row": "2026-08-01",
+      "value": -0.5543,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "industria_total tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "transformacao tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/producao_resumo.csv",
+      "header": "3msaar_pct",
+      "row": "industria_total",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "quimicos tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -11.3469,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "metalurgia_basica tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -5.8251,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "maquinas tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -2.7385,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/encomendas_resumo.csv",
+      "header": "yoy_calendario_pct",
+      "row": "Encomendas totais 2026-08",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/encomendas_resumo.csv",
+      "header": "3msaar_pct",
+      "row": "Encomendas totais 2026-08",
+      "value": 5.3,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/encomendas_resumo.csv",
+      "header": "3m_sobre_3m_pct",
+      "row": "Encomendas totais 2026-08",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "attempt": "a2-c01-claude-fable-high-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "YoY % (CA)",
+      "row": "Indústria s/ construção (B–D) 2026-08",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "vs mín. 12m %",
+      "row": "Indústria s/ construção (B–D) 2026-08",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "YoY % (CA)",
+      "row": "Transformação (C) 2026-08",
+      "value": -0.4,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "YoY % (CA)",
+      "row": "Extrativa (B) 2026-08",
+      "value": -10.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "vs mín. 12m %",
+      "row": "Extrativa (B) 2026-08",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "YoY % (CA)",
+      "row": "Eletricidade/gás (D) 2026-08",
+      "value": 9.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "3m/3m %",
+      "row": "Indústria s/ construção (B–D) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "3msaar %",
+      "row": "Indústria s/ construção (B–D) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "3msaar %",
+      "row": "Transformação (C) 2026-08",
+      "value": -2.3,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "3m/3m %",
+      "row": "Transformação (C) 2026-08",
+      "value": -0.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "3msaar %",
+      "row": "Extrativa (B) 2026-08",
+      "value": -8.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao.csv",
+      "header": "3m/3m %",
+      "row": "Eletricidade/gás (D) 2026-08",
+      "value": 6.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (SCA)",
+      "row": "Encomendas totais 2026-08",
+      "value": 3.0,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "vs mín. 12m %",
+      "row": "Encomendas totais 2026-08",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (SCA)",
+      "row": "MIG Intermediários 2026-08",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "vs mín. 12m %",
+      "row": "MIG Intermediários 2026-08",
+      "value": 3.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3msaar %",
+      "row": "Encomendas totais 2026-08",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Encomendas totais 2026-08",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "MIG Intermediários 2026-08",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3msaar %",
+      "row": "MIG Intermediários 2026-08",
+      "value": -11.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "attempt": "a2-c01-claude-haiku-high-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab01_industria_ultimos_meses.csv",
+      "header": "YoY_CA_%",
+      "row": "2026-08",
+      "value": -0.36,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab04_indicadores_complementares.csv",
+      "header": "valor",
+      "row": "Produção industrial (B+C) - referência cruzada: variação anual 2026-08 % a/a CA Destatis PD26/355 ht",
+      "value": -0.4,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab01_industria_ultimos_meses.csv",
+      "header": "3msaar_%",
+      "row": "2026-08",
+      "value": -2.17,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab04_indicadores_complementares.csv",
+      "header": "unidade",
+      "row": "Pedidos reais  manufatura: variação anual 2026-08 % a/a CA Destatis PD26/354 https://www.destatis.de",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tab04_indicadores_complementares.csv",
+      "header": "unidade",
+      "row": "Pedidos reais  manufatura: variação de 3 meses (jun-ago vs. 3 meses anteriores) 2026-08 % SA Destati",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "attempt": "a2-c01-claude-opus-high-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "m/m %",
+      "row": "Produção – Industrie (sem energia e construção) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": 0.6,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "a/a %",
+      "row": "Produção – Industrie (sem energia e construção) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": -0.4,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "Nível SA",
+      "row": "Produção – Industrie (sem energia e construção) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": 90.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "vs média 2019 %",
+      "row": "Produção – Industrie (sem energia e construção) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": -13.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "vs média 2025 %",
+      "row": "Produção – Industrie (sem energia e construção) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": -2.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "3msaar %",
+      "row": "Produção – Industrie (sem energia e construção) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": -1.9,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab05_3T26_calculo_mecanico_producao.csv",
+      "header": "3T/2T anualizada %",
+      "row": "Produção – total (B–D + construção) set = ago −1%",
+      "value": 0.1124,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/tab05_3T26_calculo_mecanico_producao.csv",
+      "header": "3T/2T anualizada %",
+      "row": "Produção – total (B–D + construção) set = ago (carregamento)",
+      "value": 1.4673,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/atividade_mensal_processada.csv",
+      "header": "b_dom_3msaar",
+      "row": "2026-08-01",
+      "value": 17.253,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "3msaar % (mês ant.)",
+      "row": "Produção – Industrie (sem energia e construção) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": 0.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab03_sondagens.csv",
+      "header": "Valor",
+      "row": "CE – expectativa de produção (3m) saldo, SA 10/2026 09/2026 08/2026",
+      "value": 10.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "a/a %",
+      "row": "Encomendas – total (volume) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "Nível SA",
+      "row": "Encomendas – total (volume) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": 86.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "m/m %",
+      "row": "Encomendas – total (volume) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": -10.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "vs média 2019 %",
+      "row": "Encomendas – total (volume) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": -5.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "3msaar %",
+      "row": "Encomendas – total (volume) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "3msaar % (mês ant.)",
+      "row": "Encomendas – total (volume) 08/2026 a/a CA Destatis via Bundesbank (BBDE1)",
+      "value": 13.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "3msaar %",
+      "row": "Encomendas – área do euro 08/2026 a/a SA Destatis via Bundesbank (BBDE1)",
+      "value": -24.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_painel_atividade.csv",
+      "header": "3msaar % (mês ant.)",
+      "row": "Encomendas – área do euro 08/2026 a/a SA Destatis via Bundesbank (BBDE1)",
+      "value": -8.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a2-c01-claude-sonnet-high-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "YoY SA (%)",
+      "row": "DE 2026-08",
+      "value": 0.6,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "YoY SA (%)",
+      "row": "FR 2026-08",
+      "value": 0.3,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_producao.csv",
+      "header": "YoY (%)",
+      "row": "Produção – setor produtivo ex-construção (B–D) 2026-08 calendário True",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "YoY SA (%)",
+      "row": "EA20 2026-08",
+      "value": -1.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "YoY SA (%)",
+      "row": "ES 2026-08",
+      "value": 1.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "YoY SA (%)",
+      "row": "IT 2026-08",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "3msaar (%)",
+      "row": "DE 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "3msaar (%)",
+      "row": "FR 2026-08",
+      "value": -2.4,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_ip_trimestral.csv",
+      "header": "2T26 anualizada (%)",
+      "row": "nace 91.07",
+      "value": 1.47,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "3msaar (%)",
+      "row": "EA20 2026-08",
+      "value": -0.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "3msaar (%)",
+      "row": "ES 2026-08",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_internacional_ip.csv",
+      "header": "3msaar (%)",
+      "row": "IT 2026-08",
+      "value": -4.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela_pedidos_faturamento_pedagio.csv",
+      "header": "YoY (%)",
+      "row": "Pedidos reais – total 2026-08 calendário True",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela_pedidos_faturamento_pedagio.csv",
+      "header": "YoY (%)",
+      "row": "Pedidos reais – intermediários 2026-08 SA True",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_pedidos_faturamento_pedagio.csv",
+      "header": "YoY (%)",
+      "row": "Pedidos reais – bens de capital 2026-08 SA True",
+      "value": 3.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_pedidos_faturamento_pedagio.csv",
+      "header": "YoY (%)",
+      "row": "Pedidos reais – bens de consumo 2026-08 SA True",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela_pedidos_faturamento_pedagio.csv",
+      "header": "3msaar (%)",
+      "row": "Pedidos reais – total 2026-08 calendário True",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tabela_pedidos_faturamento_pedagio.csv",
+      "header": "3msaar (%)",
+      "row": "Pedidos reais – intermediários 2026-08 SA True",
+      "value": -11.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_pedidos_faturamento_pedagio.csv",
+      "header": "3msaar (%)",
+      "row": "Pedidos reais – bens de capital 2026-08 SA True",
+      "value": 19.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabela_pedidos_faturamento_pedagio.csv",
+      "header": "3msaar (%)",
+      "row": "Pedidos reais – bens de consumo 2026-08 SA True",
+      "value": -12.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "attempt": "a2-c01-codex-astra-high-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tratados/taxas_divulgadas_transcritas.csv",
+      "header": "yoy_divulgado_pct",
+      "row": "prod_ampla 2026-08 CA producao_release.html",
+      "value": 2.3,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/tratados/taxas_divulgadas_transcritas.csv",
+      "header": "yoy_divulgado_pct",
+      "row": "industria_ex 2026-08 CA producao_release.html",
+      "value": -0.4,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 CA B-D",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tratados/taxas_divulgadas_transcritas.csv",
+      "header": "yoy_divulgado_pct",
+      "row": "intensivas 2026-08 CA producao_release.html",
+      "value": -2.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_divulgado_pct",
+      "row": "intensivas 2026-08 CA producao_release.html",
+      "value": -2.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01 CA B-D",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "3m3m_pct",
+      "row": "2026-08-01 CA B-D",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01 CA (divulgado) industria_ex",
+      "value": -1.8823,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "3m3m_pct",
+      "row": "2026-08-01 CA (divulgado) industria_ex",
+      "value": -0.4739,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "3m3m_pct",
+      "row": "2026-08-01 00:00:00 CA (divulgado) industria_ex",
+      "value": -0.4739,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tratados/taxas_divulgadas_transcritas.csv",
+      "header": "yoy_divulgado_pct",
+      "row": "pedidos 2026-08 CA pedidos_release.html",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 CA (divulgado) pedidos",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "YoY_pct",
+      "row": "pedidos Pedidos totais 2026-08 2021=100 CA (divulgado)",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tratados/taxas_divulgadas_transcritas.csv",
+      "header": "yoy_divulgado_pct",
+      "row": "faturamento 2026-08 CA pedidos_release.html",
+      "value": 0.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 SA+CA pedidos_dom",
+      "value": 1.227,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 SA+CA pedidos_ext",
+      "value": 4.2403,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01 CA (divulgado) pedidos",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "tres_msaar_pct",
+      "row": "pedidos Pedidos totais 2026-08 2021=100 CA (divulgado)",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "3msaar_pct",
+      "row": "2026-08-01 00:00:00 CA (divulgado) pedidos",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "3m3m_pct",
+      "row": "2026-08-01 CA (divulgado) pedidos",
+      "value": 1.3245,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01 SA+CA pedidos_dom",
+      "value": 39.5439,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/tratados/taxas_mensais.csv",
+      "header": "3m3m_pct",
+      "row": "2026-08-01 SA+CA pedidos_dom",
+      "value": 8.687,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "attempt": "a2-c01-codex-luna-high-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "yoy_calendar_adjusted_pct",
+      "row": "2026-08-01 B-D Indústria total (mineração, manufatura e energia)",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "yoy_calendar_adjusted_pct",
+      "row": "2026-08-01 C Manufatura",
+      "value": -0.358,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "yoy_calendar_adjusted_pct",
+      "row": "2026-08-01 MIG_CAG Bens de capital",
+      "value": -0.2384,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "yoy_calendar_adjusted_pct",
+      "row": "2026-08-01 MIG_ING Bens intermediários",
+      "value": -1.1029,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "yoy_calendar_adjusted_pct",
+      "row": "2026-08-01 MIG_NRG_X_E Energia (exceto água/esgoto)",
+      "value": 7.5697,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_observados.csv",
+      "header": "valor",
+      "row": "Faturamento real manufatura 2026-08 % YoY ajuste calendário Destatis press release 354 de 2026-10-06",
+      "value": 0.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "three_month_saar_pct",
+      "row": "2026-08-01 B-D Indústria total (mineração, manufatura e energia)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "three_month_saar_pct",
+      "row": "2026-08-01 C Manufatura",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_ultima_observacao.csv",
+      "header": "three_month_saar_pct",
+      "row": "2026-08-01 B-D Indústria total (mineração, manufatura e energia)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "three_month_saar_pct",
+      "row": "2026-08-01 MIG_ING Bens intermediários",
+      "value": -4.784,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "three_month_saar_pct",
+      "row": "2026-08-01 MIG_CAG Bens de capital",
+      "value": -1.6416,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/eurostat_producao_industrial_DE.csv",
+      "header": "three_month_saar_pct",
+      "row": "2026-08-01 MIG_NRG_X_E Energia (exceto água/esgoto)",
+      "value": 17.9469,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_observados.csv",
+      "header": "valor",
+      "row": "Pedidos novos manufatura 2026-08 % YoY real ajuste calendário Destatis press release 354 de 2026-10-",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores_observados.csv",
+      "header": "valor",
+      "row": "Estoque de pedidos manufatura 2026-08 % YoY ajuste calendário Destatis press release 371 de 2026-10-",
+      "value": 10.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/indicadores_observados.csv",
+      "header": "valor",
+      "row": "Pedidos novos manufatura 2026-06/2026-08 % vs 3 meses anteriores; não anualizado Destatis press rele",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6.1-sol",
+  "attempt": "a2-c01-codex-sol-high-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_e_taxas.csv",
+      "header": "yoy_pct",
+      "row": "total Produção total (B–D, F) 2026-08 CA",
+      "value": 2.2646,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_e_taxas.csv",
+      "header": "yoy_pct",
+      "row": "industria Indústria sem energia e construção 2026-08 CA",
+      "value": -0.3589,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "total Produção total (B–D, F) 2026-08 CA",
+      "value": 2.2646,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_bbk_producao.csv",
+      "header": "BBDE1.M.DE.Y.BAA1.A2Q202000.G.C.I21.A Output in the production sector / Germany / Production sector ",
+      "row": "Decimals",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/metadados_bbk_producao.csv",
+      "header": "BBDE1.M.DE.Y.BAA1.A2Q203000.G.C.I21.A Output in the production sector / Germany / Mining and quarryi",
+      "row": "Decimals",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/metadados_bbk_producao.csv",
+      "header": "BBDE1.M.DE.Y.BAA1.A2Q301000.G.C.I21.A Output in the production sector / Germany / Industry excluding",
+      "row": "Decimals",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_e_taxas.csv",
+      "header": "tres_msaar_pct",
+      "row": "total Produção total (B–D, F) 2026-08 CA",
+      "value": 1.6197,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_e_taxas.csv",
+      "header": "tres_msaar_pct",
+      "row": "industria Indústria sem energia e construção 2026-08 CA",
+      "value": -1.8823,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "tres_msaar_pct",
+      "row": "total Produção total (B–D, F) 2026-08 CA",
+      "value": 1.6197,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_e_taxas.csv",
+      "header": "yoy_pct",
+      "row": "pedidos Encomendas totais 2026-08 CA",
+      "value": 2.6702,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "pedidos Encomendas totais 2026-08 CA",
+      "value": 2.6702,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "verificacao_reproducao/entrega/series_e_taxas.csv",
+      "header": "yoy_pct",
+      "row": "pedidos Encomendas totais 2026-08 CA",
+      "value": 2.6702,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_e_taxas.csv",
+      "header": "tres_msaar_pct",
+      "row": "pedidos Encomendas totais 2026-08 CA",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "tres_msaar_pct",
+      "row": "pedidos Encomendas totais 2026-08 CA",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "verificacao_reproducao/entrega/series_e_taxas.csv",
+      "header": "tres_msaar_pct",
+      "row": "pedidos Encomendas totais 2026-08 CA",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "grok-4.7",
+  "attempt": "a2-c01-grok-high-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "yoy",
+      "row": "2026-08 CA Indústria B–D (inclui energia, exclui construção) B-D Indústria B–D (inclui energia, excl",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "yoy",
+      "row": "2026-08 CA Manufatura (NACE C) C Manufatura (NACE C)",
+      "value": -0.358,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "yoy",
+      "row": "2026-08 CA Bens de capital MIG_CAG Bens de capital",
+      "value": -0.2384,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/ppi_destatis_bv41.csv",
+      "header": "Originalwert, Veränderung gegenüber Vorjahresmonat in %",
+      "row": "2026-08 01/08/2026 2026-08-01 BV4.1 Index der Erzeugerpreise gewerblicher Produkte",
+      "value": 4.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/ppi_destatis_bv41.csv",
+      "header": "nsa_yoy",
+      "row": "2026-08 01/08/2026 2026-08-01 BV4.1 Index der Erzeugerpreise gewerblicher Produkte",
+      "value": 4.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "yoy",
+      "row": "2026-08 CA Bens intermediários MIG_ING Bens intermediários",
+      "value": -1.1029,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "msaar_3m",
+      "row": "2026-08 CA Indústria B–D (inclui energia, exclui construção) B-D Indústria B–D (inclui energia, excl",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "var_3m3m",
+      "row": "2026-08 CA Indústria B–D (inclui energia, exclui construção) B-D Indústria B–D (inclui energia, excl",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "msaar_3m",
+      "row": "2026-08 CA Manufatura (NACE C) C Manufatura (NACE C)",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "var_3m3m",
+      "row": "2026-08 CA Manufatura (NACE C) C Manufatura (NACE C)",
+      "value": -0.5816,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "msaar_3m",
+      "row": "2026-08 CA Bens intermediários MIG_ING Bens intermediários",
+      "value": -4.784,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/producao_eurostat_mensal.csv",
+      "header": "var_3m3m",
+      "row": "2026-08 CA Bens intermediários MIG_ING Bens intermediários",
+      "value": -1.2181,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/painel_ultima_observacao.csv",
+      "header": "ritmo_pct",
+      "row": "destatis_atividade Novas encomendas, total Destatis CSV aberto, X-13 JDemetra+ SCA; homóloga calcula",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/painel_ultima_observacao.csv",
+      "header": "nivel",
+      "row": "destatis_atividade Novas encomendas, total Destatis CSV aberto, X-13 JDemetra+ SCA; homóloga calcula",
+      "value": 86.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/painel_ultima_observacao.csv",
+      "header": "yoy_pct",
+      "row": "destatis_atividade Novas encomendas, total Destatis CSV aberto, X-13 JDemetra+ SCA; homóloga calcula",
+      "value": 2.99,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/painel_ultima_observacao.csv",
+      "header": "vs_pico_desde_2017_pct",
+      "row": "destatis_atividade Novas encomendas, total Destatis CSV aberto, X-13 JDemetra+ SCA; homóloga calcula",
+      "value": -20.52,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a2-c01-kimi-pro-high-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "yoy_pct",
+      "row": "Produção Indústria (B–D; sem construção) 2026-08 Volume real 2021=100 SCA CA Eurostat sts_inpr_m",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "yoy_pct",
+      "row": "Produção Transformação (C) 2026-08 Volume real 2021=100 SCA CA Eurostat sts_inpr_m",
+      "value": -0.358,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "B-D Indústria (B–D; sem construção) 2026-08",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/series_producao.csv",
+      "header": "yoy",
+      "row": "2026-08-01 C10-C12",
+      "value": 0.8342,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_producao.csv",
+      "header": "yoy",
+      "row": "2026-08-01 C20",
+      "value": -3.1373,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_producao.csv",
+      "header": "yoy",
+      "row": "2026-08-01 C24",
+      "value": -1.8957,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "3msaar_pct",
+      "row": "Produção Indústria (B–D; sem construção) 2026-08 Volume real 2021=100 SCA CA Eurostat sts_inpr_m",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "3msaar_pct",
+      "row": "Produção Transformação (C) 2026-08 Volume real 2021=100 SCA CA Eurostat sts_inpr_m",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "tres_m_saar_sca_pct",
+      "row": "B-D Indústria (B–D; sem construção) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/series_producao.csv",
+      "header": "q3m_not_annualized",
+      "row": "2026-08-01 C",
+      "value": -0.5816,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_producao.csv",
+      "header": "three_m_saar",
+      "row": "2026-08-01 C10-C12",
+      "value": 0.6862,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_producao.csv",
+      "header": "three_m_saar",
+      "row": "2026-08-01 C20",
+      "value": -11.3469,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "yoy_pct",
+      "row": "Encomendas reais 2026-08 Transformação; ramos selecionados 2021=100 SCA SCA Destatis X13",
+      "value": 2.994,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "valor_pct",
+      "row": "Encomendas totais reais 2026-08 YoY CA oficial Destatis PE26_354",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/divulgacoes_oficiais_pontuais.csv",
+      "header": "valor_pct",
+      "row": "Encomendas totais reais 2026-08 YoY CA oficial Destatis PE26_354",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "valor_pct",
+      "row": "Carteira de encomendas real 2026-08 YoY CA oficial Destatis PE26_371",
+      "value": 10.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/divulgacoes_oficiais_pontuais.csv",
+      "header": "valor_pct",
+      "row": "Carteira de encomendas real 2026-08 YoY CA oficial Destatis PE26_371",
+      "value": 10.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_encomendas.csv",
+      "header": "yoy_nsa_published",
+      "row": "2026-08-01 foreign",
+      "value": 4.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "3msaar_pct",
+      "row": "Encomendas reais 2026-08 Transformação; ramos selecionados 2021=100 SCA SCA Destatis X13",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/principais_indicadores.csv",
+      "header": "3msaar_pct",
+      "row": "Encomendas reais 2026-08 Transformação; ramos selecionados 2021=100 SCA SCA Destatis X13",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_encomendas.csv",
+      "header": "three_m_saar",
+      "row": "2026-08-01 total",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_utilizados.xlsx",
+      "header": "valor_pct",
+      "row": "Encomendas totais reais 2026-06 a 2026-08 3m/3m não anualizada SCA Destatis PE26_354",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/divulgacoes_oficiais_pontuais.csv",
+      "header": "valor_pct",
+      "row": "Encomendas totais reais 2026-06 a 2026-08 3m/3m não anualizada SCA Destatis PE26_354",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_encomendas.csv",
+      "header": "q3m_not_annualized",
+      "row": "2026-08-01 total",
+      "value": 1.3245,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "attempt": "a3-c01-codex-astra-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_prod_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa",
+      "row": "orders Encomendas totais 2026-09 2021=100 SA e calendário, X13 JDemetra+",
+      "value": 3.3181,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY",
+      "row": "orders Encomendas totais 2026-09 Calendário (divulgado)",
+      "value": 3.3,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tres_msaar",
+      "row": "orders Encomendas totais 2026-09 2021=100 SA e calendário, X13 JDemetra+",
+      "value": 0.736,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "tres_msaar",
+      "row": "orders Encomendas totais 2026-09 Calendário (divulgado)",
+      "value": 0.736,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "taxa_3m",
+      "row": "orders Encomendas totais 2026-09 2021=100 SA e calendário, X13 JDemetra+",
+      "value": 0.1835,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "attempt": "a3-c01-claude-haiku-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_producao_industrial_alemanha.csv",
+      "header": "YoY_CA_%",
+      "row": "2026-08-01",
+      "value": 0.36,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_producao_industrial_alemanha.csv",
+      "header": "YoY_NSA_%",
+      "row": "2026-08-01",
+      "value": 1.13,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_producao_industrial_alemanha.csv",
+      "header": "3msaar_SA_%",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6-luna",
+  "attempt": "a3-c01-codex-luna-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha_eurostat.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01",
+      "value": -0.358,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/quadro_divulgacoes_destatis.csv",
+      "header": "yoy_pct",
+      "row": "Produção indústria (B-E) 2026-08 m/m SA+CA; YoY CA; jun-ago/Mar-mai Destatis PE26_355",
+      "value": 2.3,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/quadro_divulgacoes_destatis.csv",
+      "header": "comparacao_alternativa_pct",
+      "row": "Produção indústria (B-E) 2026-08 m/m SA+CA; YoY CA; jun-ago/Mar-mai Destatis PE26_355",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/quadro_divulgacoes_destatis.csv",
+      "header": "mensal_ou_trimestral_pct",
+      "row": "Produção indústria (B-E) 2026-08 m/m SA+CA; YoY CA; jun-ago/Mar-mai Destatis PE26_355",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha_eurostat.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/quadro_divulgacoes_destatis.csv",
+      "header": "comparacao_alternativa_pct",
+      "row": "Produção manufatureira (NACE C, Eurostat SCA) 2026-08 índice SA+CA; YoY CA; 3msaar de médias SA Euro",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao_mensal.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/quadro_divulgacoes_destatis.csv",
+      "header": "yoy_pct",
+      "row": "Produção manufatureira (NACE C, Eurostat SCA) 2026-08 índice SA+CA; YoY CA; 3msaar de médias SA Euro",
+      "value": -0.358,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/quadro_divulgacoes_destatis.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos manufatura 2026-09 m/m SA+CA; YoY CA; Q3/Q2 Destatis PE26_385",
+      "value": 3.3,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/quadro_divulgacoes_destatis.csv",
+      "header": "mensal_ou_trimestral_pct",
+      "row": "Pedidos manufatura 2026-09 m/m SA+CA; YoY CA; Q3/Q2 Destatis PE26_385",
+      "value": 4.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/quadro_divulgacoes_destatis.csv",
+      "header": "comparacao_alternativa_pct",
+      "row": "Pedidos manufatura 2026-09 m/m SA+CA; YoY CA; Q3/Q2 Destatis PE26_385",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "attempt": "a3-c01-codex-sol-low-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "C Transformação (C) 2026-08",
+      "value": -0.358,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "B-D Indústria sem construção (B–D) 2026-08",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "B_C Indústria sem energia e construção (B–C) 2026-08",
+      "value": -0.358,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "MIG_ING Bens intermediários 2026-08",
+      "value": -1.1029,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "MIG_DCOG Consumo durável 2026-08",
+      "value": 5.3206,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "C20 Química 2026-08",
+      "value": -3.1373,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "3msaar",
+      "row": "C Transformação (C) 2026-08",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "3m_3m",
+      "row": "B-D Indústria sem construção (B–D) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "3msaar",
+      "row": "B-D Indústria sem construção (B–D) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "3m_3m",
+      "row": "C Transformação (C) 2026-08",
+      "value": -0.5816,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "3m_3m",
+      "row": "B_C Indústria sem energia e construção (B–C) 2026-08",
+      "value": -0.5461,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/producao_dados_e_calculos.csv",
+      "header": "3m_3m",
+      "row": "MIG_ING Bens intermediários 2026-08",
+      "value": -1.2181,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/orders_table0.csv",
+      "header": "Non-adjusted value Change on the corresponding month of the previous year in %",
+      "row": "Aug",
+      "value": 3.5,
+      "variant": "YoY série original",
+      "period_stated": false
+     },
+     {
+      "file": "dados/orders_table0.csv",
+      "header": "Non-adjusted value Change on the corresponding month of the previous year in %",
+      "row": "Sep",
+      "value": 3.3,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "dados/orders_table1.csv",
+      "header": "Non-adjusted value Change on the corresponding month of the previous year in %",
+      "row": "Aug",
+      "value": 3.5,
+      "variant": "YoY série original",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/orders_table0.csv",
+      "header": "Year, month Year, month",
+      "row": "Aug",
+      "value": 2026.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/orders_table0.csv",
+      "header": "Year, month Year, month",
+      "row": "Jul",
+      "value": 2026.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/orders_table0.csv",
+      "header": "Non-adjusted value Change on the corresponding month of the previous year in %",
+      "row": "Jul",
+      "value": 14.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/encomendas_taxas.csv",
+      "header": "3msaar",
+      "row": "Total 2026-09 jul–set / abr–jun 2026",
+      "value": 0.8024,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/encomendas_taxas.csv",
+      "header": "3m_3m_publicado",
+      "row": "Total 2026-09 jul–set / abr–jun 2026",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/encomendas_taxas.csv",
+      "header": "3m_3m_publicado",
+      "row": "Zona do euro 2026-09 jul–set / abr–jun 2026",
+      "value": 2.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/encomendas_taxas.csv",
+      "header": "3msaar",
+      "row": "Zona do euro 2026-09 jul–set / abr–jun 2026",
+      "value": 12.1144,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a3-c01-claude-sonnet-low-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/industria_transformacao_DE.csv",
+      "header": "YoY_CA",
+      "row": "2026-08",
+      "value": -0.358,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/resumo_setores_DE.csv",
+      "header": "YoY_CA %",
+      "row": "B-D",
+      "value": 0.36,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/industria_transformacao_DE.csv",
+      "header": "3msaar",
+      "row": "2026-08",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/resumo_setores_DE.csv",
+      "header": "3msaar %",
+      "row": "B-D",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "attempt": "a3-c01-claude-opus-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_CA B-D",
+      "row": "2026-08",
+      "value": 0.36,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY % (CA)",
+      "row": "Produção industrial (B-D, exceto construção) 2026-08",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "3msaar_SA B-D",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3msaar %",
+      "row": "Produção industrial (B-D, exceto construção) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_CA orders",
+      "row": "2026-09",
+      "value": 3.32,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY % (CA)",
+      "row": "Novas encomendas, indústria (preços const.) 2026-09",
+      "value": 3.3,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "3msaar_SA orders",
+      "row": "2026-09",
+      "value": 0.74,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3msaar %",
+      "row": "Novas encomendas, indústria (preços const.) 2026-09",
+      "value": 0.7,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "attempt": "a3-c01-claude-fable-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/BBDP1/BBDP1.A(01).csv",
+      "header": "BBDP1.A.DE.N.VPI.C.A00000.VGJ.LV Verbraucherpreisindex / Deutschland / Ursprungswerte / Insgesamt / ",
+      "row": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "dados/BBDP1/BBDP1.A(01).csv",
+      "header": "BBDP1.A.DE.N.VPI.C.A00000.VGJ.LV Verbraucherpreisindex / Deutschland / Ursprungswerte / Insgesamt / ",
+      "row": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "value": 2.3,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "dados/BBDP1/BBDP1.A(01).csv",
+      "header": "BBDP1.A.DE.N.VPI.C.A00000.VGJ.LV Verbraucherpreisindex / Deutschland / Ursprungswerte / Insgesamt / ",
+      "row": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "value": 0.6,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/BBDP1/BBDP1.A(01).csv",
+      "header": "BBDP1.A.DE.N.HVPI.C.A00000.VGJ.LV Harmonisierter Verbraucherpreisindex / Deutschland / Ursprungswert",
+      "row": "Dezimalstellen",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/BBDP1/BBDP1.A(01).csv",
+      "header": "BBDP1.A.DE.N.HVPI.C.E2C041.VGJ.LV Harmonisierter Verbraucherpreisindex / Deutschland / Ursprungswert",
+      "row": "Dezimalstellen",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/BBDP1/BBDP1.A(01).csv",
+      "header": "BBDP1.A.DE.N.HVPI.C.FOOD00.VGJ.LV Harmonisierter Verbraucherpreisindex / Deutschland / Ursprungswert",
+      "row": "Dezimalstellen",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_pct",
+      "row": "prod_BD 2026-08 BBDE1.M.DE.Y.BAA1.A2P100000.G.C.I21.A SA+cal",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_pct",
+      "row": "prod_BDF 2026-08 BBDE1.M.DE.Y.BAA1.A2P000000.G.C.I21.A SA+cal",
+      "value": 1.62,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela1_resumo_producao_encomendas.csv",
+      "header": "3m/3m saar %",
+      "row": "Produção B–D (manchete) índice 2021=100 SA+cal. 2026-08 cal.-adj. 2025-08 Bundesbank BBDE1 (Destatis",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_pct",
+      "row": "prod_interm 2026-08 BBDE1.M.DE.Y.BAA1.A2P310000.G.C.I21.A SA+cal",
+      "value": -4.78,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_pct",
+      "row": "prod_constr 2026-08 BBDE1.M.DE.Y.BAA1.N2F000000.G.C.I21.A SA+cal",
+      "value": 9.95,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_pct",
+      "row": "prod_BD_cal 2026-08 BBDE1.M.DE.W.BAA1.A2P100000.G.C.I21.A só calendário",
+      "value": -17.02,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_pct_SA",
+      "row": "ord_total 2026-09 BBDE1.M.DE.Y.AEA1.A2P300000.F.C.I21.A SA+cal",
+      "value": 3.32,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_pct_SA",
+      "row": "ord_C30 2026-09 BBDE1.M.DE.Y.AEA1.N2C300000.F.C.I21.A SA+cal",
+      "value": 3.15,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_pct_SA",
+      "row": "ord_total_cal 2026-09 BBDE1.M.DE.W.AEA1.A2P300000.F.C.I21.L só calendário",
+      "value": 3.3,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_pct_SA",
+      "row": "ord_exC30 2026-09 BBDE1.M.DE.Y.AEA1.A2Q400000.F.C.I21.A SA+cal",
+      "value": 3.13,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_pct_SA",
+      "row": "ord_dom 2026-09 BBDE1.M.DE.Y.AEB1.A2P300000.F.C.I21.A SA+cal",
+      "value": 7.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_pct_SA",
+      "row": "ord_for 2026-09 BBDE1.M.DE.Y.AEB5.A2P300000.F.C.I21.A SA+cal",
+      "value": 0.22,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_pct",
+      "row": "ord_total 2026-09 BBDE1.M.DE.Y.AEA1.A2P300000.F.C.I21.A SA+cal",
+      "value": 0.74,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela1_resumo_producao_encomendas.csv",
+      "header": "3m/3m saar %",
+      "row": "Encomendas total índice vol. 2021=100 SA+cal. 2026-09 cal.-adj. 2024-05 Bundesbank BBDE1 (Destatis)",
+      "value": 0.7,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_pct",
+      "row": "ord_exC30 2026-09 BBDE1.M.DE.Y.AEA1.A2Q400000.F.C.I21.A SA+cal",
+      "value": -4.52,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_pct",
+      "row": "ord_dom 2026-09 BBDE1.M.DE.Y.AEB1.A2P300000.F.C.I21.A SA+cal",
+      "value": 21.84,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_pct",
+      "row": "ord_for 2026-09 BBDE1.M.DE.Y.AEB5.A2P300000.F.C.I21.A SA+cal",
+      "value": -11.77,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a3-c01-kimi-pro-low-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "producao_transformacao 2026-08",
+      "value": -0.358,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_ajustado_calendario_pct",
+      "row": "producao_transformacao 2026-08",
+      "value": -0.358,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "producao_bens_investimento 2026-08",
+      "value": -0.8393,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_ajustado_calendario_pct",
+      "row": "producao_bens_investimento 2026-08",
+      "value": -0.8393,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tresmsaar",
+      "row": "producao_transformacao 2026-08",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "tresmsaar_pct",
+      "row": "producao_transformacao 2026-08",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tresmsaar",
+      "row": "producao_bens_investimento 2026-08",
+      "value": -3.33,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "tresmsaar_pct",
+      "row": "producao_bens_investimento 2026-08",
+      "value": -3.33,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "encomendas_total 2026-09",
+      "value": 3.303,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_ajustado_calendario_pct",
+      "row": "encomendas_total 2026-09",
+      "value": 3.303,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "encomendas_bens_investimento 2026-09",
+      "value": 4.4199,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "encomendas_bens_intermediarios 2026-09",
+      "value": 0.1222,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "encomendas_bens_consumo 2026-09",
+      "value": 8.7935,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tresmsaar",
+      "row": "encomendas_total 2026-09",
+      "value": 0.736,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "tresmsaar_pct",
+      "row": "encomendas_total 2026-09",
+      "value": 0.736,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tresmsaar",
+      "row": "encomendas_bens_investimento 2026-09",
+      "value": -0.4204,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tresmsaar",
+      "row": "encomendas_bens_intermediarios 2026-09",
+      "value": 4.2669,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tresmsaar",
+      "row": "encomendas_bens_consumo 2026-09",
+      "value": -7.4065,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "attempt": "a3-c01-grok-low-normal-primary",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "taxa_curto_prazo",
+      "row": "producao Produção B–D (sem construção) 2026-08 3msaar_atividade_media3_sobre_media3_anterior_anualiz",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "taxa_curto_prazo",
+      "row": "producao Manufatura NACE C (Eurostat) 2026-08 3msaar_atividade_media3_sobre_media3_anterior_anualiza",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "emprego Horas trabalhadas na manufatura 2026-08 3msaar_atividade_sobre_SCA nsa_nao_ha_serie_so_calen",
+      "value": -1.8994,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "nivel_sa",
+      "row": "producao Produção B–D (sem construção) 2026-08 3msaar_atividade_media3_sobre_media3_anterior_anualiz",
+      "value": 90.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "nivel_ca_ou_base_yoy",
+      "row": "producao Produção B–D (sem construção) 2026-08 3msaar_atividade_media3_sobre_media3_anterior_anualiz",
+      "value": 83.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "producao Produção B–D (sem construção) 2026-08 3msaar_atividade_media3_sobre_media3_anterior_anualiz",
+      "value": 0.3623,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "taxa_curto_prazo",
+      "row": "encomendas Encomendas reais, total indústria 2026-09 3msaar_atividade_sobre_SCA sca_nao_ha_serie_so_",
+      "value": 0.736,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimas_observacoes.csv",
+      "header": "taxa_curto_pct",
+      "row": "Encomendas reais totais 2026-09 3msaar sobre SCA; YoY também sobre SCA Bundesbank/Destatis",
+      "value": 0.74,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "nivel_sa",
+      "row": "encomendas Encomendas reais, total indústria 2026-09 3msaar_atividade_sobre_SCA sca_nao_ha_serie_so_",
+      "value": 90.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "nivel_ca_ou_base_yoy",
+      "row": "encomendas Encomendas reais, total indústria 2026-09 3msaar_atividade_sobre_SCA sca_nao_ha_serie_so_",
+      "value": 90.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy",
+      "row": "encomendas Encomendas reais, total indústria 2026-09 3msaar_atividade_sobre_SCA sca_nao_ha_serie_so_",
+      "value": 3.3181,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-fable-5-1",
+  "attempt": "a4-result-05e881d3dc58dd997c21ae33",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_pesquisas.csv",
+      "header": "12 meses antes",
+      "row": "CE expect. produção (saldo) 2026-09",
+      "value": 0.1,
+      "variant": "2026-09 B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY % (CA)",
+      "row": "Indústria total (B-D) 2026-08 2017-11",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY % (CA)",
+      "row": "Manufatura (C) 2026-08 2017-11",
+      "value": -0.4,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "YoY %",
+      "row": "Emprego, manufatura (índice) 2026-08",
+      "value": -3.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "YoY %",
+      "row": "Horas trabalhadas, manufatura (índice) 2026-08",
+      "value": -2.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_pesquisas.csv",
+      "header": "12 meses antes",
+      "row": "CE estoques prod. acabados (saldo) 2026-09",
+      "value": 19.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "3m/3m %",
+      "row": "Indústria total (B-D) 2026-08 2017-11",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "3msaar %",
+      "row": "Indústria total (B-D) 2026-08 2017-11",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "3m/3m %",
+      "row": "Manufatura (C) 2026-08 2017-11",
+      "value": -0.6,
+      "variant": "2026-09 B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "3msaar %",
+      "row": "Emprego, manufatura (índice) 2026-08",
+      "value": -2.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "3msaar %",
+      "row": "Horas trabalhadas, manufatura (índice) 2026-08",
+      "value": -2.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_pesquisas.csv",
+      "header": "3 meses antes",
+      "row": "CE expect. produção (saldo) 2026-09",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SA/CA)",
+      "row": "Total – Indústria 2026-08 Vorläufiger Wert",
+      "value": 3.0,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SA/CA)",
+      "row": "Total – Bens intermediários 2026-08 Vorläufiger Wert",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SA/CA)",
+      "row": "Total – Bens de capital 2026-08 Vorläufiger Wert",
+      "value": 3.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SA/CA)",
+      "row": "Total – Bens de consumo 2026-08 Vorläufiger Wert",
+      "value": 2.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3msaar %",
+      "row": "Total – Indústria 2026-08 Vorläufiger Wert",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY 3m médio %",
+      "row": "Fora da zona do euro – Bens intermediários 2026-08 Vorläufiger Wert",
+      "value": 0.5,
+      "variant": "2026-09 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Fora da zona do euro – Bens de capital 2026-08 Vorläufiger Wert",
+      "value": 0.8,
+      "variant": "2026-09 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Total – Indústria 2026-08 Vorläufiger Wert",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY 3m médio %",
+      "row": "Total – Indústria 2026-08 Vorläufiger Wert",
+      "value": 8.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Total – Bens intermediários 2026-08 Vorläufiger Wert",
+      "value": -3.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-fable-5-1",
+  "attempt": "a4-result-294c7743710ca44467a10adb",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY % (CA)",
+      "row": "Indústria total (B-D) 2026-09 2017-11",
+      "value": 0.7,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY % (CA)",
+      "row": "Manufatura (C) 2026-09 2017-11",
+      "value": 0.3,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "YoY % (SCA)",
+      "row": "Emprego, manufatura (índice) 2026-08 estimativa Eurostat (i)",
+      "value": -3.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "YoY % (SCA)",
+      "row": "Horas trabalhadas, manufatura (índice) 2026-08 estimativa Eurostat (i)",
+      "value": -2.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY % (CA)",
+      "row": "Bens intermediários 2026-09 2017-12",
+      "value": -0.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "3m/3m %",
+      "row": "Emprego, manufatura (índice) 2026-08 estimativa Eurostat (i)",
+      "value": -0.7,
+      "variant": "2026-09 B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "3m/3m %",
+      "row": "Horas trabalhadas, manufatura (índice) 2026-08 estimativa Eurostat (i)",
+      "value": -0.7,
+      "variant": "2026-09 B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "3m/3m %",
+      "row": "Indústria total (B-D) 2026-09 2017-11",
+      "value": -0.2,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "3msaar %",
+      "row": "Emprego, manufatura (índice) 2026-08 estimativa Eurostat (i)",
+      "value": -2.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_faturamento_carteira_emprego.csv",
+      "header": "3msaar %",
+      "row": "Horas trabalhadas, manufatura (índice) 2026-08 estimativa Eurostat (i)",
+      "value": -2.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_producao_industrial.csv",
+      "header": "YoY 3m médio % (CA)",
+      "row": "Indústria total (B-D) 2026-09 2017-11",
+      "value": -0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SCA)",
+      "row": "Total – Indústria 2026-09 Vorläufiger Wert",
+      "value": 3.3,
+      "variant": "2026-09 YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SCA)",
+      "row": "Total – Bens intermediários 2026-09 Vorläufiger Wert",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SCA)",
+      "row": "Total – Bens de capital 2026-09 Vorläufiger Wert",
+      "value": 4.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY % (série SCA)",
+      "row": "Total – Bens de consumo 2026-09 Vorläufiger Wert",
+      "value": 8.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3msaar %",
+      "row": "Total – Indústria 2026-09 Vorläufiger Wert",
+      "value": 0.7,
+      "variant": "2026-09 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Zona do euro – Bens de capital 2026-09 Vorläufiger Wert",
+      "value": 5.7,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Fora da zona do euro – Bens intermediários 2026-09 Vorläufiger Wert",
+      "value": 0.5,
+      "variant": "2026-09 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Total – Indústria 2026-09 Vorläufiger Wert",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "YoY 3m médio % (SCA)",
+      "row": "Total – Indústria 2026-09 Vorläufiger Wert",
+      "value": 6.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/tabela_encomendas.csv",
+      "header": "3m/3m %",
+      "row": "Total – Bens intermediários 2026-09 Vorläufiger Wert",
+      "value": 1.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-haiku-5-5",
+  "attempt": "a4-result-0fece75290d6803056dea3c4",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/coletas/20261108T131734Z/metricas_mensais.csv",
+      "header": "DE_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": 0.603,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/coletas/20261108T131734Z/metricas_mensais.csv",
+      "header": "DE_BD_YoY_CA_%",
+      "row": "2026-09",
+      "value": 0.735,
+      "variant": "2026-09 B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "DE_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": 0.362,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/coletas/20261108T131734Z/metricas_mensais.csv",
+      "header": "EA_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": -1.074,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "EA_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": -1.074,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/atualizacao_20261108/revisoes_vintage.csv",
+      "header": "EA_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/coletas/20261108T131734Z/metricas_mensais.csv",
+      "header": "DE_BD_3msaar_SA_%",
+      "row": "2026-08",
+      "value": -0.146,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/coletas/20261108T131734Z/metricas_mensais.csv",
+      "header": "EA_BD_3msaar_SA_%",
+      "row": "2026-08",
+      "value": -0.812,
+      "variant": "2026-09 B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/coletas/20261108T131734Z/metricas_mensais.csv",
+      "header": "DE_BD_3msaar_SA_%",
+      "row": "2026-09",
+      "value": -0.873,
+      "variant": "2026-09 B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-haiku-5-5",
+  "attempt": "a4-result-511148d67245d84bceb4c00e",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "DE_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": 0.603,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "DE_BD_YoY_CA_%",
+      "row": "2026-09",
+      "value": 0.735,
+      "variant": "2026-09 B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/v1_coleta_2026-10-28/metricas_mensais.csv",
+      "header": "DE_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": 0.362,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "EA21_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": -1.074,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/v1_coleta_2026-10-28/metricas_mensais.csv",
+      "header": "EA_BD_YoY_CA_%",
+      "row": "2026-08",
+      "value": -1.074,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "DE_BD_3msaar_SA_%",
+      "row": "2026-08",
+      "value": -0.146,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "EA21_BD_3msaar_SA_%",
+      "row": "2026-08",
+      "value": -1.082,
+      "variant": "2026-09 B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/metricas_mensais.csv",
+      "header": "DE_BD_3msaar_SA_%",
+      "row": "2026-09",
+      "value": -0.873,
+      "variant": "2026-09 B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-opus-5-5",
+  "attempt": "a4-result-78f2eb5835467a9cd987b20b",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "m/m %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "YoY %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "vs mín. desde 2023 %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.6,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "Nível SA (2021=100)",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 90.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "vs média 2019 %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": -13.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "Nível SA (2021=100)",
+      "row": "Produção — Transformação (C) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 90.8,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Transformação (C) 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": -2.3,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Alimentos/bebidas/fumo 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "YoY %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 3.0,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "Nível SA (2021=100)",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 86.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "m/m %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": -10.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "vs média 2019 %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": -5.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Bens de capital 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 19.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Bens intermediários 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": -11.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Carteira (estoque) 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 11.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-opus-5-5",
+  "attempt": "a4-result-823a0e42225bf74d6ddcfdd1",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "YoY %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-09 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.7,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "vs mín. desde 2023 %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-09 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 2.3,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "YoY %",
+      "row": "Produção — Transformação (C) 2026-09 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.3,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "Nível SA (2021=100)",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-09 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 92.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "m/m %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-09 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "vs média 2019 %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-09 Eurostat sts_inpr_m (YoY: CA)",
+      "value": -12.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Produção industrial (B-D, ex-construção) 2026-09 Eurostat sts_inpr_m (YoY: CA)",
+      "value": -0.9,
+      "variant": "2026-09 B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Transformação (C) 2026-09 Eurostat sts_inpr_m (YoY: CA)",
+      "value": -3.4,
+      "variant": "2026-09 B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Alimentos/bebidas/fumo 2026-09 Eurostat sts_inpr_m (YoY: CA)",
+      "value": -2.6,
+      "variant": "C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega_v1_2026-10-28/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Produção — Alimentos/bebidas/fumo 2026-08 Eurostat sts_inpr_m (YoY: CA)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "YoY %",
+      "row": "Pedidos — Total 2026-09 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 3.3,
+      "variant": "2026-09 YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega_v1_2026-10-28/tabela_indicadores_mensais.csv",
+      "header": "YoY %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 3.0,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "Nível SA (2021=100)",
+      "row": "Pedidos — Total 2026-09 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 90.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "m/m %",
+      "row": "Pedidos — Total 2026-09 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 4.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "vs média 2019 %",
+      "row": "Pedidos — Total 2026-09 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": -0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Total 2026-09 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 0.7,
+      "variant": "2026-09 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega_v1_2026-10-28/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Total 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Bens de capital 2026-09 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": -0.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Bens intermediários 2026-09 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 4.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_mensais.csv",
+      "header": "3msaar %",
+      "row": "Pedidos — Carteira (estoque) 2026-08 Bundesbank BBDE1 (YoY sobre SA+CA)",
+      "value": 11.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a4-result-234cabd87bc186068d76a142",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "yoy_CA",
+      "row": "2026-08 Indústria total (B-D)",
+      "value": 0.4,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "a3msaar_SA",
+      "row": "2026-08 Indústria total (B-D)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pedidos_destatis.csv",
+      "header": "yoy_CA_pct",
+      "row": "2026-08 Total",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pedidos_destatis.csv",
+      "header": "a3msaar_derivado_pct",
+      "row": "2026-08 Total",
+      "value": 5.3,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a4-result-1d57cd8e0648962a658edc09",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "yoy_CA",
+      "row": "Indústria total (B-D) B-D",
+      "value": 0.7,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "yoy_SA",
+      "row": "Indústria total (B-D) B-D",
+      "value": 0.9,
+      "variant": "2026-09 B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/trajetoria_B-D.csv",
+      "header": "yoy_CA",
+      "row": "2026-08",
+      "value": 0.6,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "a3msaar_SA",
+      "row": "Indústria total (B-D) B-D",
+      "value": -0.9,
+      "variant": "2026-09 B-D, 3m/3m SAAR",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "a3msaar_mes_anterior",
+      "row": "Indústria total (B-D) B-D",
+      "value": -0.1,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/trajetoria_B-D.csv",
+      "header": "a3msaar",
+      "row": "2026-08",
+      "value": -0.1,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "media3m_vs_media_2019",
+      "row": "Indústria total (B-D) B-D",
+      "value": -13.3,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6-astra",
+  "attempt": "a4-result-fa07852abb1abdd9529c2ea3",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/calculado_B-D.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 B-D",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/calculado_B-D_F.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 B-D_F",
+      "value": 2.2646,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "B-D_F Total produtivo (inclui construção) 2026-08",
+      "value": 2.2646,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "F Construção 2026-08",
+      "value": 10.5028,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "D Eletricidade e gás 2026-08",
+      "value": 9.5436,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "C20 Química 2026-08",
+      "value": -3.1373,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/calculado_B-D.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 B-D",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/calculado_B-D_F.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 B-D_F",
+      "value": 1.6197,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "B-D_F Total produtivo (inclui construção) 2026-08",
+      "value": 1.6197,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "F Construção 2026-08",
+      "value": 9.9474,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "D Eletricidade e gás 2026-08",
+      "value": 27.3131,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "C20 Química 2026-08",
+      "value": -11.3469,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "YoY_CA_pct",
+      "row": "Encomendas totais orders.html 2026-08",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "3msaar_aprox_pct",
+      "row": "Encomendas totais orders.html 2026-08",
+      "value": 5.3023,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "3m_3m_SA_pct",
+      "row": "Encomendas totais orders.html 2026-08",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6-astra",
+  "attempt": "a4-result-4b86b9ef4a54621365b660ed",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/calculado_B-D.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 B-D",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/calculado_B-D_F.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 B-D_F",
+      "value": 2.2646,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "B-D_F Total produtivo (inclui construção) 2026-08",
+      "value": 2.2646,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "F Construção 2026-08",
+      "value": 10.5028,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "D Eletricidade e gás 2026-08",
+      "value": 9.5436,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "YoY_CA_pct",
+      "row": "C20 Química 2026-08",
+      "value": -3.1373,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/calculado_B-D.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 B-D",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/calculado_B-D_F.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 B-D_F",
+      "value": 1.6197,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "B-D_F Total produtivo (inclui construção) 2026-08",
+      "value": 1.6197,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "F Construção 2026-08",
+      "value": 9.9474,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "D Eletricidade e gás 2026-08",
+      "value": 27.3131,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao.csv",
+      "header": "3msaar_pct",
+      "row": "C20 Química 2026-08",
+      "value": -11.3469,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "YoY_CA_pct",
+      "row": "Encomendas totais orders.html 2026-08",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "3msaar_aprox_pct",
+      "row": "Encomendas totais orders.html 2026-08",
+      "value": 5.3023,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_complementar.csv",
+      "header": "3m_3m_SA_pct",
+      "row": "Encomendas totais orders.html 2026-08",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6-luna",
+  "attempt": "a4-result-2fe89bfcfce9498e2975c401",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "YoY_pct",
+      "row": "2026-08-01",
+      "value": 0.5543,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "m_m_pct",
+      "row": "Produção industrial (sem energia e construção) Índice real SA, 2021=100 agosto/2026 Destatis; m/m e ",
+      "value": 0.6,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "YoY_calendar_adjusted_pct",
+      "row": "Produção industrial (sem energia e construção) Índice real SA, 2021=100 agosto/2026 Destatis; m/m e ",
+      "value": -0.4,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "m_m_pct",
+      "row": "Faturamento real, manufatura Índice de volume SA; nível não obtido agosto/2026 Destatis; m/m SA e Yo",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "YoY_calendar_adjusted_pct",
+      "row": "Faturamento real, manufatura Índice de volume SA; nível não obtido agosto/2026 Destatis; m/m SA e Yo",
+      "value": 0.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao_eurostat.csv",
+      "header": "3msaar_%_média3m_vs3m_anterior",
+      "row": "Produção industrial, mineração + manufatura + energia (Eurostat B-D) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "YoY_calendar_adjusted_pct",
+      "row": "Estoque de encomendas, manufatura Índice real SA, 2021=100 agosto/2026 Destatis; medida de saldo, co",
+      "value": 10.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6-luna",
+  "attempt": "a4-result-96f9e7efe2c75ff8b7a06d26",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "YoY_pct",
+      "row": "2026-08-01",
+      "value": 0.5543,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "m_m_pct",
+      "row": "Produção industrial (sem energia e construção) Índice real SA, 2021=100 agosto/2026 Destatis; variaç",
+      "value": 0.6,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "YoY_pct",
+      "row": "Produção industrial (sem energia e construção) Índice real SA, 2021=100 agosto/2026 Destatis; variaç",
+      "value": -0.4,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "m_m_pct",
+      "row": "Faturamento real, manufatura Variação percentual agosto/2026 Destatis; mensal SA; YoY calendar-adjus",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "YoY_pct",
+      "row": "Faturamento real, manufatura Variação percentual agosto/2026 Destatis; mensal SA; YoY calendar-adjus",
+      "value": 0.9,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_producao_eurostat.csv",
+      "header": "3msaar_%_média3m_vs3m_anterior",
+      "row": "Produção industrial, mineração + manufatura + energia (Eurostat B-D) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores_agosto_2026.csv",
+      "header": "YoY_pct",
+      "row": "Estoque de encomendas, manufatura Índice real SA, 2021=100 agosto/2026 Destatis; alcance 9,0 meses",
+      "value": 10.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6.1-sol",
+  "attempt": "a4-result-40bcd5f4a0aac1986edde1b6",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "producao_total 2026-08 YoY_CA % producao_comunicado.html",
+      "value": 2.3,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 B-D Indústria B–D (sem construção)",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY calendário (%)",
+      "row": "B-D Indústria B–D (sem construção) 2026-08",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_total_extraida.csv",
+      "header": "YoY_NSA",
+      "row": "2026-08-01",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "3msaar_quando_aplicavel",
+      "row": "producao_total 2026-08 3m_sobre_3m_SA % producao_comunicado.html",
+      "value": 1.6096,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 B-D Indústria B–D (sem construção)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "3msaar (%)",
+      "row": "B-D Indústria B–D (sem construção) 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "producao_total 2026-08 3m_sobre_3m_SA % producao_comunicado.html",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/encomendas_extraidas.csv",
+      "header": "YoY_NSA",
+      "row": "2026-08-01",
+      "value": 3.5,
+      "variant": "YoY série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "encomendas_total 2026-08 YoY_CA % encomendas_comunicado.html",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 ORDERS Novas encomendas, setores selecionados",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "3msaar_quando_aplicavel",
+      "row": "encomendas_total 2026-08 3m_sobre_3m_SA % encomendas_comunicado.html",
+      "value": 5.3023,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 ORDERS Novas encomendas, setores selecionados",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "3msaar (%)",
+      "row": "ORDERS Novas encomendas, setores selecionados 2026-08",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "encomendas_total 2026-08 3m_sobre_3m_SA % encomendas_comunicado.html",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6.1-sol",
+  "attempt": "a4-result-82f022e4c1eb60443531d71d",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "producao_total 2026-08 YoY_CA % producao_comunicado.html",
+      "value": 2.3,
+      "variant": "B-D_F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 B-D Indústria B–D (sem construção)",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/memoria_calculo.csv",
+      "header": "YoY_CA_recalculado",
+      "row": "B-D 2026-08",
+      "value": 0.3623,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_total_extraida.csv",
+      "header": "YoY_NSA",
+      "row": "2026-08-01",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "3msaar_quando_aplicavel",
+      "row": "producao_total 2026-08 3m_sobre_3m_SA % producao_comunicado.html",
+      "value": 1.6096,
+      "variant": "B-D_F, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 B-D Indústria B–D (sem construção)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/memoria_calculo.csv",
+      "header": "3m_3m_pct",
+      "row": "B-D 2026-08",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "producao_total 2026-08 3m_sobre_3m_SA % producao_comunicado.html",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/encomendas_extraidas.csv",
+      "header": "YoY_NSA",
+      "row": "2026-08-01",
+      "value": 3.5,
+      "variant": "YoY série original",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "encomendas_total 2026-08 YoY_CA % encomendas_comunicado.html",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "YoY_CA",
+      "row": "2026-08-01 ORDERS Novas encomendas, setores selecionados",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "3msaar_quando_aplicavel",
+      "row": "encomendas_total 2026-08 3m_sobre_3m_SA % encomendas_comunicado.html",
+      "value": 5.3023,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 ORDERS Novas encomendas, setores selecionados",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/memoria_calculo.csv",
+      "header": "3msaar_pct",
+      "row": "ORDERS 2026-08",
+      "value": 5.4042,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insumos_comunicados.csv",
+      "header": "valor",
+      "row": "encomendas_total 2026-08 3m_sobre_3m_SA % encomendas_comunicado.html",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/memoria_calculo.csv",
+      "header": "3m_3m_pct",
+      "row": "ORDERS 2026-08",
+      "value": 1.3245,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "grok-4.7",
+  "attempt": "a4-result-7b5fa757a5cd9a611011cab6",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_industria_18m.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08",
+      "value": -0.36,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Produção B–D, volume 2026-08 CA Provisional value",
+      "value": 0.36,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Produção indústria, volume 2026-08 CA Provisional value",
+      "value": -0.36,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pessoas ocupadas, manufatura C, Eurostat 2026-08 SCA não vinha no extrato Eurostat arquivado",
+      "value": -3.65,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Horas trabalhadas, manufatura C, Eurostat 2026-08 CA não vinha no extrato Eurostat arquivado",
+      "value": -2.57,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_industria_18m.csv",
+      "header": "m3saar_pct",
+      "row": "2026-08",
+      "value": -1.88,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Produção B–D, volume 2026-08 CA Provisional value",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Produção indústria, volume 2026-08 CA Provisional value",
+      "value": -1.88,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pessoas ocupadas, manufatura C, Eurostat 2026-08 SCA não vinha no extrato Eurostat arquivado",
+      "value": -2.89,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Horas trabalhadas, manufatura C, Eurostat 2026-08 CA não vinha no extrato Eurostat arquivado",
+      "value": -2.89,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pedidos_totais_18m.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08",
+      "value": 2.99,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos totais, volume SCA 2026-08 SCA não recuperado: a API em 2026-11-05 reviu agosto e a edição c",
+      "value": 2.99,
+      "variant": "YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos bens de capital, volume SCA 2026-08 SCA não recuperado: a API em 2026-11-05 reviu agosto e a",
+      "value": 3.91,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos bens intermediários, volume SCA 2026-08 SCA não recuperado: a API em 2026-11-05 reviu agosto",
+      "value": 1.99,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Estoque de pedidos, volume SCA 2026-08 SCA Provisional value",
+      "value": 10.79,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pedidos_totais_18m.csv",
+      "header": "m3saar_pct",
+      "row": "2026-08",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pedidos totais, volume SCA 2026-08 SCA não recuperado: a API em 2026-11-05 reviu agosto e a edição c",
+      "value": 5.4,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pedidos bens de capital, volume SCA 2026-08 SCA não recuperado: a API em 2026-11-05 reviu agosto e a",
+      "value": 19.68,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pedidos bens intermediários, volume SCA 2026-08 SCA não recuperado: a API em 2026-11-05 reviu agosto",
+      "value": -11.69,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Estoque de pedidos, volume SCA 2026-08 SCA Provisional value",
+      "value": 11.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "grok-4.7",
+  "attempt": "a4-result-cd9865dcc1e5caf86e6be196",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_industria_18m.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08",
+      "value": -0.36,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Produção B–D, volume 2026-08 CA",
+      "value": 0.36,
+      "variant": "B-D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Produção indústria, volume 2026-08 CA",
+      "value": -0.36,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pessoas ocupadas, manufatura C, Eurostat 2026-08 SCA",
+      "value": -3.65,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Horas trabalhadas, manufatura C, Eurostat 2026-08 CA",
+      "value": -2.57,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_industria_18m.csv",
+      "header": "m3saar_pct",
+      "row": "2026-08",
+      "value": -1.88,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Produção B–D, volume 2026-08 CA",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Produção indústria, volume 2026-08 CA",
+      "value": -1.88,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pessoas ocupadas, manufatura C, Eurostat 2026-08 SCA",
+      "value": -2.89,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Horas trabalhadas, manufatura C, Eurostat 2026-08 CA",
+      "value": -2.89,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pedidos_totais_18m.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08",
+      "value": 3.59,
+      "variant": "YoY série original",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pedidos_totais_18m.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-09",
+      "value": 3.32,
+      "variant": "YoY série original",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos totais, volume SCA 2026-09 SCA",
+      "value": 3.32,
+      "variant": "YoY série original",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos bens de capital, volume SCA 2026-09 SCA",
+      "value": 4.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Pedidos bens intermediários, volume SCA 2026-09 SCA",
+      "value": -0.12,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "yoy_pct",
+      "row": "Estoque de pedidos, volume SCA 2026-08 SCA",
+      "value": 10.79,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pedidos_totais_18m.csv",
+      "header": "m3saar_pct",
+      "row": "2026-09",
+      "value": 0.74,
+      "variant": "2026-09 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pedidos totais, volume SCA 2026-09 SCA",
+      "value": 0.74,
+      "variant": "2026-09 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/pedidos_totais_18m.csv",
+      "header": "m3saar_pct",
+      "row": "2026-08",
+      "value": 6.17,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pedidos bens de capital, volume SCA 2026-09 SCA",
+      "value": -0.42,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_dado_mensal.csv",
+      "header": "m3saar_pct",
+      "row": "Pedidos bens intermediários, volume SCA 2026-09 SCA",
+      "value": 4.27,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a4-result-8feb64ba60c10963643ca37f",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "industria_total yoy_pct",
+      "row": "2026-08-01",
+      "value": 0.5543,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "transformacao yoy_pct",
+      "row": "2026-08-01",
+      "value": -0.2198,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "bens_capital yoy_pct",
+      "row": "2026-08-01",
+      "value": -0.1037,
+      "variant": "B_C, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "quimicos yoy_pct",
+      "row": "2026-08-01",
+      "value": -3.23,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "metalurgia_basica yoy_pct",
+      "row": "2026-08-01",
+      "value": -1.9934,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "maquinas yoy_pct",
+      "row": "2026-08-01",
+      "value": -0.5543,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "industria_total tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "transformacao tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/producao_resumo.csv",
+      "header": "3msaar_pct",
+      "row": "industria_total ok",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "quimicos tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -11.3469,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "metalurgia_basica tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -5.8251,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "maquinas tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -2.7385,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/encomendas_resumo.csv",
+      "header": "yoy_calendario_pct",
+      "row": "Encomendas totais 2026-08 nível SA não arquivado",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/encomendas_resumo.csv",
+      "header": "3msaar_pct",
+      "row": "Encomendas totais 2026-08 nível SA não arquivado",
+      "value": 5.3,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/encomendas_resumo.csv",
+      "header": "3m_sobre_3m_pct",
+      "row": "Encomendas totais 2026-08 nível SA não arquivado",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a4-result-0b34a448344af59348acfd4e",
+  "questions": {
+   "N_prod_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "industria_total yoy_pct",
+      "row": "2026-08-01",
+      "value": 0.5543,
+      "variant": "B-D, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "transformacao yoy_pct",
+      "row": "2026-08-01",
+      "value": -0.2198,
+      "variant": "B_C, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "bens_capital yoy_pct",
+      "row": "2026-08-01",
+      "value": -0.1037,
+      "variant": "B_C, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "quimicos yoy_pct",
+      "row": "2026-08-01",
+      "value": -3.23,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "metalurgia_basica yoy_pct",
+      "row": "2026-08-01",
+      "value": -1.9934,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "maquinas yoy_pct",
+      "row": "2026-08-01",
+      "value": -0.5543,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_prod_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "industria_total tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "transformacao tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -2.3062,
+      "variant": "B_C, 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/producao_resumo.csv",
+      "header": "3msaar_pct",
+      "row": "industria_total Indústria total (B–D)",
+      "value": 0.0,
+      "variant": "B-D, 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "quimicos tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -11.3469,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "metalurgia_basica tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -5.8251,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_indicadores_calculados.csv",
+      "header": "maquinas tres_msaar_pct",
+      "row": "2026-08-01",
+      "value": -2.7385,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/vintages/2026-10-28/encomendas_resumo.csv",
+      "header": "yoy_calendario_pct",
+      "row": "Encomendas totais 2026-08",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/encomendas_resumo.csv",
+      "header": "yoy_calendario_pct",
+      "row": "Encomendas totais 2026-09",
+      "value": 3.3,
+      "variant": "2026-09 YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/revisoes_vintage.csv",
+      "header": "vintage_2026_10_28",
+      "row": "encomendas total_yoy_calendario 2026-08 ponto percentual",
+      "value": 2.7,
+      "variant": "YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/revisoes_vintage.csv",
+      "header": "diferenca",
+      "row": "encomendas total_yoy_calendario 2026-08 ponto percentual",
+      "value": 0.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_ord_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/vintages/2026-10-28/encomendas_resumo.csv",
+      "header": "3msaar_pct",
+      "row": "Encomendas totais 2026-08",
+      "value": 5.3,
+      "variant": "3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/encomendas_resumo.csv",
+      "header": "3msaar_pct",
+      "row": "Encomendas totais 2026-09",
+      "value": 0.8,
+      "variant": "2026-09 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/vintages/2026-10-28/encomendas_resumo.csv",
+      "header": "3m_sobre_3m_pct",
+      "row": "Encomendas totais 2026-08",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/encomendas_resumo.csv",
+      "header": "3m_sobre_3m_pct",
+      "row": "Encomendas totais 2026-09",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ }
+]

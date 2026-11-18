@@ -1,0 +1,1636 @@
+[
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "one-c04-claude-fable-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "one-c04-claude-haiku-primary",
+  "points": 2.6666666666666665,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "one-c04-claude-opus-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "one-c04-claude-sonnet-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "one-c04-codex-astra-primary",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "one-c04-codex-luna-primary",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "one-c04-codex-sol-low-normal-primary",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "grok-4.7",
+  "final_attempt_id": "one-c04-grok-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C04",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "one-c04-kimi-pro-low-normal-primary",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C04",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a2-c04-claude-fable-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C04",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a2-c04-claude-haiku-high-normal-primary",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C04",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a2-c04-claude-opus-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C04",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a2-c04-claude-sonnet-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C04",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a2-c04-codex-astra-high-normal-primary",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C04",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a2-c04-codex-luna-high-normal-primary",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C04",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a2-c04-kimi-pro-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C04",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a3-c04-codex-sol-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C04",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a3-c04-claude-fable-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C04",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a3-c04-claude-haiku-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C04",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a3-c04-claude-sonnet-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C04",
+  "model": "grok-4.7",
+  "final_attempt_id": "a3-c04-grok-low-normal-primary",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C04",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a3-c04-claude-opus-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C04",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a3-c04-kimi-pro-low-normal-primary",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C04",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a3-c04-codex-luna-primary",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C04",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a3-c04-codex-astra-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C04",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-3483107488830f2bf10bcb9b",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C04",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-ef74df142d631aabcc55c1b9",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C04",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-2a7b39410e9f548579ae710d",
+  "points": 1.3333333333333333,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C04",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-9d421ce941134c0d9b81fa12",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C04",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-3d6071b1164f9e1876e8517c",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C04",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-0d31d475e4a29af9d6e3735e",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C04",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-707933cee855b7125ac853b7",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C04",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-61aafc429df9955ed8612314",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C04",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-36b1df357fb3a26413a5fbab",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C04",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-360764b3b37aeb29f00a817b",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C04",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-def395a6905cd9e0510f15b9",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C04",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-a126b20667ff2d2d7acf7f41",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "NAO_QUANTIFICA"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C04",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-950e033e9d1efbc69bfbdf10",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C04",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-abc28b9280b2f4935ddd53e8",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C04",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-40043217f5c1cf24cc7befff",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C04",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-073212b40c29c3f3a8640937",
+  "points": 6.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   },
+   {
+    "choices": {
+     "V_direcao": "SIM",
+     "V_tamanho": "GRANDE"
+    },
+    "points": 6
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C04",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-71154f77ea9b06b3f9351b93",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C04",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-15f597b0e05b345849f2bb1f",
+  "points": 4.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   },
+   {
+    "choices": {
+     "V_direcao": "SEM_VIES_CLARO",
+     "V_tamanho": "PEQUENA"
+    },
+    "points": 4
+   }
+  ],
+  "gold": {
+   "V_direcao": [
+    "SIM"
+   ],
+   "V_tamanho": [
+    "PEQUENA"
+   ]
+  }
+ }
+]

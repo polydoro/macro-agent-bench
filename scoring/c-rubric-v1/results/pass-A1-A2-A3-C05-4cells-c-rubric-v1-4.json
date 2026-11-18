@@ -1,0 +1,915 @@
+{
+ "rubric_version": "c-rubric-v1-4",
+ "rubric_sha256": "cb383f2b1362e5b23ee5d7e2dc07ac1962d555bfe3002cdd59c6f32c52ab32ee",
+ "model_requested": "jev-1.14.0",
+ "shift_tolerances": 0,
+ "status": "provisional pilot, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "C05",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-one-c05-low-normal-20261029-v22",
+   "final_attempt_id": "one-c05-claude-opus-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-one-c05-low-normal-20261029-v22/attempts/one-c05-claude-opus-primary/work/entrega/g1_energia.png",
+    "execucoes/pilot-one-c05-low-normal-20261029-v22/attempts/one-c05-claude-opus-primary/work/entrega/g2_nucleo.png",
+    "execucoes/pilot-one-c05-low-normal-20261029-v22/attempts/one-c05-claude-opus-primary/work/entrega/g3_defasagem.png",
+    "execucoes/pilot-one-c05-low-normal-20261029-v22/attempts/one-c05-claude-opus-primary/work/entrega/g4_servicos.png",
+    "execucoes/pilot-one-c05-low-normal-20261029-v22/attempts/one-c05-claude-opus-primary/work/entrega/g5_contribuicao.png"
+   ],
+   "report_chars": 5789,
+   "L_mean": 95.16333333333334,
+   "L_sd": null,
+   "U_mean": 95.66333333333334,
+   "blocks_mean": {
+    "A": 17.5,
+    "B": 19.933333333333334,
+    "C": 19.3,
+    "D": 20.0,
+    "E": 18.43
+   },
+   "references": {
+    "N_energy_yoy": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "energia yoy_rch_a",
+       18.9,
+       0.15
+      ],
+      [
+       "energia yoy_calc_i25",
+       18.94,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_core_yoy": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "nucleo yoy_rch_a",
+       2.5,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_energy_3m": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "energia saar3_sa",
+       45.82,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_core_3m": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "nucleo saar3_sa",
+       2.81,
+       0.3
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "98bdc50ffc86be7a11d4e501b231755ff42071933b0b8b149c523092de766894",
+      "text": "64e15b0f425ac5887d0dda5cdaa4b3946b6fe34a2d3ad5f2b75442e4c103233b",
+      "numeric": "fabdaaf9c67ec86f141571cac9099847cbd26763e5fb230592b25c2ac1db944b"
+     },
+     "L": 95.16333333333334,
+     "U": 95.66333333333334,
+     "blocks": {
+      "A": 17.5,
+      "B": 19.933333333333334,
+      "C": 19.3,
+      "D": 20.0,
+      "E": 18.43
+     },
+     "choices": {
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "C_energia": "ATENDE",
+      "C_nucleo": "ATENDE",
+      "C_transmissao": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "PARCIAL",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_energy_yoy": "FAIXA_03",
+      "N_core_yoy": "FAIXA_03",
+      "N_energy_3m": "OUTRO_VALOR",
+      "N_core_3m": "FAIXA_03"
+     },
+     "probabilities": {
+      "I1": {
+       "ATENDE": 0.83,
+       "PARCIAL": 0.08,
+       "NAO_ATENDE": 0.04,
+       "NAO_VERIFICAVEL": 0.05
+      },
+      "I2": {
+       "ATENDE": 0.82,
+       "PARCIAL": 0.12,
+       "NAO_ATENDE": 0.06,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_energia": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_nucleo": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_transmissao": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "P1": {
+       "ATENDE": 0.95,
+       "PARCIAL": 0.05,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "P2": {
+       "ATENDE": 0.92,
+       "PARCIAL": 0.07,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E1": {
+       "ATENDE": 0.99,
+       "PARCIAL": 0.01,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E2": {
+       "ATENDE": 0.35,
+       "PARCIAL": 0.46,
+       "NAO_ATENDE": 0.18,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "E3": {
+       "ATENDE": 0.76,
+       "PARCIAL": 0.22,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "PARCIAL": 0.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_energy_yoy": {
+       "FAIXA_01": 0.01,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.98,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_core_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 1.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_energy_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.01,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.98,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "N_core_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.94,
+       "FAIXA_04": 0.05,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "C05",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a2-c05-high-normal-20261101-v1",
+   "final_attempt_id": "a2-c05-claude-fable-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g01_total_nucleo_energia_yoy.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g02_energia_yoy_3msaar_subitens_commodities.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g03_nucleo_yoy_3msaar.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g04_nucleo_componentes_bine_servicos.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g05_alimentos_yoy_3msaar.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g06_servicos_sensiveis_energia.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g07_correlacao_defasada.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g08_lp_resposta_energia.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g09_contribuicao_indireta_energia_nucleo.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g10_contribuicoes_total.png",
+    "execucoes/pilot-a2-c05-high-normal-20261101-v1/attempts/a2-c05-claude-fable-high-normal-primary/work/entrega/graficos/g11_nucleo_exclui_sensiveis.png"
+   ],
+   "report_chars": 31840,
+   "L_mean": 96.02,
+   "L_sd": null,
+   "U_mean": 96.02,
+   "blocks_mean": {
+    "A": 18.85,
+    "B": 20.0,
+    "C": 18.549999999999997,
+    "D": 20.0,
+    "E": 18.62
+   },
+   "references": {
+    "N_energy_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "energia yoy_rch_a",
+       20.8,
+       0.15
+      ],
+      [
+       "energia yoy_calc_i25",
+       20.77,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_core_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "nucleo yoy_rch_a",
+       2.5,
+       0.15
+      ],
+      [
+       "nucleo yoy_calc_i25",
+       2.54,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_energy_3m": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "energia saar3_sa",
+       38.55,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_core_3m": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "nucleo saar3_sa",
+       2.68,
+       0.3
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "8f3f25848ff0e4cd7ad94ca618d12b2d71b27084482789d2b92c4b1d54605098",
+      "text": "12876350f2576371916f844f2585184eed35459d6ffac145d8ad9ceb369d4695",
+      "numeric": "e257f72562f33c12264fa690e136965427c1ed69dfb745a04ab7be95164d1a42"
+     },
+     "L": 96.02,
+     "U": 96.02,
+     "blocks": {
+      "A": 18.85,
+      "B": 20.0,
+      "C": 18.549999999999997,
+      "D": 20.0,
+      "E": 18.62
+     },
+     "choices": {
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "C_energia": "ATENDE",
+      "C_nucleo": "ATENDE",
+      "C_transmissao": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "PARCIAL",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_energy_yoy": "FAIXA_03",
+      "N_core_yoy": "FAIXA_03",
+      "N_energy_3m": "FAIXA_03",
+      "N_core_3m": "FAIXA_03"
+     },
+     "probabilities": {
+      "I1": {
+       "ATENDE": 0.91,
+       "PARCIAL": 0.08,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "I2": {
+       "ATENDE": 0.89,
+       "PARCIAL": 0.09,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_energia": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_nucleo": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_transmissao": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "P1": {
+       "ATENDE": 0.75,
+       "PARCIAL": 0.24,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "P2": {
+       "ATENDE": 0.97,
+       "PARCIAL": 0.03,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E1": {
+       "ATENDE": 1.0,
+       "PARCIAL": 0.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E2": {
+       "ATENDE": 0.25,
+       "PARCIAL": 0.58,
+       "NAO_ATENDE": 0.17,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E3": {
+       "ATENDE": 0.79,
+       "PARCIAL": 0.19,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "PARCIAL": 0.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_energy_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.98,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.02,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_core_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 1.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_energy_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.99,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_core_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 1.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "C05",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a3-c05-low-normal-20261105-v1",
+   "final_attempt_id": "a3-c05-claude-haiku-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a3-c05-low-normal-20261105-v1/attempts/a3-c05-claude-haiku-primary/work/entrega/grafico_energia_nucleo.png"
+   ],
+   "report_chars": 5443,
+   "L_mean": 55.260000000000005,
+   "L_sd": null,
+   "U_mean": 55.58,
+   "blocks_mean": {
+    "A": 18.85,
+    "B": 0.0,
+    "C": 19.6,
+    "D": 0.0,
+    "E": 16.81
+   },
+   "references": {
+    "N_energy_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "energia yoy_rch_a",
+       20.8,
+       0.15
+      ],
+      [
+       "energia yoy_calc_i25",
+       20.77,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_core_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "nucleo yoy_rch_a",
+       2.5,
+       0.15
+      ],
+      [
+       "nucleo yoy_calc_i25",
+       2.54,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_energy_3m": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "energia saar3_sa",
+       38.55,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_core_3m": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "nucleo saar3_sa",
+       2.68,
+       0.3
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "c1ea1078b189e30a339a3c9263afcdeb39207a647efaf03e6a880174ffcdb339",
+      "text": "d9633c4f35923aecf66c21524d29824c9b9d92e0926510555c53ad29114cd9c2",
+      "numeric": "fff92ed773bd8b9859c519bb968393addb87ee7893eb03b9f18e7eef1c0adef4"
+     },
+     "L": 55.260000000000005,
+     "U": 55.58,
+     "blocks": {
+      "A": 18.85,
+      "B": 0.0,
+      "C": 19.6,
+      "D": 0.0,
+      "E": 16.81
+     },
+     "choices": {
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "C_energia": "NAO_ATENDE",
+      "C_nucleo": "NAO_ATENDE",
+      "C_transmissao": "NAO_ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_energy_yoy": "NAO_MOSTRADO",
+      "N_core_yoy": "NAO_MOSTRADO",
+      "N_energy_3m": "NAO_MOSTRADO",
+      "N_core_3m": "NAO_MOSTRADO"
+     },
+     "probabilities": {
+      "I1": {
+       "ATENDE": 0.92,
+       "PARCIAL": 0.05,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "I2": {
+       "ATENDE": 0.93,
+       "PARCIAL": 0.02,
+       "NAO_ATENDE": 0.04,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "C_energia": {
+       "ATENDE": 0.0,
+       "NAO_ATENDE": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_nucleo": {
+       "ATENDE": 0.0,
+       "NAO_ATENDE": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_transmissao": {
+       "ATENDE": 0.0,
+       "NAO_ATENDE": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "P1": {
+       "ATENDE": 0.97,
+       "PARCIAL": 0.03,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "P2": {
+       "ATENDE": 0.95,
+       "PARCIAL": 0.05,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E1": {
+       "ATENDE": 0.93,
+       "PARCIAL": 0.07,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E2": {
+       "ATENDE": 0.48,
+       "PARCIAL": 0.39,
+       "NAO_ATENDE": 0.13,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E3": {
+       "ATENDE": 0.54,
+       "PARCIAL": 0.4,
+       "NAO_ATENDE": 0.05,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "PARCIAL": 0.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_energy_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.01,
+       "FAIXA_03": 0.13,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.86,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_core_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_energy_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_core_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "C05",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a3-c05-low-normal-20261105-v1",
+   "final_attempt_id": "a3-c05-codex-luna-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a3-c05-low-normal-20261105-v1/attempts/a3-c05-codex-luna-primary/work/entrega/componentes_yoy.png",
+    "execucoes/pilot-a3-c05-low-normal-20261105-v1/attempts/a3-c05-codex-luna-primary/work/entrega/inflacao_energia_nucleo.png"
+   ],
+   "report_chars": 5476,
+   "L_mean": 82.55333333333334,
+   "L_sd": null,
+   "U_mean": 83.52000000000001,
+   "blocks_mean": {
+    "A": 17.0,
+    "B": 12.733333333333334,
+    "C": 14.650000000000002,
+    "D": 20.0,
+    "E": 18.17
+   },
+   "references": {
+    "N_energy_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "energia yoy_rch_a",
+       20.8,
+       0.15
+      ],
+      [
+       "energia yoy_calc_i25",
+       20.77,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_core_yoy": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "nucleo yoy_rch_a",
+       2.5,
+       0.15
+      ],
+      [
+       "nucleo yoy_calc_i25",
+       2.54,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_energy_3m": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "energia saar3_sa",
+       38.55,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_core_3m": {
+     "period": "2026-10",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "nucleo saar3_sa",
+       2.68,
+       0.3
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "aaa3c96f1d10ce76d6fdd167f5c8d2515c51107e92d6586f591afed1e2651567",
+      "text": "4ef3731a4edf17ea95467673bdc2ac7299e6abd1f7d76b86aeea327e34fb554a",
+      "numeric": "42f717a68d5f71558e468dff71a372176a8388a7c264d2106456d09b31e7ec51"
+     },
+     "L": 82.55333333333334,
+     "U": 83.52000000000001,
+     "blocks": {
+      "A": 17.0,
+      "B": 12.733333333333334,
+      "C": 14.650000000000002,
+      "D": 20.0,
+      "E": 18.17
+     },
+     "choices": {
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "C_energia": "ATENDE",
+      "C_nucleo": "ATENDE",
+      "C_transmissao": "NAO_ATENDE",
+      "P1": "ATENDE",
+      "P2": "PARCIAL",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_energy_yoy": "FAIXA_03",
+      "N_core_yoy": "FAIXA_03",
+      "N_energy_3m": "OUTRO_VALOR",
+      "N_core_3m": "FAIXA_03"
+     },
+     "probabilities": {
+      "I1": {
+       "ATENDE": 0.94,
+       "PARCIAL": 0.04,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.02
+      },
+      "I2": {
+       "ATENDE": 0.64,
+       "PARCIAL": 0.2,
+       "NAO_ATENDE": 0.13,
+       "NAO_VERIFICAVEL": 0.03
+      },
+      "C_energia": {
+       "ATENDE": 0.96,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.03
+      },
+      "C_nucleo": {
+       "ATENDE": 0.95,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.04
+      },
+      "C_transmissao": {
+       "ATENDE": 0.0,
+       "NAO_ATENDE": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "P1": {
+       "ATENDE": 0.89,
+       "PARCIAL": 0.11,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "P2": {
+       "ATENDE": 0.05,
+       "PARCIAL": 0.94,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E1": {
+       "ATENDE": 0.97,
+       "PARCIAL": 0.03,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E2": {
+       "ATENDE": 0.64,
+       "PARCIAL": 0.26,
+       "NAO_ATENDE": 0.1,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E3": {
+       "ATENDE": 0.77,
+       "PARCIAL": 0.21,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "E4": {
+       "ATENDE": 0.9,
+       "PARCIAL": 0.1,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_energy_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.99,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_core_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.99,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_energy_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.99,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "N_core_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.99,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

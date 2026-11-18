@@ -1,0 +1,13 @@
+arm,role,period,yoy_istat,yoy_calc_index,saar3_sa,saar3_source
+A1,total,2026-09,4.2,4.18,5.82,X13 ABS_default on NIC (ISTAT) 2016-01..2026-09
+A1,nucleo_istat,2026-09,1.6,,,ISTAT release text
+A1,servicos,2026-09,2.6,,,ISTAT release text
+A1,ex_energia,2026-09,2.0,,,ISTAT release text
+A2,total,2026-09,4.2,4.18,5.82,X13 ABS_default on NIC (ISTAT) 2016-01..2026-09
+A2,nucleo_istat,2026-09,1.6,,,ISTAT release text
+A2,servicos,2026-09,2.6,,,ISTAT release text
+A2,ex_energia,2026-09,2.0,,,ISTAT release text
+A3,total,2026-10,5.4,5.41,9.58,X13 ABS_default on NIC (ISTAT) 2016-01..2026-10
+A3,nucleo_istat,2026-10,2.0,,,ISTAT release text
+A3,servicos,2026-10,2.9,,,ISTAT release text
+A3,ex_energia,2026-10,2.5,,,ISTAT release text

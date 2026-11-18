@@ -1,0 +1,352 @@
+{
+"rows": [
+{
+"suite": "S",
+"model": "Fable 5.1",
+"n": 11,
+"before": 84.71,
+"A4s_after": 84.28,
+"A4s_up": 5,
+"A4s_down": 1,
+"A4e_after": 88.23,
+"A4e_up": 3,
+"A4e_down": 2
+},
+{
+"suite": "S",
+"model": "GPT-6 Astra",
+"n": 11,
+"before": 88.48,
+"A4s_after": 87.84,
+"A4s_up": 1,
+"A4s_down": 1,
+"A4e_after": 88.49,
+"A4e_up": 1,
+"A4e_down": 1
+},
+{
+"suite": "S",
+"model": "GPT-6 Luna",
+"n": 11,
+"before": 70.6,
+"A4s_after": 73.66,
+"A4s_up": 7,
+"A4s_down": 2,
+"A4e_after": 72.43,
+"A4e_up": 4,
+"A4e_down": 4
+},
+{
+"suite": "S",
+"model": "GPT-6.1 Sol",
+"n": 11,
+"before": 82.93,
+"A4s_after": 83.15,
+"A4s_up": 2,
+"A4s_down": 0,
+"A4e_after": 83.2,
+"A4e_up": 2,
+"A4e_down": 0
+},
+{
+"suite": "S",
+"model": "Grok 4.7",
+"n": 11,
+"before": 77.82,
+"A4s_after": 84.48,
+"A4s_up": 3,
+"A4s_down": 4,
+"A4e_after": 78.02,
+"A4e_up": 2,
+"A4e_down": 1
+},
+{
+"suite": "S",
+"model": "Haiku 5.5",
+"n": 11,
+"before": 65.69,
+"A4s_after": 74.59,
+"A4s_up": 9,
+"A4s_down": 1,
+"A4e_after": 61.45,
+"A4e_up": 7,
+"A4e_down": 3
+},
+{
+"suite": "S",
+"model": "Kimi k3.1-pro",
+"n": 11,
+"before": 65.06,
+"A4s_after": 71.76,
+"A4s_up": 4,
+"A4s_down": 1,
+"A4e_after": 71.79,
+"A4e_up": 4,
+"A4e_down": 0
+},
+{
+"suite": "S",
+"model": "Opus 5.5",
+"n": 11,
+"before": 84.17,
+"A4s_after": 84.6,
+"A4s_up": 3,
+"A4s_down": 1,
+"A4e_after": 84.1,
+"A4e_up": 3,
+"A4e_down": 1
+},
+{
+"suite": "S",
+"model": "Sonnet 5.5",
+"n": 11,
+"before": 79.67,
+"A4s_after": 83.4,
+"A4s_up": 4,
+"A4s_down": 2,
+"A4e_after": 86.04,
+"A4e_up": 6,
+"A4e_down": 0
+},
+{
+"suite": "C",
+"model": "Fable 5.1",
+"n": 5,
+"before": 94.06,
+"A4s_after": 95.46,
+"A4s_up": 3,
+"A4s_down": 0,
+"A4e_after": 95.49,
+"A4e_up": 4,
+"A4e_down": 0
+},
+{
+"suite": "C",
+"model": "GPT-6 Astra",
+"n": 5,
+"before": 84.06,
+"A4s_after": 88.43,
+"A4s_up": 2,
+"A4s_down": 1,
+"A4e_after": 85.61,
+"A4e_up": 1,
+"A4e_down": 0
+},
+{
+"suite": "C",
+"model": "GPT-6 Luna",
+"n": 5,
+"before": 58.15,
+"A4s_after": 68.88,
+"A4s_up": 5,
+"A4s_down": 0,
+"A4e_after": 61.72,
+"A4e_up": 3,
+"A4e_down": 1
+},
+{
+"suite": "C",
+"model": "GPT-6.1 Sol",
+"n": 5,
+"before": 86.69,
+"A4s_after": 86.24,
+"A4s_up": 0,
+"A4s_down": 1,
+"A4e_after": 86.82,
+"A4e_up": 1,
+"A4e_down": 0
+},
+{
+"suite": "C",
+"model": "Grok 4.7",
+"n": 5,
+"before": 83.42,
+"A4s_after": 87.94,
+"A4s_up": 2,
+"A4s_down": 1,
+"A4e_after": 84.01,
+"A4e_up": 2,
+"A4e_down": 0
+},
+{
+"suite": "C",
+"model": "Haiku 5.5",
+"n": 5,
+"before": 67.87,
+"A4s_after": 78.27,
+"A4s_up": 5,
+"A4s_down": 0,
+"A4e_after": 75.84,
+"A4e_up": 3,
+"A4e_down": 0
+},
+{
+"suite": "C",
+"model": "Kimi k3.1-pro",
+"n": 5,
+"before": 72.08,
+"A4s_after": 75.27,
+"A4s_up": 2,
+"A4s_down": 2,
+"A4e_after": 83.05,
+"A4e_up": 4,
+"A4e_down": 0
+},
+{
+"suite": "C",
+"model": "Opus 5.5",
+"n": 5,
+"before": 88.09,
+"A4s_after": 90.67,
+"A4s_up": 4,
+"A4s_down": 0,
+"A4e_after": 89.89,
+"A4e_up": 3,
+"A4e_down": 0
+},
+{
+"suite": "C",
+"model": "Sonnet 5.5",
+"n": 5,
+"before": 82.37,
+"A4s_after": 82.51,
+"A4s_up": 3,
+"A4s_down": 1,
+"A4e_after": 84.9,
+"A4e_up": 1,
+"A4e_down": 2
+},
+{
+"suite": "SC",
+"model": "Fable 5.1",
+"n": 16,
+"before": 87.64,
+"A4s_after": 87.78,
+"A4s_up": 8,
+"A4s_down": 1,
+"A4e_after": 90.5,
+"A4e_up": 7,
+"A4e_down": 2
+},
+{
+"suite": "SC",
+"model": "GPT-6 Astra",
+"n": 16,
+"before": 87.1,
+"A4s_after": 88.02,
+"A4s_up": 3,
+"A4s_down": 2,
+"A4e_after": 87.59,
+"A4e_up": 2,
+"A4e_down": 1
+},
+{
+"suite": "SC",
+"model": "GPT-6 Luna",
+"n": 16,
+"before": 66.71,
+"A4s_after": 72.16,
+"A4s_up": 12,
+"A4s_down": 2,
+"A4e_after": 69.08,
+"A4e_up": 7,
+"A4e_down": 5
+},
+{
+"suite": "SC",
+"model": "GPT-6.1 Sol",
+"n": 16,
+"before": 84.1,
+"A4s_after": 84.11,
+"A4s_up": 2,
+"A4s_down": 1,
+"A4e_after": 84.33,
+"A4e_up": 3,
+"A4e_down": 0
+},
+{
+"suite": "SC",
+"model": "Grok 4.7",
+"n": 16,
+"before": 79.57,
+"A4s_after": 85.56,
+"A4s_up": 5,
+"A4s_down": 5,
+"A4e_after": 79.89,
+"A4e_up": 4,
+"A4e_down": 1
+},
+{
+"suite": "SC",
+"model": "Haiku 5.5",
+"n": 16,
+"before": 66.37,
+"A4s_after": 75.74,
+"A4s_up": 14,
+"A4s_down": 1,
+"A4e_after": 65.95,
+"A4e_up": 10,
+"A4e_down": 3
+},
+{
+"suite": "SC",
+"model": "Kimi k3.1-pro",
+"n": 16,
+"before": 67.25,
+"A4s_after": 72.86,
+"A4s_up": 6,
+"A4s_down": 3,
+"A4e_after": 75.31,
+"A4e_up": 8,
+"A4e_down": 0
+},
+{
+"suite": "SC",
+"model": "Opus 5.5",
+"n": 16,
+"before": 85.4,
+"A4s_after": 86.5,
+"A4s_up": 7,
+"A4s_down": 1,
+"A4e_after": 85.91,
+"A4e_up": 6,
+"A4e_down": 1
+},
+{
+"suite": "SC",
+"model": "Sonnet 5.5",
+"n": 16,
+"before": 80.52,
+"A4s_after": 83.12,
+"A4s_up": 7,
+"A4s_down": 3,
+"A4e_after": 85.68,
+"A4e_up": 7,
+"A4e_down": 2
+}
+],
+"meta": [
+{
+"label": "build_scoreboard.py",
+"value": "\"\"\"Build the data behind the model scoreboard: score by model, task and arm; Pareto against time to completion.\n\nTwo suites, S (S01-S11, 100-point S rubric) and C (C01-C05, 100-point C rubric), plus \"SC\", which pools\nthe 16 tasks on the total score only (each task weighs the same, so S carries 11/16 of the mean).\n\nInputs (read only):\n  --s-scores   visual-rubric-v1/results/score-100-A1-A2-A3-S01-S11-<rubric>.csv (PR #1): one row per delivery,\n               visual_60, numeric_correct_30, numeric_legible_10, total_100\n  --s-pass     visual-rubric-v1/results/ dir with pass-A1-A2-A3-S??-<rubric>.json (attempt ids, judge SD)\n  --c-scores   c-rubric-v1/results/summary-c-rubric-v1-4.csv (PR #3): L_mean (0-100) and blocks A-E (old, method-only)\n  --c-gold     c-rubric-v1/results/score-100-C-c-gold-provisional-1.csv (PR #3): gold-standard 100 points, one row per\n               delivery for A1-A3 and both A4 arms (result 50 = numbers 30 + shown 10 + answer 10, method 50).\n               Replaces --c-scores and the A4 C scores. A C task with any blank total (C03 A2-A4, waiting for the\n               Q4 flash) is left out of every arm, so all arms are compared on the same tasks.\n  --c-pass     c-rubric-v1/results/ dir with pass-A1-A2-A3-C0?-c-rubric-v1-4.json (attempt ids)\n  --repo       repo root, for execucoes/<campaign>/attempts/<attempt>/receipt.json\n  --a4-s-scores, --a4-s-pass, --a4-s-before   A4 S files (score-100-A4-S01-S11-*.csv, pass-A4-S01-...-*.json,\n               a4-before-after-*.csv), PR #1\n  --a4-c-pass, --a4-c-before   A4 C files (dir with pass-A4_external_review-A4_self_review-C0?-*.json,\n               a4-before-after-c-rubric-*.csv), PR #3\nOutputs (in --out): cells.json, summary.json and a4.json, each {rows, meta}; meta carries this script's text.\n\nRules:\n  - Arms: A1, A2, A3, A4s (self-review) and A4e (external review). A4 scores are the after-revision scores;\n    the A4 seed (before revision) is the A1 primary delivery and appears only in a4.json as a check.\n    \"All\" pools A1-A3 only: A4 starts from A1 seeds, so pooling it with A1 would count A1 work twice.\n  - A4 time to final delivery = seed attempt time (its A1 primary receipt) + revision time (active seconds of\n    every A4 role receipt in the branch, primary and timeout retry, reviewer included for A4e). A4 output\n    tokens = seed + executor roles (the A4e reviewer is GPT-6 Astra, another model, and is left out).\n  - A verified absence, or a run with no usable product, scores 0 on every metric (\"no delivery\").\n  - Two treatments of no-delivery runs: \"zero\" (counted as 0, every model on all tasks) and \"delivered\"\n    (dropped, so means use different task sets).\n  - Time to completion = elapsed_seconds of the final attempt plus its primary attempt when the final one is a\n    timeout retry or an access resumption (the protocol sums both). A run stopped at the limit counts the time\n    it used. Blank when a receipt has no elapsed time (one infrastructure failure: A3 S10 Kimi).\n  - Output tokens = usage_reported.output_tokens (reasoning included, as each CLI reports it), summed the\n    same way; blank unless every summed attempt reports it. Kimi Code reports no usage. Context only.\n  - Cost is not used: every run used a CLI subscription.\n  - Uncertainty: bootstrap over the suite's tasks (resampled jointly for all models, so comparisons stay\n    paired), B draws, fixed seed; 90% percentile intervals for the mean and for the rank. With 5 C tasks\n    these intervals are coarse.\n\"\"\"\nimport argparse\nimport csv\nimport glob\nimport json\nimport os\nimport random\nimport statistics\n\nLABELS = {\n    \"claude-opus-5-5\": \"Opus 5.5\", \"claude-sonnet-5-5\": \"Sonnet 5.5\", \"claude-haiku-5-5\": \"Haiku 5.5\",\n    \"claude-fable-5-1\": \"Fable 5.1\", \"gpt-6-astra\": \"GPT-6 Astra\", \"gpt-6-luna\": \"GPT-6 Luna\",\n    \"gpt-6.1-sol\": \"GPT-6.1 Sol\", \"grok-4.7\": \"Grok 4.7\", \"kimi-code/k3.1-pro\": \"Kimi k3.1-pro\",\n}\nCLI = {\"claude\": \"Claude Code\", \"gpt\": \"Codex\", \"grok\": \"Grok CLI\", \"kimi\": \"Kimi Code\"}\nARMS = [\"A1\", \"A2\", \"A3\"]\nALL_ARMS = ARMS + [\"A4s\", \"A4e\"]\nC_PHASE = {\"A4_self_review\": \"A4s\", \"A4_external_review\": \"A4e\"}\nMETRICS = {\n    \"S\": {\"total\": \"total_100\", \"visual\": \"visual_60\", \"correct\": \"numeric_correct_30\", \"legible\": \"numeric_legible_10\"},\n    \"C\": {\"total\": \"L_mean\", \"A\": \"A\", \"B\": \"B\", \"C\": \"C\", \"D\": \"D\", \"E\": \"E\"},\n    \"Cgold\": {\"total\": \"total_100\", \"method\": \"method_50\", \"numbers\": \"numbers_30\", \"shown\": \"shown_10\", \"answer\": \"answer_10\"},\n    \"SC\": {\"total\": None},\n}\nSUITES = {\"S\": (\"S\",), \"C\": (\"C\",), \"SC\": (\"S\", \"C\")}\nMETRICS_OF = {\"S\": list(METRICS[\"S\"]), \"C\": list(METRICS[\"C\"]), \"SC\": [\"total\"]}\nDELIVERED = {\"scored\", \"judged\"}\n\n\ndef score(v, ok):\n    \"\"\"0 for a run with no delivery; None for a part not scored yet (e.g. C03 answer \"pending Q4 flash\"), left out of means.\"\"\"\n    if not ok:\n        return 0.0\n    try:\n        return round(float(v), 2)\n    except (TypeError, ValueError):\n        return None if v else 0.0\n\n\ndef load_receipts(repo):\n    rec = {}\n    for f in glob.glob(os.path.join(repo, \"execucoes/*/attempts/*/receipt.json\")):\n        r = json.load(open(f))\n        rec[(f.split(os.sep)[-4], r[\"attempt_id\"])] = r\n    return rec\n\n\ndef run_attempts(camp, final_id, rec):\n    ids = [final_id]\n    for tag in (\"-timeout-retry1\", \"-access-resumption1\"):\n        if final_id.endswith(tag):\n            ids.append(final_id[: -len(tag)] + \"-primary\")\n    return [rec[(camp, i)] for i in ids if (camp, i) in rec]\n\n\ndef cell_rows(suite, scores_csv, pass_glob, rec, metrics=None):\n    metrics = metrics or METRICS[suite]\n    passes = {}\n    for f in sorted(glob.glob(pass_glob)):\n        for r in json.load(open(f))[\"rows\"]:\n            passes[(r[\"task\"], r[\"phase\"], r[\"model\"])] = r\n    rows = []\n    for s in csv.DictReader(open(scores_csv)):\n        if s[\"phase\"] not in ARMS:\n            continue\n        p = passes[(s[\"task\"], s[\"phase\"], s[\"model\"])]\n        atts = run_attempts(p[\"source_campaign_id\"], p[\"final_attempt_id\"], rec)\n        outs = [((a.get(\"telemetry\") or {}).get(\"usage_reported\") or {}).get(\"output_tokens\") for a in atts]\n        ok = s[\"status\"] in DELIVERED\n        row = {\n            \"suite\": suite, \"arm\": s[\"phase\"], \"task\": s[\"task\"], \"model\": LABELS[s[\"model\"]],\n            \"cli\": CLI[s[\"model\"].split(\"-\")[0]], \"status\": \"delivered\" if ok else \"no delivery\",\n            \"judge_sd\": round(p[\"L_sd\"], 2) if ok and p.get(\"L_sd\") is not None else None,\n            \"minutes\": round(sum(a[\"elapsed_seconds\"] for a in atts) / 60, 2)\n            if atts and all(a.get(\"elapsed_seconds\") is not None for a in atts) else None,\n            \"attempts\": len(atts), \"timed_out\": any(a.get(\"timed_out\") for a in atts),\n            \"output_ktokens\": round(sum(outs) / 1000, 1) if atts and all(o is not None for o in outs) else None,\n            \"attempt_id\": p[\"final_attempt_id\"],\n        }\n        for k, col in metrics.items():\n            row[k] = score(s[col], ok)\n        rows.append(row)\n    return rows\n\n\ndef a4_time_tokens(repo, camp, attempt, rec):\n    f = os.path.join(repo, \"execucoes\", camp, \"evaluation-snapshots\", attempt, \"evaluation-source.json\")\n    if not os.path.exists(f):\n        return None, None, None\n    d = json.load(open(f))\n    seed = rec.get((d[\"source_A1_campaign_id\"], d[\"source_A1_primary_attempt_id\"]))\n    pair = os.path.join(repo, \"execucoes\", d[\"pair_directory\"].split(\"/srv/benchmark/\")[1])\n    roles = [json.load(open(r)) for r in glob.glob(os.path.join(pair, \"arms\", d[\"experimental_arm\"], \"*\", \"roles\", \"*\", \"receipt.json\"))]\n    rev = [r.get(\"active_elapsed_seconds\") or r.get(\"elapsed_seconds\") for r in roles]\n    if not seed or seed.get(\"elapsed_seconds\") is None or not roles or any(x is None for x in rev):\n        return None, None, None\n    outs = [((seed.get(\"telemetry\") or {}).get(\"usage_reported\") or {}).get(\"output_tokens\")]\n    outs += [((r.get(\"telemetry\") or {}).get(\"usage_reported\") or {}).get(\"output_tokens\") for r in roles if r.get(\"role\") != \"reviewer\"]\n    tok = round(sum(outs) / 1000, 1) if all(o is not None for o in outs) else None\n    return round((seed[\"elapsed_seconds\"] + sum(rev)) / 60, 2), round(sum(rev) / 60, 2), tok\n\n\ndef a4_rows(suite, repo, rec, pass_rows, scores, before, metrics=None):\n    metrics = metrics or METRICS[suite]\n    \"\"\"pass_rows: A4 pass rows; scores: {(task, arm, model_id): {metric: value}} or None to read L_mean/blocks.\"\"\"\n    rows = []\n    for p in pass_rows:\n        arm = C_PHASE.get(p[\"phase\"], p[\"phase\"])\n        ok = p[\"status\"] in DELIVERED\n        minutes, rev, tok = a4_time_tokens(repo, p[\"source_campaign_id\"], p[\"final_attempt_id\"], rec)\n        row = {\n            \"suite\": suite, \"arm\": arm, \"task\": p[\"task\"], \"model\": LABELS[p[\"model\"]],\n            \"cli\": CLI[p[\"model\"].split(\"-\")[0]], \"status\": \"delivered\" if ok else \"no delivery\",\n            \"judge_sd\": round(p[\"L_sd\"], 2) if ok and p.get(\"L_sd\") is not None else None,\n            \"minutes\": minutes, \"revision_minutes\": rev, \"attempts\": None, \"timed_out\": None,\n            \"output_ktokens\": tok, \"attempt_id\": p[\"final_attempt_id\"],\n            \"before_total\": before.get((p[\"task\"], arm, p[\"model\"])),\n        }\n        if scores is not None:\n            sc = scores[(p[\"task\"], arm, p[\"model\"])]\n            for k, col in metrics.items():\n                row[k] = score(sc[col], ok)\n        else:\n            row[\"total\"] = round(p[\"L_mean\"], 2) if ok else 0.0\n            for k in \"ABCDE\":\n                row[k] = round(p[\"blocks_mean\"][k], 2) if ok and p.get(\"blocks_mean\") else 0.0\n        rows.append(row)\n    return rows\n\n\ndef a4_summary(cells):\n    out = []\n    for suite in (\"S\", \"C\", \"SC\"):\n        for m in sorted({c[\"model\"] for c in cells if c[\"suite\"] in SUITES[suite]}):\n            r = {\"suite\": suite, \"model\": m}\n            for arm in (\"A4s\", \"A4e\"):\n                cs = [c for c in cells if c[\"suite\"] in SUITES[suite] and c[\"model\"] == m and c[\"arm\"] == arm and c[\"before_total\"] is not None]\n                if not cs:\n                    continue\n                r[\"n\"] = len(cs)\n                r[\"before\"] = round(statistics.fmean(c[\"before_total\"] for c in cs), 2)\n                r[f\"{arm}_after\"] = round(statistics.fmean(c[\"total\"] for c in cs), 2)\n                r[f\"{arm}_up\"] = sum(c[\"total\"] > c[\"before_total\"] + 0.5 for c in cs)\n                r[f\"{arm}_down\"] = sum(c[\"total\"] < c[\"before_total\"] - 0.5 for c in cs)\n            if \"n\" in r:\n                out.append(r)\n    return out\n\n\ndef pct(xs, p):\n    xs = sorted(xs)\n    k = (len(xs) - 1) * p\n    lo, hi = int(k), min(int(k) + 1, len(xs) - 1)\n    return xs[lo] + (xs[hi] - xs[lo]) * (k - lo)\n\n\ndef summarise(cells, suite, B, seed):\n    cells = [c for c in cells if c[\"suite\"] in SUITES[suite]]\n    tasks = sorted({c[\"task\"] for c in cells})\n    models = sorted({c[\"model\"] for c in cells})\n    by = {(c[\"arm\"], c[\"task\"], c[\"model\"]): c for c in cells}\n    rng = random.Random(seed)\n    strata = [sorted({c[\"task\"] for c in cells if c[\"suite\"] == u}) for u in SUITES[suite]]\n    # resample within each suite, so the pooled mean keeps the 11 S / 5 C mix in every draw\n    draws = [[rng.choice(st) for st in strata for _ in st] for _ in range(B)]\n    out = []\n    for view in [v for v in ALL_ARMS if any(c[\"arm\"] == v for c in cells)] + [\"All\"]:\n        arms = ARMS if view == \"All\" else [view]\n        for treat in (\"zero\", \"delivered\"):\n            for metric in METRICS_OF[suite]:\n                def mean(model, ts):\n                    xs = [by[(a, t, model)] for t in ts for a in arms]\n                    xs = [c[metric] for c in xs if (treat == \"zero\" or c[\"status\"] == \"delivered\") and c[metric] is not None]\n                    return statistics.fmean(xs) if xs else None\n                full = {m: mean(m, tasks) for m in models}\n                boot = {m: [] for m in models}\n                ranks = {m: [] for m in models}\n                for ts in draws:\n                    ms = {m: mean(m, ts) for m in models}\n                    order = sorted([m for m in models if ms[m] is not None], key=lambda m: -ms[m])\n                    for m in order:\n                        boot[m].append(ms[m])\n                        ranks[m].append(order.index(m) + 1)\n                ranked = sorted([m for m in models if full[m] is not None], key=lambda m: -full[m])\n                for m in models:\n                    cs = [by[(a, t, m)] for t in tasks for a in arms]\n                    minutes = [c[\"minutes\"] for c in cs if c[\"minutes\"] is not None]\n                    toks = [c[\"output_ktokens\"] for c in cs if c[\"output_ktokens\"] is not None]\n                    sds = [c[\"judge_sd\"] for c in cs if c[\"judge_sd\"] is not None]\n                    has = full[m] is not None\n                    out.append({\n                        \"suite\": suite, \"view\": view, \"treatment\": treat, \"metric\": metric, \"model\": m,\n                        \"cli\": cs[0][\"cli\"], \"cells\": len(cs), \"delivered\": sum(c[\"status\"] == \"delivered\" for c in cs),\n                        \"mean\": round(full[m], 2) if has else None,\n                        \"lo90\": round(pct(boot[m], 0.05), 2) if boot[m] else None,\n                        \"hi90\": round(pct(boot[m], 0.95), 2) if boot[m] else None,\n                        \"rank\": ranked.index(m) + 1 if has else None,\n                        \"rank_lo90\": round(pct(ranks[m], 0.05)) if ranks[m] else None,\n                        \"rank_hi90\": round(pct(ranks[m], 0.95)) if ranks[m] else None,\n                        \"mean_minutes\": round(statistics.fmean(minutes), 2),\n                        \"median_minutes\": round(statistics.median(minutes), 2),\n                        \"mean_output_ktokens\": round(statistics.fmean(toks), 1) if toks else None,\n                        \"token_cells\": len(toks),\n                        \"mean_judge_sd\": round(statistics.fmean(sds), 2) if sds else None,\n                    })\n    return out\n\n\ndef main():\n    ap = argparse.ArgumentParser()\n    ap.add_argument(\"--s-scores\", required=True)\n    ap.add_argument(\"--s-pass\", required=True)\n    ap.add_argument(\"--s-rubric\", default=\"visual-rubric-v1-provisional-7\")\n    ap.add_argument(\"--c-scores\")\n    ap.add_argument(\"--c-pass\")\n    ap.add_argument(\"--c-gold\")\n    ap.add_argument(\"--c-rubric\", default=\"c-rubric-v1-4\")\n    ap.add_argument(\"--a4-s-scores\")\n    ap.add_argument(\"--a4-s-pass\")\n    ap.add_argument(\"--a4-s-before\")\n    ap.add_argument(\"--a4-c-pass\")\n    ap.add_argument(\"--a4-c-before\")\n    ap.add_argument(\"--repo\", default=\".\")\n    ap.add_argument(\"--out\", default=\"scoreboard-v1/data\")\n    ap.add_argument(\"--boot\", type=int, default=2000)\n    ap.add_argument(\"--seed\", type=int, default=20261117)\n    a = ap.parse_args()\n    rec = load_receipts(a.repo)\n    cells = cell_rows(\"S\", a.s_scores, os.path.join(a.s_pass, f\"pass-A1-A2-A3-S??-{a.s_rubric}.json\"), rec)\n    if a.a4_s_scores:\n        prs = json.load(open(a.a4_s_pass))[\"rows\"]\n        sc = {(r[\"task\"], r[\"phase\"], r[\"model\"]): r for r in csv.DictReader(open(a.a4_s_scores))}\n        bf = {(r[\"task\"], r[\"arm\"], r[\"model\"]): float(r[\"before_100\"]) for r in csv.DictReader(open(a.a4_s_before))}\n        cells += a4_rows(\"S\", a.repo, rec, prs, sc, bf)\n    summary = summarise(cells, \"S\", a.boot, a.seed)\n    c_note = \"not included\"\n    if a.c_gold:\n        METRICS_OF[\"C\"] = list(METRICS[\"Cgold\"])\n        gold = list(csv.DictReader(open(a.c_gold)))\n        pending = sorted({g[\"task\"] for g in gold if g[\"total_100\"] == \"\"})\n        cc = cell_rows(\"C\", a.c_gold, os.path.join(a.c_pass, f\"pass-A1-A2-A3-C0?-{a.c_rubric}.json\"), rec, METRICS[\"Cgold\"])\n        prs = [r for f in sorted(glob.glob(os.path.join(a.a4_c_pass, f\"pass-A4_external_review-A4_self_review-C0?-{a.c_rubric}.json\")))\n               for r in json.load(open(f))[\"rows\"]]\n        sc = {(g[\"task\"], C_PHASE.get(g[\"phase\"], g[\"phase\"]), g[\"model\"]): g for g in gold}\n        # A4 seeds are byte-identical to the A1 deliveries, so \"before\" is the A1 gold total\n        bf = {(g[\"task\"], arm, g[\"model\"]): float(g[\"total_100\"]) for g in gold if g[\"phase\"] == \"A1\" and g[\"total_100\"] != \"\" for arm in (\"A4s\", \"A4e\")}\n        cc += a4_rows(\"C\", a.repo, rec, prs, sc, bf, METRICS[\"Cgold\"])\n        for c in cc:\n            c[\"judge_sd\"] = None  # the pass-file SD belongs to the old method-only score\n        cells += [c for c in cc if c[\"task\"] not in pending]\n        summary += summarise(cells, \"C\", a.boot, a.seed)\n        summary += summarise(cells, \"SC\", a.boot, a.seed)\n        c_note = f\"{os.path.basename(a.c_gold)} (PR #3), gold standard, 100 points, provisional; left out until every arm has a total: {', '.join(pending) or 'none'}\"\n    elif a.c_scores:\n        cells += cell_rows(\"C\", a.c_scores, os.path.join(a.c_pass, f\"pass-A1-A2-A3-C0?-{a.c_rubric}.json\"), rec)\n        if a.a4_c_pass:\n            prs = [r for f in sorted(glob.glob(os.path.join(a.a4_c_pass, f\"pass-A4_external_review-A4_self_review-C0?-{a.c_rubric}.json\")))\n                   for r in json.load(open(f))[\"rows\"]]\n            bf = {}\n            for r in csv.DictReader(open(a.a4_c_before)):\n                for arm in (\"A4s\", \"A4e\"):\n                    bf[(r[\"task\"], arm, r[\"model\"])] = float(r[\"before_A1\"])\n            cells += a4_rows(\"C\", a.repo, rec, prs, None, bf)\n        summary += summarise(cells, \"C\", a.boot, a.seed)\n        summary += summarise(cells, \"SC\", a.boot, a.seed)\n        c_note = os.path.basename(a.c_scores) + \" (PR #3), 100 points, method-only rubric, provisional\"\n    meta = [{\"label\": \"build_scoreboard.py\", \"value\": open(__file__).read(), \"type\": \"code\", \"lang\": \"python\"},\n            {\"label\": \"S scores\", \"value\": os.path.basename(a.s_scores) + \" (PR #1), 100 points, provisional\"},\n            {\"label\": \"C scores\", \"value\": c_note},\n            {\"label\": \"Run receipts\", \"value\": \"execucoes/<campaign>/attempts/<attempt>/receipt.json\"},\n            {\"label\": \"Bootstrap\", \"value\": f\"B={a.boot}, seed={a.seed}, tasks resampled jointly within a suite (within S and within C for the pooled view)\"}]\n    os.makedirs(a.out, exist_ok=True)\n    json.dump({\"rows\": cells, \"meta\": meta}, open(os.path.join(a.out, \"cells.json\"), \"w\"), indent=0)\n    json.dump({\"rows\": summary, \"meta\": meta}, open(os.path.join(a.out, \"summary.json\"), \"w\"), indent=0)\n    json.dump({\"rows\": a4_summary(cells), \"meta\": meta}, open(os.path.join(a.out, \"a4.json\"), \"w\"), indent=0)\n    print(len(cells), \"cells,\", len(summary), \"summary rows\")\n\n\nif __name__ == \"__main__\":\n    main()\n",
+"type": "code",
+"lang": "python"
+},
+{
+"label": "S scores",
+"value": "score-100-A1-A2-A3-S01-S11-provisional-7-legible-recheck.csv (PR #1), 100 points, provisional"
+},
+{
+"label": "C scores",
+"value": "gold2.csv (PR #3), gold standard, 100 points, provisional; left out until every arm has a total: none"
+},
+{
+"label": "Run receipts",
+"value": "execucoes/<campaign>/attempts/<attempt>/receipt.json"
+},
+{
+"label": "Bootstrap",
+"value": "B=2000, seed=20261117, tasks resampled jointly within a suite (within S and within C for the pooled view)"
+}
+]
+}

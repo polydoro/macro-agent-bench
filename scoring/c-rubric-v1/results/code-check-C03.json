@@ -1,0 +1,2358 @@
+[
+ {
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "attempt": "one-c03-claude-fable-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_qoq_saar_pct",
+      "row": "2026Q2",
+      "value": 2.4217,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "PIB_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "Emprego_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "Emprego_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_yoy_pct",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "PIB_yoy_pct",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "attempt": "one-c03-claude-haiku-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_t/t_%",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_t/t_anualizado_%",
+      "row": "2026Q2",
+      "value": 2.422,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_ultimas_observacoes.csv",
+      "header": "PIB t/t % (SA)",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_a/a_%_SCA",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_ultimas_observacoes.csv",
+      "header": "PIB a/a % (SCA)",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "attempt": "one-c03-claude-opus-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib_trimestral.csv",
+      "header": "qoq_%",
+      "row": "2026Q2",
+      "value": 0.64,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_trimestral.csv",
+      "header": "qoq_saar_%",
+      "row": "2026Q2",
+      "value": 2.61,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib_trimestral.csv",
+      "header": "yoy_%",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "attempt": "one-c03-claude-sonnet-low-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "var. t/t %",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "t/t anualizada %",
+      "row": "2026Q2",
+      "value": 2.42,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "YoY % (SCA)",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "attempt": "one-c03-codex-astra-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "attempt": "one-c03-codex-luna-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "attempt": "one-c03-codex-sol-low-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "qoq",
+      "row": "2026Q2 observado",
+      "value": 0.6446,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "qoq_anualizado",
+      "row": "2026Q2 observado",
+      "value": 2.6033,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "YoY_SCA",
+      "row": "2026Q2 observado",
+      "value": 1.202,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "grok-4.7",
+  "attempt": "one-c03-grok-low-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/base_trimestral_ponte.csv",
+      "header": "pib_qoq",
+      "row": "2026Q2",
+      "value": 0.645,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_qoq PIB real t/t-1 Q namq_10_gdp Q.CLV_PCH_PRE.SCA.B1GQ.EA21 1996Q1 2026Q2 26/10/26 23:00:00 % e",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_cons Consumo das famílias Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P31_S14_S15.EA21 2018Q1 2026Q2 26/10/2",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_gfcf FBCF Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P51G.EA21 2018Q1 2026Q2 26/10/26 23:00:00 % t/t-1 SCA ",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_g Consumo do governo Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P3_S13.EA21 2018Q1 2026Q2 26/10/26 23:00:00",
+      "value": 0.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_yoy PIB real ano Q namq_10_gdp Q.CLV_PCH_ANN.SCA.B1GQ.EA21 1996Q1 2026Q2 26/10/26 23:00:00 % em ",
+      "value": 2.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "one-c03-kimi-pro-low-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/pib_observado.csv",
+      "header": "pib_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "attempt": "a2-c03-claude-fable-high-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab02_agregacao_trimestral.csv",
+      "header": "PIB t/t (%)",
+      "row": "2026Q3 2/3 2/3 1/3 2/3 3/3 3/3",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab03_nowcast_modelos.csv",
+      "header": "T4-2026 (corrente) t/t %",
+      "row": "F: AR(2) do PIB (referência) 1995Q4–2026Q3",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab03_nowcast_modelos.csv",
+      "header": "T3-2026 (já divulgado: flash 0,4) t/t %",
+      "row": "F: AR(2) do PIB (referência) 1995Q4–2026Q3",
+      "value": 0.5,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab05_pib_emprego_recente.csv",
+      "header": "YoY (%)",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "attempt": "a2-c03-claude-haiku-high-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab01_dados_recentes.csv",
+      "header": "variação",
+      "row": "PIB, volume encadeado, SCA (EA21) 2026Q3 t/t SA (%)",
+      "value": 0.4153,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab01_dados_recentes.csv",
+      "header": "3msaar / t/t anualizado",
+      "row": "PIB, volume encadeado, SCA (EA21) 2026Q3 t/t SA (%)",
+      "value": 1.6714,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tab01_dados_recentes.csv",
+      "header": "nível",
+      "row": "PIB, volume encadeado, SCA (EA21) 2026Q3 t/t SA (%)",
+      "value": 2966290.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tab01_dados_recentes.csv",
+      "header": "a/a SCA (%)",
+      "row": "PIB, volume encadeado, SCA (EA21) 2026Q3 t/t SA (%)",
+      "value": 1.3006,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "attempt": "a2-c03-claude-opus-high-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/painel_trimestral.csv",
+      "header": "gdp_qoq",
+      "row": "2026Q3",
+      "value": 0.4153,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "data/painel_trimestral.csv",
+      "header": "gdp_qoq_oficial",
+      "row": "2026Q3",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "data/trimestral.csv",
+      "header": "gdp_qoq",
+      "row": "2026Q3",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/painel_trimestral.csv",
+      "header": "gdp_ie_qoq",
+      "row": "2026Q3",
+      "value": 5.5302,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/painel_trimestral.csv",
+      "header": "gdp_xie_qoq",
+      "row": "2026Q3",
+      "value": 0.2229,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/painel_trimestral.csv",
+      "header": "gdp_ie_qoq",
+      "row": "2026Q3",
+      "value": 5.5302,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/painel_trimestral.csv",
+      "header": "gdp_yoy_oficial",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "data/trimestral.csv",
+      "header": "gdp_yoy",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/painel_trimestral.csv",
+      "header": "gdp_yoy_oficial",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a2-c03-claude-sonnet-high-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pib_ea21_resumo.csv",
+      "header": "yoy_pct",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "attempt": "a2-c03-codex-astra-high-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pib_observado.csv",
+      "header": "qoq_pct",
+      "row": "2026Q3",
+      "value": 0.4153,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_observado.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "2026Q3",
+      "value": 1.6714,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pib_observado.csv",
+      "header": "yoy_SCA_pct",
+      "row": "2026Q3",
+      "value": 1.3006,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "attempt": "a2-c03-codex-luna-high-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/dados/coeficientes_ols.csv",
+      "header": "erro_padrao_HC3",
+      "row": "pib_qoq_lag1",
+      "value": 0.7226,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados/coeficientes_ols.csv",
+      "header": "p_valor",
+      "row": "pib_qoq_lag1",
+      "value": 0.576,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6.1-sol",
+  "attempt": "a2-c03-codex-sol-high-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/pib_trimestral.csv",
+      "header": "qoq_pct",
+      "row": "2026Q3",
+      "value": 0.4151,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "dados/pib_trimestral.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "2026Q3",
+      "value": 1.6706,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/pib_trimestral.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "grok-4.7",
+  "attempt": "a2-c03-grok-high-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/coeficientes.csv",
+      "header": "p_hac",
+      "row": "M2 PIB t/t do trimestre anterior (p.p.)",
+      "value": 0.3566,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/coeficientes.csv",
+      "header": "p_hac",
+      "row": "M4 PIB t/t do trimestre anterior (p.p.)",
+      "value": 0.5534,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/coeficientes.csv",
+      "header": "coef",
+      "row": "M1 PIB t/t do trimestre anterior (p.p.)",
+      "value": 0.1459,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/coeficientes.csv",
+      "header": "ep_hac",
+      "row": "M1 PIB t/t do trimestre anterior (p.p.)",
+      "value": 0.1102,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/coeficientes.csv",
+      "header": "p_hac",
+      "row": "M1 PIB t/t do trimestre anterior (p.p.)",
+      "value": 0.1856,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a2-c03-kimi-pro-high-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/pib_trimestral.csv",
+      "header": "gdp_qoq_pct",
+      "row": "2026Q3",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/pib_trimestral.csv",
+      "header": "gdp_qoq_annualized_pct",
+      "row": "2026Q3",
+      "value": 1.6096,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tabelas_nowcast.xlsx",
+      "header": "valor",
+      "row": "PIB t/t defasado %",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/pib_trimestral.csv",
+      "header": "gdp_yoy_sca_pct",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "attempt": "a3-c03-claude-opus-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series.csv",
+      "header": "pib_yoy",
+      "row": "2026-Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "pib_yoy",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "attempt": "a3-c03-claude-fable-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos_trimestrais.csv",
+      "header": "pib_qoq",
+      "row": "2026Q3",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_recente.csv",
+      "header": "PIB t/t %",
+      "row": "2026Q3",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_recente.csv",
+      "header": "PIB t/t anualizado %",
+      "row": "2026Q3",
+      "value": 1.6096,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/log_coleta.csv",
+      "header": "n",
+      "row": "pib_qoq namq_10_gdp https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?",
+      "value": 126.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/log_coleta.csv",
+      "header": "n",
+      "row": "pib_nivel namq_10_gdp https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gd",
+      "value": 127.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/log_coleta_fontes.csv",
+      "header": "n",
+      "row": "pib_qoq namq_10_gdp https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?",
+      "value": 126.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib_recente.csv",
+      "header": "PIB a/a %",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/log_coleta.csv",
+      "header": "n",
+      "row": "pib_yoy namq_10_gdp https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?",
+      "value": 123.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/log_coleta_fontes.csv",
+      "header": "n",
+      "row": "pib_yoy namq_10_gdp https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?",
+      "value": 123.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a3-c03-claude-sonnet-low-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6-luna",
+  "attempt": "a3-c03-codex-luna-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/dados_e_calculos.csv",
+      "header": "valor",
+      "row": "PIB real EA21 2026-Q3 variação t/t SA+CA (%) Eurostat namq_10_gdp",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "attempt": "a3-c03-codex-astra-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/pib_qoq.csv",
+      "header": "pib_qoq",
+      "row": "2026-Q3",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/pib_yoy.csv",
+      "header": "pib_yoy",
+      "row": "2026-Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "attempt": "a3-c03-grok-low-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pib_trimestral_ea21.csv",
+      "header": "qoq_oficial_arredondado_pct",
+      "row": "2026Q3",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_trimestral_ea21.csv",
+      "header": "qoq_pelo_indice_pct",
+      "row": "2026Q3",
+      "value": 0.415,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pib_trimestral_ea21.csv",
+      "header": "yoy_eurostat_pct",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_trimestral_ea21.csv",
+      "header": "yoy_pelo_indice_pct",
+      "row": "2026Q3",
+      "value": 1.3006,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a3-c03-kimi-pro-low-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "taxa_trimestre_pct",
+      "row": "PIB real 2026Q3 índice 2020=100 observado",
+      "value": 0.4,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "PIB real 2026Q3 índice 2020=100 observado",
+      "value": 1.2899,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "attempt": "a3-c03-claude-haiku-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/bridge_ajuste_recente.csv",
+      "header": "pib_qoq_observado",
+      "row": "2026Q3",
+      "value": 0.415,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_valores.csv",
+      "header": "valor",
+      "row": "PIB t/t SA, % 2026Q3",
+      "value": 0.415,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_valores.csv",
+      "header": "valor",
+      "row": "PIB t/t anualizado, % 2026Q3",
+      "value": 1.671,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/nowcast_T4_2026.csv",
+      "header": "pib_qoq_T4_%",
+      "row": "regra1",
+      "value": 0.2218,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/nowcast_T4_2026.csv",
+      "header": "pib_qoq_T4_%",
+      "row": "regra2",
+      "value": -0.0075,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "nowcast_zona_euro/saidas/nowcast_T4_2026.csv",
+      "header": "pib_qoq_T4_%",
+      "row": "regra1",
+      "value": 0.2218,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultimos_valores.csv",
+      "header": "valor",
+      "row": "PIB a/a SA, % 2026Q3",
+      "value": 1.301,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "nowcast_zona_euro/saidas/ultimos_valores.csv",
+      "header": "valor",
+      "row": "PIB a/a SA, % 2026Q3",
+      "value": 1.301,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "attempt": "a3-c03-codex-sol-low-normal-primary",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/calculos_pib.csv",
+      "header": "YoY_SCA_pct",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-fable-5-1",
+  "attempt": "a4-result-171abbe5186a91ff074dc95f",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_qoq_saar_pct",
+      "row": "2026Q2",
+      "value": 2.4217,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "PIB_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "Emprego_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "Emprego_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_yoy_pct",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "PIB_yoy_pct",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-fable-5-1",
+  "attempt": "a4-result-231c9de08fada3467297f9d5",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_qoq_pct_Eurostat",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_qoq_pct_calc_niveis",
+      "row": "2026Q2",
+      "value": 0.645,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_qoq_saar_pct_calc_niveis",
+      "row": "2026Q2",
+      "value": 2.61,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "Emprego_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/atualizacao_2026-11-08/pib_trimestral.csv",
+      "header": "Emprego_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "Emprego_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "data/processed/pib_trimestral.csv",
+      "header": "PIB_yoy_pct",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/atualizacao_2026-11-08/pib_trimestral.csv",
+      "header": "PIB_yoy_pct",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/atualizacao_2026-11-08/pib_trimestral.csv",
+      "header": "PIB_yoy_pct",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-haiku-5-5",
+  "attempt": "a4-result-58ba7c064d23048bdaf89def",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_t/t_%",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_t/t_anualizado_%",
+      "row": "2026Q2",
+      "value": 2.422,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_ultimas_observacoes.csv",
+      "header": "PIB t/t % (SA)",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_a/a_%_SCA",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_ultimas_observacoes.csv",
+      "header": "PIB a/a % (SCA)",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "historico_v1/entrega/tab_pib_trimestral.csv",
+      "header": "PIB_a/a_%_SCA",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-haiku-5-5",
+  "attempt": "a4-result-95f45f05713cb91481c9c5f0",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_t/t_%_publicado",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_t/t_anualizado_%",
+      "row": "2026Q2",
+      "value": 2.422,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_t/t_%_publicado",
+      "row": "2026Q3",
+      "value": 0.4,
+      "variant": "2026-Q3 PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab_ultimas_observacoes.csv",
+      "header": "nível",
+      "row": "PIB EA21, volume encadeado, SCA (M EUR) 2026Q3 trimestral; 3T26 aparece na API desde 05/11/2026 (fla",
+      "value": 2966290.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_a/a_%_SCA",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_pib_trimestral.csv",
+      "header": "PIB_a/a_%_SCA",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab_ultimas_observacoes.csv",
+      "header": "a/a % (SCA)",
+      "row": "PIB EA21, volume encadeado, SCA (M EUR) 2026Q3 trimestral; 3T26 aparece na API desde 05/11/2026 (fla",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-opus-5-5",
+  "attempt": "a4-result-fde60a02f9215b680bd3796b",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib_trimestral.csv",
+      "header": "qoq_%",
+      "row": "2026Q2",
+      "value": 0.64,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_trimestral.csv",
+      "header": "qoq_saar_%",
+      "row": "2026Q2",
+      "value": 2.61,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/v1_original/tabela_pib_trimestral.csv",
+      "header": "qoq_%",
+      "row": "2026Q2",
+      "value": 0.64,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib_trimestral.csv",
+      "header": "yoy_%",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/v1_original/tabela_pib_trimestral.csv",
+      "header": "yoy_%",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-opus-5-5",
+  "attempt": "a4-result-598d7400f11d3942f72902fc",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/vintage_20261028/tabela_pib_trimestral.csv",
+      "header": "qoq_%",
+      "row": "2026Q2",
+      "value": 0.64,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/vintage_20261028/tabela_pib_trimestral.csv",
+      "header": "qoq_saar_%",
+      "row": "2026Q2",
+      "value": 2.61,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/vintage_20261108/tabela_pib_trimestral.csv",
+      "header": "qoq_%",
+      "row": "2026Q2",
+      "value": 0.64,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/vintage_20261028/tabela_pib_trimestral.csv",
+      "header": "yoy_%",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/vintage_20261108/tabela_pib_trimestral.csv",
+      "header": "yoy_%",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/vintage_20261108/tabela_pib_trimestral.csv",
+      "header": "yoy_%",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a4-result-38fca61779efd424a38a06fb",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "var. t/t %",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "t/t anualizada %",
+      "row": "2026Q2",
+      "value": 2.42,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "YoY % (SCA)",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a4-result-a951b3f7cb5fe6f28c0b6d79",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "var. t/t %",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "t/t anualizada %",
+      "row": "2026Q2",
+      "value": 2.42,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "var. t/t %",
+      "row": "2026Q3",
+      "value": 0.4,
+      "variant": "2026-Q3 PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "YoY % (SCA)",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib.csv",
+      "header": "YoY % (SCA)",
+      "row": "2026Q3",
+      "value": 1.3,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega_v1/tabela_pib.csv",
+      "header": "YoY % (SCA)",
+      "row": "2026Q2",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6-astra",
+  "attempt": "a4-result-46ca04143f9bf63f23550b72",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6-astra",
+  "attempt": "a4-result-80b490d085b99a2cd476a83f",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6-luna",
+  "attempt": "a4-result-34647b05a752f06120922a83",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6-luna",
+  "attempt": "a4-result-dc8c1a0bf8fd193c0ce4c950",
+  "questions": {
+   "N_last_qoq": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6.1-sol",
+  "attempt": "a4-result-29a064391f5408b528cc6cd1",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "qoq",
+      "row": "2026Q2 observado",
+      "value": 0.6446,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "qoq_anualizado",
+      "row": "2026Q2 observado",
+      "value": 2.6033,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "qoq",
+      "row": "2026Q3 estimado",
+      "value": 0.2414,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "qoq_anualizado",
+      "row": "2026Q3 estimado",
+      "value": 0.969,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "YoY_SCA",
+      "row": "2026Q2 observado",
+      "value": 1.202,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "YoY_SCA",
+      "row": "2026Q3 estimado",
+      "value": 1.1248,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6.1-sol",
+  "attempt": "a4-result-a663f560b7d8417e2a26ab4d",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_2026-10-28/pib_trimestral.csv",
+      "header": "qoq",
+      "row": "2026Q2 observado",
+      "value": 0.6446,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/edicao_2026-10-28/pib_trimestral.csv",
+      "header": "qoq_anualizado",
+      "row": "2026Q2 observado",
+      "value": 2.6033,
+      "variant": "PIB EA21, q/q anualizado %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "qoq",
+      "row": "2026Q2 observado",
+      "value": 0.6446,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_2026-10-28/pib_trimestral.csv",
+      "header": "qoq",
+      "row": "2026Q3 estimado",
+      "value": 0.2414,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/edicao_2026-10-28/pib_trimestral.csv",
+      "header": "qoq_anualizado",
+      "row": "2026Q3 estimado",
+      "value": 0.969,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_2026-10-28/pib_trimestral.csv",
+      "header": "YoY_SCA",
+      "row": "2026Q2 observado",
+      "value": 1.202,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/edicao_2026-10-28/pib_trimestral.csv",
+      "header": "YoY_SCA",
+      "row": "2026Q3 estimado",
+      "value": 1.1248,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_trimestral.csv",
+      "header": "YoY_SCA",
+      "row": "2026Q2 observado",
+      "value": 1.202,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "grok-4.7",
+  "attempt": "a4-result-e17dfa6b72cb71c519980156",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/base_trimestral_ponte.csv",
+      "header": "pib_qoq",
+      "row": "2026Q2",
+      "value": 0.645,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_qoq PIB real t/t-1 Q namq_10_gdp Q.CLV_PCH_PRE.SCA.B1GQ.EA21 1996Q1 2026Q2 26/10/26 23:00:00 % e",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_cons Consumo das famílias Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P31_S14_S15.EA21 2018Q1 2026Q2 26/10/2",
+      "value": 0.4,
+      "variant": "2026-Q3 PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_gfcf FBCF Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P51G.EA21 2018Q1 2026Q2 26/10/26 23:00:00 % t/t-1 SCA ",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_x Exportações Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P6.EA21 2018Q1 2026Q2 26/10/26 23:00:00 % t/t-1 SC",
+      "value": 3.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_yoy PIB real, taxa trimestral anualizada (arquivo CLV_PCH_ANN; não é YoY) Q namq_10_gdp Q.CLV_PC",
+      "value": 2.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "grok-4.7",
+  "attempt": "a4-result-76b3f594646390e40b20d5d3",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_qoq PIB real t/t-1 Q namq_10_gdp Q.CLV_PCH_PRE.SCA.B1GQ.EA21 1996Q1 2026Q2 26/10/26 23:00:00 % e",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_cons Consumo das famílias Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P31_S14_S15.EA21 2018Q1 2026Q2 26/10/2",
+      "value": 0.4,
+      "variant": "2026-Q3 PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_g Consumo do governo Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P3_S13.EA21 2018Q1 2026Q2 26/10/26 23:00:00",
+      "value": 0.3,
+      "variant": "2026-Q3 PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_gfcf FBCF Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P51G.EA21 2018Q1 2026Q2 26/10/26 23:00:00 % t/t-1 SCA ",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_x Exportações Q namq_10_gdp Q.CLV_PCH_PRE.SCA.P6.EA21 2018Q1 2026Q2 26/10/26 23:00:00 % t/t-1 SC",
+      "value": 3.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/nowcast_resumo.csv",
+      "header": "yoy_CLV_PCH_SM",
+      "row": "2026T2 oficial namq_10_gdp, atualização 05/11/2026; nível idêntico ao de 26/10",
+      "value": 1.2,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/metadados_series.csv",
+      "header": "ultimo_valor",
+      "row": "pib_yoy PIB real ano Q namq_10_gdp Q.CLV_PCH_ANN.SCA.B1GQ.EA21 1996Q1 2026Q2 26/10/26 23:00:00 % em ",
+      "value": 2.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a4-result-6849dd77c83a31f10b0d7197",
+  "questions": {
+   "N_last_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/nowcast_pib.csv",
+      "header": "qoq_pct",
+      "row": "2026Q3 trimestre encerrado, PIB ainda não divulgado",
+      "value": 0.3187,
+      "variant": "2026-Q3 PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/nowcast_pib.csv",
+      "header": "ar1_qoq_pct",
+      "row": "2026Q3 trimestre encerrado, PIB ainda não divulgado",
+      "value": 0.4934,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/nowcast_pib.csv",
+      "header": "intervalo_referencia_superior_qoq",
+      "row": "2026Q3 trimestre encerrado, PIB ainda não divulgado",
+      "value": 0.6852,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/nowcast_pib.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "2026Q3 trimestre encerrado, PIB ainda não divulgado",
+      "value": 1.281,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/nowcast_pib.csv",
+      "header": "nivel_milhoes_euros_encadeados",
+      "row": "2026Q3 trimestre encerrado, PIB ainda não divulgado",
+      "value": 2949200.4853,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/nowcast_pib.csv",
+      "header": "intervalo_referencia_inferior_qoq",
+      "row": "2026Q3 trimestre encerrado, PIB ainda não divulgado",
+      "value": -0.0478,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_last_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/nowcast_pib.csv",
+      "header": "yoy_pct",
+      "row": "2026Q3 trimestre encerrado, PIB ainda não divulgado",
+      "value": 1.194,
+      "variant": "PIB EA21, YoY %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a4-result-c84feac74f0a285a513e666e",
+  "questions": {
+   "N_last_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/pib_observado.csv",
+      "header": "pib_qoq_pct",
+      "row": "2026Q2",
+      "value": 0.6,
+      "variant": "PIB EA21, q/q %",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/pib_observado.csv",
+      "header": "pib_qoq_pct",
+      "row": "2026Q3",
+      "value": 0.4,
+      "variant": "2026-Q3 PIB EA21, q/q %",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_last_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ }
+]

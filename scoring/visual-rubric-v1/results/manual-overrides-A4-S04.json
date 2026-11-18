@@ -1,0 +1,9 @@
+[
+ {
+  "phase": "A4e",
+  "model": "claude-fable-5-1",
+  "question": "N_precos_native",
+  "correct": true,
+  "note": "entrega/tabela_resumo.csv, 2026-10, INSEE 000857191 past prices balance = 42.0 and 000857192 expected prices = -7.0 (admitted 42.32 / -7.15 +/- 0.6). Label 'Preços' not matched automatically."
+ }
+]

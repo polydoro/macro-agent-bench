@@ -1,0 +1,28 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A1,S01,claude-fable-5-1,scored,35.0,30.0,5.0,total_3m:ambiguous
+A1,S01,claude-haiku-5-5,scored,17.5,15.0,2.5,total_yoy:ambiguous intermediarios_yoy:none capital_yoy:none consumo_yoy:none energia_yoy:none construcao_yoy:none
+A1,S01,claude-opus-5-5,scored,30.0,30.0,0.0,total_3m:ambiguous
+A1,S01,claude-sonnet-5-5,scored,26.25,26.25,0.0,energia_yoy:none construcao_yoy:none
+A1,S01,gpt-6-astra,scored,30.0,30.0,0.0,
+A1,S01,gpt-6-luna,scored,30.0,30.0,0.0,total_3m:ambiguous construcao_yoy:none
+A1,S01,gpt-6.1-sol,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous intermediarios_yoy:ambiguous capital_yoy:ambiguous construcao_yoy:none
+A1,S01,grok-4.7,scored,30.0,30.0,0.0,total_yoy:ambiguous intermediarios_yoy:ambiguous energia_yoy:ambiguous construcao_yoy:ambiguous
+A1,S01,kimi-code/k3.1-pro,scored,30.0,30.0,0.0,total_3m:ambiguous construcao_yoy:none
+A2,S01,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous construcao_yoy:ambiguous
+A2,S01,claude-haiku-5-5,scored,30.0,30.0,0.0,construcao_yoy:none
+A2,S01,claude-opus-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous construcao_yoy:ambiguous
+A2,S01,claude-sonnet-5-5,scored,30.0,30.0,0.0,
+A2,S01,gpt-6-astra,scored,40.0,30.0,10.0,total_3m:ambiguous
+A2,S01,gpt-6-luna,scored,26.25,26.25,0.0,energia_yoy:fail construcao_yoy:none
+A2,S01,gpt-6.1-sol,scored,40.0,30.0,10.0,total_3m:ambiguous
+A2,S01,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S01,kimi-code/k3.1-pro,verified_absence,0.0,0.0,0.0,
+A3,S01,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous
+A3,S01,claude-haiku-5-5,scored,15.0,15.0,0.0,intermediarios_yoy:none capital_yoy:none consumo_yoy:none energia_yoy:none construcao_yoy:none
+A3,S01,claude-opus-5-5,scored,30.0,30.0,0.0,
+A3,S01,claude-sonnet-5-5,scored,30.0,30.0,0.0,construcao_yoy:none
+A3,S01,gpt-6-astra,scored,26.25,26.25,0.0,total_3m:ambiguous energia_yoy:none construcao_yoy:none
+A3,S01,gpt-6-luna,scored,30.0,30.0,0.0,construcao_yoy:none
+A3,S01,gpt-6.1-sol,scored,35.0,30.0,5.0,total_yoy:ambiguous intermediarios_yoy:ambiguous capital_yoy:ambiguous construcao_yoy:none
+A3,S01,grok-4.7,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous
+A3,S01,kimi-code/k3.1-pro,scored,22.5,22.5,0.0,total_3m:ambiguous intermediarios_yoy:none capital_yoy:none consumo_yoy:none construcao_yoy:ambiguous

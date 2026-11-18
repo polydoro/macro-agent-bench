@@ -1,0 +1,87 @@
+{
+  "answers": {
+    "C_alimentos_yoy": {
+      "at": "2026-11-17T18:42:58.091Z",
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_combustivel_yoy": {
+      "at": "2026-11-17T18:42:56.090Z",
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_cultura_lazer_yoy": {
+      "at": "2026-11-17T18:42:53.972Z",
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_equipamentos_domesticos_yoy": {
+      "at": "2026-11-17T18:42:54.524Z",
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_internet_yoy": {
+      "at": "2026-11-17T18:42:52.045Z",
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_outros_bens_yoy": {
+      "at": "2026-11-17T18:42:52.790Z",
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_total_3m": {
+      "at": "2026-11-17T18:42:58.810Z",
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_total_yoy": {
+      "at": "2026-11-17T18:42:59.810Z",
+      "choice": "ATENDE",
+      "value": null
+    },
+    "N_alimentos_yoy": {
+      "at": "2026-11-17T18:42:36.220Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_combustivel_yoy": {
+      "at": "2026-11-17T18:42:37.273Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_cultura_lazer_yoy": {
+      "at": "2026-11-17T18:42:39.000Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_equipamentos_domesticos_yoy": {
+      "at": "2026-11-17T18:42:37.822Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_internet_yoy": {
+      "at": "2026-11-17T18:42:40.565Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_outros_bens_yoy": {
+      "at": "2026-11-17T18:42:40.092Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_3m": {
+      "at": "2026-11-17T18:42:35.469Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_yoy": {
+      "at": "2026-11-17T18:42:34.377Z",
+      "choice": "PROBLEMA",
+      "value": null
+    }
+  },
+  "done": true,
+  "doneAt": "2026-11-17T18:43:05.699Z",
+  "note": "mesmo erro de não ter os valores (yoy e 3msaar), mas apontar o resto corretamente"
+}

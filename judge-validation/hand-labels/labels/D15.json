@@ -1,0 +1,46 @@
+{
+  "answers": {
+    "N_alimentos_yoy": {
+      "at": "2026-11-17T18:43:58.195Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_combustivel_yoy": {
+      "at": "2026-11-17T18:43:59.396Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_cultura_lazer_yoy": {
+      "at": "2026-11-17T18:44:01.131Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_equipamentos_domesticos_yoy": {
+      "at": "2026-11-17T18:43:59.924Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_internet_yoy": {
+      "at": "2026-11-17T18:44:03.271Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_outros_bens_yoy": {
+      "at": "2026-11-17T18:44:01.828Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_3m": {
+      "at": "2026-11-17T18:43:57.081Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_yoy": {
+      "at": "2026-11-17T18:43:56.399Z",
+      "choice": "PROBLEMA",
+      "value": null
+    }
+  },
+  "done": true,
+  "doneAt": "2026-11-17T18:44:13.711Z"
+}

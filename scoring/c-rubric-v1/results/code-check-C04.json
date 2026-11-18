@@ -1,0 +1,5537 @@
+[
+ {
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "attempt": "one-c04-claude-fable-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total 2ª publicação (t+55d), mesmo trimestre [só 2020T2+]",
+      "value": 0.038,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +1 trimestre",
+      "value": 0.032,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +1 trimestre",
+      "value": 0.018,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +1 ano",
+      "value": 0.072,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +1 ano",
+      "value": 0.044,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T2 +1 ano",
+      "value": 0.146,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +2 anos",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte d730, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +2 anos",
+      "value": 0.057,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T2 +2 anos",
+      "value": 0.202,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +3 anos",
+      "value": 0.114,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d1095, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +3 anos",
+      "value": 0.082,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T2 +3 anos",
+      "value": 0.251,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total vintage atual (30/09/2026)",
+      "value": 0.131,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 vintage atual (30/09/2026)",
+      "value": 0.107,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "excl. 2020 (Covid) vintage atual (30/09/2026)",
+      "value": 0.103,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T2 vintage atual (30/09/2026)",
+      "value": 0.185,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "+1 ano",
+      "value": 0.037,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d365, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "+2 anos",
+      "value": 0.093,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "+3 anos",
+      "value": 0.218,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "vintage atual (30/07/2026)",
+      "value": 0.254,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte latest, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "2005T1-2026T2 rev_ultima",
+      "value": 0.353,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "1995T2-2026T2 rev_ultima",
+      "value": 0.15,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "1995T2-2004T4 rev_ultima",
+      "value": -0.296,
+      "variant": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "attempt": "one-c04-claude-haiku-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "attempt": "one-c04-claude-opus-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos 3m",
+      "value": 0.023,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 3m",
+      "value": 0.006,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 3m",
+      "value": 0.008,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos 1a",
+      "value": 0.081,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 1a",
+      "value": 0.062,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 1a",
+      "value": 0.058,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos 3a",
+      "value": 0.121,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d1095, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 3a",
+      "value": 0.073,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 3a",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "3a",
+      "value": -0.093,
+      "variant": null
+     }
+    ]
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos atual",
+      "value": 0.142,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 atual",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 atual",
+      "value": 0.123,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "atual",
+      "value": 0.025,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "attempt": "one-c04-claude-sonnet-low-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "12m, todas",
+      "value": 0.094,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "12m, ex-COVID",
+      "value": 0.047,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "atual, todas",
+      "value": 0.155,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "atual, ex-COVID",
+      "value": 0.067,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "attempt": "one-c04-codex-astra-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "1ª revisão trimestral 1999Q1 2025Q4",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "1ª revisão anual 1999Q1 2025Q4",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "2ª revisão anual 1999Q1 2024Q4",
+      "value": 0.17,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "3ª revisão anual 1999Q1 2023Q4",
+      "value": 0.22,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "4ª revisão anual (final) 1999Q1 2022Q4",
+      "value": 0.32,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "attempt": "one-c04-codex-luna-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "attempt": "one-c04-codex-sol-low-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "Média (p.p.)",
+      "row": "Flash → detalhada",
+      "value": -0.0214,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "Média (p.p.)",
+      "row": "Flash → vigente",
+      "value": 0.0,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "1ª revisão trimestral 1999Q1 2025Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/D",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "1ª revisão anual 1999Q1 2025Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/DE/Met",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "2ª revisão anual 1999Q1 2024Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/DE/Met",
+      "value": 0.17,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "3ª revisão anual 1999Q1 2023Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/DE/Met",
+      "value": 0.22,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "4ª revisão anual (final) 1999Q1 2022Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.d",
+      "value": 0.32,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "grok-4.7",
+  "attempt": "one-c04-grok-low-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Segunda vintage, toda a amostra",
+      "value": 0.026,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Segunda vintage, Schnellmeldung t+30 (desde 2020T2)",
+      "value": 0.038,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Cerca de 1 ano",
+      "value": 0.07,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Cerca de 1 ano, sem cruzar mudança de base",
+      "value": 0.084,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Cerca de 1 ano, sem 2020T1–2021T2",
+      "value": 0.046,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "YoY da série SA, cerca de 1 ano",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "PIB anual real, cerca de 1 ano",
+      "value": 0.036,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d365, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "one-c04-kimi-pro-low-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> detalhada 2020T2-2026T2",
+      "value": 0.036,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> detalhada 2022T1-2026T2",
+      "value": -0.0167,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> vintage atual 2020T2-2026T2",
+      "value": 0.188,
+      "variant": null
+     },
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> vintage atual 2022T1-2026T2",
+      "value": 0.0333,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "attempt": "a2-c04-claude-fable-high-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/perfil_revisao_por_horizonte.csv",
+      "header": "média",
+      "row": "3 m",
+      "value": 0.0218,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/dados/perfil_revisao_por_horizonte.csv",
+      "header": "média",
+      "row": "3 m",
+      "value": 0.0218,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tab1_estatisticas_revisao_por_horizonte.csv",
+      "header": "média (pp)",
+      "row": "+1 trimestre",
+      "value": 0.031,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/perfil_revisao_por_horizonte.csv",
+      "header": "média",
+      "row": "12 m",
+      "value": 0.0484,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/dados/perfil_revisao_por_horizonte.csv",
+      "header": "média",
+      "row": "12 m",
+      "value": 0.0484,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tab4_perfil_revisao_meses.csv",
+      "header": "média",
+      "row": "12 m",
+      "value": 0.048,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/perfil_revisao_por_horizonte.csv",
+      "header": "média",
+      "row": "24 m",
+      "value": 0.0567,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/dados/perfil_revisao_por_horizonte.csv",
+      "header": "média",
+      "row": "24 m",
+      "value": 0.0567,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tab4_perfil_revisao_meses.csv",
+      "header": "média",
+      "row": "24 m",
+      "value": 0.057,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/perfil_revisao_por_horizonte.csv",
+      "header": "média",
+      "row": "36 m",
+      "value": 0.0587,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/dados/perfil_revisao_por_horizonte.csv",
+      "header": "média",
+      "row": "36 m",
+      "value": 0.0587,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tab4_perfil_revisao_meses.csv",
+      "header": "média",
+      "row": "36 m",
+      "value": 0.059,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab1_estatisticas_revisao_por_horizonte.csv",
+      "header": "média (pp)",
+      "row": "último vintage",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tab3_estatisticas_outras_series.csv",
+      "header": "média (pp)",
+      "row": "real SA t/t último vintage",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tab3_estatisticas_outras_series.csv",
+      "header": "média (pp)",
+      "row": "nominal SA t/t último vintage",
+      "value": 0.078,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab3_estatisticas_outras_series.csv",
+      "header": "média (pp)",
+      "row": "real NSA YoY +1 trimestre",
+      "value": 0.072,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab3_estatisticas_outras_series.csv",
+      "header": "média (pp)",
+      "row": "real anual +1 ano",
+      "value": 0.036,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d365, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab3_estatisticas_outras_series.csv",
+      "header": "média (pp)",
+      "row": "real anual +2 anos",
+      "value": 0.115,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab3_estatisticas_outras_series.csv",
+      "header": "média (pp)",
+      "row": "real anual +3 anos",
+      "value": 0.258,
+      "variant": "amostra 2005-latest, horizonte d1095, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab3_estatisticas_outras_series.csv",
+      "header": "média (pp)",
+      "row": "real NSA YoY último vintage",
+      "value": 0.352,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab3_estatisticas_outras_series.csv",
+      "header": "média (pp)",
+      "row": "real anual último vintage",
+      "value": 0.285,
+      "variant": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "attempt": "a2-c04-claude-haiku-high-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "12 meses rotina",
+      "value": 0.1358,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "12 meses total",
+      "value": 0.5547,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "12 meses crescimento q/q SAAR (p.p.)",
+      "value": 0.4388,
+      "variant": null
+     }
+    ]
+   },
+   "N_qoq_two_years": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "24 meses rotina",
+      "value": 0.1478,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "24 meses total",
+      "value": 1.0798,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "24 meses crescimento q/q SAAR (p.p.)",
+      "value": 0.4734,
+      "variant": null
+     }
+    ]
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "Última vintage (2026-10-28) rotina",
+      "value": 0.1257,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "Última vintage (2026-10-28) crescimento q/q SAAR (p.p.)",
+      "value": 0.6071,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "Última vintage (2026-10-28) total",
+      "value": 2.8813,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "12 meses verão (revisão anual)",
+      "value": 0.4147,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_two_years": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "24 meses verão (revisão anual)",
+      "value": 0.9217,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "Última vintage (2026-10-28) verão (revisão anual)",
+      "value": 2.7064,
+      "variant": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "attempt": "a2-c04-claude-opus-high-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "Total +1 ano 2005Q2–2025Q3",
+      "value": 0.079,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2005T2–2019T4 +1 ano 2005Q2–2019Q4",
+      "value": 0.057,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2020T1–2021T4 (pandemia) +1 ano 2020Q1–2021Q4",
+      "value": 0.255,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "Total +2 anos 2005Q2–2024Q3",
+      "value": 0.089,
+      "variant": "amostra 2005-2019, horizonte d730, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2005T2–2019T4 +2 anos 2005Q2–2019Q4",
+      "value": 0.06,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2020T1–2021T4 (pandemia) +2 anos 2020Q1–2021Q4",
+      "value": 0.379,
+      "variant": "amostra 2005-latest, horizonte r8_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "Total +3 anos 2005Q2–2023Q3",
+      "value": 0.114,
+      "variant": "amostra 2005-latest, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2005T2–2019T4 +3 anos 2005Q2–2019Q4",
+      "value": 0.087,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2020T1–2021T4 (pandemia) +3 anos 2020Q1–2021Q4",
+      "value": 0.475,
+      "variant": "amostra 2005-latest, horizonte d1095, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2022T1 em diante +3 anos 2022Q1–2023Q3",
+      "value": -0.067,
+      "variant": null
+     }
+    ]
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "Total Atual (30/10/2026) 2005Q2–2023Q3",
+      "value": 0.158,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2005T2–2019T4 Atual (30/10/2026) 2005Q2–2019Q4",
+      "value": 0.123,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2020T1–2021T4 (pandemia) Atual (30/10/2026) 2020Q1–2021Q4",
+      "value": 0.547,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_tt.csv",
+      "header": "revisao_media_pp",
+      "row": "2022T1 em diante Atual (30/10/2026) 2022Q1–2023Q3",
+      "value": 0.011,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY SA+CA, flash 2005T2+ +1 ano 2005Q2–2025Q3",
+      "value": 0.092,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY SA+CA, exceto 2020–2021 +1 ano 2005Q2–2025Q3",
+      "value": 0.07,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 2005T2+ exceto 2020–2021 (controle) +1 ano 2005Q2–2025Q3",
+      "value": 0.066,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 1ª div. 1995–2004 +1 ano 1995Q3–2004Q4",
+      "value": -0.085,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 1995 em diante, exceto 2020–2021 +1 ano 1995Q3–2025Q3",
+      "value": 0.01,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_two_years": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY SA+CA, flash 2005T2+ +2 anos 2005Q2–2024Q3",
+      "value": 0.188,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY SA+CA, exceto 2020–2021 +2 anos 2005Q2–2024Q3",
+      "value": 0.101,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 2005T2+ exceto 2020–2021 (controle) +2 anos 2005Q2–2024Q3",
+      "value": 0.095,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 1ª div. 1995–2004 +2 anos 1995Q3–2004Q4",
+      "value": -0.635,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 1995 em diante, exceto 2020–2021 +2 anos 1995Q3–2024Q3",
+      "value": -0.165,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_three_years": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY SA+CA, flash 2005T2+ +3 anos 2005Q2–2023Q3",
+      "value": 0.272,
+      "variant": "amostra 2005-latest, horizonte d1095, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY SA+CA, exceto 2020–2021 +3 anos 2005Q2–2023Q3",
+      "value": 0.164,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte r12_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 2005T2+ exceto 2020–2021 (controle) +3 anos 2005Q2–2023Q3",
+      "value": 0.16,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 1ª div. 1995–2004 +3 anos 1996Q1–2004Q4",
+      "value": -0.92,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 1995 em diante, exceto 2020–2021 +3 anos 1996Q1–2023Q3",
+      "value": -0.177,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_anual.csv",
+      "header": "revisao_media_pp",
+      "row": "Anos 2005–2024 (1ª estimativa jan/ano seguinte) Atual 2005–2024",
+      "value": 0.299,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY SA+CA, flash 2005T2+ Atual (trimestres com ≥3 anos) 2005Q2–2023Q3",
+      "value": 0.401,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY SA+CA, exceto 2020–2021 Atual (trimestres com ≥3 anos) 2005Q2–2023Q3",
+      "value": 0.289,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabelas/estatisticas_revisao_yoy.csv",
+      "header": "revisao_media_pp",
+      "row": "YoY sem ajuste, 1ª div. 1995–2004 Atual (trimestres com ≥3 anos) 1995Q3–2004Q4",
+      "value": -0.299,
+      "variant": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a2-c04-claude-sonnet-high-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "attempt": "a2-c04-codex-astra-high-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/estatisticas_revisoes.csv",
+      "header": "media_pp",
+      "row": "Disponível atual 2005Q1 2026Q2",
+      "value": 0.1349,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "dados/sensibilidades.csv",
+      "header": "media_pp",
+      "row": "Sem 2020 e 2021 atual 2005Q1 2026Q2",
+      "value": 0.0923,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "dados/sensibilidades.csv",
+      "header": "media_pp",
+      "row": "Antes de 2020 atual 2005Q1 2019Q4",
+      "value": 0.11,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/sensibilidades.csv",
+      "header": "media_pp",
+      "row": "Desde 2022 atual 2022Q1 2026Q2",
+      "value": 0.0333,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "media_pp",
+      "row": "Desde 2022 atual 2022Q1 2026Q2",
+      "value": 0.0333,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/destatis_revisoes_yoy.csv",
+      "header": "media_pp",
+      "row": "Primeira revisão trimestral 1999Q1 2025Q4",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "media_pp",
+      "row": "Primeira revisão trimestral 1999Q1 2025Q4",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/destatis_revisoes_yoy.csv",
+      "header": "media_pp",
+      "row": "Primeira revisão anual 1999Q1 2025Q4",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "media_pp",
+      "row": "Primeira revisão anual 1999Q1 2025Q4",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/destatis_revisoes_yoy.csv",
+      "header": "media_pp",
+      "row": "Segunda revisão anual 1999Q1 2024Q4",
+      "value": 0.17,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "media_pp",
+      "row": "Segunda revisão anual 1999Q1 2024Q4",
+      "value": 0.17,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/destatis_revisoes_yoy.csv",
+      "header": "media_pp",
+      "row": "Terceira revisão anual 1999Q1 2023Q4",
+      "value": 0.22,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "media_pp",
+      "row": "Terceira revisão anual 1999Q1 2023Q4",
+      "value": 0.22,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/destatis_revisoes_yoy.csv",
+      "header": "media_pp",
+      "row": "Quarta revisão anual 1999Q1 2022Q4",
+      "value": 0.32,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "media_pp",
+      "row": "Quarta revisão anual 1999Q1 2022Q4",
+      "value": 0.32,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "attempt": "a2-c04-codex-luna-high-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a2-c04-kimi-pro-high-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/resumo_revisoes.csv",
+      "header": "mean_revision_pp",
+      "row": "Completa detailed Detalhada (~25 dias) 2020-Q2 2026-Q2",
+      "value": 0.0382,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "dados/processados/resumo_revisoes.csv",
+      "header": "mean_revision_pp",
+      "row": "Exclui 2020-2021 detailed Detalhada (~25 dias) 2022-Q1 2026-Q2",
+      "value": -0.0144,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "mean_revision_pp",
+      "row": "Completa detailed Detalhada (~25 dias) 2020-Q2 2026-Q2",
+      "value": 0.0382,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/resumo_revisoes.csv",
+      "header": "mean_revision_pp",
+      "row": "Completa latest Vintage atual (horizonte variável) 2005-Q1 2026-Q3",
+      "value": 0.1288,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "dados/processados/resumo_revisoes.csv",
+      "header": "mean_revision_pp",
+      "row": "Exclui 2020-2021 latest Vintage atual (horizonte variável) 2005-Q1 2026-Q3",
+      "value": 0.0865,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "mean_revision_pp",
+      "row": "Completa latest Vintage atual (horizonte variável) 2005-Q1 2026-Q3",
+      "value": 0.1288,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "attempt": "a3-c04-codex-sol-low-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_historicas_oficiais.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira revisão trimestral 1/1999 4/2025 PIB real trimestral: taxa YoY sem ajuste sazonal/calendári",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_historicas_oficiais.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira revisão anual 1/1999 4/2025 PIB real trimestral: taxa YoY sem ajuste sazonal/calendário 14–",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_historicas_oficiais.csv",
+      "header": "revisao_media_pp",
+      "row": "Segunda revisão anual 1/1999 4/2024 PIB real trimestral: taxa YoY sem ajuste sazonal/calendário 14–1",
+      "value": 0.17,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_historicas_oficiais.csv",
+      "header": "revisao_media_pp",
+      "row": "Terceira revisão anual 1/1999 4/2023 PIB real trimestral: taxa YoY sem ajuste sazonal/calendário 14–",
+      "value": 0.22,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_historicas_oficiais.csv",
+      "header": "revisao_media_pp",
+      "row": "Quarta revisão anual (\"final\") 1/1999 4/2022 PIB real trimestral: taxa YoY sem ajuste sazonal/calend",
+      "value": 0.32,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "attempt": "a3-c04-claude-fable-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → ~1 ano depois todos (2005T1–2026T2/3)",
+      "value": 0.069,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → ~1 ano depois regime flash t+30 (2020T2–)",
+      "value": 0.13,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → ~1 ano depois excl. 2020 (pandemia)",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → ~3 anos depois todos (2005T1–2026T2/3)",
+      "value": 0.122,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d1095, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → ~3 anos depois regime flash t+30 (2020T2–)",
+      "value": 0.21,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → ~3 anos depois excl. 2020 (pandemia)",
+      "value": 0.086,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → vintage atual (30/10/2026) todos (2005T1–2026T2/3)",
+      "value": 0.13,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → vintage atual (30/10/2026) excl. 2020 (pandemia)",
+      "value": 0.103,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → vintage atual (30/10/2026) 2014T1– (pós-SEC 2010)",
+      "value": 0.149,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_estatisticas_revisoes.csv",
+      "header": "media",
+      "row": "1ª → vintage atual (30/10/2026) regime flash t+30 (2020T2–)",
+      "value": 0.178,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisoes_yoy.csv",
+      "header": "media",
+      "row": "YoY: 1ª → ~1 ano",
+      "value": 0.089,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisoes_yoy.csv",
+      "header": "media",
+      "row": "YoY: 1ª → ~3 anos",
+      "value": 0.286,
+      "variant": "amostra 2005-latest, horizonte d1095, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisoes_yoy.csv",
+      "header": "media",
+      "row": "YoY: 1ª → atual",
+      "value": 0.348,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "attempt": "a3-c04-claude-haiku-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a3-c04-claude-sonnet-low-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "1ª→~1 ano depois Toda (2005T1+)",
+      "value": 0.07,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "1ª→~1 ano depois 2005-2019",
+      "value": 0.044,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "1ª→~1 ano depois 2020-2021 (covid)",
+      "value": 0.255,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "1ª→vintage atual Toda (2005T1+)",
+      "value": 0.133,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "1ª→vintage atual 2005-2019",
+      "value": 0.107,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "1ª→vintage atual 2020-2021 (covid)",
+      "value": 0.547,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "1ª→vintage atual",
+      "value": 0.019,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "attempt": "a3-c04-grok-low-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "media_pp",
+      "row": "primeira_para_ultima_vintage schnell_t45_2005T1_a_2020T1",
+      "value": 0.113,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "media_pp",
+      "row": "primeira_para_ultima_vintage flash_t30_desde_2020T2",
+      "value": 0.188,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "media_pp",
+      "row": "primeira_para_ultima_ex_2020T2_2021T2 flash_t30_desde_2020T2",
+      "value": 0.01,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "attempt": "a3-c04-claude-opus-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "Todos 1ª → ~1 ano depois",
+      "value": 0.08,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "Excl. 2020T1–2021T1 1ª → ~1 ano depois",
+      "value": 0.06,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "1ª div. 2005–2019 1ª → ~1 ano depois",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "Todos 1ª → ~3 anos depois",
+      "value": 0.13,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte r12_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "Excl. 2020T1–2021T1 1ª → ~3 anos depois",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "1ª div. 2005–2019 1ª → ~3 anos depois",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "Todos 1ª → vintage atual (30/10/2026)",
+      "value": 0.14,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "Excl. 2020T1–2021T1 1ª → vintage atual (30/10/2026)",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "1ª div. 2005–2019 1ª → vintage atual (30/10/2026)",
+      "value": 0.13,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "media_pp",
+      "row": "1ª div. flash 30 dias (2020T2+) 1ª → vintage atual (30/10/2026)",
+      "value": 0.17,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a3-c04-kimi-pro-low-normal-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6-luna",
+  "attempt": "a3-c04-codex-luna-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisoes_agregadas_destatis.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → primeira revisão trimestral 1999T1–2023T4 taxa YoY do PIB trimestral real, pp",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → primeira revisão trimestral 1999T1–2023T4 taxa YoY do PIB trimestral real, pp ",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisoes_agregadas_destatis.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → primeira revisão anual 1999T1–2023T4 taxa YoY do PIB trimestral real, pp",
+      "value": 0.12,
+      "variant": "amostra 2005-latest, horizonte r4_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → primeira revisão anual 1999T1–2023T4 taxa YoY do PIB trimestral real, pp True",
+      "value": 0.12,
+      "variant": "amostra 2005-latest, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisoes_agregadas_destatis.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → segunda revisão anual 1999T1–2022T4 taxa YoY do PIB trimestral real, pp",
+      "value": 0.2,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → segunda revisão anual 1999T1–2022T4 taxa YoY do PIB trimestral real, pp True",
+      "value": 0.2,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisoes_agregadas_destatis.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → terceira revisão anual 1999T1–2021T4 taxa YoY do PIB trimestral real, pp",
+      "value": 0.26,
+      "variant": "amostra 2005-latest, horizonte d1095, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → terceira revisão anual 1999T1–2021T4 taxa YoY do PIB trimestral real, pp True",
+      "value": 0.26,
+      "variant": "amostra 2005-latest, horizonte d1095, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/revisoes_agregadas_destatis.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → final após quarta revisão anual 1999T1–2020T4 taxa YoY do PIB trimestral real,",
+      "value": 0.26,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte latest, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "Primeira publicação → final após quarta revisão anual 1999T1–2020T4 taxa YoY do PIB trimestral real,",
+      "value": 0.26,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "attempt": "a3-c04-codex-astra-primary",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Disponível Detalhada 2020Q2 2026Q2",
+      "value": 0.0382,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Sem 2020–2021 Detalhada 2022Q1 2026Q2",
+      "value": -0.0144,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Desde 2022 Detalhada 2022Q1 2026Q2",
+      "value": -0.0144,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Disponível 12 meses 2005Q1 2025Q3",
+      "value": 0.0747,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Sem 2020–2021 12 meses 2005Q1 2025Q3",
+      "value": 0.0555,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Desde 2022 12 meses 2022Q1 2025Q3",
+      "value": 0.0705,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Disponível 36 meses 2005Q1 2023Q3",
+      "value": 0.109,
+      "variant": "amostra 2005-latest, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Sem 2020–2021 36 meses 2005Q1 2023Q3",
+      "value": 0.0612,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Comum até 2023T3 36 meses 2005Q1 2023Q3",
+      "value": 0.109,
+      "variant": "amostra 2005-latest, horizonte r12_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Desde 2022 36 meses 2022Q1 2023Q3",
+      "value": -0.0673,
+      "variant": null
+     }
+    ]
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Disponível Última disponível 2005Q1 2026Q2",
+      "value": 0.1303,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Sem 2020–2021 Última disponível 2005Q1 2026Q2",
+      "value": 0.0876,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Comum até 2023T3 Última disponível 2005Q1 2023Q3",
+      "value": 0.1448,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/estatisticas.csv",
+      "header": "media_pp",
+      "row": "Desde 2022 Última disponível 2022Q1 2026Q2",
+      "value": 0.0233,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-fable-5-1",
+  "attempt": "a4-result-3483107488830f2bf10bcb9b",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total 2ª publicação (t+55d), mesmo trimestre [só 2020T2+]",
+      "value": 0.038,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +1 trimestre",
+      "value": 0.032,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +1 trimestre",
+      "value": 0.018,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +1 ano",
+      "value": 0.072,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +1 ano",
+      "value": 0.044,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T2 +1 ano",
+      "value": 0.146,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +2 anos",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +2 anos",
+      "value": 0.057,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T2 +2 anos",
+      "value": 0.202,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +3 anos",
+      "value": 0.114,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d1095, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +3 anos",
+      "value": 0.082,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T2 +3 anos",
+      "value": 0.251,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total vintage atual (30/09/2026)",
+      "value": 0.131,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 vintage atual (30/09/2026)",
+      "value": 0.107,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "excl. 2020 (Covid) vintage atual (30/09/2026)",
+      "value": 0.103,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T2 vintage atual (30/09/2026)",
+      "value": 0.185,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "primeira vintage do arquivo (todos os anos) +1 ano",
+      "value": 0.037,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d365, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "só anos com 1ª divulgação de janeiro (t+15d) +1 ano",
+      "value": 0.036,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d365, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "primeira vintage do arquivo (todos os anos) +2 anos",
+      "value": 0.093,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "só anos com 1ª divulgação de janeiro (t+15d) +2 anos",
+      "value": 0.115,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "primeira vintage do arquivo (todos os anos) +3 anos",
+      "value": 0.218,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "só anos com 1ª divulgação de janeiro (t+15d) +3 anos",
+      "value": 0.258,
+      "variant": "amostra 2005-latest, horizonte d1095, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "primeira vintage do arquivo (todos os anos) vintage atual (30/07/2026)",
+      "value": 0.254,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte latest, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "2005T1-2026T2 rev_ultima",
+      "value": 0.353,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "só anos com 1ª divulgação de janeiro (t+15d) vintage atual (30/07/2026)",
+      "value": 0.299,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "1995T2-2026T2 rev_ultima",
+      "value": 0.15,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "1995T2-2004T4 rev_ultima",
+      "value": -0.296,
+      "variant": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-fable-5-1",
+  "attempt": "a4-result-ef74df142d631aabcc55c1b9",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total 2ª publicação (t+55d), mesmo trimestre [só 2020T2+]",
+      "value": 0.038,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +1 trimestre",
+      "value": 0.033,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +1 trimestre",
+      "value": 0.018,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +1 ano",
+      "value": 0.07,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +1 ano",
+      "value": 0.044,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T3 +1 ano",
+      "value": 0.139,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +2 anos",
+      "value": 0.088,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +2 anos",
+      "value": 0.057,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T3 +2 anos",
+      "value": 0.187,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total +3 anos",
+      "value": 0.116,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d1095, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 +3 anos",
+      "value": 0.082,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T3 +3 anos",
+      "value": 0.249,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "total vintage atual (30/10/2026)",
+      "value": 0.13,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2005T1-2019T4 vintage atual (30/10/2026)",
+      "value": 0.107,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "excl. 2020 (Covid) vintage atual (30/10/2026)",
+      "value": 0.103,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T3 vintage atual (30/10/2026)",
+      "value": 0.184,
+      "variant": null
+     },
+     {
+      "file": "entrega/v1_entrega_inicial/tabela_estatisticas_revisao_qoq.csv",
+      "header": "media",
+      "row": "2020T1-2026T2 vintage atual (30/09/2026)",
+      "value": 0.185,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "+1 ano",
+      "value": 0.036,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d365, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "1995T2-2026T3 +1 ano",
+      "value": 0.041,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte r4_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "2005T1-2026T3 +1 ano",
+      "value": 0.087,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "1995T2-2004T4 +1 ano",
+      "value": -0.056,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "+2 anos",
+      "value": 0.115,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/v1_entrega_inicial/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "+2 anos",
+      "value": 0.093,
+      "variant": "amostra 2005-2019, horizonte r8_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "+3 anos",
+      "value": 0.258,
+      "variant": "amostra 2005-latest, horizonte d1095, p.p. yoy"
+     },
+     {
+      "file": "entrega/v1_entrega_inicial/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "+3 anos",
+      "value": 0.218,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "2005T1-2026T3 vintage atual (30/10/2026)",
+      "value": 0.352,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     },
+     {
+      "file": "entrega/v1_entrega_inicial/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "vintage atual (30/07/2026)",
+      "value": 0.254,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte latest, p.p. yoy"
+     },
+     {
+      "file": "entrega/v1_entrega_inicial/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "2005T1-2026T2 rev_ultima",
+      "value": 0.353,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_estatisticas_revisao_anual.csv",
+      "header": "media",
+      "row": "vintage atual (30/07/2026)",
+      "value": 0.285,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "1995T2-2026T3 vintage atual (30/10/2026)",
+      "value": 0.15,
+      "variant": null
+     },
+     {
+      "file": "entrega/tabela_estatisticas_revisao_yoy_naoajustado.csv",
+      "header": "media",
+      "row": "1995T2-2004T4 vintage atual (30/10/2026)",
+      "value": -0.296,
+      "variant": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-haiku-5-5",
+  "attempt": "a4-result-2a7b39410e9f548579ae710d",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-haiku-5-5",
+  "attempt": "a4-result-9d421ce941134c0d9b81fa12",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-opus-5-5",
+  "attempt": "a4-result-3d6071b1164f9e1876e8517c",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos 3m",
+      "value": 0.023,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 3m",
+      "value": 0.006,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 3m",
+      "value": 0.008,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos 1a",
+      "value": 0.081,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 1a",
+      "value": 0.062,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 1a",
+      "value": 0.058,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos 3a",
+      "value": 0.121,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d1095, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 3a",
+      "value": 0.073,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 3a",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "3a",
+      "value": -0.093,
+      "variant": null
+     }
+    ]
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos atual",
+      "value": 0.142,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 atual",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 atual",
+      "value": 0.123,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "atual",
+      "value": 0.025,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-opus-5-5",
+  "attempt": "a4-result-0d31d475e4a29af9d6e3735e",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos 1a",
+      "value": 0.077,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 1a",
+      "value": 0.058,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 1a",
+      "value": 0.053,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos 3a",
+      "value": 0.125,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d1095, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 3a",
+      "value": 0.079,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 3a",
+      "value": 0.094,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "3a",
+      "value": -0.047,
+      "variant": null
+     }
+    ]
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "todos atual",
+      "value": 0.142,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "exceto 2020-21 atual",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "2005-2019 atual",
+      "value": 0.123,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_revisoes.csv",
+      "header": "revisao_media_pp",
+      "row": "atual",
+      "value": 0.023,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a4-result-707933cee855b7125ac853b7",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "12m, todas",
+      "value": 0.094,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "12m, todas [t/t arred. 0,1]",
+      "value": 0.089,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "12m, ex-COVID",
+      "value": 0.047,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "atual, todas",
+      "value": 0.155,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "atual, ex-COVID",
+      "value": 0.067,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "atual, ex-COVID [t/t arred. 0,1]",
+      "value": 0.076,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "atual, todas [t/t arred. 0,1]",
+      "value": 0.162,
+      "variant": null
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "atual, 2022T1+",
+      "value": 0.036,
+      "variant": null
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "atual, 2022T1+ [t/t arred. 0,1]",
+      "value": 0.044,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "claude-sonnet-5-5",
+  "attempt": "a4-result-61aafc429df9955ed8612314",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "A principal: defasagem<=50d, ex-COVID | 12m",
+      "value": 0.111,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "B defasagem<=50d, com COVID | 12m",
+      "value": 0.159,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "C todas as vintages, ex-COVID | 12m",
+      "value": 0.047,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "A principal: defasagem<=50d, ex-COVID | atual",
+      "value": 0.089,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "C todas as vintages, ex-COVID | atual",
+      "value": 0.067,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte latest, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "D todas, com COVID | atual",
+      "value": 0.155,
+      "variant": "amostra 2005-latest, horizonte latest, p.p. qoq"
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "B defasagem<=50d, com COVID | atual",
+      "value": 0.212,
+      "variant": null
+     },
+     {
+      "file": "entrega/resumo_revisoes.csv",
+      "header": "media",
+      "row": "E defasagem<=50d, ex-COVID, 2022T1+ | atual",
+      "value": 0.036,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6-astra",
+  "attempt": "a4-result-36b1df357fb3a26413a5fbab",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "1ª revisão trimestral 1999Q1 2025Q4",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "1ª revisão anual 1999Q1 2025Q4",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "2ª revisão anual 1999Q1 2024Q4",
+      "value": 0.17,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "3ª revisão anual 1999Q1 2023Q4",
+      "value": 0.22,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "4ª revisão anual (final) 1999Q1 2022Q4",
+      "value": 0.32,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6-astra",
+  "attempt": "a4-result-360764b3b37aeb29f00a817b",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "1ª revisão trimestral 1999Q1 2025Q4",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "1ª revisão anual 1999Q1 2025Q4",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "2ª revisão anual 1999Q1 2024Q4",
+      "value": 0.17,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "3ª revisão anual 1999Q1 2023Q4",
+      "value": 0.22,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais.csv",
+      "header": "media_pp",
+      "row": "4ª revisão anual (final) 1999Q1 2022Q4",
+      "value": 0.32,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6-luna",
+  "attempt": "a4-result-def395a6905cd9e0510f15b9",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6-luna",
+  "attempt": "a4-result-a126b20667ff2d2d7acf7f41",
+  "questions": {
+   "N_qoq_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "gpt-6.1-sol",
+  "attempt": "a4-result-950e033e9d1efbc69bfbdf10",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "Média (p.p.)",
+      "row": "Flash → detalhada",
+      "value": -0.0214,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "Média (p.p.)",
+      "row": "Flash → vigente",
+      "value": 0.0,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "1ª revisão trimestral 1999Q1 2025Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/D",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "1ª revisão anual 1999Q1 2025Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/DE/Met",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "2ª revisão anual 1999Q1 2024Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/DE/Met",
+      "value": 0.17,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "3ª revisão anual 1999Q1 2023Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/DE/Met",
+      "value": 0.22,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "4ª revisão anual (final) 1999Q1 2022Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.d",
+      "value": 0.32,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "gpt-6.1-sol",
+  "attempt": "a4-result-abc28b9280b2f4935ddd53e8",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "Média (p.p.)",
+      "row": "Flash → detalhada",
+      "value": -0.0214,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "Média (p.p.)",
+      "row": "Flash → vigente",
+      "value": 0.0,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "1ª revisão trimestral 1999Q1 2025Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/D",
+      "value": 0.05,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "1ª revisão anual 1999Q1 2025Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/DE/Met",
+      "value": 0.1,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "2ª revisão anual 1999Q1 2024Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/DE/Met",
+      "value": 0.17,
+      "variant": "amostra 2005-latest, horizonte d730, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "3ª revisão anual 1999Q1 2023Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.de/DE/Met",
+      "value": 0.22,
+      "variant": "amostra 2005-2019, horizonte r12_releases, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/revisoes_oficiais_yoy.csv",
+      "header": "media_pp",
+      "row": "4ª revisão anual (final) 1999Q1 2022Q4 YoY real sem ajuste sazonal/calendario https://www.destatis.d",
+      "value": 0.32,
+      "variant": "amostra 2005-2019, horizonte latest, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "grok-4.7",
+  "attempt": "a4-result-40043217f5c1cf24cc7befff",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Segunda vintage, toda a amostra",
+      "value": 0.026,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Segunda vintage, Schnellmeldung t+30 (desde 2020T2)",
+      "value": 0.038,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Cerca de 1 ano",
+      "value": 0.07,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     },
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Cerca de 1 ano, sem cruzar mudança de base",
+      "value": 0.084,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. q/q anualizado"
+     },
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "Cerca de 1 ano, sem 2020T1–2021T2",
+      "value": 0.046,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "YoY da série SA, cerca de 1 ano",
+      "value": 0.09,
+      "variant": "amostra 2005-2019, horizonte r4_releases, p.p. yoy"
+     },
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "PIB anual real, cerca de 1 ano",
+      "value": 0.036,
+      "variant": "amostra 2005-latest ex 2020-21, horizonte d365, p.p. yoy"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "grok-4.7",
+  "attempt": "a4-result-073212b40c29c3f3a8640937",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_horizontes.csv",
+      "header": "media_pp",
+      "row": "q/q, resultado detalhado da Schnellmeldung",
+      "value": 0.038,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a4-result-71154f77ea9b06b3f9351b93",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> detalhada 2020T2-2026T2",
+      "value": 0.036,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> detalhada 2022T1-2026T2",
+      "value": -0.0167,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> vintage atual 2020T2-2026T2",
+      "value": 0.188,
+      "variant": null
+     },
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> vintage atual 2022T1-2026T2",
+      "value": 0.0333,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "model": "kimi-code/k3.1-pro",
+  "attempt": "a4-result-15f597b0e05b345849f2bb1f",
+  "questions": {
+   "N_qoq_short": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> detalhada 2020T2-2026T2",
+      "value": 0.036,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. qoq"
+     },
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> detalhada 2022T1-2026T2",
+      "value": -0.0167,
+      "variant": "amostra 2005-2019, horizonte next_release, p.p. q/q anualizado"
+     }
+    ],
+    "conflicts": []
+   },
+   "N_qoq_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_qoq_latest": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> vintage atual 2020T2-2026T2",
+      "value": 0.188,
+      "variant": null
+     },
+     {
+      "file": "entrega/resumo_estatistico.csv",
+      "header": "media_pp",
+      "row": "Primeira -> vintage atual 2022T1-2026T2",
+      "value": 0.0333,
+      "variant": null
+     }
+    ]
+   },
+   "N_yoy_short": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_one_year": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_two_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_three_years": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_yoy_latest": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ }
+]

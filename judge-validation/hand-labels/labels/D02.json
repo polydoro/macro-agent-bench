@@ -1,0 +1,114 @@
+{
+  "answers": {
+    "C_capital_yoy": {
+      "choice": "NAO_ATENDE",
+      "value": null
+    },
+    "C_construcao_yoy": {
+      "choice": "NAO_ATENDE",
+      "value": null
+    },
+    "C_consumo_yoy": {
+      "choice": "NAO_ATENDE",
+      "value": null
+    },
+    "C_energia_yoy": {
+      "choice": "NAO_ATENDE",
+      "value": null
+    },
+    "C_intermediarios_yoy": {
+      "choice": "NAO_ATENDE",
+      "value": null
+    },
+    "C_total_3m": {
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_total_level": {
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_total_yoy": {
+      "choice": "NAO_ATENDE",
+      "value": null
+    },
+    "I1": {
+      "choice": "ATENDE",
+      "value": null
+    },
+    "I2": {
+      "choice": "ATENDE",
+      "value": null
+    },
+    "N_capital_yoy": {
+      "choice": "NAO_MOSTRADO",
+      "value": null
+    },
+    "N_construcao_yoy": {
+      "choice": "NAO_MOSTRADO",
+      "value": null
+    },
+    "N_consumo_yoy": {
+      "choice": "NAO_MOSTRADO",
+      "value": null
+    },
+    "N_energia_yoy": {
+      "choice": "NAO_MOSTRADO",
+      "value": null
+    },
+    "N_intermediarios_yoy": {
+      "choice": "NAO_MOSTRADO",
+      "value": null
+    },
+    "N_total_3m": {
+      "choice": "ATENDE",
+      "value": null
+    },
+    "N_total_yoy": {
+      "choice": "ATENDE",
+      "value": null
+    },
+    "P1": {
+      "choice": "PARCIAL",
+      "value": null
+    },
+    "P2": {
+      "choice": "ATENDE",
+      "value": null
+    }
+  },
+  "done": true,
+  "doneAt": "2026-11-17T18:08:02.097Z",
+  "note": "",
+  "updatedAt": "2026-11-17T18:08:02.097Z",
+  "corrections": [
+    {
+      "question": "N_total_yoy",
+      "original": {
+        "choice": "NAO_MOSTRADO",
+        "value": null
+      },
+      "corrected": {
+        "choice": "ATENDE",
+        "value": null
+      },
+      "reason": "bar chart prints the value (+2.30% YoY, +1.62% 3m); original flag judged a labelling slip",
+      "approved_by": "the author",
+      "approved_at": "2026-11-18"
+    },
+    {
+      "question": "N_total_3m",
+      "original": {
+        "choice": "NAO_MOSTRADO",
+        "value": null
+      },
+      "corrected": {
+        "choice": "ATENDE",
+        "value": null
+      },
+      "reason": "bar chart prints the value (+2.30% YoY, +1.62% 3m); original flag judged a labelling slip",
+      "approved_by": "the author",
+      "approved_at": "2026-11-18"
+    }
+  ]
+}

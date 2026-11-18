@@ -1,0 +1,29 @@
+phase,task,model,component,why,months_compared,last,rmse_pp,verdict,delivery_latest_3msaar,reference_latest_3msaar
+A1,S05,claude-fable-5-1,core,inconclusive,24,2026-09,0.93,pass,2.41,2.32
+A1,S05,claude-fable-5-1,neig,inconclusive,24,2026-09,0.59,pass,0.95,0.67
+A1,S05,gpt-6-astra,serv,inconclusive,24,2026-09,1.16,fail,2.86,2.69
+A1,S05,gpt-6-luna,neig,borderline Italian goods,24,2025-12,1.25,fail,-0.13,0.1
+A1,S05,gpt-6-luna,serv,inconclusive,24,2025-12,0.77,pass,2.31,1.87
+A1,S05,gpt-6.1-sol,serv,inconclusive,24,2026-09,1.16,fail,2.86,2.69
+A1,S05,grok-4.7,total,inconclusive,24,2026-09,1.39,fail,4.05,5.7
+A1,S05,kimi-code/k3.1-pro,neig,borderline Italian goods,24,2025-12,1.25,fail,-0.13,0.1
+A1,S05,kimi-code/k3.1-pro,serv,inconclusive,24,2025-12,0.77,pass,2.31,1.87
+A2,S05,gpt-6-astra,core,inconclusive,24,2026-09,0.88,pass,2.54,2.32
+A2,S05,gpt-6-astra,neig,inconclusive,24,2026-09,0.63,pass,0.88,0.67
+A2,S05,gpt-6-astra,serv,inconclusive,24,2026-09,0.48,pass,2.84,2.69
+A2,S05,gpt-6-luna,neig,borderline Italian goods,24,2026-09,0.65,pass,0.68,0.67
+A2,S05,gpt-6-luna,serv,inconclusive,24,2026-09,0.56,pass,2.84,2.69
+A2,S05,grok-4.7,neig,inconclusive,24,2026-09,0.66,pass,0.78,0.67
+A2,S05,grok-4.7,serv,inconclusive,24,2026-09,0.5,pass,2.84,2.69
+A2,S05,kimi-code/k3.1-pro,neig,borderline Italian goods,24,2026-09,0.65,pass,0.68,0.67
+A2,S05,kimi-code/k3.1-pro,serv,inconclusive,24,2026-09,0.56,pass,2.84,2.69
+A3,S05,gpt-6-astra,serv,inconclusive,24,2026-10,1.15,fail,3.47,3.59
+A3,S05,gpt-6-luna,serv,inconclusive,24,2026-10,1.15,fail,3.47,3.59
+A3,S05,gpt-6.1-sol,serv,inconclusive,24,2026-10,1.15,fail,3.47,3.59
+A3,S05,claude-sonnet-5-5,total,inconclusive,24,2026-10,1.33,fail,11.71,9.63
+A3,S05,claude-opus-5-5,neig,borderline Italian goods,24,2026-10,0.79,pass,3.84,2.17
+A3,S05,claude-opus-5-5,serv,inconclusive,24,2026-10,0.54,pass,3.49,3.59
+A3,S05,claude-fable-5-1,core,inconclusive,24,2026-10,0.9,pass,3.02,3.06
+A3,S05,claude-fable-5-1,neig,inconclusive,24,2026-10,0.77,pass,4.1,2.17
+A3,S05,claude-fable-5-1,serv,inconclusive,24,2026-10,0.45,pass,3.45,3.59
+A3,S06,kimi-code/k3.1-pro,core,inconclusive,24,2026-10,0.62,pass,2.12,2.68

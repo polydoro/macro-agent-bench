@@ -1,0 +1,30 @@
+[
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "question": "N_bens_nao_energeticos_yoy",
+  "correct": true,
+  "note": "dados/tabela_aberturas_set2026.csv, yoy_set26, ISTAT NIC 'Altri beni (non energetici, non alimentari)' = 1.0. NIC analogue of HICP non-energy industrial goods (0.6); the rubric admits NIC or HICP. Same 1.0 appears in Sonnet A1's saved ISTAT table."
+ },
+ {
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "question": "N_alimentos_yoy",
+  "correct": true,
+  "note": "entrega/tabela_componentes_out2026.csv, yoy_out26, ISTAT NIC 'beni alimentari' = 2.7 (HICP food 2.9). NIC analogue; the rubric admits NIC or HICP. Same 2.7 in Kimi A3's saved table."
+ },
+ {
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "question": "N_alimentos_yoy",
+  "correct": true,
+  "note": "entrega/resumo_outubro_2026.csv, 'Alimentos NIC' yoy_pct = 2.7 for 2026-10 (HICP food 2.9). NIC analogue; the rubric admits NIC or HICP."
+ },
+ {
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "question": "N_energia_3me",
+  "correct": true,
+  "note": "entrega/tabela_setembro_2026.csv, 2026-09 NRG, tres_m_nsa_anualizada_pct = 39.64 (unadjusted energy 3m annualised, admitted 39.71 +/- 0.3; energy admits SA or unadjusted)."
+ }
+]

@@ -1,0 +1,4806 @@
+[
+ {
+  "phase": "A1",
+  "task": "S01",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "taskwise-v7-s01-claude-fable-r1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_headline_B-F.csv",
+      "header": "yoy_ca",
+      "row": "2026-08",
+      "value": 2.26,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais_todas_aberturas.csv",
+      "header": "Produção total (indústria + energia + construção, B–F) yoy_ca",
+      "row": "2026-08",
+      "value": 2.26,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY % (aj. calendário)",
+      "row": "Produção total (indústria + energia + construção, B–F) — headline Destatis",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_headline_B-F.csv",
+      "header": "3msaar",
+      "row": "2026-08",
+      "value": 1.62,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais_todas_aberturas.csv",
+      "header": "Produção total (indústria + energia + construção, B–F) 3msaar",
+      "row": "2026-08",
+      "value": 1.62,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "3msaar %",
+      "row": "Produção total (indústria + energia + construção, B–F) — headline Destatis",
+      "value": 1.6,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_headline_B-F.csv",
+      "header": "3m3m",
+      "row": "2026-08",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "3m/3m %",
+      "row": "Produção total (indústria + energia + construção, B–F) — headline Destatis",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_trimestral_B-F.csv",
+      "header": "var_tt_anualizada_%",
+      "row": "2019Q2",
+      "value": -3.62,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_mensais_todas_aberturas.csv",
+      "header": "Bens intermediários yoy_ca",
+      "row": "2026-08",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY % (aj. calendário)",
+      "row": "Bens intermediários",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_mensais_todas_aberturas.csv",
+      "header": "Bens de capital yoy_ca",
+      "row": "2026-08",
+      "value": -0.24,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY % (aj. calendário)",
+      "row": "Bens de capital",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_mensais_todas_aberturas.csv",
+      "header": "Bens de consumo yoy_ca",
+      "row": "2026-08",
+      "value": 0.46,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY % (aj. calendário)",
+      "row": "Bens de consumo",
+      "value": 0.5,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_mensais_todas_aberturas.csv",
+      "header": "Energia (MIG energia, excl. seção E) yoy_ca",
+      "row": "2026-08",
+      "value": 7.57,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY % (aj. calendário)",
+      "row": "Energia (MIG energia, excl. seção E)",
+      "value": 7.6,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_mensais_todas_aberturas.csv",
+      "header": "Construção (F) yoy_ca",
+      "row": "2026-08",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY % (aj. calendário)",
+      "row": "Construção (F)",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S01",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "taskwise-v7-s01-claude-haiku-r1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_producao_industrial_de.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01",
+      "value": 2.33,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/destaque_agosto_2026.csv",
+      "header": "yoy_pct_ajustado_calendario",
+      "row": "Produção total (real  SA e ajustada ao calendário) Destatis PD26/355",
+      "value": 2.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_producao_industrial_de.csv",
+      "header": "3msaar",
+      "row": "2026-08-01",
+      "value": 1.62,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S01",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "taskwise-v7-s01-claude-opus-r1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_processadas.csv",
+      "header": "yoy_CA B-D",
+      "row": "2026-08",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_processadas.csv",
+      "header": "yoy_CA B-D_F",
+      "row": "2026-08",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY ajust. calend. %",
+      "row": "Total (indústria + construção)",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_processadas.csv",
+      "header": "3msaar_SA B-D",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_processadas.csv",
+      "header": "3msaar_SA B-D_F",
+      "row": "2026-08",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3msaar %",
+      "row": "Total (indústria + construção)",
+      "value": 1.6,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3m/3m % (não anual.)",
+      "row": "Total (indústria + construção)",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_processadas.csv",
+      "header": "yoy_CA MIG_ING",
+      "row": "2026-08",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY ajust. calend. %",
+      "row": "Bens intermediários",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_processadas.csv",
+      "header": "yoy_CA MIG_CAG",
+      "row": "2026-08",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY ajust. calend. %",
+      "row": "Bens de capital",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_processadas.csv",
+      "header": "yoy_CA MIG_COG",
+      "row": "2026-08",
+      "value": 0.4577,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY ajust. calend. %",
+      "row": "Bens de consumo",
+      "value": 0.5,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY ajust. calend. %",
+      "row": "Eletricidade e gás (D)",
+      "value": 9.5,
+      "variant": "energia NACE D, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY ajust. calend. %",
+      "row": "Construção",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S01",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "taskwise-v7-s01-claude-sonnet-low-normal-r1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_CA B-D",
+      "row": "2026-08",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Indústria (B-D, ex-construção)",
+      "value": 0.4,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "3msaar B-D",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Indústria (B-D, ex-construção)",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_CA MIG_ING",
+      "row": "2026-08",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Bens intermediários",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_CA MIG_CAG",
+      "row": "2026-08",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Bens de capital",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_CA MIG_DCOG",
+      "row": "2026-08",
+      "value": 5.3206,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores.csv",
+      "header": "YoY_CA MIG_NDCOG",
+      "row": "2026-08",
+      "value": -0.4405,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S01",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "taskwise-v7-s01-codex-astra-r1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P000000 Total (inclui construção)",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P300000 Indústria sem energia e construção",
+      "value": -0.3589,
+      "variant": "B_C \"Industrie\" do Destatis (sem energia e construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P000000 Total (inclui construção)",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "tres_msaar",
+      "row": "2026-08-01 A2P000000 Total (inclui construção)",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "tres_msaar",
+      "row": "2026-08-01 A2P300000 Indústria sem energia e construção",
+      "value": -1.8823,
+      "variant": "B_C \"Industrie\" do Destatis (sem energia e construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "tres_msaar",
+      "row": "2026-08-01 A2P000000 Total (inclui construção)",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P310000 Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P310000 Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P320000 Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P320000 Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P330000 Bens de consumo duráveis",
+      "value": 5.3206,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P340000 Bens de consumo não duráveis",
+      "value": -0.4405,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P500000 Energia",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 A2P500000 Energia",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/metricas_historicas.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 N2F000000 Construção",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 N2F000000 Construção",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S01",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "taskwise-v7-s01-codex-luna-r1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 B-D Indústria total (B–D) CA 2026-08",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 B-D Indústria total (B–D) SCA 2026-08",
+      "value": 0.5543,
+      "variant": "B-D (indústria sem construção), YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "YoY CA (%)",
+      "row": "Indústria total (B–D)",
+      "value": 0.36,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "three_month_saar_pct",
+      "row": "2026-08-01 B-D Indústria total (B–D) SCA 2026-08",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "3msaar SA (%)",
+      "row": "Indústria total (B–D)",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "three_month_saar_pct",
+      "row": "2026-08-01 B-D Indústria total (B–D) CA 2026-08",
+      "value": -17.019,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_ING Bens intermediários CA 2026-08",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_ING Bens intermediários SCA 2026-08",
+      "value": -1.0664,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "YoY CA (%)",
+      "row": "Bens intermediários",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_CAG Bens de capital CA 2026-08",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_CAG Bens de capital SCA 2026-08",
+      "value": -0.1037,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "YoY CA (%)",
+      "row": "Bens de capital",
+      "value": -0.24,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_COG Bens de consumo CA 2026-08",
+      "value": 0.4577,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_COG Bens de consumo SCA 2026-08",
+      "value": 0.6615,
+      "variant": "MIG_COG, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "YoY CA (%)",
+      "row": "Bens de consumo",
+      "value": 0.46,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_NRG_X_E Energia CA 2026-08",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_producao_alemanha.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_NRG_X_E Energia SCA 2026-08",
+      "value": 7.8292,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "YoY CA (%)",
+      "row": "Energia",
+      "value": 7.57,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S01",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "taskwise-v7-s01-codex-sol-low-normal-r1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_cal",
+      "row": "2026-08-01 Total: inclui energia e construção https://www.destatis.de/EN/Themes/Economy/Short-Term-I",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY calendário (%)",
+      "row": "Total: inclui energia e construção 2026-08",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_nsa",
+      "row": "2026-08-01 Total: inclui energia e construção https://www.destatis.de/EN/Themes/Economy/Short-Term-I",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total: inclui energia e construção https://www.destatis.de/EN/Themes/Economy/Short-Term-I",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "3msaar (%)",
+      "row": "Total: inclui energia e construção 2026-08",
+      "value": 1.62,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3m3m",
+      "row": "2026-08-01 Total: inclui energia e construção https://www.destatis.de/EN/Themes/Economy/Short-Term-I",
+      "value": 0.4025,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_cal",
+      "row": "2026-08-01 Bens intermediários https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Produ",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY calendário (%)",
+      "row": "Bens intermediários 2026-08",
+      "value": -1.103,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_nsa",
+      "row": "2026-08-01 Bens intermediários https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Produ",
+      "value": -0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_capital_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_cal",
+      "row": "2026-08-01 Bens de capital https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Productio",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY calendário (%)",
+      "row": "Bens de capital 2026-08",
+      "value": -0.238,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_nsa",
+      "row": "2026-08-01 Bens de capital https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Productio",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_cal",
+      "row": "2026-08-01 Bens de consumo duráveis https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/",
+      "value": 5.3206,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_cal",
+      "row": "2026-08-01 Bens de consumo não duráveis https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicat",
+      "value": -0.4405,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_nsa",
+      "row": "2026-08-01 Energia (exceto seção E) https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/",
+      "value": 7.7,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S01",
+  "model": "grok-4.7",
+  "final_attempt_id": "taskwise-v7-s01-grok-low-normal-r1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "yoy_ca_pct",
+      "row": "Produzierendes Gewerbe (inclui construção) total P",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "yoy_ca_pct",
+      "row": "Produzierendes Gewerbe sem construção (B–D) sem_construcao P",
+      "value": 0.4,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "total_yoy_ca",
+      "row": "2026-08",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/destatis_x13_total.csv",
+      "header": "yoy_nsa",
+      "row": "2026-08-01",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/painel_indicadores.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 total Produzierendes Gewerbe (inclui construção) P",
+      "value": 0.0226,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/painel_indicadores.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 sem_construcao Produzierendes Gewerbe sem construção (B–D) P",
+      "value": 0.0036,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_indicadores.csv",
+      "header": "tres_msaar",
+      "row": "2026-08 total Produzierendes Gewerbe (inclui construção) P",
+      "value": 0.0162,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/painel_indicadores.csv",
+      "header": "tres_msaar",
+      "row": "2026-08 sem_construcao Produzierendes Gewerbe sem construção (B–D) P",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "tres_msaar_pct",
+      "row": "Produzierendes Gewerbe (inclui construção) total P",
+      "value": 1.6,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "yoy_ca_pct",
+      "row": "Bens intermediários intermediarios P",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "intermediarios_yoy_ca",
+      "row": "2026-08",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_indicadores.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 intermediarios Bens intermediários P",
+      "value": -0.011,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/painel_indicadores.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 capital Bens de capital P",
+      "value": -0.0024,
+      "variant": "MIG_CAG, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "yoy_ca_pct",
+      "row": "Bens de capital capital P",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "capital_yoy_ca",
+      "row": "2026-08",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "yoy_ca_pct",
+      "row": "Bens de consumo duráveis duraveis P",
+      "value": 5.3,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "yoy_ca_pct",
+      "row": "Bens de consumo não duráveis nao_duraveis P",
+      "value": -0.4,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/destatis_x13_energia.csv",
+      "header": "yoy_nsa",
+      "row": "2026-08-01",
+      "value": 7.7,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "yoy_ca_pct",
+      "row": "Energia energia P",
+      "value": 7.6,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "energia_yoy_ca",
+      "row": "2026-08",
+      "value": 7.6,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_indicadores.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 energia Energia P",
+      "value": 0.0757,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_construcao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "yoy_ca_pct",
+      "row": "Construção (seção F) construcao P",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "construcao_yoy_ca",
+      "row": "2026-08",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_indicadores.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 industria Indústria (sem energia e sem construção) P",
+      "value": -0.0036,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/painel_indicadores.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 construcao Construção (seção F) P",
+      "value": 0.105,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_referencia.csv",
+      "header": "yoy_ca_pct",
+      "row": "Indústria (sem energia e sem construção) industria P",
+      "value": -0.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S01",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "taskwise-v7-s01-kimi-pro-low-normal-r1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 B-D Indústria total (sem construção) SA_CAL",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_release_destatis.csv",
+      "header": "yoy_cal_pct",
+      "row": "2026-08-01 Produção total (inclui construção)",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes_eurostat.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 B-D Indústria total (sem construção)",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "m3m3_pct",
+      "row": "2026-08-01 B-D Indústria total (sem construção) SA_CAL",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01 B-D Indústria total (sem construção) SA_CAL",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_release_destatis.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01 Produção total (inclui construção)",
+      "value": 1.6096,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_release_destatis.csv",
+      "header": "m3m3_pct",
+      "row": "2026-08-01 Produção total (inclui construção)",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_ING Bens intermediários SA_CAL",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes_eurostat.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_ING Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_CAG Bens de capital SA_CAL",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes_eurostat.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_CAG Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_COG Bens de consumo SA_CAL",
+      "value": 0.4577,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes_eurostat.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_COG Bens de consumo",
+      "value": 0.4577,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_NRG_X_E Energia (grupo MIG) SA_CAL",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes_eurostat.csv",
+      "header": "yoy_pct",
+      "row": "2026-08-01 MIG_NRG_X_E Energia (grupo MIG)",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S01",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a2-s01-claude-fable-high-normal-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ajustes_BD_ultimos24m.csv",
+      "header": "YoY_CA_%",
+      "row": "2026-08-01",
+      "value": 0.4,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ajustes_BD_ultimos24m.csv",
+      "header": "YoY_SA_%",
+      "row": "2026-08-01",
+      "value": 0.6,
+      "variant": "B-D (indústria sem construção), YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_mensal_ind_ex_construcao_BD.csv",
+      "header": "YoY CA %",
+      "row": "2026-08",
+      "value": 0.4,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ajustes_BD_ultimos24m.csv",
+      "header": "YoY_NSA_%",
+      "row": "2026-08-01",
+      "value": 1.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_trimestral_sa.csv",
+      "header": "yoy_%",
+      "row": "Total (B–D, F) 2024T4 completo",
+      "value": -3.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_trimestral_sa.csv",
+      "header": "yoy_%",
+      "row": "Total (B–D, F) 2025T1 completo",
+      "value": -1.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_mensal_ind_ex_construcao_BD.csv",
+      "header": "3m/3m %",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_mensal_ind_ex_construcao_BD.csv",
+      "header": "3msaar %",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_mensal_total_BDF.csv",
+      "header": "3msaar %",
+      "row": "2026-08",
+      "value": 1.6,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_mensal_total_BDF.csv",
+      "header": "3m/3m %",
+      "row": "2026-08",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "3m/3m_%",
+      "row": "A2P000000 Produção total (Produzierendes Gewerbe: ind. + energia + construção, B–D, F) ajuste de cal",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "3m/3m_%",
+      "row": "A2P300000 Indústria (exceto energia e construção) ajuste de calendário (CA)",
+      "value": -0.5,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY_%",
+      "row": "A2P310000 Bens intermediários ajuste de calendário (CA)",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY_%",
+      "row": "A2P320000 Bens de capital ajuste de calendário (CA)",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY_%",
+      "row": "A2P350000 Bens de consumo série SA (sem CA isolada)",
+      "value": 0.7,
+      "variant": "MIG_COG, YoY ajustado sazonal e por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY_%",
+      "row": "A2P500000 Energia (agrupamento principal) ajuste de calendário (CA)",
+      "value": 7.6,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY_%",
+      "row": "N2F000000 Construção (seção F) ajuste de calendário (CA)",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY_%",
+      "row": "A2R410050 Construção de edifícios e engenharia civil (41+42) ajuste de calendário (CA)",
+      "value": 4.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo_2026-08.csv",
+      "header": "YoY_%",
+      "row": "N2F430000 Atividades especializadas de construção (43) série SA (sem CA isolada)",
+      "value": 13.1,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_trimestral_sa.csv",
+      "header": "yoy_%",
+      "row": "Construção (F) 2024T4 completo",
+      "value": -1.2,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S01",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a2-s01-claude-haiku-high-normal-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/indicadores_DE_B-D.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/indicadores_DE_B_C_X_MIG_NRG.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08",
+      "value": -0.3589,
+      "variant": "B_C \"Industrie\" do Destatis (sem energia e construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/indústria_total_ultimos_12m.csv",
+      "header": "YoY CA (%)",
+      "row": "2026-08",
+      "value": 0.36,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/indicadores_DE_B-D.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processados/indicadores_DE_B_C_X_MIG_NRG.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08",
+      "value": -1.8823,
+      "variant": "B_C \"Industrie\" do Destatis (sem energia e construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/indústria_total_ultimos_12m.csv",
+      "header": "3msaar (%)",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/indicadores_DE_MIG_ING.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultima_observacao.csv",
+      "header": "YoY CA (%)",
+      "row": "Bens intermediários",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/indicadores_DE_MIG_CAG.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultima_observacao.csv",
+      "header": "YoY CA (%)",
+      "row": "Bens de capital",
+      "value": -0.24,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/indicadores_DE_MIG_COG.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08",
+      "value": 0.4577,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultima_observacao.csv",
+      "header": "YoY CA (%)",
+      "row": "Bens de consumo",
+      "value": 0.46,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processados/indicadores_DE_MIG_NRG_X_E.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultima_observacao.csv",
+      "header": "YoY CA (%)",
+      "row": "Energia",
+      "value": 7.57,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S01",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a2-s01-claude-opus-high-normal-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "YoY",
+      "row": "2026-08 Produção total (B–D + F, inclui construção) – manchete",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "YoY",
+      "row": "2026-08 Indústria + energia (B–D, sem construção)",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab1_resumo_2026-08.csv",
+      "header": "YoY ago/26",
+      "row": "Total Produção total (B–D + F, inclui construção) – manchete CA Bundesbank/Destatis (CA)",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "YoY",
+      "row": "2026-08 10–12 Alimentos, bebidas e fumo",
+      "value": 0.8342,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab1_resumo_2026-08.csv",
+      "header": "YoY ago/26",
+      "row": "Setores 10–12 Alimentos, bebidas e fumo CA Eurostat sts_inpr_m (CA, dado transmitido pela Destatis)",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/tab4_checagem_vs_comunicado_destatis.csv",
+      "header": "calculado",
+      "row": "Total YoY jul/26 (CA) True",
+      "value": -1.83,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "3msaar_SA",
+      "row": "2026-08 Produção total (B–D + F, inclui construção) – manchete",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "3m3m_SA",
+      "row": "2026-08 Indústria + energia (B–D, sem construção)",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "3msaar_SA",
+      "row": "2026-08 Indústria + energia (B–D, sem construção)",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "3m3m_SA",
+      "row": "2026-08 Produção total (B–D + F, inclui construção) – manchete",
+      "value": 0.4025,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "3msaar_SA",
+      "row": "2026-08 10–12 Alimentos, bebidas e fumo",
+      "value": 0.6862,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab1_resumo_2026-08.csv",
+      "header": "3m/3m (não anual.)",
+      "row": "Total Produção total (B–D + F, inclui construção) – manchete CA Bundesbank/Destatis (CA)",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "YoY",
+      "row": "2026-08 Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab1_resumo_2026-08.csv",
+      "header": "YoY ago/26",
+      "row": "Grandes categorias Bens intermediários CA Bundesbank/Destatis (CA)",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "YoY",
+      "row": "2026-08 Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab1_resumo_2026-08.csv",
+      "header": "YoY ago/26",
+      "row": "Grandes categorias Bens de capital CA Bundesbank/Destatis (CA)",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "YoY",
+      "row": "2026-08 Bens de consumo",
+      "value": 0.4577,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab1_resumo_2026-08.csv",
+      "header": "YoY ago/26",
+      "row": "Grandes categorias Bens de consumo CA Eurostat sts_inpr_m (CA, dado transmitido pela Destatis)",
+      "value": 0.5,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "YoY",
+      "row": "2026-08 Energia (grupo principal)",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab1_resumo_2026-08.csv",
+      "header": "YoY ago/26",
+      "row": "Grandes categorias Energia (grupo principal) CA Bundesbank/Destatis (CA)",
+      "value": 7.6,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series_processadas.csv",
+      "header": "YoY",
+      "row": "2026-08 Construção (F)",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/tab1_resumo_2026-08.csv",
+      "header": "YoY ago/26",
+      "row": "Grandes categorias Construção (F) CA Bundesbank/Destatis (CA)",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/tab4_checagem_vs_comunicado_destatis.csv",
+      "header": "calculado",
+      "row": "Indústria ex-energia/construção YoY (CA) True",
+      "value": -0.36,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/tab4_checagem_vs_comunicado_destatis.csv",
+      "header": "publicado_Destatis",
+      "row": "Indústria ex-energia/construção YoY (CA) True",
+      "value": -0.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S01",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a2-s01-claude-sonnet-high-normal-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_total_ultimos_18m.csv",
+      "header": "YoY CA (%)",
+      "row": "2026-08",
+      "value": 0.36,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY CA (%)",
+      "row": "Indústria total (B-D, sem construção) B-D",
+      "value": 0.36,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_total_ultimos_18m.csv",
+      "header": "3msaar (%)",
+      "row": "2026-08",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "3msaar (% a.a.)",
+      "row": "Indústria total (B-D, sem construção) B-D",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "3m/3m não anualizado (%)",
+      "row": "Indústria total (B-D, sem construção) B-D",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY CA (%)",
+      "row": "Bens intermediários MIG_ING",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY CA (%)",
+      "row": "Bens de capital MIG_CAG",
+      "value": -0.24,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY CA (%)",
+      "row": "Bens de consumo MIG_COG",
+      "value": 0.46,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY CA (%)",
+      "row": "Eletricidade, gás e vapor (D) D",
+      "value": 9.54,
+      "variant": "energia NACE D, YoY ajustado por calendário",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY CA (%)",
+      "row": "Energia (MIG, exceto seção E) MIG_NRG_X_E",
+      "value": 7.57,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimo_dado.csv",
+      "header": "YoY CA (%)",
+      "row": "Construção (F) F",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S01",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a2-s01-codex-astra-high-normal-timeout-retry1",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 total Total: indústria, energia e construção",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_total_13_meses.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 total Total: indústria, energia e construção",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_ca_pct",
+      "row": "total 2026-08 Total: indústria, energia e construção",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "tres_msaar_pct",
+      "row": "2026-08 total Total: indústria, energia e construção",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_total_13_meses.csv",
+      "header": "tres_msaar_pct",
+      "row": "2026-08 total Total: indústria, energia e construção",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "tres_msaar_pct",
+      "row": "total 2026-08 Total: indústria, energia e construção",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "calculado",
+      "row": "3m total vs comunicado (não anualizado) total OK",
+      "value": 0.4025,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "referencia",
+      "row": "3m total vs comunicado (não anualizado) total OK",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/validacao.csv",
+      "header": "calculado",
+      "row": "3m total vs comunicado (não anualizado) total OK",
+      "value": 0.4025,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 intermediarios Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_ca_pct",
+      "row": "intermediarios 2026-08 Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "intermediarios 2026-08 Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 capital Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_ca_pct",
+      "row": "capital 2026-08 Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "capital 2026-08 Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 duraveis Consumo durável",
+      "value": 5.3206,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 nao_duraveis Consumo não durável",
+      "value": -0.4405,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 energia Energia",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_ca_pct",
+      "row": "energia 2026-08 Energia",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "energia 2026-08 Energia",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 construcao Construção",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_ca_pct",
+      "row": "construcao 2026-08 Construção",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas_e_dados.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "construcao 2026-08 Construção",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S01",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a2-s01-codex-luna-high-normal-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha_metricas.csv",
+      "header": "B-D | YoY CA (%)",
+      "row": "2026-08-31",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_alemanha_metricas.csv",
+      "header": "C | YoY CA (%)",
+      "row": "2026-08-31",
+      "value": -0.358,
+      "variant": "B_C \"Industrie\" do Destatis (sem energia e construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY ajustado ao calendário (%)",
+      "row": "Indústria total (B–D; inclui energia)",
+      "value": 0.4,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha_metricas.csv",
+      "header": "B-D | 3msaar (%)",
+      "row": "2026-08-31",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_alemanha_metricas.csv",
+      "header": "C | 3msaar (%)",
+      "row": "2026-08-31",
+      "value": -2.3062,
+      "variant": "B_C \"Industrie\" do Destatis (sem energia e construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "3msaar (%)",
+      "row": "Indústria total (B–D; inclui energia)",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha_metricas.csv",
+      "header": "MIG_ING | YoY CA (%)",
+      "row": "2026-08-31",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY ajustado ao calendário (%)",
+      "row": "Bens intermediários",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha_metricas.csv",
+      "header": "MIG_CAG | YoY CA (%)",
+      "row": "2026-08-31",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY ajustado ao calendário (%)",
+      "row": "Bens de capital",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha_metricas.csv",
+      "header": "MIG_DCOG | YoY CA (%)",
+      "row": "2026-08-31",
+      "value": 5.3206,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_alemanha_metricas.csv",
+      "header": "MIG_NDCOG | YoY CA (%)",
+      "row": "2026-08-31",
+      "value": -0.4405,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/producao_industrial_alemanha_metricas.csv",
+      "header": "MIG_NRG_X_D_E | YoY CA (%)",
+      "row": "2026-08-31",
+      "value": -2.9959,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY ajustado ao calendário (%)",
+      "row": "Energia (MIG; exclui D e E)",
+      "value": -3.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S01",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a2-s01-codex-sol-high-normal-primary",
+  "disposition": "new_harmonization_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "total 2026-08-01 00:00:00 Provisional value Provisional value Total, incluindo construção",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 00:00:00 Provisional value Provisional value total Total, incluindo construção",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 Provisional value Provisional value total Total, incluindo construção",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "3msaar_pct",
+      "row": "total 2026-08-01 00:00:00 Provisional value Provisional value Total, incluindo construção",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "3msaar_pct",
+      "row": "2026-08-01 00:00:00 Provisional value Provisional value total Total, incluindo construção",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08 Provisional value Provisional value total Total, incluindo construção",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "media_3m_sa",
+      "row": "total 2026-08-01 00:00:00 Provisional value Provisional value Total, incluindo construção",
+      "value": 91.4667,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "media_3m_anterior_sa",
+      "row": "total 2026-08-01 00:00:00 Provisional value Provisional value Total, incluindo construção",
+      "value": 91.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "3m3m_sa_pct",
+      "row": "total 2026-08-01 00:00:00 Provisional value Provisional value Total, incluindo construção",
+      "value": 0.4025,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "intermediarios 2026-08-01 00:00:00 Provisional value Provisional value Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 00:00:00 Provisional value Provisional value intermediarios Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 Provisional value Provisional value intermediarios Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "capital 2026-08-01 00:00:00 Provisional value Provisional value Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 00:00:00 Provisional value Provisional value capital Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 Provisional value Provisional value capital Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "duraveis 2026-08-01 00:00:00 Provisional value Provisional value Consumo duráveis",
+      "value": 5.3206,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "nao_duraveis 2026-08-01 00:00:00 Provisional value Provisional value Consumo não duráveis",
+      "value": -0.4405,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "energia 2026-08-01 00:00:00 Provisional value Provisional value Energia",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 00:00:00 Provisional value Provisional value energia Energia",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 Provisional value Provisional value energia Energia",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "construcao 2026-08-01 00:00:00 Provisional value Provisional value Construção",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 00:00:00 Provisional value Provisional value construcao Construção",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08 Provisional value Provisional value construcao Construção",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "S01",
+  "model": "grok-4.7",
+  "final_attempt_id": "a2-s01-grok-high-normal-timeout-retry1",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A2",
+  "task": "S01",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a2-s01-kimi-pro-high-normal-primary",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A3",
+  "task": "S01",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a3-s01-codex-astra-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 Total (inclui energia e construção) https://www.destatis.de/EN/Themes/Economy/Short-Term-",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/numeros_comunicado.csv",
+      "header": "yoy_ca_pct",
+      "row": "Total 2026-08 https://www.destatis.de/EN/Press/2026/10/PE26_355_421.html",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_ca_pct",
+      "row": "Total (inclui energia e construção) 2026-08-01 https://www.destatis.de/EN/Themes/Economy/Short-Term-",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "3msaar_pct",
+      "row": "2026-08-01 Total (inclui energia e construção) https://www.destatis.de/EN/Themes/Economy/Short-Term-",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/numeros_comunicado.csv",
+      "header": "3msaar_aprox_pct",
+      "row": "Total 2026-08 https://www.destatis.de/EN/Press/2026/10/PE26_355_421.html",
+      "value": 1.6096,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar_pct",
+      "row": "Total (inclui energia e construção) 2026-08-01 https://www.destatis.de/EN/Themes/Economy/Short-Term-",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "media_3m_sa",
+      "row": "2026-08-01 Total (inclui energia e construção) https://www.destatis.de/EN/Themes/Economy/Short-Term-",
+      "value": 91.4667,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "media_3m_anterior_sa",
+      "row": "2026-08-01 Total (inclui energia e construção) https://www.destatis.de/EN/Themes/Economy/Short-Term-",
+      "value": 91.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "3m3m_pct",
+      "row": "2026-08-01 Total (inclui energia e construção) https://www.destatis.de/EN/Themes/Economy/Short-Term-",
+      "value": 0.4025,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 Bens intermediários https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Produ",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_ca_pct",
+      "row": "Bens intermediários 2026-08-01 https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Produ",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 Bens de capital https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Productio",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_ca_pct",
+      "row": "Bens de capital 2026-08-01 https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Productio",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 Consumo durável https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Productio",
+      "value": 5.3206,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 Consumo não durável https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Produ",
+      "value": -0.4405,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S01",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a3-s01-codex-luna-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 B-D Indústria total (B-D) 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 C Indústria de transformação (C) 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": -0.358,
+      "variant": "B_C \"Industrie\" do Destatis (sem energia e construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 B-D Indústria total (B-D) 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": 0.362,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "3m_saar_pct",
+      "row": "2026-08-31 B-D Indústria total (B-D) 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "3m_saar_pct",
+      "row": "2026-08-31 C Indústria de transformação (C) 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": -2.3062,
+      "variant": "B_C \"Industrie\" do Destatis (sem energia e construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3m_saar_pct",
+      "row": "2026-08-31 B-D Indústria total (B-D) 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_ING Bens intermediários 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_ING Bens intermediários 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": -1.103,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_15_meses.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_ING Bens intermediários 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": -1.103,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_CAG Bens de capital 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_CAG Bens de capital 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": -0.238,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_15_meses.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_CAG Bens de capital 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": -0.238,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_DCOG Bens de consumo duráveis 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": 5.3206,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_NDCOG Bens de consumo não duráveis 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": -0.4405,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_alemanha.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_NRG_X_E Energia (exceto seção E) 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": 7.5697,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_NRG_X_E Energia (exceto seção E) 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": 7.57,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_15_meses.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08-31 MIG_NRG_X_E Energia (exceto seção E) 2026-11-04T21:57:54+00:00 Eurostat, sts_inpr_m",
+      "value": 7.57,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S01",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a3-s01-kimi-pro-low-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "total_yoy_sa_pct",
+      "row": "2026-08-01",
+      "value": 2.3282,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/resumo_agosto_2026.csv",
+      "header": "yoy_sa_pct",
+      "row": "Total",
+      "value": 2.328,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "total_3msaar_pct",
+      "row": "2026-08-01",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/resumo_agosto_2026.csv",
+      "header": "3msaar_pct",
+      "row": "Total",
+      "value": 1.62,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "total_3m3m_pct",
+      "row": "2026-08-01",
+      "value": 0.4025,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/resumo_agosto_2026.csv",
+      "header": "3m3m_pct",
+      "row": "Total",
+      "value": 0.402,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "energia_yoy_sa_pct",
+      "row": "2026-08-01",
+      "value": 7.8292,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/resumo_agosto_2026.csv",
+      "header": "yoy_sa_pct",
+      "row": "Energia",
+      "value": 7.829,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado sazonal e por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "construcao_yoy_sa_pct",
+      "row": "2026-08-01",
+      "value": 10.5089,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/resumo_agosto_2026.csv",
+      "header": "yoy_sa_pct",
+      "row": "Construção",
+      "value": 10.509,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "industria_sem_energia_construcao_yoy_sa_pct",
+      "row": "2026-08-01",
+      "value": -0.22,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S01",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a3-s01-claude-fable-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 A2P000000 Total: indústria + construção (B–D, F) — manchete Destatis Vorläufiger Wert",
+      "value": 2.265,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa",
+      "row": "2026-08 A2P000000 Total: indústria + construção (B–D, F) — manchete Destatis Vorläufiger Wert",
+      "value": 2.328,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 A2P100000 Indústria em sentido amplo (B–D, inclui energia, exclui construção) Vorläufiger We",
+      "value": 0.362,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_setores_2026-08.csv",
+      "header": "YoY ajust. calendário %",
+      "row": "29 Automóveis e peças Vorläufiger Wert Bundesbank BBDE1 (W = só calendário)",
+      "value": -6.8,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_setores_2026-08.csv",
+      "header": "YoY ajust. calendário %",
+      "row": "28 Máquinas e equipamentos Vorläufiger Wert Bundesbank BBDE1 (W = só calendário)",
+      "value": -0.6,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_setores_2026-08.csv",
+      "header": "YoY ajust. calendário %",
+      "row": "26+27 Eletrônicos/ópticos + equipamentos elétricos Vorläufiger Wert Bundesbank BBDE1 (W = só calendá",
+      "value": 5.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_sa",
+      "row": "2026-08 A2P000000 Total: indústria + construção (B–D, F) — manchete Destatis Vorläufiger Wert",
+      "value": 1.62,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "m3m3_sa",
+      "row": "2026-08 A2P100000 Indústria em sentido amplo (B–D, inclui energia, exclui construção) Vorläufiger We",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "saar3_sa",
+      "row": "2026-08 A2P100000 Indústria em sentido amplo (B–D, inclui energia, exclui construção) Vorläufiger We",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "m3m3_sa",
+      "row": "2026-08 A2P000000 Total: indústria + construção (B–D, F) — manchete Destatis Vorläufiger Wert",
+      "value": 0.402,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "m3m3_sa",
+      "row": "2026-08 A2P300000 Indústria exclusive energia e construção Vorläufiger Wert",
+      "value": -0.474,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agregados_2026-08.csv",
+      "header": "3m/3m SA %",
+      "row": "Total: indústria + construção (B–D, F) — manchete Destatis Vorläufiger Wert Bundesbank BBDE1 (W = só",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 A2P310000 Bens intermediários Vorläufiger Wert",
+      "value": -1.103,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa",
+      "row": "2026-08 A2P310000 Bens intermediários Vorläufiger Wert",
+      "value": -1.066,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agregados_2026-08.csv",
+      "header": "YoY ajust. calendário %",
+      "row": "Bens intermediários Vorläufiger Wert Bundesbank BBDE1 (W = só calendário)",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 A2P320000 Bens de capital Vorläufiger Wert",
+      "value": -0.238,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa",
+      "row": "2026-08 A2P320000 Bens de capital Vorläufiger Wert",
+      "value": -0.104,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agregados_2026-08.csv",
+      "header": "YoY ajust. calendário %",
+      "row": "Bens de capital Vorläufiger Wert Bundesbank BBDE1 (W = só calendário)",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 A2P330000 Bens de consumo duráveis Vorläufiger Wert",
+      "value": 5.321,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 A2P340000 Bens de consumo não duráveis Vorläufiger Wert",
+      "value": -0.441,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 A2P500000 Energia (grupo principal) Vorläufiger Wert",
+      "value": 7.57,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa",
+      "row": "2026-08 A2P500000 Energia (grupo principal) Vorläufiger Wert",
+      "value": 7.829,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 N2D350000 35 Energia elétrica/gás (fornecimento) Vorläufiger Wert",
+      "value": 9.544,
+      "variant": "energia NACE D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca",
+      "row": "2026-08 N2F000000 Construção (F) Vorläufiger Wert",
+      "value": 10.503,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa",
+      "row": "2026-08 N2F000000 Construção (F) Vorläufiger Wert",
+      "value": 10.509,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agregados_2026-08.csv",
+      "header": "YoY ajust. calendário %",
+      "row": "Construção (F) Vorläufiger Wert Bundesbank BBDE1 (W = só calendário)",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S01",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a3-s01-claude-opus-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_CA|B-D",
+      "row": "2026-08-01",
+      "value": 0.362,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY CA %",
+      "row": "Indústria (B-D, ex-construção)",
+      "value": 0.4,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "3msaar_SCA|B-D",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3mma/3mma anualiz. %",
+      "row": "Indústria (B-D, ex-construção)",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3m/3m não anualiz. %",
+      "row": "Indústria (B-D, ex-construção)",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_CA|MIG_ING",
+      "row": "2026-08-01",
+      "value": -1.103,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY CA %",
+      "row": "Bens intermediários",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_CA|MIG_CAG",
+      "row": "2026-08-01",
+      "value": -0.238,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY CA %",
+      "row": "Bens de capital",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_CA|MIG_COG",
+      "row": "2026-08-01",
+      "value": 0.458,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY CA %",
+      "row": "Bens de consumo",
+      "value": 0.5,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY CA %",
+      "row": "Eletricidade e gás (D)",
+      "value": 9.5,
+      "variant": "energia NACE D, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY CA %",
+      "row": "Construção (F)",
+      "value": 10.5,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S01",
+  "model": "grok-4.7",
+  "final_attempt_id": "a3-s01-grok-low-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 B-D Indústria sem construção (B–D) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08-01 B-D Indústria sem construção (B–D) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 0.5543,
+      "variant": "B-D (indústria sem construção), YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 B-D_F Produzierendes Gewerbe (B–F) ESTAT:STS_COPR_M(1.0) 04/11/26 11:00:00",
+      "value": 2.2646,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 B Extrativa (B) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -10.4583,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08-01 B Extrativa (B) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -10.2924,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 C10-C12 Alimentos, bebidas e tabaco ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 0.8342,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "msaar_3m_pct",
+      "row": "2026-08-01 B-D Indústria sem construção (B–D) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "msaar_3m_pct",
+      "row": "2026-08-01 B-D_F Produzierendes Gewerbe (B–F) ESTAT:STS_COPR_M(1.0) 04/11/26 11:00:00",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "msaar_3m_pct",
+      "row": "2026-08-01 C Manufatura (C) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -2.3062,
+      "variant": "B_C \"Industrie\" do Destatis (sem energia e construção), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "msaar_3m_pct",
+      "row": "2026-08-01 B Extrativa (B) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -8.1655,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "msaar_3m_pct",
+      "row": "2026-08-01 C10-C12 Alimentos, bebidas e tabaco ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 0.6862,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "msaar_3m_pct",
+      "row": "2026-08-01 C20 Químicos (C20) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -11.3469,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 MIG_ING Bens intermediários ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08-01 MIG_ING Bens intermediários ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -1.0664,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 MIG_ING Bens intermediários ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 MIG_CAG Bens de capital ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08-01 MIG_CAG Bens de capital ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -0.1037,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 MIG_CAG Bens de capital ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 MIG_COG Bens de consumo ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 0.4577,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08-01 MIG_COG Bens de consumo ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 0.6615,
+      "variant": "MIG_COG, YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 MIG_COG Bens de consumo ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 0.4577,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 D Energia (D) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 9.5436,
+      "variant": "energia NACE D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08-01 D Energia (D) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 9.6735,
+      "variant": "energia NACE D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 D Energia (D) ESTAT:STS_INPR_M(1.0) 04/11/26 11:00:00",
+      "value": 9.5436,
+      "variant": "energia NACE D, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 F Construção (F) ESTAT:STS_COPR_M(1.0) 04/11/26 11:00:00",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "dados/producao_industrial_de.csv",
+      "header": "yoy_sca_pct",
+      "row": "2026-08-01 F Construção (F) ESTAT:STS_COPR_M(1.0) 04/11/26 11:00:00",
+      "value": 10.5088,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_ca_pct",
+      "row": "2026-08-01 F Construção (F) ESTAT:STS_COPR_M(1.0) 04/11/26 11:00:00",
+      "value": 10.5028,
+      "variant": "F, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S01",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a3-s01-claude-sonnet-low-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "YoY_CA_%",
+      "row": "B-D 2026-08 Indústria total (B-D, ex-construção)",
+      "value": 0.3623,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "YoY CA %",
+      "row": "Indústria total (B-D, ex-construção)",
+      "value": 0.4,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "3msaar_%",
+      "row": "B-D 2026-08 Indústria total (B-D, ex-construção)",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar %",
+      "row": "Indústria total (B-D, ex-construção)",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "YoY_CA_%",
+      "row": "MIG_ING 2026-08 Bens intermediários",
+      "value": -1.1029,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "YoY CA %",
+      "row": "Bens intermediários",
+      "value": -1.1,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "YoY_CA_%",
+      "row": "MIG_CAG 2026-08 Bens de capital",
+      "value": -0.2384,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "YoY CA %",
+      "row": "Bens de capital",
+      "value": -0.2,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "YoY_CA_%",
+      "row": "MIG_COG 2026-08 Bens de consumo",
+      "value": 0.4577,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "YoY CA %",
+      "row": "Bens de consumo",
+      "value": 0.5,
+      "variant": "MIG_COG, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "YoY_CA_%",
+      "row": "D 2026-08 Energia elétrica/gás (D)",
+      "value": 9.5436,
+      "variant": "energia NACE D, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "YoY CA %",
+      "row": "Energia elétrica/gás (D)",
+      "value": 9.5,
+      "variant": "energia NACE D, YoY ajustado por calendário",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S01",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a3-s01-codex-sol-low-normal-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa_calculado_pct",
+      "row": "2026-08-01 Total: indústria, energia e construção https://www.destatis.de/DE/Themen/Wirtschaft/Konju",
+      "value": 2.3282,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/numeros_comunicado.csv",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08 Total: indústria, energia e construção https://www.destatis.de/DE/Presse/Pressemitteilungen/",
+      "value": 2.3,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_sa_calculado_pct",
+      "row": "2026-08-01 Total: indústria, energia e construção https://www.destatis.de/DE/Themen/Wirtschaft/Konju",
+      "value": 2.3282,
+      "variant": "B-D_F (com construção, manchete Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_original_publicado_pct",
+      "row": "2026-08-01 Total: indústria, energia e construção https://www.destatis.de/DE/Themen/Wirtschaft/Konju",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_original_publicado_pct",
+      "row": "2026-08-01 Total: indústria, energia e construção https://www.destatis.de/DE/Themen/Wirtschaft/Konju",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "tres_msaar_pct",
+      "row": "2026-08-01 Total: indústria, energia e construção https://www.destatis.de/DE/Themen/Wirtschaft/Konju",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/numeros_comunicado.csv",
+      "header": "tres_msaar_de_taxa_arredondada_pct",
+      "row": "2026-08 Total: indústria, energia e construção https://www.destatis.de/DE/Presse/Pressemitteilungen/",
+      "value": 1.6096,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "tres_msaar_pct",
+      "row": "2026-08-01 Total: indústria, energia e construção https://www.destatis.de/DE/Themen/Wirtschaft/Konju",
+      "value": 1.6197,
+      "variant": "B-D_F (com construção, manchete Destatis), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa_calculado_pct",
+      "row": "2026-08-01 Bens intermediários https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Pr",
+      "value": -1.0664,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_sa_calculado_pct",
+      "row": "2026-08-01 Bens intermediários https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Pr",
+      "value": -1.0664,
+      "variant": "MIG_ING, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_original_publicado_pct",
+      "row": "2026-08-01 Bens intermediários https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Pr",
+      "value": -0.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_original_publicado_pct",
+      "row": "2026-08-01 Bens intermediários https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Pr",
+      "value": -0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_capital_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa_calculado_pct",
+      "row": "2026-08-01 Bens de capital https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Produk",
+      "value": -0.1037,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_sa_calculado_pct",
+      "row": "2026-08-01 Bens de capital https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Produk",
+      "value": -0.1037,
+      "variant": "MIG_CAG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_original_publicado_pct",
+      "row": "2026-08-01 Bens de capital https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Produk",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_original_publicado_pct",
+      "row": "2026-08-01 Bens de capital https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Produk",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_consumo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa_calculado_pct",
+      "row": "2026-08-01 Consumo durável https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Produk",
+      "value": 5.379,
+      "variant": "MIG_DCOG, YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa_calculado_pct",
+      "row": "2026-08-01 Consumo não durável https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Pr",
+      "value": -0.4306,
+      "variant": "MIG_NDCOG, YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [],
+    "note": "shown as durables and non-durables, both match"
+   },
+   "N_energia_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_original_publicado_pct",
+      "row": "2026-08-01 Energia https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Produktion/kpi",
+      "value": 7.7,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_calculos.csv",
+      "header": "yoy_sa_calculado_pct",
+      "row": "2026-08-01 Energia https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Produktion/kpi",
+      "value": 7.8292,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado sazonal e por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_original_publicado_pct",
+      "row": "2026-08-01 Energia https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Produktion/kpi",
+      "value": 7.7,
+      "variant": "energia (agrupamento MIG do Destatis), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "S01",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a3-s01-claude-haiku-primary",
+  "disposition": "reuse_compatible_full_product_grade",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_completa_mensal.csv",
+      "header": "ind_yoy_CA_pct",
+      "row": "2026-08-01",
+      "value": 0.36,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_12_meses.csv",
+      "header": "ind_yoy_CA_pct",
+      "row": "2026-08-01",
+      "value": 0.36,
+      "variant": "B-D (indústria sem construção), YoY ajustado por calendário",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_completa_mensal.csv",
+      "header": "ind_3msaar_pct",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_12_meses.csv",
+      "header": "ind_3msaar_pct",
+      "row": "2026-08-01",
+      "value": 0.0,
+      "variant": "B-D (indústria sem construção), 3m/3m SAAR",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_intermediarios_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_capital_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_consumo_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_energia_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ }
+]

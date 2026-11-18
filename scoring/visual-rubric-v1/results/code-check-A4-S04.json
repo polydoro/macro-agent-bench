@@ -1,0 +1,6857 @@
+[
+ {
+  "phase": "A4e",
+  "task": "S04",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-8b400d736bbabd409cbe81ca",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_cvs.csv",
+      "header": "",
+      "row": "2026-10-01",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_confianca_fr_cvs.csv",
+      "header": "",
+      "row": "2026-10-01",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "sintetico Indicador sintético de confiança dos consumidores 2026-10 2013-06",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/confianca_fr_cvs.csv",
+      "header": "",
+      "row": "mes",
+      "value": 857197.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/confianca_fr_cvs.csv",
+      "header": "",
+      "row": "mes",
+      "value": 857191.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/confianca_fr_cvs.csv",
+      "header": "",
+      "row": "mes",
+      "value": 1616794.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "pessoal Situação financeira pessoal – passada 2026-10 2023-10",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière passée :",
+      "value": 857196.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière passée :",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière passée :",
+      "value": 857196.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "pessoal Situação financeira pessoal – futura 2026-10 2022-09",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – futura",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière future :",
+      "value": 857197.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière future :",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière future :",
+      "value": 857197.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "contexto Nível de vida na França – futuro 2026-10 2026-05",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Nível de vida na França – futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie futur en France :",
+      "value": 857189.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie futur en France :",
+      "value": -29.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie passé en France :",
+      "value": 857188.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "pessoal Oportunidade de fazer compras importantes 2026-10 2023-10",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Oportunidade de fazer compras importantes",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité de faire des achats ",
+      "value": 857193.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité de faire des achats ",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Achats de biens d'équipement prévus : Solde de",
+      "value": 1616793.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "poupanca Capacidade de poupança atual 2026-10 2026-09",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "poupanca Capacidade de poupança futura 2026-10 2025-05",
+      "value": 12.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Capacidade de poupança futura",
+      "value": 12.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur capacité d'épargne future : S",
+      "value": 857198.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur capacité d'épargne future : S",
+      "value": -6.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité d'épargner : Solde d",
+      "value": 857194.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "contexto Desemprego – perspectivas (saldo alta − baixa) 2026-10 2026-09",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Desemprego – perspectivas (saldo alta − baixa)",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future du chômage : So",
+      "value": 857190.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future du chômage : So",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future du chômage : So",
+      "value": 857190.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S04",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-8e9a6ee23f7479d99fb891dc",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_cvs.csv",
+      "header": "",
+      "row": "2026-10-01",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_confianca_fr_cvs.csv",
+      "header": "",
+      "row": "2026-10-01",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "sintetico Indicador sintético de confiança dos consumidores 1972-10 2026-10 2013-06",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/confianca_fr_cvs.csv",
+      "header": "",
+      "row": "mes",
+      "value": 857197.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/confianca_fr_cvs.csv",
+      "header": "",
+      "row": "mes",
+      "value": 857191.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/confianca_fr_cvs.csv",
+      "header": "",
+      "row": "mes",
+      "value": 1616794.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "pessoal Situação financeira pessoal – passada 1970-01 2026-10 2023-10",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière passée :",
+      "value": 857196.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière passée :",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière passée :",
+      "value": 857196.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "pessoal Situação financeira pessoal – futura 1970-01 2026-10 2022-09",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – futura",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière future :",
+      "value": 857197.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière future :",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financière future :",
+      "value": 857197.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "contexto Nível de vida na França – futuro 1970-01 2026-10 2026-05",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Nível de vida na França – futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie futur en France :",
+      "value": 857189.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie futur en France :",
+      "value": -29.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie passé en France :",
+      "value": 857188.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "pessoal Oportunidade de fazer compras importantes 1972-10 2026-10 2023-10",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Oportunidade de fazer compras importantes",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité de faire des achats ",
+      "value": 857193.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité de faire des achats ",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Achats de biens d'équipement prévus : Solde de",
+      "value": 1616793.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "poupanca Capacidade de poupança atual 1970-01 2026-10 2026-09",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "poupanca Capacidade de poupança futura 1972-10 2026-10 2025-05",
+      "value": 12.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Capacidade de poupança atual",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur capacité d'épargne future : S",
+      "value": 857198.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur capacité d'épargne future : S",
+      "value": -6.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité d'épargner : Solde d",
+      "value": 857194.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "contexto Desemprego – perspectivas (alta − baixa) 1970-01 2026-10 2026-09",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Desemprego – perspectivas (alta − baixa)",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future du chômage : So",
+      "value": 857190.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future du chômage : So",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future du chômage : So",
+      "value": 857190.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "precos Preços – evolução passada (alta − baixa) 1970-01 2026-10 2026-09",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "nível",
+      "row": "precos Preços – perspectivas (alta − baixa) 1971-10 2026-10 2026-09",
+      "value": -7.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos13m.csv",
+      "header": "2026-10",
+      "row": "Preços – evolução passada (alta − baixa)",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution passée des prix : Sold",
+      "value": 857191.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "media_1987_2025",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution passée des prix : Sold",
+      "value": -12.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/metadados_series.csv",
+      "header": "idbank",
+      "row": "Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future des prix : Sold",
+      "value": 857192.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S04",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-6651e485fd435ab9bb409874",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/coleta_2026-11-07/serie_longa_FR_SA_saldo.csv",
+      "header": "valor",
+      "row": "BS-CSMCI Consumer confidence indicator 2026-10",
+      "value": -21.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/anterior_coleta_2026-10-27/tabela_resumo_confianca_FR.csv",
+      "header": "valor",
+      "row": "Média 1980–2025 (referência)",
+      "value": -10.11,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/anterior_coleta_2026-10-27/tabela_resumo_confianca_FR.csv",
+      "header": "valor",
+      "row": "Média 1990–2019 (referência)",
+      "value": -9.53,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_compras_importantes_native": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "dados/coleta_2026-11-07/serie_longa_FR_SA_saldo.csv",
+      "header": "valor",
+      "row": "BS-MP-PR The current economic situation is adequate to make major  purchases 2026-10",
+      "value": -41.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos12m_componentes_FR.csv",
+      "header": "2026-10",
+      "row": "BS-MP-PR Momento adequado para compras importantes não",
+      "value": -41.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_desemprego_esperado_native": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_precos_native": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S04",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-d7565ebd573953ba98dcb8f3",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Confiance des ménages (indicador sintético) 2026-10 índice (base 100 = média jan/1987–dez/2025) não ",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Confiance des ménages (indicador sintético) 2026-09 índice (base 100 = média jan/1987–dez/2025) não ",
+      "value": 85.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_confianca_FR.csv",
+      "header": "valor",
+      "row": "Último valor (saldo SA) 2026-10",
+      "value": -21.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_confianca_FR.csv",
+      "header": "valor",
+      "row": "Média 1985–2025 (referência)",
+      "value": -10.11,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Situation financière personnelle, évolution passée 2026-10 solde (pontos) CVS https://www.insee.fr/f",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Situation financière personnelle, perspectives 2026-10 solde (pontos) CVS https://www.insee.fr/fr/st",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Niveau de vie en France, perspectives 2026-10 solde (pontos) CVS https://www.insee.fr/fr/statistique",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Niveau de vie en France, évolution passée 2026-10 solde (pontos) CVS https://www.insee.fr/fr/statist",
+      "value": -85.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Opportunité de faire des achats importants 2026-10 solde (pontos) CVS https://www.insee.fr/fr/statis",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_conciliacao_insee_eurostat_FR.csv",
+      "header": "INSEE out",
+      "row": "Oportunidade de compras importantes aproximado sim",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_conciliacao_insee_eurostat_FR.csv",
+      "header": "INSEE set",
+      "row": "Oportunidade de compras importantes aproximado sim",
+      "value": -37.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_conciliacao_insee_eurostat_FR.csv",
+      "header": "Eurostat set",
+      "row": "Oportunidade de compras importantes aproximado sim",
+      "value": -36.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_conciliacao_insee_eurostat_FR.csv",
+      "header": "Eurostat out",
+      "row": "Oportunidade de compras importantes aproximado sim",
+      "value": -41.7,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Capacité d'épargne actuelle 2026-10 solde (pontos) CVS https://www.insee.fr/fr/statistiques/9098942 ",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Capacité d'épargne future 2026-10 solde (pontos) CVS https://www.insee.fr/fr/statistiques/9098942 20",
+      "value": 12.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Climat de l'épargne (indicador sintético) 2026-10 índice (base 100 = média jan/1987–dez/2025) não in",
+      "value": 118.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Opportunité d'épargner 2026-10 solde (pontos) CVS https://www.insee.fr/fr/statistiques/9098942 2026-",
+      "value": 37.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_conciliacao_insee_eurostat_FR.csv",
+      "header": "INSEE set",
+      "row": "Poupança: oportunidade (INSEE) vs intenção (Eurostat) aproximado sim",
+      "value": 43.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Chômage, perspectives d'évolution 2026-10 solde (pontos) CVS https://www.insee.fr/fr/statistiques/90",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_conciliacao_insee_eurostat_FR.csv",
+      "header": "INSEE out",
+      "row": "Desemprego, perspectivas próximo sim",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_conciliacao_insee_eurostat_FR.csv",
+      "header": "INSEE set",
+      "row": "Desemprego, perspectivas próximo sim",
+      "value": 56.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_conciliacao_insee_eurostat_FR.csv",
+      "header": "Eurostat set",
+      "row": "Desemprego, perspectivas próximo sim",
+      "value": 34.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_conciliacao_insee_eurostat_FR.csv",
+      "header": "Eurostat out",
+      "row": "Desemprego, perspectivas próximo sim",
+      "value": 36.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Prix, évolution passée 2026-10 solde (pontos) CVS https://www.insee.fr/fr/statistiques/9098942 2026-",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_ii260_confiance_menages_FR.csv",
+      "header": "valor",
+      "row": "Prix, perspectives d'inflation 2026-10 solde (pontos) CVS https://www.insee.fr/fr/statistiques/90989",
+      "value": -7.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S04",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-d1c864ec2fec622d5988a7d0",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Indicador sintético de confiança IND_SYNT_CONF INSEE: média 100 (1987–2025)",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Indicador sintético de confiança",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "IND_SYNT_CONF Enquête mensuelle de conjoncture auprès des ménages - Indicateur synthétique de confia",
+      "value": 1587668.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Mês ant.",
+      "row": "Indicador sintético de confiança IND_SYNT_CONF INSEE: média 100 (1987–2025)",
+      "value": 85.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Referência",
+      "row": "Indicador sintético de confiança IND_SYNT_CONF INSEE: média 100 (1987–2025)",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_SFP Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financièr",
+      "value": 857196.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – futura",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_SFF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financièr",
+      "value": 857197.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Nível de vida na França – futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_NVF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie futur e",
+      "value": 857189.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_NVP Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie passé e",
+      "value": 857188.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Nível de vida na França – passado",
+      "value": -85.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Oportunidade de compras importantes",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_IAL Enquête mensuelle de conjoncture auprès des ménages - Intentions d'achats de logements (da",
+      "value": 1616794.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_OA Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité de faire de",
+      "value": 857193.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_IABE Enquête mensuelle de conjoncture auprès des ménages - Achats de biens d'équipement prévus",
+      "value": 1616793.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Capacidade de poupança – atual",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Capacidade de poupança – futura",
+      "value": 12.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_CEF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur capacité d'épargne ",
+      "value": 857198.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_OE Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité d'épargner ",
+      "value": 857194.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "IND_SYNT_CLIM_EPAR Enquête mensuelle de conjoncture auprès des ménages - Indicateur synthétique de c",
+      "value": 11818470.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Temores de desemprego (futuro)",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_EF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future du chô",
+      "value": 857190.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Preços – evolução passada",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Preços – evolução futura",
+      "value": -7.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_PP Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution passée des pr",
+      "value": 857191.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_PF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future des pr",
+      "value": 857192.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S04",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-02d6d38e13e1065ec3dc5ffc",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Indicador sintético de confiança IND_SYNT_CONF",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Indicador sintético de confiança",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "IND_SYNT_CONF Enquête mensuelle de conjoncture auprès des ménages - Indicateur synthétique de confia",
+      "value": 1587668.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Mês ant.",
+      "row": "Indicador sintético de confiança IND_SYNT_CONF",
+      "value": 85.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Média longo prazo",
+      "row": "Indicador sintético de confiança IND_SYNT_CONF",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – passada CAMME_SFP",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_SFP Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financièr",
+      "value": 857196.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Mês ant.",
+      "row": "Situação financeira pessoal – passada CAMME_SFP",
+      "value": -26.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Média longo prazo",
+      "row": "Situação financeira pessoal – passada CAMME_SFP",
+      "value": -18.3,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – futura CAMME_SFF",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Situação financeira pessoal – futura",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_SFF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur situation financièr",
+      "value": 857197.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Mês ant.",
+      "row": "Situação financeira pessoal – futura CAMME_SFF",
+      "value": -15.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Média longo prazo",
+      "row": "Situação financeira pessoal – futura CAMME_SFF",
+      "value": -3.6,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Nível de vida na França – futuro CAMME_NVF",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Nível de vida na França – futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_NVF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie futur e",
+      "value": 857189.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_NVP Enquête mensuelle de conjoncture auprès des ménages - Opinion sur le niveau de vie passé e",
+      "value": 857188.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Nível de vida na França – passado CAMME_NVP",
+      "value": -85.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Oportunidade de compras importantes CAMME_OA",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Oportunidade de compras importantes",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_IAL Enquête mensuelle de conjoncture auprès des ménages - Intentions d'achats de logements (da",
+      "value": 1616794.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_OA Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité de faire de",
+      "value": 857193.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_IABE Enquête mensuelle de conjoncture auprès des ménages - Achats de biens d'équipement prévus",
+      "value": 1616793.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Capacidade de poupança – atual CAMME_CEA",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Mês ant.",
+      "row": "Capacidade de poupança – atual CAMME_CEA",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Capacidade de poupança – futura CAMME_CEF",
+      "value": 12.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_CEF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur leur capacité d'épargne ",
+      "value": 857198.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_OE Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'opportunité d'épargner ",
+      "value": 857194.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "IND_SYNT_CLIM_EPAR Enquête mensuelle de conjoncture auprès des ménages - Indicateur synthétique de c",
+      "value": 11818470.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Temores de desemprego (futuro) CAMME_EF",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Temores de desemprego (futuro)",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_EF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future du chô",
+      "value": 857190.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Mês ant.",
+      "row": "Temores de desemprego (futuro) CAMME_EF",
+      "value": 56.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Média longo prazo",
+      "row": "Temores de desemprego (futuro) CAMME_EF",
+      "value": 31.5,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Preços – evolução passada CAMME_PP",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "2026-10",
+      "row": "Preços – evolução futura CAMME_PF",
+      "value": -7.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_13_meses.csv",
+      "header": "2026-10",
+      "row": "Preços – evolução passada",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_PP Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution passée des pr",
+      "value": 857191.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "data/metadados_series.csv",
+      "header": "idbank",
+      "row": "CAMME_PF Enquête mensuelle de conjoncture auprès des ménages - Opinion sur l'évolution future des pr",
+      "value": 857192.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "Mês ant.",
+      "row": "Preços – evolução passada CAMME_PP",
+      "value": 34.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S04",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-03145379dfc9388f80142d7e",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "confianca",
+      "row": "2026-10-01",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01 00:00:00",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Oct/2026",
+      "row": "Indicador de confiança (média=100)",
+      "value": 80.3,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "nv_passado",
+      "row": "2026-10-01",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "nv_futuro",
+      "row": "2026-10-01",
+      "value": -66.7208,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "capac_atual",
+      "row": "2026-10-01",
+      "value": 16.6167,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Oct/2026",
+      "row": "Sit. financeira pessoal – passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "moyenne/average",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Média LP",
+      "row": "Sit. financeira pessoal – passada",
+      "value": -21.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Oct/2026",
+      "row": "Sit. financeira pessoal – futura",
+      "value": -24.2,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Média LP",
+      "row": "Sit. financeira pessoal – futura",
+      "value": -6.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Oct/2026",
+      "row": "Nível de vida na França – futuro",
+      "value": -66.7,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "moyenne/average",
+      "value": -48.9446,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -28.9323,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "compras",
+      "row": "2026-10-01",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "2026-10-01 00:00:00",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Oct/2026",
+      "row": "Oportunidade de compras importantes",
+      "value": -40.9,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "moyenne/average",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Média LP",
+      "row": "Oportunidade de compras importantes",
+      "value": -15.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Capacité d'épargne actuelle",
+      "row": "2026-10-01 00:00:00",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Capacité d'épargne future",
+      "row": "2026-10-01 00:00:00",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Oct/2026",
+      "row": "Capacidade de poupança atual",
+      "value": 16.6,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "poupanca",
+      "row": "2026-10-01",
+      "value": 118.0128,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "oport_poupar",
+      "row": "2026-10-01",
+      "value": 37.2673,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Indicateur synthétique de climat de l’épargne",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "desemprego",
+      "row": "2026-10-01",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Oct/2026",
+      "row": "Desemprego – perspectivas",
+      "value": 60.6,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Média LP",
+      "row": "Desemprego – perspectivas",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "precos_passado",
+      "row": "2026-10-01",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "precos_futuro",
+      "row": "2026-10-01",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "moyenne/average",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Prix - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -31.6027,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Média LP",
+      "row": "Preços – evolução passada",
+      "value": -12.3,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S04",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-a019fcf999b37b03b4c125cf",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "confianca",
+      "row": "2026-10-01",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01 00:00:00",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01 00:00:00",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "nv_passado",
+      "row": "2026-10-01",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "nv_futuro",
+      "row": "2026-10-01",
+      "value": -66.7208,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "capac_atual",
+      "row": "2026-10-01",
+      "value": 16.6167,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "out/2026",
+      "row": "Sit. financeira pessoal – passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "moyenne/average",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "moyenne/average",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Média LP",
+      "row": "Sit. financeira pessoal – passada",
+      "value": -21.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "out/2026",
+      "row": "Sit. financeira pessoal – futura",
+      "value": -24.2,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Média LP",
+      "row": "Sit. financeira pessoal – futura",
+      "value": -6.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "out/2026",
+      "row": "Nível de vida na França – futuro",
+      "value": -66.7,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "moyenne/average",
+      "value": -48.9446,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -28.9323,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "compras",
+      "row": "2026-10-01",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "2026-10-01 00:00:00",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "2026-10-01 00:00:00",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "moyenne/average",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "moyenne/average",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Média LP",
+      "row": "Oportunidade de compras importantes",
+      "value": -15.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Capacité d'épargne actuelle",
+      "row": "2026-10-01 00:00:00",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Capacité d'épargne future",
+      "row": "2026-10-01 00:00:00",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Capacité d'épargne actuelle",
+      "row": "2026-10-01 00:00:00",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "poupanca",
+      "row": "2026-10-01",
+      "value": 118.0128,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "oport_poupar",
+      "row": "2026-10-01",
+      "value": 37.2673,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Indicateur synthétique de climat de l’épargne",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "desemprego",
+      "row": "2026-10-01",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Média LP",
+      "row": "Desemprego – perspectivas",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "precos_passado",
+      "row": "2026-10-01",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/confianca_fr_mensal.csv",
+      "header": "precos_futuro",
+      "row": "2026-10-01",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "moyenne/average",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260.xlsx",
+      "header": "Prix - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -31.6027,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee/ir260_recoleta_20261107.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "moyenne/average",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S04",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-e5f53ddc0808e670c4d8c01f",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Confiança do consumidor",
+      "row": "2026-10-01",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Confiança do consumidor",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "França metropolitana Síntese de perguntas; sem horizonte único metodologia.pdf, pp. 5–6; antes de 20",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/revisoes.csv",
+      "header": "Setembro na primeira divulgação (24/09)",
+      "row": "Confiança do consumidor",
+      "value": 86.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/revisoes.csv",
+      "header": "Setembro na divulgação seguinte (27/10)",
+      "row": "Confiança do consumidor",
+      "value": 85.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Situação financeira passada",
+      "row": "2026-10-01",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Situação financeira passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Situação financeira passada",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Situação financeira passada",
+      "value": -26.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Desvio da média (pontos)",
+      "row": "Situação financeira passada",
+      "value": -11.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Situação financeira futura",
+      "row": "2026-10-01",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Situação financeira futura",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Situação financeira futura",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Situação financeira futura",
+      "value": -15.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Desvio da média (pontos)",
+      "row": "Situação financeira futura",
+      "value": -17.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Padrão de vida futuro",
+      "row": "2026-10-01",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Padrão de vida futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Padrão de vida passado",
+      "row": "2026-10-01",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Padrão de vida passado",
+      "value": -49.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Padrão de vida passado",
+      "value": -82.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Oportunidade de grandes compras",
+      "row": "2026-10-01",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "França metropolitana Situação atual metodologia.pdf, pp. 5–6; antes de 2004, consultar questionário ",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Oportunidade de grandes compras",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -37.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Capacidade atual de poupar",
+      "row": "2026-10-01",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Capacidade futura de poupar",
+      "row": "2026-10-01",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Capacidade atual de poupar",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "França metropolitana Síntese de perguntas; sem horizonte único metodologia.pdf, pp. 5–6; antes de 20",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "França metropolitana Situação atual metodologia.pdf, pp. 5–6; antes de 2004, consultar questionário ",
+      "value": 19.0732,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "França metropolitana Situação atual metodologia.pdf, pp. 5–6; antes de 2004, consultar questionário ",
+      "value": 10.06,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Receio de desemprego",
+      "row": "2026-10-01",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Receio de desemprego",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Receio de desemprego",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Receio de desemprego",
+      "value": 56.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Desvio da média (pontos)",
+      "row": "Receio de desemprego",
+      "value": 28.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Preços passados",
+      "row": "2026-10-01",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Perspectivas de preços",
+      "row": "2026-10-01",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Preços passados",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Preços passados",
+      "value": -12.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Preços passados",
+      "value": 34.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Desvio da média (pontos)",
+      "row": "Preços passados",
+      "value": 54.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S04",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-0aa1a527449a96d5f79f6cdd",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Confiança do consumidor",
+      "row": "2026-10-01",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Confiança do consumidor",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/validacao_painel.csv",
+      "header": "xlsx_arredondado",
+      "row": "Confiança do consumidor 2026-10-01 True",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Confiança do consumidor índice; média 1987–2025 = 100 SA/CVS oficial Insee Indicateur synthétique de",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/revisoes.csv",
+      "header": "Setembro na primeira divulgação (24/09)",
+      "row": "Confiança do consumidor",
+      "value": 86.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/revisoes.csv",
+      "header": "Setembro na divulgação seguinte (27/10)",
+      "row": "Confiança do consumidor",
+      "value": 85.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Situação financeira passada",
+      "row": "2026-10-01",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Situação financeira passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/validacao_painel.csv",
+      "header": "xlsx_arredondado",
+      "row": "Situação financeira passada 2026-10-01 True",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Situação financeira passada saldo de opinião, pontos SA/CVS oficial Insee Situation financière perso",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Situação financeira passada",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Situação financeira passada",
+      "value": -26.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Situação financeira futura",
+      "row": "2026-10-01",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Situação financeira futura",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/validacao_painel.csv",
+      "header": "xlsx_arredondado",
+      "row": "Situação financeira futura 2026-10-01 True",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Situação financeira futura saldo de opinião, pontos SA/CVS oficial Insee Situation financière person",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Situação financeira futura",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Situação financeira futura",
+      "value": -15.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Padrão de vida futuro",
+      "row": "2026-10-01",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Padrão de vida futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/validacao_painel.csv",
+      "header": "xlsx_arredondado",
+      "row": "Padrão de vida futuro 2026-10-01 True",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Padrão de vida passado saldo de opinião, pontos SA/CVS oficial Insee Niveau de vie en France - évolu",
+      "value": -48.9446,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Padrão de vida futuro saldo de opinião, pontos SA/CVS oficial Insee Niveau de vie en France - perspe",
+      "value": -28.9323,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Padrão de vida passado",
+      "row": "2026-10-01",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Oportunidade de grandes compras",
+      "row": "2026-10-01",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/validacao_painel.csv",
+      "header": "xlsx_arredondado",
+      "row": "Oportunidade de grandes compras 2026-10-01 True",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Oportunidade de grandes compras saldo de opinião, pontos SA/CVS oficial Insee Opportunité de faire d",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Oportunidade de grandes compras",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -37.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Capacidade atual de poupar",
+      "row": "2026-10-01",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Capacidade futura de poupar",
+      "row": "2026-10-01",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Capacidade atual de poupar",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Clima da poupança índice; média 1987–2025 = 100 SA/CVS oficial Insee Indicateur synthétique de clima",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Oportunidade de poupar saldo de opinião, pontos SA/CVS oficial Insee Opportunité d'épargner",
+      "value": 19.0732,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Capacidade atual de poupar saldo de opinião, pontos SA/CVS oficial Insee Capacité d'épargne actuelle",
+      "value": 10.06,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Receio de desemprego",
+      "row": "2026-10-01",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Receio de desemprego",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/validacao_painel.csv",
+      "header": "xlsx_arredondado",
+      "row": "Receio de desemprego 2026-10-01 True",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Receio de desemprego saldo de opinião, pontos SA/CVS oficial Insee Chômage - perspectives d'évolutio",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Receio de desemprego",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Receio de desemprego",
+      "value": 56.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Preços passados",
+      "row": "2026-10-01",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Perspectivas de preços",
+      "row": "2026-10-01",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Preços passados",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Preços passados saldo de opinião, pontos SA/CVS oficial Insee Prix - évolution passée",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/dicionario.csv",
+      "header": "media_1987_2025",
+      "row": "Perspectivas de preços saldo de opinião, pontos SA/CVS oficial Insee Prix - perspectives d'évolution",
+      "value": -31.6027,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Preços passados",
+      "value": -12.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S04",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-c1d5fb9fae268000e899fd56",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01 00:00:00",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01 00:00:00",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "moyenne/average",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "moyenne/average",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "2026-10-01",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Outubro 2026",
+      "row": "Finanças pessoais futuras saldo de opinião CVS, pontos",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Variação mensal (p.p./pontos)",
+      "row": "Finanças pessoais futuras saldo de opinião CVS, pontos",
+      "value": -8.7927,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "2026-10-01",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Outubro 2026",
+      "row": "Nível de vida na França futuro saldo de opinião CVS, pontos",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "moyenne/average",
+      "value": -48.9446,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -28.9323,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "2026-10-01 00:00:00",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Opportunité de faire des achats importants",
+      "row": "2026-10-01",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Outubro 2026",
+      "row": "Oportunidade de compras importantes saldo de opinião CVS, pontos",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "moyenne/average",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Variação mensal (p.p./pontos)",
+      "row": "Oportunidade de compras importantes saldo de opinião CVS, pontos",
+      "value": -3.4724,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "moyenne/average",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Capacité d'épargne actuelle",
+      "row": "2026-10-01 00:00:00",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Capacité d'épargne future",
+      "row": "2026-10-01 00:00:00",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Capacité d'épargne actuelle",
+      "row": "2026-10-01",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Indicateur synthétique de climat de l’épargne",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Opportunité d'épargner",
+      "row": "moyenne/average",
+      "value": 19.0732,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Capacité d'épargne actuelle",
+      "row": "moyenne/average",
+      "value": 10.06,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Prix - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Prix - évolution passée",
+      "row": "2026-10-01",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "moyenne/average",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Prix - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -31.6027,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "moyenne/average",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S04",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-08c71a618b76158c2c1acb80",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01 00:00:00",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Outubro 2026",
+      "row": "Confiança dos consumidores (indicador sintético) saldo de opinião CVS (pontos)",
+      "value": 80.3,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Variação mensal (pontos)",
+      "row": "Confiança dos consumidores (indicador sintético) saldo de opinião CVS (pontos)",
+      "value": -4.8,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Outubro 2026",
+      "row": "Situação financeira pessoal — avaliação passada saldo de opinião CVS (pontos)",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "moyenne/average",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Variação mensal (pontos)",
+      "row": "Situação financeira pessoal — avaliação passada saldo de opinião CVS (pontos)",
+      "value": -5.6,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "moyenne/average",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "2026-10-01",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Outubro 2026",
+      "row": "Situação financeira pessoal — perspectiva futura saldo de opinião CVS (pontos)",
+      "value": -24.2,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Variação mensal (pontos)",
+      "row": "Situação financeira pessoal — perspectiva futura saldo de opinião CVS (pontos)",
+      "value": -8.8,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "2026-10-01",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Outubro 2026",
+      "row": "Nível de vida na França — perspectiva futura saldo de opinião CVS (pontos)",
+      "value": -66.7,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "moyenne/average",
+      "value": -48.9446,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -28.9323,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "2026-10-01 00:00:00",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Opportunité de faire des achats importants",
+      "row": "2026-10-01",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Outubro 2026",
+      "row": "Oportunidade de compras importantes saldo de opinião CVS (pontos)",
+      "value": -40.9,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "moyenne/average",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principais_indicadores.csv",
+      "header": "Variação mensal (pontos)",
+      "row": "Oportunidade de compras importantes saldo de opinião CVS (pontos)",
+      "value": -3.5,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "moyenne/average",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Capacité d'épargne actuelle",
+      "row": "2026-10-01 00:00:00",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Capacité d'épargne future",
+      "row": "2026-10-01 00:00:00",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Capacité d'épargne actuelle",
+      "row": "2026-10-01",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Indicateur synthétique de climat de l’épargne",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Opportunité d'épargner",
+      "row": "moyenne/average",
+      "value": 19.0732,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Capacité d'épargne actuelle",
+      "row": "moyenne/average",
+      "value": 10.06,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Prix - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_mensais.csv",
+      "header": "Prix - évolution passée",
+      "row": "2026-10-01",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "moyenne/average",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_oct2026.xlsx",
+      "header": "Prix - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -31.6027,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "insee_camme_oct2026.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "moyenne/average",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S04",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-d2c8ccab24ee4067d42653e3",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Confiança do consumidor",
+      "row": "2026-10",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Confiança do consumidor",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Confiança do consumidor",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Confiança do consumidor",
+      "value": 86.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Confiança do consumidor",
+      "value": 85.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Finanças pessoais — passado",
+      "row": "2026-10",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Finanças pessoais — passado",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Finanças pessoais — passado",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Finanças pessoais — passado",
+      "value": -27.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Finanças pessoais — passado",
+      "value": -28.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Finanças pessoais — futuro",
+      "row": "2026-10",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Finanças pessoais — futuro",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Finanças pessoais — futuro",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Finanças pessoais — futuro",
+      "value": -14.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Finanças pessoais — futuro",
+      "value": -13.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Padrão de vida — futuro",
+      "row": "2026-10",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Padrão de vida — futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Padrão de vida — passado",
+      "row": "2026-10",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Padrão de vida — passado",
+      "value": -49.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Padrão de vida — passado",
+      "value": -79.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Oportunidade de grandes compras",
+      "row": "2026-10",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Oportunidade de grandes compras",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -37.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -39.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Capacidade de poupança atual",
+      "row": "2026-10",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Capacidade de poupança futura",
+      "row": "2026-10",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Capacidade de poupança atual",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Clima da poupança",
+      "row": "2026-10",
+      "value": 118.0128,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Oportunidade de poupar",
+      "row": "2026-10",
+      "value": 37.2673,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Clima da poupança",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Desemprego — perspectivas",
+      "row": "2026-10",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Desemprego — perspectivas",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Desemprego — perspectivas",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Desemprego — perspectivas",
+      "value": 55.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Desemprego — perspectivas",
+      "value": 58.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Preços — passado",
+      "row": "2026-10",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Preços — perspectivas",
+      "row": "2026-10",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Preços — passado",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Preços — passado",
+      "value": -12.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Preços — passado",
+      "value": 18.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Preços — passado",
+      "value": 28.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S04",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-24d143faaa5e519770c5a0de",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Confiança do consumidor",
+      "row": "2026-10",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Confiança do consumidor",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Confiança do consumidor",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Confiança do consumidor",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Confiança do consumidor",
+      "value": 86.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Confiança do consumidor",
+      "value": 85.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Finanças pessoais — passado",
+      "row": "2026-10",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Finanças pessoais — passado",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Finanças pessoais — passado",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Finanças pessoais — passado",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Finanças pessoais — passado",
+      "value": -27.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Finanças pessoais — passado",
+      "value": -28.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Finanças pessoais — futuro",
+      "row": "2026-10",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Finanças pessoais — futuro",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Finanças pessoais — futuro",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Finanças pessoais — futuro",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Finanças pessoais — futuro",
+      "value": -14.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Finanças pessoais — futuro",
+      "value": -13.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Padrão de vida — futuro",
+      "row": "2026-10",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Padrão de vida — futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Padrão de vida — futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Padrão de vida — passado",
+      "row": "2026-10",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Padrão de vida — passado",
+      "value": -49.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Padrão de vida — passado",
+      "value": -79.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Oportunidade de grandes compras",
+      "row": "2026-10",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Oportunidade de grandes compras",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -37.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Oportunidade de grandes compras",
+      "value": -39.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Capacidade de poupança atual",
+      "row": "2026-10",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Capacidade de poupança futura",
+      "row": "2026-10",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Set/26",
+      "row": "Capacidade de poupança atual",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Clima da poupança",
+      "row": "2026-10",
+      "value": 118.0128,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Oportunidade de poupar",
+      "row": "2026-10",
+      "value": 37.2673,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Clima da poupança",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Desemprego — perspectivas",
+      "row": "2026-10",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Desemprego — perspectivas",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Desemprego — perspectivas",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Desemprego — perspectivas",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Desemprego — perspectivas",
+      "value": 55.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Desemprego — perspectivas",
+      "value": 58.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Preços — passado",
+      "row": "2026-10",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_sa.csv",
+      "header": "Preços — perspectivas",
+      "row": "2026-10",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Out/26",
+      "row": "Preços — passado",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Média 1987–2025",
+      "row": "Preços — passado",
+      "value": -12.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Jul/26",
+      "row": "Preços — passado",
+      "value": 18.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/inicial/tabela_indicadores.csv",
+      "header": "Ago/26",
+      "row": "Preços — passado",
+      "value": 28.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S04",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-f73c32dddc0a9cde41ff1ea1",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "confianca",
+      "row": "2026-10",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "confianca_inteiro",
+      "row": "2026-10",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01 00:00:00",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "confianca Indicador sintético de confiança índice, média 1987-2025 = 100",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "desvio_da_media_pontos",
+      "row": "confianca Indicador sintético de confiança índice, média 1987-2025 = 100",
+      "value": -20.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "sit_financeira_passada",
+      "row": "2026-10",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "sit_financeira_passada_inteiro",
+      "row": "2026-10",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "moyenne/average",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "sit_financeira_passada Situação financeira pessoal — passada saldo de opinião, pontos",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "delta_mensal_pontos",
+      "row": "sit_financeira_passada Situação financeira pessoal — passada saldo de opinião, pontos",
+      "value": -6.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "sit_financeira_futura",
+      "row": "2026-10",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "sit_financeira_futura_inteiro",
+      "row": "2026-10",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "sit_financeira_futura Situação financeira pessoal — futura saldo de opinião, pontos",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "delta_mensal_pontos",
+      "row": "sit_financeira_futura Situação financeira pessoal — futura saldo de opinião, pontos",
+      "value": -9.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "nivel_vida_futuro",
+      "row": "2026-10",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "nivel_vida_futuro_inteiro",
+      "row": "2026-10",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "nivel_vida_passado",
+      "row": "2026-10",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "nivel_vida_passado_inteiro",
+      "row": "2026-10",
+      "value": -85.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "moyenne/average",
+      "value": -48.9446,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "compras",
+      "row": "2026-10",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "compras_inteiro",
+      "row": "2026-10",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "2026-10-01 00:00:00",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "moyenne/average",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "compras Oportunidade de compras importantes saldo de opinião, pontos",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "delta_mensal_pontos",
+      "row": "compras Oportunidade de compras importantes saldo de opinião, pontos",
+      "value": -4.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "capacidade_poupanca_atual",
+      "row": "2026-10",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "capacidade_poupanca_futura",
+      "row": "2026-10",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "capacidade_poupanca_atual_inteiro",
+      "row": "2026-10",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "poupanca",
+      "row": "2026-10",
+      "value": 118.0128,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "oportunidade_poupanca",
+      "row": "2026-10",
+      "value": 37.2673,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "poupanca_inteiro",
+      "row": "2026-10",
+      "value": 118.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "desemprego",
+      "row": "2026-10",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "desemprego_inteiro",
+      "row": "2026-10",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "desemprego Desemprego — perspectivas saldo de opinião, pontos",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "delta_mensal_pontos",
+      "row": "desemprego Desemprego — perspectivas saldo de opinião, pontos",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "precos_passados",
+      "row": "2026-10",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "precos_futuros",
+      "row": "2026-10",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "precos_passados_inteiro",
+      "row": "2026-10",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "moyenne/average",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Prix - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -31.6027,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "precos_passados Preços — evolução passada saldo de opinião, pontos",
+      "value": -12.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S04",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-4e7c7cf69280b4b446da4a7d",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "confianca",
+      "row": "2026-10",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "confianca_inteiro",
+      "row": "2026-10",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "2026-10-01 00:00:00",
+      "value": 80.3175,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Indicateur synthétique de confiance des ménages",
+      "row": "moyenne/average",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "confianca Indicador sintético de confiança índice, média 1987-2025 = 100",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "desvio_da_media_pontos",
+      "row": "confianca Indicador sintético de confiança índice, média 1987-2025 = 100",
+      "value": -20.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "sit_financeira_passada",
+      "row": "2026-10",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "sit_financeira_passada_inteiro",
+      "row": "2026-10",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "2026-10-01 00:00:00",
+      "value": -31.9756,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Situation financière personnelle - évolution passée",
+      "row": "moyenne/average",
+      "value": -21.0797,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "sit_financeira_passada Situação financeira pessoal — passada saldo de opinião, pontos",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "delta_mensal_pontos",
+      "row": "sit_financeira_passada Situação financeira pessoal — passada saldo de opinião, pontos",
+      "value": -6.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "sit_financeira_futura",
+      "row": "2026-10",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "sit_financeira_futura_inteiro",
+      "row": "2026-10",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -24.232,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Situation financière personnelle - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -6.805,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "sit_financeira_futura Situação financeira pessoal — futura saldo de opinião, pontos",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "delta_mensal_pontos",
+      "row": "sit_financeira_futura Situação financeira pessoal — futura saldo de opinião, pontos",
+      "value": -9.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "nivel_vida_futuro",
+      "row": "2026-10",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "nivel_vida_futuro_inteiro",
+      "row": "2026-10",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Niveau de vie en France - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": -66.7208,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "nivel_vida_passado",
+      "row": "2026-10",
+      "value": -85.206,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "nivel_vida_passado_inteiro",
+      "row": "2026-10",
+      "value": -85.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Niveau de vie en France - évolution passée",
+      "row": "moyenne/average",
+      "value": -48.9446,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "compras",
+      "row": "2026-10",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "compras_inteiro",
+      "row": "2026-10",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "2026-10-01 00:00:00",
+      "value": -40.9298,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Opportunité de faire des achats importants",
+      "row": "moyenne/average",
+      "value": -15.9399,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "compras Oportunidade de compras importantes saldo de opinião, pontos",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "delta_mensal_pontos",
+      "row": "compras Oportunidade de compras importantes saldo de opinião, pontos",
+      "value": -4.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "capacidade_poupanca_atual",
+      "row": "2026-10",
+      "value": 16.6167,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "capacidade_poupanca_futura",
+      "row": "2026-10",
+      "value": 11.8788,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "capacidade_poupanca_atual_inteiro",
+      "row": "2026-10",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "poupanca",
+      "row": "2026-10",
+      "value": 118.0128,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "oportunidade_poupanca",
+      "row": "2026-10",
+      "value": 37.2673,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "poupanca_inteiro",
+      "row": "2026-10",
+      "value": 118.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "desemprego",
+      "row": "2026-10",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "desemprego_inteiro",
+      "row": "2026-10",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "2026-10-01 00:00:00",
+      "value": 60.6196,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Chômage - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": 33.0045,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "desemprego Desemprego — perspectivas saldo de opinião, pontos",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "delta_mensal_pontos",
+      "row": "desemprego Desemprego — perspectivas saldo de opinião, pontos",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "precos_passados",
+      "row": "2026-10",
+      "value": 42.3223,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "precos_futuros",
+      "row": "2026-10",
+      "value": -7.1493,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/camme_cvs_mensal.csv",
+      "header": "precos_passados_inteiro",
+      "row": "2026-10",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Prix - évolution passée",
+      "row": "moyenne/average",
+      "value": -12.2913,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/insee_camme_ir260_out2026.xlsx",
+      "header": "Prix - perspectives d'évolution",
+      "row": "moyenne/average",
+      "value": -31.6027,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/leitura_outubro_2026.csv",
+      "header": "media_longa_arredondada",
+      "row": "precos_passados Preços — evolução passada saldo de opinião, pontos",
+      "value": -12.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S04",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-8b03d9bce3788e18071c6e9a",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "confianca_consumidor",
+      "row": "2026-10-01",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "confianca_consumidor Confiança do consumidor",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "confianca_consumidor Confiança do consumidor",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "situacao_financeira_passada",
+      "row": "2026-10-01",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "situacao_financeira_passada Situação financeira pessoal — passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "situacao_financeira_passada Situação financeira pessoal — passada",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "situacao_financeira_futura",
+      "row": "2026-10-01",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "situacao_financeira_futura Situação financeira pessoal — futura",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "situacao_financeira_futura Situação financeira pessoal — futura",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "nivel_vida_futuro",
+      "row": "2026-10-01",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "nivel_vida_futuro Nível de vida na França — futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "nivel_vida_passado",
+      "row": "2026-10-01",
+      "value": -85.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "nivel_vida_passado Nível de vida na França — passado",
+      "value": -49.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "nivel_vida_passado Nível de vida na França — passado",
+      "value": -85.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "oportunidade_compras",
+      "row": "2026-10-01",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "oportunidade_compras Oportunidade de grandes compras",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "oportunidade_compras Oportunidade de grandes compras",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "capacidade_poupanca_futura",
+      "row": "2026-10-01",
+      "value": 12.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_insee.csv",
+      "header": "capacidade_poupanca_atual",
+      "row": "2026-10-01",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "capacidade_poupanca_atual Capacidade de poupança — atual",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "clima_poupanca",
+      "row": "2026-10-01",
+      "value": 118.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_insee.csv",
+      "header": "oportunidade_poupar",
+      "row": "2026-10-01",
+      "value": 37.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "clima_poupanca Clima de poupança",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "temor_desemprego",
+      "row": "2026-10-01",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "temor_desemprego Temor de desemprego",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "temor_desemprego Temor de desemprego",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "precos_passados",
+      "row": "2026-10-01",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_insee.csv",
+      "header": "precos_futuros",
+      "row": "2026-10-01",
+      "value": -7.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S04",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-6b0af79ff3404986e9d47f69",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "confianca_consumidor",
+      "row": "2026-10-01",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "confianca_consumidor Confiança do consumidor",
+      "value": 80.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "confianca_consumidor Confiança do consumidor",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_passada_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "situacao_financeira_passada",
+      "row": "2026-10-01",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "situacao_financeira_passada Situação financeira pessoal — passada",
+      "value": -32.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "situacao_financeira_passada Situação financeira pessoal — passada",
+      "value": -21.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_situacao_financeira_futura_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "situacao_financeira_futura",
+      "row": "2026-10-01",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "situacao_financeira_futura Situação financeira pessoal — futura",
+      "value": -24.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "situacao_financeira_futura Situação financeira pessoal — futura",
+      "value": -7.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_nivel_vida_futuro_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "nivel_vida_futuro",
+      "row": "2026-10-01",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "nivel_vida_futuro Nível de vida na França — futuro",
+      "value": -67.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "nivel_vida_passado",
+      "row": "2026-10-01",
+      "value": -85.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "nivel_vida_passado Nível de vida na França — passado",
+      "value": -49.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "nivel_vida_passado Nível de vida na França — passado",
+      "value": -85.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_compras_importantes_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "oportunidade_compras",
+      "row": "2026-10-01",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "oportunidade_compras Oportunidade de grandes compras",
+      "value": -41.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "oportunidade_compras Oportunidade de grandes compras",
+      "value": -16.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_capacidade_poupanca_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "capacidade_poupanca_futura",
+      "row": "2026-10-01",
+      "value": 12.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_insee.csv",
+      "header": "capacidade_poupanca_atual",
+      "row": "2026-10-01",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "capacidade_poupanca_atual Capacidade de poupança — atual",
+      "value": 17.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "clima_poupanca",
+      "row": "2026-10-01",
+      "value": 118.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_insee.csv",
+      "header": "oportunidade_poupar",
+      "row": "2026-10-01",
+      "value": 37.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "clima_poupanca Clima de poupança",
+      "value": 100.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_desemprego_esperado_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "temor_desemprego",
+      "row": "2026-10-01",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "2026-10",
+      "row": "temor_desemprego Temor de desemprego",
+      "value": 61.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimos_meses.csv",
+      "header": "media_1987_2025",
+      "row": "temor_desemprego Temor de desemprego",
+      "value": 33.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_precos_native": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_insee.csv",
+      "header": "precos_passados",
+      "row": "2026-10-01",
+      "value": 42.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_insee.csv",
+      "header": "precos_futuros",
+      "row": "2026-10-01",
+      "value": -7.0,
+      "variant": "[2026-10]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ }
+]

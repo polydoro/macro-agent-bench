@@ -1,0 +1,10 @@
+model,nowcast_2026Q3_qoq,flash_2026Q3_qoq,error_pp,source_in_report
+claude-fable-5-1,0.19,0.42,-0.23,"table 'Nowcast 3T2026 ... +0,2% (0,19)'"
+claude-haiku-5-5,0.00,0.42,-0.42,"'Estimativa central para o 3T26: crescimento de ~0,0% t/t'"
+claude-opus-5-5,0.24,0.42,-0.18,"'O nowcast final de 2026T3 (0,24%)'"
+claude-sonnet-5-5,0.11,0.42,-0.31,"'PIB t/t SA (ponte IP+varejo+ESI) +0,11%'"
+gpt-6-astra,0.19,0.42,-0.23,"HTML: 'Para o 3º trimestre ... a estimativa é +0,19%'"
+gpt-6-luna,,0.42,,no report text
+gpt-6.1-sol,0.24,0.42,-0.18,"'2026T3, trimestre anterior ainda sem PIB divulgado, é 0.24% t/t'"
+grok-4.7,-0.04,0.42,-0.46,"table '2026T3 | Nowcast central da ponte | −0,04%'"
+kimi-code/k3.1-pro,0.32,0.42,-0.10,"table '2026T3 | Encerrado; PIB ainda não divulgado | +0,32%'"

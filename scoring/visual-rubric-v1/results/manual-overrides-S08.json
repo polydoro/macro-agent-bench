@@ -1,0 +1,4 @@
+[
+ {"phase": "A2", "model": "claude-haiku-5-5", "question": "N_total_yoy", "correct": true,
+  "note": "dados/processado/pib_suica_trimestral.csv, 2026Q2, yoy_cssa = 0.0215 stored as a fraction, i.e. 2.15% (admitted 2.15 +/- 0.15, sport-adjusted)."}
+]

@@ -1,0 +1,28 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A1,S09,claude-fable-5-1,scored,34.17,30.0,4.17,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A1,S09,claude-haiku-5-5,scored,15.0,15.0,0.0,total_yoy:ambiguous alimentos_yoy:none combustivel_yoy:none equipamentos_domesticos_yoy:none cultura_lazer_yoy:none outros_bens_yoy:none internet_yoy:none
+A1,S09,claude-opus-5-5,scored,35.83,30.0,5.83,total_3m:ambiguous combustivel_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:fail
+A1,S09,claude-sonnet-5-5,scored,31.67,30.0,1.67,total_yoy:ambiguous total_3m:ambiguous
+A1,S09,gpt-6-astra,scored,32.5,30.0,2.5,total_3m:ambiguous
+A1,S09,gpt-6-luna,scored,30.0,30.0,0.0,
+A1,S09,gpt-6.1-sol,scored,30.0,30.0,0.0,total_3m:ambiguous
+A1,S09,grok-4.7,scored,30.0,30.0,0.0,total_yoy:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A1,S09,kimi-code/k3.1-pro,scored,30.56,30.0,0.56,total_yoy:ambiguous total_3m:ambiguous
+A2,S09,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,claude-haiku-5-5,scored,35.0,30.0,5.0,combustivel_yoy:ambiguous
+A2,S09,claude-opus-5-5,scored,40.0,30.0,10.0,alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,claude-sonnet-5-5,scored,38.33,30.0,8.33,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,gpt-6-astra,scored,40.0,30.0,10.0,total_yoy:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,gpt-6-luna,scored,38.33,30.0,8.33,
+A2,S09,gpt-6.1-sol,scored,40.0,30.0,10.0,total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,grok-4.7,scored,35.0,30.0,5.0,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,kimi-code/k3.1-pro,scored,35.83,30.0,5.83,total_yoy:ambiguous total_3m:ambiguous combustivel_yoy:ambiguous
+A3,S09,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous
+A3,S09,claude-haiku-5-5,scored,15.0,15.0,0.0,total_3m:ambiguous alimentos_yoy:none combustivel_yoy:none equipamentos_domesticos_yoy:none cultura_lazer_yoy:none outros_bens_yoy:none internet_yoy:none
+A3,S09,claude-opus-5-5,scored,32.5,30.0,2.5,cultura_lazer_yoy:none
+A3,S09,claude-sonnet-5-5,scored,38.33,30.0,8.33,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous
+A3,S09,gpt-6-astra,scored,30.0,30.0,0.0,total_3m:ambiguous
+A3,S09,gpt-6-luna,scored,30.0,30.0,0.0,total_3m:ambiguous
+A3,S09,gpt-6.1-sol,scored,30.0,30.0,0.0,total_3m:ambiguous
+A3,S09,grok-4.7,scored,30.0,30.0,0.0,total_3m:ambiguous alimentos_yoy:ambiguous internet_yoy:ambiguous
+A3,S09,kimi-code/k3.1-pro,scored,37.22,30.0,7.22,total_3m:ambiguous

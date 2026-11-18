@@ -1,0 +1,4926 @@
+[
+ {
+  "phase": "A4e",
+  "task": "S03",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-94a39cdc54797f49476a10a5",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Total varejo (47), preços constantes",
+      "value": -0.617,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Total varejo (47), preços constantes",
+      "value": -0.443,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Total varejo (47), preços constantes",
+      "value": -1.124,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Total varejo (47), preços constantes",
+      "value": 1.279,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Total varejo (47), preços correntes",
+      "value": 4.885,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Total varejo (47), preços correntes",
+      "value": 4.927,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "3msaar SA %",
+      "row": "Total varejo (47), preços constantes",
+      "value": -1.551,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/serie_headline_total_varejo.csv",
+      "header": "m3saar_SA",
+      "row": "2026-08",
+      "value": -1.551,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/trimestral_total_varejo_SA.csv",
+      "header": "var_trim_anualizada_%",
+      "row": "2026Q2",
+      "value": -1.577,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "3msaar SA %",
+      "row": "Total varejo (47), preços correntes",
+      "value": 0.534,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "3msaar SA %",
+      "row": "Varejo ex-combustíveis (47 ex 473), p. constantes",
+      "value": -0.049,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/serie_headline_total_varejo.csv",
+      "header": "nominal_m3saar_SA",
+      "row": "2026-08",
+      "value": 0.534,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_alimentacion_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Alimentação, p. constantes",
+      "value": -0.959,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Alimentação, p. constantes",
+      "value": -0.851,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Alimentação, p. constantes",
+      "value": -1.728,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Alimentação, p. constantes",
+      "value": 1.118,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_resto_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 2.651,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 2.623,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 2.421,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 3.509,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Equipamento pessoal, p. constantes",
+      "value": 2.92,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento pessoal, p. constantes",
+      "value": 2.478,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Equipamento pessoal, p. constantes",
+      "value": 1.053,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 2.449,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 2.443,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 2.712,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 3.843,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": 3.183,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": 2.878,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": 2.361,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": 0.488,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 3.75,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 3.955,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 3.443,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 4.598,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -10.597,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -10.045,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -11.43,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -3.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Empresas de loja única, ex-combustíveis, p. constantes",
+      "value": -0.009,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Empresas de loja única, ex-combustíveis, p. constantes",
+      "value": 0.173,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Modo: Empresas de loja única, ex-combustíveis, p. constantes",
+      "value": -0.403,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Modo: Empresas de loja única, ex-combustíveis, p. constantes",
+      "value": 2.138,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S03",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-a3921a19f10d0fb631ca25d9",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Total varejo (47), preços constantes",
+      "value": -0.62,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Total varejo (47), preços constantes",
+      "value": -0.44,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Total varejo (47), preços constantes",
+      "value": -1.12,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Total varejo (47), preços constantes",
+      "value": 1.28,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Total varejo (47), preços correntes",
+      "value": 4.89,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Total varejo (47), preços correntes",
+      "value": 4.93,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "3msaar SA %",
+      "row": "Total varejo (47), preços constantes",
+      "value": -1.55,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/serie_headline_total_varejo.csv",
+      "header": "m3saar_SA",
+      "row": "2026-08",
+      "value": -1.551,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/trimestral_total_varejo_SA.csv",
+      "header": "var_trim_anualizada_%",
+      "row": "2026Q2",
+      "value": -1.58,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "3msaar SA %",
+      "row": "Total varejo (47), preços correntes",
+      "value": 0.53,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "3msaar SA %",
+      "row": "Varejo ex-combustíveis (47 ex 473), p. constantes",
+      "value": -0.05,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/serie_headline_total_varejo.csv",
+      "header": "nominal_m3saar_SA",
+      "row": "2026-08",
+      "value": 0.534,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_alimentacion_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Alimentação, p. constantes",
+      "value": -0.96,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Alimentação, p. constantes",
+      "value": -0.85,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Alimentação, p. constantes",
+      "value": -1.73,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Alimentação, p. constantes",
+      "value": 1.12,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Alimentação, p. constantes",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Alimentação, p. constantes",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_resto_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 2.65,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 2.62,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 2.42,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 3.51,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Não alimentar (resto), p. constantes",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_equipo_personal_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Equipamento pessoal, p. constantes",
+      "value": 2.92,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento pessoal, p. constantes",
+      "value": 2.48,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Equipamento pessoal, p. constantes",
+      "value": 1.05,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Equipamento pessoal, p. constantes",
+      "value": -9.1,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento pessoal, p. constantes",
+      "value": -6.8,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Equipamento pessoal, p. constantes",
+      "value": -8.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 2.45,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 2.44,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 2.71,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 3.84,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 4.6,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento do lar, p. constantes",
+      "value": 4.6,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": 3.18,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": 2.88,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": 2.36,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": 0.49,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": -0.5,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Grandes superfícies, ex-combustíveis, p. constantes",
+      "value": -0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 3.75,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 3.96,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 3.44,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 4.6,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 1.8,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Grandes cadeias, ex-combustíveis, p. constantes",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -10.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -10.05,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -11.43,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -3.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -2.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Pequenas cadeias, ex-combustíveis, p. constantes",
+      "value": -2.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Modo: Empresas de loja única, ex-combustíveis, p. constantes",
+      "value": -0.01,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Modo: Empresas de loja única, ex-combustíveis, p. constantes",
+      "value": 0.17,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "YoY original %",
+      "row": "Modo: Empresas de loja única, ex-combustíveis, p. constantes",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao_anterior_ago2026_coleta_2026-10-27/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Modo: Empresas de loja única, ex-combustíveis, p. constantes",
+      "value": 2.14,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/resumo_ultimo_mes.csv",
+      "header": "Média YTD vs ano ant. (orig.) %",
+      "row": "Modo: Empresas de loja única, ex-combustíveis, p. constantes",
+      "value": 1.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S03",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-43fae5420bc13540dba2c940",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_varejo_es.csv",
+      "header": "CA_YoY_%",
+      "row": "2026-08 p p",
+      "value": -0.63,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_varejo_es.csv",
+      "header": "SCA_YoY_%",
+      "row": "2026-08 p p",
+      "value": -0.45,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_varejo_es_coleta_2026-11-07.csv",
+      "header": "CA_YoY_%",
+      "row": "2026-08 p p p",
+      "value": -0.63,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/aberturas_mensal_varejo_es_coleta_2026-11-07.csv",
+      "header": "CA_YoY_%",
+      "row": "G471 2026-08 p",
+      "value": 0.08,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/aberturas_mensal_varejo_es_coleta_2026-11-07.csv",
+      "header": "CA_YoY_%",
+      "row": "G472 2026-08 p",
+      "value": -3.24,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/aberturas_mensal_varejo_es_coleta_2026-11-07.csv",
+      "header": "CA_YoY_%",
+      "row": "G473 2026-08 p",
+      "value": -7.06,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_varejo_es.csv",
+      "header": "SCA_3msaar_%",
+      "row": "2026-08 p p",
+      "value": -1.65,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_varejo_es_coleta_2026-11-07.csv",
+      "header": "SCA_3msaar_%",
+      "row": "2026-08 p p p",
+      "value": -1.77,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/tabela_varejo_es.csv",
+      "header": "SA_3msaar_%",
+      "row": "2026-08",
+      "value": -1.65,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/aberturas_mensal_varejo_es_coleta_2026-11-07.csv",
+      "header": "SCA_3msaar_%",
+      "row": "G471 2026-08 p",
+      "value": 0.35,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/aberturas_mensal_varejo_es_coleta_2026-11-07.csv",
+      "header": "SCA_3msaar_%",
+      "row": "G472 2026-08 p",
+      "value": -4.94,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/aberturas_mensal_varejo_es_coleta_2026-11-07.csv",
+      "header": "SCA_3msaar_%",
+      "row": "G473 2026-08 p",
+      "value": -12.78,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_alimentacion_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/aberturas_varejo_es_coleta_2026-11-07.csv",
+      "header": "CA_YoY_%",
+      "row": "G471 Alimentação em lojas não especializadas 2026-09 p",
+      "value": 1.16,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/aberturas_varejo_es_coleta_2026-11-07.csv",
+      "header": "CA_YoY_%",
+      "row": "G472 Alimentação especializada 2026-09 p",
+      "value": -4.04,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_resto_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S03",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-161edeee64ab3d5d098c315f",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_varejo_es_v2.csv",
+      "header": "CA_YoY_pub_%",
+      "row": "2026-08",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_varejo_es_v2.csv",
+      "header": "SA_YoY_pub_%",
+      "row": "2026-08",
+      "value": -0.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_varejo_es_v2.csv",
+      "header": "CA_YoY_calc_%",
+      "row": "2026-08",
+      "value": -0.633,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "YoY_%",
+      "row": "Saúde (4773+4774+4775)",
+      "value": 2.05,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "YoY_%",
+      "row": "Sem estações de serviço (47 sem 473)",
+      "value": 0.14,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "YoY_%",
+      "row": "Estações de serviço (473)",
+      "value": -6.37,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_varejo_es_v2.csv",
+      "header": "SA_3msaar_%",
+      "row": "2026-08",
+      "value": -1.871,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_inicial/tabela_varejo_es.csv",
+      "header": "SA_3msaar_%",
+      "row": "2026-08",
+      "value": -1.65,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega_v2_tmp/tabela_varejo_es_v2.csv",
+      "header": "SA_3msaar_%",
+      "row": "2026-08",
+      "value": -1.871,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "3msaar_%",
+      "row": "Saúde (4773+4774+4775)",
+      "value": 1.67,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "3msaar_%",
+      "row": "Sem estações de serviço (47 sem 473)",
+      "value": -0.61,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "3msaar_%",
+      "row": "Estações de serviço (473)",
+      "value": -12.88,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "YoY_%",
+      "row": "Alimentação (4711+472)",
+      "value": -0.24,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "YoY_%",
+      "row": "Resto (4719+474+475+476+477+478+479)",
+      "value": 0.68,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "YoY_%",
+      "row": "Equipamento pessoal (4751+4771+4772)",
+      "value": -6.79,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/grupos_varejo_es_v2_taxas_ultimo_mes.csv",
+      "header": "YoY_%",
+      "row": "Equipamento do lar (4743+4752+4754+4759+4763)",
+      "value": 4.58,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S03",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-1fdb22e2c742c6b04822ce98",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_historico_total.csv",
+      "header": "YoY CA %",
+      "row": "2026-08",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_historico_total.csv",
+      "header": "YoY NSA %",
+      "row": "2026-08",
+      "value": -1.2,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_historico_total.csv",
+      "header": "Faturamento nominal SA, YoY %",
+      "row": "2026-08",
+      "value": 5.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_historico_total.csv",
+      "header": "3msaar %",
+      "row": "2026-08",
+      "value": -1.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Total varejo (ex-veículos) 2026-08 2026-08 Nível/MoM/3msaar: SCA; YoY: CA",
+      "value": -1.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "Índice SA (2021=100)",
+      "row": "Total varejo (ex-veículos) 2026-08 2026-08 Nível/MoM/3msaar: SCA; YoY: CA",
+      "value": 111.6,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "MoM SA %",
+      "row": "Total varejo (ex-veículos) 2026-08 2026-08 Nível/MoM/3msaar: SCA; YoY: CA",
+      "value": 0.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Total varejo (ex-veículos) 2026-08 2026-08 Nível/MoM/3msaar: SCA; YoY: CA",
+      "value": -0.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_alimentacion_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S03",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-1fdf7f54176f9026543debb2",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_historico_total.csv",
+      "header": "YoY CA %",
+      "row": "2026-08",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA % mês ant.",
+      "row": "Total varejo (CNAE 47)",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA % mês ant.",
+      "row": "Total ex-postos de combustível",
+      "value": 0.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_historico_total.csv",
+      "header": "Nominal SCA YoY %",
+      "row": "2026-08",
+      "value": 4.9,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Total varejo (CNAE 47)",
+      "value": -1.6,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Total ex-postos de combustível",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_historico_total.csv",
+      "header": "3msaar %",
+      "row": "2026-09",
+      "value": -2.4,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Total varejo (CNAE 47)",
+      "value": -2.4,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Total ex-postos de combustível",
+      "value": -0.6,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_alimentacion_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA % mês ant.",
+      "row": "Alimentação",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Alimentação",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_resto_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA % mês ant.",
+      "row": "Resto (não alimentar)",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "Resto (não alimentar)",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_equipo_personal_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "  Equipamento pessoal",
+      "value": -9.1,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA % mês ant.",
+      "row": "  Equipamento pessoal",
+      "value": 2.7,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA % mês ant.",
+      "row": "  Equipamento do lar",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "YoY CA %",
+      "row": "  Equipamento do lar",
+      "value": 4.6,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S03",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-f6bb1529c8fd7c3779ff8e84",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/geral_ultimos_18m.csv",
+      "header": "YoY SA %",
+      "row": "2026-08",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/geral_ultimos_18m.csv",
+      "header": "YoY calend. %",
+      "row": "2026-08",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Índice geral",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/geral_ultimos_18m.csv",
+      "header": "3msaar %",
+      "row": "2026-08",
+      "value": -1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Índice geral",
+      "value": -1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "3msaar anterior (jul) %",
+      "row": "Índice geral",
+      "value": -0.9,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Geral sem estações de serviço",
+      "value": -0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "3msaar anterior (jul) %",
+      "row": "Geral sem estações de serviço",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Alimentação",
+      "value": -1.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Alimentação",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Resto (não alimentar)",
+      "value": 2.7,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Resto (não alimentar)",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Equipamento pessoal",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento pessoal",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Equipamento do lar",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento do lar",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Grandes superfícies",
+      "value": 3.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Grandes superfícies",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Grandes cadeias",
+      "value": 3.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Grandes cadeias",
+      "value": 4.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Pequenas cadeias",
+      "value": -10.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Pequenas cadeias",
+      "value": -10.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Empresas unilocalizadas",
+      "value": -0.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Empresas unilocalizadas",
+      "value": 0.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S03",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-a4c5bdaf569fcf084d60dfeb",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/geral_ultimos_18m.csv",
+      "header": "YoY SA %",
+      "row": "2026-09",
+      "value": -1.4,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/geral_ultimos_18m.csv",
+      "header": "YoY calend. %",
+      "row": "2026-09",
+      "value": -1.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Índice geral",
+      "value": -1.6,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/geral_ultimos_18m.csv",
+      "header": "3msaar %",
+      "row": "2026-09",
+      "value": -2.4,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Índice geral",
+      "value": -2.4,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Geral sem estações de serviço",
+      "value": -0.6,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Alimentação",
+      "value": -0.1,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Alimentação",
+      "value": -0.2,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Resto (não alimentar)",
+      "value": 0.2,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Resto (não alimentar)",
+      "value": 0.7,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Equipamento pessoal",
+      "value": -9.1,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento pessoal",
+      "value": -6.8,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Equipamento do lar",
+      "value": 4.6,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Equipamento do lar",
+      "value": 4.6,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Grandes superfícies",
+      "value": -0.5,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Grandes superfícies",
+      "value": -0.0,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Grandes cadeias",
+      "value": 1.8,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Grandes cadeias",
+      "value": 2.3,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Pequenas cadeias",
+      "value": -2.7,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Pequenas cadeias",
+      "value": -2.9,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY calend. %",
+      "row": "Empresas unilocalizadas",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/resumo_ultimo_mes.csv",
+      "header": "YoY SA %",
+      "row": "Empresas unilocalizadas",
+      "value": -0.3,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S03",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-7e8e34119145c3ddd5881399",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Total",
+      "value": -0.6168,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Total",
+      "value": -0.4434,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Total",
+      "value": -0.6168,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": -1.5512,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": -1.5512,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": -1.5512,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Alimentos",
+      "value": -0.9589,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Alimentos",
+      "value": -0.8513,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Alimentos",
+      "value": -0.9589,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Uso pessoal",
+      "value": 2.9195,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Uso pessoal",
+      "value": 2.4784,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Uso pessoal",
+      "value": 2.9195,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Lar",
+      "value": 2.4487,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Lar",
+      "value": 2.4433,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Lar",
+      "value": 2.4487,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Grandes superfícies",
+      "value": 3.1833,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Grandes superfícies",
+      "value": 2.8779,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Grandes superfícies",
+      "value": 3.1833,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Grandes redes",
+      "value": 3.7501,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Grandes redes",
+      "value": 3.9551,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Grandes redes",
+      "value": 3.7501,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Pequenas redes",
+      "value": -10.5975,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Pequenas redes",
+      "value": -10.0454,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Pequenas redes",
+      "value": -10.5975,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S03",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-2a3282f345def8ce98398f9c",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Total",
+      "value": -0.6168,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Total",
+      "value": -0.4434,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Total",
+      "value": -0.6168,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": -1.5512,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": -1.5512,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": -1.5512,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Alimentos",
+      "value": -0.9589,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Alimentos",
+      "value": -0.8513,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Alimentos",
+      "value": -0.9589,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Uso pessoal",
+      "value": 2.9195,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Uso pessoal",
+      "value": 2.4784,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Uso pessoal",
+      "value": 2.9195,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Lar",
+      "value": 2.4487,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Lar",
+      "value": 2.4433,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Lar",
+      "value": 2.4487,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Grandes superfícies",
+      "value": 3.1833,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Grandes superfícies",
+      "value": 2.8779,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Grandes superfícies",
+      "value": 3.1833,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Grandes redes",
+      "value": 3.7501,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Grandes redes",
+      "value": 3.9551,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Grandes redes",
+      "value": 3.7501,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Pequenas redes",
+      "value": -10.5975,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_sa",
+      "row": "2026-08-01 Pequenas redes",
+      "value": -10.0454,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_12_meses.csv",
+      "header": "yoy_ca",
+      "row": "2026-08-01 Pequenas redes",
+      "value": -10.5975,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S03",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-95a6765a836a680282beb360",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "GENERAL INDEX",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "General Index without service stations",
+      "value": 1.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_SA_calendario_pct",
+      "row": "GENERAL INDEX",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_series_sa_total_aberturas.csv",
+      "header": "YoY_SA_pct — Comercio electrónico",
+      "row": "2026-08",
+      "value": 2.7182,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_series_sa_total_aberturas.csv",
+      "header": "3msaar_SA_pct — Comercio electrónico",
+      "row": "2026-08",
+      "value": 3.6228,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Food",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_SA_calendario_pct",
+      "row": "Food",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Non-food products",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_SA_calendario_pct",
+      "row": "Non-food products",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Personal equipment",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_SA_calendario_pct",
+      "row": "Personal equipment",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Household equipment",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_SA_calendario_pct",
+      "row": "Household equipment",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_series_sa_total_aberturas.csv",
+      "header": "YoY_SA_pct — Grandes Superficies",
+      "row": "2026-09",
+      "value": -0.0312,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Large chain stores",
+      "value": 4.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_SA_calendario_pct",
+      "row": "Large chain stores",
+      "value": 4.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_series_sa_grandes_redes.csv",
+      "header": "YoY SA: sazonal e calendário",
+      "row": "2026-08",
+      "value": 3.9551,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_series_sa_total_aberturas.csv",
+      "header": "YoY_SA_pct — Grandes cadenas",
+      "row": "2026-08",
+      "value": 3.5634,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Small chain stores",
+      "value": -10.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_SA_calendario_pct",
+      "row": "Small chain stores",
+      "value": -10.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_series_sa_total_aberturas.csv",
+      "header": "YoY_SA_pct — Pequeñas cadenas",
+      "row": "2026-08",
+      "value": -9.5273,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Single retail stores",
+      "value": 0.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_SA_calendario_pct",
+      "row": "Single retail stores",
+      "value": 0.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_series_sa_total_aberturas.csv",
+      "header": "YoY_SA_pct — Empresas unilocalizadas",
+      "row": "2026-08",
+      "value": 0.1976,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S03",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-b9efa5efae1f7433101d4981",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "GENERAL INDEX",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "General Index without service stations",
+      "value": 1.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_calendario_pct",
+      "row": "GENERAL INDEX",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_divulgacao_mais_recente.csv",
+      "header": "YoY_real_calendario_pct",
+      "row": "GENERAL INDEX",
+      "value": -1.4,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_divulgacao_mais_recente.csv",
+      "header": "YoY_real_calendario_pct",
+      "row": "General Index without service stations",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_alimentacion_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Food",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Food",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_divulgacao_mais_recente.csv",
+      "header": "YoY_real_calendario_pct",
+      "row": "Food",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_resto_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Non-food products",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Non-food products",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_divulgacao_mais_recente.csv",
+      "header": "YoY_real_calendario_pct",
+      "row": "Non-food products",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_equipo_personal_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Personal equipment",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Personal equipment",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_divulgacao_mais_recente.csv",
+      "header": "YoY_real_calendario_pct",
+      "row": "Personal equipment",
+      "value": -6.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Household equipment",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Household equipment",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_divulgacao_mais_recente.csv",
+      "header": "YoY_real_calendario_pct",
+      "row": "Household equipment",
+      "value": 4.6,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Large chain stores",
+      "value": 4.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/series_grandes_cadeias_processadas.csv",
+      "header": "YoY calendário %",
+      "row": "2026-08",
+      "value": 3.6882,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Large chain stores",
+      "value": 4.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_divulgacao_mais_recente.csv",
+      "header": "YoY_real_calendario_pct",
+      "row": "Large chain stores",
+      "value": 2.3,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Small chain stores",
+      "value": -10.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Small chain stores",
+      "value": -10.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_divulgacao_mais_recente.csv",
+      "header": "YoY_real_calendario_pct",
+      "row": "Small chain stores",
+      "value": -2.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/agosto_2026_aberturas_tabela1.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Single retail stores",
+      "value": 0.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_aberturas_agosto.csv",
+      "header": "YoY_calendario_pct",
+      "row": "Single retail stores",
+      "value": 0.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_divulgacao_mais_recente.csv",
+      "header": "YoY_real_calendario_pct",
+      "row": "Single retail stores",
+      "value": -0.3,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S03",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-015dc09b6b7a22a51d852ddf",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Total",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "yoy_calendario",
+      "row": "Total",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": -1.5512,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "3msaar",
+      "row": "Total",
+      "value": -1.551,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Alimentos",
+      "value": -1.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "yoy_calendario",
+      "row": "Alimentos",
+      "value": -1.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Uso pessoal",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "yoy_calendario",
+      "row": "Uso pessoal",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Artigos para o lar",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "yoy_calendario",
+      "row": "Artigos para o lar",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S03",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-af304ebab753fbc5a4988fef",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "csv",
+      "row": "Total yoy_calendario",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "anexo",
+      "row": "Total yoy_calendario",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Total",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "diferenca",
+      "row": "Total yoy_calendario",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "tolerancia_arredondamento",
+      "row": "Total yoy_calendario",
+      "value": 0.05,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": -1.5512,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/primeira_versao/tabela_agosto_2026.csv",
+      "header": "3msaar",
+      "row": "Total",
+      "value": -1.551,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_agosto_2026.csv",
+      "header": "3msaar",
+      "row": "Total",
+      "value": -1.551,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_alimentacion_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "csv",
+      "row": "Alimentos yoy_calendario",
+      "value": -1.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "anexo",
+      "row": "Alimentos yoy_calendario",
+      "value": -1.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Alimentos",
+      "value": -1.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "diferenca",
+      "row": "Alimentos yoy_calendario",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "tolerancia_arredondamento",
+      "row": "Alimentos yoy_calendario",
+      "value": 0.05,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_resto_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "csv",
+      "row": "Uso pessoal yoy_calendario",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "anexo",
+      "row": "Uso pessoal yoy_calendario",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Uso pessoal",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "diferenca",
+      "row": "Uso pessoal yoy_calendario",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "tolerancia_arredondamento",
+      "row": "Uso pessoal yoy_calendario",
+      "value": 0.05,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "csv",
+      "row": "Artigos para o lar yoy_calendario",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "anexo",
+      "row": "Artigos para o lar yoy_calendario",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Artigos para o lar",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "diferenca",
+      "row": "Artigos para o lar yoy_calendario",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/conferencia_anexo.csv",
+      "header": "tolerancia_arredondamento",
+      "row": "Artigos para o lar yoy_calendario",
+      "value": 0.05,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S03",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-c959a02524ff1698de06e5be",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/agosto_2026_resumo.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Geral 2026-08",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Geral 2026-08",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Geral",
+      "value": -0.004,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/geral_volume_comparacao_ajustes.csv",
+      "header": "yoy_oficial",
+      "row": "2026-08-01 Índice geral, preços constantes corrigido de efeitos estacionais e de calendário (INE, JD",
+      "value": -0.004,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/geral_volume_comparacao_ajustes.csv",
+      "header": "yoy_so_calendario",
+      "row": "2026-08-01 Índice geral, preços constantes corrigido de efeitos estacionais e de calendário (INE, JD",
+      "value": -0.006,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/agosto_2026_resumo.csv",
+      "header": "m3saar_pct",
+      "row": "Geral 2026-08",
+      "value": -1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "m3saar_pct",
+      "row": "Geral 2026-08",
+      "value": -1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "m3saar",
+      "row": "2026-08-01 Geral",
+      "value": -0.0155,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/geral_volume_comparacao_ajustes.csv",
+      "header": "m3saar",
+      "row": "2026-08-01 Índice geral, preços constantes corrigido de efeitos estacionais e de calendário (INE, JD",
+      "value": -0.0155,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/geral_volume_comparacao_ajustes.csv",
+      "header": "m3saar_precos_correntes",
+      "row": "2026-08-01 Índice geral, preços constantes corrigido de efeitos estacionais e de calendário (INE, JD",
+      "value": 0.0053,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_alimentacion_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/agosto_2026_resumo.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Alimentação 2026-08",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Alimentação 2026-08",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Alimentação",
+      "value": -0.009,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Alimentação",
+      "value": -0.009,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_resto_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/agosto_2026_resumo.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Resto 2026-08",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Resto 2026-08",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Resto",
+      "value": 0.026,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Resto",
+      "value": 0.026,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_equipo_personal_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/agosto_2026_resumo.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Equipa pessoal 2026-08",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Equipa pessoal 2026-08",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Equipa pessoal",
+      "value": 0.025,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Equipa pessoal",
+      "value": 0.025,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/agosto_2026_resumo.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Equipa do lar 2026-08",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Equipa do lar 2026-08",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Equipa do lar",
+      "value": 0.024,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Equipa do lar",
+      "value": 0.024,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/agosto_2026_resumo.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Grandes superfícies 2026-08",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Grandes superfícies 2026-08",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Grandes superfícies",
+      "value": 0.029,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Grandes superfícies",
+      "value": 0.029,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/agosto_2026_resumo.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Grandes cadeias 2026-08",
+      "value": 4.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Grandes cadeias 2026-08",
+      "value": 4.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Grandes cadeias",
+      "value": 0.04,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Grandes cadeias",
+      "value": 0.04,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/agosto_2026_resumo.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Pequenas cadeias 2026-08",
+      "value": -10.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Pequenas cadeias 2026-08",
+      "value": -10.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Pequenas cadeias",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Pequenas cadeias",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S03",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-324f539db16faf17ea459add",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-09-01 Geral",
+      "value": -0.014,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_so_calendario",
+      "row": "2026-09-01 Geral",
+      "value": -0.016,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/geral_volume_comparacao_ajustes.csv",
+      "header": "yoy_oficial",
+      "row": "2026-09-01 Índice geral, preços constantes corrigido de efeitos estacionais e de calendário (INE, JD",
+      "value": -0.014,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "m3saar_pct",
+      "row": "Geral 2026-08",
+      "value": -1.9,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "m3saar",
+      "row": "2026-08-01 Geral",
+      "value": -0.0187,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/geral_volume_comparacao_ajustes.csv",
+      "header": "m3saar",
+      "row": "2026-08-01 Índice geral, preços constantes corrigido de efeitos estacionais e de calendário (INE, JD",
+      "value": -0.0187,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/geral_volume_comparacao_ajustes.csv",
+      "header": "m3saar_precos_correntes",
+      "row": "2026-08-01 Índice geral, preços constantes corrigido de efeitos estacionais e de calendário (INE, JD",
+      "value": 0.0069,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-09-01 Alimentação",
+      "value": -0.002,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_so_calendario",
+      "row": "2026-09-01 Alimentação",
+      "value": -0.001,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-09-01 Alimentação",
+      "value": -0.002,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Resto 2026-08",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_so_calendario_pct",
+      "row": "Resto 2026-08",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Resto",
+      "value": 0.024,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_so_calendario",
+      "row": "2026-08-01 Resto",
+      "value": 0.026,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Resto",
+      "value": 0.024,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_equipo_personal_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/setembro_2026_resumo.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Equipa pessoal 2026-09",
+      "value": -6.8,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/setembro_2026_resumo.csv",
+      "header": "yoy_so_calendario_pct",
+      "row": "Equipa pessoal 2026-09",
+      "value": -9.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Equipa pessoal 2026-09",
+      "value": -6.8,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-09-01 Equipa pessoal",
+      "value": -0.068,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_so_calendario",
+      "row": "2026-09-01 Equipa pessoal",
+      "value": -0.091,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-09-01 Equipa pessoal",
+      "value": -0.068,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_sa_calendario_pct",
+      "row": "Equipa do lar 2026-08",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_so_calendario_pct",
+      "row": "Equipa do lar 2026-08",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Equipa do lar",
+      "value": 0.025,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_so_calendario",
+      "row": "2026-08-01 Equipa do lar",
+      "value": 0.025,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Equipa do lar",
+      "value": 0.025,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-09-01 Grandes superfícies",
+      "value": 0.0,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_so_calendario",
+      "row": "2026-09-01 Grandes superfícies",
+      "value": -0.005,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-09-01 Grandes superfícies",
+      "value": 0.0,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_so_calendario_pct",
+      "row": "Grandes cadeias 2026-08",
+      "value": 3.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Grandes cadeias",
+      "value": 0.036,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_so_calendario",
+      "row": "2026-08-01 Grandes cadeias",
+      "value": 0.037,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Grandes cadeias",
+      "value": 0.036,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultimos_13_meses.csv",
+      "header": "yoy_so_calendario_pct",
+      "row": "Pequenas cadeias 2026-08",
+      "value": -10.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Pequenas cadeias",
+      "value": -0.095,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/icm_volume_sa.csv",
+      "header": "yoy_so_calendario",
+      "row": "2026-08-01 Pequenas cadeias",
+      "value": -0.105,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_volume_sa.csv",
+      "header": "yoy_sa_calendario",
+      "row": "2026-08-01 Pequenas cadeias",
+      "value": -0.095,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S03",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-f51c37099a7d342e05e12c1b",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "ÍNDICE GENERAL",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "General sin estaciones de servicio",
+      "value": 1.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas_calendario.csv",
+      "header": "yoy_calendario_pct",
+      "row": "ÍNDICE GENERAL",
+      "value": -0.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "- Alimentación",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas_calendario.csv",
+      "header": "yoy_calendario_pct",
+      "row": "- Alimentación",
+      "value": -1.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "- Resto",
+      "value": 2.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas_calendario.csv",
+      "header": "yoy_calendario_pct",
+      "row": "- Resto",
+      "value": 2.7,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "- Equipo personal",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas_calendario.csv",
+      "header": "yoy_calendario_pct",
+      "row": "- Equipo personal",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "- Equipo del hogar",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas_calendario.csv",
+      "header": "yoy_calendario_pct",
+      "row": "- Equipo del hogar",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "- Grandes superficies",
+      "value": 2.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas_calendario.csv",
+      "header": "yoy_calendario_pct",
+      "row": "- Grandes superficies",
+      "value": 3.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "- Grandes cadenas",
+      "value": 4.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas_calendario.csv",
+      "header": "yoy_calendario_pct",
+      "row": "- Grandes cadenas",
+      "value": 3.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "- Pequeñas cadenas",
+      "value": -10.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas_calendario.csv",
+      "header": "yoy_calendario_pct",
+      "row": "- Pequeñas cadenas",
+      "value": -10.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "- Empresas unilocalizadas",
+      "value": 0.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas_calendario.csv",
+      "header": "yoy_calendario_pct",
+      "row": "- Empresas unilocalizadas",
+      "value": 0.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S03",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-9a256dd5bcf93c26218f1ff4",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "Total",
+      "value": -0.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "Total, exceto postos",
+      "value": 1.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_alimentacion_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "Alimentos",
+      "value": -0.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_resto_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_equipo_personal_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "Equipamento pessoal",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_equipo_hogar_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ine_agosto2026_aberturas.csv",
+      "header": "yoy_pct",
+      "row": "Equipamento do lar",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_grandes_superficies_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_grandes_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_pequenas_cadenas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_unilocalizadas_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ }
+]

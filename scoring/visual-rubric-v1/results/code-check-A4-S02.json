@@ -1,0 +1,2572 @@
+[
+ {
+  "phase": "A4e",
+  "task": "S02",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-914f560be7be2fb5228b98bf",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae211 Verarbeitendes Gewerbe, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae221 Vorleistungsgüter, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 2.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae211 Verarbeitendes Gewerbe, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae231 Investitionsgüter, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 4.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae240 Gebrauchsgüter, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 8.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae231 Investitionsgüter, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 4.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Total (real) 2026-08 Provisional value",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_total_13m.csv",
+      "header": "3msaar %",
+      "row": "2026-08",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo_ultimo_mes.csv",
+      "header": "3m/3m %",
+      "row": "Total (real) 2026-08 Provisional value",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_ultimo_mes.csv",
+      "header": "3m/3m %",
+      "row": "Total (nominal) 2026-08 Provisional value",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Total (nominal) 2026-08 Provisional value",
+      "value": 10.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae212 Verarbeitendes Gewerbe, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae212 Verarbeitendes Gewerbe, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_ultimo_mes.csv",
+      "header": "YoY % (índice SA)",
+      "row": "Mercado interno 2026-08 Provisional value",
+      "value": 1.2,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae222 Vorleistungsgüter, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae232 Investitionsgüter, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 3.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae250 Verbrauchsgüter, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 0.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_externo_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae213 Verarbeitendes Gewerbe, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae233 Investitionsgüter, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae213 Verarbeitendes Gewerbe, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae223 Vorleistungsgüter, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae223 Vorleistungsgüter, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_resumo_ultimo_mes.csv",
+      "header": "YoY % (índice SA)",
+      "row": "Exterior: área do euro 2026-08 Provisional value",
+      "value": 7.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S02",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-3ee720a452a76657173ae115",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae211 Verarbeitendes Gewerbe, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae221 Vorleistungsgüter, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 2.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado_v1_2026-10-27/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae211 Verarbeitendes Gewerbe, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae231 Investitionsgüter, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 4.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae240 Gebrauchsgüter, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 8.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado_v1_2026-10-27/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae231 Investitionsgüter, Insgesamt 2026-08 Stand 5. Oktober 2026",
+      "value": 4.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/edicao1_coleta-2026-10-27_ref-ago2026/tabela_resumo_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Total (real) 2026-08 Provisional value",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/edicao1_coleta-2026-10-27_ref-ago2026/tabela_total_13m.csv",
+      "header": "3msaar %",
+      "row": "2026-08",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_vintages_v1_v2.csv",
+      "header": "3msaar v1 %",
+      "row": "Total (real) 2026-08",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/edicao1_coleta-2026-10-27_ref-ago2026/tabela_resumo_ultimo_mes.csv",
+      "header": "3m/3m %",
+      "row": "Total (real) 2026-08 Provisional value",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/edicao1_coleta-2026-10-27_ref-ago2026/tabela_resumo_ultimo_mes.csv",
+      "header": "3m/3m %",
+      "row": "Total (nominal) 2026-08 Provisional value",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/edicao1_coleta-2026-10-27_ref-ago2026/tabela_resumo_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "Total (nominal) 2026-08 Provisional value",
+      "value": 10.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae212 Verarbeitendes Gewerbe, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado_v1_2026-10-27/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae212 Verarbeitendes Gewerbe, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae212 Verarbeitendes Gewerbe, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae222 Vorleistungsgüter, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae232 Investitionsgüter, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 3.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae250 Verbrauchsgüter, Inland 2026-08 Stand 5. Oktober 2026",
+      "value": 0.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_externo_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae213 Verarbeitendes Gewerbe, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae233 Investitionsgüter, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado_v1_2026-10-27/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae213 Verarbeitendes Gewerbe, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/processado/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae223 Vorleistungsgüter, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/processado_v1_2026-10-27/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae223 Vorleistungsgüter, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/destatis_kae.csv",
+      "header": "yoy_original_pct",
+      "row": "kae223 Vorleistungsgüter, Ausland 2026-08 Stand 5. Oktober 2026",
+      "value": 4.8,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S02",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-c3e666722f432dc27afe1234",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_domestico_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S02",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-44ef01cc763045c0b032dced",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_domestico_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S02",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-ac82f3b78d2da7d41797ec3f",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Total",
+      "value": 3.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_total_historico.csv",
+      "header": "YoY % (SA+cal.)",
+      "row": "2026-08",
+      "value": 3.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Total ex-grandes encomendas",
+      "value": 5.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Total ex-outros equip. transporte (WZ30)",
+      "value": 1.9,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Total nominal, só calendário (ref.) n.a. (sem SA) n.a. (sem SA) n.a. (sem SA) n.a. (sem SA)",
+      "value": 6.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3msaar %",
+      "row": "Total",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_total_historico.csv",
+      "header": "3msaar %",
+      "row": "2026-08",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3m/3m % (não anualiz.)",
+      "row": "Total",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3msaar %",
+      "row": "Total ex-grandes encomendas",
+      "value": -10.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "3m/3m % (não anualiz.)",
+      "row": "Total ex-grandes encomendas",
+      "value": -2.6,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Doméstico",
+      "value": 1.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Externo",
+      "value": 4.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Externo - área do euro",
+      "value": 7.2,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Externo - fora da área do euro",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S02",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-a2b444402ff773ea9b797fba",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_total_historico.csv",
+      "header": "YoY % (SA+cal.)",
+      "row": "2026-08",
+      "value": 3.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "vintages/2026-10-27/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Total",
+      "value": 3.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "vintages/2026-10-27/tabela_total_historico.csv",
+      "header": "YoY % (SA+cal.)",
+      "row": "2026-08",
+      "value": 3.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_total_historico.csv",
+      "header": "YoY ex-grandes %",
+      "row": "2026-08",
+      "value": 5.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "vintages/2026-10-27/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Total ex-grandes encomendas",
+      "value": 5.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "vintages/2026-10-27/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Total ex-outros equip. transporte (WZ30)",
+      "value": 1.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_trimestral.csv",
+      "header": "t/t anualiz. %",
+      "row": "Total ex-grandes encomendas 2026Q1",
+      "value": 5.1,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "vintages/2026-10-27/tabela_resumo.csv",
+      "header": "3msaar %",
+      "row": "Total",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "vintages/2026-10-27/tabela_total_historico.csv",
+      "header": "3msaar %",
+      "row": "2026-08",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_total_historico.csv",
+      "header": "3msaar %",
+      "row": "2026-08",
+      "value": 6.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_total_historico.csv",
+      "header": "3msaar ex-grandes %",
+      "row": "2026-08",
+      "value": -10.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_trimestral.csv",
+      "header": "t/t anualiz. %",
+      "row": "Total 2025Q1",
+      "value": -3.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "vintages/2026-10-27/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Doméstico",
+      "value": 1.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "vintages/2026-10-27/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Externo",
+      "value": 4.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "vintages/2026-10-27/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Externo - área do euro",
+      "value": 7.2,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "vintages/2026-10-27/tabela_resumo.csv",
+      "header": "YoY %",
+      "row": "Externo - fora da área do euro",
+      "value": 2.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S02",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-5e67480a1a83363c2afbec05",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "YoY_SA_% total",
+      "row": "2026-08",
+      "value": 2.994,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "YoY % (SA)",
+      "row": "Indústria total ago/2026",
+      "value": 3.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "YoY % (SA)",
+      "row": "Total sem grandes pedidos (Destatis) ago/2026",
+      "value": 5.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "3msaar_% total",
+      "row": "2026-08",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "3msaar %",
+      "row": "Indústria total ago/2026",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "3m/3m_% total",
+      "row": "2026-08",
+      "value": 1.3245,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "3m/3m %",
+      "row": "Indústria total ago/2026",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "3m/3m %",
+      "row": "Total sem grandes pedidos (Destatis) ago/2026",
+      "value": -2.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "YoY % (SA)",
+      "row": "Mercado interno ago/2026",
+      "value": 1.2,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "YoY % (SA)",
+      "row": "Exterior total (Destatis) ago/2026",
+      "value": 4.2,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "YoY % (SA)",
+      "row": "Zona do euro (externo) ago/2026",
+      "value": 7.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S02",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-6d5507c11437f1e417c96017",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "YoY_publicado_% total",
+      "row": "2026-08",
+      "value": 3.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "YoY_recalculado_% total",
+      "row": "2026-08",
+      "value": 3.5928,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "versoes/v1_2026-10-27/dados/indicadores_calculados.csv",
+      "header": "YoY_SA_% total",
+      "row": "2026-08",
+      "value": 2.994,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "YoY %",
+      "row": "Indústria total",
+      "value": 3.3,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/trimestral.csv",
+      "header": "QoQ_anualizado_% total",
+      "row": "2023Q2",
+      "value": 5.6507,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "versoes/v1_2026-10-27/dados/indicadores_calculados.csv",
+      "header": "3msaar_% total",
+      "row": "2026-08",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "versoes/v1_2026-10-27/entrega/tabela_principal.csv",
+      "header": "3msaar %",
+      "row": "Indústria total",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "3m/3m_% total",
+      "row": "2026-08",
+      "value": 1.5085,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_calculados.csv",
+      "header": "3msaar_% total",
+      "row": "2026-08",
+      "value": 6.1718,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/trimestral.csv",
+      "header": "QoQ_anualizado_% total",
+      "row": "1991Q2",
+      "value": -11.0508,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "versoes/v1_2026-10-27/entrega/tabela_principal.csv",
+      "header": "YoY % (SA)",
+      "row": "Mercado interno",
+      "value": 1.2,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "YoY %",
+      "row": "Mercado interno",
+      "value": 7.9,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_externo_yoy": {
+    "status": "fail",
+    "correct": false,
+    "evidence": [],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "YoY %",
+      "row": "Zona do euro (externo)",
+      "value": 7.5,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "versoes/v1_2026-10-27/entrega/tabela_principal.csv",
+      "header": "YoY % (SA)",
+      "row": "Zona do euro (externo)",
+      "value": 7.2,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S02",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-4af89e4366b4a3546bda37d6",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Total",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Total",
+      "value": 2.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/ultima_observacao.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Total",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/comunicado.csv",
+      "header": "3msaar_aprox",
+      "row": "Total",
+      "value": 5.3023,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados/series.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados/comunicado.csv",
+      "header": "3m3m_sa_publicado",
+      "row": "Total",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados/comunicado.csv",
+      "header": "3m3m_sa_publicado",
+      "row": "Sem grandes encomendas",
+      "value": -2.6,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados/comunicado.csv",
+      "header": "3msaar_aprox",
+      "row": "Sem grandes encomendas",
+      "value": -10.0014,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Doméstico",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/ultima_observacao.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Doméstico",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/series.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Exterior",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/ultima_observacao.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Exterior",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S02",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-7bead99c6d3ea194786dc854",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/auditoria/series_iniciais.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Total",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/auditoria/series_iniciais.csv",
+      "header": "yoy_calendario",
+      "row": "2026-08-01 Total",
+      "value": 2.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Total",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/auditoria/series_iniciais.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/comunicado.csv",
+      "header": "3msaar_aprox",
+      "row": "2026-08-01 Total release.html — comunicado 354, 06/10/2026; transcrição manual conferida",
+      "value": 5.3023,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 Total",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/auditoria/series_iniciais.csv",
+      "header": "media_3m_sa",
+      "row": "2026-08-01 Total",
+      "value": 91.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/comunicado.csv",
+      "header": "3m3m_sa_publicado",
+      "row": "2026-08-01 Total release.html — comunicado 354, 06/10/2026; transcrição manual conferida",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/comunicado.csv",
+      "header": "3m3m_sa_publicado",
+      "row": "2026-08-01 Sem grandes encomendas release.html — comunicado 354, 06/10/2026; transcrição manual conf",
+      "value": -2.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/auditoria/series_iniciais.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Doméstico",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Doméstico",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/ultima_observacao.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Doméstico",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/auditoria/series_iniciais.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Exterior",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/series.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Exterior",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/ultima_observacao.csv",
+      "header": "yoy_bruto_publicado",
+      "row": "2026-08-01 Exterior",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S02",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-d71621cdf3ae4ff3fbb16009",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/encomendas_industria_alemanha.csv",
+      "header": "yoy_calendar_pct_destatis",
+      "row": "2026-08-01",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/encomendas_industria_alemanha.csv",
+      "header": "yoy_raw_pct_calc",
+      "row": "2026-08-01",
+      "value": 3.4626,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/arquivo/encomendas_industria_alemanha_vintage_2026-10-27.csv",
+      "header": "yoy_calendar_pct_destatis",
+      "row": "2026-08-01",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/encomendas_industria_alemanha.csv",
+      "header": "3m_saar_pct",
+      "row": "2026-08-01",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/arquivo/encomendas_industria_alemanha_vintage_2026-10-27.csv",
+      "header": "3m_saar_pct",
+      "row": "2026-08-01",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/encomendas_industria_alemanha.csv",
+      "header": "3m_point_saar_pct",
+      "row": "2026-08-01",
+      "value": -15.8821,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/arquivo/encomendas_industria_alemanha_vintage_2026-10-27.csv",
+      "header": "3m_point_saar_pct",
+      "row": "2026-08-01",
+      "value": -15.8821,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S02",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-175c69eda9fa378d8d9e2f2a",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/encomendas_industria_alemanha.csv",
+      "header": "yoy_calendar_pct_destatis",
+      "row": "2026-08-01",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/encomendas_industria_alemanha.csv",
+      "header": "yoy_raw_pct_calc",
+      "row": "2026-08-01",
+      "value": 3.4626,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/encomendas_industria_alemanha.csv",
+      "header": "3m_saar_pct",
+      "row": "2026-08-01",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_domestico_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S02",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-78ef058084e115f9c176d523",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 total",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/taxas_comunicado.csv",
+      "header": "yoy_calendario_pct",
+      "row": "Total 2026-08 https://www.destatis.de/EN/Press/2026/10/PE26_354_421.html",
+      "value": 2.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_calendario_pct",
+      "row": "total 2026-08 2021=100 dados/coleta.json 2026-10-27T09:00:27.259578+00:00 Alemanha sazonal e calenda",
+      "value": 2.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "3msaar_sa_pct",
+      "row": "2026-08-01 total",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "3msaar_sa_pct",
+      "row": "total 2026-08 2021=100 dados/coleta.json 2026-10-27T09:00:27.259578+00:00 Alemanha sazonal e calenda",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "3msaar_sa_pct",
+      "row": "2026-08-01 00:00:00 total",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "3m3m_sa_pct",
+      "row": "2026-08-01 total",
+      "value": 1.3245,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/taxas_comunicado.csv",
+      "header": "3m3m_sa_oficial_pct",
+      "row": "Total 2026-08 https://www.destatis.de/EN/Press/2026/10/PE26_354_421.html",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/taxas_comunicado.csv",
+      "header": "3m3m_sa_oficial_pct",
+      "row": "Sem grandes encomendas 2026-08 https://www.destatis.de/EN/Press/2026/10/PE26_354_421.html",
+      "value": -2.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 domesticas",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 00:00:00 domesticas",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 externas",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 00:00:00 externas",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S02",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-2afdbebb578c05f634de8140",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 total",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/taxas_comunicado.csv",
+      "header": "yoy_calendario_pct",
+      "row": "Total 2026-08 https://www.destatis.de/EN/Press/2026/10/PE26_354_421.html",
+      "value": 2.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_calendario_pct",
+      "row": "2026-08 total sazonal e calendario oficial 2026-10-27",
+      "value": 2.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "3msaar_sa_pct",
+      "row": "2026-08-01 total",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/auditoria_calculos.csv",
+      "header": "msaar3_pct",
+      "row": "total 2026-08 2026-06/2026-08 2026-03/2026-05",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "3msaar_sa_pct",
+      "row": "2026-08 total sazonal e calendario oficial 2026-10-27",
+      "value": 5.4042,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "3m3m_sa_pct",
+      "row": "2026-08-01 total",
+      "value": 1.3245,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/taxas_comunicado.csv",
+      "header": "3m3m_sa_oficial_pct",
+      "row": "Total 2026-08 https://www.destatis.de/EN/Press/2026/10/PE26_354_421.html",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/taxas_comunicado.csv",
+      "header": "3m3m_sa_oficial_pct",
+      "row": "Sem grandes encomendas 2026-08 https://www.destatis.de/EN/Press/2026/10/PE26_354_421.html",
+      "value": -2.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 domesticas",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 00:00:00 domesticas",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_e_calculos.csv",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 externas",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_e_tabelas.xlsx",
+      "header": "yoy_bruto_pct",
+      "row": "2026-08-01 00:00:00 externas",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S02",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-bba80864c00247ce61c80d64",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/total_ultimos_12_meses.csv",
+      "header": "yoy_original_pct",
+      "row": "2026-08",
+      "value": 3.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/total_ultimos_12_meses.csv",
+      "header": "yoy_x13_pct",
+      "row": "2026-08",
+      "value": 3.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/total_ultimos_12_meses.csv",
+      "header": "yoy_calendario_nota_pct",
+      "row": "2026-08",
+      "value": 2.7,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 total",
+      "value": 0.035,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_x13",
+      "row": "2026-08-01 total",
+      "value": 0.0299,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 intermediarios",
+      "value": 0.028,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/total_ultimos_12_meses.csv",
+      "header": "msaar_3m_pct",
+      "row": "2026-08",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar_3m_pct",
+      "row": "total Total (ramos selecionados) 2026-08",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "var_3m",
+      "row": "2026-08-01 total",
+      "value": 0.0132,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "msaar_3m",
+      "row": "2026-08-01 total",
+      "value": 0.054,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "var_3m",
+      "row": "2026-08-01 intermediarios",
+      "value": -0.0306,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_x13_pct",
+      "row": "interno Encomendas internas 2026-08",
+      "value": 1.2,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_original_pct",
+      "row": "interno Encomendas internas 2026-08",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 interno",
+      "value": 0.021,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_x13",
+      "row": "2026-08-01 interno",
+      "value": 0.0123,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_desde_2024.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 interno",
+      "value": 0.021,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_externo_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_x13_pct",
+      "row": "externo Encomendas externas 2026-08",
+      "value": 4.2,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_original_pct",
+      "row": "externo Encomendas externas 2026-08",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 externo",
+      "value": 0.045,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_x13",
+      "row": "2026-08-01 externo",
+      "value": 0.0424,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_desde_2024.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 externo",
+      "value": 0.045,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S02",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-545e91fc8e42d835c6fc7425",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/notas/pd26_385_setembro_2026.csv",
+      "header": "valor_pct",
+      "row": "yoy_calendario Total 2026-09 PD26_385 homóloga só de calendário; índice não publicado nesta coleta",
+      "value": 3.3,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/total_ultimos_12_meses.csv",
+      "header": "msaar_3m_pct",
+      "row": "2026-08",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "msaar_3m_pct",
+      "row": "total Total (ramos selecionados) 2026-08",
+      "value": 5.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "var_3m",
+      "row": "2026-08-01 total",
+      "value": 0.0132,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "msaar_3m",
+      "row": "2026-08-01 total",
+      "value": 0.054,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "var_3m",
+      "row": "2026-08-01 intermediarios",
+      "value": -0.0306,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_x13_pct",
+      "row": "interno Encomendas internas 2026-08",
+      "value": 1.2,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_original_pct",
+      "row": "interno Encomendas internas 2026-08",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 interno",
+      "value": 0.021,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_x13",
+      "row": "2026-08-01 interno",
+      "value": 0.0123,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_desde_2024.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 interno",
+      "value": 0.021,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_externo_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_x13_pct",
+      "row": "externo Encomendas externas 2026-08",
+      "value": 4.2,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultima_observacao.csv",
+      "header": "yoy_original_pct",
+      "row": "externo Encomendas externas 2026-08",
+      "value": 4.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 externo",
+      "value": 0.045,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/derivados/encomendas_x13_transformado.csv",
+      "header": "yoy_x13",
+      "row": "2026-08-01 externo",
+      "value": 0.0424,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/series_desde_2024.csv",
+      "header": "yoy_original",
+      "row": "2026-08-01 externo",
+      "value": 0.045,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S02",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-686283740a8d5ed76c434026",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/indices_encomendas_alemanha.csv",
+      "header": "total_yoy_calendario_oficial",
+      "row": "2026-09",
+      "value": 3.3,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_setembro_2026.csv",
+      "header": "yoy_calendario_oficial_pct",
+      "row": "Total",
+      "value": 3.3,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/total_ultimos_13_meses.csv",
+      "header": "total_yoy_calendario_oficial",
+      "row": "2026-09",
+      "value": 3.3,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados/indices_encomendas_alemanha.csv",
+      "header": "total_3msaar",
+      "row": "2026-09",
+      "value": 0.736,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados/indices_encomendas_alemanha.csv",
+      "header": "sem_grandes_encomendas_3msaar",
+      "row": "2026-09",
+      "value": 0.6154,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_setembro_2026.csv",
+      "header": "3msaar_sa_pct",
+      "row": "Total",
+      "value": 0.74,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_domestico_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_externo_yoy": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S02",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-a33dcf9cdf766c5c09ef470f",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INSGESAMT BV4TB MONAT08 GUT-VORL-01 2026-08-01",
+      "value": 2.6991,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INSGESAMT X13JDKSB MONAT08 GUT-VORL-01 2026-08-01",
+      "value": 2.6991,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INSGESAMT WERTORG MONAT08 GUT-VORL-01 2026-08-01",
+      "value": 2.6991,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INSGESAMT BV4TB MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": 8.0263,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INSGESAMT X13JDKSB MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": 8.0263,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INSGESAMT WERTORG MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": 8.0263,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "tres_m_saar",
+      "row": "DG AUF102$QMU INSGESAMT BV4TB MONAT08 WZ08-26-01 2026-08-01",
+      "value": 5.2379,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "tres_m_saar",
+      "row": "DG AUF102$QMU INSGESAMT X13JDKSB MONAT08 WZ08-26-01 2026-08-01",
+      "value": 5.2379,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "tres_m_saar",
+      "row": "DG AUF102$QMU INSGESAMT WERTORG MONAT08 WZ08-26-01 2026-08-01",
+      "value": 5.2379,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "tres_m_saar",
+      "row": "DG AUF102$QMU INSGESAMT BV4TB MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": -26.7294,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "tres_m_saar",
+      "row": "DG AUF102$QMU INSGESAMT X13JDKSB MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": -26.7294,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "tres_m_saar",
+      "row": "DG AUF102$QMU INSGESAMT WERTORG MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": -26.7294,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_domestico_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INLAND BV4TB MONAT08 WZ08-C 2026-08-01",
+      "value": 2.1505,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INLAND X13JDKSB MONAT08 WZ08-C 2026-08-01",
+      "value": 2.1505,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INLAND WERTORG MONAT08 WZ08-C 2026-08-01",
+      "value": 2.1505,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INLAND BV4TB MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": 0.2604,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INLAND X13JDKSB MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": 0.2604,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU INLAND WERTORG MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": 0.2604,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_externo_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU AUSLAND BV4TB MONAT08 GUT-INVEST-01 2026-08-01",
+      "value": 4.3011,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU AUSLAND X13JDKSB MONAT08 GUT-INVEST-01 2026-08-01",
+      "value": 4.3011,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU AUSLAND WERTORG MONAT08 GUT-INVEST-01 2026-08-01",
+      "value": 4.3011,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU AUSLAND BV4TB MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": 12.5828,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU AUSLAND X13JDKSB MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": 12.5828,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_encomendas.csv",
+      "header": "yoy_cal",
+      "row": "DG AUF102$QMU AUSLAND WERTORG MONAT08 GUT-GEBR-01 2026-08-01",
+      "value": 12.5828,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ }
+]

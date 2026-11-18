@@ -1,0 +1,10 @@
+model,cells,delivered,no_product,verified_absence,L_absent_as_0,L_absent_excluded
+claude-fable-5-1,15,15,0,0,93.6,93.6
+claude-opus-5-5,15,15,0,0,93.0,93.0
+gpt-6-astra,15,15,0,0,91.4,91.4
+kimi-code/k3.1-pro,15,15,0,0,90.7,90.7
+claude-sonnet-5-5,15,15,0,0,89.1,89.1
+gpt-6.1-sol,15,14,1,0,85.0,91.1
+grok-4.7,15,13,0,2,80.7,93.1
+claude-haiku-5-5,15,15,0,0,79.2,79.2
+gpt-6-luna,15,15,0,0,76.3,76.3

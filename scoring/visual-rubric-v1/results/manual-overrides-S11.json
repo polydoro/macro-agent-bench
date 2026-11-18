@@ -1,0 +1,128 @@
+[
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "question": "N_total_native",
+  "correct": true,
+  "note": "entrega/tabelas/bls_resumo_3T26.csv, column rodada_3T26 (Q3 2026 survey = ECB 2026-Q4): firms standards 8.6, firms demand -6.4, housing standards -0.3, housing demand -26.9, consumer standards 14.0, consumer demand -2.4, all realised; also bls_series_por_rodada.csv 2026Q3 with two decimals. Labels 'Critérios' not recognised by the automatic check."
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "question": "N_demanda_empresas_native",
+  "correct": true,
+  "note": "entrega/tabelas/bls_resumo_3T26.csv, column rodada_3T26 (Q3 2026 survey = ECB 2026-Q4): firms standards 8.6, firms demand -6.4, housing standards -0.3, housing demand -26.9, consumer standards 14.0, consumer demand -2.4, all realised; also bls_series_por_rodada.csv 2026Q3 with two decimals. Labels 'Critérios' not recognised by the automatic check."
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "question": "N_padroes_habitacao_native",
+  "correct": true,
+  "note": "entrega/tabelas/bls_resumo_3T26.csv, column rodada_3T26 (Q3 2026 survey = ECB 2026-Q4): firms standards 8.6, firms demand -6.4, housing standards -0.3, housing demand -26.9, consumer standards 14.0, consumer demand -2.4, all realised; also bls_series_por_rodada.csv 2026Q3 with two decimals. Labels 'Critérios' not recognised by the automatic check."
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "question": "N_demanda_habitacao_native",
+  "correct": true,
+  "note": "entrega/tabelas/bls_resumo_3T26.csv, column rodada_3T26 (Q3 2026 survey = ECB 2026-Q4): firms standards 8.6, firms demand -6.4, housing standards -0.3, housing demand -26.9, consumer standards 14.0, consumer demand -2.4, all realised; also bls_series_por_rodada.csv 2026Q3 with two decimals. Labels 'Critérios' not recognised by the automatic check."
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "question": "N_padroes_consumo_native",
+  "correct": true,
+  "note": "entrega/tabelas/bls_resumo_3T26.csv, column rodada_3T26 (Q3 2026 survey = ECB 2026-Q4): firms standards 8.6, firms demand -6.4, housing standards -0.3, housing demand -26.9, consumer standards 14.0, consumer demand -2.4, all realised; also bls_series_por_rodada.csv 2026Q3 with two decimals. Labels 'Critérios' not recognised by the automatic check."
+ },
+ {
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "question": "N_demanda_consumo_native",
+  "correct": true,
+  "note": "entrega/tabelas/bls_resumo_3T26.csv, column rodada_3T26 (Q3 2026 survey = ECB 2026-Q4): firms standards 8.6, firms demand -6.4, housing standards -0.3, housing demand -26.9, consumer standards 14.0, consumer demand -2.4, all realised; also bls_series_por_rodada.csv 2026Q3 with two decimals. Labels 'Critérios' not recognised by the automatic check."
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "question": "N_demanda_habitacao_native",
+  "correct": true,
+  "note": "entrega/dados_e_calculos.csv, trimestre_realizado 2026-Q3, column realizado: housing demand -26.92, consumer standards 14.04, consumer demand -2.44 (WFNET euro area)."
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "question": "N_padroes_consumo_native",
+  "correct": true,
+  "note": "entrega/dados_e_calculos.csv, trimestre_realizado 2026-Q3, column realizado: housing demand -26.92, consumer standards 14.04, consumer demand -2.44 (WFNET euro area)."
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "question": "N_demanda_consumo_native",
+  "correct": true,
+  "note": "entrega/dados_e_calculos.csv, trimestre_realizado 2026-Q3, column realizado: housing demand -26.92, consumer standards 14.04, consumer demand -2.44 (WFNET euro area)."
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "question": "N_total_native",
+  "correct": true,
+  "note": "entrega/tabela_resumo.csv, column 'Última (2026T3)', realised rows: firms standards 8.6, firms demand -6.4, consumer standards 14.0, housing demand -26.9, consumer demand -2.4."
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "question": "N_demanda_empresas_native",
+  "correct": true,
+  "note": "entrega/tabela_resumo.csv, column 'Última (2026T3)', realised rows: firms standards 8.6, firms demand -6.4, consumer standards 14.0, housing demand -26.9, consumer demand -2.4."
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "question": "N_padroes_consumo_native",
+  "correct": true,
+  "note": "entrega/tabela_resumo.csv, column 'Última (2026T3)', realised rows: firms standards 8.6, firms demand -6.4, consumer standards 14.0, housing demand -26.9, consumer demand -2.4."
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "question": "N_demanda_habitacao_native",
+  "correct": true,
+  "note": "entrega/tabela_resumo.csv, column 'Última (2026T3)', realised rows: firms standards 8.6, firms demand -6.4, consumer standards 14.0, housing demand -26.9, consumer demand -2.4."
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "question": "N_demanda_consumo_native",
+  "correct": true,
+  "note": "entrega/tabela_resumo.csv, column 'Última (2026T3)', realised rows: firms standards 8.6, firms demand -6.4, consumer standards 14.0, housing demand -26.9, consumer demand -2.4."
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "question": "N_total_native",
+  "correct": true,
+  "note": "entrega/dados_e_calculos.csv, trimestre_realizado 2026-Q3, column realizado (WFNET euro area): firms standards 8.55."
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "question": "N_demanda_empresas_native",
+  "correct": true,
+  "note": "entrega/dados_e_calculos.csv, trimestre_realizado 2026-Q3, column realizado (WFNET euro area): firms demand -6.39."
+ },
+ {
+  "phase": "A3",
+  "model": "grok-4.7",
+  "question": "N_padroes_habitacao_native",
+  "correct": true,
+  "note": "entrega/dados_e_calculos.csv, trimestre_realizado 2026-Q3, column realizado (WFNET euro area): housing standards -0.27."
+ },
+ {
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "question": "N_padroes_habitacao_native",
+  "correct": true,
+  "note": "entrega/tabela_resumo.csv, column 'Última (2026T3)', 'Padrões de crédito - habitação (realizado)' = -0.3."
+ }
+]

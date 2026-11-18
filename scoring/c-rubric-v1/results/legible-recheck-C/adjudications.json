@@ -1,0 +1,44 @@
+[
+ {
+  "code": "L003",
+  "q": "N_prod_yoy",
+  "shown": true,
+  "reason": "printed -0.4 (manufacturing C) is within the B_C tolerance; identity is not part of this check"
+ },
+ {
+  "code": "L014",
+  "q": "N_prod_yoy",
+  "shown": true,
+  "reason": "same as L003"
+ },
+ {
+  "code": "L026",
+  "q": "N_prod_yoy",
+  "shown": true,
+  "reason": "same as L003"
+ },
+ {
+  "code": "L132",
+  "q": "N_prod_yoy",
+  "shown": true,
+  "reason": "same as L003"
+ },
+ {
+  "code": "L086",
+  "q": "N_yoy_latest",
+  "shown": true,
+  "reason": "+0.32 after the 4th annual revision (\"final\") counts as the latest horizon, as for the other readers"
+ },
+ {
+  "code": "L102",
+  "q": "N_yoy_latest",
+  "shown": true,
+  "reason": "same as L086 (+0.26)"
+ },
+ {
+  "code": "L192",
+  "q": "N_yoy_latest",
+  "shown": true,
+  "reason": "same as L086 (+0.32)"
+ }
+]

@@ -1,0 +1,832 @@
+{
+ "rubric_version": "c-rubric-v1-4",
+ "rubric_sha256": "3d80a0b5c2b866af866cc5b8fb296b22374894296a22486b78608fa78ed6e06a",
+ "model_requested": "jev-1.14.0",
+ "shift_tolerances": 4.0,
+ "status": "provisional pilot, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "C03",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-one-c03-low-normal-20261028-v20",
+   "final_attempt_id": "one-c03-claude-opus-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-one-c03-low-normal-20261028-v20/attempts/one-c03-claude-opus-primary/work/entrega/01_pib_nivel.png",
+    "execucoes/pilot-one-c03-low-normal-20261028-v20/attempts/one-c03-claude-opus-primary/work/entrega/02_pib_componentes.png",
+    "execucoes/pilot-one-c03-low-normal-20261028-v20/attempts/one-c03-claude-opus-primary/work/entrega/03_pib_taxas.png",
+    "execucoes/pilot-one-c03-low-normal-20261028-v20/attempts/one-c03-claude-opus-primary/work/entrega/04_indicadores_hard.png",
+    "execucoes/pilot-one-c03-low-normal-20261028-v20/attempts/one-c03-claude-opus-primary/work/entrega/05_esi_desemprego.png",
+    "execucoes/pilot-one-c03-low-normal-20261028-v20/attempts/one-c03-claude-opus-primary/work/entrega/06_ajuste_ponte.png"
+   ],
+   "report_chars": 5244,
+   "L_mean": 76.83,
+   "L_sd": null,
+   "U_mean": 77.59666666666666,
+   "blocks_mean": {
+    "A": 16.55,
+    "B": 18.8,
+    "C": 15.100000000000001,
+    "D": 10.0,
+    "E": 16.38
+   },
+   "references": {
+    "N_last_qoq": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB EA21, q/q %",
+       1.24,
+       0.15
+      ],
+      [
+       "PIB EA21, q/q anualizado %",
+       3.81,
+       0.3
+      ],
+      [
+       "PIB EA21, taxa publicada CLV_PCH_PRE",
+       1.2,
+       0.15
+      ],
+      [
+       "PIB EA20, q/q anualizado %",
+       3.8,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_last_yoy": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB EA21, YoY %",
+       1.8,
+       0.15
+      ],
+      [
+       "PIB EA20, YoY %",
+       1.79,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "T_target": {
+     "period": "2026-Q3",
+     "unit": "",
+     "variants": [],
+     "criteria": {
+      "ALVO_CORRETO": "A entrega apresenta um nowcast do PIB para o 3º trimestre de 2026 (2026T3), identificado como estimativa e separado dos dados observados. Uma estimativa adicional para o trimestre seguinte é permitida.",
+      "SO_OUTRO": "A entrega apresenta nowcast apenas para outro trimestre, sem estimativa para o 3º trimestre de 2026 (2026T3).",
+      "ROTULO_ERRADO": "A entrega apresenta estimativa para o 3º trimestre de 2026 (2026T3), mas a mostra como dado observado, a confunde com outro trimestre ou não a separa dos dados observados.",
+      "NAO_MOSTRADO": "A entrega não apresenta estimativa numérica do PIB para nenhum trimestre.",
+      "NAO_VERIFICAVEL": "Não é possível identificar o trimestre da estimativa."
+     },
+     "admitted": [
+      "ALVO_CORRETO"
+     ],
+     "text": " Data de execução da entrega: 2026-10-28. Último trimestre do PIB divulgado nessa data: 2º trimestre de 2026 (2026T2) (o 3º trimestre de 2026 (2026T3) ainda não tinha sido divulgado)."
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "2abf672f39e4cc1724ee5c804026355da80cb1d68c969a15fb032f4144292df0",
+      "text": "cbbf854dc8a8bbd3f55179d1d58a7215ee6b5c319f2df8b1b52127c25bace681",
+      "numeric": "49f393b9496a969a31669187c4c099d743bd6f52ba55bb85ba737a0eb7c74dcc"
+     },
+     "L": 76.83,
+     "U": 77.59666666666666,
+     "blocks": {
+      "A": 16.55,
+      "B": 18.8,
+      "C": 15.100000000000001,
+      "D": 10.0,
+      "E": 16.38
+     },
+     "choices": {
+      "C_historico": "ATENDE",
+      "C_nowcast": "ATENDE",
+      "C_preditores": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "PARCIAL",
+      "E1": "ATENDE",
+      "E2": "PARCIAL",
+      "E3": "PARCIAL",
+      "E4": "ATENDE",
+      "N_last_qoq": "FAIXA_01",
+      "N_last_yoy": "FAIXA_01",
+      "T_target": "ALVO_CORRETO"
+     },
+     "probabilities": {
+      "C_historico": {
+       "ATENDE": 0.98,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "C_nowcast": {
+       "ATENDE": 0.97,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "C_preditores": {
+       "ATENDE": 0.87,
+       "NAO_ATENDE": 0.11,
+       "NAO_VERIFICAVEL": 0.02
+      },
+      "I1": {
+       "ATENDE": 0.55,
+       "NAO_ATENDE": 0.08,
+       "NAO_VERIFICAVEL": 0.05,
+       "PARCIAL": 0.32
+      },
+      "I2": {
+       "ATENDE": 0.93,
+       "NAO_ATENDE": 0.04,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.03
+      },
+      "P1": {
+       "ATENDE": 0.92,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.08
+      },
+      "P2": {
+       "ATENDE": 0.14,
+       "NAO_ATENDE": 0.04,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.82
+      },
+      "E1": {
+       "ATENDE": 0.98,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.02
+      },
+      "E2": {
+       "ATENDE": 0.3,
+       "NAO_ATENDE": 0.26,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.44
+      },
+      "E3": {
+       "ATENDE": 0.42,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.56
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_last_qoq": {
+       "FAIXA_01": 0.97,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.03,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "FAIXA_10": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_last_yoy": {
+       "FAIXA_01": 1.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "T_target": {
+       "ALVO_CORRETO": 1.0,
+       "SO_OUTRO": 0.0,
+       "ROTULO_ERRADO": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "C03",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-one-c03-low-normal-20261028-v20",
+   "final_attempt_id": "one-c03-codex-luna-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-one-c03-low-normal-20261028-v20/attempts/one-c03-codex-luna-primary/work/entrega/indicadores_mensais.png",
+    "execucoes/pilot-one-c03-low-normal-20261028-v20/attempts/one-c03-codex-luna-primary/work/entrega/pib_oficial.png"
+   ],
+   "report_chars": 0,
+   "L_mean": 39.35,
+   "L_sd": null,
+   "U_mean": 41.81666666666667,
+   "blocks_mean": {
+    "A": 15.9,
+    "B": 12.200000000000001,
+    "C": 11.25,
+    "D": 0.0,
+    "E": 0.0
+   },
+   "references": {
+    "N_last_qoq": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB EA21, q/q %",
+       1.24,
+       0.15
+      ],
+      [
+       "PIB EA21, q/q anualizado %",
+       3.81,
+       0.3
+      ],
+      [
+       "PIB EA21, taxa publicada CLV_PCH_PRE",
+       1.2,
+       0.15
+      ],
+      [
+       "PIB EA20, q/q anualizado %",
+       3.8,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_last_yoy": {
+     "period": "2026-Q2",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB EA21, YoY %",
+       1.8,
+       0.15
+      ],
+      [
+       "PIB EA20, YoY %",
+       1.79,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "T_target": {
+     "period": "2026-Q3",
+     "unit": "",
+     "variants": [],
+     "criteria": {
+      "ALVO_CORRETO": "A entrega apresenta um nowcast do PIB para o 3º trimestre de 2026 (2026T3), identificado como estimativa e separado dos dados observados. Uma estimativa adicional para o trimestre seguinte é permitida.",
+      "SO_OUTRO": "A entrega apresenta nowcast apenas para outro trimestre, sem estimativa para o 3º trimestre de 2026 (2026T3).",
+      "ROTULO_ERRADO": "A entrega apresenta estimativa para o 3º trimestre de 2026 (2026T3), mas a mostra como dado observado, a confunde com outro trimestre ou não a separa dos dados observados.",
+      "NAO_MOSTRADO": "A entrega não apresenta estimativa numérica do PIB para nenhum trimestre.",
+      "NAO_VERIFICAVEL": "Não é possível identificar o trimestre da estimativa."
+     },
+     "admitted": [
+      "ALVO_CORRETO"
+     ],
+     "text": " Data de execução da entrega: 2026-10-28. Último trimestre do PIB divulgado nessa data: 2º trimestre de 2026 (2026T2) (o 3º trimestre de 2026 (2026T3) ainda não tinha sido divulgado)."
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "b2dd39f55061245298af1725b0c6d34164483d54a9f0b6e02943bf1c7974925b",
+      "numeric": "4663a6b7bd5d852bbdad16268bd4164758dc2f76f8e23f4ac24023315b596664"
+     },
+     "L": 39.35,
+     "U": 41.81666666666667,
+     "blocks": {
+      "A": 15.9,
+      "B": 12.200000000000001,
+      "C": 11.25,
+      "D": 0.0,
+      "E": 0.0
+     },
+     "choices": {
+      "C_historico": "ATENDE",
+      "C_nowcast": "NAO_ATENDE",
+      "C_preditores": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "PARCIAL",
+      "P2": "PARCIAL",
+      "N_last_qoq": "NAO_MOSTRADO",
+      "N_last_yoy": "NAO_MOSTRADO",
+      "T_target": "NAO_MOSTRADO"
+     },
+     "probabilities": {
+      "C_historico": {
+       "ATENDE": 0.91,
+       "NAO_ATENDE": 0.03,
+       "NAO_VERIFICAVEL": 0.06
+      },
+      "C_nowcast": {
+       "ATENDE": 0.01,
+       "NAO_ATENDE": 0.93,
+       "NAO_VERIFICAVEL": 0.06
+      },
+      "C_preditores": {
+       "ATENDE": 0.91,
+       "NAO_ATENDE": 0.08,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "I1": {
+       "ATENDE": 0.65,
+       "NAO_ATENDE": 0.05,
+       "NAO_VERIFICAVEL": 0.12,
+       "PARCIAL": 0.18
+      },
+      "I2": {
+       "ATENDE": 0.84,
+       "NAO_ATENDE": 0.11,
+       "NAO_VERIFICAVEL": 0.03,
+       "PARCIAL": 0.02
+      },
+      "P1": {
+       "ATENDE": 0.38,
+       "NAO_ATENDE": 0.14,
+       "NAO_VERIFICAVEL": 0.01,
+       "PARCIAL": 0.47
+      },
+      "P2": {
+       "ATENDE": 0.08,
+       "NAO_ATENDE": 0.06,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.86
+      },
+      "N_last_qoq": {
+       "FAIXA_01": 0.03,
+       "FAIXA_02": 0.01,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "FAIXA_10": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.91,
+       "NAO_VERIFICAVEL": 0.05
+      },
+      "N_last_yoy": {
+       "FAIXA_01": 0.03,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.01,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.83,
+       "NAO_VERIFICAVEL": 0.13
+      },
+      "T_target": {
+       "ALVO_CORRETO": 0.0,
+       "SO_OUTRO": 0.0,
+       "ROTULO_ERRADO": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "C03",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a2-c03-high-normal-20261031-v1",
+   "final_attempt_id": "a2-c03-claude-fable-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig01_pib_nivel.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig02_pib_taxas.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig03_pib_contribuicoes.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig04_ip_nivel_aberturas_taxas.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig05_var_nivel_aberturas_taxas.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig06_serv_nivel_aberturas_taxas.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig07_con_nivel_aberturas_taxas.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig08_mercado_trabalho.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig09_confianca.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig10_comercio_exterior.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig11_hicp_contexto.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig12_nowcast_historico.png",
+    "execucoes/pilot-a2-c03-high-normal-20261031-v1/attempts/a2-c03-claude-fable-high-normal-primary/work/entrega/figuras/fig13_nowcast_modelos.png"
+   ],
+   "report_chars": 0,
+   "L_mean": 66.01666666666668,
+   "L_sd": null,
+   "U_mean": 66.01666666666668,
+   "blocks_mean": {
+    "A": 18.65,
+    "B": 19.666666666666668,
+    "C": 17.700000000000003,
+    "D": 10.0,
+    "E": 0.0
+   },
+   "references": {
+    "N_last_qoq": {
+     "period": "2026-Q3",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB EA21, q/q %",
+       1.02,
+       0.15
+      ],
+      [
+       "PIB EA21, q/q anualizado %",
+       2.87,
+       0.3
+      ],
+      [
+       "PIB EA21, taxa publicada CLV_PCH_PRE",
+       1.0,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_last_yoy": {
+     "period": "2026-Q3",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB EA21, YoY %",
+       1.9,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "T_target": {
+     "period": "2026-Q4",
+     "unit": "",
+     "variants": [],
+     "criteria": {
+      "ALVO_CORRETO": "A entrega apresenta um nowcast do PIB para o 4º trimestre de 2026 (2026T4), identificado como estimativa e separado dos dados observados, tratando o 3º trimestre de 2026 (2026T3) como já divulgado.",
+      "SO_OUTRO": "A entrega apresenta nowcast apenas para outro trimestre, sem estimativa para o 4º trimestre de 2026 (2026T4) (por exemplo, só para o 3º trimestre de 2026 (2026T3), que já tinha sido divulgado).",
+      "ROTULO_ERRADO": "A entrega apresenta estimativa para o 4º trimestre de 2026 (2026T4), mas a mostra como dado observado, a confunde com outro trimestre ou não a separa dos dados observados, ou trata o 3º trimestre de 2026 (2026T3) como ainda não divulgado.",
+      "NAO_MOSTRADO": "A entrega não apresenta estimativa numérica do PIB para nenhum trimestre.",
+      "NAO_VERIFICAVEL": "Não é possível identificar o trimestre da estimativa."
+     },
+     "admitted": [
+      "ALVO_CORRETO"
+     ],
+     "text": " Data de execução da entrega: 2026-11-04. Último trimestre do PIB divulgado nessa data: 3º trimestre de 2026 (2026T3) (o 4º trimestre de 2026 (2026T4) é o trimestre corrente)."
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "9c67714d674403f541b39ce04e4db1c7373041210e9fd71f9b0c71302de2bb9e",
+      "numeric": "524abb75e8b2903194f1b3cf616b7a9e9bce1716905acb3cae2429d63c1e1db7"
+     },
+     "L": 66.01666666666668,
+     "U": 66.01666666666668,
+     "blocks": {
+      "A": 18.65,
+      "B": 19.666666666666668,
+      "C": 17.700000000000003,
+      "D": 10.0,
+      "E": 0.0
+     },
+     "choices": {
+      "C_historico": "ATENDE",
+      "C_nowcast": "ATENDE",
+      "C_preditores": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "N_last_qoq": "FAIXA_01",
+      "N_last_yoy": "NAO_MOSTRADO",
+      "T_target": "ALVO_CORRETO"
+     },
+     "probabilities": {
+      "C_historico": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_nowcast": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_preditores": {
+       "ATENDE": 0.97,
+       "NAO_ATENDE": 0.03,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "I1": {
+       "ATENDE": 0.81,
+       "NAO_ATENDE": 0.03,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.16
+      },
+      "I2": {
+       "ATENDE": 0.96,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.03
+      },
+      "P1": {
+       "ATENDE": 0.58,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.4
+      },
+      "P2": {
+       "ATENDE": 0.98,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.02
+      },
+      "N_last_qoq": {
+       "FAIXA_01": 0.88,
+       "FAIXA_02": 0.03,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.07,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "N_last_yoy": {
+       "FAIXA_01": 0.22,
+       "FAIXA_02": 0.01,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.75,
+       "NAO_VERIFICAVEL": 0.02
+      },
+      "T_target": {
+       "ALVO_CORRETO": 0.99,
+       "SO_OUTRO": 0.0,
+       "ROTULO_ERRADO": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "C03",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a3-c03-low-normal-20261105-v1",
+   "final_attempt_id": "a3-c03-grok-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/01_pib_nivel_taxas.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/02_nowcast_cenarios_2026T4.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/03_acompanhamento_2026T3.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/04_ip_nivel.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/05_ip_aberturas.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/06_ip_taxas.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/07_varejo_nivel.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/08_varejo_aberturas.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/09_varejo_taxas.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/10_construcao.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/11_servicos.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/12_inqueritos.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/13_desemprego.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/14_hicp_total_nucleo.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/15_hicp_nucleo_aberturas.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/16_hicp_energia_alimentos.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/17_hicp_yoy_comparacao.png",
+    "execucoes/pilot-a3-c03-low-normal-20261105-v1/attempts/a3-c03-grok-low-normal-primary/work/entrega/figuras/18_despesa.png"
+   ],
+   "report_chars": 13016,
+   "L_mean": 84.31666666666666,
+   "L_sd": null,
+   "U_mean": 84.31666666666666,
+   "blocks_mean": {
+    "A": 19.1,
+    "B": 19.666666666666664,
+    "C": 19.4,
+    "D": 10.0,
+    "E": 16.15
+   },
+   "references": {
+    "N_last_qoq": {
+     "period": "2026-Q3",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB EA21, q/q %",
+       1.02,
+       0.15
+      ],
+      [
+       "PIB EA21, q/q anualizado %",
+       2.87,
+       0.3
+      ],
+      [
+       "PIB EA21, taxa publicada CLV_PCH_PRE",
+       1.0,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_last_yoy": {
+     "period": "2026-Q3",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "PIB EA21, YoY %",
+       1.9,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "T_target": {
+     "period": "2026-Q4",
+     "unit": "",
+     "variants": [],
+     "criteria": {
+      "ALVO_CORRETO": "A entrega apresenta um nowcast do PIB para o 4º trimestre de 2026 (2026T4), identificado como estimativa e separado dos dados observados, tratando o 3º trimestre de 2026 (2026T3) como já divulgado.",
+      "SO_OUTRO": "A entrega apresenta nowcast apenas para outro trimestre, sem estimativa para o 4º trimestre de 2026 (2026T4) (por exemplo, só para o 3º trimestre de 2026 (2026T3), que já tinha sido divulgado).",
+      "ROTULO_ERRADO": "A entrega apresenta estimativa para o 4º trimestre de 2026 (2026T4), mas a mostra como dado observado, a confunde com outro trimestre ou não a separa dos dados observados, ou trata o 3º trimestre de 2026 (2026T3) como ainda não divulgado.",
+      "NAO_MOSTRADO": "A entrega não apresenta estimativa numérica do PIB para nenhum trimestre.",
+      "NAO_VERIFICAVEL": "Não é possível identificar o trimestre da estimativa."
+     },
+     "admitted": [
+      "ALVO_CORRETO"
+     ],
+     "text": " Data de execução da entrega: 2026-11-05. Último trimestre do PIB divulgado nessa data: 3º trimestre de 2026 (2026T3) (o 4º trimestre de 2026 (2026T4) é o trimestre corrente)."
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "b994c0ec015e3433ee36c8c86a51c08858b59421104e1271039e104b7bd296c7",
+      "text": "8e55764d29d551591f683f65da8ad85629a96f26c6a69fda41538bfa2b54f3ca",
+      "numeric": "ff61482551b88640411f6700e9b2b06a81f1345292f5c2b2d93b5c7b5b8b5836"
+     },
+     "L": 84.31666666666666,
+     "U": 84.31666666666666,
+     "blocks": {
+      "A": 19.1,
+      "B": 19.666666666666664,
+      "C": 19.4,
+      "D": 10.0,
+      "E": 16.15
+     },
+     "choices": {
+      "C_historico": "ATENDE",
+      "C_nowcast": "ATENDE",
+      "C_preditores": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "PARCIAL",
+      "E3": "PARCIAL",
+      "E4": "ATENDE",
+      "N_last_qoq": "FAIXA_01",
+      "N_last_yoy": "FAIXA_01",
+      "T_target": "ALVO_CORRETO"
+     },
+     "probabilities": {
+      "C_historico": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_nowcast": {
+       "ATENDE": 0.98,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_preditores": {
+       "ATENDE": 0.97,
+       "NAO_ATENDE": 0.03,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "I1": {
+       "ATENDE": 0.95,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.04
+      },
+      "I2": {
+       "ATENDE": 0.9,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.08
+      },
+      "P1": {
+       "ATENDE": 0.9,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.1
+      },
+      "P2": {
+       "ATENDE": 0.98,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.02
+      },
+      "E1": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.01
+      },
+      "E2": {
+       "ATENDE": 0.32,
+       "NAO_ATENDE": 0.23,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.45
+      },
+      "E3": {
+       "ATENDE": 0.42,
+       "NAO_ATENDE": 0.06,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.52
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_last_qoq": {
+       "FAIXA_01": 0.91,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.01,
+       "FAIXA_05": 0.08,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_last_yoy": {
+       "FAIXA_01": 1.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "T_target": {
+       "ALVO_CORRETO": 1.0,
+       "SO_OUTRO": 0.0,
+       "ROTULO_ERRADO": 0.0,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

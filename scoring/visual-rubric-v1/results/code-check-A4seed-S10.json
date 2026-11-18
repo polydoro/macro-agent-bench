@@ -1,0 +1,142 @@
+[
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "one-s10-claude-fable-primary",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de desemprego (%) | O_DATA",
+      "row": "2026-09",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de desemprego (%) | O_DATA | Mulheres",
+      "row": "2026-09",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de desemprego (%) | SR_DATA",
+      "row": "2026-09",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de emprego (%) | O_DATA",
+      "row": "2026-09",
+      "value": 69.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de emprego (%) | O_DATA | Homens",
+      "row": "2026-09",
+      "value": 71.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de emprego (%) | O_DATA | Mulheres",
+      "row": "2026-09",
+      "value": 67.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "grok-4.7",
+  "final_attempt_id": "one-s10-grok-low-normal-primary",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total taxa_desemprego_pct nsa",
+      "value": 8.1,
+      "variant": "taxa série original",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total taxa_desemprego_pct sa",
+      "value": 8.6,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total taxa_desemprego_pct sa_suavizado",
+      "value": 8.7,
+      "variant": "taxa dessazonalizada",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total desempregados_mil nsa",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total desempregados_mil sa",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total desempregados_mil sa_suavizado",
+      "value": 506.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "S10",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "one-s10-kimi-pro-low-normal-primary",
+  "disposition": "verified_absence",
+  "checks": {}
+ }
+]

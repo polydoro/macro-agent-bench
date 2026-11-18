@@ -1,0 +1,31 @@
+arm,role,period,yoy_sa,yoy_ca,yoy_orig,saar3_sa,source
+A1,total_general,2026-08,-0.4,-0.6,-1.1,-1.65,INE ICM0826 annex; 3m SAAR Eurostat 2026-10-27
+A1,total_sin_eess,2026-08,1.0,0.9,0.3,,INE ICM0826 annex
+A1,alimentacion,2026-08,-0.9,-1.0,-1.7,,INE ICM0826 annex
+A1,resto,2026-08,2.6,2.7,2.4,,INE ICM0826 annex
+A1,equipo_personal,2026-08,2.5,2.9,1.1,,INE ICM0826 annex
+A1,equipo_hogar,2026-08,2.4,2.4,2.7,,INE ICM0826 annex
+A1,grandes_superficies,2026-08,2.9,3.2,2.4,,INE ICM0826 annex
+A1,grandes_cadenas,2026-08,4.0,3.8,3.4,,INE ICM0826 annex
+A1,pequenas_cadenas,2026-08,-10.0,-10.6,-11.4,,INE ICM0826 annex
+A1,unilocalizadas,2026-08,0.2,0.0,-0.4,,INE ICM0826 annex
+A2,total_general,2026-09,-1.42,-1.61,-1.56,-2.38,INE tempus3 series
+A2,total_sin_eess,2026-09,0.14,0.01,0.11,-0.61,INE tempus3 series
+A2,alimentacion,2026-09,-0.24,-0.14,-0.26,-2.01,INE tempus3 series
+A2,resto,2026-09,0.68,0.24,0.35,0.53,INE tempus3 series
+A2,equipo_personal,2026-09,-6.79,-9.11,-8.36,-3.13,INE tempus3 series
+A2,equipo_hogar,2026-09,4.58,4.56,4.19,4.51,INE tempus3 series
+A2,grandes_superficies,2026-09,-0.03,-0.54,-0.71,0.98,INE tempus3 series
+A2,grandes_cadenas,2026-09,2.33,1.81,1.29,3.99,INE tempus3 series
+A2,pequenas_cadenas,2026-09,-2.94,-2.69,-2.15,-12.62,INE tempus3 series
+A2,unilocalizadas,2026-09,-0.32,-0.42,-0.28,-2.22,INE tempus3 series
+A3,total_general,2026-09,-1.42,-1.61,-1.56,-2.38,INE tempus3 series
+A3,total_sin_eess,2026-09,0.14,0.01,0.11,-0.61,INE tempus3 series
+A3,alimentacion,2026-09,-0.24,-0.14,-0.26,-2.01,INE tempus3 series
+A3,resto,2026-09,0.68,0.24,0.35,0.53,INE tempus3 series
+A3,equipo_personal,2026-09,-6.79,-9.11,-8.36,-3.13,INE tempus3 series
+A3,equipo_hogar,2026-09,4.58,4.56,4.19,4.51,INE tempus3 series
+A3,grandes_superficies,2026-09,-0.03,-0.54,,0.98,INE tempus3 series
+A3,grandes_cadenas,2026-09,2.33,1.81,,3.99,INE tempus3 series
+A3,pequenas_cadenas,2026-09,-2.94,-2.69,,-12.62,INE tempus3 series
+A3,unilocalizadas,2026-09,-0.32,-0.42,,-2.22,INE tempus3 series

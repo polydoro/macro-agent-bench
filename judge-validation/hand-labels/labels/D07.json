@@ -1,0 +1,36 @@
+{
+  "answers": {
+    "C_total_3m": {
+      "at": "2026-11-17T18:33:00.126Z",
+      "choice": "ATENDE",
+      "value": null
+    },
+    "C_total_yoy": {
+      "at": "2026-11-17T18:32:55.350Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_domestico_yoy": {
+      "at": "2026-11-17T18:32:03.314Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_externo_yoy": {
+      "at": "2026-11-17T18:32:04.144Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_3m": {
+      "at": "2026-11-17T18:31:59.690Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_yoy": {
+      "at": "2026-11-17T18:31:58.426Z",
+      "choice": "PROBLEMA",
+      "value": null
+    }
+  },
+  "done": true,
+  "doneAt": "2026-11-17T18:33:24.698Z"
+}

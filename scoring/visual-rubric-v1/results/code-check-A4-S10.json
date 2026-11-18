@@ -1,0 +1,1074 @@
+[
+ {
+  "phase": "A4e",
+  "task": "S10",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-6075407cef5b4ae8eafdfb1d",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de desemprego (%) | O_DATA | 15-74 | Total",
+      "row": "2026-09",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de desemprego (%) | O_DATA | 15-74 | Mulheres",
+      "row": "2026-09",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de desemprego (%) | SR_DATA | 15-74 | Total",
+      "row": "2026-09",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de emprego (%) | O_DATA | 15-74 | Total",
+      "row": "2026-09",
+      "value": 69.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de emprego (%) | O_DATA | 15-74 | Homens",
+      "row": "2026-09",
+      "value": 71.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_series_utilizadas.csv",
+      "header": "Taxa de emprego (%) | O_DATA | 15-74 | Mulheres",
+      "row": "2026-09",
+      "value": 67.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S10",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-8af56a6b8dace8c032379d99",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_series_trimestrais_utilizadas.csv",
+      "header": "Taxa de desemprego (%) | O_DATA",
+      "row": "2004K2",
+      "value": 8.2,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_series_trimestrais_utilizadas.csv",
+      "header": "Taxa de desemprego (%) | O_DATA",
+      "row": "2005K2",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_series_trimestrais_utilizadas.csv",
+      "header": "Taxa de desemprego (%) | SR_DATA",
+      "row": "2005K2",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_series_trimestrais_utilizadas.csv",
+      "header": "Taxa de emprego (%) | O_DATA",
+      "row": "2001K1",
+      "value": 65.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_series_trimestrais_utilizadas.csv",
+      "header": "Taxa de emprego (%) | O_DATA | 15-24",
+      "row": "2001K1",
+      "value": 42.1,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/dados_series_trimestrais_utilizadas.csv",
+      "header": "Taxa de emprego (%) | SR_DATA",
+      "row": "2001K1",
+      "value": 66.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S10",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-208b38559f83367e0ed659e1",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "taxa",
+      "row": "O_DATA 2026-09-01",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "taxa",
+      "row": "SR_DATA 2026-09-01",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "taxa",
+      "row": "TC_DATA 2026-09-01",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "desempregados",
+      "row": "O_DATA 2026-09-01",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "desempregados",
+      "row": "SR_DATA 2026-09-01",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "desempregados",
+      "row": "TC_DATA 2026-09-01",
+      "value": 506.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S10",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-6409bb4717b81f40d18d0313",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "taxa",
+      "row": "O_DATA 2026-09-01",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "taxa",
+      "row": "SR_DATA 2026-09-01",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "taxa",
+      "row": "TC_DATA 2026-09-01",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "desempregados",
+      "row": "O_DATA 2026-09-01",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "desempregados",
+      "row": "SR_DATA 2026-09-01",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/scb_aku_desemprego.csv",
+      "header": "desempregados",
+      "row": "TC_DATA 2026-09-01",
+      "value": 506.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S10",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-6b2f4b816c06243815b2219a",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "SA",
+      "row": "2026-09-01 00:00:00",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "Tendência",
+      "row": "2026-09-01 00:00:00",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "NSA",
+      "row": "2026-09-01 00:00:00",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "SA (mil)",
+      "row": "2026-09-01 00:00:00",
+      "value": 5314.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "NSA (mil)",
+      "row": "2026-09-01 00:00:00",
+      "value": 5291.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "SA",
+      "row": "2026-09-01 00:00:00",
+      "value": 69.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S10",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-774f14221f537fe068b0a1be",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "SA",
+      "row": "2026-09-01 00:00:00",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "Tendência",
+      "row": "2026-09-01 00:00:00",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "NSA",
+      "row": "2026-09-01 00:00:00",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "SA (mil)",
+      "row": "2026-09-01 00:00:00",
+      "value": 5314.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "NSA (mil)",
+      "row": "2026-09-01 00:00:00",
+      "value": 5291.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/suecia_aku_dados.xlsx",
+      "header": "SA",
+      "row": "2026-09-01 00:00:00",
+      "value": 69.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S10",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-99d427b82e2892179f3f050c",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desemprego SA (%)",
+      "row": "2026-09",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desemprego SA suavizado/tendência (%)",
+      "row": "2026-09",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desemprego s/ aj. (%)",
+      "row": "2026-09",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desempregados SA (mil)",
+      "row": "2026-09",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Taxa de ocupação SA (%)",
+      "row": "2026-09",
+      "value": 69.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Desempregados SA (mil)",
+      "row": "2026-09",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S10",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-155d0963f49bd413f91c327e",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desemprego SA (%)",
+      "row": "2026-09",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desemprego SA suavizado/tendência (%)",
+      "row": "2026-09",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desemprego s/ aj. (%)",
+      "row": "2026-09",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Desempregados SA (mil)",
+      "row": "2026-09",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/serie_derivada.csv",
+      "header": "Taxa de ocupação SA (%)",
+      "row": "2026-09",
+      "value": 69.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Desempregados SA (mil)",
+      "row": "2026-09",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S10",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-edbae4b040cf6d01588cd7f1",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Set/26 NSA",
+      "row": "Desemprego total %",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Set/26 SA",
+      "row": "Desemprego total %",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_principal.csv",
+      "header": "Set/26 SA suavizado",
+      "row": "Desemprego total %",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/transformacoes.csv",
+      "header": "Desemprego_12m_pp_NSA",
+      "row": "2026-09-01",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/transformacoes.csv",
+      "header": "Taxa de ocupação_12m_pp_NSA",
+      "row": "2026-09-01",
+      "value": 0.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/incerteza.csv",
+      "header": "Variação anual oficial NSA",
+      "row": "Taxa de desemprego (p.p.) SCB, LFS Description of the statistics 2015, seção 2.3, p. 25",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S10",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-7f17ee8aabe799404787152b",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/primeira_entrega/tabela_principal.csv",
+      "header": "Set/26 NSA",
+      "row": "Desemprego total %",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/primeira_entrega/tabela_principal.csv",
+      "header": "Set/26 SA",
+      "row": "Desemprego total %",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/primeira_entrega/tabela_principal.csv",
+      "header": "Set/26 SA suavizado",
+      "row": "Desemprego total %",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/primeira_entrega/tabela_principal.csv",
+      "header": "Ago/26 SA",
+      "row": "Desemprego total %",
+      "value": 8.9,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/primeira_entrega/tabela_principal.csv",
+      "header": "Set/25 NSA",
+      "row": "Desemprego total %",
+      "value": 8.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/primeira_entrega/tabela_principal.csv",
+      "header": "Set/26 NSA",
+      "row": "Desemprego jovem %",
+      "value": 20.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S10",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-06348e41bf41979ee13d5a4b",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desemprego, taxa NSA % força de trabalho",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desemprego, taxa SA suavizada % força de trabalho",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Mulheres 15–74 Desemprego, taxa NSA % força de trabalho",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desempregados NSA mil pessoas",
+      "value": 466.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desempregados SA suavizado mil pessoas",
+      "value": 507.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Homens 15–74 Desemprego, taxa NSA % força de trabalho",
+      "value": 7.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S10",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-d7d9365595e2f1b29a5012ef",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desemprego, taxa NSA % força de trabalho",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desemprego, taxa SA suavizada % força de trabalho",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Mulheres 15–74 Desemprego, taxa NSA % força de trabalho",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desempregados NSA mil pessoas",
+      "value": 466.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Total 15–74 Desempregados SA suavizado mil pessoas",
+      "value": 507.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_scb_set_2026.csv",
+      "header": "valor_set_2026",
+      "row": "Homens 15–74 Desemprego, taxa NSA % força de trabalho",
+      "value": 7.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S10",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-453cefd40985edfd921664c5",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/desemprego.csv",
+      "header": "nsa_total",
+      "row": "2026-09-01",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/desemprego.csv",
+      "header": "sa_suav_total",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/desemprego.csv",
+      "header": "sa_suav_homens",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/painel.csv",
+      "header": "Set/26 NSA",
+      "row": "Desempregados mil pessoas",
+      "value": 466.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/painel.csv",
+      "header": "Set/26 SA + suavizada",
+      "row": "Desempregados mil pessoas",
+      "value": 507.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/painel.csv",
+      "header": "Set/26 NSA",
+      "row": "Desemprego jovem (15–24) % da força de trabalho jovem",
+      "value": 20.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S10",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-9902e963a9634a4addf15a05",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/desemprego.csv",
+      "header": "nsa_total",
+      "row": "2026-09-01",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/desemprego.csv",
+      "header": "sa_suav_total",
+      "row": "2026-09-01",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/desemprego.csv",
+      "header": "sa_suav_homens",
+      "row": "2026-09-01",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/painel_fonte.csv",
+      "header": "Set/26 NSA",
+      "row": "Força de trabalho mil pessoas https://www.scb.se/en/finding-statistics/statistics-by-subject-area/la",
+      "value": 5758.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/painel_fonte.csv",
+      "header": "Set/26 SA + suavizada",
+      "row": "Força de trabalho mil pessoas https://www.scb.se/en/finding-statistics/statistics-by-subject-area/la",
+      "value": 5830.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/painel_fonte.csv",
+      "header": "Set/26 NSA",
+      "row": "Ocupados mil pessoas https://www.scb.se/en/finding-statistics/statistics-by-subject-area/labour-mark",
+      "value": 5292.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S10",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-a7d2b411440845de460c586c",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total taxa_desemprego_pct nsa",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total taxa_desemprego_pct sa",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total taxa_desemprego_pct sa_suavizado",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total desempregados_mil nsa",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total desempregados_mil sa",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total desempregados_mil sa_suavizado",
+      "value": 506.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S10",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-0784b333ad3d3478bc739ec7",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_native": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total taxa_desemprego_pct nsa",
+      "value": 8.1,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total taxa_desemprego_pct sa",
+      "value": 8.6,
+      "variant": "[2026-09]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total taxa_desemprego_pct sa_suavizado",
+      "value": 8.7,
+      "variant": "[2026-09]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total desempregados_mil nsa",
+      "value": 466.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total desempregados_mil sa",
+      "value": 498.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/leitura_setembro_2026.csv",
+      "header": "set_2026",
+      "row": "15-74 total desempregados_mil sa_suavizado",
+      "value": 506.5,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S10",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-64bd8f79094689101ee8542b",
+  "disposition": "verified_absence",
+  "checks": {}
+ },
+ {
+  "phase": "A4s",
+  "task": "S10",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-60121969ebf7a75e02bc8bac",
+  "disposition": "verified_absence",
+  "checks": {}
+ }
+]

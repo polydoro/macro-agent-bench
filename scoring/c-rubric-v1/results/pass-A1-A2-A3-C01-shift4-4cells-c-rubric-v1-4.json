@@ -1,0 +1,1162 @@
+{
+ "rubric_version": "c-rubric-v1-4",
+ "rubric_sha256": "8fe4e9580d5c67b7e7804febc6d818ee9c48e93969a2aa1b57065d59d7288150",
+ "model_requested": "jev-1.14.0",
+ "shift_tolerances": 4.0,
+ "status": "provisional pilot, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "C01",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-one-c01-low-normal-20261028-v18",
+   "final_attempt_id": "one-c01-claude-opus-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-one-c01-low-normal-20261028-v18/attempts/one-c01-claude-opus-primary/work/entrega/01_producao_nivel_SA.png",
+    "execucoes/pilot-one-c01-low-normal-20261028-v18/attempts/one-c01-claude-opus-primary/work/entrega/02_producao_aberturas_SA.png",
+    "execucoes/pilot-one-c01-low-normal-20261028-v18/attempts/one-c01-claude-opus-primary/work/entrega/03_producao_taxas.png",
+    "execucoes/pilot-one-c01-low-normal-20261028-v18/attempts/one-c01-claude-opus-primary/work/entrega/04_pedidos.png",
+    "execucoes/pilot-one-c01-low-normal-20261028-v18/attempts/one-c01-claude-opus-primary/work/entrega/05_sondagens.png",
+    "execucoes/pilot-one-c01-low-normal-20261028-v18/attempts/one-c01-claude-opus-primary/work/entrega/06_vab_trimestral.png"
+   ],
+   "report_chars": 5976,
+   "L_mean": 75.55,
+   "L_sd": null,
+   "U_mean": 75.75,
+   "blocks_mean": {
+    "A": 18.05,
+    "B": 19.75,
+    "C": 18.95,
+    "D": 0.0,
+    "E": 18.8
+   },
+   "references": {
+    "N_prod_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D, YoY ajustado por calendário",
+       0.96,
+       0.15
+      ],
+      [
+       "B-D, YoY ajustado sazonal e por calendário",
+       1.15,
+       0.15
+      ],
+      [
+       "B-D_F, YoY ajustado por calendário",
+       2.86,
+       0.15
+      ],
+      [
+       "B-D_F, YoY ajustado sazonal e por calendário",
+       2.93,
+       0.15
+      ],
+      [
+       "B_C, YoY ajustado por calendário",
+       0.24,
+       0.15
+      ],
+      [
+       "B_C, YoY ajustado sazonal e por calendário",
+       0.38,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_prod_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D, 3m/3m SAAR",
+       1.2,
+       0.3
+      ],
+      [
+       "B-D_F, 3m/3m SAAR",
+       2.82,
+       0.3
+      ],
+      [
+       "B_C, 3m/3m SAAR",
+       -0.97,
+       0.3
+      ],
+      [
+       "C, 3m/3m SAAR",
+       -1.11,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ord_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       3.27,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       3.59,
+       0.15
+      ],
+      [
+       "YoY série original",
+       4.06,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ord_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       6.6,
+       0.3
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "3beab021161b0fd161d4963c0bb63e43bccc173828b8caeb9f87d5ab7dba2384",
+      "text": "33f80574e8ea6c791557cb7f16e3943470c3eb69b052b8dbb875a5286c8c4b9e",
+      "numeric": "1acc3880f8b39dbf5fc96c5d29e7e5b09fc6a4cd0194356d9652bfb3e0e15704"
+     },
+     "L": 75.55,
+     "U": 75.75,
+     "blocks": {
+      "A": 18.05,
+      "B": 19.75,
+      "C": 18.95,
+      "D": 0.0,
+      "E": 18.8
+     },
+     "choices": {
+      "C_amplitude": "ATENDE",
+      "C_crescimento": "ATENDE",
+      "C_encomendas": "ATENDE",
+      "C_nivel": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_prod_yoy": "FAIXA_01",
+      "N_prod_3m": "NAO_MOSTRADO",
+      "N_ord_yoy": "NAO_MOSTRADO",
+      "N_ord_3m": "NAO_MOSTRADO"
+     },
+     "probabilities": {
+      "C_amplitude": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_crescimento": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_encomendas": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_nivel": {
+       "ATENDE": 0.97,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.02
+      },
+      "I1": {
+       "ATENDE": 0.81,
+       "NAO_ATENDE": 0.05,
+       "NAO_VERIFICAVEL": 0.01,
+       "PARCIAL": 0.13
+      },
+      "I2": {
+       "ATENDE": 0.88,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.1
+      },
+      "P1": {
+       "ATENDE": 0.93,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.07
+      },
+      "P2": {
+       "ATENDE": 0.86,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.14
+      },
+      "E1": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "E2": {
+       "ATENDE": 0.39,
+       "NAO_ATENDE": 0.06,
+       "NAO_VERIFICAVEL": 0.22,
+       "PARCIAL": 0.33
+      },
+      "E3": {
+       "ATENDE": 0.81,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.18
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_prod_yoy": {
+       "FAIXA_01": 0.78,
+       "FAIXA_02": 0.08,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "FAIXA_10": 0.0,
+       "FAIXA_11": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.13,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_prod_3m": {
+       "FAIXA_01": 0.39,
+       "FAIXA_02": 0.02,
+       "FAIXA_03": 0.01,
+       "FAIXA_04": 0.01,
+       "FAIXA_05": 0.02,
+       "FAIXA_06": 0.01,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "FAIXA_10": 0.0,
+       "FAIXA_11": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.52,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "N_ord_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.99,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "N_ord_3m": {
+       "FAIXA_01": 0.01,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 0.99,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "C01",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a2-c01-high-normal-20261031-v1",
+   "final_attempt_id": "a2-c01-codex-luna-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a2-c01-high-normal-20261031-v1/attempts/a2-c01-codex-luna-high-normal-primary/work/entrega/producao_nivel_sa.png",
+    "execucoes/pilot-a2-c01-high-normal-20261031-v1/attempts/a2-c01-codex-luna-high-normal-primary/work/entrega/producao_taxas.png"
+   ],
+   "report_chars": 10468,
+   "L_mean": 60.92,
+   "L_sd": null,
+   "U_mean": 63.57000000000001,
+   "blocks_mean": {
+    "A": 12.350000000000001,
+    "B": 7.999999999999999,
+    "C": 11.350000000000001,
+    "D": 10.0,
+    "E": 19.22
+   },
+   "references": {
+    "N_prod_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D, YoY ajustado por calendário",
+       0.96,
+       0.15
+      ],
+      [
+       "B-D, YoY ajustado sazonal e por calendário",
+       1.15,
+       0.15
+      ],
+      [
+       "B-D_F, YoY ajustado por calendário",
+       2.86,
+       0.15
+      ],
+      [
+       "B-D_F, YoY ajustado sazonal e por calendário",
+       2.93,
+       0.15
+      ],
+      [
+       "B_C, YoY ajustado por calendário",
+       0.24,
+       0.15
+      ],
+      [
+       "B_C, YoY ajustado sazonal e por calendário",
+       0.38,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_prod_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D, 3m/3m SAAR",
+       1.2,
+       0.3
+      ],
+      [
+       "B-D_F, 3m/3m SAAR",
+       2.82,
+       0.3
+      ],
+      [
+       "B_C, 3m/3m SAAR",
+       -0.97,
+       0.3
+      ],
+      [
+       "C, 3m/3m SAAR",
+       -1.11,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ord_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       3.27,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       3.59,
+       0.15
+      ],
+      [
+       "YoY série original",
+       4.06,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ord_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       6.6,
+       0.3
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "39d6babf6cefa40e72a41fd36ef65bf00147d8a8f84f142ccef9c13e69e49191",
+      "text": "4e96a85a3f6864d77a411a32332b0a16f5714b87d7f497a30813f5fbc4afab7f",
+      "numeric": "659eb2c87dedbada90c91323ec546bb5dfa39c321a3452b030aac237b359db59"
+     },
+     "L": 60.92,
+     "U": 63.57000000000001,
+     "blocks": {
+      "A": 12.350000000000001,
+      "B": 7.999999999999999,
+      "C": 11.350000000000001,
+      "D": 10.0,
+      "E": 19.22
+     },
+     "choices": {
+      "C_amplitude": "NAO_ATENDE",
+      "C_crescimento": "ATENDE",
+      "C_encomendas": "NAO_ATENDE",
+      "C_nivel": "ATENDE",
+      "I1": "NAO_ATENDE",
+      "I2": "ATENDE",
+      "P1": "PARCIAL",
+      "P2": "PARCIAL",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_prod_yoy": "FAIXA_03",
+      "N_prod_3m": "FAIXA_04",
+      "N_ord_yoy": "FAIXA_01",
+      "N_ord_3m": "NAO_MOSTRADO"
+     },
+     "probabilities": {
+      "C_amplitude": {
+       "ATENDE": 0.01,
+       "NAO_ATENDE": 0.98,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "C_crescimento": {
+       "ATENDE": 0.97,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.02
+      },
+      "C_encomendas": {
+       "ATENDE": 0.0,
+       "NAO_ATENDE": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_nivel": {
+       "ATENDE": 0.62,
+       "NAO_ATENDE": 0.1,
+       "NAO_VERIFICAVEL": 0.28
+      },
+      "I1": {
+       "ATENDE": 0.39,
+       "NAO_ATENDE": 0.44,
+       "NAO_VERIFICAVEL": 0.1,
+       "PARCIAL": 0.07
+      },
+      "I2": {
+       "ATENDE": 0.77,
+       "NAO_ATENDE": 0.14,
+       "NAO_VERIFICAVEL": 0.01,
+       "PARCIAL": 0.08
+      },
+      "P1": {
+       "ATENDE": 0.41,
+       "NAO_ATENDE": 0.04,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.55
+      },
+      "P2": {
+       "ATENDE": 0.01,
+       "NAO_ATENDE": 0.11,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.88
+      },
+      "E1": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "E2": {
+       "ATENDE": 0.46,
+       "NAO_ATENDE": 0.08,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.46
+      },
+      "E3": {
+       "ATENDE": 0.88,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.11
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_prod_yoy": {
+       "FAIXA_01": 0.19,
+       "FAIXA_02": 0.09,
+       "FAIXA_03": 0.57,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.07,
+       "FAIXA_08": 0.03,
+       "FAIXA_09": 0.01,
+       "FAIXA_10": 0.0,
+       "FAIXA_11": 0.0,
+       "OUTRO_VALOR": 0.02,
+       "NAO_MOSTRADO": 0.01,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "N_prod_3m": {
+       "FAIXA_01": 0.01,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.96,
+       "FAIXA_05": 0.01,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "FAIXA_10": 0.0,
+       "FAIXA_11": 0.0,
+       "OUTRO_VALOR": 0.02,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ord_yoy": {
+       "FAIXA_01": 0.99,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ord_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "C01",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a3-c01-low-normal-20261105-v1",
+   "final_attempt_id": "a3-c01-claude-haiku-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-claude-haiku-primary/work/entrega/fig1_producao_industrial_alemanha.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-claude-haiku-primary/work/entrega/fig2_yoy_ca_vs_nsa.png"
+   ],
+   "report_chars": 5905,
+   "L_mean": 75.54,
+   "L_sd": null,
+   "U_mean": 75.54,
+   "blocks_mean": {
+    "A": 19.65,
+    "B": 10.0,
+    "C": 19.5,
+    "D": 10.0,
+    "E": 16.39
+   },
+   "references": {
+    "N_prod_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D, YoY ajustado por calendário",
+       0.96,
+       0.15
+      ],
+      [
+       "B-D, YoY ajustado sazonal e por calendário",
+       1.15,
+       0.15
+      ],
+      [
+       "B-D_F, YoY ajustado por calendário",
+       2.86,
+       0.15
+      ],
+      [
+       "B-D_F, YoY ajustado sazonal e por calendário",
+       2.93,
+       0.15
+      ],
+      [
+       "B_C, YoY ajustado por calendário",
+       0.24,
+       0.15
+      ],
+      [
+       "B_C, YoY ajustado sazonal e por calendário",
+       0.38,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_prod_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D, 3m/3m SAAR",
+       1.2,
+       0.3
+      ],
+      [
+       "B-D_F, 3m/3m SAAR",
+       2.82,
+       0.3
+      ],
+      [
+       "B_C, 3m/3m SAAR",
+       -0.97,
+       0.3
+      ],
+      [
+       "C, 3m/3m SAAR",
+       -1.11,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ord_yoy": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       3.9,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       3.92,
+       0.15
+      ],
+      [
+       "YoY série original",
+       3.96,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ord_3m": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       1.94,
+       0.3
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "913333e0f66ff7436708a5178ecc2baada11c360999064fd14cd70c02a8608f9",
+      "text": "95ab153e6fd9b4c51386f4558efa1516f32c66789ac3a0aeacb509f6dc7609da",
+      "numeric": "e1af6729c66935f1b9c91b84899608f8deb4e525e9b3c50ce71cb0d6616c7845"
+     },
+     "L": 75.54,
+     "U": 75.54,
+     "blocks": {
+      "A": 19.65,
+      "B": 10.0,
+      "C": 19.5,
+      "D": 10.0,
+      "E": 16.39
+     },
+     "choices": {
+      "C_amplitude": "NAO_ATENDE",
+      "C_crescimento": "ATENDE",
+      "C_encomendas": "NAO_ATENDE",
+      "C_nivel": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "PARCIAL",
+      "E4": "ATENDE",
+      "N_prod_yoy": "FAIXA_03",
+      "N_prod_3m": "FAIXA_04",
+      "N_ord_yoy": "NAO_MOSTRADO",
+      "N_ord_3m": "NAO_MOSTRADO"
+     },
+     "probabilities": {
+      "C_amplitude": {
+       "ATENDE": 0.01,
+       "NAO_ATENDE": 0.99,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_crescimento": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_encomendas": {
+       "ATENDE": 0.0,
+       "NAO_ATENDE": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_nivel": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "I1": {
+       "ATENDE": 0.98,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.02
+      },
+      "I2": {
+       "ATENDE": 0.96,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.03
+      },
+      "P1": {
+       "ATENDE": 0.96,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.04
+      },
+      "P2": {
+       "ATENDE": 0.94,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.06
+      },
+      "E1": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.01
+      },
+      "E2": {
+       "ATENDE": 0.46,
+       "NAO_ATENDE": 0.1,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.44
+      },
+      "E3": {
+       "ATENDE": 0.41,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.58
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_prod_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.99,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "FAIXA_10": 0.0,
+       "FAIXA_11": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_prod_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.98,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "FAIXA_10": 0.0,
+       "FAIXA_11": 0.0,
+       "OUTRO_VALOR": 0.02,
+       "NAO_MOSTRADO": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ord_yoy": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ord_3m": {
+       "FAIXA_01": 0.0,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.0,
+       "NAO_MOSTRADO": 1.0,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "C01",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a3-c01-low-normal-20261105-v1",
+   "final_attempt_id": "a3-c01-grok-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "images": [
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/01_nivel_producao_total.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/02_nivel_aberturas.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/03_nivel_ramos.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/04_taxas_producao.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/05_taxas_aberturas.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/06_nivel_encomendas.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/07_taxas_encomendas.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/08_vab_trimestral.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/09_emprego.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/10_ifo_saldos.png",
+    "execucoes/pilot-a3-c01-low-normal-20261105-v1/attempts/a3-c01-grok-low-normal-primary/work/entrega/figuras/11_ppi.png"
+   ],
+   "report_chars": 16820,
+   "L_mean": 73.36,
+   "L_sd": null,
+   "U_mean": 73.50999999999999,
+   "blocks_mean": {
+    "A": 15.95,
+    "B": 19.799999999999997,
+    "C": 18.45,
+    "D": 0.0,
+    "E": 19.16
+   },
+   "references": {
+    "N_prod_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D, YoY ajustado por calendário",
+       0.96,
+       0.15
+      ],
+      [
+       "B-D, YoY ajustado sazonal e por calendário",
+       1.15,
+       0.15
+      ],
+      [
+       "B-D_F, YoY ajustado por calendário",
+       2.86,
+       0.15
+      ],
+      [
+       "B-D_F, YoY ajustado sazonal e por calendário",
+       2.93,
+       0.15
+      ],
+      [
+       "B_C, YoY ajustado por calendário",
+       0.24,
+       0.15
+      ],
+      [
+       "B_C, YoY ajustado sazonal e por calendário",
+       0.38,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_prod_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "B-D, 3m/3m SAAR",
+       1.2,
+       0.3
+      ],
+      [
+       "B-D_F, 3m/3m SAAR",
+       2.82,
+       0.3
+      ],
+      [
+       "B_C, 3m/3m SAAR",
+       -0.97,
+       0.3
+      ],
+      [
+       "C, 3m/3m SAAR",
+       -1.11,
+       0.3
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ord_yoy": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       3.9,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       3.92,
+       0.15
+      ],
+      [
+       "YoY série original",
+       3.96,
+       0.15
+      ]
+     ],
+     "show_period": true
+    },
+    "N_ord_3m": {
+     "period": "2026-09",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       1.94,
+       0.3
+      ]
+     ],
+     "show_period": true
+    }
+   },
+   "repeats": [
+    {
+     "repeat": 0,
+     "requests": {
+      "images": "c3bdd29d9df2cd4ce45992e3417a3aa5caec2aa0c530ecae5cd51eff57c4abdd",
+      "text": "4959eae3c40bef9487427a63351faf6e08ca523b34a7b4e13af03ea01bcbf19c",
+      "numeric": "4bcbaa25c5ce65dabed46ff74ae242d1e5471ed9934cfc258e5c96f44edb22ce"
+     },
+     "L": 73.36,
+     "U": 73.50999999999999,
+     "blocks": {
+      "A": 15.95,
+      "B": 19.799999999999997,
+      "C": 18.45,
+      "D": 0.0,
+      "E": 19.16
+     },
+     "choices": {
+      "C_amplitude": "ATENDE",
+      "C_crescimento": "ATENDE",
+      "C_encomendas": "ATENDE",
+      "C_nivel": "ATENDE",
+      "I1": "ATENDE",
+      "I2": "ATENDE",
+      "P1": "ATENDE",
+      "P2": "ATENDE",
+      "E1": "ATENDE",
+      "E2": "ATENDE",
+      "E3": "ATENDE",
+      "E4": "ATENDE",
+      "N_prod_yoy": "FAIXA_01",
+      "N_prod_3m": "FAIXA_02",
+      "N_ord_yoy": "FAIXA_01",
+      "N_ord_3m": "FAIXA_01"
+     },
+     "probabilities": {
+      "C_amplitude": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_crescimento": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "C_encomendas": {
+       "ATENDE": 0.97,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "C_nivel": {
+       "ATENDE": 0.99,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "I1": {
+       "ATENDE": 0.72,
+       "NAO_ATENDE": 0.02,
+       "NAO_VERIFICAVEL": 0.01,
+       "PARCIAL": 0.25
+      },
+      "I2": {
+       "ATENDE": 0.57,
+       "NAO_ATENDE": 0.07,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.36
+      },
+      "P1": {
+       "ATENDE": 0.94,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.06
+      },
+      "P2": {
+       "ATENDE": 0.76,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.23
+      },
+      "E1": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "E2": {
+       "ATENDE": 0.49,
+       "NAO_ATENDE": 0.11,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.4
+      },
+      "E3": {
+       "ATENDE": 0.87,
+       "NAO_ATENDE": 0.01,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.12
+      },
+      "E4": {
+       "ATENDE": 1.0,
+       "NAO_ATENDE": 0.0,
+       "NAO_VERIFICAVEL": 0.0,
+       "PARCIAL": 0.0
+      },
+      "N_prod_yoy": {
+       "FAIXA_01": 0.81,
+       "FAIXA_02": 0.08,
+       "FAIXA_03": 0.08,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "FAIXA_10": 0.0,
+       "FAIXA_11": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.02,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_prod_3m": {
+       "FAIXA_01": 0.03,
+       "FAIXA_02": 0.86,
+       "FAIXA_03": 0.02,
+       "FAIXA_04": 0.02,
+       "FAIXA_05": 0.01,
+       "FAIXA_06": 0.0,
+       "FAIXA_07": 0.0,
+       "FAIXA_08": 0.0,
+       "FAIXA_09": 0.0,
+       "FAIXA_10": 0.0,
+       "FAIXA_11": 0.0,
+       "OUTRO_VALOR": 0.02,
+       "NAO_MOSTRADO": 0.03,
+       "NAO_VERIFICAVEL": 0.01
+      },
+      "N_ord_yoy": {
+       "FAIXA_01": 0.95,
+       "FAIXA_02": 0.01,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.03,
+       "NAO_VERIFICAVEL": 0.0
+      },
+      "N_ord_3m": {
+       "FAIXA_01": 0.97,
+       "FAIXA_02": 0.0,
+       "FAIXA_03": 0.0,
+       "FAIXA_04": 0.0,
+       "FAIXA_05": 0.0,
+       "OUTRO_VALOR": 0.01,
+       "NAO_MOSTRADO": 0.02,
+       "NAO_VERIFICAVEL": 0.0
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

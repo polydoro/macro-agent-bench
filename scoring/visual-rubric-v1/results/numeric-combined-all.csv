@@ -1,0 +1,298 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A1,S01,claude-fable-5-1,scored,36.25,30.0,6.25,total_3m:ambiguous
+A1,S01,claude-haiku-5-5,scored,20.0,15.0,5.0,total_yoy:ambiguous intermediarios_yoy:none capital_yoy:none consumo_yoy:none energia_yoy:none construcao_yoy:none
+A1,S01,claude-opus-5-5,scored,30.0,30.0,0.0,total_3m:ambiguous
+A1,S01,claude-sonnet-5-5,scored,26.25,26.25,0.0,energia_yoy:none construcao_yoy:none
+A1,S01,gpt-6-astra,scored,30.0,30.0,0.0,
+A1,S01,gpt-6-luna,scored,30.83,30.0,0.83,total_3m:ambiguous construcao_yoy:none
+A1,S01,gpt-6.1-sol,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous intermediarios_yoy:ambiguous capital_yoy:ambiguous construcao_yoy:none
+A1,S01,grok-4.7,scored,30.0,30.0,0.0,total_yoy:ambiguous intermediarios_yoy:ambiguous energia_yoy:ambiguous construcao_yoy:ambiguous
+A1,S01,kimi-code/k3.1-pro,scored,30.0,30.0,0.0,total_3m:ambiguous construcao_yoy:none
+A2,S01,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous construcao_yoy:ambiguous
+A2,S01,claude-haiku-5-5,scored,31.25,30.0,1.25,construcao_yoy:none
+A2,S01,claude-opus-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous construcao_yoy:ambiguous
+A2,S01,claude-sonnet-5-5,scored,30.0,30.0,0.0,
+A2,S01,gpt-6-astra,scored,40.0,30.0,10.0,total_3m:ambiguous
+A2,S01,gpt-6-luna,scored,26.25,26.25,0.0,energia_yoy:fail construcao_yoy:none
+A2,S01,gpt-6.1-sol,scored,40.0,30.0,10.0,total_3m:ambiguous
+A2,S01,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S01,kimi-code/k3.1-pro,verified_absence,0.0,0.0,0.0,
+A3,S01,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous
+A3,S01,claude-haiku-5-5,scored,17.5,15.0,2.5,intermediarios_yoy:none capital_yoy:none consumo_yoy:none energia_yoy:none construcao_yoy:none
+A3,S01,claude-opus-5-5,scored,30.0,30.0,0.0,
+A3,S01,claude-sonnet-5-5,scored,30.83,30.0,0.83,construcao_yoy:none
+A3,S01,gpt-6-astra,scored,26.25,26.25,0.0,total_3m:ambiguous energia_yoy:none construcao_yoy:none
+A3,S01,gpt-6-luna,scored,32.5,30.0,2.5,construcao_yoy:none
+A3,S01,gpt-6.1-sol,scored,35.0,30.0,5.0,total_yoy:ambiguous intermediarios_yoy:ambiguous capital_yoy:ambiguous construcao_yoy:none
+A3,S01,grok-4.7,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous
+A3,S01,kimi-code/k3.1-pro,scored,22.5,22.5,0.0,total_3m:ambiguous intermediarios_yoy:none capital_yoy:none consumo_yoy:none construcao_yoy:ambiguous
+A1,S02,claude-fable-5-1,scored,35.0,30.0,5.0,total_yoy:ambiguous total_3m:ambiguous domestico_yoy:ambiguous externo_yoy:ambiguous
+A1,S02,claude-haiku-5-5,scored,10.0,7.5,2.5,total_yoy:manual total_3m:none domestico_yoy:none externo_yoy:none
+A1,S02,claude-opus-5-5,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous externo_yoy:ambiguous
+A1,S02,claude-sonnet-5-5,scored,22.5,22.5,0.0,total_3m:ambiguous externo_yoy:fail
+A1,S02,gpt-6-astra,scored,30.0,30.0,0.0,total_3m:ambiguous
+A1,S02,gpt-6-luna,scored,15.0,15.0,0.0,total_3m:ambiguous domestico_yoy:none externo_yoy:none
+A1,S02,gpt-6.1-sol,scored,30.0,30.0,0.0,total_3m:ambiguous
+A1,S02,grok-4.7,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous domestico_yoy:ambiguous externo_yoy:ambiguous
+A1,S02,kimi-code/k3.1-pro,scored,32.5,30.0,2.5,total_3m:ambiguous
+A2,S02,claude-fable-5-1,scored,37.5,30.0,7.5,total_yoy:ambiguous total_3m:ambiguous externo_yoy:ambiguous
+A2,S02,claude-haiku-5-5,scored,20.0,15.0,5.0,total_yoy:ambiguous total_3m:manual domestico_yoy:none externo_yoy:none
+A2,S02,claude-opus-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous domestico_yoy:ambiguous externo_yoy:ambiguous
+A2,S02,claude-sonnet-5-5,scored,32.5,30.0,2.5,total_yoy:ambiguous total_3m:ambiguous domestico_yoy:ambiguous externo_yoy:ambiguous
+A2,S02,gpt-6-astra,scored,37.5,30.0,7.5,total_yoy:ambiguous total_3m:ambiguous
+A2,S02,gpt-6-luna,scored,20.0,15.0,5.0,domestico_yoy:none externo_yoy:none
+A2,S02,gpt-6.1-sol,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous
+A2,S02,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S02,kimi-code/k3.1-pro,scored,35.0,30.0,5.0,total_yoy:ambiguous total_3m:ambiguous externo_yoy:ambiguous
+A3,S02,claude-fable-5-1,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous externo_yoy:ambiguous
+A3,S02,claude-haiku-5-5,scored,17.5,15.0,2.5,total_yoy:ambiguous total_3m:ambiguous domestico_yoy:none externo_yoy:none
+A3,S02,claude-opus-5-5,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous externo_yoy:ambiguous
+A3,S02,claude-sonnet-5-5,scored,15.0,15.0,0.0,total_yoy:ambiguous total_3m:ambiguous domestico_yoy:none externo_yoy:none
+A3,S02,gpt-6-astra,scored,30.0,30.0,0.0,total_3m:ambiguous
+A3,S02,gpt-6-luna,scored,30.0,30.0,0.0,total_3m:ambiguous
+A3,S02,gpt-6.1-sol,scored,30.0,30.0,0.0,total_3m:ambiguous
+A3,S02,grok-4.7,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous domestico_yoy:ambiguous externo_yoy:ambiguous
+A3,S02,kimi-code/k3.1-pro,scored,17.5,15.0,2.5,total_yoy:manual total_3m:manual domestico_yoy:none externo_yoy:none
+A1,S03,claude-fable-5-1,scored,36.67,30.0,6.67,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:ambiguous
+A1,S03,claude-haiku-5-5,scored,16.67,15.0,1.67,alimentacion_yoy:none resto_yoy:none equipo_personal_yoy:none equipo_hogar_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A1,S03,claude-opus-5-5,scored,34.17,30.0,4.17,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:none equipo_hogar_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A1,S03,claude-sonnet-5-5,scored,30.0,30.0,0.0,total_3m:ambiguous
+A1,S03,gpt-6-astra,scored,40.0,30.0,10.0,resto_yoy:none unilocalizadas_yoy:none
+A1,S03,gpt-6-luna,scored,22.5,22.5,0.0,total_3m:none grandes_superficies_yoy:none
+A1,S03,gpt-6.1-sol,scored,30.83,30.0,0.83,resto_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A1,S03,grok-4.7,scored,37.5,30.0,7.5,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:none
+A1,S03,kimi-code/k3.1-pro,scored,37.5,30.0,7.5,total_3m:manual
+A2,S03,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:ambiguous
+A2,S03,claude-haiku-5-5,scored,18.33,15.0,3.33,total_yoy:manual total_3m:ambiguous alimentacion_yoy:none resto_yoy:none equipo_personal_yoy:none equipo_hogar_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A2,S03,claude-opus-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:ambiguous
+A2,S03,claude-sonnet-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A2,S03,gpt-6-astra,scored,40.0,30.0,10.0,total_3m:ambiguous
+A2,S03,gpt-6-luna,scored,22.5,22.5,0.0,total_yoy:ambiguous total_3m:ambiguous resto_yoy:none equipo_personal_yoy:none equipo_hogar_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A2,S03,gpt-6.1-sol,scored,40.0,30.0,10.0,total_3m:ambiguous
+A2,S03,grok-4.7,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:ambiguous
+A2,S03,kimi-code/k3.1-pro,scored,38.33,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous resto_yoy:none grandes_superficies_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:none
+A3,S03,claude-fable-5-1,scored,40.0,30.0,10.0,total_3m:ambiguous grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A3,S03,claude-haiku-5-5,scored,20.0,15.0,5.0,total_yoy:manual total_3m:manual alimentacion_yoy:none resto_yoy:none equipo_personal_yoy:none equipo_hogar_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A3,S03,claude-opus-5-5,scored,37.5,30.0,7.5,grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A3,S03,claude-sonnet-5-5,scored,19.17,15.0,4.17,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:none resto_yoy:none equipo_personal_yoy:none equipo_hogar_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A3,S03,gpt-6-astra,scored,32.5,30.0,2.5,resto_yoy:none equipo_personal_yoy:none equipo_hogar_yoy:none
+A3,S03,gpt-6-luna,scored,22.5,22.5,0.0,total_3m:none equipo_personal_yoy:none equipo_hogar_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A3,S03,gpt-6.1-sol,scored,35.0,30.0,5.83,resto_yoy:none equipo_personal_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A3,S03,grok-4.7,scored,40.0,30.0,10.0,
+A3,S03,kimi-code/k3.1-pro,scored,36.67,30.0,6.67,resto_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A1,S04,claude-fable-5-1,scored,40.0,30.0,10.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A1,S04,claude-haiku-5-5,scored,0.0,0.0,0.0,total_native:fail situacao_financeira_passada_native:none situacao_financeira_futura_native:none nivel_vida_futuro_native:none compras_importantes_native:none capacidade_poupanca_native:none desemprego_esperado_native:none precos_native:none
+A1,S04,claude-opus-5-5,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A1,S04,claude-sonnet-5-5,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A1,S04,gpt-6-astra,scored,37.22,30.0,7.22,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A1,S04,gpt-6-luna,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A1,S04,gpt-6.1-sol,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A1,S04,grok-4.7,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A1,S04,kimi-code/k3.1-pro,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous
+A2,S04,claude-fable-5-1,scored,40.0,30.0,10.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A2,S04,claude-haiku-5-5,scored,40.0,30.0,10.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:manual capacidade_poupanca_native:ambiguous desemprego_esperado_native:manual precos_native:ambiguous
+A2,S04,claude-opus-5-5,scored,40.0,30.0,10.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A2,S04,claude-sonnet-5-5,scored,39.44,30.0,9.44,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A2,S04,gpt-6-astra,scored,40.0,30.0,10.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A2,S04,gpt-6-luna,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A2,S04,gpt-6.1-sol,scored,40.0,30.0,10.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A2,S04,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S04,kimi-code/k3.1-pro,scored,38.33,30.0,8.33,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A3,S04,claude-fable-5-1,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A3,S04,claude-haiku-5-5,scored,40.0,30.0,10.0,total_native:ambiguous nivel_vida_futuro_native:ambiguous capacidade_poupanca_native:none precos_native:none
+A3,S04,claude-opus-5-5,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A3,S04,claude-sonnet-5-5,scored,40.0,30.0,10.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A3,S04,gpt-6-astra,scored,36.67,30.0,6.67,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A3,S04,gpt-6-luna,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:none capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A3,S04,gpt-6.1-sol,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A3,S04,grok-4.7,scored,35.0,30.0,5.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:manual compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A3,S04,kimi-code/k3.1-pro,scored,40.0,30.0,10.0,total_native:ambiguous situacao_financeira_passada_native:ambiguous situacao_financeira_futura_native:ambiguous nivel_vida_futuro_native:ambiguous compras_importantes_native:ambiguous capacidade_poupanca_native:ambiguous desemprego_esperado_native:ambiguous precos_native:ambiguous
+A1,S05,claude-fable-5-1,scored,39.0,30.0,9.0,total_yoy:ambiguous total_3me:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A1,S05,claude-haiku-5-5,scored,18.0,15.0,3.0,total_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:fail
+A1,S05,claude-opus-5-5,scored,31.5,30.0,1.5,total_yoy:ambiguous total_3me:ambiguous nucleo_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A1,S05,claude-sonnet-5-5,scored,18.5,15.0,3.5,total_yoy:ambiguous total_3me:none nucleo_yoy:ambiguous nucleo_3me:none bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:none servicos_yoy:ambiguous servicos_3me:none energia_yoy:ambiguous energia_3me:none alimentos_yoy:ambiguous alimentos_3me:none
+A1,S05,gpt-6-astra,scored,38.0,28.5,9.5,total_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A1,S05,gpt-6-luna,scored,6.0,6.0,0.0,total_yoy:fail total_3me:fail nucleo_3me:fail servicos_3me:fail energia_yoy:fail energia_3me:fail alimentos_yoy:ambiguous alimentos_3me:fail
+A1,S05,gpt-6.1-sol,scored,33.5,28.5,5.0,total_yoy:ambiguous nucleo_3me:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous
+A1,S05,grok-4.7,scored,25.17,22.5,2.67,total_yoy:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A1,S05,kimi-code/k3.1-pro,scored,19.5,15.0,4.5,total_yoy:ambiguous total_3me:fail nucleo_yoy:ambiguous servicos_yoy:ambiguous servicos_3me:fail energia_yoy:ambiguous energia_3me:manual alimentos_yoy:fail
+A2,S05,claude-fable-5-1,scored,36.0,30.0,6.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S05,claude-haiku-5-5,scored,17.17,13.5,3.67,total_yoy:ambiguous nucleo_yoy:none bens_nao_energeticos_yoy:manual servicos_yoy:ambiguous energia_yoy:ambiguous energia_3me:none alimentos_yoy:ambiguous
+A2,S05,claude-opus-5-5,scored,22.0,16.5,5.5,total_yoy:ambiguous nucleo_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous
+A2,S05,claude-sonnet-5-5,scored,37.33,30.0,7.33,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S05,gpt-6-astra,scored,39.5,30.0,9.5,total_yoy:ambiguous total_3me:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S05,gpt-6-luna,scored,33.67,30.0,3.67,total_yoy:ambiguous total_3me:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S05,gpt-6.1-sol,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S05,grok-4.7,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_3me:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S05,kimi-code/k3.1-pro,scored,38.5,30.0,8.5,total_yoy:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S05,claude-fable-5-1,scored,40.0,30.0,10.0,alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S05,claude-haiku-5-5,scored,19.5,15.0,4.5,total_yoy:ambiguous nucleo_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous energia_3me:none alimentos_yoy:manual
+A3,S05,claude-opus-5-5,scored,39.83,30.0,9.83,nucleo_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S05,claude-sonnet-5-5,scored,26.67,22.5,4.17,total_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S05,gpt-6-astra,scored,38.0,28.5,9.5,total_yoy:ambiguous nucleo_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S05,gpt-6-luna,scored,28.5,28.5,0.0,
+A3,S05,gpt-6.1-sol,scored,38.0,28.5,9.5,total_3me:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_3me:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S05,grok-4.7,scored,30.0,24.0,6.0,total_yoy:ambiguous nucleo_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:fail
+A3,S05,kimi-code/k3.1-pro,scored,20.0,16.5,3.5,alimentos_yoy:manual
+A1,S06,claude-fable-5-1,scored,0.0,0.0,0.0,total_yoy:none total_3me:none nucleo_yoy:none nucleo_3me:none bens_nao_energeticos_yoy:none bens_nao_energeticos_3me:none servicos_yoy:none servicos_3me:none energia_yoy:none energia_3me:none alimentos_yoy:none alimentos_3me:none
+A1,S06,claude-haiku-5-5,scored,20.0,15.0,5.0,energia_3me:none
+A1,S06,claude-opus-5-5,scored,40.0,30.0,10.0,alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A1,S06,claude-sonnet-5-5,scored,7.33,3.0,4.33,total_yoy:fail total_3me:fail nucleo_yoy:fail nucleo_3me:fail bens_nao_energeticos_yoy:fail bens_nao_energeticos_3me:fail energia_yoy:fail energia_3me:fail alimentos_yoy:fail alimentos_3me:fail
+A1,S06,gpt-6-astra,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A1,S06,gpt-6-luna,scored,28.5,28.5,0.0,nucleo_yoy:ambiguous energia_3me:none
+A1,S06,gpt-6.1-sol,scored,35.83,30.0,5.83,
+A1,S06,grok-4.7,scored,20.0,16.5,3.5,total_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous
+A1,S06,kimi-code/k3.1-pro,scored,17.17,16.5,0.67,bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous
+A2,S06,claude-fable-5-1,scored,39.0,30.0,9.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S06,claude-haiku-5-5,scored,29.5,22.5,7.0,
+A2,S06,claude-opus-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S06,claude-sonnet-5-5,scored,37.5,28.5,9.0,total_3me:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_3me:fail servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S06,gpt-6-astra,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S06,gpt-6-luna,scored,30.0,30.0,0.0,total_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous
+A2,S06,gpt-6.1-sol,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A2,S06,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S06,kimi-code/k3.1-pro,scored,40.0,30.0,10.0,total_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous
+A3,S06,claude-fable-5-1,scored,39.5,30.0,9.5,total_yoy:ambiguous total_3me:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S06,claude-haiku-5-5,scored,31.5,30.0,1.5,total_3me:ambiguous bens_nao_energeticos_3me:ambiguous servicos_3me:ambiguous energia_3me:ambiguous alimentos_3me:ambiguous
+A3,S06,claude-opus-5-5,scored,38.83,30.0,8.83,alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S06,claude-sonnet-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous bens_nao_energeticos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S06,gpt-6-astra,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S06,gpt-6-luna,scored,15.0,15.0,0.0,energia_3me:none
+A3,S06,gpt-6.1-sol,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S06,grok-4.7,scored,36.33,30.0,6.33,nucleo_yoy:ambiguous nucleo_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A3,S06,kimi-code/k3.1-pro,scored,30.0,28.5,1.5,
+A1,S07,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous
+A1,S07,claude-haiku-5-5,scored,40.0,30.0,10.0,total_3m:ambiguous
+A1,S07,claude-opus-5-5,scored,36.67,30.0,6.67,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous
+A1,S07,claude-sonnet-5-5,scored,36.67,30.0,6.67,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A1,S07,gpt-6-astra,scored,38.33,30.0,8.33,total_3m:ambiguous servicos_yoy:ambiguous
+A1,S07,gpt-6-luna,scored,30.0,30.0,0.0,total_3m:ambiguous
+A1,S07,gpt-6.1-sol,scored,31.67,30.0,1.67,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous
+A1,S07,grok-4.7,scored,34.44,30.0,4.44,total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous
+A1,S07,kimi-code/k3.1-pro,scored,35.56,30.0,5.56,total_3m:ambiguous
+A2,S07,claude-fable-5-1,scored,38.33,30.0,8.33,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A2,S07,claude-haiku-5-5,scored,35.0,30.0,5.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A2,S07,claude-opus-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous
+A2,S07,claude-sonnet-5-5,scored,35.83,30.0,5.83,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A2,S07,gpt-6-astra,scored,40.0,30.0,10.0,total_3m:ambiguous servicos_yoy:ambiguous
+A2,S07,gpt-6-luna,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A2,S07,gpt-6.1-sol,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous
+A2,S07,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S07,kimi-code/k3.1-pro,scored,38.33,30.0,8.33,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous
+A3,S07,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous
+A3,S07,claude-haiku-5-5,scored,5.0,0.0,5.0,total_yoy:none total_3m:none servicos_yoy:none producao_yoy:none construcao_yoy:none
+A3,S07,claude-opus-5-5,scored,40.0,30.0,10.0,servicos_yoy:ambiguous
+A3,S07,claude-sonnet-5-5,scored,40.0,30.0,10.0,total_3m:ambiguous servicos_yoy:ambiguous
+A3,S07,gpt-6-astra,scored,33.89,30.0,3.89,total_3m:ambiguous servicos_yoy:ambiguous
+A3,S07,gpt-6-luna,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A3,S07,gpt-6.1-sol,scored,35.0,30.0,5.0,total_3m:ambiguous servicos_yoy:ambiguous
+A3,S07,grok-4.7,scored,36.67,30.0,6.67,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A3,S07,kimi-code/k3.1-pro,scored,37.22,30.0,7.22,total_3m:ambiguous servicos_yoy:ambiguous
+A1,S08,claude-fable-5-1,scored,38.61,30.0,8.61,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A1,S08,claude-haiku-5-5,scored,22.5,15.0,7.5,consumo_familias_growth:none consumo_governo_growth:none investimento_growth:none exportacoes_growth:none importacoes_growth:none industria_growth:none servicos_growth:none
+A1,S08,claude-opus-5-5,scored,34.17,30.0,4.17,total_qoq:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A1,S08,claude-sonnet-5-5,scored,36.39,30.0,6.39,total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A1,S08,gpt-6-astra,scored,32.5,30.0,2.5,investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A1,S08,gpt-6-luna,scored,30.0,30.0,0.0,consumo_familias_growth:ambiguous consumo_governo_growth:none investimento_growth:ambiguous exportacoes_growth:ambiguous industria_growth:ambiguous
+A1,S08,gpt-6.1-sol,scored,34.17,30.0,4.17,exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A1,S08,grok-4.7,scored,36.67,30.0,6.67,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:none investimento_growth:none industria_growth:ambiguous servicos_growth:ambiguous
+A1,S08,kimi-code/k3.1-pro,scored,40.0,30.0,10.0,exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A2,S08,claude-fable-5-1,scored,40.0,30.0,10.0,consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A2,S08,claude-haiku-5-5,scored,40.0,30.0,10.0,total_yoy:manual total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A2,S08,claude-opus-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A2,S08,claude-sonnet-5-5,verified_absence,0.0,0.0,0.0,
+A2,S08,gpt-6-astra,scored,40.0,30.0,10.0,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A2,S08,gpt-6-luna,scored,30.0,30.0,0.0,total_yoy:ambiguous total_qoq:ambiguous consumo_governo_growth:none exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A2,S08,gpt-6.1-sol,scored,38.33,30.0,8.33,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A2,S08,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S08,kimi-code/k3.1-pro,scored,40.0,30.0,10.0,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A3,S08,claude-fable-5-1,scored,40.0,30.0,10.0,consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,claude-haiku-5-5,scored,17.5,15.0,2.5,consumo_familias_growth:none consumo_governo_growth:none investimento_growth:none exportacoes_growth:none importacoes_growth:none industria_growth:none servicos_growth:none
+A3,S08,claude-opus-5-5,scored,35.0,30.0,5.0,consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,claude-sonnet-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_qoq:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,gpt-6-astra,scored,36.11,30.0,6.11,consumo_governo_growth:none exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,gpt-6-luna,scored,30.0,30.0,0.0,total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:none investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A3,S08,gpt-6.1-sol,scored,34.17,30.0,4.17,consumo_familias_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,grok-4.7,scored,35.0,30.0,5.0,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A3,S08,kimi-code/k3.1-pro,scored,40.0,30.0,10.0,total_qoq:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A1,S09,claude-fable-5-1,scored,34.17,30.0,4.17,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A1,S09,claude-haiku-5-5,scored,15.0,15.0,0.0,total_yoy:ambiguous alimentos_yoy:none combustivel_yoy:none equipamentos_domesticos_yoy:none cultura_lazer_yoy:none outros_bens_yoy:none internet_yoy:none
+A1,S09,claude-opus-5-5,scored,35.83,30.0,5.83,total_3m:ambiguous combustivel_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:fail
+A1,S09,claude-sonnet-5-5,scored,31.67,30.0,1.67,total_yoy:ambiguous total_3m:ambiguous
+A1,S09,gpt-6-astra,scored,32.5,30.0,2.5,total_3m:ambiguous
+A1,S09,gpt-6-luna,scored,30.0,30.0,0.0,
+A1,S09,gpt-6.1-sol,scored,30.0,30.0,0.0,total_3m:ambiguous
+A1,S09,grok-4.7,scored,30.0,30.0,0.0,total_yoy:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A1,S09,kimi-code/k3.1-pro,scored,30.56,30.0,0.56,total_yoy:ambiguous total_3m:ambiguous
+A2,S09,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,claude-haiku-5-5,scored,35.0,30.0,5.0,combustivel_yoy:ambiguous
+A2,S09,claude-opus-5-5,scored,40.0,30.0,10.0,alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,claude-sonnet-5-5,scored,38.33,30.0,8.33,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,gpt-6-astra,scored,40.0,30.0,10.0,total_yoy:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,gpt-6-luna,scored,38.33,30.0,8.33,
+A2,S09,gpt-6.1-sol,scored,40.0,30.0,10.0,total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,grok-4.7,scored,35.0,30.0,5.0,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous internet_yoy:ambiguous
+A2,S09,kimi-code/k3.1-pro,scored,35.83,30.0,5.83,total_yoy:ambiguous total_3m:ambiguous combustivel_yoy:ambiguous
+A3,S09,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous equipamentos_domesticos_yoy:ambiguous cultura_lazer_yoy:ambiguous outros_bens_yoy:ambiguous
+A3,S09,claude-haiku-5-5,scored,15.0,15.0,0.0,total_3m:ambiguous alimentos_yoy:none combustivel_yoy:none equipamentos_domesticos_yoy:none cultura_lazer_yoy:none outros_bens_yoy:none internet_yoy:none
+A3,S09,claude-opus-5-5,scored,32.5,30.0,2.5,cultura_lazer_yoy:none
+A3,S09,claude-sonnet-5-5,scored,38.33,30.0,8.33,total_yoy:ambiguous total_3m:ambiguous alimentos_yoy:ambiguous combustivel_yoy:ambiguous
+A3,S09,gpt-6-astra,scored,30.0,30.0,0.0,total_3m:ambiguous
+A3,S09,gpt-6-luna,scored,30.0,30.0,0.0,total_3m:ambiguous
+A3,S09,gpt-6.1-sol,scored,30.0,30.0,0.0,total_3m:ambiguous
+A3,S09,grok-4.7,scored,30.0,30.0,0.0,total_3m:ambiguous alimentos_yoy:ambiguous internet_yoy:ambiguous
+A3,S09,kimi-code/k3.1-pro,scored,37.22,30.0,7.22,total_3m:ambiguous
+A1,S10,claude-fable-5-1,verified_absence,0.0,0.0,0.0,
+A1,S10,claude-haiku-5-5,scored,40.0,30.0,10.0,total_native:ambiguous
+A1,S10,claude-opus-5-5,scored,30.0,30.0,0.0,total_native:ambiguous
+A1,S10,claude-sonnet-5-5,scored,40.0,30.0,10.0,total_native:ambiguous
+A1,S10,gpt-6-astra,scored,40.0,30.0,10.0,total_native:ambiguous
+A1,S10,gpt-6-luna,scored,40.0,30.0,10.0,total_native:ambiguous
+A1,S10,gpt-6.1-sol,scored,40.0,30.0,10.0,total_native:ambiguous
+A1,S10,grok-4.7,verified_absence,0.0,0.0,0.0,
+A1,S10,kimi-code/k3.1-pro,verified_absence,0.0,0.0,0.0,
+A2,S10,claude-fable-5-1,verified_absence,0.0,0.0,0.0,
+A2,S10,claude-haiku-5-5,scored,40.0,30.0,10.0,total_native:ambiguous
+A2,S10,claude-opus-5-5,scored,40.0,30.0,10.0,total_native:ambiguous
+A2,S10,claude-sonnet-5-5,scored,40.0,30.0,10.0,total_native:ambiguous
+A2,S10,gpt-6-astra,scored,40.0,30.0,10.0,total_native:ambiguous
+A2,S10,gpt-6-luna,scored,40.0,30.0,10.0,total_native:ambiguous
+A2,S10,gpt-6.1-sol,scored,40.0,30.0,10.0,total_native:ambiguous
+A2,S10,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S10,kimi-code/k3.1-pro,verified_absence,0.0,0.0,0.0,
+A3,S10,claude-fable-5-1,scored,40.0,30.0,10.0,total_native:ambiguous
+A3,S10,claude-haiku-5-5,scored,30.0,30.0,0.0,total_native:ambiguous
+A3,S10,claude-opus-5-5,scored,36.67,30.0,6.67,total_native:ambiguous
+A3,S10,claude-sonnet-5-5,scored,40.0,30.0,10.0,total_native:ambiguous
+A3,S10,gpt-6-astra,scored,40.0,30.0,10.0,total_native:ambiguous
+A3,S10,gpt-6-luna,scored,40.0,30.0,10.0,total_native:ambiguous
+A3,S10,gpt-6.1-sol,scored,40.0,30.0,10.0,total_native:ambiguous
+A3,S10,grok-4.7,scored,40.0,30.0,10.0,total_native:ambiguous
+A3,S10,kimi-code/k3.1-pro,scored,40.0,30.0,10.0,total_native:ambiguous
+A1,S11,claude-fable-5-1,scored,30.33,30.0,0.33,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,claude-haiku-5-5,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous
+A1,S11,claude-opus-5-5,scored,30.33,30.0,0.33,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,claude-sonnet-5-5,scored,32.33,30.0,2.33,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,gpt-6-astra,scored,30.67,30.0,0.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,gpt-6-luna,scored,36.67,30.0,6.67,
+A1,S11,gpt-6.1-sol,scored,30.0,30.0,0.0,demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A1,S11,grok-4.7,scored,30.0,30.0,0.0,
+A1,S11,kimi-code/k3.1-pro,scored,31.67,30.0,1.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,claude-fable-5-1,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,claude-haiku-5-5,scored,38.33,30.0,8.33,total_native:manual demanda_empresas_native:manual padroes_habitacao_native:manual demanda_habitacao_native:manual padroes_consumo_native:manual demanda_consumo_native:manual
+A2,S11,claude-opus-5-5,scored,31.0,30.0,1.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,claude-sonnet-5-5,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,gpt-6-astra,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,gpt-6-luna,scored,36.33,30.0,6.33,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,gpt-6.1-sol,scored,33.67,30.0,3.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A2,S11,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S11,kimi-code/k3.1-pro,verified_absence,0.0,0.0,0.0,
+A3,S11,claude-fable-5-1,scored,31.67,30.0,1.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous
+A3,S11,claude-haiku-5-5,scored,12.67,12.0,0.67,total_native:none demanda_empresas_native:none padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A3,S11,claude-opus-5-5,scored,40.0,30.0,10.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A3,S11,claude-sonnet-5-5,scored,30.0,30.0,0.0,total_native:manual demanda_empresas_native:manual padroes_habitacao_native:manual demanda_habitacao_native:manual padroes_consumo_native:manual demanda_consumo_native:manual
+A3,S11,gpt-6-astra,scored,31.0,30.0,1.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A3,S11,gpt-6-luna,scored,31.67,30.0,1.67,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous
+A3,S11,gpt-6.1-sol,scored,30.0,30.0,0.0,total_native:ambiguous demanda_empresas_native:ambiguous padroes_habitacao_native:ambiguous demanda_habitacao_native:ambiguous padroes_consumo_native:ambiguous demanda_consumo_native:ambiguous
+A3,S11,grok-4.7,scored,30.0,30.0,0.0,total_native:manual demanda_empresas_native:manual padroes_habitacao_native:manual demanda_habitacao_native:manual padroes_consumo_native:manual demanda_consumo_native:manual
+A3,S11,kimi-code/k3.1-pro,verified_absence,0.0,0.0,0.0,

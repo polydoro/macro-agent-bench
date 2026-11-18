@@ -1,0 +1,26 @@
+{
+  "answers": {
+    "N_domestico_yoy": {
+      "at": "2026-11-17T18:30:18.188Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_externo_yoy": {
+      "at": "2026-11-17T18:30:19.878Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_3m": {
+      "at": "2026-11-17T18:30:17.494Z",
+      "choice": "PROBLEMA",
+      "value": null
+    },
+    "N_total_yoy": {
+      "at": "2026-11-17T18:30:14.309Z",
+      "choice": "PROBLEMA",
+      "value": null
+    }
+  },
+  "done": true,
+  "doneAt": "2026-11-17T18:31:30.894Z"
+}

@@ -1,0 +1,1410 @@
+[
+ {
+  "phase": "A1",
+  "task": "C05",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "one-c05-claude-fable-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C05",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "one-c05-claude-haiku-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C05",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "one-c05-claude-opus-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C05",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "one-c05-claude-sonnet-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C05",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "one-c05-codex-astra-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C05",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "one-c05-codex-luna-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C05",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "one-c05-codex-sol-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C05",
+  "model": "grok-4.7",
+  "final_attempt_id": "one-c05-grok-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C05",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "one-c05-kimi-pro-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C05",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a2-c05-claude-fable-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C05",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a2-c05-claude-haiku-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C05",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a2-c05-claude-opus-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C05",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a2-c05-claude-sonnet-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C05",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a2-c05-codex-astra-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C05",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a2-c05-codex-luna-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C05",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a2-c05-codex-sol-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C05",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a2-c05-kimi-pro-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C05",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a3-c05-claude-haiku-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C05",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a3-c05-claude-opus-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C05",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a3-c05-codex-luna-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C05",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a3-c05-codex-sol-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C05",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a3-c05-codex-astra-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C05",
+  "model": "grok-4.7",
+  "final_attempt_id": "a3-c05-grok-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C05",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a3-c05-kimi-pro-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C05",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a3-c05-claude-sonnet-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C05",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a3-c05-claude-fable-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C05",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-6b5b70dc2477f5438533b308",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C05",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-7c66f4ff1818e1f0428d3cb7",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C05",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-cfb2e05659cf638e4a6664af",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C05",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-b697cc974427c5ac46632a6d",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C05",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-e745d681ad7a32da44f41105",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C05",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-509b98525b3c9be4a3b3a0ff",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C05",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-6bb2c59497b4e8ed051148c0",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C05",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-eee9d15ebd9a51fd39f3bb84",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C05",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-39b30b7ad00260e2ceac3891",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C05",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-de5f4eea16977c487d77ae80",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C05",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-aee4bbd5548109778f84b691",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C05",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-46fd01f397b60131baccb867",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C05",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-275486da4d1108024916c2dd",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C05",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-bf854d39de4d32a2cc65347e",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C05",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-eb05314b12841bb22789dbb7",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C05",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-f4c678070ef0186dc7cd8012",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C05",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-9597616d68e8785495227dae",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C05",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-7078cedefb8db66478ab1078",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_efeito": "EFEITO_PEQUENO_OU_LIMITADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_efeito": [
+    "EFEITO_PEQUENO_OU_LIMITADO"
+   ]
+  }
+ }
+]

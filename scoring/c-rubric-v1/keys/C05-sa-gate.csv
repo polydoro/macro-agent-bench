@@ -1,0 +1,45 @@
+attempt,phase,model,period,kind,file,column,n,F_p,official_rmse_mom,threshold_rmse,verdict,sa_pass,own_3msaar_at_period,own_3msaar_seed_period
+one-c05-claude-fable-primary,A1,claude-fable-5-1,2026-09,sa,entrega/dados/painel_hicp_transformado.csv,XEF000 :: indice_sa_bce,200,0.6808,0.0,,official ECB SA,True,2.81,
+one-c05-claude-haiku-primary,A1,claude-haiku-5-5,2026-09,saar,entrega/tabela_inflacao_ea_serie.csv,Núcleo :: 3msaar_SA,298,0.9295,,,pass,True,,
+one-c05-claude-opus-primary,A1,claude-opus-5-5,2026-09,saar,dados/series_calculadas.csv,TOT_X_NRG_FOOD :: 3msaar,318,0.7299,,,pass,True,3.05,
+one-c05-claude-sonnet-low-normal-primary,A1,claude-sonnet-5-5,2026-09,,,,,,,,no saved series,False,,
+one-c05-codex-astra-primary,A1,gpt-6-astra,2026-09,sa,dados/series_calculadas.csv,nucleo :: indice_sa_proprio,200,0.93,0.092,,pass,True,3.03,
+one-c05-codex-luna-primary,A1,gpt-6-luna,2026-09,sa,dados/hicp_zona_euro.csv,TOT_X_NRG_FOOD | Núcleo ex energia e alimentos :: indice_sa_proprio,300,0.0,0.241,,residual seasonality,False,,
+one-c05-codex-sol-low-normal-primary,A1,gpt-6.1-sol,2026-09,sa,dados/indicadores.csv,Núcleo | TOT_X_NRG_FOOD :: SA,140,0.9001,0.0,,official ECB SA,True,2.81,
+one-c05-grok-low-normal-primary,A1,grok-4.7,2026-09,sa,dados/painel_mensal.csv,nucleo_sa :: nucleo_sa,296,0.5647,0.0,,official ECB SA,True,2.81,
+one-c05-kimi-pro-low-normal-primary,A1,kimi-code/k3.1-pro,2026-09,saar,dados/processado/hicp_indicadores.csv,TOT_X_NRG_FOOD_3msaar :: TOT_X_NRG_FOOD_3msaar,298,0.9055,,,pass,True,,
+a2-c05-claude-fable-high-normal-primary,A2,claude-fable-5-1,2026-10,saar,entrega/dados/proc/taxas_sa_bce.csv,TOT_X_NRG_FOOD :: mom_saar,357,0.6386,,,pass,True,2.71,
+a2-c05-claude-haiku-high-normal-primary,A2,claude-haiku-5-5,2026-09,saar,entrega/tabelas/01_ultimos_valores_dez2025.csv,"Núcleo (excl. energia, alimentos, álcool e tabaco) :: 3msaar SA próprio (%)",1,,,,too short,False,,
+a2-c05-claude-opus-high-normal-primary,A2,claude-opus-5-5,2026-09,sa,entrega/dados/painel_ihpc.csv,SA_indice_BCE|XEF000 :: SA_indice_BCE|XEF000,332,0.5364,0.0,,official ECB SA,True,2.81,
+a2-c05-claude-sonnet-high-normal-primary,A2,claude-sonnet-5-5,2026-09,sa,entrega/tabelas/dados_hicp_mensal_completo.csv,"Núcleo (ex. energia, alimentos, álcool e tabaco) | TOT_X_NRG_FOOD :: indice_sa_bce",347,0.6999,0.046,,pass,True,,
+a2-c05-codex-astra-high-normal-primary,A2,gpt-6-astra,2026-09,sa,dados/indicadores.csv,XEF000 | Núcleo :: indice_sa_2025_100,356,0.6551,0.0,,official ECB SA,True,2.81,
+a2-c05-codex-luna-high-normal-primary,A2,gpt-6-luna,2026-09,sa,dados/hicp_indices_sa_ecb_EA21.csv,"Núcleo ECB SA (exclui energia, alimentos, álcool e tabaco) :: Núcleo ECB SA (exclui energia, alimentos, álcool e tabaco)",92,0.8765,0.0,,official ECB SA,True,2.81,
+a2-c05-codex-sol-high-normal-primary,A2,gpt-6.1-sol,2026-09,sa,dados/tratados/indicadores_mensais.csv,Núcleo :: indice_sa_2025_100,320,0.4761,0.0,,official ECB SA,True,2.81,
+a2-c05-kimi-pro-high-normal-primary,A2,kimi-code/k3.1-pro,2026-09,sa,entrega/dados/series_mensais_hicp.csv,core_index_sa :: core_index_sa,356,0.6551,0.0,,official ECB SA,True,2.81,
+a3-c05-claude-haiku-primary,A3,claude-haiku-5-5,2026-10,,,,,,,,no saved series,False,,
+a3-c05-claude-opus-primary,A3,claude-opus-5-5,2026-10,sa,entrega/dados_e_calculos.csv,idx_SA_XEF000 :: idx_SA_XEF000,321,0.4727,0.0,,official ECB SA,True,2.68,
+a3-c05-codex-luna-primary,A3,gpt-6-luna,2026-10,saar,entrega/dados_hicp_mensais.csv,TOT_X_NRG_FOOD_3msaar_pct :: TOT_X_NRG_FOOD_3msaar_pct,320,0.8842,,,pass,True,2.48,
+a3-c05-codex-sol-low-normal-primary,A3,gpt-6.1-sol,2026-10,sa,dados/dados_calculos.csv,TOT_X_NRG_FOOD | Núcleo :: indice_sa_proprio,321,0.6639,0.096,,pass,True,2.86,
+a3-c05-codex-astra-primary,A3,gpt-6-astra,2026-10,sa,entrega/dados_e_calculos.csv,XEF000 | Núcleo :: indice_sa,321,0.4727,0.0,,official ECB SA,True,2.68,
+a3-c05-grok-low-normal-primary,A3,grok-4.7,2026-10,sa,entrega/tabelas/painel_mensal.csv,sa_XEF000 :: sa_XEF000,297,0.5798,0.0,,official ECB SA,True,2.68,
+a3-c05-kimi-pro-low-normal-primary,A3,kimi-code/k3.1-pro,2026-10,sa,entrega/dados_e_calculos.csv,TOT_X_NRG_FOOD_indice_sa :: TOT_X_NRG_FOOD_indice_sa,369,1.0,0.217,,pass,True,-0.15,
+a3-c05-claude-sonnet-low-normal-primary,A3,claude-sonnet-5-5,2026-10,sa,entrega/dados_e_calculos.csv,Núcleo (ex energia e alimentos) :: indice_SA,131,0.9664,0.051,,pass,True,,
+a3-c05-claude-fable-primary,A3,claude-fable-5-1,2026-10,sa,entrega/dados_e_calculos.csv,XEF000_SA_idx :: XEF000_SA_idx,357,0.6594,0.0,,official ECB SA,True,2.68,
+a4-result-6b5b70dc2477f5438533b308,A4_external_review,claude-fable-5-1,2026-10,sa,entrega/dados/painel_hicp_transformado.csv,XEF000 :: indice_sa_bce,200,0.6808,0.013,,official ECB SA,True,,2.81
+a4-result-7c66f4ff1818e1f0428d3cb7,A4_self_review,claude-fable-5-1,2026-10,sa,entrega/dados/painel_hicp_transformado.csv,XEF000 :: indice_sa_bce,201,0.6868,0.0,,official ECB SA,True,2.68,2.85
+a4-result-cfb2e05659cf638e4a6664af,A4_external_review,claude-haiku-5-5,2026-10,saar,entrega/tabela_inflacao_ea_serie.csv,Núcleo :: 3msaar_SA,319,0.894,,,pass,True,,2.34
+a4-result-b697cc974427c5ac46632a6d,A4_self_review,claude-haiku-5-5,2026-10,saar,entrega/tab_serie_mensal_api_ate_dez2025.csv,Núcleo :: 3msaar_SA_proprio,298,0.9295,,,pass,True,,
+a4-result-e745d681ad7a32da44f41105,A4_external_review,claude-opus-5-5,2026-10,saar,dados/series_calculadas.csv,TOT_X_NRG_FOOD :: 3msaar,318,0.7299,,,pass,True,,3.05
+a4-result-509b98525b3c9be4a3b3a0ff,A4_self_review,claude-opus-5-5,2026-10,saar,dados/v2/series_calculadas.csv,TOT_X_NRG_FOOD :: 3msaar,319,0.7204,,,pass,True,2.89,3.07
+a4-result-6bb2c59497b4e8ed051148c0,A4_external_review,claude-sonnet-5-5,2026-10,,,,,,,,no saved series,False,,
+a4-result-eee9d15ebd9a51fd39f3bb84,A4_self_review,claude-sonnet-5-5,2026-10,,,,,,,,no saved series,False,,
+a4-result-39b30b7ad00260e2ceac3891,A4_external_review,gpt-6-astra,2026-10,sa,dados/series_calculadas.csv,nucleo :: indice_sa_proprio,200,0.93,0.095,,pass,True,,3.03
+a4-result-de5f4eea16977c487d77ae80,A4_self_review,gpt-6-astra,2026-10,sa,dados/series_calculadas.csv,nucleo :: indice_sa_proprio,200,0.93,0.095,,pass,True,,3.03
+a4-result-aee4bbd5548109778f84b691,A4_external_review,gpt-6-luna,2026-10,sa,dados/hicp_eurozona_corrigido.csv,TOT_X_NRG_FOOD | Núcleo amplo (ex energia e alimentos) :: indice_sa_proprio,312,0.0,0.244,,residual seasonality,False,,
+a4-result-46fd01f397b60131baccb867,A4_self_review,gpt-6-luna,2026-10,sa,dados/hicp_zona_euro.csv,TOT_X_NRG_FOOD | Excl. energia e alimentos :: indice_sa_proprio,300,0.0,0.242,,residual seasonality,False,,
+a4-result-275486da4d1108024916c2dd,A4_external_review,gpt-6.1-sol,2026-10,sa,dados/indicadores.csv,Núcleo | TOT_X_NRG_FOOD :: SA,140,0.9001,0.013,,official ECB SA,True,,2.81
+a4-result-bf854d39de4d32a2cc65347e,A4_self_review,gpt-6.1-sol,2026-10,sa,dados/indicadores.csv,Núcleo | TOT_X_NRG_FOOD :: SA,140,0.9001,0.013,,official ECB SA,True,,2.81
+a4-result-eb05314b12841bb22789dbb7,A4_external_review,grok-4.7,2026-10,sa,dados/painel_mensal.csv,nucleo_sa :: nucleo_sa,296,0.5647,0.013,,official ECB SA,True,,2.81
+a4-result-f4c678070ef0186dc7cd8012,A4_self_review,grok-4.7,2026-10,sa,dados/painel_mensal.csv,nucleo_sa :: nucleo_sa,296,0.5647,0.013,,official ECB SA,True,,2.81
+a4-result-9597616d68e8785495227dae,A4_external_review,kimi-code/k3.1-pro,2026-10,saar,dados/processado/sucessora_corte_2026_09/hicp_indicadores.csv,TOT_X_NRG_FOOD_3msaar :: TOT_X_NRG_FOOD_3msaar,319,0.8883,,,pass,True,,2.31
+a4-result-7078cedefb8db66478ab1078,A4_self_review,kimi-code/k3.1-pro,2026-10,saar,dados/processado/hicp_indicadores.csv,TOT_X_NRG_FOOD_3msaar :: TOT_X_NRG_FOOD_3msaar,298,0.9055,,,pass,True,,

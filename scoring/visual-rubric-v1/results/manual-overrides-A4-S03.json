@@ -1,0 +1,37 @@
+[
+ {
+  "phase": "A4e",
+  "model": "claude-opus-5-5",
+  "question": "N_alimentacion_yoy",
+  "correct": true,
+  "note": "entrega/tabela_ultimo_mes.csv, 2026-08, 'Alimentos, bebidas e tabaco' YoY CA % = -1.0 (admitted -1.00 +/- 0.15). Portuguese label not matched automatically; A1 path was ambiguous-correct."
+ },
+ {
+  "phase": "A4e",
+  "model": "claude-opus-5-5",
+  "question": "N_resto_yoy",
+  "correct": true,
+  "note": "entrega/tabela_ultimo_mes.csv, 2026-08, 'Não alimentícios (ex-combustíveis)' YoY CA % = 2.6 (admitted CA 2.70 / SA 2.60 +/- 0.15)."
+ },
+ {
+  "phase": "A4e",
+  "model": "kimi-code/k3.1-pro",
+  "question": "N_total_3m",
+  "correct": true,
+  "note": "dados/eurostat_ES_G47_volume_sa_calculado.csv, 2026-08, 3msaar_pct = -1.65 (admitted -1.65 +/- 0.3). Same file and reading as the A1 override."
+ },
+ {
+  "phase": "A4s",
+  "model": "kimi-code/k3.1-pro",
+  "question": "N_total_3m",
+  "correct": true,
+  "note": "dados/eurostat_ES_G47_volume_sa_calculado.csv, 2026-08, 3msaar_pct = -1.65 (admitted -1.65 +/- 0.3)."
+ },
+ {
+  "phase": "A4s",
+  "model": "kimi-code/k3.1-pro",
+  "question": "N_resto_yoy",
+  "correct": true,
+  "note": "dados/ine_agosto2026_aberturas.csv, 2026-08 (file name), 'Demais produtos' yoy_pct = 2.6 (admitted SA 2.60 +/- 0.15). The modes of distribution are absent in this revision and stay not correct."
+ }
+]

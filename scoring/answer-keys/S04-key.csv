@@ -1,0 +1,25 @@
+arm,role,period,value,series
+A1,total,2026-10,80.32,Indicateur synthétique de confiance des ménages
+A1,situacao_financeira_passada,2026-10,-31.98,Situation financière personnelle - évolution passée
+A1,situacao_financeira_futura,2026-10,-24.23,Situation financière personnelle - perspectives d'évolution
+A1,nivel_vida_futuro,2026-10,-66.72,Niveau de vie en France - perspectives d'évolution
+A1,compras_importantes,2026-10,-40.93,Opportunité de faire des achats importants
+A1,capacidade_poupanca,2026-10,16.62 | 11.88,Capacité d'épargne actuelle | Capacité d'épargne future
+A1,desemprego_esperado,2026-10,60.62,Chômage - perspectives d'évolution
+A1,precos,2026-10,42.32 | -7.15,Prix - évolution passée | Prix - perspectives d'évolution
+A2,total,2026-10,80.32,Indicateur synthétique de confiance des ménages
+A2,situacao_financeira_passada,2026-10,-31.98,Situation financière personnelle - évolution passée
+A2,situacao_financeira_futura,2026-10,-24.23,Situation financière personnelle - perspectives d'évolution
+A2,nivel_vida_futuro,2026-10,-66.72,Niveau de vie en France - perspectives d'évolution
+A2,compras_importantes,2026-10,-40.93,Opportunité de faire des achats importants
+A2,capacidade_poupanca,2026-10,16.62 | 11.88,Capacité d'épargne actuelle | Capacité d'épargne future
+A2,desemprego_esperado,2026-10,60.62,Chômage - perspectives d'évolution
+A2,precos,2026-10,42.32 | -7.15,Prix - évolution passée | Prix - perspectives d'évolution
+A3,total,2026-10,80.32,Indicateur synthétique de confiance des ménages
+A3,situacao_financeira_passada,2026-10,-31.98,Situation financière personnelle - évolution passée
+A3,situacao_financeira_futura,2026-10,-24.23,Situation financière personnelle - perspectives d'évolution
+A3,nivel_vida_futuro,2026-10,-66.72,Niveau de vie en France - perspectives d'évolution
+A3,compras_importantes,2026-10,-40.93,Opportunité de faire des achats importants
+A3,capacidade_poupanca,2026-10,16.62 | 11.88,Capacité d'épargne actuelle | Capacité d'épargne future
+A3,desemprego_esperado,2026-10,60.62,Chômage - perspectives d'évolution
+A3,precos,2026-10,42.32 | -7.15,Prix - évolution passée | Prix - perspectives d'évolution

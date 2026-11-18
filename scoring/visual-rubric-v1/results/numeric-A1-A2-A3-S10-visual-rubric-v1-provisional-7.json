@@ -1,0 +1,2902 @@
+{
+ "rubric_version": "visual-rubric-v1-provisional-7",
+ "model_requested": "jev-1.14.0",
+ "shift_tolerances": 0,
+ "status": "provisional, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-fable-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-haiku-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-haiku-primary/work/entrega/01_taxa_desemprego_nivel.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-haiku-primary/work/entrega/02_taxa_variacao_aa_e_3m.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-haiku-primary/work/entrega/03_desempregados_nivel_e_variacao.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 22.8,
+   "N_sd": 0.3999999999999986,
+   "N_upper_mean": 24.533333333333335,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "55f6c2436e3546fe00df1c211a8affa756814102431c3a0464a434dc389b849a",
+     "usage": {
+      "input_tokens": 11087,
+      "output_tokens": 142
+     },
+     "N": 23.2,
+     "N_upper": 24.8,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 23.2,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "55f6c2436e3546fe00df1c211a8affa756814102431c3a0464a434dc389b849a",
+     "usage": {
+      "input_tokens": 11087,
+      "output_tokens": 142
+     },
+     "N": 22.800000000000004,
+     "N_upper": 24.800000000000004,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 22.800000000000004,
+       "undetermined": 2.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "55f6c2436e3546fe00df1c211a8affa756814102431c3a0464a434dc389b849a",
+     "usage": {
+      "input_tokens": 11087,
+      "output_tokens": 142
+     },
+     "N": 22.400000000000002,
+     "N_upper": 24.000000000000004,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 22.400000000000002,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-opus-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-opus-primary/work/entrega/g1_desemprego_total.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-opus-primary/work/entrega/g2_aberturas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-opus-primary/work/entrega/g3_taxas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-opus-primary/work/entrega/g4_ocupacao_participacao.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 13.866666666666667,
+   "N_sd": 0.8326663997864534,
+   "N_upper_mean": 15.6,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a6baf188e4577468ec8b180b88fe8f20ed2319169b243d1e536226ee232812c6",
+     "usage": {
+      "input_tokens": 11365,
+      "output_tokens": 142
+     },
+     "N": 13.200000000000001,
+     "N_upper": 15.200000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 13.200000000000001,
+       "undetermined": 2.0
+      }
+     },
+     "choices": {
+      "N_total_native": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a6baf188e4577468ec8b180b88fe8f20ed2319169b243d1e536226ee232812c6",
+     "usage": {
+      "input_tokens": 11365,
+      "output_tokens": 142
+     },
+     "N": 13.599999999999998,
+     "N_upper": 15.199999999999998,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 13.599999999999998,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a6baf188e4577468ec8b180b88fe8f20ed2319169b243d1e536226ee232812c6",
+     "usage": {
+      "input_tokens": 11365,
+      "output_tokens": 142
+     },
+     "N": 14.8,
+     "N_upper": 16.400000000000002,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 14.8,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-sonnet-low-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-sonnet-low-normal-primary/work/entrega/g1_desemprego.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-sonnet-low-normal-primary/work/entrega/g2_ocupacao_forca.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-sonnet-low-normal-primary/work/entrega/g3_sexo_idade.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 15.066666666666668,
+   "N_sd": 0.61101009266078,
+   "N_upper_mean": 17.333333333333332,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "39e9b0fa18fa8801a4db3a5af9acaf16d84f7485f924f3c19cb0e69806fc1581",
+     "usage": {
+      "input_tokens": 12043,
+      "output_tokens": 142
+     },
+     "N": 15.600000000000001,
+     "N_upper": 17.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 15.600000000000001,
+       "undetermined": 2.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "39e9b0fa18fa8801a4db3a5af9acaf16d84f7485f924f3c19cb0e69806fc1581",
+     "usage": {
+      "input_tokens": 12043,
+      "output_tokens": 142
+     },
+     "N": 15.2,
+     "N_upper": 17.599999999999998,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 15.2,
+       "undetermined": 2.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "39e9b0fa18fa8801a4db3a5af9acaf16d84f7485f924f3c19cb0e69806fc1581",
+     "usage": {
+      "input_tokens": 12043,
+      "output_tokens": 142
+     },
+     "N": 14.399999999999999,
+     "N_upper": 16.799999999999997,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 14.399999999999999,
+       "undetermined": 2.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-codex-astra-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/01_desemprego.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/02_aberturas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/03_niveis.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/04_variacoes_taxas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-astra-primary/work/entrega/05_emprego_crescimento.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 29.599999999999998,
+   "N_sd": 0.6928203230275526,
+   "N_upper_mean": 30.666666666666668,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "f9dc214b6582e7e8cba6a8d594534e3c2c1b37c280bbbe4c0a9a3222a0b88823",
+     "usage": {
+      "input_tokens": 14954,
+      "output_tokens": 142
+     },
+     "N": 30.0,
+     "N_upper": 31.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 30.0,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "f9dc214b6582e7e8cba6a8d594534e3c2c1b37c280bbbe4c0a9a3222a0b88823",
+     "usage": {
+      "input_tokens": 14954,
+      "output_tokens": 142
+     },
+     "N": 28.799999999999997,
+     "N_upper": 29.599999999999998,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 28.799999999999997,
+       "undetermined": 0.8
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "f9dc214b6582e7e8cba6a8d594534e3c2c1b37c280bbbe4c0a9a3222a0b88823",
+     "usage": {
+      "input_tokens": 14954,
+      "output_tokens": 142
+     },
+     "N": 30.0,
+     "N_upper": 31.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 30.0,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-codex-luna-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-luna-primary/work/entrega/desemprego_suecia_set_2026.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 38.93333333333333,
+   "N_sd": 0.2309401076758536,
+   "N_upper_mean": 38.93333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "0283d94330c200a6a713ce4a162d0b746db26b12102b570ab65016e5cc0fefeb",
+     "usage": {
+      "input_tokens": 4778,
+      "output_tokens": 142
+     },
+     "N": 38.8,
+     "N_upper": 38.8,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.8,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "0283d94330c200a6a713ce4a162d0b746db26b12102b570ab65016e5cc0fefeb",
+     "usage": {
+      "input_tokens": 4778,
+      "output_tokens": 142
+     },
+     "N": 39.2,
+     "N_upper": 39.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 39.2,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "0283d94330c200a6a713ce4a162d0b746db26b12102b570ab65016e5cc0fefeb",
+     "usage": {
+      "input_tokens": 4778,
+      "output_tokens": 142
+     },
+     "N": 38.8,
+     "N_upper": 38.8,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.8,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-codex-sol-low-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-sol-low-normal-primary/work/entrega/01_desemprego.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-sol-low-normal-primary/work/entrega/02_aberturas.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-codex-sol-low-normal-primary/work/entrega/03_variacoes.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 22.533333333333335,
+   "N_sd": 1.1547005383792506,
+   "N_upper_mean": 23.733333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "903a32ed37534154d20160bc56c3c8b35e9a8a9bdd65f85d8a906c846c5d8f1d",
+     "usage": {
+      "input_tokens": 9857,
+      "output_tokens": 142
+     },
+     "N": 23.2,
+     "N_upper": 24.0,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 23.2,
+       "undetermined": 0.8
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "903a32ed37534154d20160bc56c3c8b35e9a8a9bdd65f85d8a906c846c5d8f1d",
+     "usage": {
+      "input_tokens": 9857,
+      "output_tokens": 142
+     },
+     "N": 23.200000000000003,
+     "N_upper": 24.800000000000004,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 23.200000000000003,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "903a32ed37534154d20160bc56c3c8b35e9a8a9bdd65f85d8a906c846c5d8f1d",
+     "usage": {
+      "input_tokens": 9857,
+      "output_tokens": 142
+     },
+     "N": 21.200000000000003,
+     "N_upper": 22.400000000000002,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 21.200000000000003,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-grok-low-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-kimi-pro-low-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-claude-fable-high-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-claude-haiku-high-normal-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/01_taxa_nivel_sa.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/02_variacao_yoy_e_3m_pp.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/03_desempregados_sa_mil.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/04_recortes_sexo_idade_sa.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/05_referencia_scb_eurostat.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-haiku-high-normal-timeout-retry1/work/entrega/figuras/06_contexto_participacao_emprego_sa.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 38.0,
+   "N_sd": 0.6928203230275485,
+   "N_upper_mean": 38.13333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "255d3324eaef9afcdc9301ef3020e44e09961861e1bc8f27fa136f78915ffe8e",
+     "usage": {
+      "input_tokens": 10560,
+      "output_tokens": 142
+     },
+     "N": 38.4,
+     "N_upper": 38.4,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.4,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "255d3324eaef9afcdc9301ef3020e44e09961861e1bc8f27fa136f78915ffe8e",
+     "usage": {
+      "input_tokens": 10560,
+      "output_tokens": 142
+     },
+     "N": 37.2,
+     "N_upper": 37.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 37.2,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "255d3324eaef9afcdc9301ef3020e44e09961861e1bc8f27fa136f78915ffe8e",
+     "usage": {
+      "input_tokens": 10560,
+      "output_tokens": 142
+     },
+     "N": 38.4,
+     "N_upper": 38.4,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.4,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-claude-opus-high-normal-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g01_taxa_desemprego_nivel.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g02_taxa_desemprego_aberturas.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g03_taxa_desemprego_variacoes_pp.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g04_niveis_ocupados_desempregados_FT.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g05_ocupados_FT_yoy_3msaar.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g06_taxa_emprego_participacao.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g07_desemprego_longa_duracao.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g08_arbetsformedlingen_registrados.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-opus-high-normal-timeout-retry1/work/entrega/graficos/g09_comparacao_internacional.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 38.266666666666666,
+   "N_sd": 0.2309401076758495,
+   "N_upper_mean": 38.266666666666666,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "2db2120e01b6f29f96f015c8ae711c49a80fdad3cc42acc653b36e0cbf24110d",
+     "usage": {
+      "input_tokens": 18032,
+      "output_tokens": 142
+     },
+     "N": 38.0,
+     "N_upper": 38.0,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "2db2120e01b6f29f96f015c8ae711c49a80fdad3cc42acc653b36e0cbf24110d",
+     "usage": {
+      "input_tokens": 18032,
+      "output_tokens": 142
+     },
+     "N": 38.4,
+     "N_upper": 38.4,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.4,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "2db2120e01b6f29f96f015c8ae711c49a80fdad3cc42acc653b36e0cbf24110d",
+     "usage": {
+      "input_tokens": 18032,
+      "output_tokens": 142
+     },
+     "N": 38.4,
+     "N_upper": 38.4,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.4,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-claude-sonnet-high-normal-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/01_nivel_total_SA.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/02_aberturas_taxa_desemprego_SA.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/03_taxas_total.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/04_aberturas_variacao_taxa.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-claude-sonnet-high-normal-timeout-retry1/work/entrega/graficos/05_nsa_sa_tendencia.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 21.333333333333332,
+   "N_sd": 0.2309401076758495,
+   "N_upper_mean": 22.8,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "1b20a8f44b2823fa2f5d55c54dd172c347a166878df30439104eae010f22ccf4",
+     "usage": {
+      "input_tokens": 17076,
+      "output_tokens": 142
+     },
+     "N": 21.6,
+     "N_upper": 23.200000000000003,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 21.6,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "1b20a8f44b2823fa2f5d55c54dd172c347a166878df30439104eae010f22ccf4",
+     "usage": {
+      "input_tokens": 17076,
+      "output_tokens": 142
+     },
+     "N": 21.200000000000003,
+     "N_upper": 22.800000000000004,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 21.200000000000003,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "1b20a8f44b2823fa2f5d55c54dd172c347a166878df30439104eae010f22ccf4",
+     "usage": {
+      "input_tokens": 17076,
+      "output_tokens": 142
+     },
+     "N": 21.200000000000003,
+     "N_upper": 22.400000000000002,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 21.200000000000003,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-codex-astra-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/01_desemprego.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/02_atividade_niveis.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/03_aberturas.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/04_variacoes_pp.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-astra-high-normal-primary/work/entrega/graficos/05_atividade_taxas.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 37.6,
+   "N_sd": 0.3999999999999986,
+   "N_upper_mean": 38.0,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "ab963fd682f4bca10811434541d92be84d14dc0b78b9916b4c451f1054089732",
+     "usage": {
+      "input_tokens": 13816,
+      "output_tokens": 142
+     },
+     "N": 37.2,
+     "N_upper": 37.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 37.2,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "ab963fd682f4bca10811434541d92be84d14dc0b78b9916b4c451f1054089732",
+     "usage": {
+      "input_tokens": 13816,
+      "output_tokens": 142
+     },
+     "N": 38.0,
+     "N_upper": 38.4,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.0,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "ab963fd682f4bca10811434541d92be84d14dc0b78b9916b4c451f1054089732",
+     "usage": {
+      "input_tokens": 13816,
+      "output_tokens": 142
+     },
+     "N": 37.599999999999994,
+     "N_upper": 37.99999999999999,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 37.599999999999994,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-codex-luna-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-luna-high-normal-primary/work/entrega/desemprego_suecia_sexo.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-luna-high-normal-primary/work/entrega/desemprego_suecia_taxa.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 39.2,
+   "N_sd": 0.0,
+   "N_upper_mean": 39.2,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "f614ae505b445cb33477f3c58b0a54912dab590a1e11b4020835bb937696de0e",
+     "usage": {
+      "input_tokens": 7937,
+      "output_tokens": 142
+     },
+     "N": 39.2,
+     "N_upper": 39.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 39.2,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "f614ae505b445cb33477f3c58b0a54912dab590a1e11b4020835bb937696de0e",
+     "usage": {
+      "input_tokens": 7937,
+      "output_tokens": 142
+     },
+     "N": 39.2,
+     "N_upper": 39.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 39.2,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "f614ae505b445cb33477f3c58b0a54912dab590a1e11b4020835bb937696de0e",
+     "usage": {
+      "input_tokens": 7937,
+      "output_tokens": 142
+     },
+     "N": 39.2,
+     "N_upper": 39.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 39.2,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-codex-sol-high-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/01_desemprego_total.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/02_niveis_emprego.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/03_aberturas.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/04_crescimento_emprego.png",
+    "execucoes/pilot-a2-s10-high-normal-20261030-v1/attempts/a2-s10-codex-sol-high-normal-primary/work/entrega/graficos/05_variacoes_pp.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 39.46666666666667,
+   "N_sd": 0.2309401076758495,
+   "N_upper_mean": 39.46666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "2703c7e0585041903cc89d8ee9556d50bf7d265dadb7398c4da83719a5740286",
+     "usage": {
+      "input_tokens": 15381,
+      "output_tokens": 142
+     },
+     "N": 39.6,
+     "N_upper": 39.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 39.6,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "2703c7e0585041903cc89d8ee9556d50bf7d265dadb7398c4da83719a5740286",
+     "usage": {
+      "input_tokens": 15381,
+      "output_tokens": 142
+     },
+     "N": 39.2,
+     "N_upper": 39.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 39.2,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "2703c7e0585041903cc89d8ee9556d50bf7d265dadb7398c4da83719a5740286",
+     "usage": {
+      "input_tokens": 15381,
+      "output_tokens": 142
+     },
+     "N": 39.6,
+     "N_upper": 39.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 39.6,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-grok-high-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  },
+  {
+   "phase": "A2",
+   "task": "S10",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-a2-s10-high-normal-20261030-v1",
+   "final_attempt_id": "a2-s10-kimi-pro-high-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-codex-sol-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-sol-low-normal-primary/work/entrega/01_niveis.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-sol-low-normal-primary/work/entrega/02_desemprego.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-sol-low-normal-primary/work/entrega/03_variacoes.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-sol-low-normal-primary/work/entrega/04_trimestre.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 31.46666666666667,
+   "N_sd": 0.461880215351699,
+   "N_upper_mean": 32.53333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "2077f2236bf21e9256511fbd2f9c415a74e9d76f0ac701538b3a2fbdf61bd73d",
+     "usage": {
+      "input_tokens": 14690,
+      "output_tokens": 142
+     },
+     "N": 31.200000000000003,
+     "N_upper": 32.400000000000006,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 31.200000000000003,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "2077f2236bf21e9256511fbd2f9c415a74e9d76f0ac701538b3a2fbdf61bd73d",
+     "usage": {
+      "input_tokens": 14690,
+      "output_tokens": 142
+     },
+     "N": 31.200000000000003,
+     "N_upper": 32.400000000000006,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 31.200000000000003,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "2077f2236bf21e9256511fbd2f9c415a74e9d76f0ac701538b3a2fbdf61bd73d",
+     "usage": {
+      "input_tokens": 14690,
+      "output_tokens": 142
+     },
+     "N": 32.0,
+     "N_upper": 32.8,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 32.0,
+       "undetermined": 0.8
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-claude-haiku-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-haiku-primary/work/entrega/fig1_desempregados_nivel_SA.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-haiku-primary/work/entrega/fig2_taxa_e_variacoes.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-haiku-primary/work/entrega/fig3_aberturas_taxa_SA.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 9.600000000000001,
+   "N_sd": 1.2000000000000002,
+   "N_upper_mean": 10.933333333333332,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "9c801894e586d5eb19219ba66028db93c66205d029710f30b38d78988795397c",
+     "usage": {
+      "input_tokens": 7909,
+      "output_tokens": 142
+     },
+     "N": 9.600000000000001,
+     "N_upper": 10.8,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 9.600000000000001,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "9c801894e586d5eb19219ba66028db93c66205d029710f30b38d78988795397c",
+     "usage": {
+      "input_tokens": 7909,
+      "output_tokens": 142
+     },
+     "N": 10.8,
+     "N_upper": 12.4,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 10.8,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "9c801894e586d5eb19219ba66028db93c66205d029710f30b38d78988795397c",
+     "usage": {
+      "input_tokens": 7909,
+      "output_tokens": 142
+     },
+     "N": 8.4,
+     "N_upper": 9.6,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 8.4,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-claude-sonnet-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g1_taxa_desemprego.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g2_variacao_pp.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g3_ocupados_nivel.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g4_ocupados_forca_taxas.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-sonnet-low-normal-primary/work/entrega/g5_aberturas.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 28.8,
+   "N_sd": 1.385640646055101,
+   "N_upper_mean": 29.866666666666664,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "dae1d7f44a6d3852e8df7e6dfd28757b76edeba23e272adbc56b6ffeacf3e58f",
+     "usage": {
+      "input_tokens": 11363,
+      "output_tokens": 142
+     },
+     "N": 28.0,
+     "N_upper": 29.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 28.0,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "dae1d7f44a6d3852e8df7e6dfd28757b76edeba23e272adbc56b6ffeacf3e58f",
+     "usage": {
+      "input_tokens": 11363,
+      "output_tokens": 142
+     },
+     "N": 30.4,
+     "N_upper": 31.599999999999998,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 30.4,
+       "undetermined": 1.2
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "dae1d7f44a6d3852e8df7e6dfd28757b76edeba23e272adbc56b6ffeacf3e58f",
+     "usage": {
+      "input_tokens": 11363,
+      "output_tokens": 142
+     },
+     "N": 28.0,
+     "N_upper": 28.8,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 28.0,
+       "undetermined": 0.8
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-kimi-pro-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-kimi-pro-low-normal-primary/work/entrega/figura.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 37.73333333333333,
+   "N_sd": 0.6110100926607773,
+   "N_upper_mean": 37.73333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "e338b24d1667a08668fb67678222b5824060a4e46bb6bc18e021846a2a9cfaed",
+     "usage": {
+      "input_tokens": 7581,
+      "output_tokens": 142
+     },
+     "N": 37.2,
+     "N_upper": 37.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 37.2,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "e338b24d1667a08668fb67678222b5824060a4e46bb6bc18e021846a2a9cfaed",
+     "usage": {
+      "input_tokens": 7581,
+      "output_tokens": 142
+     },
+     "N": 38.4,
+     "N_upper": 38.4,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.4,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "e338b24d1667a08668fb67678222b5824060a4e46bb6bc18e021846a2a9cfaed",
+     "usage": {
+      "input_tokens": 7581,
+      "output_tokens": 142
+     },
+     "N": 37.599999999999994,
+     "N_upper": 37.599999999999994,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 37.599999999999994,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-claude-fable-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig1_nivel_sa_desempregados_empregados.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig2_taxa_desemprego.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig3_aberturas_idade_sexo.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig4_taxas_emprego_participacao.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig5_emprego_desempregados_yoy_3msaar.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-fable-timeout-retry1/work/entrega/fig6_taxa_desemprego_variacoes_pp.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 34.0,
+   "N_sd": 0.6928203230275526,
+   "N_upper_mean": 34.4,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "fce33c174d271ab64158c503cd5033e9dc829e3b728963d67e0b0f6aaa12b513",
+     "usage": {
+      "input_tokens": 18504,
+      "output_tokens": 142
+     },
+     "N": 34.4,
+     "N_upper": 34.8,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 34.4,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "fce33c174d271ab64158c503cd5033e9dc829e3b728963d67e0b0f6aaa12b513",
+     "usage": {
+      "input_tokens": 18504,
+      "output_tokens": 142
+     },
+     "N": 34.4,
+     "N_upper": 34.8,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 34.4,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "fce33c174d271ab64158c503cd5033e9dc829e3b728963d67e0b0f6aaa12b513",
+     "usage": {
+      "input_tokens": 18504,
+      "output_tokens": 142
+     },
+     "N": 33.199999999999996,
+     "N_upper": 33.599999999999994,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 33.199999999999996,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-grok-low-normal-timeout-retry1",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/01_taxa_total.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/02_aberturas_taxa_tc.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/03_variacao_pontos_percentuais.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/04_nivel_pessoas.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/05_origem.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-grok-low-normal-timeout-retry1/work/entrega/06_emprego_participacao.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 35.46666666666667,
+   "N_sd": 0.6110100926607803,
+   "N_upper_mean": 35.6,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "9a398ea4962b04edfda62c6096a1cacbd48bf39d19a940c54fadb061b6f1c238",
+     "usage": {
+      "input_tokens": 18869,
+      "output_tokens": 142
+     },
+     "N": 34.8,
+     "N_upper": 35.199999999999996,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 34.8,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "9a398ea4962b04edfda62c6096a1cacbd48bf39d19a940c54fadb061b6f1c238",
+     "usage": {
+      "input_tokens": 18869,
+      "output_tokens": 142
+     },
+     "N": 36.0,
+     "N_upper": 36.0,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 36.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "9a398ea4962b04edfda62c6096a1cacbd48bf39d19a940c54fadb061b6f1c238",
+     "usage": {
+      "input_tokens": 18869,
+      "output_tokens": 142
+     },
+     "N": 35.6,
+     "N_upper": 35.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 35.6,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-codex-luna-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-luna-primary/work/entrega/01_taxa_desemprego_mensal.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-luna-primary/work/entrega/02_desempregados_nsa.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 35.199999999999996,
+   "N_sd": 0.6928203230275505,
+   "N_upper_mean": 35.46666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "46f464d66dede899e54b4cd1e4b9d9ab1d39e9e108b8aa090dfeadb0591b9052",
+     "usage": {
+      "input_tokens": 7824,
+      "output_tokens": 142
+     },
+     "N": 34.800000000000004,
+     "N_upper": 35.2,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 34.800000000000004,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "46f464d66dede899e54b4cd1e4b9d9ab1d39e9e108b8aa090dfeadb0591b9052",
+     "usage": {
+      "input_tokens": 7824,
+      "output_tokens": 142
+     },
+     "N": 34.8,
+     "N_upper": 35.199999999999996,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 34.8,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "46f464d66dede899e54b4cd1e4b9d9ab1d39e9e108b8aa090dfeadb0591b9052",
+     "usage": {
+      "input_tokens": 7824,
+      "output_tokens": 142
+     },
+     "N": 36.0,
+     "N_upper": 36.0,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 36.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-codex-astra-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-astra-primary/work/entrega/01_niveis.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-astra-primary/work/entrega/02_aberturas.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-astra-primary/work/entrega/03_variacoes.png",
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-codex-astra-primary/work/entrega/04_trimestral.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 25.333333333333332,
+   "N_sd": 1.2220201853215584,
+   "N_upper_mean": 26.933333333333337,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "6682ab58de505f4b0dc6cf408d6c98f3642722c5ba99afc538a28b1aad92b441",
+     "usage": {
+      "input_tokens": 11593,
+      "output_tokens": 142
+     },
+     "N": 25.6,
+     "N_upper": 27.200000000000003,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 25.6,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "6682ab58de505f4b0dc6cf408d6c98f3642722c5ba99afc538a28b1aad92b441",
+     "usage": {
+      "input_tokens": 11593,
+      "output_tokens": 142
+     },
+     "N": 24.0,
+     "N_upper": 25.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 24.0,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "6682ab58de505f4b0dc6cf408d6c98f3642722c5ba99afc538a28b1aad92b441",
+     "usage": {
+      "input_tokens": 11593,
+      "output_tokens": 142
+     },
+     "N": 26.400000000000002,
+     "N_upper": 28.000000000000004,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 26.400000000000002,
+       "undetermined": 1.6
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S10",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-a3-s10-low-normal-20261105-v1",
+   "final_attempt_id": "a3-s10-claude-opus-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s10-low-normal-20261105-v1/attempts/a3-s10-claude-opus-primary/work/entrega/suecia_desemprego.png"
+   ],
+   "N_choice_mean": 26.666666666666668,
+   "N_mean": 15.200000000000001,
+   "N_sd": 1.833030277982336,
+   "N_upper_mean": 17.2,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "3ad26af2762a9e83787be8964747bc3350099b9d9ae65bd9dd77b27d62cd77a1",
+     "usage": {
+      "input_tokens": 7693,
+      "output_tokens": 142
+     },
+     "N": 13.200000000000001,
+     "N_upper": 15.200000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 13.200000000000001,
+       "undetermined": 2.0
+      }
+     },
+     "choices": {
+      "N_total_native": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "3ad26af2762a9e83787be8964747bc3350099b9d9ae65bd9dd77b27d62cd77a1",
+     "usage": {
+      "input_tokens": 7693,
+      "output_tokens": 142
+     },
+     "N": 16.8,
+     "N_upper": 18.8,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 16.8,
+       "undetermined": 2.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "3ad26af2762a9e83787be8964747bc3350099b9d9ae65bd9dd77b27d62cd77a1",
+     "usage": {
+      "input_tokens": 7693,
+      "output_tokens": 142
+     },
+     "N": 15.600000000000001,
+     "N_upper": 17.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 15.600000000000001,
+       "undetermined": 2.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

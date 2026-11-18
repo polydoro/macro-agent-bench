@@ -1,0 +1,1451 @@
+[
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "one-c02-claude-fable-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "one-c02-claude-haiku-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "one-c02-claude-opus-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "one-c02-claude-sonnet-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "one-c02-codex-astra-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "one-c02-codex-luna-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "one-c02-codex-sol-low-normal-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "grok-4.7",
+  "final_attempt_id": "one-c02-grok-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A1",
+  "task": "C02",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "one-c02-kimi-pro-low-normal-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C02",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a2-c02-claude-fable-high-normal-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C02",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a2-c02-claude-haiku-high-normal-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C02",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a2-c02-claude-opus-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C02",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a2-c02-claude-sonnet-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C02",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a2-c02-codex-astra-high-normal-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C02",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a2-c02-codex-luna-high-normal-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C02",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a2-c02-codex-sol-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C02",
+  "model": "grok-4.7",
+  "final_attempt_id": "a2-c02-grok-high-normal-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A2",
+  "task": "C02",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a2-c02-kimi-pro-high-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C02",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a3-c02-codex-luna-primary",
+  "points": 6.666666666666667,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "NAO_CONCLUI"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C02",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a3-c02-claude-fable-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "FRACO_OU_PERDENDO_FORCA",
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C02",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a3-c02-claude-opus-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C02",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a3-c02-codex-sol-low-normal-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C02",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a3-c02-claude-haiku-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C02",
+  "model": "grok-4.7",
+  "final_attempt_id": "a3-c02-grok-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C02",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a3-c02-kimi-pro-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C02",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a3-c02-claude-sonnet-low-normal-primary",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A3",
+  "task": "C02",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a3-c02-codex-astra-primary",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C02",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-ace279691087f7a5597a79e2",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "FRACO_OU_PERDENDO_FORCA",
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C02",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-a612dba599803ce7213dd274",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "FRACO_OU_PERDENDO_FORCA",
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C02",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-2f2b1a8a36a40b93a1255082",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "FRACO_OU_PERDENDO_FORCA",
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C02",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-4f4447bff43d75658d551a07",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "FRACO_OU_PERDENDO_FORCA",
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C02",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-93f8f78cd5c026f55395efdd",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "FRACO_OU_PERDENDO_FORCA",
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C02",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-b29ede807ca984ffb76083c9",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "FRACO_OU_PERDENDO_FORCA",
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C02",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-d89b4838acdae144fbdf205f",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "FRACO_OU_PERDENDO_FORCA",
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C02",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-f0df36d3e66d8b419becd0c5",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "FRACO_OU_PERDENDO_FORCA",
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C02",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-ecc83627bbeef6bc8ef0c359",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C02",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-ca662a2f4ae5238e14155092",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C02",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-9a0d200bc34ada5743437211",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C02",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-9d7141480b58ef79f3ae73d9",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C02",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-50a06ea9842e9fbc8702d5ce",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C02",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-9172be2a0bd87a13e47c940d",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C02",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-70fd0f9416d2f156ff9c8135",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C02",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-12bbdd5e151da0a3e139fda3",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_external_review",
+  "task": "C02",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-9cd90ad255b9e7281e7e8fc4",
+  "points": 0.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   },
+   {
+    "choices": {
+     "V_ritmo": "FRACO_OU_PERDENDO_FORCA"
+    },
+    "points": 0
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ },
+ {
+  "phase": "A4_self_review",
+  "task": "C02",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-7fef20dffdb242dadbf5408e",
+  "points": 10.0,
+  "repeats": [
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   },
+   {
+    "choices": {
+     "V_ritmo": "MODERADO"
+    },
+    "points": 10
+   }
+  ],
+  "gold": {
+   "V_ritmo": [
+    "MODERADO"
+   ]
+  }
+ }
+]

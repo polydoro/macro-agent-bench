@@ -1,0 +1,19 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A4e,S06,claude-fable-5-1,scored,40.0,30.0,10.0,
+A4e,S06,claude-haiku-5-5,scored,20.0,15.0,5.0,total_yoy:ambiguous energia_yoy:ambiguous energia_3me:none alimentos_yoy:ambiguous
+A4e,S06,claude-opus-5-5,scored,39.67,30.0,9.67,total_3me:ambiguous servicos_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A4e,S06,claude-sonnet-5-5,scored,39.0,30.0,9.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A4e,S06,gpt-6-astra,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A4e,S06,gpt-6-luna,scored,28.5,28.5,0.0,nucleo_yoy:ambiguous energia_3me:none
+A4e,S06,gpt-6.1-sol,scored,34.5,30.0,4.5,
+A4e,S06,grok-4.7,scored,19.83,16.5,3.33,total_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous
+A4e,S06,kimi-code/k3.1-pro,scored,16.83,16.5,0.33,bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous
+A4s,S06,claude-fable-5-1,scored,0.0,0.0,0.0,total_yoy:none total_3me:none nucleo_yoy:none nucleo_3me:none bens_nao_energeticos_yoy:none bens_nao_energeticos_3me:none servicos_yoy:none servicos_3me:none energia_yoy:none energia_3me:none alimentos_yoy:none alimentos_3me:none
+A4s,S06,claude-haiku-5-5,scored,20.0,15.0,5.0,nucleo_yoy:ambiguous energia_3me:none
+A4s,S06,claude-opus-5-5,scored,40.0,30.0,10.0,alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A4s,S06,claude-sonnet-5-5,scored,37.0,30.0,7.0,total_yoy:ambiguous total_3me:ambiguous nucleo_yoy:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous bens_nao_energeticos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A4s,S06,gpt-6-astra,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3me:ambiguous nucleo_3me:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous servicos_3me:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous alimentos_3me:ambiguous
+A4s,S06,gpt-6-luna,scored,32.17,28.5,3.67,nucleo_yoy:ambiguous energia_3me:none
+A4s,S06,gpt-6.1-sol,scored,32.17,30.0,2.17,
+A4s,S06,grok-4.7,scored,20.83,16.5,4.33,total_yoy:ambiguous nucleo_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous energia_3me:ambiguous alimentos_yoy:ambiguous
+A4s,S06,kimi-code/k3.1-pro,scored,16.67,16.5,0.17,total_yoy:ambiguous bens_nao_energeticos_yoy:ambiguous servicos_yoy:ambiguous energia_yoy:ambiguous alimentos_yoy:ambiguous

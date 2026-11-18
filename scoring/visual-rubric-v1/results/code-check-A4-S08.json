@@ -1,0 +1,6285 @@
+[
+ {
+  "phase": "A4e",
+  "task": "S08",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-3dc8667f8bace62fe70012a2",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa B1GQ Gross domestic product PIB",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa B1G Gross value added before adjustments VAB antes de ajustes",
+      "value": 2.1298,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_csa B1GQ Gross domestic product PIB",
+      "value": 2.6324,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 01-03 Agriculture, forestry and fishing Agropecuária, silvicultura e pesca",
+      "value": -3.1165,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 35 Electricity, gas, steam and air conditioning supply Eletricidade, gás e vapor",
+      "value": -2.2816,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 36-39 Water supply, sewerage, waste management and remediation activities Água, e",
+      "value": -1.2067,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa B1GQ Gross domestic product PIB",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa B1GQ Gross domestic product PIB",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa B1G Gross value added before adjustments VAB antes de ajustes",
+      "value": 1.5249,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 01-03 Agriculture, forestry and fishing Agropecuária, silvicultura e pesca",
+      "value": -1.3982,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 01-03 Agriculture, forestry and fishing Agropecuária, silvicultura e pesca",
+      "value": -5.4766,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 35 Electricity, gas, steam and air conditioning supply Eletricidade, gás e vapor",
+      "value": 9.8379,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_consumo_familias_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P31_S14_S15 Households and NPISH Consumo das famílias e ISFLSF",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P31_S14_S15 Households and NPISH Consumo das famílias e ISFLSF",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P31_S14_S15 Households and NPISH Consumo das famílias e ISFLSF",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 97-98 Activities of housholds as employers and producers for own use Famílias com",
+      "value": 0.9067,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 97-98 Activities of housholds as employers and producers for own use Famílias com",
+      "value": 3.6765,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 97-98 Activities of housholds as employers and producers for own use Famílias com",
+      "value": 1.9805,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_consumo_governo_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P3_S13 General government Consumo do governo",
+      "value": 0.4151,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P3_S13 General government Consumo do governo",
+      "value": 1.6706,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P3_S13 General government Consumo do governo",
+      "value": 1.6748,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P51G Gross fixed capital formation FBCF",
+      "value": 0.7862,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P51G Gross fixed capital formation FBCF",
+      "value": 3.1819,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P51G Gross fixed capital formation FBCF",
+      "value": 1.5959,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P3_P51G_P6 Global demand excluding inventories change, stat. discrepancies and valuabl",
+      "value": 1.969,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P3_P51G_P6 Global demand excluding inventories change, stat. discrepancies and valuabl",
+      "value": 8.1115,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P3_P51G_P6 Global demand excluding inventories change, stat. discrepancies and valuabl",
+      "value": 3.7121,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P6 Exports of goods and services Exportações de bens e serviços",
+      "value": -1.2886,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P6 Exports of goods and services Exportações de bens e serviços",
+      "value": -5.0557,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P6 Exports of goods and services Exportações de bens e serviços",
+      "value": 3.8168,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa thereof exp. of goods excluding valuables and merchanting – Exportações de bens excl. ",
+      "value": 9.7374,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa thereof exp. of goods excluding valuables and merchanting – Exportações de bens excl. ",
+      "value": 45.0169,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa Exports of goods and services (excluding valuables) Exportações de bens e serviços exc",
+      "value": 4.1993,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P7 Imports of goods and services Importações de bens e serviços",
+      "value": -0.9543,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P7 Imports of goods and services Importações de bens e serviços",
+      "value": -3.7629,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P7 Imports of goods and services Importações de bens e serviços",
+      "value": -1.9781,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa thereof imp. of goods excluding valuables – Importações de bens excl. objetos de valor",
+      "value": 3.1532,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa thereof imp. of goods excluding valuables – Importações de bens excl. objetos de valor",
+      "value": 13.2218,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa thereof imp. of goods excluding valuables – Importações de bens excl. objetos de valor",
+      "value": 4.7551,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 10-33 Manufacturing Indústria de transformação",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 10-33 Manufacturing Indústria de transformação",
+      "value": 19.0313,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 10-33 Manufacturing Indústria de transformação",
+      "value": 4.1087,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 05-09 Mining and quarrying Indústria extrativa",
+      "value": -5.5628,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 05-09 Mining and quarrying Indústria extrativa",
+      "value": -20.4624,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 05-09 Mining and quarrying Indústria extrativa",
+      "value": -6.8606,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 41-43 Construction Construção",
+      "value": 0.3809,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 41-43 Construction Construção",
+      "value": 1.5323,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 41-43 Construction Construção",
+      "value": 2.7628,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 47 thereof retail trade – Comércio varejista",
+      "value": 4.8619,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 64 thereof financial activities – Atividades financeiras",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 65 thereof insurance activities – Seguros",
+      "value": -3.3549,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S08",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-55c4e8205a470fc478439a17",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa B1GQ Gross domestic product",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa B1G Gross value added before adjustments",
+      "value": 2.1298,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_csa B1GQ Gross domestic product",
+      "value": 2.6324,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 01-03 Agriculture, forestry and fishing",
+      "value": -3.1165,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 05-09 Mining and quarrying",
+      "value": -6.8606,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 35 Electricity, gas, steam and air conditioning supply",
+      "value": -2.2816,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa B1GQ Gross domestic product",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa B1GQ Gross domestic product",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa B1G Gross value added before adjustments",
+      "value": 1.5249,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 01-03 Agriculture, forestry and fishing",
+      "value": -1.3982,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 01-03 Agriculture, forestry and fishing",
+      "value": -5.4766,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 05-09 Mining and quarrying",
+      "value": -5.5628,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_consumo_familias_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P31_S14_S15 Households and NPISH",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P31_S14_S15 Households and NPISH",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P31_S14_S15 Households and NPISH",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_aberturas_despesa.csv",
+      "header": "QoQ % (1T26)",
+      "row": "Households and NPISH P31_S14_S15",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_governo_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P3_S13 General government",
+      "value": 0.4151,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P3_S13 General government",
+      "value": 1.6706,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P3_S13 General government",
+      "value": 1.6748,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_aberturas_despesa.csv",
+      "header": "QoQ % (1T26)",
+      "row": "General government P3_S13",
+      "value": 1.3,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_investimento_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P51G Gross fixed capital formation",
+      "value": 0.7862,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P51G Gross fixed capital formation",
+      "value": 3.1819,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P51G Gross fixed capital formation",
+      "value": 1.5959,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P3_P51G_P6 Global demand excluding inventories change, stat. discrepancies and valuabl",
+      "value": 1.969,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P3_P51G_P6 Global demand excluding inventories change, stat. discrepancies and valuabl",
+      "value": 8.1115,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P3_P51G_P6 Global demand excluding inventories change, stat. discrepancies and valuabl",
+      "value": 3.7121,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P6 Exports of goods and services inclui estoques e/ou objetos de valor",
+      "value": -1.2886,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P6 Exports of goods and services inclui estoques e/ou objetos de valor",
+      "value": -5.0557,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P6 Exports of goods and services inclui estoques e/ou objetos de valor",
+      "value": 3.8168,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa Exports of goods and services (excluding valuables)",
+      "value": 4.1993,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa Exports of goods and services (excluding valuables)",
+      "value": 17.8852,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa Exports of goods and services (excluding valuables)",
+      "value": 7.1178,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_cssa P7 Imports of goods and services inclui estoques e/ou objetos de valor",
+      "value": -0.9543,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa P7 Imports of goods and services inclui estoques e/ou objetos de valor",
+      "value": -3.7629,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa P7 Imports of goods and services inclui estoques e/ou objetos de valor",
+      "value": -1.9781,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 e_cssa Imports of goods and services (excluding valuables)",
+      "value": 8.9353,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 e_cssa Imports of goods and services (excluding valuables)",
+      "value": 4.388,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 e_csa Imports of goods and services (excluding valuables)",
+      "value": 2.4452,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 10-33 Manufacturing",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 10-33 Manufacturing",
+      "value": 19.0313,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 10-33 Manufacturing",
+      "value": 4.1087,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 19-21 thereof chemicals and pharmaceuticals",
+      "value": 10.5026,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 19-21 thereof chemicals and pharmaceuticals",
+      "value": 49.104,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 10-18; 22-33 thereof other manufacturing",
+      "value": 0.723,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_%",
+      "row": "2026Q2 p_cssa NOGA 41-43 Construction",
+      "value": 0.3809,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 41-43 Construction",
+      "value": 1.5323,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 41-43 Construction",
+      "value": 2.7628,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 47 thereof retail trade",
+      "value": 4.8619,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2026Q2 p_cssa NOGA 64 thereof financial activities",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_pib_suica_trimestral.csv",
+      "header": "QoQ_saar_%",
+      "row": "2026Q2 p_cssa NOGA 65 thereof insurance activities",
+      "value": -3.3549,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S08",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-aa7b518fb122a2d1b946dbd3",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "yoy_cssa_%",
+      "row": "2026 T2",
+      "value": 2.147,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "yoy_csa_%",
+      "row": "2026 T2",
+      "value": 2.632,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "yoy_na_%",
+      "row": "2026 T2",
+      "value": 2.778,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "qoq_%",
+      "row": "2026 T2",
+      "value": 1.541,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "qoq_saar_%",
+      "row": "2026 T2",
+      "value": 6.308,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "qoq_csa_%",
+      "row": "2026 T2",
+      "value": 1.885,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_familias_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_importacoes_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_industria_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_servicos_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S08",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-b88e3546f44fd1c1136de49b",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "yoy_cssa_%",
+      "row": "2026 T2",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "yoy_csa_%",
+      "row": "2026 T2",
+      "value": 2.6324,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "yoy_na_%",
+      "row": "2026 T2",
+      "value": 2.7777,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "qoq_cssa_%",
+      "row": "2026 T2",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "qoq_saar_cssa_%",
+      "row": "2026 T2",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_pib_suica_real.csv",
+      "header": "qoq_csa_%",
+      "row": "2026 T2",
+      "value": 1.8847,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_familias_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_importacoes_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_industria_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_servicos_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S08",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-e3bbbb9dda1cb3af029fb90c",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "A/A % (SA+cal+esporte)",
+      "row": "2026T2",
+      "value": 2.147,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "A/A % (sem ajuste sazonal, NSA)",
+      "row": "2026T2",
+      "value": 2.778,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "PIB",
+      "value": 2.15,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "T/T % (SA+cal+esporte)",
+      "row": "2026T2",
+      "value": 1.541,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "T/T anualizado % (SAAR)",
+      "row": "2026T2",
+      "value": 6.308,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "T/T % (SA+cal, sem ajuste esporte)",
+      "row": "2026T2",
+      "value": 1.885,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab5_anual.csv",
+      "header": "PIB real anual % (soma dos trimestres SA+cal+esporte)",
+      "row": "",
+      "value": 3.02,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tab5_anual.csv",
+      "header": "PIB real anual % (soma dos trimestres SA+cal+esporte)",
+      "row": "",
+      "value": -2.27,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tab5_anual.csv",
+      "header": "PIB real anual % (soma dos trimestres SA+cal+esporte)",
+      "row": "",
+      "value": 5.87,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_familias_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Consumo privado",
+      "value": 0.3,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Consumo privado",
+      "value": 1.21,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Consumo privado",
+      "value": 1.31,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Consumo do governo",
+      "value": 0.42,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Consumo do governo",
+      "value": 1.67,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Consumo do governo",
+      "value": 1.67,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Inv. construção",
+      "value": 0.74,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Inv. construção",
+      "value": 3.0,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Inv. construção",
+      "value": 2.95,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Export. serviços",
+      "value": 1.56,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Export. serviços",
+      "value": 6.37,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Export. serviços",
+      "value": 3.73,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Export. bens ex-objetos de valor",
+      "value": 5.52,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Export. bens ex-objetos de valor",
+      "value": 23.96,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Export. bens ex-objetos de valor",
+      "value": 8.82,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Import. serviços",
+      "value": 0.87,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Import. serviços",
+      "value": 3.51,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Import. serviços",
+      "value": 3.89,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Import. bens ex-objetos de valor",
+      "value": 3.15,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Import. bens ex-objetos de valor",
+      "value": 13.22,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Import. bens ex-objetos de valor",
+      "value": 4.76,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Química-farma",
+      "value": 4.21,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Outras manufaturas",
+      "value": 4.07,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Química-farma",
+      "value": 10.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Química-farma",
+      "value": 49.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Outras manufaturas",
+      "value": 0.72,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Comércio",
+      "value": 0.81,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Comércio",
+      "value": 3.28,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Comércio",
+      "value": 1.7,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S08",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-5cdc08d8ffcc1e2c36d91916",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "A/A % (SA+cal+esporte)",
+      "row": "2026T2",
+      "value": 2.147,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "A/A % (sem ajuste sazonal, NSA)",
+      "row": "2026T2",
+      "value": 2.778,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "PIB",
+      "value": 2.15,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "T/T % (SA+cal+esporte)",
+      "row": "2026T2",
+      "value": 1.541,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "T/T anualizado % (SAAR)",
+      "row": "2026T2",
+      "value": 6.308,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab1_pib_taxas.csv",
+      "header": "T/T % (SA+cal, sem ajuste esporte)",
+      "row": "2026T2",
+      "value": 1.885,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab5_anual.csv",
+      "header": "PIB real anual % (soma trimestres NSA)",
+      "row": "",
+      "value": 3.33,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tab5_anual.csv",
+      "header": "PIB real anual % (soma trimestres SA+cal+esporte)",
+      "row": "",
+      "value": 3.02,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tab5_anual.csv",
+      "header": "PIB real anual % (soma trimestres NSA)",
+      "row": "",
+      "value": 1.12,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_familias_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Consumo privado",
+      "value": 0.3,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Consumo privado",
+      "value": 1.21,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Consumo privado",
+      "value": 1.31,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Consumo do governo",
+      "value": 0.42,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Consumo do governo",
+      "value": 1.67,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Consumo do governo",
+      "value": 1.67,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Inv. construção",
+      "value": 0.74,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Inv. construção",
+      "value": 3.0,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Inv. construção",
+      "value": 2.95,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Export. serviços",
+      "value": 1.56,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Export. serviços",
+      "value": 6.37,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Export. serviços",
+      "value": 3.73,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Export. bens ex-objetos de valor",
+      "value": 5.52,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Export. bens ex-objetos de valor",
+      "value": 23.96,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Export. bens ex-objetos de valor",
+      "value": 8.82,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Import. serviços",
+      "value": 0.87,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Import. serviços",
+      "value": 3.51,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Import. serviços",
+      "value": 3.89,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Import. bens ex-objetos de valor",
+      "value": 3.15,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Import. bens ex-objetos de valor",
+      "value": 13.22,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Import. bens ex-objetos de valor",
+      "value": 4.76,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Química-farma",
+      "value": 4.21,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Outras manufaturas",
+      "value": 4.07,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Química-farma",
+      "value": 10.5,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Química-farma",
+      "value": 49.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Outras manufaturas",
+      "value": 0.72,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T % 2026T2",
+      "row": "Comércio",
+      "value": 0.81,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "T/T anualiz. % 2026T2",
+      "row": "Comércio",
+      "value": 3.28,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tab4_componentes.csv",
+      "header": "A/A % 2026T2",
+      "row": "Comércio",
+      "value": 1.7,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S08",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-40cd051cb43109856922094f",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "yoy",
+      "row": "2026Q2",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "yoy_sem_ajuste_esporte",
+      "row": "2026Q2",
+      "value": 2.6324,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/pib_ultimos_12tri.csv",
+      "header": "yoy",
+      "row": "2026Q2",
+      "value": 2.147,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "qoq",
+      "row": "2026Q2",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "qoq_anualizado",
+      "row": "2026Q2",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "qoq_sem_ajuste_esporte",
+      "row": "2026Q2",
+      "value": 1.8847,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "PIB",
+      "value": 0.48,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-2 %",
+      "row": "PIB",
+      "value": 0.525,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_familias_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Consumo das famílias e ISFLSF",
+      "value": 0.301,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Consumo das famílias e ISFLSF",
+      "value": 1.209,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "Consumo das famílias e ISFLSF",
+      "value": 1.311,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "Consumo das famílias e ISFLSF",
+      "value": 0.053,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_governo_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Consumo do governo",
+      "value": 0.415,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Consumo do governo",
+      "value": 1.671,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "Consumo do governo",
+      "value": 1.675,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "Consumo do governo",
+      "value": 1.296,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_investimento_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "FBCF",
+      "value": 0.786,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "FBCF",
+      "value": 3.182,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "FBCF",
+      "value": 1.596,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "FBCF",
+      "value": -0.767,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Exportações de bens e serviços",
+      "value": -1.289,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Exportações de bens e serviços",
+      "value": -5.056,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "Exportações de bens e serviços",
+      "value": 3.817,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "Exportações de bens e serviços",
+      "value": 0.72,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Exportações de bens ex-valiosos e comércio de trânsito",
+      "value": 9.737,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Exportações de bens ex-valiosos e comércio de trânsito",
+      "value": 45.017,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Importações de bens e serviços",
+      "value": -0.954,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Importações de bens e serviços",
+      "value": -3.763,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "Importações de bens e serviços",
+      "value": -1.978,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "Importações de bens e serviços",
+      "value": -5.371,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-2 %",
+      "row": "Importações de bens e serviços",
+      "value": 4.194,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ %",
+      "row": "Indústria de transformação",
+      "value": 4.452,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Indústria de transformação",
+      "value": 19.031,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "YoY %",
+      "row": "Indústria de transformação",
+      "value": 4.109,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ t-1 %",
+      "row": "Indústria de transformação",
+      "value": 1.789,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ t-2 %",
+      "row": "Indústria de transformação",
+      "value": 0.607,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ %",
+      "row": "Química e farmacêutica",
+      "value": 10.503,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ %",
+      "row": "Comércio",
+      "value": 0.81,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Comércio",
+      "value": 3.28,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "YoY %",
+      "row": "Comércio",
+      "value": 1.702,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ t-1 %",
+      "row": "Comércio",
+      "value": -2.17,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S08",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-198fa086b57c97fe31df414c",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "yoy",
+      "row": "2026Q2",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "yoy_sem_ajuste_esporte",
+      "row": "2026Q2",
+      "value": 2.6324,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/pib_ultimos_12tri.csv",
+      "header": "yoy",
+      "row": "2026Q2",
+      "value": 2.147,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "qoq",
+      "row": "2026Q2",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "qoq_anualizado",
+      "row": "2026Q2",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/proc/pib_total.csv",
+      "header": "qoq_sem_ajuste_esporte",
+      "row": "2026Q2",
+      "value": 1.8847,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "PIB",
+      "value": 0.48,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-2 %",
+      "row": "PIB",
+      "value": 0.525,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_familias_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Consumo das famílias e ISFLSF",
+      "value": 0.301,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Consumo das famílias e ISFLSF",
+      "value": 1.209,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "Consumo das famílias e ISFLSF",
+      "value": 1.311,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "Consumo das famílias e ISFLSF",
+      "value": 0.053,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_governo_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Consumo do governo",
+      "value": 0.415,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Consumo do governo",
+      "value": 1.671,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "Consumo do governo",
+      "value": 1.675,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "Consumo do governo",
+      "value": 1.296,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_investimento_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "FBCF",
+      "value": 0.786,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "FBCF",
+      "value": 3.182,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "FBCF",
+      "value": 1.596,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "FBCF",
+      "value": -0.767,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Exportações de bens e serviços",
+      "value": -1.289,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Exportações de bens e serviços",
+      "value": -5.056,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "Exportações de bens e serviços",
+      "value": 3.817,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "Exportações de bens e serviços",
+      "value": 0.72,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Exportações de bens ex-valiosos e comércio de trânsito",
+      "value": 9.737,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Exportações de bens ex-valiosos e comércio de trânsito",
+      "value": 45.017,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ %",
+      "row": "Importações de bens e serviços",
+      "value": -0.954,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Importações de bens e serviços",
+      "value": -3.763,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "YoY %",
+      "row": "Importações de bens e serviços",
+      "value": -1.978,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-1 %",
+      "row": "Importações de bens e serviços",
+      "value": -5.371,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_gasto.csv",
+      "header": "QoQ t-2 %",
+      "row": "Importações de bens e serviços",
+      "value": 4.194,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ %",
+      "row": "Indústria de transformação",
+      "value": 4.452,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Indústria de transformação",
+      "value": 19.031,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "YoY %",
+      "row": "Indústria de transformação",
+      "value": 4.109,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ t-1 %",
+      "row": "Indústria de transformação",
+      "value": 1.789,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ t-2 %",
+      "row": "Indústria de transformação",
+      "value": 0.607,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ %",
+      "row": "Química e farmacêutica",
+      "value": 10.503,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ %",
+      "row": "Comércio",
+      "value": 0.81,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ anualiz. %",
+      "row": "Comércio",
+      "value": 3.28,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "YoY %",
+      "row": "Comércio",
+      "value": 1.702,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/proc/tabela_producao.csv",
+      "header": "QoQ t-1 %",
+      "row": "Comércio",
+      "value": -2.17,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S08",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-e0bd42b5144ce180f2e00935",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct gdp",
+      "row": "2026-04-01",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "gdp PIB — com ajuste esportivo 2026T2 cssa",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "gdp PIB — sem ajuste esportivo 2026T2 csa",
+      "value": 2.6324,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct gdp",
+      "row": "2026-04-01",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_anualizado_pct gdp",
+      "row": "2026-04-01",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "gdp PIB — com ajuste esportivo 2026T2 cssa",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/contribuicoes_oferta.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "Construção (valor adicionado) 2026T2 cssa Sazonalidade, calendário e eventos esportivos (SECO) Ponto",
+      "value": 0.0175,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/contribuicoes_oferta.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "Informação e comunicação 2026T2 cssa Sazonalidade, calendário e eventos esportivos (SECO) Pontos per",
+      "value": 0.0493,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/contribuicoes_oferta.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "Impostos líquidos sobre produtos 2026T2 cssa Sazonalidade, calendário e eventos esportivos (SECO) Po",
+      "value": 0.057,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_consumo_familias_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct cons_priv",
+      "row": "2026-04-01",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct cons_priv",
+      "row": "2026-04-01",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_anualizado_pct cons_priv",
+      "row": "2026-04-01",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "cons_gov Consumo do governo 2026T2 cssa",
+      "value": 0.4151,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "cons_gov Consumo do governo 2026T2 cssa",
+      "value": 1.6748,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "cons_gov Consumo do governo 2026T2 cssa",
+      "value": 1.6706,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct inv_constr",
+      "row": "2026-04-01",
+      "value": 0.7409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct inv_fixed",
+      "row": "2026-04-01",
+      "value": 0.8054,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct inv_gfcf",
+      "row": "2026-04-01",
+      "value": 0.7862,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct inv",
+      "row": "2026-04-01",
+      "value": 6.0173,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct inv",
+      "row": "2026-04-01",
+      "value": -8.6212,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_anualizado_pct inv",
+      "row": "2026-04-01",
+      "value": 26.3302,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "exp_serv Exportações de serviços 2026T2 cssa",
+      "value": 1.5559,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "exp_serv Exportações de serviços 2026T2 cssa",
+      "value": 3.7289,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "exp_serv Exportações de serviços 2026T2 cssa",
+      "value": 6.3702,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "exp_good_ex_v Exportações de bens, exceto objetos de valor 2026T2 cssa",
+      "value": 5.5162,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "exp_good_ex_v Exportações de bens, exceto objetos de valor 2026T2 cssa",
+      "value": 8.8201,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "exp_good_ex_v Exportações de bens, exceto objetos de valor 2026T2 cssa",
+      "value": 23.9584,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 2.1627,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas.xlsx",
+      "header": "qoq_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 2.1627,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 4.388,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 8.9353,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas.xlsx",
+      "header": "yoy_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 4.388,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct manu",
+      "row": "2026-04-01",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct chem_pharm",
+      "row": "2026-04-01",
+      "value": 4.2115,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct manu",
+      "row": "2026-04-01",
+      "value": 4.1087,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct chem_pharm",
+      "row": "2026-04-01",
+      "value": 10.5026,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct manu_other",
+      "row": "2026-04-01",
+      "value": 0.723,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_anualizado_pct chem_pharm",
+      "row": "2026-04-01",
+      "value": 49.104,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct finance",
+      "row": "2026-04-01",
+      "value": 1.8614,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct hotel",
+      "row": "2026-04-01",
+      "value": 1.3566,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct hotel",
+      "row": "2026-04-01",
+      "value": 4.5837,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct finance",
+      "row": "2026-04-01",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "finance Serviços financeiros 2026T2 cssa",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas.xlsx",
+      "header": "yoy_pct",
+      "row": "finance Serviços financeiros 2026T2 cssa",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S08",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-71b0da84534fbd0dd9962745",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct gdp",
+      "row": "2026-04-01",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "gdp PIB — com ajuste esportivo 2026T2 cssa",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "gdp PIB — sem ajuste esportivo 2026T2 csa",
+      "value": 2.6324,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct gdp",
+      "row": "2026-04-01",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_anualizado_pct gdp",
+      "row": "2026-04-01",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "gdp PIB — com ajuste esportivo 2026T2 cssa",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_familias_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct cons_priv",
+      "row": "2026-04-01",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct cons_priv",
+      "row": "2026-04-01",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_anualizado_pct cons_priv",
+      "row": "2026-04-01",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "cons_gov Consumo do governo 2026T2 cssa",
+      "value": 0.4151,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "cons_gov Consumo do governo 2026T2 cssa",
+      "value": 1.6748,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "cons_gov Consumo do governo 2026T2 cssa",
+      "value": 1.6706,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct inv_constr",
+      "row": "2026-04-01",
+      "value": 0.7409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct inv_fixed",
+      "row": "2026-04-01",
+      "value": 0.8054,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct inv_gfcf",
+      "row": "2026-04-01",
+      "value": 0.7862,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct inv",
+      "row": "2026-04-01",
+      "value": 6.0173,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct inv",
+      "row": "2026-04-01",
+      "value": -8.6212,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_anualizado_pct inv",
+      "row": "2026-04-01",
+      "value": 26.3302,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "exp_serv Exportações de serviços 2026T2 cssa",
+      "value": 1.5559,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "exp_serv Exportações de serviços 2026T2 cssa",
+      "value": 3.7289,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "exp_serv Exportações de serviços 2026T2 cssa",
+      "value": 6.3702,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "exp_good_ex_v Exportações de bens, exceto objetos de valor 2026T2 cssa",
+      "value": 5.5162,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "exp_good_ex_v Exportações de bens, exceto objetos de valor 2026T2 cssa",
+      "value": 8.8201,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "exp_good_ex_v Exportações de bens, exceto objetos de valor 2026T2 cssa",
+      "value": 23.9584,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 2.1627,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas.xlsx",
+      "header": "qoq_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 2.1627,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 4.388,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "qoq_anualizado_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 8.9353,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas.xlsx",
+      "header": "yoy_pct",
+      "row": "imp_ex_v Importações, exceto objetos de valor 2026T2 cssa",
+      "value": 4.388,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct manu",
+      "row": "2026-04-01",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct chem_pharm",
+      "row": "2026-04-01",
+      "value": 4.2115,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct manu",
+      "row": "2026-04-01",
+      "value": 4.1087,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct chem_pharm",
+      "row": "2026-04-01",
+      "value": 10.5026,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct manu_other",
+      "row": "2026-04-01",
+      "value": 0.723,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_anualizado_pct chem_pharm",
+      "row": "2026-04-01",
+      "value": 49.104,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct finance",
+      "row": "2026-04-01",
+      "value": 1.8614,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "qoq_pct hotel",
+      "row": "2026-04-01",
+      "value": 1.3566,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct hotel",
+      "row": "2026-04-01",
+      "value": 4.5837,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_calculadas.csv",
+      "header": "yoy_pct finance",
+      "row": "2026-04-01",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "yoy_pct",
+      "row": "finance Serviços financeiros 2026T2 cssa",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas.xlsx",
+      "header": "yoy_pct",
+      "row": "finance Serviços financeiros 2026T2 cssa",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S08",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-20934ea8b7f939365b5e532f",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/pib_total_trimestral.csv",
+      "header": "yoy_cssa_pct",
+      "row": "2026-04-01",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/pib_total_trimestral.csv",
+      "header": "yoy_csa_pct",
+      "row": "2026-04-01",
+      "value": 2.6324,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_trimestrais_derivadas.csv",
+      "header": "yoy_pct",
+      "row": "2026-04-01 gdp PIB total",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_anualizada_pct",
+      "row": "2026-T2 PIB total",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_pct",
+      "row": "2026-T2 PIB total",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/pib_total_trimestral.csv",
+      "header": "qoq_cssa_pct",
+      "row": "2026-04-01",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_familias_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_anualizada_pct",
+      "row": "2026-T2 Consumo privado",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_pct",
+      "row": "2026-T2 Consumo privado",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_trimestrais_derivadas.csv",
+      "header": "yoy_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 0.1464,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_consumo_governo_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 inv Investimentos",
+      "value": 1.7318,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_anualizada_pct",
+      "row": "2026-T2 Investimento em construção",
+      "value": 2.9967,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_pct",
+      "row": "2026-T2 Investimento em construção",
+      "value": 0.7409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 inv_gfcf Formação bruta de capital fixo",
+      "value": 0.2075,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 inv_constr Investimento em construção",
+      "value": 0.0586,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 inv_fixed Investimento em equipamentos",
+      "value": 0.1489,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 exp_ex_v Exportações sem objetos de valor",
+      "value": 2.4669,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_anualizada_pct",
+      "row": "2026-T2 Exportações de bens e serviços",
+      "value": -5.0557,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_pct",
+      "row": "2026-T2 Exportações de bens e serviços",
+      "value": -1.2886,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 exp Exportações de bens e serviços",
+      "value": -1.1274,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_anualizada_pct",
+      "row": "2026-T2 Exportações sem objetos de valor",
+      "value": 17.8852,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_pct",
+      "row": "2026-T2 Exportações sem objetos de valor",
+      "value": 4.1993,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 imp Importações de bens e serviços",
+      "value": 0.7403,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 imp_ex_v Importações sem objetos de valor",
+      "value": -1.0426,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_anualizada_pct",
+      "row": "2026-T2 Importações de bens e serviços",
+      "value": -3.7629,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_anualizada_pct",
+      "row": "2026-T2 Importações sem objetos de valor",
+      "value": 8.9353,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_trimestrais_derivadas.csv",
+      "header": "yoy_pct",
+      "row": "2026-04-01 imp_ex_v Importações sem objetos de valor",
+      "value": 4.388,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_trimestrais_derivadas.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "2026-04-01 imp_ex_v Importações sem objetos de valor",
+      "value": 8.9353,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_anualizada_pct",
+      "row": "2026-T2 Manufatura",
+      "value": 19.0313,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_pct",
+      "row": "2026-T2 Manufatura",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_trimestrais_derivadas.csv",
+      "header": "yoy_pct",
+      "row": "2026-04-01 manu Manufatura",
+      "value": 4.1087,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 manu Manufatura",
+      "value": 0.8172,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 chem_pharm Química e farmacêutica",
+      "value": 0.7237,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 manu_other Demais manufaturas",
+      "value": 0.0829,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 trade Comércio e reparação",
+      "value": 0.1221,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 b_serv Serviços empresariais",
+      "value": 0.091,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 health Saúde e assistência social",
+      "value": 0.0552,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S08",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-27b0253ca67fd9dbfcae5cf3",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "yoy_csa_pct",
+      "row": "2026-04-01 gdp PIB total",
+      "value": 2.6324,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "yoy_cssa_pct",
+      "row": "2026-04-01 gdp PIB total",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/pib_total_trimestral.csv",
+      "header": "yoy_cssa_pct",
+      "row": "2026-04-01",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_cssa_pct",
+      "row": "2026-04-01 gdp PIB total",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_anualizada_cssa_pct",
+      "row": "2026-04-01 gdp PIB total",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_ultimo_trimestre.csv",
+      "header": "variacao_trimestral_anualizada_pct",
+      "row": "2026-T2 PIB total",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_familias_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "yoy_csa_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_cssa_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_anualizada_cssa_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 0.1464,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_consumo_governo_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 inv Investimentos",
+      "value": 1.7318,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "yoy_csa_pct",
+      "row": "2026-04-01 inv_gfcf Formação bruta de capital fixo",
+      "value": 1.5959,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_cssa_pct",
+      "row": "2026-04-01 inv_gfcf Formação bruta de capital fixo",
+      "value": 0.7862,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 inv_gfcf Formação bruta de capital fixo",
+      "value": 0.2075,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 inv_constr Investimento em construção",
+      "value": 0.0586,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 inv_fixed Investimento em equipamentos",
+      "value": 0.1489,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "yoy_csa_pct",
+      "row": "2026-04-01 exp Exportações de bens e serviços",
+      "value": 4.4851,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_cssa_pct",
+      "row": "2026-04-01 exp Exportações de bens e serviços",
+      "value": -1.2886,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_anualizada_cssa_pct",
+      "row": "2026-04-01 exp Exportações de bens e serviços",
+      "value": -5.0557,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 exp Exportações de bens e serviços",
+      "value": -1.1274,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 imp Importações de bens e serviços",
+      "value": 0.7403,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "yoy_csa_pct",
+      "row": "2026-04-01 imp Importações de bens e serviços",
+      "value": -1.1903,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_cssa_pct",
+      "row": "2026-04-01 imp Importações de bens e serviços",
+      "value": -0.9543,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "yoy_csa_pct",
+      "row": "2026-04-01 manu Manufatura",
+      "value": 4.1087,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_cssa_pct",
+      "row": "2026-04-01 manu Manufatura",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/indicadores_comparaveis.csv",
+      "header": "qoq_anualizada_cssa_pct",
+      "row": "2026-04-01 manu Manufatura",
+      "value": 19.0313,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 manu Manufatura",
+      "value": 0.8172,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 chem_pharm Química e farmacêutica",
+      "value": 0.7237,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 manu_other Demais manufaturas",
+      "value": 0.0829,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 trade Comércio e reparação",
+      "value": 0.1221,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 b_serv Serviços empresariais",
+      "value": 0.091,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/contribuicoes_qoq_seco.csv",
+      "header": "contribuicao_pp_qoq",
+      "row": "2026-04-01 health Saúde e assistência social",
+      "value": 0.0552,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S08",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-257573cae0c55c8845ae216b",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 gdp PIB",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY_SA_calendario_esporte_pct",
+      "row": "gdp PIB 2026T2",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 gdp PIB",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 gdp PIB",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "trimestre_pct",
+      "row": "gdp PIB 2026T2",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_familias_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 cons_gov Consumo do governo",
+      "value": 0.4151,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 cons_gov Consumo do governo",
+      "value": 1.6748,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 cons_gov Consumo do governo",
+      "value": 1.6706,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 inv_fixed Investimento em equipamentos e software",
+      "value": 0.8054,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 inv_fixed Investimento em equipamentos e software",
+      "value": 1.0331,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 inv_fixed Investimento em equipamentos e software",
+      "value": 3.2608,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 exp_serv Exportações de serviços",
+      "value": 1.5559,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 exp_serv Exportações de serviços",
+      "value": 3.7289,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 exp_serv Exportações de serviços",
+      "value": 6.3702,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 exp_good_ex_v Exportações de bens, sem objetos de valor",
+      "value": 5.5162,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 exp_good_ex_v Exportações de bens, sem objetos de valor",
+      "value": 8.8201,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 exp_good_ex_v Exportações de bens, sem objetos de valor",
+      "value": 23.9584,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 imp_serv Importações de serviços",
+      "value": 0.8654,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 imp_serv Importações de serviços",
+      "value": 3.8856,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 imp_serv Importações de serviços",
+      "value": 3.5066,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 imp_good_ex_v Importações de bens, sem objetos de valor",
+      "value": 3.1532,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 imp_good_ex_v Importações de bens, sem objetos de valor",
+      "value": 4.7551,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 imp_good_ex_v Importações de bens, sem objetos de valor",
+      "value": 13.2218,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 chem_pharm Química e farmacêutica",
+      "value": 4.2115,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 manu_other Demais manufaturas",
+      "value": 4.0724,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 manu Manufatura",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 chem_pharm Química e farmacêutica",
+      "value": 10.5026,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 chem_pharm Química e farmacêutica",
+      "value": 49.104,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 manu_other Demais manufaturas",
+      "value": 0.723,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 trade Comércio",
+      "value": 0.8101,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 trade Comércio",
+      "value": 1.7025,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 trade Comércio",
+      "value": 3.2801,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S08",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-9240a95ad7e6186937e95e3a",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 gdp PIB",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "YoY_SA_calendario_esporte_pct",
+      "row": "gdp PIB 2026T2",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 gdp PIB",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 gdp PIB",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_indicadores.csv",
+      "header": "trimestre_pct",
+      "row": "gdp PIB 2026T2",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_familias_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 cons_priv Consumo privado",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 cons_gov Consumo do governo",
+      "value": 0.4151,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 cons_gov Consumo do governo",
+      "value": 1.6748,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 cons_gov Consumo do governo",
+      "value": 1.6706,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 inv_fixed Investimento em equipamentos e software",
+      "value": 0.8054,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 inv_fixed Investimento em equipamentos e software",
+      "value": 1.0331,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 inv_fixed Investimento em equipamentos e software",
+      "value": 3.2608,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 exp_serv Exportações de serviços",
+      "value": 1.5559,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 exp_serv Exportações de serviços",
+      "value": 3.7289,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 exp_serv Exportações de serviços",
+      "value": 6.3702,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 exp_good_ex_v Exportações de bens, sem objetos de valor",
+      "value": 5.5162,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 exp_good_ex_v Exportações de bens, sem objetos de valor",
+      "value": 8.8201,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 exp_good_ex_v Exportações de bens, sem objetos de valor",
+      "value": 23.9584,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 imp_serv Importações de serviços",
+      "value": 0.8654,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 imp_serv Importações de serviços",
+      "value": 3.8856,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 imp_serv Importações de serviços",
+      "value": 3.5066,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 imp_good_ex_v Importações de bens, sem objetos de valor",
+      "value": 3.1532,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 imp_good_ex_v Importações de bens, sem objetos de valor",
+      "value": 4.7551,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 imp_good_ex_v Importações de bens, sem objetos de valor",
+      "value": 13.2218,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 chem_pharm Química e farmacêutica",
+      "value": 4.2115,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 manu_other Demais manufaturas",
+      "value": 4.0724,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 manu Manufatura",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 chem_pharm Química e farmacêutica",
+      "value": 10.5026,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 chem_pharm Química e farmacêutica",
+      "value": 49.104,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 manu_other Demais manufaturas",
+      "value": 0.723,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_pct",
+      "row": "2026-04-01 trade Comércio",
+      "value": 0.8101,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "YoY_cssa_pct",
+      "row": "2026-04-01 trade Comércio",
+      "value": 1.7025,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/series_utilizadas.csv",
+      "header": "QoQ_anualizado_pct",
+      "row": "2026-04-01 trade Comércio",
+      "value": 3.2801,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S08",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-ff12d89a73a6bdbe2f038c34",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pib_real_cssa_desde_2023.csv",
+      "header": "yoy_cssa",
+      "row": "2026-04-01 2026T2",
+      "value": 2.147,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_real_quatro_ajustes_ultimo_trimestre.csv",
+      "header": "yoy",
+      "row": "2026-04-01 cssa 2026T2",
+      "value": 2.147,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_real_quatro_ajustes_ultimo_trimestre.csv",
+      "header": "yoy",
+      "row": "2026-04-01 csa 2026T2",
+      "value": 2.632,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/pib_real_cssa_crescimento_anual.csv",
+      "header": "ano",
+      "row": "",
+      "value": 1980.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_cssa_crescimento_anual.csv",
+      "header": "ano",
+      "row": "",
+      "value": 1981.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_cssa_crescimento_anual.csv",
+      "header": "ano",
+      "row": "",
+      "value": 1982.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/contribuicoes_despesa_cssa_gc_q.csv",
+      "header": "2026T2",
+      "row": "soma Soma (igual ao t/t-1 do PIB) pp",
+      "value": 1.541,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_real_cssa_crescimento_anual.csv",
+      "header": "crescimento_real_soma_dos_trimestres_pct",
+      "row": "",
+      "value": 1.6612,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_cssa_crescimento_anual.csv",
+      "header": "crescimento_real_soma_dos_trimestres_pct",
+      "row": "",
+      "value": 1.837,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/pib_real_cssa_crescimento_anual.csv",
+      "header": "crescimento_real_soma_dos_trimestres_pct",
+      "row": "",
+      "value": -1.3314,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_cssa_crescimento_anual.csv",
+      "header": "crescimento_real_soma_dos_trimestres_pct",
+      "row": "",
+      "value": 0.6327,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_cssa_crescimento_anual.csv",
+      "header": "crescimento_real_soma_dos_trimestres_pct",
+      "row": "",
+      "value": 2.987,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_familias_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T4_qoq_pct",
+      "row": "hh_prod Produção das famílias",
+      "value": 0.309,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T3_qoq_pct",
+      "row": "hh_prod Produção das famílias",
+      "value": -0.073,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T1_qoq_pct",
+      "row": "hh_prod Produção das famílias",
+      "value": 0.827,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T2_qoq_pct",
+      "row": "hh_prod Produção das famílias",
+      "value": 0.907,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_governo_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/contribuicoes_despesa_cssa_gc_q.csv",
+      "header": "2026T2",
+      "row": "exp_ex_v Exportações excl. objetos de valor pp do t/t-1",
+      "value": 2.467,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_importacoes_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/contribuicoes_despesa_cssa_gc_q.csv",
+      "header": "2026T2",
+      "row": "imp_ex_v Importações excl. objetos de valor pp do t/t-1",
+      "value": -1.043,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T2_qoq_pct",
+      "row": "manu Transformadora",
+      "value": 4.452,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T3_qoq_pct",
+      "row": "mining Indústrias extrativas",
+      "value": 0.013,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T4_qoq_pct",
+      "row": "mining Indústrias extrativas",
+      "value": 0.263,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T1_qoq_pct",
+      "row": "mining Indústrias extrativas",
+      "value": -1.646,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T3_qoq_pct",
+      "row": "trade Comércio",
+      "value": 1.506,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T4_qoq_pct",
+      "row": "trade Comércio",
+      "value": 1.594,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T2_qoq_pct",
+      "row": "trade Comércio",
+      "value": 0.81,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T1_qoq_pct",
+      "row": "trade Comércio",
+      "value": -2.17,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T3_qoq_pct",
+      "row": "other_serv Outros serviços",
+      "value": -0.333,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S08",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-4ed7bbd2fe5d5f8aa82f8884",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pib_real_cssa_desde_2023.csv",
+      "header": "yoy_cssa",
+      "row": "2026-04-01 2026T2",
+      "value": 2.147,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_real_quatro_ajustes_ultimo_trimestre.csv",
+      "header": "yoy",
+      "row": "2026-04-01 cssa 2026T2",
+      "value": 2.147,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_real_quatro_ajustes_ultimo_trimestre.csv",
+      "header": "yoy",
+      "row": "2026-04-01 csa 2026T2",
+      "value": 2.632,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/pib_real_crescimento_anual_por_ajuste.csv",
+      "header": "ano",
+      "row": "na",
+      "value": 2021.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_crescimento_anual_por_ajuste.csv",
+      "header": "ano",
+      "row": "na",
+      "value": 2022.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_crescimento_anual_por_ajuste.csv",
+      "header": "ano",
+      "row": "na",
+      "value": 2023.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_qoq": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/contribuicoes_despesa_cssa_gc_q.csv",
+      "header": "2026T2",
+      "row": "soma Soma (igual ao t/t-1 do PIB) pp",
+      "value": 1.541,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_real_crescimento_anual_por_ajuste.csv",
+      "header": "crescimento_soma_dos_trimestres_pct",
+      "row": "na",
+      "value": 6.176,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_crescimento_anual_por_ajuste.csv",
+      "header": "crescimento_soma_dos_trimestres_pct",
+      "row": "na",
+      "value": 1.515,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/pib_real_crescimento_anual_por_ajuste.csv",
+      "header": "crescimento_soma_dos_trimestres_pct",
+      "row": "na",
+      "value": 3.534,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_crescimento_anual_por_ajuste.csv",
+      "header": "crescimento_soma_dos_trimestres_pct",
+      "row": "na",
+      "value": 0.997,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_real_crescimento_anual_por_ajuste.csv",
+      "header": "crescimento_soma_dos_trimestres_pct",
+      "row": "nasa",
+      "value": 5.889,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_familias_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T4_qoq_pct",
+      "row": "hh_prod Produção das famílias",
+      "value": 0.309,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T3_qoq_pct",
+      "row": "hh_prod Produção das famílias",
+      "value": -0.073,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T1_qoq_pct",
+      "row": "hh_prod Produção das famílias",
+      "value": 0.827,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T2_qoq_pct",
+      "row": "hh_prod Produção das famílias",
+      "value": 0.907,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_consumo_governo_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "none",
+    "correct": false,
+    "evidence": [],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/contribuicoes_despesa_cssa_gc_q.csv",
+      "header": "2026T2",
+      "row": "exp_ex_v Exportações excl. objetos de valor pp do t/t-1",
+      "value": 2.467,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_importacoes_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/contribuicoes_despesa_cssa_gc_q.csv",
+      "header": "2026T2",
+      "row": "imp_ex_v Importações excl. objetos de valor pp do t/t-1",
+      "value": -1.043,
+      "variant": "[2026Q2]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T2_qoq_pct",
+      "row": "manu Transformadora",
+      "value": 4.452,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T3_qoq_pct",
+      "row": "mining Indústrias extrativas",
+      "value": 0.013,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T4_qoq_pct",
+      "row": "mining Indústrias extrativas",
+      "value": 0.263,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T1_qoq_pct",
+      "row": "mining Indústrias extrativas",
+      "value": -1.646,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T3_qoq_pct",
+      "row": "trade Comércio",
+      "value": 1.506,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T4_qoq_pct",
+      "row": "trade Comércio",
+      "value": 1.594,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T2_qoq_pct",
+      "row": "trade Comércio",
+      "value": 0.81,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2026T1_qoq_pct",
+      "row": "trade Comércio",
+      "value": -2.17,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/producao_qoq_e_contrib_cssa.csv",
+      "header": "2025T3_qoq_pct",
+      "row": "other_serv Outros serviços",
+      "value": -0.333,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S08",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-c110498adff37d3b78f50033",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "PIB",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "PIB",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "PIB",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_familias_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Consumo privado",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Consumo privado",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Consumo privado",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Consumo do governo",
+      "value": 0.4151,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Consumo do governo",
+      "value": 1.6706,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Consumo do governo",
+      "value": 1.6748,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Investimento em construção",
+      "value": 0.7409,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Investimento em construção",
+      "value": 2.9967,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Investimento em construção",
+      "value": 2.9453,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Exportações de serviços",
+      "value": 1.5559,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Exportações de serviços",
+      "value": 6.3702,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Exportações de serviços",
+      "value": 3.7289,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Exportações de bens, exc. valores",
+      "value": 5.5162,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Exportações de bens, exc. valores",
+      "value": 23.9584,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Exportações de bens, exc. valores",
+      "value": 8.8201,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Importações de bens e serviços, exc. valores",
+      "value": 2.1627,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Importações de bens e serviços, exc. valores",
+      "value": 8.9353,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Importações de bens e serviços, exc. valores",
+      "value": 4.388,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Indústria de transformação",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Indústria de transformação",
+      "value": 19.0313,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Indústria de transformação",
+      "value": 4.1087,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Química e farmacêutica",
+      "value": 10.5026,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Química e farmacêutica",
+      "value": 49.104,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Demais indústrias de transformação",
+      "value": 0.723,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Comércio",
+      "value": 0.8101,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Comércio",
+      "value": 3.2801,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Comércio",
+      "value": 1.7025,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Comércio varejista",
+      "value": 4.8619,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Serviços financeiros",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S08",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-378e541906e0c7843a13a22e",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "PIB",
+      "value": 2.1471,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_qoq": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "PIB",
+      "value": 1.5409,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "PIB",
+      "value": 6.3077,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_familias_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Consumo privado",
+      "value": 0.3008,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Consumo privado",
+      "value": 1.2088,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Consumo privado",
+      "value": 1.3109,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_consumo_governo_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Consumo do governo",
+      "value": 0.4151,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Consumo do governo",
+      "value": 1.6706,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Consumo do governo",
+      "value": 1.6748,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_investimento_growth": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Investimento em construção",
+      "value": 0.7409,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Investimento em construção",
+      "value": 2.9967,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Investimento em construção",
+      "value": 2.9453,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_exportacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Exportações de serviços",
+      "value": 1.5559,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Exportações de serviços",
+      "value": 6.3702,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Exportações de serviços",
+      "value": 3.7289,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Exportações de bens, exc. valores",
+      "value": 5.5162,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Exportações de bens, exc. valores",
+      "value": 23.9584,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Exportações de bens, exc. valores",
+      "value": 8.8201,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_importacoes_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Importações de bens e serviços, exc. valores",
+      "value": 2.1627,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Importações de bens e serviços, exc. valores",
+      "value": 8.9353,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Importações de bens e serviços, exc. valores",
+      "value": 4.388,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_industria_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Indústria de transformação",
+      "value": 4.4516,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Indústria de transformação",
+      "value": 19.0313,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Indústria de transformação",
+      "value": 4.1087,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Química e farmacêutica",
+      "value": 10.5026,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Química e farmacêutica",
+      "value": 49.104,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Demais indústrias de transformação",
+      "value": 0.723,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_growth": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_pct",
+      "row": "Comércio",
+      "value": 0.8101,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Comércio",
+      "value": 3.2801,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Comércio",
+      "value": 1.7025,
+      "variant": "[2026Q2]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "qoq_anualizada_pct",
+      "row": "Comércio varejista",
+      "value": 4.8619,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_2026T2.csv",
+      "header": "yoy_pct",
+      "row": "Serviços financeiros",
+      "value": 9.5236,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ }
+]

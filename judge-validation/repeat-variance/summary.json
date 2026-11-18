@@ -1,0 +1,739 @@
+{
+ "question_level": {
+  "ALL": {
+   "n_questions": 4479,
+   "flip_rate": 0.0205,
+   "flips": 92,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.07,
+   "prob_abs_range_max": 0.66,
+   "credit_range_mean": 0.0194,
+   "credit_range_p95": 0.07
+  },
+  "C04-images": {
+   "n_questions": 175,
+   "flip_rate": 0.0229,
+   "flips": 4,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.09,
+   "prob_abs_range_max": 0.21,
+   "credit_range_mean": 0.0261,
+   "credit_range_p95": 0.11
+  },
+  "C04-numeric": {
+   "n_questions": 250,
+   "flip_rate": 0.028,
+   "flips": 7,
+   "prob_abs_range_median": 0.0,
+   "prob_abs_range_p95": 0.04,
+   "prob_abs_range_max": 0.28,
+   "credit_range_mean": 0.0,
+   "credit_range_p95": 0.0
+  },
+  "C04-text": {
+   "n_questions": 100,
+   "flip_rate": 0.04,
+   "flips": 4,
+   "prob_abs_range_median": 0.0,
+   "prob_abs_range_p95": 0.06,
+   "prob_abs_range_max": 0.1,
+   "credit_range_mean": 0.0171,
+   "credit_range_p95": 0.055
+  },
+  "numeric": {
+   "n_questions": 549,
+   "flip_rate": 0.0546,
+   "flips": 30,
+   "prob_abs_range_median": 0.0,
+   "prob_abs_range_p95": 0.05,
+   "prob_abs_range_max": 0.43,
+   "credit_range_mean": 0.0,
+   "credit_range_p95": 0.0
+  },
+  "visual60": {
+   "n_questions": 3405,
+   "flip_rate": 0.0138,
+   "flips": 47,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.08,
+   "prob_abs_range_max": 0.66,
+   "credit_range_mean": 0.0237,
+   "credit_range_p95": 0.08
+  },
+  "block:identity": {
+   "n_questions": 610,
+   "flip_rate": 0.0148,
+   "flips": 9,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.08,
+   "prob_abs_range_max": 0.27,
+   "credit_range_mean": 0.0279,
+   "credit_range_p95": 0.075
+  },
+  "block:coverage": {
+   "n_questions": 2360,
+   "flip_rate": 0.0072,
+   "flips": 17,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.08,
+   "prob_abs_range_max": 0.66,
+   "credit_range_mean": 0.0243,
+   "credit_range_p95": 0.09
+  },
+  "block:presentation": {
+   "n_questions": 610,
+   "flip_rate": 0.041,
+   "flips": 25,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.08,
+   "prob_abs_range_max": 0.21,
+   "credit_range_mean": 0.0178,
+   "credit_range_p95": 0.05
+  },
+  "block:numeric": {
+   "n_questions": 799,
+   "flip_rate": 0.0463,
+   "flips": 37,
+   "prob_abs_range_median": 0.0,
+   "prob_abs_range_p95": 0.05,
+   "prob_abs_range_max": 0.43,
+   "credit_range_mean": 0.0,
+   "credit_range_p95": 0.0
+  },
+  "block:text(E)": {
+   "n_questions": 100,
+   "flip_rate": 0.04,
+   "flips": 4,
+   "prob_abs_range_median": 0.0,
+   "prob_abs_range_p95": 0.06,
+   "prob_abs_range_max": 0.1,
+   "credit_range_mean": 0.0171,
+   "credit_range_p95": 0.055
+  },
+  "visual60 task:S01": {
+   "n_questions": 300,
+   "flip_rate": 0.0233,
+   "flips": 7,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.08,
+   "prob_abs_range_max": 0.24,
+   "credit_range_mean": 0.0219,
+   "credit_range_p95": 0.08
+  },
+  "visual60 task:S02": {
+   "n_questions": 234,
+   "flip_rate": 0.0128,
+   "flips": 3,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.08,
+   "prob_abs_range_max": 0.43,
+   "credit_range_mean": 0.0288,
+   "credit_range_p95": 0.1
+  },
+  "visual60 task:S03": {
+   "n_questions": 405,
+   "flip_rate": 0.0272,
+   "flips": 11,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.08,
+   "prob_abs_range_max": 0.66,
+   "credit_range_mean": 0.0276,
+   "credit_range_p95": 0.09
+  },
+  "visual60 task:S04": {
+   "n_questions": 312,
+   "flip_rate": 0.0064,
+   "flips": 2,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.07,
+   "prob_abs_range_max": 0.29,
+   "credit_range_mean": 0.0203,
+   "credit_range_p95": 0.06
+  },
+  "visual60 task:S05": {
+   "n_questions": 432,
+   "flip_rate": 0.0069,
+   "flips": 3,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.06,
+   "prob_abs_range_max": 0.15,
+   "credit_range_mean": 0.0205,
+   "credit_range_p95": 0.07
+  },
+  "visual60 task:S06": {
+   "n_questions": 416,
+   "flip_rate": 0.0096,
+   "flips": 4,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.08,
+   "prob_abs_range_max": 0.27,
+   "credit_range_mean": 0.028,
+   "credit_range_p95": 0.09
+  },
+  "visual60 task:S07": {
+   "n_questions": 260,
+   "flip_rate": 0.0038,
+   "flips": 1,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.07,
+   "prob_abs_range_max": 0.4,
+   "credit_range_mean": 0.0233,
+   "credit_range_p95": 0.085
+  },
+  "visual60 task:S08": {
+   "n_questions": 350,
+   "flip_rate": 0.0171,
+   "flips": 6,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.07,
+   "prob_abs_range_max": 0.43,
+   "credit_range_mean": 0.0238,
+   "credit_range_p95": 0.09
+  },
+  "visual60 task:S09": {
+   "n_questions": 351,
+   "flip_rate": 0.0171,
+   "flips": 6,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.08,
+   "prob_abs_range_max": 0.3,
+   "credit_range_mean": 0.0267,
+   "credit_range_p95": 0.08
+  },
+  "visual60 task:S10": {
+   "n_questions": 105,
+   "flip_rate": 0.019,
+   "flips": 2,
+   "prob_abs_range_median": 0.0,
+   "prob_abs_range_p95": 0.06,
+   "prob_abs_range_max": 0.13,
+   "credit_range_mean": 0.0128,
+   "credit_range_p95": 0.045
+  },
+  "visual60 task:S11": {
+   "n_questions": 240,
+   "flip_rate": 0.0083,
+   "flips": 2,
+   "prob_abs_range_median": 0.01,
+   "prob_abs_range_p95": 0.06,
+   "prob_abs_range_max": 0.21,
+   "credit_range_mean": 0.0176,
+   "credit_range_p95": 0.06
+  }
+ },
+ "flip_rate_by_mean_top2_margin": {
+  "0-0.1": {
+   "n": 147,
+   "flip_rate": 0.442
+  },
+  "0.1-0.2": {
+   "n": 135,
+   "flip_rate": 0.126
+  },
+  "0.2-0.4": {
+   "n": 236,
+   "flip_rate": 0.03
+  },
+  "0.4-0.6": {
+   "n": 322,
+   "flip_rate": 0.006
+  },
+  "0.6-1.01": {
+   "n": 3639,
+   "flip_rate": 0.0
+  }
+ },
+ "choice_not_argmax": {
+  "count": 0,
+  "of": 13437
+ },
+ "score_level": {
+  "visual60_L_prob": {
+   "n": 280,
+   "mean": 0.367,
+   "median": 0.296,
+   "p90": 0.708,
+   "max": 1.824,
+   "pooled_sd": 0.464,
+   "range_dist": {
+    "n": 280,
+    "mean": 0.702,
+    "median": 0.567,
+    "p90": 1.36,
+    "max": 3.583
+   }
+  },
+  "visual60_L_choice": {
+   "n": 280,
+   "mean": 0.392,
+   "median": 0.0,
+   "p90": 2.887,
+   "max": 6.009,
+   "pooled_sd": 1.106,
+   "range_dist": {
+    "n": 280,
+    "mean": 0.686,
+    "median": 0.0,
+    "p90": 5.0,
+    "max": 11.667
+   }
+  },
+  "visual60_block_identity_of20": {
+   "n": 280,
+   "mean": 0.225,
+   "median": 0.189,
+   "p90": 0.433,
+   "max": 1.091,
+   "pooled_sd": 0.282
+  },
+  "visual60_block_coverage_of20": {
+   "n": 280,
+   "mean": 0.157,
+   "median": 0.096,
+   "p90": 0.377,
+   "max": 1.748,
+   "pooled_sd": 0.256
+  },
+  "visual60_block_presentation_of20": {
+   "n": 280,
+   "mean": 0.149,
+   "median": 0.126,
+   "p90": 0.293,
+   "max": 0.601,
+   "pooled_sd": 0.178
+  },
+  "visual60_by_task_pooled_sd": {
+   "S01": 0.481,
+   "S02": 0.566,
+   "S03": 0.527,
+   "S04": 0.508,
+   "S05": 0.412,
+   "S06": 0.512,
+   "S07": 0.449,
+   "S08": 0.503,
+   "S09": 0.385,
+   "S10": 0.213,
+   "S11": 0.412
+  },
+  "visual60_by_image_count_pooled_sd": {
+   "1": {
+    "n": 11,
+    "pooled_sd": 0.641
+   },
+   "2-3": {
+    "n": 87,
+    "pooled_sd": 0.469
+   },
+   "4-6": {
+    "n": 131,
+    "pooled_sd": 0.479
+   },
+   "7+": {
+    "n": 51,
+    "pooled_sd": 0.361
+   }
+  },
+  "visual60_top_sd_deliveries": [
+   {
+    "task": "S04",
+    "phase": "A1",
+    "model": "claude-haiku-5-5",
+    "L": [
+     47.18,
+     44.8,
+     48.38
+    ],
+    "Lchoice": [
+     60.0,
+     60.0,
+     60.0
+    ]
+   },
+   {
+    "task": "S03",
+    "phase": "A1",
+    "model": "claude-opus-5-5",
+    "L": [
+     54.8,
+     55.75,
+     52.25
+    ],
+    "Lchoice": [
+     60.0,
+     60.0,
+     55.0
+    ]
+   },
+   {
+    "task": "S08",
+    "phase": "A2",
+    "model": "gpt-6-luna",
+    "L": [
+     40.63,
+     41.68,
+     43.7
+    ],
+    "Lchoice": [
+     45.0,
+     45.0,
+     55.0
+    ]
+   },
+   {
+    "task": "S06",
+    "phase": "A3",
+    "model": "claude-haiku-5-5",
+    "L": [
+     55.73,
+     54.33,
+     53.12
+    ],
+    "Lchoice": [
+     60.0,
+     60.0,
+     55.0
+    ]
+   },
+   {
+    "task": "S09",
+    "phase": "A1",
+    "model": "gpt-6-luna",
+    "L": [
+     48.35,
+     46.33,
+     45.97
+    ],
+    "Lchoice": [
+     55.0,
+     55.0,
+     55.0
+    ]
+   },
+   {
+    "task": "S02",
+    "phase": "A1",
+    "model": "gpt-6-luna",
+    "L": [
+     40.6,
+     42.08,
+     39.63
+    ],
+    "Lchoice": [
+     45.0,
+     45.0,
+     45.0
+    ]
+   },
+   {
+    "task": "S01",
+    "phase": "A3",
+    "model": "claude-opus-5-5",
+    "L": [
+     45.36,
+     43.0,
+     44.74
+    ],
+    "Lchoice": [
+     52.5,
+     52.5,
+     52.5
+    ]
+   },
+   {
+    "task": "S02",
+    "phase": "A1",
+    "model": "kimi-code/k3.1-pro",
+    "L": [
+     47.67,
+     45.7,
+     45.43
+    ],
+    "Lchoice": [
+     55.0,
+     50.0,
+     50.0
+    ]
+   }
+  ],
+  "numeric40_jev_choice": {
+   "n": 78,
+   "mean": 0.74,
+   "median": 0.0,
+   "p90": 5.774,
+   "max": 5.774,
+   "pooled_sd": 2.067,
+   "tasks": [
+    "S01",
+    "S02",
+    "S03"
+   ]
+  },
+  "numeric40_jev_prob": {
+   "n": 78,
+   "mean": 0.361,
+   "median": 0.304,
+   "p90": 0.702,
+   "max": 2.29,
+   "pooled_sd": 0.486
+  },
+  "numeric_top": [
+   {
+    "task": "S01",
+    "phase": "A1",
+    "model": "gpt-6-luna",
+    "N_choice": [
+     0.0,
+     10.0,
+     0.0
+    ]
+   },
+   {
+    "task": "S01",
+    "phase": "A3",
+    "model": "claude-sonnet-5-5",
+    "N_choice": [
+     0.0,
+     10.0,
+     0.0
+    ]
+   },
+   {
+    "task": "S03",
+    "phase": "A1",
+    "model": "claude-fable-5-1",
+    "N_choice": [
+     20.0,
+     30.0,
+     30.0
+    ]
+   },
+   {
+    "task": "S03",
+    "phase": "A1",
+    "model": "claude-haiku-5-5",
+    "N_choice": [
+     0.0,
+     10.0,
+     10.0
+    ]
+   },
+   {
+    "task": "S03",
+    "phase": "A1",
+    "model": "claude-opus-5-5",
+    "N_choice": [
+     20.0,
+     10.0,
+     20.0
+    ]
+   },
+   {
+    "task": "S03",
+    "phase": "A1",
+    "model": "gpt-6.1-sol",
+    "N_choice": [
+     0.0,
+     10.0,
+     0.0
+    ]
+   }
+  ],
+  "C04_L_of100": {
+   "n": 25,
+   "mean": 0.907,
+   "median": 0.449,
+   "p90": 1.185,
+   "max": 11.933,
+   "pooled_sd": 2.443
+  },
+  "C04_block_A": {
+   "n": 25,
+   "mean": 0.349,
+   "median": 0.318,
+   "p90": 0.625,
+   "max": 0.765,
+   "pooled_sd": 0.39
+  },
+  "C04_block_B": {
+   "n": 25,
+   "mean": 0.155,
+   "median": 0.038,
+   "p90": 0.5,
+   "max": 0.636,
+   "pooled_sd": 0.246
+  },
+  "C04_block_C": {
+   "n": 25,
+   "mean": 0.095,
+   "median": 0.058,
+   "p90": 0.229,
+   "max": 0.351,
+   "pooled_sd": 0.13
+  },
+  "C04_block_D": {
+   "n": 25,
+   "mean": 0.462,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 11.547,
+   "pooled_sd": 2.309
+  },
+  "C04_block_E": {
+   "n": 25,
+   "mean": 0.15,
+   "median": 0.135,
+   "p90": 0.257,
+   "max": 0.354,
+   "pooled_sd": 0.17
+  },
+  "C04_top": [
+   {
+    "phase": "A2",
+    "model": "claude-haiku-5-5",
+    "L": [
+     61.61,
+     62.77,
+     82.83
+    ],
+    "D": [
+     0.0,
+     0.0,
+     20.0
+    ]
+   },
+   {
+    "phase": "A1",
+    "model": "claude-haiku-5-5",
+    "L": [
+     46.76,
+     48.05,
+     45.67
+    ],
+    "D": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "phase": "A2",
+    "model": "gpt-6-luna",
+    "L": [
+     79.46,
+     78.02,
+     80.37
+    ],
+    "D": [
+     20.0,
+     20.0,
+     20.0
+    ]
+   }
+  ]
+ },
+ "visual60_variance_share_judge": {
+  "within_var": 0.215,
+  "total_var": 35.02,
+  "share": 0.00615,
+  "reliability_single_call": 0.9938
+ },
+ "model_means_visual60": {
+  "gpt-6-astra": {
+   "n": 33,
+   "mean": 54.78,
+   "se_from_judge_noise": 0.042,
+   "se_from_delivery_spread": 0.38
+  },
+  "claude-fable-5-1": {
+   "n": 31,
+   "mean": 54.51,
+   "se_from_judge_noise": 0.036,
+   "se_from_delivery_spread": 0.61
+  },
+  "claude-sonnet-5-5": {
+   "n": 32,
+   "mean": 54.06,
+   "se_from_judge_noise": 0.038,
+   "se_from_delivery_spread": 0.73
+  },
+  "grok-4.7": {
+   "n": 24,
+   "mean": 54.03,
+   "se_from_judge_noise": 0.041,
+   "se_from_delivery_spread": 0.56
+  },
+  "gpt-6.1-sol": {
+   "n": 33,
+   "mean": 53.86,
+   "se_from_judge_noise": 0.044,
+   "se_from_delivery_spread": 0.83
+  },
+  "claude-opus-5-5": {
+   "n": 33,
+   "mean": 53.73,
+   "se_from_judge_noise": 0.055,
+   "se_from_delivery_spread": 0.69
+  },
+  "kimi-code/k3.1-pro": {
+   "n": 28,
+   "mean": 48.95,
+   "se_from_judge_noise": 0.048,
+   "se_from_delivery_spread": 1.26
+  },
+  "claude-haiku-5-5": {
+   "n": 33,
+   "mean": 47.32,
+   "se_from_judge_noise": 0.059,
+   "se_from_delivery_spread": 1.25
+  },
+  "gpt-6-luna": {
+   "n": 33,
+   "mean": 47.06,
+   "se_from_judge_noise": 0.056,
+   "se_from_delivery_spread": 1.3
+  }
+ },
+ "rank_stability_single_call": {
+  "draws": 2000,
+  "same_full_order": 0.559,
+  "same_top3": 0.639,
+  "adjacent_gaps": {
+   "gpt-6-astra - claude-fable-5-1": {
+    "gap": 0.27,
+    "p_reversed": 0.0
+   },
+   "claude-fable-5-1 - claude-sonnet-5-5": {
+    "gap": 0.45,
+    "p_reversed": 0.0
+   },
+   "claude-sonnet-5-5 - grok-4.7": {
+    "gap": 0.03,
+    "p_reversed": 0.358
+   },
+   "grok-4.7 - gpt-6.1-sol": {
+    "gap": 0.17,
+    "p_reversed": 0.026
+   },
+   "gpt-6.1-sol - claude-opus-5-5": {
+    "gap": 0.13,
+    "p_reversed": 0.09
+   },
+   "claude-opus-5-5 - kimi-code/k3.1-pro": {
+    "gap": 4.78,
+    "p_reversed": 0.0
+   },
+   "kimi-code/k3.1-pro - claude-haiku-5-5": {
+    "gap": 1.63,
+    "p_reversed": 0.0
+   },
+   "claude-haiku-5-5 - gpt-6-luna": {
+    "gap": 0.26,
+    "p_reversed": 0.011
+   }
+  }
+ },
+ "within_cell_adjacent_pairs": {
+  "pairs": 247,
+  "gap_below_2se_of_judge_noise": 88
+ }
+}

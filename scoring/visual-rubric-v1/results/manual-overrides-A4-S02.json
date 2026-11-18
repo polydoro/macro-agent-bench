@@ -1,0 +1,4 @@
+[
+ {"phase": "A4e", "model": "claude-haiku-5-5", "question": "N_total_yoy", "correct": true, "note": "dados/destatis_auftragseingang_vm_real_sa.csv, 2026-08, pct_vj_original_tabela_destatis = 3.5 (NSA YoY, admitted 3.46 +/- 0.15 under the seed's release). Same file and reading as the A1 override; header 'vj' not matched automatically."},
+ {"phase": "A4s", "model": "claude-haiku-5-5", "question": "N_total_yoy", "correct": true, "note": "dados/destatis_publicacao_2026-11-05.csv, 2026-09, yoy_calaj_real_pct = 3.3 (calendar-adjusted YoY of Destatis PD 385, admitted 3.30 +/- 0.15 under the September release). The August NSA 3.5 is also saved."}
+]

@@ -1,0 +1,19 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A4e,S03,claude-fable-5-1,scored,37.5,30.0,7.5,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:ambiguous
+A4e,S03,claude-haiku-5-5,scored,15.0,15.0,0.0,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:fail resto_yoy:none equipo_personal_yoy:none equipo_hogar_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A4e,S03,claude-opus-5-5,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:manual resto_yoy:manual equipo_personal_yoy:none equipo_hogar_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A4e,S03,claude-sonnet-5-5,scored,30.83,30.0,0.83,total_3m:ambiguous
+A4e,S03,gpt-6-astra,scored,40.0,30.0,10.0,resto_yoy:none unilocalizadas_yoy:none
+A4e,S03,gpt-6-luna,scored,22.5,22.5,0.0,total_yoy:ambiguous total_3m:fail grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous
+A4e,S03,gpt-6.1-sol,scored,30.0,30.0,0.0,resto_yoy:none grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A4e,S03,grok-4.7,scored,36.67,30.0,6.67,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:none
+A4e,S03,kimi-code/k3.1-pro,scored,37.5,30.0,7.5,total_3m:manual
+A4s,S03,claude-fable-5-1,scored,38.33,30.0,8.33,total_yoy:ambiguous total_3m:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:ambiguous
+A4s,S03,claude-haiku-5-5,scored,34.17,30.0,4.17,total_yoy:ambiguous total_3m:ambiguous grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A4s,S03,claude-opus-5-5,scored,32.5,30.0,2.5,total_yoy:ambiguous alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A4s,S03,claude-sonnet-5-5,scored,30.0,30.0,0.0,
+A4s,S03,gpt-6-astra,scored,40.0,30.0,10.0,resto_yoy:none unilocalizadas_yoy:none
+A4s,S03,gpt-6-luna,scored,22.5,22.5,0.0,total_yoy:ambiguous total_3m:none alimentacion_yoy:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:none grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous
+A4s,S03,gpt-6.1-sol,scored,30.0,30.0,0.0,total_yoy:ambiguous alimentacion_yoy:ambiguous resto_yoy:none equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none
+A4s,S03,grok-4.7,scored,35.0,30.0,5.0,total_3m:ambiguous resto_yoy:ambiguous equipo_personal_yoy:ambiguous equipo_hogar_yoy:ambiguous grandes_cadenas_yoy:ambiguous pequenas_cadenas_yoy:ambiguous unilocalizadas_yoy:none
+A4s,S03,kimi-code/k3.1-pro,scored,37.5,30.0,7.5,total_3m:manual resto_yoy:manual grandes_superficies_yoy:none grandes_cadenas_yoy:none pequenas_cadenas_yoy:none unilocalizadas_yoy:none

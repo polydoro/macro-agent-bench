@@ -1,0 +1,28 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A1,S08,claude-fable-5-1,scored,38.61,30.0,8.61,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A1,S08,claude-haiku-5-5,scored,22.5,15.0,7.5,consumo_familias_growth:none consumo_governo_growth:none investimento_growth:none exportacoes_growth:none importacoes_growth:none industria_growth:none servicos_growth:none
+A1,S08,claude-opus-5-5,scored,34.17,30.0,4.17,total_qoq:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A1,S08,claude-sonnet-5-5,scored,36.39,30.0,6.39,total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A1,S08,gpt-6-astra,scored,32.5,30.0,2.5,investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A1,S08,gpt-6-luna,scored,30.0,30.0,0.0,consumo_familias_growth:ambiguous consumo_governo_growth:none investimento_growth:ambiguous exportacoes_growth:ambiguous industria_growth:ambiguous
+A1,S08,gpt-6.1-sol,scored,34.17,30.0,4.17,exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A1,S08,grok-4.7,scored,36.67,30.0,6.67,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:none investimento_growth:none industria_growth:ambiguous servicos_growth:ambiguous
+A1,S08,kimi-code/k3.1-pro,scored,40.0,30.0,10.0,exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A2,S08,claude-fable-5-1,scored,40.0,30.0,10.0,consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A2,S08,claude-haiku-5-5,scored,40.0,30.0,10.0,total_yoy:manual total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A2,S08,claude-opus-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A2,S08,claude-sonnet-5-5,verified_absence,0.0,0.0,0.0,
+A2,S08,gpt-6-astra,scored,40.0,30.0,10.0,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A2,S08,gpt-6-luna,scored,30.0,30.0,0.0,total_yoy:ambiguous total_qoq:ambiguous consumo_governo_growth:none exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A2,S08,gpt-6.1-sol,scored,38.33,30.0,8.33,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A2,S08,grok-4.7,verified_absence,0.0,0.0,0.0,
+A2,S08,kimi-code/k3.1-pro,scored,40.0,30.0,10.0,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A3,S08,claude-fable-5-1,scored,40.0,30.0,10.0,consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,claude-haiku-5-5,scored,17.5,15.0,2.5,consumo_familias_growth:none consumo_governo_growth:none investimento_growth:none exportacoes_growth:none importacoes_growth:none industria_growth:none servicos_growth:none
+A3,S08,claude-opus-5-5,scored,35.0,30.0,5.0,consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,claude-sonnet-5-5,scored,40.0,30.0,10.0,total_yoy:ambiguous total_qoq:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,gpt-6-astra,scored,36.11,30.0,6.11,consumo_governo_growth:none exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,gpt-6-luna,scored,30.0,30.0,0.0,total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:none investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A3,S08,gpt-6.1-sol,scored,34.17,30.0,4.17,consumo_familias_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous
+A3,S08,grok-4.7,scored,35.0,30.0,5.0,total_yoy:ambiguous total_qoq:ambiguous consumo_familias_growth:ambiguous consumo_governo_growth:ambiguous investimento_growth:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous servicos_growth:ambiguous
+A3,S08,kimi-code/k3.1-pro,scored,40.0,30.0,10.0,total_qoq:ambiguous exportacoes_growth:ambiguous importacoes_growth:ambiguous industria_growth:ambiguous

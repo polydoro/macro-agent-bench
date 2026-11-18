@@ -1,0 +1,13 @@
+arm,role,period,yoy_ca,yoy_nsa,source
+A1,domestico,2026-08,1.21,2.10,"Destatis GENESIS 42151-0004 (X13 JDemetra+ kalenderbereinigt, Inland 75.3 vs 74.4), saved by Kimi A2; same August release in every arm; yoy_nsa from Originalwerte (Inland 72.9 vs 71.4, Ausland 76.0 vs 72.7)"
+A1,externo,2026-08,3.86,4.54,"Destatis GENESIS 42151-0004 (Ausland 78.1 vs 75.2); yoy_nsa from Originalwerte (Inland 72.9 vs 71.4, Ausland 76.0 vs 72.7)"
+A2,domestico,2026-08,1.21,2.10,"Destatis GENESIS 42151-0004; yoy_nsa from Originalwerte (Inland 72.9 vs 71.4, Ausland 76.0 vs 72.7)"
+A2,externo,2026-08,3.86,4.54,"Destatis GENESIS 42151-0004; yoy_nsa from Originalwerte (Inland 72.9 vs 71.4, Ausland 76.0 vs 72.7)"
+A3,domestico,2026-08,1.21,2.10,"Destatis GENESIS 42151-0004; yoy_nsa from Originalwerte (Inland 72.9 vs 71.4, Ausland 76.0 vs 72.7)"
+A3,externo,2026-08,3.86,4.54,"Destatis GENESIS 42151-0004; yoy_nsa from Originalwerte (Inland 72.9 vs 71.4, Ausland 76.0 vs 72.7)"
+A1,total,2026-08,,3.46,Destatis GENESIS 42151-0004 Originalwerte (Insgesamt 74.7 vs 72.2); Destatis publishes 3.5
+A2,total,2026-08,,3.46,Destatis GENESIS 42151-0004 Originalwerte (Insgesamt 74.7 vs 72.2); Destatis publishes 3.5
+A3,total,2026-08,,3.46,Destatis GENESIS 42151-0004 Originalwerte (Insgesamt 74.7 vs 72.2); Destatis publishes 3.5
+A4,total,2026-09,,,September release: no NSA or calendar-only series saved
+A4,domestico,2026-09,,,September release: no NSA or calendar-only series saved
+A4,externo,2026-09,,,September release: no NSA or calendar-only series saved

@@ -1,0 +1,3656 @@
+[
+ {
+  "phase": "A4e",
+  "task": "S07",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-2d4a62948e6f08f7f2e095da",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECY2 2026-08 yoy",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/pib_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2024Q4",
+      "value": 1.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "recalculado_%",
+      "row": "ECY2 yoy",
+      "value": 2.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECY3 2026-08 yoy",
+      "value": -3.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECY5 2026-08 yoy",
+      "value": -5.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECY6 2026-08 yoy",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECYI 2026-08 3m3m",
+      "value": 2.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECYL 2026-08 3m3m",
+      "value": 2.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECYP 2026-08 3m3m",
+      "value": 3.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECY2 2026-08 3m3m",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECY3 2026-08 3m3m",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECY5 2026-08 3m3m",
+      "value": -0.6,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECYC 2026-08 yoy",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "recalculado_%",
+      "row": "ECYC yoy",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "oficial_%",
+      "row": "ECYC yoy",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "dif_pp",
+      "row": "ECYC yoy",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECY4 2026-08 yoy",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "recalculado_%",
+      "row": "ECY4 yoy",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "oficial_%",
+      "row": "ECY4 yoy",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "dif_pp",
+      "row": "ECY4 yoy",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_construcao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/uk_pib_mensal_taxas_oficiais_planilha.csv",
+      "header": "valor_oficial_%",
+      "row": "ECY9 2026-08 yoy",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "recalculado_%",
+      "row": "ECY9 yoy",
+      "value": -1.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "oficial_%",
+      "row": "ECY9 yoy",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/validacao_secoes_2026_08.csv",
+      "header": "dif_pp",
+      "row": "ECY9 yoy",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S07",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a4-result-da8a68eb379f3941416eef99",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/pib_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2024Q4",
+      "value": 1.9,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/tabela_principal_13m.csv",
+      "header": "YoY_%",
+      "row": "PIB mensal (VAB total A-T) ECY2 2026-08 oficial ONS (planilha)",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "2026-08_calc",
+      "row": "ECY2 PIB mensal (VAB total A-T) yoy",
+      "value": 2.0,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/pib_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2023Q3",
+      "value": 0.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2023Q4",
+      "value": -0.2,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_trimestral.csv",
+      "header": "YoY_%",
+      "row": "2024Q1",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/aberturas_2026_08.csv",
+      "header": "3msaar_%",
+      "row": "ECY2 PIB mensal (VAB total A-T) oficial ONS (planilha); 3msaar anualizado a partir do 3m/3m oficial",
+      "value": 2.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_trimestral.csv",
+      "header": "q/q_anualizado_%",
+      "row": "2024Q1",
+      "value": 3.0,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_trimestral.csv",
+      "header": "q/q_anualizado_%",
+      "row": "2024Q2",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/aberturas_2026_08.csv",
+      "header": "peso_2024_pormil",
+      "row": "ECY2 PIB mensal (VAB total A-T) oficial ONS (planilha); 3msaar anualizado a partir do 3m/3m oficial",
+      "value": 1000.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/aberturas_2026_08.csv",
+      "header": "nivel_sa",
+      "row": "ECY2 PIB mensal (VAB total A-T) oficial ONS (planilha); 3msaar anualizado a partir do 3m/3m oficial",
+      "value": 103.1,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/aberturas_2026_08.csv",
+      "header": "m/m_%",
+      "row": "ECY2 PIB mensal (VAB total A-T) oficial ONS (planilha); 3msaar anualizado a partir do 3m/3m oficial",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela_principal_13m.csv",
+      "header": "YoY_%",
+      "row": "Serviços (G-T) ECYC 2026-08 oficial ONS (planilha)",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "2026-08_calc",
+      "row": "ECYC Serviços (G-T) yoy",
+      "value": 2.5,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "2026-08_oficial",
+      "row": "ECYC Serviços (G-T) yoy",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "meses",
+      "row": "ECYC Serviços (G-T) yoy",
+      "value": 25.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "diferenca_abs_media_pp",
+      "row": "ECYC Serviços (G-T) yoy",
+      "value": 0.024,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "diferenca_abs_max_pp",
+      "row": "ECYC Serviços (G-T) yoy",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela_principal_13m.csv",
+      "header": "YoY_%",
+      "row": "Produção (B-E) ECY4 2026-08 oficial ONS (planilha)",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "2026-08_calc",
+      "row": "ECY4 Produção (B-E) yoy",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "2026-08_oficial",
+      "row": "ECY4 Produção (B-E) yoy",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "meses",
+      "row": "ECY4 Produção (B-E) yoy",
+      "value": 25.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "diferenca_abs_media_pp",
+      "row": "ECY4 Produção (B-E) yoy",
+      "value": 0.032,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "diferenca_abs_max_pp",
+      "row": "ECY4 Produção (B-E) yoy",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_construcao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/tabela_principal_13m.csv",
+      "header": "YoY_%",
+      "row": "Construção (F) ECY9 2026-08 oficial ONS (planilha)",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "2026-08_calc",
+      "row": "ECY9 Construção (F) yoy",
+      "value": -1.9,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "2026-08_oficial",
+      "row": "ECY9 Construção (F) yoy",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "meses",
+      "row": "ECY9 Construção (F) yoy",
+      "value": 25.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "diferenca_abs_media_pp",
+      "row": "ECY9 Construção (F) yoy",
+      "value": 0.02,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/validacao_calculo_vs_oficial.csv",
+      "header": "diferenca_abs_max_pp",
+      "row": "ECY9 Construção (F) yoy",
+      "value": 0.1,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S07",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-20b3e87b87b27b7d23eceb62",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/rodada1_original/entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "PIB mensal (total)",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/rodada1_original/entrega/tabelas/pib_mensal_total_SA.csv",
+      "header": "yoy",
+      "row": "2026-08",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "PIB mensal (total)",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/rodada1_original/entrega/tabelas/aberturas_2026-08.csv",
+      "header": "3msaar_pct",
+      "row": "PIB mensal (total)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/rodada1_original/entrega/tabelas/pib_mensal_total_SA.csv",
+      "header": "3msaar",
+      "row": "2026-08",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "3msaar_pct",
+      "row": "PIB mensal (total)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/rodada1_original/entrega/tabelas/aberturas_2026-08.csv",
+      "header": "3m3m_nao_anualizado_pct",
+      "row": "PIB mensal (total)",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/rodada1_original/entrega/tabelas/pib_mensal_total_SA.csv",
+      "header": "3m3m",
+      "row": "2026-08",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "3m3m_nao_anualizado_pct",
+      "row": "PIB mensal (total)",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/rodada1_original/entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Serviços",
+      "value": 2.4704,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Serviços",
+      "value": 2.4704,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/rodada1_original/entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Indústria (produção)",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Indústria (produção)",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/rodada1_original/entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Construção",
+      "value": -1.8793,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Construção",
+      "value": -1.8793,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S07",
+  "model": "claude-haiku-5-5",
+  "final_attempt_id": "a4-result-d9e233f0f7e1fc83b3fc23e1",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "PIB mensal (total)",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_mensal_total_SA.csv",
+      "header": "yoy",
+      "row": "2026-08",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_anterior_coleta_2026-10-27/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "PIB mensal (total)",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "3msaar_pct",
+      "row": "PIB mensal (total)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_mensal_total_SA.csv",
+      "header": "3msaar",
+      "row": "2026-08",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_anterior_coleta_2026-10-27/tabelas/aberturas_2026-08.csv",
+      "header": "3msaar_pct",
+      "row": "PIB mensal (total)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "3m3m_nao_anualizado_pct",
+      "row": "PIB mensal (total)",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/pib_mensal_total_SA.csv",
+      "header": "3m3m",
+      "row": "2026-08",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/versao_anterior_coleta_2026-10-27/tabelas/aberturas_2026-08.csv",
+      "header": "3m3m_nao_anualizado_pct",
+      "row": "PIB mensal (total)",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Serviços",
+      "value": 2.4704,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/versao_anterior_coleta_2026-10-27/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Serviços",
+      "value": 2.4704,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Indústria (produção)",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/versao_anterior_coleta_2026-10-27/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Indústria (produção)",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Construção",
+      "value": -1.8793,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/versao_anterior_coleta_2026-10-27/tabelas/aberturas_2026-08.csv",
+      "header": "yoy_pct",
+      "row": "Construção",
+      "value": -1.8793,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S07",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-5e79e7a436d358bcd0699fcd",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA, recalc.)",
+      "row": "PIB (GVA mensal)",
+      "value": 1.98,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_pib_trimestral_ABMI.csv",
+      "header": "",
+      "row": "ABMI £m t/t % t/t anualiz. % YoY %",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "3msaar %",
+      "row": "PIB (GVA mensal)",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_pib_trimestral_ABMI.csv",
+      "header": "",
+      "row": "ABMI £m t/t % t/t anualiz. % YoY %",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_pib_ultimos13m.csv",
+      "header": "",
+      "row": "indice_SA mm yoy 3msaar",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "3m/3m % (não anual., recalc.)",
+      "row": "PIB (GVA mensal)",
+      "value": 0.65,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA, recalc.)",
+      "row": "Serviços",
+      "value": 2.47,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA, recalc.)",
+      "row": "Outros serv.",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA, recalc.)",
+      "row": "Produção industrial",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA, recalc.)",
+      "row": "Construção",
+      "value": -1.88,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S07",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a4-result-163438504a2ce8ef77ad9b31",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA)",
+      "row": "PIB (GVA mensal)",
+      "value": 1.98,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_pib_trimestral_ABMI.csv",
+      "header": "",
+      "row": "ABMI £m t/t % t/t anualiz. % YoY %",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "3msaar %",
+      "row": "PIB (GVA mensal)",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_pib_trimestral_ABMI.csv",
+      "header": "",
+      "row": "ABMI £m t/t % t/t anualiz. % YoY %",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_pib_ultimos13m.csv",
+      "header": "",
+      "row": "indice_SA mm yoy 3msaar",
+      "value": 0.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "3m/3m % (não anual.)",
+      "row": "PIB (GVA mensal)",
+      "value": 0.65,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA)",
+      "row": "Serviços",
+      "value": 2.47,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA)",
+      "row": "Outros serv.",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA)",
+      "row": "Produção industrial",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabela_setores_202608.csv",
+      "header": "YoY % (SA)",
+      "row": "Construção",
+      "value": -1.88,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S07",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-381eda5c07fbd9a6c73a71bf",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Gross Value Added - Monthly (period on period 1 year ago growth ) :CVM SA ED2R",
+      "row": "2026 AUG",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Gross Value Added - Monthly (period on period 1 year ago contribution ) :CVM SA EDLE",
+      "row": "2026 AUG",
+      "value": 2.06,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "PIB (VAB total) yoy",
+      "row": "2026-08-31",
+      "value": 1.978,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Agriculture, Forestry and Fishing (period on period 1 year ago growth) :CVM SA ED2S",
+      "row": "2026 AUG",
+      "value": -3.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Mining and Quarrying (period on period 1 year ago growth) :CVM SA ED2U",
+      "row": "2026 AUG",
+      "value": -5.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Manufacturing (period on period 1 year ago growth) :CVM SA ED2V",
+      "row": "2026 AUG",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "PIB (VAB total) 3msaar",
+      "row": "2026-08-31",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "3msaar % (calc.)",
+      "row": "PIB (VAB total)",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Electricity, gas, steam and air conditioning supply(3 month on 3 month growth) :CVM SA ED3M",
+      "row": "2026 AUG",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Gross Value Added - Monthly (3m on 3m 1 year ago growth) :CVM SA ED9T",
+      "row": "2026 AUG",
+      "value": 1.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Agriculture, Forestry and Fishing (3m on 3m 1 year ago growth) :CVM SA ED9U",
+      "row": "2026 AUG",
+      "value": -3.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Service Industries - Total (period on period 1 year ago growth) :CVM SA ED2Z",
+      "row": "2026 AUG",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "Serviços yoy",
+      "row": "2026-08-31",
+      "value": 2.47,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "Serviços yoy_ONS",
+      "row": "2026-08-31",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Accommodation and food service activities (period on period 1 year ago growth) :CVM SA ED34",
+      "row": "2026 AUG",
+      "value": -2.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Administrative and Support Service Activities (period on period 1 year ago growth) :CVM SA ED39",
+      "row": "2026 AUG",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Other service activities (period on period 1 year ago growth) :CVM SA ED3E",
+      "row": "2026 AUG",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Production Industries - Total (period on period 1 year ago growth) :CVM SA ED2T",
+      "row": "2026 AUG",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "Produção industrial yoy",
+      "row": "2026-08-31",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "Produção industrial yoy_ONS",
+      "row": "2026-08-31",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Production Industries - Total (period on period 1 year ago contribution ) :CVM SA EDLG",
+      "row": "2026 AUG",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "dif. YoY (p.p.)",
+      "row": "Produção industrial",
+      "value": -0.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_construcao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Construction (period on period 1 year ago growth) :CVM SA ED2Y",
+      "row": "2026 AUG",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "Construção yoy",
+      "row": "2026-08-31",
+      "value": -1.879,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "Construção yoy_ONS",
+      "row": "2026-08-31",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Construction (period on period 1 year ago contribution ) :CVM SA EDLL",
+      "row": "2026 AUG",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "dif. YoY (p.p.)",
+      "row": "Construção",
+      "value": 0.08,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S07",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a4-result-da2748c029b3a2e7611110ef",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Gross Value Added - Monthly (period on period 1 year ago growth ) :CVM SA ED2R",
+      "row": "2026 AUG",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Gross Value Added - Monthly (period on period 1 year ago contribution ) :CVM SA EDLE",
+      "row": "2026 AUG",
+      "value": 2.06,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Gross Value Added - Monthly (period on period 1 year ago growth ) :CVM SA ED2R",
+      "row": "2026 AUG",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Agriculture, Forestry and Fishing (period on period 1 year ago growth) :CVM SA ED2S",
+      "row": "2026 AUG",
+      "value": -3.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Mining and Quarrying (period on period 1 year ago growth) :CVM SA ED2U",
+      "row": "2026 AUG",
+      "value": -5.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Manufacturing (period on period 1 year ago growth) :CVM SA ED2V",
+      "row": "2026 AUG",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "PIB (VAB total) 3msaar",
+      "row": "2026-08-31",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultimo_mes.csv",
+      "header": "3msaar %",
+      "row": "PIB (VAB total)",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Electricity, gas, steam and air conditioning supply(3 month on 3 month growth) :CVM SA ED3M",
+      "row": "2026 AUG",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Gross Value Added - Monthly (3m on 3m 1 year ago growth) :CVM SA ED9T",
+      "row": "2026 AUG",
+      "value": 1.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Agriculture, Forestry and Fishing (3m on 3m 1 year ago growth) :CVM SA ED9U",
+      "row": "2026 AUG",
+      "value": -3.3,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Service Industries - Total (period on period 1 year ago growth) :CVM SA ED2Z",
+      "row": "2026 AUG",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Service Industries - Total (period on period 1 year ago growth) :CVM SA ED2Z",
+      "row": "2026 AUG",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "Serviços yoy",
+      "row": "2026-08-31",
+      "value": 2.47,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Accommodation and food service activities (period on period 1 year ago growth) :CVM SA ED34",
+      "row": "2026 AUG",
+      "value": -2.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Administrative and Support Service Activities (period on period 1 year ago growth) :CVM SA ED39",
+      "row": "2026 AUG",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Other service activities (period on period 1 year ago growth) :CVM SA ED3E",
+      "row": "2026 AUG",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Production Industries - Total (period on period 1 year ago growth) :CVM SA ED2T",
+      "row": "2026 AUG",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Production Industries - Total (period on period 1 year ago growth) :CVM SA ED2T",
+      "row": "2026 AUG",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "Produção industrial yoy",
+      "row": "2026-08-31",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Production Industries - Total (period on period 1 year ago contribution ) :CVM SA EDLG",
+      "row": "2026 AUG",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Production Industries - Total (period on period 1 year ago contribution ) :CVM SA EDLG",
+      "row": "2026 AUG",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_construcao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Construction (period on period 1 year ago growth) :CVM SA ED2Y",
+      "row": "2026 AUG",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Construction (period on period 1 year ago growth) :CVM SA ED2Y",
+      "row": "2026 AUG",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/dados_metricas.csv",
+      "header": "Construção yoy",
+      "row": "2026-08-31",
+      "value": -1.879,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/coleta_2026-11-07/mgdp_ONS_coleta_2026-11-07.csv",
+      "header": "Construction (period on period 1 year ago contribution ) :CVM SA EDLL",
+      "row": "2026 AUG",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/mgdp_ONS_2026-10-15.csv",
+      "header": "Construction (period on period 1 year ago contribution ) :CVM SA EDLL",
+      "row": "2026 AUG",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S07",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-828f0e1ba90b8732973c5c49",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_calculado",
+      "row": "2026-08-01 PIB / VAB total ECY2",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy",
+      "row": "2026-08-01 PIB / VAB total ECY2",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "PIB / VAB total 2026-08-01 ECY2",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 PIB / VAB total ECY2",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "PIB / VAB total 2026-08-01 ECY2",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3m3m_ons",
+      "row": "2026-08-01 PIB / VAB total ECY2",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3m3m_ons",
+      "row": "PIB / VAB total 2026-08-01 ECY2",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_calculado",
+      "row": "2026-08-01 Serviços ECYC",
+      "value": 2.4704,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy",
+      "row": "2026-08-01 Serviços ECYC",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "Serviços 2026-08-01 ECYC",
+      "value": 2.4704,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "Indústria de transformação 2026-08-01 ECY6",
+      "value": 3.0211,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy",
+      "row": "Indústria de transformação 2026-08-01 ECY6",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "Agropecuária 2026-08-01 ECY3",
+      "value": -3.2474,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_calculado",
+      "row": "2026-08-01 Produção industrial ECY4",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy",
+      "row": "2026-08-01 Produção industrial ECY4",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "Produção industrial 2026-08-01 ECY4",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_calculado",
+      "row": "2026-08-01 Construção ECY9",
+      "value": -1.8793,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy",
+      "row": "2026-08-01 Construção ECY9",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "Construção 2026-08-01 ECY9",
+      "value": -1.8793,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S07",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a4-result-6acfeea351e4329d4a87cb38",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_calculado",
+      "row": "2026-08-01 PIB / VAB total ECY2",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy",
+      "row": "2026-08-01 PIB / VAB total ECY2",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/auditoria_calculos.csv",
+      "header": "yoy_calculado",
+      "row": "PIB / VAB total",
+      "value": 1.9782,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3msaar",
+      "row": "2026-08-01 PIB / VAB total ECY2",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/auditoria_calculos.csv",
+      "header": "3msaar",
+      "row": "PIB / VAB total",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "3msaar",
+      "row": "PIB / VAB total 2026-08-01 ECY2",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3m3m_calculado",
+      "row": "2026-08-01 PIB / VAB total ECY2",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3m3m_ons",
+      "row": "2026-08-01 PIB / VAB total ECY2",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/auditoria_calculos.csv",
+      "header": "3m3m_calculado",
+      "row": "PIB / VAB total",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_calculado",
+      "row": "2026-08-01 Serviços ECYC",
+      "value": 2.4704,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy",
+      "row": "2026-08-01 Serviços ECYC",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/auditoria_calculos.csv",
+      "header": "yoy_calculado",
+      "row": "Serviços",
+      "value": 2.4704,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "Indústria de transformação 2026-08-01 ECY6",
+      "value": 3.0211,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy",
+      "row": "Indústria de transformação 2026-08-01 ECY6",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_ultima_observacao.csv",
+      "header": "yoy_calculado",
+      "row": "Agricultura, silvicultura e pesca 2026-08-01 ECY3",
+      "value": -3.2474,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_calculado",
+      "row": "2026-08-01 Produção industrial ECY4",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy",
+      "row": "2026-08-01 Produção industrial ECY4",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/auditoria_calculos.csv",
+      "header": "yoy_calculado",
+      "row": "Produção industrial",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_calculado",
+      "row": "2026-08-01 Construção ECY9",
+      "value": -1.8793,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy",
+      "row": "2026-08-01 Construção ECY9",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/auditoria_calculos.csv",
+      "header": "yoy_calculado",
+      "row": "Construção",
+      "value": -1.8793,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S07",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-f0fce07dc4f81a930a87ab17",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_agosto_2026.csv",
+      "header": "YoY (%)",
+      "row": "PIB total",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "PIB total_yoy",
+      "row": "2026-08",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_agosto_2026.csv",
+      "header": "3msaar (%)",
+      "row": "PIB total",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "PIB total_3msaar",
+      "row": "2026-08",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/indicadores_agosto_2026.csv",
+      "header": "3m/3m ONS (%)",
+      "row": "PIB total",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "PIB total_3m3m",
+      "row": "2026-08",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_agosto_2026.csv",
+      "header": "YoY (%)",
+      "row": "Serviços",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "Serviços_yoy",
+      "row": "2026-08",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_agosto_2026.csv",
+      "header": "YoY (%)",
+      "row": "Produção",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "Produção_yoy",
+      "row": "2026-08",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_agosto_2026.csv",
+      "header": "YoY (%)",
+      "row": "Construção",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "Construção_yoy",
+      "row": "2026-08",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S07",
+  "model": "gpt-6-luna",
+  "final_attempt_id": "a4-result-043ddea063b9f9dcad766451",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_ultima_observacao.csv",
+      "header": "YoY ONS (%)",
+      "row": "PIB mensal (GVA)",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "PIB mensal (GVA) — YoY ONS (%)",
+      "row": "2026-08",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Gross Value Added - Monthly (period on period 1 year ago growth ) :CVM SA ED2R",
+      "row": "2026 AUG",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Agriculture, Forestry and Fishing (period on period 1 year ago growth) :CVM SA ED2S",
+      "row": "2026 AUG",
+      "value": -3.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Mining and Quarrying (period on period 1 year ago growth) :CVM SA ED2U",
+      "row": "2026 AUG",
+      "value": -5.0,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Manufacturing (period on period 1 year ago growth) :CVM SA ED2V",
+      "row": "2026 AUG",
+      "value": 3.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_ultima_observacao.csv",
+      "header": "3msaar próprio (%)",
+      "row": "PIB mensal (GVA)",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "PIB mensal (GVA) — 3msaar próprio (%)",
+      "row": "2026-08",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/indicadores_ultima_observacao.csv",
+      "header": "3m/3m ONS (%)",
+      "row": "PIB mensal (GVA)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "PIB mensal (GVA) — 3m/3m ONS (%)",
+      "row": "2026-08",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Electricity, gas, steam and air conditioning supply(3 month on 3 month growth) :CVM SA ED3M",
+      "row": "2026 AUG",
+      "value": 0.4,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_ultima_observacao.csv",
+      "header": "YoY ONS (%)",
+      "row": "Serviços",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "Serviços — YoY ONS (%)",
+      "row": "2026-08",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Service Industries - Total (period on period 1 year ago growth) :CVM SA ED2Z",
+      "row": "2026 AUG",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Accommodation and food service activities (period on period 1 year ago growth) :CVM SA ED34",
+      "row": "2026 AUG",
+      "value": -2.2,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Administrative and Support Service Activities (period on period 1 year ago growth) :CVM SA ED39",
+      "row": "2026 AUG",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Other service activities (period on period 1 year ago growth) :CVM SA ED3E",
+      "row": "2026 AUG",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_ultima_observacao.csv",
+      "header": "YoY ONS (%)",
+      "row": "Produção",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "Produção — YoY ONS (%)",
+      "row": "2026-08",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Production Industries - Total (period on period 1 year ago growth) :CVM SA ED2T",
+      "row": "2026 AUG",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Production Industries - Total (period on period 1 year ago contribution ) :CVM SA EDLG",
+      "row": "2026 AUG",
+      "value": 0.2,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_construcao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/indicadores_ultima_observacao.csv",
+      "header": "YoY ONS (%)",
+      "row": "Construção",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/series_mensais.csv",
+      "header": "Construção — YoY ONS (%)",
+      "row": "2026-08",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Construction (period on period 1 year ago growth) :CVM SA ED2Y",
+      "row": "2026 AUG",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "mgdp_recoleta.csv",
+      "header": "Construction (period on period 1 year ago contribution ) :CVM SA EDLL",
+      "row": "2026 AUG",
+      "value": -0.1,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S07",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-c65acd457cfa3d2d56e81058",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 PIB mensal (proxy de VAB)",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "PIB mensal (proxy de VAB)",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabelas_ons.xlsx",
+      "header": "GVA - Gross Value Added [note 1] & Sections A-T [note 3], [note 4], [note 5] This worksheet contains",
+      "row": "Percentage change, latest year on previous year",
+      "value": 2021.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabelas_ons.xlsx",
+      "header": "GVA - Gross Value Added [note 1] & Sections A-T [note 3], [note 4], [note 5] This worksheet contains",
+      "row": "Percentage change, latest year on previous year",
+      "value": 2022.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabelas_ons.xlsx",
+      "header": "GVA - Gross Value Added [note 1] & Sections A-T [note 3], [note 4], [note 5] This worksheet contains",
+      "row": "Percentage change, latest year on previous year",
+      "value": 2023.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3msaar_calculado_pct",
+      "row": "2026-08 PIB mensal (proxy de VAB)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "3msaar calculado (%)",
+      "row": "PIB mensal (proxy de VAB)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3m3m_ons_pct",
+      "row": "2026-08 PIB mensal (proxy de VAB)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3m3m_calculado_pct",
+      "row": "2026-08 PIB mensal (proxy de VAB)",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "3m/3m ONS (%)",
+      "row": "PIB mensal (proxy de VAB)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 Serviços",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "Serviços",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 Serviços administrativos e de apoio",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "Serviços administrativos e de apoio",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 Produção industrial",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "Produção industrial",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 Construção",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "Construção",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S07",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a4-result-0a791839b40785c2f4c402fd",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 PIB mensal (proxy de VAB)",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "PIB mensal (proxy de VAB)",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/tabelas_ons.xlsx",
+      "header": "GVA - Gross Value Added [note 1] & Sections A-T [note 3], [note 4], [note 5] This worksheet contains",
+      "row": "Percentage change, latest year on previous year",
+      "value": 2021.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabelas_ons.xlsx",
+      "header": "GVA - Gross Value Added [note 1] & Sections A-T [note 3], [note 4], [note 5] This worksheet contains",
+      "row": "Percentage change, latest year on previous year",
+      "value": 2022.0,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/tabelas_ons.xlsx",
+      "header": "GVA - Gross Value Added [note 1] & Sections A-T [note 3], [note 4], [note 5] This worksheet contains",
+      "row": "Percentage change, latest year on previous year",
+      "value": 2023.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3msaar_calculado_pct",
+      "row": "2026-08 PIB mensal (proxy de VAB)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "3msaar calculado (%)",
+      "row": "PIB mensal (proxy de VAB)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3m3m_ons_pct",
+      "row": "2026-08 PIB mensal (proxy de VAB)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "3m3m_calculado_pct",
+      "row": "2026-08 PIB mensal (proxy de VAB)",
+      "value": 0.6521,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "3m/3m ONS (%)",
+      "row": "PIB mensal (proxy de VAB)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 Serviços",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "Serviços",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 Serviços administrativos e de apoio",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "Serviços administrativos e de apoio",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 Produção industrial",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "Produção industrial",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/series_utilizadas.csv",
+      "header": "yoy_mensal_ons_sa_pct",
+      "row": "2026-08 Construção",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabela_agosto2026.csv",
+      "header": "YoY mensal SA ONS (%)",
+      "row": "Construção",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S07",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-e1f05a1d475f4c2a49516a76",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/gva_mensal_desde_2024.csv",
+      "header": "yoy_oficial_ED2R_pct",
+      "row": "2026-08-01",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/indicadores_principais.csv",
+      "header": "yoy_oficial_gva",
+      "row": "2026-08-01",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "2026-08 15-10-2026 GVA / PIB mensal (oferta) ECY2",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/gva_mensal_desde_2024.csv",
+      "header": "m3saar_calculado_pct",
+      "row": "2026-08-01",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/indicadores_principais.csv",
+      "header": "m3saar_gva",
+      "row": "2026-08-01",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "tres_msaar_calculado_pct",
+      "row": "2026-08 15-10-2026 GVA / PIB mensal (oferta) ECY2",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/cfs.xlsx",
+      "header": "Index 1DP, 2020FEB = 100 GDP monthly estimate, Office for National Statistics",
+      "row": "2023MAR",
+      "value": 104.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/cfs.xlsx",
+      "header": "Index 1DP, 2020FEB = 100 GDP monthly estimate, Office for National Statistics",
+      "row": "2023MAY",
+      "value": 104.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/gva_mensal_desde_2024.csv",
+      "header": "m3m3_oficial_ED3H_pct",
+      "row": "2026-08-01",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/indicadores_principais.csv",
+      "header": "yoy_oficial_servicos",
+      "row": "2026-08-01",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "2026-08 15-10-2026 Serviços ECYC",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "2026-08 15-10-2026 Serviços administrativos ECYP",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "2026-08 15-10-2026 Outros serviços ECYU",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 1.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 1.7,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 3.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 3.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 3.7,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/indicadores_principais.csv",
+      "header": "yoy_oficial_construcao",
+      "row": "2026-08-01",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "2026-08 15-10-2026 Construção ECY9",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S07",
+  "model": "grok-4.7",
+  "final_attempt_id": "a4-result-da199d0dcddb07597e11cac1",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/gva_mensal_desde_2024.csv",
+      "header": "yoy_oficial_ED2R_pct",
+      "row": "2026-08-01",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/indicadores_principais.csv",
+      "header": "yoy_oficial_gva",
+      "row": "2026-08-01",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "GVA / PIB mensal (oferta) ECY2",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/gva_mensal_desde_2024.csv",
+      "header": "m3saar_calculado_pct",
+      "row": "2026-08-01",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/indicadores_principais.csv",
+      "header": "m3saar_gva",
+      "row": "2026-08-01",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "tres_msaar_calculado_pct",
+      "row": "GVA / PIB mensal (oferta) ECY2",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/cfs.xlsx",
+      "header": "Index 1DP, 2020FEB = 100 GDP monthly estimate, Office for National Statistics",
+      "row": "2023MAR",
+      "value": 104.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/cfs.xlsx",
+      "header": "Index 1DP, 2020FEB = 100 GDP monthly estimate, Office for National Statistics",
+      "row": "2023MAY",
+      "value": 104.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/gva_mensal_desde_2024.csv",
+      "header": "m3m3_oficial_ED3H_pct",
+      "row": "2026-08-01",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/indicadores_principais.csv",
+      "header": "yoy_oficial_servicos",
+      "row": "2026-08-01",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "Serviços ECYC",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "Serviços administrativos ECYP",
+      "value": 0.8,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "Outros serviços ECYU",
+      "value": 1.0,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_producao_yoy": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 1.5,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 1.7,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 3.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 3.3,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "dados/ihyp.csv",
+      "header": "Gross Domestic Product: Year on Year growth: CVM SA % IHYP QNA",
+      "row": "",
+      "value": 3.7,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/tabelas/indicadores_principais.csv",
+      "header": "yoy_oficial_construcao",
+      "row": "2026-08-01",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/ultimo_periodo.csv",
+      "header": "yoy_oficial_cvm_sa_pct",
+      "row": "Construção ECY9",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4e",
+  "task": "S07",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-68c575aa8ce7e7a770587c5f",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "PIB | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/dados_utilizados.csv",
+      "header": "PIB | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/tabelas/resumo_2026-08.csv",
+      "header": "valor",
+      "row": "PIB | YoY oficial (%)",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "PIB | 3msaar calculado (%)",
+      "row": "2026-08-01",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/dados_utilizados.csv",
+      "header": "PIB | 3msaar calculado (%)",
+      "row": "2026-08-01",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/tabelas/resumo_2026-08.csv",
+      "header": "valor",
+      "row": "PIB | 3msaar calculado (%)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "PIB | 3m/3m oficial (%)",
+      "row": "2026-08-01",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/dados_utilizados.csv",
+      "header": "PIB | 3m/3m oficial (%)",
+      "row": "2026-08-01",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/tabelas/resumo_2026-08.csv",
+      "header": "valor",
+      "row": "PIB | 3m/3m oficial (%)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": false
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "Serviços | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/dados_utilizados.csv",
+      "header": "Serviços | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/tabelas/resumo_2026-08.csv",
+      "header": "valor",
+      "row": "Serviços | YoY oficial (%)",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "Produção | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/dados_utilizados.csv",
+      "header": "Produção | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/tabelas/resumo_2026-08.csv",
+      "header": "valor",
+      "row": "Produção | YoY oficial (%)",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "Construção | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/dados_utilizados.csv",
+      "header": "Construção | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/reproducao_agosto_2026/tabelas/resumo_2026-08.csv",
+      "header": "valor",
+      "row": "Construção | YoY oficial (%)",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ },
+ {
+  "phase": "A4s",
+  "task": "S07",
+  "model": "kimi-code/k3.1-pro",
+  "final_attempt_id": "a4-result-ebe2700c37fbe2f9604fa87d",
+  "disposition": "scored",
+  "fixed": [],
+  "checks": {
+   "N_total_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "PIB | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_agosto_2026.csv",
+      "header": "valor",
+      "row": "PIB | YoY oficial (%)",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/series_recentes.csv",
+      "header": "PIB | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 2.1,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_total_3m": {
+    "status": "ambiguous",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "PIB | 3msaar calculado (%)",
+      "row": "2026-08-01",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_agosto_2026.csv",
+      "header": "valor",
+      "row": "PIB | 3msaar calculado (%)",
+      "value": 2.634,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/series_recentes.csv",
+      "header": "PIB | 3msaar calculado (%)",
+      "row": "2026-08-01",
+      "value": 2.63,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "PIB | 3m/3m oficial (%)",
+      "row": "2026-08-01",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_agosto_2026.csv",
+      "header": "valor",
+      "row": "PIB | 3m/3m oficial (%)",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/series_recentes.csv",
+      "header": "PIB | 3m/3m oficial (%)",
+      "row": "2026-08-01",
+      "value": 0.7,
+      "variant": null,
+      "period_stated": true
+     }
+    ]
+   },
+   "N_servicos_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "Serviços | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_agosto_2026.csv",
+      "header": "valor",
+      "row": "Serviços | YoY oficial (%)",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/series_recentes.csv",
+      "header": "Serviços | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 2.4,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_producao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "Produção | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_agosto_2026.csv",
+      "header": "valor",
+      "row": "Produção | YoY oficial (%)",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/series_recentes.csv",
+      "header": "Produção | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": 1.6,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   },
+   "N_construcao_yoy": {
+    "status": "auto",
+    "correct": true,
+    "evidence": [
+     {
+      "file": "entrega/dados_utilizados.csv",
+      "header": "Construção | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     },
+     {
+      "file": "entrega/tabelas/resumo_agosto_2026.csv",
+      "header": "valor",
+      "row": "Construção | YoY oficial (%)",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": false
+     },
+     {
+      "file": "entrega/tabelas/series_recentes.csv",
+      "header": "Construção | YoY oficial (%)",
+      "row": "2026-08-01",
+      "value": -1.8,
+      "variant": "[2026-08]",
+      "period_stated": true
+     }
+    ],
+    "conflicts": []
+   }
+  }
+ }
+]

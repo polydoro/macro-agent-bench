@@ -1,0 +1,3540 @@
+[
+ {
+  "source": "visual60",
+  "task": "S01",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "qid": "I1",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.03,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.49
+   },
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.45
+   },
+   {
+    "ATENDE": 0.51,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.47
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S01",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "C_total_3m",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.41,
+    "NAO_ATENDE": 0.58,
+    "NAO_VERIFICAVEL": 0.01
+   },
+   {
+    "ATENDE": 0.5,
+    "NAO_ATENDE": 0.49,
+    "NAO_VERIFICAVEL": 0.01
+   },
+   {
+    "ATENDE": 0.39,
+    "NAO_ATENDE": 0.6,
+    "NAO_VERIFICAVEL": 0.01
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S01",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "C_total_yoy",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.47,
+    "NAO_ATENDE": 0.52,
+    "NAO_VERIFICAVEL": 0.01
+   },
+   {
+    "ATENDE": 0.57,
+    "NAO_ATENDE": 0.42,
+    "NAO_VERIFICAVEL": 0.01
+   },
+   {
+    "ATENDE": 0.54,
+    "NAO_ATENDE": 0.45,
+    "NAO_VERIFICAVEL": 0.01
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S01",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "I1",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.38,
+    "NAO_ATENDE": 0.04,
+    "NAO_VERIFICAVEL": 0.15,
+    "PARCIAL": 0.43
+   },
+   {
+    "ATENDE": 0.5,
+    "NAO_ATENDE": 0.03,
+    "NAO_VERIFICAVEL": 0.15,
+    "PARCIAL": 0.32
+   },
+   {
+    "ATENDE": 0.43,
+    "NAO_ATENDE": 0.07,
+    "NAO_VERIFICAVEL": 0.24,
+    "PARCIAL": 0.26
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S01",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "qid": "I1",
+  "choices": [
+   "ATENDE",
+   "PARCIAL",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.44,
+    "NAO_ATENDE": 0.14,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.41
+   },
+   {
+    "ATENDE": 0.36,
+    "NAO_ATENDE": 0.25,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.38
+   },
+   {
+    "ATENDE": 0.4,
+    "NAO_ATENDE": 0.18,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.41
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S01",
+  "phase": "A2",
+  "model": "gpt-6-astra",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.54,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.45
+   },
+   {
+    "ATENDE": 0.55,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.44
+   },
+   {
+    "ATENDE": 0.47,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.52
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S01",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "qid": "I1",
+  "choices": [
+   "ATENDE",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.46,
+    "NAO_ATENDE": 0.12,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.41
+   },
+   {
+    "ATENDE": 0.49,
+    "NAO_ATENDE": 0.15,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.36
+   },
+   {
+    "ATENDE": 0.38,
+    "NAO_ATENDE": 0.16,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.45
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S02",
+  "phase": "A1",
+  "model": "kimi-code/k3.1-pro",
+  "qid": "C_domestico_yoy",
+  "choices": [
+   "ATENDE",
+   "NAO_ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.6,
+    "NAO_ATENDE": 0.35,
+    "NAO_VERIFICAVEL": 0.05
+   },
+   {
+    "ATENDE": 0.17,
+    "NAO_ATENDE": 0.78,
+    "NAO_VERIFICAVEL": 0.05
+   },
+   {
+    "ATENDE": 0.22,
+    "NAO_ATENDE": 0.71,
+    "NAO_VERIFICAVEL": 0.07
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S02",
+  "phase": "A2",
+  "model": "claude-opus-5-5",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.52,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.47
+   },
+   {
+    "ATENDE": 0.39,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.6
+   },
+   {
+    "ATENDE": 0.5,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.49
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S02",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.6,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.39
+   },
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.46
+   },
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.51
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "qid": "C_resto_yoy",
+  "choices": [
+   "ATENDE",
+   "ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.86,
+    "NAO_ATENDE": 0.11,
+    "NAO_VERIFICAVEL": 0.03
+   },
+   {
+    "ATENDE": 0.92,
+    "NAO_ATENDE": 0.07,
+    "NAO_VERIFICAVEL": 0.01
+   },
+   {
+    "ATENDE": 0.26,
+    "NAO_ATENDE": 0.63,
+    "NAO_VERIFICAVEL": 0.11
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "qid": "P2",
+  "choices": [
+   "NAO_ATENDE",
+   "PARCIAL",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.0,
+    "NAO_ATENDE": 0.51,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.49
+   },
+   {
+    "ATENDE": 0.0,
+    "NAO_ATENDE": 0.46,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.53
+   },
+   {
+    "ATENDE": 0.0,
+    "NAO_ATENDE": 0.41,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.58
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "C_resto_yoy",
+  "choices": [
+   "NAO_ATENDE",
+   "NAO_ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.34,
+    "NAO_ATENDE": 0.47,
+    "NAO_VERIFICAVEL": 0.19
+   },
+   {
+    "ATENDE": 0.41,
+    "NAO_ATENDE": 0.43,
+    "NAO_VERIFICAVEL": 0.16
+   },
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.35,
+    "NAO_VERIFICAVEL": 0.2
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.54,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.45
+   },
+   {
+    "ATENDE": 0.47,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.52
+   },
+   {
+    "ATENDE": 0.57,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.42
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "qid": "C_resto_yoy",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.43,
+    "NAO_ATENDE": 0.43,
+    "NAO_VERIFICAVEL": 0.14
+   },
+   {
+    "ATENDE": 0.56,
+    "NAO_ATENDE": 0.36,
+    "NAO_VERIFICAVEL": 0.08
+   },
+   {
+    "ATENDE": 0.54,
+    "NAO_ATENDE": 0.35,
+    "NAO_VERIFICAVEL": 0.11
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.54,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.44
+   },
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.53
+   },
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.46
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "qid": "P1",
+  "choices": [
+   "PARCIAL",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.44,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.55
+   },
+   {
+    "ATENDE": 0.44,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.55
+   },
+   {
+    "ATENDE": 0.52,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.47
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "qid": "P2",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.47,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.52
+   },
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.45
+   },
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.45
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "qid": "P2",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.49,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.5
+   },
+   {
+    "ATENDE": 0.55,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.44
+   },
+   {
+    "ATENDE": 0.54,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.45
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.52,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.47
+   },
+   {
+    "ATENDE": 0.49,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.5
+   },
+   {
+    "ATENDE": 0.51,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.48
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S03",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "qid": "C_resto_yoy",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.42,
+    "NAO_ATENDE": 0.45,
+    "NAO_VERIFICAVEL": 0.13
+   },
+   {
+    "ATENDE": 0.54,
+    "NAO_ATENDE": 0.37,
+    "NAO_VERIFICAVEL": 0.09
+   },
+   {
+    "ATENDE": 0.22,
+    "NAO_ATENDE": 0.65,
+    "NAO_VERIFICAVEL": 0.13
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S04",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "PARCIAL",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.5,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.48
+   },
+   {
+    "ATENDE": 0.46,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.52
+   },
+   {
+    "ATENDE": 0.42,
+    "NAO_ATENDE": 0.03,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.55
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S04",
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "qid": "P1",
+  "choices": [
+   "PARCIAL",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.49,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.49
+   },
+   {
+    "ATENDE": 0.46,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.52
+   },
+   {
+    "ATENDE": 0.57,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.41
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S05",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "qid": "C_bens_nao_energeticos_3me",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.4,
+    "NAO_ATENDE": 0.57,
+    "NAO_VERIFICAVEL": 0.03
+   },
+   {
+    "ATENDE": 0.52,
+    "NAO_ATENDE": 0.44,
+    "NAO_VERIFICAVEL": 0.04
+   },
+   {
+    "ATENDE": 0.39,
+    "NAO_ATENDE": 0.59,
+    "NAO_VERIFICAVEL": 0.02
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S05",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "qid": "C_servicos_3me",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.51,
+    "NAO_VERIFICAVEL": 0.04
+   },
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.47,
+    "NAO_VERIFICAVEL": 0.05
+   },
+   {
+    "ATENDE": 0.44,
+    "NAO_ATENDE": 0.51,
+    "NAO_VERIFICAVEL": 0.05
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S05",
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "qid": "P1",
+  "choices": [
+   "PARCIAL",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.51
+   },
+   {
+    "ATENDE": 0.46,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.53
+   },
+   {
+    "ATENDE": 0.55,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.44
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S06",
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "qid": "P1",
+  "choices": [
+   "ATENDE",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.51,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.47
+   },
+   {
+    "ATENDE": 0.5,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.48
+   },
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.5
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S06",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "qid": "C_energia_3me",
+  "choices": [
+   "ATENDE",
+   "NAO_ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.47,
+    "NAO_ATENDE": 0.41,
+    "NAO_VERIFICAVEL": 0.12
+   },
+   {
+    "ATENDE": 0.35,
+    "NAO_ATENDE": 0.53,
+    "NAO_VERIFICAVEL": 0.12
+   },
+   {
+    "ATENDE": 0.3,
+    "NAO_ATENDE": 0.58,
+    "NAO_VERIFICAVEL": 0.12
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S06",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "qid": "I2",
+  "choices": [
+   "PARCIAL",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.32,
+    "NAO_ATENDE": 0.13,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.55
+   },
+   {
+    "ATENDE": 0.35,
+    "NAO_ATENDE": 0.09,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.56
+   },
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.12,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.43
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S06",
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.46
+   },
+   {
+    "ATENDE": 0.51,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.48
+   },
+   {
+    "ATENDE": 0.42,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.57
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S07",
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "PARCIAL",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.5,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.49
+   },
+   {
+    "ATENDE": 0.49,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.49
+   },
+   {
+    "ATENDE": 0.47,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.51
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S08",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "qid": "C_importacoes_growth",
+  "choices": [
+   "ATENDE",
+   "NAO_ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.52,
+    "NAO_ATENDE": 0.47,
+    "NAO_VERIFICAVEL": 0.01
+   },
+   {
+    "ATENDE": 0.18,
+    "NAO_ATENDE": 0.82,
+    "NAO_VERIFICAVEL": 0.0
+   },
+   {
+    "ATENDE": 0.3,
+    "NAO_ATENDE": 0.7,
+    "NAO_VERIFICAVEL": 0.0
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S08",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "qid": "C_servicos_growth",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.3,
+    "NAO_ATENDE": 0.66,
+    "NAO_VERIFICAVEL": 0.04
+   },
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.46,
+    "NAO_VERIFICAVEL": 0.06
+   },
+   {
+    "ATENDE": 0.22,
+    "NAO_ATENDE": 0.74,
+    "NAO_VERIFICAVEL": 0.04
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S08",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "C_servicos_growth",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.35,
+    "NAO_ATENDE": 0.61,
+    "NAO_VERIFICAVEL": 0.04
+   },
+   {
+    "ATENDE": 0.67,
+    "NAO_ATENDE": 0.31,
+    "NAO_VERIFICAVEL": 0.02
+   },
+   {
+    "ATENDE": 0.78,
+    "NAO_ATENDE": 0.2,
+    "NAO_VERIFICAVEL": 0.02
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S08",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "qid": "C_servicos_growth",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.3,
+    "NAO_ATENDE": 0.57,
+    "NAO_VERIFICAVEL": 0.13
+   },
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.41,
+    "NAO_VERIFICAVEL": 0.06
+   },
+   {
+    "ATENDE": 0.16,
+    "NAO_ATENDE": 0.81,
+    "NAO_VERIFICAVEL": 0.03
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S08",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "qid": "I2",
+  "choices": [
+   "NAO_ATENDE",
+   "NAO_ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.33,
+    "NAO_ATENDE": 0.58,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.08
+   },
+   {
+    "ATENDE": 0.4,
+    "NAO_ATENDE": 0.51,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.08
+   },
+   {
+    "ATENDE": 0.5,
+    "NAO_ATENDE": 0.42,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.07
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S08",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "qid": "C_industria_growth",
+  "choices": [
+   "NAO_ATENDE",
+   "ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.36,
+    "NAO_ATENDE": 0.48,
+    "NAO_VERIFICAVEL": 0.16
+   },
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.32,
+    "NAO_VERIFICAVEL": 0.15
+   },
+   {
+    "ATENDE": 0.26,
+    "NAO_ATENDE": 0.5,
+    "NAO_VERIFICAVEL": 0.24
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S09",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "qid": "C_equipamentos_domesticos_yoy",
+  "choices": [
+   "ATENDE",
+   "NAO_ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.57,
+    "NAO_ATENDE": 0.41,
+    "NAO_VERIFICAVEL": 0.02
+   },
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.51,
+    "NAO_VERIFICAVEL": 0.01
+   },
+   {
+    "ATENDE": 0.55,
+    "NAO_ATENDE": 0.44,
+    "NAO_VERIFICAVEL": 0.01
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S09",
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "qid": "P2",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.51
+   },
+   {
+    "ATENDE": 0.51,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.48
+   },
+   {
+    "ATENDE": 0.52,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.47
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S09",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "qid": "C_internet_yoy",
+  "choices": [
+   "ATENDE",
+   "NAO_ATENDE",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.41,
+    "NAO_VERIFICAVEL": 0.11
+   },
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.47,
+    "NAO_VERIFICAVEL": 0.08
+   },
+   {
+    "ATENDE": 0.18,
+    "NAO_ATENDE": 0.7,
+    "NAO_VERIFICAVEL": 0.12
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S09",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.45
+   },
+   {
+    "ATENDE": 0.5,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.48
+   },
+   {
+    "ATENDE": 0.43,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.55
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S09",
+  "phase": "A1",
+  "model": "grok-4.7",
+  "qid": "P1",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.41,
+    "NAO_ATENDE": 0.05,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.54
+   },
+   {
+    "ATENDE": 0.49,
+    "NAO_ATENDE": 0.04,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.47
+   },
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.03,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.52
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S09",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.58,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.41
+   },
+   {
+    "ATENDE": 0.56,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.43
+   },
+   {
+    "ATENDE": 0.47,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.52
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S10",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "qid": "P2",
+  "choices": [
+   "PARCIAL",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.5
+   },
+   {
+    "ATENDE": 0.46,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.52
+   },
+   {
+    "ATENDE": 0.51,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.47
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S10",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "qid": "P2",
+  "choices": [
+   "PARCIAL",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.5
+   },
+   {
+    "ATENDE": 0.44,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.54
+   },
+   {
+    "ATENDE": 0.49,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.02,
+    "PARCIAL": 0.48
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S11",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "qid": "P2",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.5
+   },
+   {
+    "ATENDE": 0.55,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.44
+   },
+   {
+    "ATENDE": 0.69,
+    "NAO_ATENDE": 0.01,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.3
+   }
+  ]
+ },
+ {
+  "source": "visual60",
+  "task": "S11",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "qid": "P2",
+  "choices": [
+   "ATENDE",
+   "PARCIAL",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.53,
+    "NAO_ATENDE": 0.04,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.42
+   },
+   {
+    "ATENDE": 0.44,
+    "NAO_ATENDE": 0.05,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.5
+   },
+   {
+    "ATENDE": 0.42,
+    "NAO_ATENDE": 0.05,
+    "NAO_VERIFICAVEL": 0.01,
+    "PARCIAL": 0.52
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S01",
+  "phase": "A1",
+  "model": "gpt-6-luna",
+  "qid": "N_total_3m",
+  "choices": [
+   "NAO_MOSTRADO",
+   "FAIXA_06",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.01,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.03,
+    "FAIXA_06": 0.38,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.0,
+    "FAIXA_09": 0.0,
+    "FAIXA_10": 0.0,
+    "FAIXA_11": 0.0,
+    "NAO_MOSTRADO": 0.42,
+    "NAO_VERIFICAVEL": 0.11,
+    "OUTRO_VALOR": 0.0
+   },
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.01,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.03,
+    "FAIXA_06": 0.4,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.0,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.37,
+    "NAO_VERIFICAVEL": 0.11,
+    "OUTRO_VALOR": 0.0
+   },
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.01,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.03,
+    "FAIXA_06": 0.35,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.0,
+    "FAIXA_10": 0.0,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.43,
+    "NAO_VERIFICAVEL": 0.11,
+    "OUTRO_VALOR": 0.0
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S01",
+  "phase": "A1",
+  "model": "grok-4.7",
+  "qid": "N_construcao_yoy",
+  "choices": [
+   "FAIXA_02",
+   "NAO_MOSTRADO",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.09,
+    "FAIXA_02": 0.25,
+    "FAIXA_03": 0.13,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.09,
+    "NAO_MOSTRADO": 0.23,
+    "NAO_VERIFICAVEL": 0.08,
+    "OUTRO_VALOR": 0.06
+   },
+   {
+    "FAIXA_01": 0.09,
+    "FAIXA_02": 0.23,
+    "FAIXA_03": 0.13,
+    "FAIXA_04": 0.06,
+    "FAIXA_05": 0.11,
+    "NAO_MOSTRADO": 0.24,
+    "NAO_VERIFICAVEL": 0.08,
+    "OUTRO_VALOR": 0.06
+   },
+   {
+    "FAIXA_01": 0.07,
+    "FAIXA_02": 0.21,
+    "FAIXA_03": 0.14,
+    "FAIXA_04": 0.06,
+    "FAIXA_05": 0.12,
+    "NAO_MOSTRADO": 0.26,
+    "NAO_VERIFICAVEL": 0.08,
+    "OUTRO_VALOR": 0.06
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S01",
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "qid": "N_consumo_yoy",
+  "choices": [
+   "FAIXA_01",
+   "FAIXA_03",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.55,
+    "FAIXA_02": 0.07,
+    "FAIXA_03": 0.2,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.05,
+    "NAO_VERIFICAVEL": 0.01,
+    "OUTRO_VALOR": 0.1
+   },
+   {
+    "FAIXA_01": 0.12,
+    "FAIXA_02": 0.07,
+    "FAIXA_03": 0.48,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.07,
+    "NAO_VERIFICAVEL": 0.01,
+    "OUTRO_VALOR": 0.23
+   },
+   {
+    "FAIXA_01": 0.19,
+    "FAIXA_02": 0.07,
+    "FAIXA_03": 0.44,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.04,
+    "NAO_VERIFICAVEL": 0.01,
+    "OUTRO_VALOR": 0.23
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S01",
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "qid": "N_total_yoy",
+  "choices": [
+   "NAO_MOSTRADO",
+   "FAIXA_04",
+   "FAIXA_04"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.02,
+    "FAIXA_03": 0.07,
+    "FAIXA_04": 0.22,
+    "FAIXA_05": 0.11,
+    "FAIXA_06": 0.05,
+    "FAIXA_07": 0.02,
+    "FAIXA_08": 0.04,
+    "FAIXA_09": 0.04,
+    "FAIXA_10": 0.02,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.23,
+    "NAO_VERIFICAVEL": 0.13,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.02,
+    "FAIXA_03": 0.07,
+    "FAIXA_04": 0.22,
+    "FAIXA_05": 0.12,
+    "FAIXA_06": 0.05,
+    "FAIXA_07": 0.02,
+    "FAIXA_08": 0.06,
+    "FAIXA_09": 0.04,
+    "FAIXA_10": 0.02,
+    "FAIXA_11": 0.02,
+    "NAO_MOSTRADO": 0.22,
+    "NAO_VERIFICAVEL": 0.1,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.02,
+    "FAIXA_03": 0.06,
+    "FAIXA_04": 0.24,
+    "FAIXA_05": 0.14,
+    "FAIXA_06": 0.05,
+    "FAIXA_07": 0.02,
+    "FAIXA_08": 0.05,
+    "FAIXA_09": 0.03,
+    "FAIXA_10": 0.02,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.23,
+    "NAO_VERIFICAVEL": 0.1,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S02",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "qid": "N_domestico_yoy",
+  "choices": [
+   "OUTRO_VALOR",
+   "OUTRO_VALOR",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.08,
+    "FAIXA_02": 0.05,
+    "FAIXA_03": 0.05,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.09,
+    "NAO_MOSTRADO": 0.25,
+    "NAO_VERIFICAVEL": 0.13,
+    "OUTRO_VALOR": 0.28
+   },
+   {
+    "FAIXA_01": 0.07,
+    "FAIXA_02": 0.05,
+    "FAIXA_03": 0.05,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.1,
+    "NAO_MOSTRADO": 0.23,
+    "NAO_VERIFICAVEL": 0.16,
+    "OUTRO_VALOR": 0.26
+   },
+   {
+    "FAIXA_01": 0.05,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.05,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.1,
+    "NAO_MOSTRADO": 0.29,
+    "NAO_VERIFICAVEL": 0.12,
+    "OUTRO_VALOR": 0.28
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S02",
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "qid": "N_total_yoy",
+  "choices": [
+   "NAO_MOSTRADO",
+   "FAIXA_04",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.05,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.07,
+    "FAIXA_04": 0.16,
+    "FAIXA_05": 0.07,
+    "FAIXA_06": 0.09,
+    "FAIXA_07": 0.07,
+    "NAO_MOSTRADO": 0.26,
+    "NAO_VERIFICAVEL": 0.17,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.04,
+    "FAIXA_02": 0.05,
+    "FAIXA_03": 0.07,
+    "FAIXA_04": 0.19,
+    "FAIXA_05": 0.1,
+    "FAIXA_06": 0.12,
+    "FAIXA_07": 0.09,
+    "NAO_MOSTRADO": 0.18,
+    "NAO_VERIFICAVEL": 0.13,
+    "OUTRO_VALOR": 0.03
+   },
+   {
+    "FAIXA_01": 0.05,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.07,
+    "FAIXA_04": 0.16,
+    "FAIXA_05": 0.09,
+    "FAIXA_06": 0.11,
+    "FAIXA_07": 0.08,
+    "NAO_MOSTRADO": 0.24,
+    "NAO_VERIFICAVEL": 0.14,
+    "OUTRO_VALOR": 0.02
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S02",
+  "phase": "A3",
+  "model": "grok-4.7",
+  "qid": "N_domestico_yoy",
+  "choices": [
+   "OUTRO_VALOR",
+   "NAO_MOSTRADO",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.13,
+    "FAIXA_02": 0.06,
+    "FAIXA_03": 0.03,
+    "FAIXA_04": 0.05,
+    "FAIXA_05": 0.05,
+    "NAO_MOSTRADO": 0.26,
+    "NAO_VERIFICAVEL": 0.1,
+    "OUTRO_VALOR": 0.32
+   },
+   {
+    "FAIXA_01": 0.11,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.04,
+    "FAIXA_04": 0.04,
+    "FAIXA_05": 0.05,
+    "NAO_MOSTRADO": 0.29,
+    "NAO_VERIFICAVEL": 0.1,
+    "OUTRO_VALOR": 0.29
+   },
+   {
+    "FAIXA_01": 0.14,
+    "FAIXA_02": 0.06,
+    "FAIXA_03": 0.04,
+    "FAIXA_04": 0.04,
+    "FAIXA_05": 0.05,
+    "NAO_MOSTRADO": 0.29,
+    "NAO_VERIFICAVEL": 0.13,
+    "OUTRO_VALOR": 0.25
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "qid": "N_alimentacion_yoy",
+  "choices": [
+   "FAIXA_08",
+   "FAIXA_06",
+   "FAIXA_08"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.05,
+    "FAIXA_02": 0.05,
+    "FAIXA_03": 0.07,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.12,
+    "FAIXA_06": 0.13,
+    "FAIXA_07": 0.07,
+    "FAIXA_08": 0.21,
+    "NAO_MOSTRADO": 0.11,
+    "NAO_VERIFICAVEL": 0.03,
+    "OUTRO_VALOR": 0.08
+   },
+   {
+    "FAIXA_01": 0.06,
+    "FAIXA_02": 0.07,
+    "FAIXA_03": 0.09,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.15,
+    "FAIXA_06": 0.17,
+    "FAIXA_07": 0.09,
+    "FAIXA_08": 0.16,
+    "NAO_MOSTRADO": 0.04,
+    "NAO_VERIFICAVEL": 0.02,
+    "OUTRO_VALOR": 0.08
+   },
+   {
+    "FAIXA_01": 0.06,
+    "FAIXA_02": 0.06,
+    "FAIXA_03": 0.09,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.12,
+    "FAIXA_06": 0.12,
+    "FAIXA_07": 0.09,
+    "FAIXA_08": 0.2,
+    "NAO_MOSTRADO": 0.09,
+    "NAO_VERIFICAVEL": 0.03,
+    "OUTRO_VALOR": 0.07
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "qid": "N_equipo_hogar_yoy",
+  "choices": [
+   "FAIXA_06",
+   "FAIXA_03",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.07,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.17,
+    "FAIXA_04": 0.12,
+    "FAIXA_05": 0.12,
+    "FAIXA_06": 0.18,
+    "NAO_MOSTRADO": 0.12,
+    "NAO_VERIFICAVEL": 0.1,
+    "OUTRO_VALOR": 0.04
+   },
+   {
+    "FAIXA_01": 0.08,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.18,
+    "FAIXA_04": 0.14,
+    "FAIXA_05": 0.12,
+    "FAIXA_06": 0.16,
+    "NAO_MOSTRADO": 0.11,
+    "NAO_VERIFICAVEL": 0.09,
+    "OUTRO_VALOR": 0.04
+   },
+   {
+    "FAIXA_01": 0.08,
+    "FAIXA_02": 0.1,
+    "FAIXA_03": 0.22,
+    "FAIXA_04": 0.13,
+    "FAIXA_05": 0.1,
+    "FAIXA_06": 0.13,
+    "NAO_MOSTRADO": 0.12,
+    "NAO_VERIFICAVEL": 0.08,
+    "OUTRO_VALOR": 0.04
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "qid": "N_resto_yoy",
+  "choices": [
+   "FAIXA_05",
+   "FAIXA_04",
+   "FAIXA_04"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.19,
+    "FAIXA_04": 0.27,
+    "FAIXA_05": 0.34,
+    "NAO_MOSTRADO": 0.04,
+    "NAO_VERIFICAVEL": 0.03,
+    "OUTRO_VALOR": 0.08
+   },
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.29,
+    "FAIXA_04": 0.35,
+    "FAIXA_05": 0.18,
+    "NAO_MOSTRADO": 0.04,
+    "NAO_VERIFICAVEL": 0.02,
+    "OUTRO_VALOR": 0.07
+   },
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.27,
+    "FAIXA_04": 0.36,
+    "FAIXA_05": 0.2,
+    "NAO_MOSTRADO": 0.03,
+    "NAO_VERIFICAVEL": 0.02,
+    "OUTRO_VALOR": 0.07
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "qid": "N_total_yoy",
+  "choices": [
+   "FAIXA_06",
+   "FAIXA_03",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.05,
+    "FAIXA_03": 0.25,
+    "FAIXA_04": 0.06,
+    "FAIXA_05": 0.15,
+    "FAIXA_06": 0.31,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.0,
+    "NAO_MOSTRADO": 0.06,
+    "NAO_VERIFICAVEL": 0.02,
+    "OUTRO_VALOR": 0.04
+   },
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.07,
+    "FAIXA_03": 0.39,
+    "FAIXA_04": 0.06,
+    "FAIXA_05": 0.09,
+    "FAIXA_06": 0.21,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.0,
+    "NAO_MOSTRADO": 0.06,
+    "NAO_VERIFICAVEL": 0.02,
+    "OUTRO_VALOR": 0.03
+   },
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.06,
+    "FAIXA_03": 0.28,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.13,
+    "FAIXA_06": 0.28,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.0,
+    "NAO_MOSTRADO": 0.06,
+    "NAO_VERIFICAVEL": 0.02,
+    "OUTRO_VALOR": 0.03
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "qid": "N_grandes_cadenas_yoy",
+  "choices": [
+   "NAO_MOSTRADO",
+   "OUTRO_VALOR",
+   "OUTRO_VALOR"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.0,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.01,
+    "FAIXA_06": 0.01,
+    "FAIXA_07": 0.01,
+    "NAO_MOSTRADO": 0.49,
+    "NAO_VERIFICAVEL": 0.11,
+    "OUTRO_VALOR": 0.35
+   },
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.0,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.01,
+    "FAIXA_06": 0.01,
+    "FAIXA_07": 0.0,
+    "NAO_MOSTRADO": 0.43,
+    "NAO_VERIFICAVEL": 0.08,
+    "OUTRO_VALOR": 0.45
+   },
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.0,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.01,
+    "FAIXA_06": 0.01,
+    "FAIXA_07": 0.0,
+    "NAO_MOSTRADO": 0.42,
+    "NAO_VERIFICAVEL": 0.09,
+    "OUTRO_VALOR": 0.45
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "qid": "N_total_3m",
+  "choices": [
+   "NAO_MOSTRADO",
+   "FAIXA_03",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.13,
+    "FAIXA_03": 0.29,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.46,
+    "NAO_VERIFICAVEL": 0.05,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.21,
+    "FAIXA_03": 0.41,
+    "FAIXA_04": 0.03,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.25,
+    "NAO_VERIFICAVEL": 0.05,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.2,
+    "FAIXA_03": 0.42,
+    "FAIXA_04": 0.03,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.25,
+    "NAO_VERIFICAVEL": 0.05,
+    "OUTRO_VALOR": 0.02
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "qid": "N_total_yoy",
+  "choices": [
+   "FAIXA_05",
+   "NAO_MOSTRADO",
+   "FAIXA_05"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.1,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.3,
+    "FAIXA_06": 0.11,
+    "FAIXA_07": 0.0,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.0,
+    "NAO_MOSTRADO": 0.27,
+    "NAO_VERIFICAVEL": 0.03,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.1,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.27,
+    "FAIXA_06": 0.07,
+    "FAIXA_07": 0.0,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.02,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.0,
+    "NAO_MOSTRADO": 0.33,
+    "NAO_VERIFICAVEL": 0.04,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.05,
+    "FAIXA_02": 0.06,
+    "FAIXA_03": 0.12,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.27,
+    "FAIXA_06": 0.09,
+    "FAIXA_07": 0.0,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.0,
+    "NAO_MOSTRADO": 0.26,
+    "NAO_VERIFICAVEL": 0.04,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "N_total_3m",
+  "choices": [
+   "NAO_MOSTRADO",
+   "FAIXA_03",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.17,
+    "FAIXA_03": 0.28,
+    "FAIXA_04": 0.03,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.4,
+    "NAO_VERIFICAVEL": 0.07,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.05,
+    "FAIXA_02": 0.2,
+    "FAIXA_03": 0.31,
+    "FAIXA_04": 0.03,
+    "FAIXA_05": 0.02,
+    "NAO_MOSTRADO": 0.3,
+    "NAO_VERIFICAVEL": 0.07,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.05,
+    "FAIXA_02": 0.22,
+    "FAIXA_03": 0.29,
+    "FAIXA_04": 0.03,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.32,
+    "NAO_VERIFICAVEL": 0.07,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "N_total_yoy",
+  "choices": [
+   "NAO_MOSTRADO",
+   "FAIXA_06",
+   "FAIXA_06"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.03,
+    "FAIXA_03": 0.08,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.16,
+    "FAIXA_06": 0.21,
+    "FAIXA_07": 0.0,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.3,
+    "NAO_VERIFICAVEL": 0.09,
+    "OUTRO_VALOR": 0.0
+   },
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.03,
+    "FAIXA_03": 0.09,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.17,
+    "FAIXA_06": 0.25,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.22,
+    "NAO_VERIFICAVEL": 0.07,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.09,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.2,
+    "FAIXA_06": 0.21,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.2,
+    "NAO_VERIFICAVEL": 0.09,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A1",
+  "model": "grok-4.7",
+  "qid": "N_equipo_personal_yoy",
+  "choices": [
+   "FAIXA_01",
+   "FAIXA_01",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.35,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.07,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.01,
+    "FAIXA_06": 0.01,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.24,
+    "NAO_VERIFICAVEL": 0.15,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.3,
+    "FAIXA_02": 0.07,
+    "FAIXA_03": 0.08,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.01,
+    "FAIXA_06": 0.01,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.27,
+    "NAO_VERIFICAVEL": 0.17,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.29,
+    "FAIXA_02": 0.07,
+    "FAIXA_03": 0.07,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.01,
+    "FAIXA_06": 0.01,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "FAIXA_09": 0.01,
+    "FAIXA_10": 0.01,
+    "FAIXA_11": 0.01,
+    "NAO_MOSTRADO": 0.3,
+    "NAO_VERIFICAVEL": 0.16,
+    "OUTRO_VALOR": 0.02
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "qid": "N_alimentacion_yoy",
+  "choices": [
+   "FAIXA_02",
+   "OUTRO_VALOR",
+   "FAIXA_02"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.05,
+    "FAIXA_02": 0.39,
+    "FAIXA_03": 0.02,
+    "FAIXA_04": 0.03,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.15,
+    "NAO_VERIFICAVEL": 0.03,
+    "OUTRO_VALOR": 0.32
+   },
+   {
+    "FAIXA_01": 0.07,
+    "FAIXA_02": 0.26,
+    "FAIXA_03": 0.02,
+    "FAIXA_04": 0.04,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.15,
+    "NAO_VERIFICAVEL": 0.04,
+    "OUTRO_VALOR": 0.41
+   },
+   {
+    "FAIXA_01": 0.05,
+    "FAIXA_02": 0.36,
+    "FAIXA_03": 0.02,
+    "FAIXA_04": 0.04,
+    "FAIXA_05": 0.02,
+    "NAO_MOSTRADO": 0.14,
+    "NAO_VERIFICAVEL": 0.02,
+    "OUTRO_VALOR": 0.35
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "qid": "N_equipo_hogar_yoy",
+  "choices": [
+   "OUTRO_VALOR",
+   "NAO_MOSTRADO",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.19,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.09,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.05,
+    "FAIXA_06": 0.04,
+    "FAIXA_07": 0.02,
+    "NAO_MOSTRADO": 0.19,
+    "NAO_VERIFICAVEL": 0.08,
+    "OUTRO_VALOR": 0.22
+   },
+   {
+    "FAIXA_01": 0.17,
+    "FAIXA_02": 0.05,
+    "FAIXA_03": 0.08,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.06,
+    "FAIXA_06": 0.05,
+    "FAIXA_07": 0.02,
+    "NAO_MOSTRADO": 0.21,
+    "NAO_VERIFICAVEL": 0.08,
+    "OUTRO_VALOR": 0.2
+   },
+   {
+    "FAIXA_01": 0.1,
+    "FAIXA_02": 0.05,
+    "FAIXA_03": 0.13,
+    "FAIXA_04": 0.1,
+    "FAIXA_05": 0.05,
+    "FAIXA_06": 0.05,
+    "FAIXA_07": 0.02,
+    "NAO_MOSTRADO": 0.26,
+    "NAO_VERIFICAVEL": 0.08,
+    "OUTRO_VALOR": 0.16
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "qid": "N_total_yoy",
+  "choices": [
+   "FAIXA_03",
+   "FAIXA_05",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.26,
+    "FAIXA_04": 0.2,
+    "FAIXA_05": 0.2,
+    "FAIXA_06": 0.03,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "NAO_MOSTRADO": 0.17,
+    "NAO_VERIFICAVEL": 0.04,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.03,
+    "FAIXA_03": 0.24,
+    "FAIXA_04": 0.18,
+    "FAIXA_05": 0.25,
+    "FAIXA_06": 0.03,
+    "FAIXA_07": 0.02,
+    "FAIXA_08": 0.01,
+    "NAO_MOSTRADO": 0.17,
+    "NAO_VERIFICAVEL": 0.03,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.03,
+    "FAIXA_03": 0.18,
+    "FAIXA_04": 0.17,
+    "FAIXA_05": 0.23,
+    "FAIXA_06": 0.04,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "NAO_MOSTRADO": 0.26,
+    "NAO_VERIFICAVEL": 0.05,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A2",
+  "model": "grok-4.7",
+  "qid": "N_equipo_hogar_yoy",
+  "choices": [
+   "FAIXA_04",
+   "FAIXA_04",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.04,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.19,
+    "FAIXA_04": 0.22,
+    "FAIXA_05": 0.14,
+    "FAIXA_06": 0.09,
+    "FAIXA_07": 0.03,
+    "NAO_MOSTRADO": 0.11,
+    "NAO_VERIFICAVEL": 0.05,
+    "OUTRO_VALOR": 0.05
+   },
+   {
+    "FAIXA_01": 0.04,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.19,
+    "FAIXA_04": 0.21,
+    "FAIXA_05": 0.14,
+    "FAIXA_06": 0.09,
+    "FAIXA_07": 0.04,
+    "NAO_MOSTRADO": 0.11,
+    "NAO_VERIFICAVEL": 0.05,
+    "OUTRO_VALOR": 0.05
+   },
+   {
+    "FAIXA_01": 0.04,
+    "FAIXA_02": 0.09,
+    "FAIXA_03": 0.21,
+    "FAIXA_04": 0.19,
+    "FAIXA_05": 0.15,
+    "FAIXA_06": 0.09,
+    "FAIXA_07": 0.04,
+    "NAO_MOSTRADO": 0.1,
+    "NAO_VERIFICAVEL": 0.04,
+    "OUTRO_VALOR": 0.05
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A2",
+  "model": "grok-4.7",
+  "qid": "N_resto_yoy",
+  "choices": [
+   "FAIXA_02",
+   "FAIXA_06",
+   "FAIXA_02"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.09,
+    "FAIXA_02": 0.16,
+    "FAIXA_03": 0.14,
+    "FAIXA_04": 0.12,
+    "FAIXA_05": 0.07,
+    "FAIXA_06": 0.13,
+    "NAO_MOSTRADO": 0.09,
+    "NAO_VERIFICAVEL": 0.07,
+    "OUTRO_VALOR": 0.13
+   },
+   {
+    "FAIXA_01": 0.09,
+    "FAIXA_02": 0.15,
+    "FAIXA_03": 0.12,
+    "FAIXA_04": 0.12,
+    "FAIXA_05": 0.08,
+    "FAIXA_06": 0.16,
+    "NAO_MOSTRADO": 0.11,
+    "NAO_VERIFICAVEL": 0.07,
+    "OUTRO_VALOR": 0.1
+   },
+   {
+    "FAIXA_01": 0.07,
+    "FAIXA_02": 0.18,
+    "FAIXA_03": 0.16,
+    "FAIXA_04": 0.1,
+    "FAIXA_05": 0.08,
+    "FAIXA_06": 0.14,
+    "NAO_MOSTRADO": 0.1,
+    "NAO_VERIFICAVEL": 0.06,
+    "OUTRO_VALOR": 0.11
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "qid": "N_grandes_cadenas_yoy",
+  "choices": [
+   "FAIXA_07",
+   "FAIXA_06",
+   "FAIXA_06"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.03,
+    "FAIXA_04": 0.04,
+    "FAIXA_05": 0.1,
+    "FAIXA_06": 0.18,
+    "FAIXA_07": 0.24,
+    "FAIXA_08": 0.07,
+    "FAIXA_09": 0.01,
+    "NAO_MOSTRADO": 0.16,
+    "NAO_VERIFICAVEL": 0.14,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.03,
+    "FAIXA_04": 0.04,
+    "FAIXA_05": 0.09,
+    "FAIXA_06": 0.27,
+    "FAIXA_07": 0.12,
+    "FAIXA_08": 0.05,
+    "FAIXA_09": 0.01,
+    "NAO_MOSTRADO": 0.23,
+    "NAO_VERIFICAVEL": 0.14,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.03,
+    "FAIXA_04": 0.05,
+    "FAIXA_05": 0.13,
+    "FAIXA_06": 0.27,
+    "FAIXA_07": 0.11,
+    "FAIXA_08": 0.03,
+    "FAIXA_09": 0.01,
+    "NAO_MOSTRADO": 0.2,
+    "NAO_VERIFICAVEL": 0.14,
+    "OUTRO_VALOR": 0.02
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "qid": "N_pequenas_cadenas_yoy",
+  "choices": [
+   "FAIXA_04",
+   "FAIXA_04",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.02,
+    "FAIXA_03": 0.25,
+    "FAIXA_04": 0.27,
+    "FAIXA_05": 0.15,
+    "FAIXA_06": 0.01,
+    "NAO_MOSTRADO": 0.16,
+    "NAO_VERIFICAVEL": 0.09,
+    "OUTRO_VALOR": 0.03
+   },
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.28,
+    "FAIXA_04": 0.29,
+    "FAIXA_05": 0.14,
+    "FAIXA_06": 0.02,
+    "NAO_MOSTRADO": 0.09,
+    "NAO_VERIFICAVEL": 0.07,
+    "OUTRO_VALOR": 0.04
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.03,
+    "FAIXA_03": 0.33,
+    "FAIXA_04": 0.25,
+    "FAIXA_05": 0.12,
+    "FAIXA_06": 0.01,
+    "NAO_MOSTRADO": 0.14,
+    "NAO_VERIFICAVEL": 0.06,
+    "OUTRO_VALOR": 0.04
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A2",
+  "model": "kimi-code/k3.1-pro",
+  "qid": "N_unilocalizadas_yoy",
+  "choices": [
+   "NAO_MOSTRADO",
+   "NAO_MOSTRADO",
+   "FAIXA_04"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.24,
+    "FAIXA_04": 0.28,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.32,
+    "NAO_VERIFICAVEL": 0.12,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.02,
+    "FAIXA_03": 0.29,
+    "FAIXA_04": 0.25,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.31,
+    "NAO_VERIFICAVEL": 0.09,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.2,
+    "FAIXA_04": 0.35,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.29,
+    "NAO_VERIFICAVEL": 0.12,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "qid": "N_grandes_cadenas_yoy",
+  "choices": [
+   "OUTRO_VALOR",
+   "OUTRO_VALOR",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.0,
+    "FAIXA_04": 0.0,
+    "FAIXA_05": 0.0,
+    "FAIXA_06": 0.0,
+    "FAIXA_07": 0.0,
+    "NAO_MOSTRADO": 0.43,
+    "NAO_VERIFICAVEL": 0.07,
+    "OUTRO_VALOR": 0.5
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.0,
+    "FAIXA_04": 0.0,
+    "FAIXA_05": 0.0,
+    "FAIXA_06": 0.0,
+    "FAIXA_07": 0.0,
+    "NAO_MOSTRADO": 0.45,
+    "NAO_VERIFICAVEL": 0.07,
+    "OUTRO_VALOR": 0.48
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.0,
+    "FAIXA_04": 0.0,
+    "FAIXA_05": 0.0,
+    "FAIXA_06": 0.0,
+    "FAIXA_07": 0.0,
+    "NAO_MOSTRADO": 0.51,
+    "NAO_VERIFICAVEL": 0.06,
+    "OUTRO_VALOR": 0.43
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A3",
+  "model": "kimi-code/k3.1-pro",
+  "qid": "N_total_3m",
+  "choices": [
+   "FAIXA_03",
+   "NAO_MOSTRADO",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.04,
+    "FAIXA_03": 0.37,
+    "FAIXA_04": 0.15,
+    "FAIXA_05": 0.01,
+    "FAIXA_06": 0.01,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.0,
+    "NAO_MOSTRADO": 0.35,
+    "NAO_VERIFICAVEL": 0.03,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.03,
+    "FAIXA_03": 0.33,
+    "FAIXA_04": 0.15,
+    "FAIXA_05": 0.01,
+    "FAIXA_06": 0.01,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.0,
+    "NAO_MOSTRADO": 0.38,
+    "NAO_VERIFICAVEL": 0.05,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.03,
+    "FAIXA_03": 0.38,
+    "FAIXA_04": 0.12,
+    "FAIXA_05": 0.01,
+    "FAIXA_06": 0.01,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.0,
+    "NAO_MOSTRADO": 0.36,
+    "NAO_VERIFICAVEL": 0.06,
+    "OUTRO_VALOR": 0.0
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "qid": "N_total_yoy",
+  "choices": [
+   "NAO_MOSTRADO",
+   "FAIXA_03",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.09,
+    "FAIXA_02": 0.09,
+    "FAIXA_03": 0.2,
+    "FAIXA_04": 0.12,
+    "FAIXA_05": 0.15,
+    "FAIXA_06": 0.07,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "NAO_MOSTRADO": 0.2,
+    "NAO_VERIFICAVEL": 0.04,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.07,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.22,
+    "FAIXA_04": 0.13,
+    "FAIXA_05": 0.15,
+    "FAIXA_06": 0.08,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "NAO_MOSTRADO": 0.19,
+    "NAO_VERIFICAVEL": 0.05,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.07,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.21,
+    "FAIXA_04": 0.14,
+    "FAIXA_05": 0.13,
+    "FAIXA_06": 0.07,
+    "FAIXA_07": 0.01,
+    "FAIXA_08": 0.01,
+    "NAO_MOSTRADO": 0.23,
+    "NAO_VERIFICAVEL": 0.04,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "qid": "N_resto_yoy",
+  "choices": [
+   "NAO_MOSTRADO",
+   "NAO_MOSTRADO",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.12,
+    "FAIXA_03": 0.24,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.05,
+    "FAIXA_06": 0.04,
+    "NAO_MOSTRADO": 0.32,
+    "NAO_VERIFICAVEL": 0.1,
+    "OUTRO_VALOR": 0.03
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.13,
+    "FAIXA_03": 0.26,
+    "FAIXA_04": 0.1,
+    "FAIXA_05": 0.05,
+    "FAIXA_06": 0.04,
+    "NAO_MOSTRADO": 0.27,
+    "NAO_VERIFICAVEL": 0.1,
+    "OUTRO_VALOR": 0.03
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.16,
+    "FAIXA_03": 0.25,
+    "FAIXA_04": 0.1,
+    "FAIXA_05": 0.06,
+    "FAIXA_06": 0.04,
+    "NAO_MOSTRADO": 0.24,
+    "NAO_VERIFICAVEL": 0.1,
+    "OUTRO_VALOR": 0.03
+   }
+  ]
+ },
+ {
+  "source": "numeric",
+  "task": "S03",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "qid": "N_pequenas_cadenas_yoy",
+  "choices": [
+   "FAIXA_05",
+   "NAO_MOSTRADO",
+   "FAIXA_05"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.04,
+    "FAIXA_04": 0.13,
+    "FAIXA_05": 0.47,
+    "NAO_MOSTRADO": 0.19,
+    "NAO_VERIFICAVEL": 0.04,
+    "OUTRO_VALOR": 0.11
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.03,
+    "FAIXA_04": 0.11,
+    "FAIXA_05": 0.25,
+    "NAO_MOSTRADO": 0.48,
+    "NAO_VERIFICAVEL": 0.04,
+    "OUTRO_VALOR": 0.08
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.03,
+    "FAIXA_04": 0.15,
+    "FAIXA_05": 0.41,
+    "NAO_MOSTRADO": 0.26,
+    "NAO_VERIFICAVEL": 0.05,
+    "OUTRO_VALOR": 0.09
+   }
+  ]
+ },
+ {
+  "source": "C04-images",
+  "task": "C04",
+  "phase": "A1",
+  "model": "claude-haiku-5-5",
+  "qid": "I1",
+  "choices": [
+   "NAO_ATENDE",
+   "PARCIAL",
+   "NAO_ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.16,
+    "NAO_ATENDE": 0.43,
+    "NAO_VERIFICAVEL": 0.03,
+    "PARCIAL": 0.38
+   },
+   {
+    "ATENDE": 0.23,
+    "NAO_ATENDE": 0.36,
+    "NAO_VERIFICAVEL": 0.04,
+    "PARCIAL": 0.37
+   },
+   {
+    "ATENDE": 0.16,
+    "NAO_ATENDE": 0.53,
+    "NAO_VERIFICAVEL": 0.04,
+    "PARCIAL": 0.27
+   }
+  ]
+ },
+ {
+  "source": "C04-images",
+  "task": "C04",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "qid": "I1",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.28,
+    "NAO_ATENDE": 0.2,
+    "NAO_VERIFICAVEL": 0.21,
+    "PARCIAL": 0.31
+   },
+   {
+    "ATENDE": 0.3,
+    "NAO_ATENDE": 0.22,
+    "NAO_VERIFICAVEL": 0.19,
+    "PARCIAL": 0.29
+   },
+   {
+    "ATENDE": 0.38,
+    "NAO_ATENDE": 0.15,
+    "NAO_VERIFICAVEL": 0.21,
+    "PARCIAL": 0.26
+   }
+  ]
+ },
+ {
+  "source": "C04-images",
+  "task": "C04",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "qid": "P2",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.44,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.54
+   },
+   {
+    "ATENDE": 0.51,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.47
+   },
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.02,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.5
+   }
+  ]
+ },
+ {
+  "source": "C04-images",
+  "task": "C04",
+  "phase": "A3",
+  "model": "claude-haiku-5-5",
+  "qid": "I2",
+  "choices": [
+   "NAO_ATENDE",
+   "NAO_ATENDE",
+   "NAO_VERIFICAVEL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.15,
+    "NAO_ATENDE": 0.41,
+    "NAO_VERIFICAVEL": 0.36,
+    "PARCIAL": 0.08
+   },
+   {
+    "ATENDE": 0.07,
+    "NAO_ATENDE": 0.46,
+    "NAO_VERIFICAVEL": 0.42,
+    "PARCIAL": 0.05
+   },
+   {
+    "ATENDE": 0.09,
+    "NAO_ATENDE": 0.41,
+    "NAO_VERIFICAVEL": 0.46,
+    "PARCIAL": 0.04
+   }
+  ]
+ },
+ {
+  "source": "C04-text",
+  "task": "C04",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "qid": "E3",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.08,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.47
+   },
+   {
+    "ATENDE": 0.49,
+    "NAO_ATENDE": 0.07,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.44
+   },
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.1,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.45
+   }
+  ]
+ },
+ {
+  "source": "C04-text",
+  "task": "C04",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "qid": "E3",
+  "choices": [
+   "PARCIAL",
+   "ATENDE",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.42,
+    "NAO_ATENDE": 0.14,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.44
+   },
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.13,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.39
+   },
+   {
+    "ATENDE": 0.5,
+    "NAO_ATENDE": 0.11,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.39
+   }
+  ]
+ },
+ {
+  "source": "C04-text",
+  "task": "C04",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "qid": "E3",
+  "choices": [
+   "ATENDE",
+   "ATENDE",
+   "PARCIAL"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.48,
+    "NAO_ATENDE": 0.11,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.41
+   },
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.11,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.44
+   },
+   {
+    "ATENDE": 0.41,
+    "NAO_ATENDE": 0.1,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.49
+   }
+  ]
+ },
+ {
+  "source": "C04-text",
+  "task": "C04",
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "qid": "E2",
+  "choices": [
+   "PARCIAL",
+   "PARCIAL",
+   "ATENDE"
+  ],
+  "probs": [
+   {
+    "ATENDE": 0.42,
+    "NAO_ATENDE": 0.12,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.46
+   },
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.09,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.46
+   },
+   {
+    "ATENDE": 0.45,
+    "NAO_ATENDE": 0.1,
+    "NAO_VERIFICAVEL": 0.0,
+    "PARCIAL": 0.45
+   }
+  ]
+ },
+ {
+  "source": "C04-numeric",
+  "task": "C04",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "qid": "N_yoy_three_years",
+  "choices": [
+   "FAIXA_03",
+   "NAO_MOSTRADO",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.03,
+    "FAIXA_02": 0.09,
+    "FAIXA_03": 0.4,
+    "FAIXA_04": 0.04,
+    "FAIXA_05": 0.02,
+    "FAIXA_06": 0.01,
+    "NAO_MOSTRADO": 0.39,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.24,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.02,
+    "FAIXA_06": 0.0,
+    "NAO_MOSTRADO": 0.61,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.02,
+    "FAIXA_02": 0.06,
+    "FAIXA_03": 0.41,
+    "FAIXA_04": 0.04,
+    "FAIXA_05": 0.02,
+    "FAIXA_06": 0.0,
+    "NAO_MOSTRADO": 0.43,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.02
+   }
+  ]
+ },
+ {
+  "source": "C04-numeric",
+  "task": "C04",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "qid": "N_yoy_one_year",
+  "choices": [
+   "FAIXA_03",
+   "FAIXA_05",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.02,
+    "FAIXA_03": 0.49,
+    "FAIXA_04": 0.09,
+    "FAIXA_05": 0.23,
+    "NAO_MOSTRADO": 0.16,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.02,
+    "FAIXA_03": 0.34,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.37,
+    "NAO_MOSTRADO": 0.17,
+    "NAO_VERIFICAVEL": 0.01,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.02,
+    "FAIXA_03": 0.45,
+    "FAIXA_04": 0.09,
+    "FAIXA_05": 0.2,
+    "NAO_MOSTRADO": 0.22,
+    "NAO_VERIFICAVEL": 0.01,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ },
+ {
+  "source": "C04-numeric",
+  "task": "C04",
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "qid": "N_yoy_one_year",
+  "choices": [
+   "FAIXA_03",
+   "FAIXA_03",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.2,
+    "FAIXA_03": 0.41,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.06,
+    "NAO_MOSTRADO": 0.29,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.13,
+    "FAIXA_03": 0.45,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.05,
+    "NAO_MOSTRADO": 0.33,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.14,
+    "FAIXA_03": 0.35,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.06,
+    "NAO_MOSTRADO": 0.41,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.02
+   }
+  ]
+ },
+ {
+  "source": "C04-numeric",
+  "task": "C04",
+  "phase": "A2",
+  "model": "claude-fable-5-1",
+  "qid": "N_yoy_three_years",
+  "choices": [
+   "NAO_MOSTRADO",
+   "FAIXA_03",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.01,
+    "FAIXA_02": 0.11,
+    "FAIXA_03": 0.3,
+    "FAIXA_04": 0.07,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.47,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.03
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.1,
+    "FAIXA_03": 0.4,
+    "FAIXA_04": 0.08,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.39,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.02
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.06,
+    "FAIXA_03": 0.41,
+    "FAIXA_04": 0.11,
+    "FAIXA_05": 0.01,
+    "NAO_MOSTRADO": 0.39,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.02
+   }
+  ]
+ },
+ {
+  "source": "C04-numeric",
+  "task": "C04",
+  "phase": "A2",
+  "model": "claude-haiku-5-5",
+  "qid": "N_qoq_short",
+  "choices": [
+   "NAO_MOSTRADO",
+   "NAO_MOSTRADO",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.47,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.0,
+    "NAO_MOSTRADO": 0.51,
+    "NAO_VERIFICAVEL": 0.01,
+    "OUTRO_VALOR": 0.0
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.26,
+    "FAIXA_04": 0.02,
+    "FAIXA_05": 0.0,
+    "NAO_MOSTRADO": 0.7,
+    "NAO_VERIFICAVEL": 0.01,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.54,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.0,
+    "NAO_MOSTRADO": 0.43,
+    "NAO_VERIFICAVEL": 0.01,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ },
+ {
+  "source": "C04-numeric",
+  "task": "C04",
+  "phase": "A2",
+  "model": "gpt-6-luna",
+  "qid": "N_yoy_three_years",
+  "choices": [
+   "NAO_MOSTRADO",
+   "FAIXA_03",
+   "NAO_MOSTRADO"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.48,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.0,
+    "NAO_MOSTRADO": 0.51,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.0
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.0,
+    "FAIXA_03": 0.5,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.0,
+    "NAO_MOSTRADO": 0.49,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.0
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.01,
+    "FAIXA_03": 0.41,
+    "FAIXA_04": 0.01,
+    "FAIXA_05": 0.0,
+    "NAO_MOSTRADO": 0.57,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.0
+   }
+  ]
+ },
+ {
+  "source": "C04-numeric",
+  "task": "C04",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "qid": "N_yoy_one_year",
+  "choices": [
+   "FAIXA_03",
+   "NAO_MOSTRADO",
+   "FAIXA_03"
+  ],
+  "probs": [
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.05,
+    "FAIXA_03": 0.47,
+    "FAIXA_04": 0.06,
+    "FAIXA_05": 0.04,
+    "NAO_MOSTRADO": 0.37,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.08,
+    "FAIXA_03": 0.41,
+    "FAIXA_04": 0.03,
+    "FAIXA_05": 0.03,
+    "NAO_MOSTRADO": 0.44,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.01
+   },
+   {
+    "FAIXA_01": 0.0,
+    "FAIXA_02": 0.05,
+    "FAIXA_03": 0.47,
+    "FAIXA_04": 0.05,
+    "FAIXA_05": 0.06,
+    "NAO_MOSTRADO": 0.36,
+    "NAO_VERIFICAVEL": 0.0,
+    "OUTRO_VALOR": 0.01
+   }
+  ]
+ }
+]

@@ -1,0 +1,325 @@
+phase,task,model,component,kind,first,last,n_tested,F_p,KW_p,verdict,official_ecb_mom_rmse,file,column
+A1,S05,claude-fable-5-1,total,sa,2010-01,2026-09,200,0.529,0.8178,pass,,entrega/dados_utilizados.csv,TOTAL :: idx_sa_stl
+A1,S05,claude-fable-5-1,core,sa,2010-01,2026-09,200,0.0413,0.1174,inconclusive,,entrega/dados_utilizados.csv,TOT_X_NRG_FOOD :: idx_sa_stl
+A1,S05,claude-fable-5-1,neig,sa,2010-01,2026-09,200,0.0109,0.7453,inconclusive,,entrega/dados_utilizados.csv,IGD_NNRG :: idx_sa_stl
+A1,S05,claude-fable-5-1,serv,sa,2010-01,2026-09,200,0.2491,0.3834,pass,,entrega/dados_utilizados.csv,SERV :: idx_sa_stl
+A1,S05,claude-fable-5-1,energy,sa,2010-01,2026-09,200,0.0001,0.0041,residual seasonality,,entrega/dados_utilizados.csv,NRG :: idx_sa_stl
+A1,S05,claude-fable-5-1,food,sa,2010-01,2026-09,200,0.7187,0.822,pass,,entrega/dados_utilizados.csv,FOOD :: idx_sa_stl
+A1,S05,claude-haiku-5-5,total,saar,2026-04,2026-09,6,,,too short,,entrega/tabela_ipca_ultimos_6_meses.csv,IPCA geral :: 3msaar
+A1,S05,claude-haiku-5-5,core,none,,,,,,no saved series,,,
+A1,S05,claude-haiku-5-5,neig,saar,2026-04,2026-09,6,,,too short,,entrega/tabela_ipca_ultimos_6_meses.csv,Bens industriais não energéticos :: 3msaar
+A1,S05,claude-haiku-5-5,serv,saar,2026-04,2026-09,6,,,too short,,entrega/tabela_ipca_ultimos_6_meses.csv,Serviços de habitação :: 3msaar
+A1,S05,claude-haiku-5-5,energy,saar,2026-04,2026-09,6,,,too short,,entrega/tabela_ipca_ultimos_6_meses.csv,Energia :: 3msaar
+A1,S05,claude-haiku-5-5,food,none,,,,,,no saved series,,,
+A1,S05,claude-opus-5-5,total,saar,2012-04,2026-09,174,0.9942,0.9913,pass,,dados/hicp_it_taxas.csv,TOTAL :: 3msaar_sa
+A1,S05,claude-opus-5-5,core,saar,2012-04,2026-09,174,0.6322,0.7216,pass,,dados/hicp_it_taxas.csv,TOT_X_NRG_FOOD :: 3msaar_sa
+A1,S05,claude-opus-5-5,neig,saar,2012-04,2026-09,174,0.2052,0.7699,pass,,dados/hicp_it_taxas.csv,IGD_NNRG :: 3msaar_sa
+A1,S05,claude-opus-5-5,serv,saar,2012-04,2026-09,174,0.7894,0.9555,pass,,dados/hicp_it_taxas.csv,SERV :: 3msaar_sa
+A1,S05,claude-opus-5-5,energy,saar,2012-04,2026-09,174,0.466,0.5495,pass,,dados/hicp_it_taxas.csv,NRG :: 3msaar_sa
+A1,S05,claude-opus-5-5,food,saar,2012-04,2026-09,174,0.9967,0.9604,pass,,dados/hicp_it_taxas.csv,FOOD :: 3msaar_sa
+A1,S05,claude-sonnet-5-5,total,saar,2015-01,2025-12,132,0.9315,0.9853,pass,,dados/series/hicp_it_yoy_3msaar.csv,Total :: 3msaar_sa_stl
+A1,S05,claude-sonnet-5-5,core,saar,2015-01,2025-12,132,0.8348,0.9885,pass,,dados/series/hicp_it_yoy_3msaar.csv,Núcleo (ex energia e alimentos) :: 3msaar_sa_stl
+A1,S05,claude-sonnet-5-5,neig,saar,2015-01,2025-12,132,0.8606,0.9667,pass,,dados/series/hicp_it_yoy_3msaar.csv,Bens industriais não energéticos :: 3msaar_sa_stl
+A1,S05,claude-sonnet-5-5,serv,saar,2015-01,2025-12,132,0.9759,0.9954,pass,,dados/series/hicp_it_yoy_3msaar.csv,Serviços :: 3msaar_sa_stl
+A1,S05,claude-sonnet-5-5,energy,saar,2015-01,2025-12,132,0.4526,0.54,pass,,dados/series/hicp_it_yoy_3msaar.csv,Energia :: 3msaar_sa_stl
+A1,S05,claude-sonnet-5-5,food,saar,2015-01,2025-12,132,0.9998,0.9994,pass,,dados/series/hicp_it_yoy_3msaar.csv,"Alimentos, álcool e tabaco :: 3msaar_sa_stl"
+A1,S05,gpt-6-astra,total,sa,2015-01,2026-09,140,0.2558,0.578,pass,,dados/series_utilizadas.csv,TOTAL | Total :: indice_sa_proprio
+A1,S05,gpt-6-astra,core,sa,2015-01,2026-09,140,0.0957,0.131,pass,,dados/series_utilizadas.csv,"TOT_X_NRG_FOOD | Núcleo (excl. energia, alimentos, álcool e tabaco) :: indice_sa_proprio"
+A1,S05,gpt-6-astra,neig,sa,2015-01,2026-09,140,0.0525,0.1284,pass,,dados/series_utilizadas.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_proprio
+A1,S05,gpt-6-astra,serv,sa,2015-01,2026-09,140,0.0321,0.1407,inconclusive,,dados/series_utilizadas.csv,SERV | Serviços :: indice_sa_proprio
+A1,S05,gpt-6-astra,energy,sa,2015-01,2026-09,140,0.1163,0.2869,pass,,dados/series_utilizadas.csv,NRG | Energia :: indice_sa_proprio
+A1,S05,gpt-6-astra,food,sa,2015-01,2026-09,140,0.8968,0.8283,pass,,dados/series_utilizadas.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa_proprio"
+A1,S05,gpt-6-luna,total,sa,1996-01,2025-12,359,0.8943,0.9636,pass,,dados/ipca_series_calculadas.csv,indice_sa_STL_Total (IPCA) :: indice_sa_STL_Total (IPCA)
+A1,S05,gpt-6-luna,core,sa,1999-12,2025-12,312,0.6586,0.3816,pass,,dados/ipca_series_calculadas.csv,"indice_sa_STL_Núcleo ex energia, alimentos, álcool e tabaco :: indice_sa_STL_Núcleo ex energia, alimentos, álcool e tabaco"
+A1,S05,gpt-6-luna,neig,sa,1999-12,2025-12,312,0.0004,0.002,residual seasonality,,dados/ipca_series_calculadas.csv,indice_sa_STL_Bens industriais não energéticos :: indice_sa_STL_Bens industriais não energéticos
+A1,S05,gpt-6-luna,serv,sa,1999-12,2025-12,312,0.0196,0.1922,inconclusive,,dados/ipca_series_calculadas.csv,indice_sa_STL_Serviços :: indice_sa_STL_Serviços
+A1,S05,gpt-6-luna,energy,sa,1996-01,2025-12,359,0.0204,0.2089,inconclusive,,dados/ipca_series_calculadas.csv,indice_sa_STL_Energia :: indice_sa_STL_Energia
+A1,S05,gpt-6-luna,food,sa,1996-01,2025-12,359,0.1028,0.4623,pass,,dados/ipca_series_calculadas.csv,"indice_sa_STL_Alimentos, álcool e tabaco :: indice_sa_STL_Alimentos, álcool e tabaco"
+A1,S05,gpt-6.1-sol,total,sa,2015-01,2026-09,140,0.2558,0.578,pass,,dados/series_utilizadas.csv,TOTAL | Total :: indice_sa_proprio
+A1,S05,gpt-6.1-sol,core,sa,2015-01,2026-09,140,0.0957,0.131,pass,,dados/series_utilizadas.csv,"TOT_X_NRG_FOOD | Núcleo: excl. energia, alimentos, álcool e tabaco :: indice_sa_proprio"
+A1,S05,gpt-6.1-sol,neig,sa,2015-01,2026-09,140,0.0525,0.1284,pass,,dados/series_utilizadas.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_proprio
+A1,S05,gpt-6.1-sol,serv,sa,2015-01,2026-09,140,0.0321,0.1407,inconclusive,,dados/series_utilizadas.csv,SERV | Serviços :: indice_sa_proprio
+A1,S05,gpt-6.1-sol,energy,sa,2015-01,2026-09,140,0.1163,0.2869,pass,,dados/series_utilizadas.csv,NRG | Energia :: indice_sa_proprio
+A1,S05,gpt-6.1-sol,food,sa,2015-01,2026-09,140,0.8968,0.8283,pass,,dados/series_utilizadas.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa_proprio"
+A1,S05,grok-4.7,total,sa,2015-01,2026-09,140,0.0163,0.3421,inconclusive,,entrega/tabelas/ipca_series_yoy_3msaar.csv,TOTAL | IPCA total :: indice_sa
+A1,S05,grok-4.7,core,sa,2015-01,2026-09,140,0.2558,0.4239,pass,,entrega/tabelas/ipca_series_yoy_3msaar.csv,"TOT_X_NRG_FOOD | Excluindo energia, alimentos, álcool e tabaco :: indice_sa"
+A1,S05,grok-4.7,neig,sa,2015-01,2026-09,140,0.1212,0.9072,pass,,entrega/tabelas/ipca_series_yoy_3msaar.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa
+A1,S05,grok-4.7,serv,sa,2015-01,2026-09,140,0.5608,0.7431,pass,,entrega/tabelas/ipca_series_yoy_3msaar.csv,SERV | Serviços :: indice_sa
+A1,S05,grok-4.7,energy,sa,2015-01,2026-09,140,0.0997,0.6268,pass,,entrega/tabelas/ipca_series_yoy_3msaar.csv,NRG | Energia :: indice_sa
+A1,S05,grok-4.7,food,sa,2015-01,2026-09,140,0.4084,0.4408,pass,,entrega/tabelas/ipca_series_yoy_3msaar.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa"
+A1,S05,kimi-code/k3.1-pro,total,sa,1996-01,2025-12,359,0.8943,0.9636,pass,,dados/ipca_italia_historico_1996_2025.csv,CP00 | IPCA total :: indice_sa_proprio
+A1,S05,kimi-code/k3.1-pro,core,none,,,,,,no saved series,,,
+A1,S05,kimi-code/k3.1-pro,neig,sa,1999-12,2025-12,312,0.0004,0.002,residual seasonality,,dados/ipca_italia_historico_1996_2025.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_proprio
+A1,S05,kimi-code/k3.1-pro,serv,sa,1999-12,2025-12,312,0.0196,0.1922,inconclusive,,dados/ipca_italia_historico_1996_2025.csv,SERV | Serviços :: indice_sa_proprio
+A1,S05,kimi-code/k3.1-pro,energy,sa,1996-01,2025-12,359,0.0204,0.2089,inconclusive,,dados/ipca_italia_historico_1996_2025.csv,NRG | Energia :: indice_sa_proprio
+A1,S05,kimi-code/k3.1-pro,food,none,,,,,,no saved series,,,
+A1,S06,claude-fable-5-1,total,sa,2019-01,2025-12,83,0.3622,0.3657,official ECB SA,0.0,entrega/dados_hicp_ea.csv,Índice cheio :: Indice_SA
+A1,S06,claude-fable-5-1,core,sa,2019-01,2025-12,83,0.893,0.8971,official ECB SA,0.0,entrega/dados_hicp_ea.csv,Núcleo (ex energia e alimentos) :: Indice_SA
+A1,S06,claude-fable-5-1,neig,sa,2019-01,2025-12,83,0.657,0.99,official ECB SA,0.0,entrega/dados_hicp_ea.csv,Bens industriais não energéticos :: Indice_SA
+A1,S06,claude-fable-5-1,serv,sa,2019-01,2025-12,83,0.8958,0.8386,official ECB SA,0.0,entrega/dados_hicp_ea.csv,Serviços :: Indice_SA
+A1,S06,claude-fable-5-1,energy,sa,2019-01,2025-12,83,0.5787,0.8545,pass,1.123,entrega/dados_hicp_ea.csv,Energia :: Indice_SA
+A1,S06,claude-fable-5-1,food,sa,2019-01,2025-12,83,0.9998,0.9719,official ECB SA,0.0,entrega/dados_hicp_ea.csv,"Alimentos, bebidas e fumo :: Indice_SA"
+A1,S06,claude-haiku-5-5,total,none,,,,,,no saved series,,,
+A1,S06,claude-haiku-5-5,core,none,,,,,,no saved series,,,
+A1,S06,claude-haiku-5-5,neig,none,,,,,,no saved series,,,
+A1,S06,claude-haiku-5-5,serv,none,,,,,,no saved series,,,
+A1,S06,claude-haiku-5-5,energy,none,,,,,,no saved series,,,
+A1,S06,claude-haiku-5-5,food,none,,,,,,no saved series,,,
+A1,S06,claude-opus-5-5,total,saar,2015-01,2026-09,141,0.9953,0.9896,pass,,entrega/dados_utilizados.csv,TOTAL :: 3msaar_proprio
+A1,S06,claude-opus-5-5,core,saar,2015-01,2026-09,141,0.9622,0.9996,pass,,entrega/dados_utilizados.csv,TOT_X_NRG_FOOD :: 3msaar_proprio
+A1,S06,claude-opus-5-5,neig,saar,2015-01,2026-09,141,0.9368,0.9082,pass,,entrega/dados_utilizados.csv,IGD_NNRG :: 3msaar_proprio
+A1,S06,claude-opus-5-5,serv,saar,2015-01,2026-09,141,0.9968,0.9993,pass,,entrega/dados_utilizados.csv,SERV :: 3msaar_proprio
+A1,S06,claude-opus-5-5,energy,saar,2015-01,2026-09,141,0.9102,0.9949,pass,,entrega/dados_utilizados.csv,NRG :: 3msaar_proprio
+A1,S06,claude-opus-5-5,food,saar,2015-01,2026-09,141,0.9952,0.972,pass,,entrega/dados_utilizados.csv,FOOD :: 3msaar_proprio
+A1,S06,claude-sonnet-5-5,total,sa,2012-01,2025-12,167,0.4534,0.7044,official ECB SA,0.0,entrega/dados_inflacao_ea.csv,Total :: indice_sa
+A1,S06,claude-sonnet-5-5,core,sa,2012-01,2025-12,167,0.9084,0.9819,official ECB SA,0.0,entrega/dados_inflacao_ea.csv,"Núcleo (ex energia, alim., álcool e tabaco) :: indice_sa"
+A1,S06,claude-sonnet-5-5,neig,sa,2012-01,2025-12,167,0.8618,0.9994,official ECB SA,0.0,entrega/dados_inflacao_ea.csv,Bens industriais não energéticos :: indice_sa
+A1,S06,claude-sonnet-5-5,serv,sa,2012-01,2025-12,167,0.8262,0.828,official ECB SA,0.0,entrega/dados_inflacao_ea.csv,Serviços :: indice_sa
+A1,S06,claude-sonnet-5-5,energy,sa,2012-01,2025-12,167,0.3439,0.6657,pass,0.959,entrega/dados_inflacao_ea.csv,Energia :: indice_sa
+A1,S06,claude-sonnet-5-5,food,sa,2012-01,2025-12,167,0.9994,0.9978,official ECB SA,0.0,entrega/dados_inflacao_ea.csv,"Alimentos, álcool e tabaco :: indice_sa"
+A1,S06,gpt-6-astra,total,sa,2010-01,2026-09,200,0.2375,0.3251,official ECB SA,0.0,entrega/series_utilizadas.csv,000000 | Total :: indice_sa
+A1,S06,gpt-6-astra,core,sa,2010-01,2026-09,200,0.6808,0.842,official ECB SA,0.0,entrega/series_utilizadas.csv,XEF000 | Núcleo :: indice_sa
+A1,S06,gpt-6-astra,neig,sa,2010-01,2026-09,200,0.719,0.9986,official ECB SA,0.0,entrega/series_utilizadas.csv,IGXE00 | Bens industriais não energéticos :: indice_sa
+A1,S06,gpt-6-astra,serv,sa,2010-01,2026-09,200,0.6307,0.7177,official ECB SA,0.0,entrega/series_utilizadas.csv,SERV00 | Serviços :: indice_sa
+A1,S06,gpt-6-astra,energy,sa,2010-01,2026-09,200,0.103,0.2771,official ECB SA,0.0,entrega/series_utilizadas.csv,NRGY00 | Energia :: indice_sa
+A1,S06,gpt-6-astra,food,sa,2010-01,2026-09,200,0.9814,0.7638,official ECB SA,0.0,entrega/series_utilizadas.csv,"FOOD00 | Alimentos, álcool e tabaco :: indice_sa"
+A1,S06,gpt-6-luna,total,sa,1997-01,2026-09,356,0.0605,0.0866,official ECB SA,0.0,dados/indicadores_inflacao_eurozona.csv,Total :: indice_sa_2025=100
+A1,S06,gpt-6-luna,core,sa,1997-01,2026-09,356,0.6551,0.8895,official ECB SA,0.0,dados/indicadores_inflacao_eurozona.csv,"Núcleo (ex energia, alimentos, álcool e tabaco) :: indice_sa_2025=100"
+A1,S06,gpt-6-luna,neig,sa,1996-01,2026-09,368,0.8322,0.9973,official ECB SA,0.0,dados/indicadores_inflacao_eurozona.csv,Bens industriais não energéticos :: indice_sa_2025=100
+A1,S06,gpt-6-luna,serv,sa,1997-01,2026-09,356,0.3802,0.5428,official ECB SA,0.0,dados/indicadores_inflacao_eurozona.csv,Serviços :: indice_sa_2025=100
+A1,S06,gpt-6-luna,energy,none,,,,,,no saved series,,,
+A1,S06,gpt-6-luna,food,sa,1996-01,2026-09,368,0.9872,0.8511,official ECB SA,0.0,dados/indicadores_inflacao_eurozona.csv,"Alimentos, álcool e tabaco :: indice_sa_2025=100"
+A1,S06,gpt-6.1-sol,total,sa,2015-01,2026-09,140,0.456,0.7462,official ECB SA,0.0,entrega/series_utilizadas.csv,Total :: indice_sa_bce
+A1,S06,gpt-6.1-sol,core,sa,2015-01,2026-09,140,0.9001,0.9687,official ECB SA,0.0,entrega/series_utilizadas.csv,Núcleo¹ :: indice_sa_bce
+A1,S06,gpt-6.1-sol,neig,sa,2015-01,2026-09,140,0.6958,0.9953,official ECB SA,0.0,entrega/series_utilizadas.csv,Bens industriais não energéticos :: indice_sa_bce
+A1,S06,gpt-6.1-sol,serv,sa,2015-01,2026-09,140,0.8954,0.9562,official ECB SA,0.0,entrega/series_utilizadas.csv,Serviços :: indice_sa_bce
+A1,S06,gpt-6.1-sol,energy,sa,2015-01,2026-09,140,0.21,0.5221,official ECB SA,0.0,entrega/series_utilizadas.csv,Energia :: indice_sa_bce
+A1,S06,gpt-6.1-sol,food,sa,2015-01,2026-09,140,0.9883,0.6228,official ECB SA,0.0,entrega/series_utilizadas.csv,"Alimentos, álcool e tabaco :: indice_sa_bce"
+A1,S06,grok-4.7,total,sa,1996-01,2026-09,368,0.0,0.0,residual seasonality,0.216,dados/hicp_ea_painel.csv,TOTAL | Total :: indice_sa_proprio
+A1,S06,grok-4.7,core,sa,1999-12,2026-09,321,0.0,0.0,residual seasonality,0.272,dados/hicp_ea_painel.csv,TOT_X_NRG_FOOD | Núcleo (excl. energia e alimentos) :: indice_sa_proprio
+A1,S06,grok-4.7,neig,sa,1999-12,2026-09,321,0.0,0.0,residual seasonality,0.587,dados/hicp_ea_painel.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_proprio
+A1,S06,grok-4.7,serv,sa,1999-12,2026-09,321,0.0,0.0,residual seasonality,0.17,dados/hicp_ea_painel.csv,SERV | Serviços :: indice_sa_proprio
+A1,S06,grok-4.7,energy,sa,1996-01,2026-09,368,0.0041,0.0007,residual seasonality,0.462,dados/hicp_ea_painel.csv,NRG | Energia :: indice_sa_proprio
+A1,S06,grok-4.7,food,sa,1996-01,2026-09,368,0.0,0.0,residual seasonality,0.135,dados/hicp_ea_painel.csv,"FOOD | Alimentos, bebidas alcoólicas e tabaco :: indice_sa_proprio"
+A1,S06,kimi-code/k3.1-pro,total,saar,2025-10,2026-09,12,,,too short,,entrega/tabela_ultimos_12_meses.csv,TOTAL_3msaar :: TOTAL_3msaar
+A1,S06,kimi-code/k3.1-pro,core,saar,2025-10,2026-09,12,,,too short,,entrega/tabela_ultimos_12_meses.csv,TOT_X_NRG_FOOD_3msaar :: TOT_X_NRG_FOOD_3msaar
+A1,S06,kimi-code/k3.1-pro,neig,saar,2025-10,2026-09,12,,,too short,,entrega/tabela_ultimos_12_meses.csv,IGD_NNRG_3msaar :: IGD_NNRG_3msaar
+A1,S06,kimi-code/k3.1-pro,serv,saar,2025-10,2026-09,12,,,too short,,entrega/tabela_ultimos_12_meses.csv,SERV_3msaar :: SERV_3msaar
+A1,S06,kimi-code/k3.1-pro,energy,saar,2025-10,2026-09,12,,,too short,,entrega/tabela_ultimos_12_meses.csv,NRG_3msaar :: NRG_3msaar
+A1,S06,kimi-code/k3.1-pro,food,saar,2025-10,2026-09,12,,,too short,,entrega/tabela_ultimos_12_meses.csv,FOOD_3msaar :: FOOD_3msaar
+A2,S05,claude-fable-5-1,total,sa,2014-01,2026-09,152,0.4495,0.6544,pass,,entrega/dados_utilizados/hicp_IT_sa.csv,TOTAL :: indice_I15_sa
+A2,S05,claude-fable-5-1,core,sa,2014-01,2026-09,152,0.0841,0.0834,pass,,entrega/dados_utilizados/hicp_IT_sa.csv,TOT_X_NRG_FOOD :: indice_I15_sa
+A2,S05,claude-fable-5-1,neig,sa,2014-01,2026-09,152,0.3658,0.0754,pass,,entrega/dados_utilizados/hicp_IT_sa.csv,IGD_NNRG :: indice_I15_sa
+A2,S05,claude-fable-5-1,serv,sa,2014-01,2026-09,152,0.1834,0.3124,pass,,entrega/dados_utilizados/hicp_IT_sa.csv,SERV :: indice_I15_sa
+A2,S05,claude-fable-5-1,energy,sa,2014-01,2026-09,152,0.0685,0.1712,pass,,entrega/dados_utilizados/hicp_IT_sa.csv,NRG :: indice_I15_sa
+A2,S05,claude-fable-5-1,food,sa,2014-01,2026-09,152,0.9868,0.9805,pass,,entrega/dados_utilizados/hicp_IT_sa.csv,FOOD :: indice_I15_sa
+A2,S05,claude-haiku-5-5,total,none,,,,,,no saved series,,,
+A2,S05,claude-haiku-5-5,core,none,,,,,,no saved series,,,
+A2,S05,claude-haiku-5-5,neig,none,,,,,,no saved series,,,
+A2,S05,claude-haiku-5-5,serv,none,,,,,,no saved series,,,
+A2,S05,claude-haiku-5-5,energy,none,,,,,,no saved series,,,
+A2,S05,claude-haiku-5-5,food,none,,,,,,no saved series,,,
+A2,S05,claude-opus-5-5,total,saar,2025-09,2026-09,13,,,too short,,entrega/tabelas/ultimos_13_meses.csv,HICP cheio | saar3m :: HICP cheio | saar3m
+A2,S05,claude-opus-5-5,core,saar,2025-09,2026-09,13,,,too short,,entrega/tabelas/ultimos_13_meses.csv,"Núcleo (ex-energia, alimentos, álcool e tabaco) | saar3m :: Núcleo (ex-energia, alimentos, álcool e tabaco) | saar3m"
+A2,S05,claude-opus-5-5,neig,saar,2025-09,2026-09,13,,,too short,,entrega/tabelas/ultimos_13_meses.csv,Bens industriais não energéticos | saar3m :: Bens industriais não energéticos | saar3m
+A2,S05,claude-opus-5-5,serv,saar,2025-09,2026-09,13,,,too short,,entrega/tabelas/ultimos_13_meses.csv,Serviços | saar3m :: Serviços | saar3m
+A2,S05,claude-opus-5-5,energy,saar,2025-09,2026-09,13,,,too short,,entrega/tabelas/ultimos_13_meses.csv,Energia | saar3m :: Energia | saar3m
+A2,S05,claude-opus-5-5,food,saar,2025-09,2026-09,13,,,too short,,entrega/tabelas/ultimos_13_meses.csv,"Alimentos, álcool e tabaco | saar3m :: Alimentos, álcool e tabaco | saar3m"
+A2,S05,claude-sonnet-5-5,total,sa,2005-01,2026-09,260,0.6895,0.9214,pass,,dados/proc/series_processadas.csv,TOTAL :: indice_sa_x13
+A2,S05,claude-sonnet-5-5,core,sa,2005-01,2026-09,260,0.8113,0.6977,pass,,dados/proc/series_processadas.csv,TOT_X_NRG_FOOD :: indice_sa_x13
+A2,S05,claude-sonnet-5-5,neig,sa,2005-01,2026-09,260,0.5831,0.9543,pass,,dados/proc/series_processadas.csv,IGD_NNRG :: indice_sa_x13
+A2,S05,claude-sonnet-5-5,serv,sa,2005-01,2026-09,260,0.9639,0.995,pass,,dados/proc/series_processadas.csv,SERV :: indice_sa_x13
+A2,S05,claude-sonnet-5-5,energy,sa,2005-01,2026-09,260,0.1185,0.2839,pass,,dados/proc/series_processadas.csv,NRG :: indice_sa_x13
+A2,S05,claude-sonnet-5-5,food,sa,2005-01,2026-09,260,0.996,0.9992,pass,,dados/proc/series_processadas.csv,FOOD :: indice_sa_x13
+A2,S05,gpt-6-astra,total,sa,2010-01,2026-09,200,0.5399,0.7301,pass,,dados/series_calculadas.csv,TOTAL | Total :: indice_sa_proprio_2025_100
+A2,S05,gpt-6-astra,core,sa,2010-01,2026-09,200,0.0465,0.1545,inconclusive,,dados/series_calculadas.csv,TOT_X_NRG_FOOD | Núcleo: excl. energia e alimentos¹ :: indice_sa_proprio_2025_100
+A2,S05,gpt-6-astra,neig,sa,2010-01,2026-09,200,0.0161,0.7983,inconclusive,,dados/series_calculadas.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_proprio_2025_100
+A2,S05,gpt-6-astra,serv,sa,2010-01,2026-09,200,0.034,0.1088,inconclusive,,dados/series_calculadas.csv,SERV | Serviços :: indice_sa_proprio_2025_100
+A2,S05,gpt-6-astra,energy,sa,2010-01,2026-09,200,0.0002,0.0039,residual seasonality,,dados/series_calculadas.csv,NRG | Energia :: indice_sa_proprio_2025_100
+A2,S05,gpt-6-astra,food,sa,2010-01,2026-09,200,0.8683,0.9097,pass,,dados/series_calculadas.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa_proprio_2025_100"
+A2,S05,gpt-6-luna,total,sa,1996-01,2026-09,368,0.9579,0.9466,pass,,dados/hicp_italia_sa_e_3msaar.csv,indice_sa_stl_proprio_TOTAL :: indice_sa_stl_proprio_TOTAL
+A2,S05,gpt-6-luna,core,sa,1999-12,2026-09,321,0.2136,0.1348,pass,,dados/hicp_italia_sa_e_3msaar.csv,indice_sa_stl_proprio_TOT_X_NRG_FOOD :: indice_sa_stl_proprio_TOT_X_NRG_FOOD
+A2,S05,gpt-6-luna,neig,sa,1999-12,2026-09,321,0.0002,0.0033,residual seasonality,,dados/hicp_italia_sa_e_3msaar.csv,indice_sa_stl_proprio_IGD_NNRG :: indice_sa_stl_proprio_IGD_NNRG
+A2,S05,gpt-6-luna,serv,sa,1999-12,2026-09,321,0.0311,0.1944,inconclusive,,dados/hicp_italia_sa_e_3msaar.csv,indice_sa_stl_proprio_SERV :: indice_sa_stl_proprio_SERV
+A2,S05,gpt-6-luna,energy,sa,1996-01,2026-09,368,0.0011,0.0392,residual seasonality,,dados/hicp_italia_sa_e_3msaar.csv,indice_sa_stl_proprio_NRG :: indice_sa_stl_proprio_NRG
+A2,S05,gpt-6-luna,food,sa,1996-01,2026-09,368,0.6774,0.9027,pass,,dados/hicp_italia_sa_e_3msaar.csv,indice_sa_stl_proprio_FOOD :: indice_sa_stl_proprio_FOOD
+A2,S05,gpt-6.1-sol,total,sa,2015-01,2026-09,140,0.1407,0.3118,pass,,dados/series_calculadas.csv,TOTAL | HICP — total :: indice_sa_proprio
+A2,S05,gpt-6.1-sol,core,sa,2015-01,2026-09,140,0.1414,0.1609,pass,,dados/series_calculadas.csv,"TOT_X_NRG_FOOD | HICP — núcleo sem energia, alimentos, álcool e tabaco :: indice_sa_proprio"
+A2,S05,gpt-6.1-sol,neig,sa,2015-01,2026-09,140,0.1065,0.2327,pass,,dados/series_calculadas.csv,IGD_NNRG | HICP — bens industriais não energéticos :: indice_sa_proprio
+A2,S05,gpt-6.1-sol,serv,sa,2015-01,2026-09,140,0.1004,0.213,pass,,dados/series_calculadas.csv,SERV | HICP — serviços :: indice_sa_proprio
+A2,S05,gpt-6.1-sol,energy,sa,2015-01,2026-09,140,0.0353,0.1265,inconclusive,,dados/series_calculadas.csv,NRG | HICP — energia :: indice_sa_proprio
+A2,S05,gpt-6.1-sol,food,sa,2015-01,2026-09,140,0.7476,0.7706,pass,,dados/series_calculadas.csv,"FOOD | HICP — alimentos, álcool e tabaco :: indice_sa_proprio"
+A2,S05,grok-4.7,total,sa,2005-01,2026-09,260,0.9914,0.9913,pass,,dados/ipca_italia_painel.csv,total__indice_sa :: total__indice_sa
+A2,S05,grok-4.7,core,sa,2005-01,2026-09,260,0.2302,0.2238,pass,,dados/ipca_italia_painel.csv,nucleo_ex_alim__indice_sa :: nucleo_ex_alim__indice_sa
+A2,S05,grok-4.7,neig,sa,2005-01,2026-09,260,0.0239,0.0114,inconclusive,,dados/ipca_italia_painel.csv,bens_ind_nrg__indice_sa :: bens_ind_nrg__indice_sa
+A2,S05,grok-4.7,serv,sa,2005-01,2026-09,260,0.0149,0.0536,inconclusive,,dados/ipca_italia_painel.csv,servicos__indice_sa :: servicos__indice_sa
+A2,S05,grok-4.7,energy,sa,2005-01,2026-09,260,0.0,0.0007,residual seasonality,,dados/ipca_italia_painel.csv,energia__indice_sa :: energia__indice_sa
+A2,S05,grok-4.7,food,sa,2005-01,2026-09,260,0.8492,0.95,pass,,dados/ipca_italia_painel.csv,alimentos__indice_sa :: alimentos__indice_sa
+A2,S05,kimi-code/k3.1-pro,total,sa,1996-01,2026-09,368,0.9579,0.9466,pass,,entrega/dados/serie_mensal_completa.csv,TOTAL | Total :: indice_sa_stl
+A2,S05,kimi-code/k3.1-pro,core,sa,1999-12,2026-09,321,0.2136,0.1348,pass,,entrega/dados/serie_mensal_completa.csv,"TOT_X_NRG_FOOD | Núcleo amplo (exc. energia, alimentos, álcool e tabaco) :: indice_sa_stl"
+A2,S05,kimi-code/k3.1-pro,neig,sa,1999-12,2026-09,321,0.0002,0.0033,residual seasonality,,entrega/dados/serie_mensal_completa.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_stl
+A2,S05,kimi-code/k3.1-pro,serv,sa,1999-12,2026-09,321,0.0311,0.1944,inconclusive,,entrega/dados/serie_mensal_completa.csv,SERV | Serviços :: indice_sa_stl
+A2,S05,kimi-code/k3.1-pro,energy,sa,1996-01,2026-09,368,0.0011,0.0392,residual seasonality,,entrega/dados/serie_mensal_completa.csv,NRG | Energia :: indice_sa_stl
+A2,S05,kimi-code/k3.1-pro,food,sa,1996-01,2026-09,368,0.6774,0.9027,pass,,entrega/dados/serie_mensal_completa.csv,"FOOD | Alimentos, incluindo álcool e tabaco :: indice_sa_stl"
+A2,S06,claude-fable-5-1,total,sa,1997-01,2026-09,356,0.0605,0.0866,official ECB SA,0.0,entrega/dados/hicp_zona_euro_processado.csv,HICP cheio | TOTAL :: indice_sa_2025=100
+A2,S06,claude-fable-5-1,core,sa,1997-01,2026-09,356,0.6551,0.8895,official ECB SA,0.0,entrega/dados/hicp_zona_euro_processado.csv,"Núcleo (ex-energia, alimentos, álcool e tabaco) | TOT_X_NRG_FOOD :: indice_sa_2025=100"
+A2,S06,claude-fable-5-1,neig,sa,1997-01,2026-09,356,0.8783,0.9977,official ECB SA,0.0,entrega/dados/hicp_zona_euro_processado.csv,Bens industriais não energéticos | IGD_NNRG :: indice_sa_2025=100
+A2,S06,claude-fable-5-1,serv,sa,1997-01,2026-09,356,0.3802,0.5428,official ECB SA,0.0,entrega/dados/hicp_zona_euro_processado.csv,Serviços | SERV :: indice_sa_2025=100
+A2,S06,claude-fable-5-1,energy,sa,1997-01,2026-09,356,0.0085,0.0182,official ECB SA,0.0,entrega/dados/hicp_zona_euro_processado.csv,Energia | NRG :: indice_sa_2025=100
+A2,S06,claude-fable-5-1,food,sa,1997-01,2026-09,356,0.9944,0.8853,official ECB SA,0.0,entrega/dados/hicp_zona_euro_processado.csv,"Alimentos, álcool e tabaco | FOOD :: indice_sa_2025=100"
+A2,S06,claude-haiku-5-5,total,none,,,,,,no saved series,,,
+A2,S06,claude-haiku-5-5,core,sa,1999-12,2026-09,321,0.9999,0.9926,pass,0.145,entrega/tabelas/tab03_serie_mensal_completa.csv,Núcleo :: índice_SA
+A2,S06,claude-haiku-5-5,neig,sa,1999-12,2026-09,321,0.9999,0.9963,pass,0.132,entrega/tabelas/tab03_serie_mensal_completa.csv,Bens industriais não energéticos :: índice_SA
+A2,S06,claude-haiku-5-5,serv,sa,1999-12,2026-09,321,1.0,0.9903,pass,0.197,entrega/tabelas/tab03_serie_mensal_completa.csv,Serviços :: índice_SA
+A2,S06,claude-haiku-5-5,energy,sa,1996-01,2026-09,368,1.0,0.8845,pass,0.459,entrega/tabelas/tab03_serie_mensal_completa.csv,Energia :: índice_SA
+A2,S06,claude-haiku-5-5,food,sa,1996-01,2026-09,368,1.0,0.9987,pass,0.095,entrega/tabelas/tab03_serie_mensal_completa.csv,Alimentos (incl. álcool e tabaco) :: índice_SA
+A2,S06,claude-opus-5-5,total,sa,1997-01,2026-09,356,0.0605,0.0866,official ECB SA,0.0,entrega/dados/hicp_zona_euro_painel.csv,000000 :: indice_sa_bce_2025=100
+A2,S06,claude-opus-5-5,core,sa,1997-01,2026-09,356,0.6551,0.8895,official ECB SA,0.0,entrega/dados/hicp_zona_euro_painel.csv,XEF000 :: indice_sa_bce_2025=100
+A2,S06,claude-opus-5-5,neig,sa,1997-01,2026-09,356,0.8783,0.9977,official ECB SA,0.0,entrega/dados/hicp_zona_euro_painel.csv,IGXE00 :: indice_sa_bce_2025=100
+A2,S06,claude-opus-5-5,serv,sa,1997-01,2026-09,356,0.3802,0.5428,official ECB SA,0.0,entrega/dados/hicp_zona_euro_painel.csv,SERV00 :: indice_sa_bce_2025=100
+A2,S06,claude-opus-5-5,energy,sa,1997-01,2026-09,356,0.0085,0.0182,official ECB SA,0.0,entrega/dados/hicp_zona_euro_painel.csv,NRGY00 :: indice_sa_bce_2025=100
+A2,S06,claude-opus-5-5,food,sa,1997-01,2026-09,356,0.9944,0.8853,official ECB SA,0.0,entrega/dados/hicp_zona_euro_painel.csv,FOOD00 :: indice_sa_bce_2025=100
+A2,S06,claude-sonnet-5-5,total,sa,1997-01,2025-12,347,0.0578,0.1153,official ECB SA,0.0,entrega/dados/hicp_ea_processado.csv,CP00_sa_bce :: CP00_sa_bce
+A2,S06,claude-sonnet-5-5,core,saar,1997-04,2025-12,345,0.9886,0.9996,pass,,entrega/dados/hicp_ea_processado.csv,TOT_X_NRG_FOOD_3msaar_bce :: TOT_X_NRG_FOOD_3msaar_bce
+A2,S06,claude-sonnet-5-5,neig,sa,1996-01,2025-12,359,0.8845,0.9979,official ECB SA,0.0,entrega/dados/hicp_ea_processado.csv,IGD_NNRG_sa_bce :: IGD_NNRG_sa_bce
+A2,S06,claude-sonnet-5-5,serv,sa,1997-01,2025-12,347,0.3748,0.5908,official ECB SA,0.0,entrega/dados/hicp_ea_processado.csv,SERV_sa_bce :: SERV_sa_bce
+A2,S06,claude-sonnet-5-5,energy,sa,1996-01,2026-09,368,0.0071,0.0129,official ECB SA,0.012,entrega/dados/hicp_ea_processado.csv,NRG_sa :: NRG_sa
+A2,S06,claude-sonnet-5-5,food,sa,1996-01,2026-09,368,0.9282,0.9854,pass,0.085,entrega/dados/hicp_ea_processado.csv,FOOD_sa :: FOOD_sa
+A2,S06,gpt-6-astra,total,sa,2015-01,2026-09,140,0.456,0.7462,official ECB SA,0.0,dados/series_calculadas.csv,TOTAL | Inflação total :: indice_sa
+A2,S06,gpt-6-astra,core,sa,2015-01,2026-09,140,0.9001,0.9687,official ECB SA,0.0,dados/series_calculadas.csv,TOT_X_NRG_FOOD | Núcleo :: indice_sa
+A2,S06,gpt-6-astra,neig,sa,2015-01,2026-09,140,0.6958,0.9953,official ECB SA,0.0,dados/series_calculadas.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa
+A2,S06,gpt-6-astra,serv,sa,2015-01,2026-09,140,0.8954,0.9562,official ECB SA,0.0,dados/series_calculadas.csv,SERV | Serviços :: indice_sa
+A2,S06,gpt-6-astra,energy,sa,2015-01,2026-09,140,0.21,0.5221,official ECB SA,0.0,dados/series_calculadas.csv,NRG | Energia :: indice_sa
+A2,S06,gpt-6-astra,food,sa,2015-01,2026-09,140,0.9883,0.6228,official ECB SA,0.0,dados/series_calculadas.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa"
+A2,S06,gpt-6-luna,total,sa,1999-12,2026-09,321,0.5528,0.6874,pass,0.123,dados/hicp_calculado_sa_yoy_3msaar.csv,TOTAL_index_sa_stl :: TOTAL_index_sa_stl
+A2,S06,gpt-6-luna,core,sa,1999-12,2026-09,321,0.6768,0.8671,pass,0.091,dados/hicp_calculado_sa_yoy_3msaar.csv,TOT_X_NRG_FOOD_index_sa_stl :: TOT_X_NRG_FOOD_index_sa_stl
+A2,S06,gpt-6-luna,neig,sa,1999-12,2026-09,321,0.8023,0.8112,pass,0.101,dados/hicp_calculado_sa_yoy_3msaar.csv,IGD_NNRG_index_sa_stl :: IGD_NNRG_index_sa_stl
+A2,S06,gpt-6-luna,serv,sa,1999-12,2026-09,321,0.1743,0.8401,pass,0.105,dados/hicp_calculado_sa_yoy_3msaar.csv,SERV_index_sa_stl :: SERV_index_sa_stl
+A2,S06,gpt-6-luna,energy,sa,1999-12,2026-09,321,0.0018,0.0754,residual seasonality,1.929,dados/hicp_calculado_sa_yoy_3msaar.csv,NRG_index_sa_stl :: NRG_index_sa_stl
+A2,S06,gpt-6-luna,food,sa,1999-12,2026-09,321,0.9155,0.903,pass,0.077,dados/hicp_calculado_sa_yoy_3msaar.csv,FOOD_index_sa_stl :: FOOD_index_sa_stl
+A2,S06,gpt-6.1-sol,total,sa,1997-01,2026-09,356,0.0605,0.0866,official ECB SA,0.0,dados/tratados/painel_mensal.csv,Total :: indice_sa
+A2,S06,gpt-6.1-sol,core,sa,1997-01,2026-09,356,0.6551,0.8895,official ECB SA,0.0,dados/tratados/painel_mensal.csv,Núcleo :: indice_sa
+A2,S06,gpt-6.1-sol,neig,sa,1997-01,2026-09,356,0.8783,0.9977,official ECB SA,0.0,dados/tratados/painel_mensal.csv,Bens industriais não energéticos :: indice_sa
+A2,S06,gpt-6.1-sol,serv,sa,1997-01,2026-09,356,0.3802,0.5428,official ECB SA,0.0,dados/tratados/painel_mensal.csv,Serviços :: indice_sa
+A2,S06,gpt-6.1-sol,energy,sa,1997-01,2026-09,356,0.0085,0.0182,official ECB SA,0.0,dados/tratados/painel_mensal.csv,Energia :: indice_sa
+A2,S06,gpt-6.1-sol,food,sa,1997-01,2026-09,356,0.9944,0.8853,official ECB SA,0.0,dados/tratados/painel_mensal.csv,"Alimentos, álcool e tabaco :: indice_sa"
+A2,S06,grok-4.7,total,none,,,,,,no saved series,,,
+A2,S06,grok-4.7,core,none,,,,,,no saved series,,,
+A2,S06,grok-4.7,neig,none,,,,,,no saved series,,,
+A2,S06,grok-4.7,serv,none,,,,,,no saved series,,,
+A2,S06,grok-4.7,energy,none,,,,,,no saved series,,,
+A2,S06,grok-4.7,food,none,,,,,,no saved series,,,
+A2,S06,kimi-code/k3.1-pro,total,sa,2018-01,2026-09,104,0.389,0.5266,official ECB SA,0.0,dados/hicp_series.csv,total | HICP total :: indice_sa_2025_100
+A2,S06,kimi-code/k3.1-pro,core,sa,2018-01,2026-09,104,0.8846,0.9335,official ECB SA,0.0,dados/hicp_series.csv,"nucleo | Núcleo (exclui energia, alimentos, álcool e tabaco) :: indice_sa_2025_100"
+A2,S06,kimi-code/k3.1-pro,neig,sa,2018-01,2026-09,104,0.6247,0.9966,official ECB SA,0.0,dados/hicp_series.csv,bens | Bens industriais não energéticos :: indice_sa_2025_100
+A2,S06,kimi-code/k3.1-pro,serv,sa,2018-01,2026-09,104,0.9278,0.959,official ECB SA,0.0,dados/hicp_series.csv,servicos | Serviços :: indice_sa_2025_100
+A2,S06,kimi-code/k3.1-pro,energy,sa,2018-01,2026-09,104,0.2041,0.3905,official ECB SA,0.0,dados/hicp_series.csv,energia | Energia :: indice_sa_2025_100
+A2,S06,kimi-code/k3.1-pro,food,sa,2018-01,2026-09,104,0.9992,0.8523,official ECB SA,0.0,dados/hicp_series.csv,"alimentos | Alimentos, álcool e tabaco :: indice_sa_2025_100"
+A3,S05,claude-haiku-5-5,total,none,,,,,,no saved series,,,
+A3,S05,claude-haiku-5-5,core,none,,,,,,no saved series,,,
+A3,S05,claude-haiku-5-5,neig,none,,,,,,no saved series,,,
+A3,S05,claude-haiku-5-5,serv,none,,,,,,no saved series,,,
+A3,S05,claude-haiku-5-5,energy,none,,,,,,no saved series,,,
+A3,S05,claude-haiku-5-5,food,none,,,,,,no saved series,,,
+A3,S05,grok-4.7,total,sa,2018-01,2026-10,105,0.245,0.1857,pass,,entrega/dados_e_calculos.csv,00 | IPCA total :: indice_sa
+A3,S05,grok-4.7,core,none,,,,,,no saved series,,,
+A3,S05,grok-4.7,neig,sa,2018-01,2026-10,105,0.9996,0.6842,pass,,entrega/dados_e_calculos.csv,IGDNNRG | Bens industriais não energéticos :: indice_sa
+A3,S05,grok-4.7,serv,none,,,,,,no saved series,,,
+A3,S05,grok-4.7,energy,sa,2018-01,2026-10,105,0.7933,0.3212,pass,,entrega/dados_e_calculos.csv,NRG | Energia :: indice_sa
+A3,S05,grok-4.7,food,none,,,,,,no saved series,,,
+A3,S05,gpt-6-astra,total,sa,2015-01,2026-10,141,0.0839,0.4535,pass,,entrega/dados_e_calculos.csv,TOTAL | Total :: indice_sa
+A3,S05,gpt-6-astra,core,sa,2015-01,2026-10,141,0.1064,0.1993,pass,,entrega/dados_e_calculos.csv,"TOT_X_NRG_FOOD | Núcleo: excl. energia, alimentos, álcool e tabaco :: indice_sa"
+A3,S05,gpt-6-astra,neig,sa,2015-01,2026-10,141,0.0531,0.1587,pass,,entrega/dados_e_calculos.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa
+A3,S05,gpt-6-astra,serv,sa,2015-01,2026-10,141,0.0228,0.1304,inconclusive,,entrega/dados_e_calculos.csv,SERV | Serviços :: indice_sa
+A3,S05,gpt-6-astra,energy,sa,2015-01,2026-10,141,0.6495,0.6457,pass,,entrega/dados_e_calculos.csv,NRG | Energia :: indice_sa
+A3,S05,gpt-6-astra,food,sa,2015-01,2026-10,141,0.8838,0.8301,pass,,entrega/dados_e_calculos.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa"
+A3,S05,gpt-6-luna,total,sa,2015-01,2026-10,141,0.0839,0.4535,pass,,entrega/dados_calculos_inflacao_italia.csv,TOTAL_indice_SA_STL_proprio :: TOTAL_indice_SA_STL_proprio
+A3,S05,gpt-6-luna,core,sa,2015-01,2026-10,141,0.1064,0.1993,pass,,entrega/dados_calculos_inflacao_italia.csv,TOT_X_NRG_FOOD_indice_SA_STL_proprio :: TOT_X_NRG_FOOD_indice_SA_STL_proprio
+A3,S05,gpt-6-luna,neig,sa,2015-01,2026-10,141,0.0531,0.1587,pass,,entrega/dados_calculos_inflacao_italia.csv,IGD_NNRG_indice_SA_STL_proprio :: IGD_NNRG_indice_SA_STL_proprio
+A3,S05,gpt-6-luna,serv,sa,2015-01,2026-10,141,0.0228,0.1304,inconclusive,,entrega/dados_calculos_inflacao_italia.csv,SERV_indice_SA_STL_proprio :: SERV_indice_SA_STL_proprio
+A3,S05,gpt-6-luna,energy,sa,2015-01,2026-10,141,0.6495,0.6457,pass,,entrega/dados_calculos_inflacao_italia.csv,NRG_indice_SA_STL_proprio :: NRG_indice_SA_STL_proprio
+A3,S05,gpt-6-luna,food,sa,2015-01,2026-10,141,0.8838,0.8301,pass,,entrega/dados_calculos_inflacao_italia.csv,FOOD_indice_SA_STL_proprio :: FOOD_indice_SA_STL_proprio
+A3,S05,gpt-6.1-sol,total,sa,2015-01,2026-10,141,0.0839,0.4535,pass,,entrega/dados/dados_e_calculos.csv,TOTAL | HICP total :: indice_sa_proprio
+A3,S05,gpt-6.1-sol,core,sa,2015-01,2026-10,141,0.1064,0.1993,pass,,entrega/dados/dados_e_calculos.csv,"TOT_X_NRG_FOOD | Núcleo: exclui energia, alimentos, álcool e tabaco :: indice_sa_proprio"
+A3,S05,gpt-6.1-sol,neig,sa,2015-01,2026-10,141,0.0531,0.1587,pass,,entrega/dados/dados_e_calculos.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_proprio
+A3,S05,gpt-6.1-sol,serv,sa,2015-01,2026-10,141,0.0228,0.1304,inconclusive,,entrega/dados/dados_e_calculos.csv,SERV | Serviços :: indice_sa_proprio
+A3,S05,gpt-6.1-sol,energy,sa,2015-01,2026-10,141,0.6495,0.6457,pass,,entrega/dados/dados_e_calculos.csv,NRG | Energia :: indice_sa_proprio
+A3,S05,gpt-6.1-sol,food,sa,2015-01,2026-10,141,0.8838,0.8301,pass,,entrega/dados/dados_e_calculos.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa_proprio"
+A3,S05,claude-sonnet-5-5,total,sa,2016-01,2026-10,129,0.0339,0.2206,inconclusive,,entrega/dados_e_calculos.csv,TOTAL | Total (HICP) :: indice_SA_STL
+A3,S05,claude-sonnet-5-5,core,sa,2016-01,2026-10,129,0.2522,0.4423,pass,,entrega/dados_e_calculos.csv,"TOT_X_NRG_FOOD | Núcleo (ex-energia, alimentos, álcool e tabaco) :: indice_SA_STL"
+A3,S05,claude-sonnet-5-5,neig,sa,2016-01,2026-10,129,0.1225,0.2242,pass,,entrega/dados_e_calculos.csv,IGD_NNRG | Bens industriais não energéticos :: indice_SA_STL
+A3,S05,claude-sonnet-5-5,serv,sa,2016-01,2026-10,129,0.2725,0.3687,pass,,entrega/dados_e_calculos.csv,SERV | Serviços :: indice_SA_STL
+A3,S05,claude-sonnet-5-5,energy,sa,2016-01,2026-10,129,0.5393,0.5304,pass,,entrega/dados_e_calculos.csv,NRG | Energia :: indice_SA_STL
+A3,S05,claude-sonnet-5-5,food,sa,2016-01,2026-10,129,0.9324,0.9455,pass,,entrega/dados_e_calculos.csv,FOOD | Alimentos (incl. álcool e tabaco) :: indice_SA_STL
+A3,S05,kimi-code/k3.1-pro,total,sa,2016-01,2026-10,129,0.0,0.0,residual seasonality,,entrega/dados_e_calculos.csv,Total NIC :: indice_sa_proprio
+A3,S05,kimi-code/k3.1-pro,core,sa,2016-01,2026-10,129,0.0,0.0,residual seasonality,,entrega/dados_e_calculos.csv,Núcleo NIC :: indice_sa_proprio
+A3,S05,kimi-code/k3.1-pro,neig,sa,2016-01,2026-10,129,0.0,0.0,residual seasonality,,entrega/dados_e_calculos.csv,Bens industriais não energéticos NIC :: indice_sa_proprio
+A3,S05,kimi-code/k3.1-pro,serv,sa,2016-01,2026-10,129,0.0,0.0,residual seasonality,,entrega/dados_e_calculos.csv,Serviços NIC :: indice_sa_proprio
+A3,S05,kimi-code/k3.1-pro,energy,sa,2016-01,2026-10,129,0.2042,0.012,pass,,entrega/dados_e_calculos.csv,Energia NIC :: indice_sa_proprio
+A3,S05,kimi-code/k3.1-pro,food,sa,2016-01,2026-10,129,0.0,0.0,residual seasonality,,entrega/dados_e_calculos.csv,Alimentos NIC :: indice_sa_proprio
+A3,S05,claude-opus-5-5,total,sa,2000-01,2026-10,321,0.7799,0.8702,pass,,entrega/dados_e_calculos.csv,TOTAL :: indice_sa_proprio
+A3,S05,claude-opus-5-5,core,sa,2000-01,2026-10,321,0.2252,0.1457,pass,,entrega/dados_e_calculos.csv,TOT_X_NRG_FOOD :: indice_sa_proprio
+A3,S05,claude-opus-5-5,neig,sa,2000-01,2026-10,321,0.0002,0.003,residual seasonality,,entrega/dados_e_calculos.csv,IGD_NNRG :: indice_sa_proprio
+A3,S05,claude-opus-5-5,serv,sa,2000-01,2026-10,321,0.0237,0.1724,inconclusive,,entrega/dados_e_calculos.csv,SERV :: indice_sa_proprio
+A3,S05,claude-opus-5-5,energy,sa,2000-01,2026-10,321,0.1834,0.3718,pass,,entrega/dados_e_calculos.csv,NRG :: indice_sa_proprio
+A3,S05,claude-opus-5-5,food,sa,2000-01,2026-10,321,0.8755,0.978,pass,,entrega/dados_e_calculos.csv,FOOD :: indice_sa_proprio
+A3,S05,claude-fable-5-1,total,sa,2010-01,2026-10,201,0.1895,0.5541,pass,,entrega/dados_e_calculos.csv,TOTAL | HICP total :: indice_sa_stl
+A3,S05,claude-fable-5-1,core,sa,2010-01,2026-10,201,0.044,0.1466,inconclusive,,entrega/dados_e_calculos.csv,"TOT_X_NRG_FOOD | Núcleo (ex energia, alimentos, álcool e tabaco) :: indice_sa_stl"
+A3,S05,claude-fable-5-1,neig,sa,2010-01,2026-10,201,0.0152,0.7668,inconclusive,,entrega/dados_e_calculos.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_stl
+A3,S05,claude-fable-5-1,serv,sa,2010-01,2026-10,201,0.0386,0.1349,inconclusive,,entrega/dados_e_calculos.csv,SERV | Serviços :: indice_sa_stl
+A3,S05,claude-fable-5-1,energy,sa,2010-01,2026-10,201,0.0836,0.1472,pass,,entrega/dados_e_calculos.csv,NRG | Energia :: indice_sa_stl
+A3,S05,claude-fable-5-1,food,sa,2010-01,2026-10,201,0.8744,0.8946,pass,,entrega/dados_e_calculos.csv,FOOD | Alimentos (incl. álcool e tabaco) :: indice_sa_stl
+A3,S06,kimi-code/k3.1-pro,total,sa,2015-01,2026-10,141,0.0572,0.2344,pass,0.182,entrega/dados_e_calculos.csv,TOTAL | Inflação total :: indice_sa_proprio
+A3,S06,kimi-code/k3.1-pro,core,sa,2015-01,2026-10,141,0.0292,0.3951,inconclusive,0.133,entrega/dados_e_calculos.csv,"TOT_X_NRG_FOOD | Núcleo (sem energia, alimentos, álcool e tabaco) :: indice_sa_proprio"
+A3,S06,kimi-code/k3.1-pro,neig,sa,2015-01,2026-10,141,0.9964,0.9932,pass,0.197,entrega/dados_e_calculos.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_proprio
+A3,S06,kimi-code/k3.1-pro,serv,sa,2015-01,2026-10,141,0.0014,0.0177,residual seasonality,0.156,entrega/dados_e_calculos.csv,SERV | Serviços :: indice_sa_proprio
+A3,S06,kimi-code/k3.1-pro,energy,sa,2015-01,2026-10,141,0.9947,0.8302,pass,0.886,entrega/dados_e_calculos.csv,NRG | Energia :: indice_sa_proprio
+A3,S06,kimi-code/k3.1-pro,food,sa,2015-01,2026-10,141,0.0541,0.0252,pass,0.147,entrega/dados_e_calculos.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa_proprio"
+A3,S06,claude-sonnet-5-5,total,sa,2005-01,2026-10,261,0.7733,0.8664,pass,0.113,entrega/dados_hicp_ea.csv,TOTAL :: indice_SA_proprio_STL
+A3,S06,claude-sonnet-5-5,core,sa,2005-01,2026-10,261,0.6352,0.789,pass,0.094,entrega/dados_hicp_ea.csv,TOT_X_NRG_FOOD :: indice_SA_proprio_STL
+A3,S06,claude-sonnet-5-5,neig,sa,2005-01,2026-10,261,0.8231,0.4045,pass,0.105,entrega/dados_hicp_ea.csv,IGD_NNRG :: indice_SA_proprio_STL
+A3,S06,claude-sonnet-5-5,serv,sa,2005-01,2026-10,261,0.6173,0.9702,pass,0.109,entrega/dados_hicp_ea.csv,SERV :: indice_SA_proprio_STL
+A3,S06,claude-sonnet-5-5,energy,sa,2005-01,2026-10,261,0.0383,0.2607,inconclusive,1.293,entrega/dados_hicp_ea.csv,NRG :: indice_SA_proprio_STL
+A3,S06,claude-sonnet-5-5,food,sa,2005-01,2026-10,261,0.9668,0.9808,pass,0.076,entrega/dados_hicp_ea.csv,FOOD :: indice_SA_proprio_STL
+A3,S06,claude-haiku-5-5,total,sa,2014-01,2026-10,153,0.7746,0.8405,pass,0.135,dados/calculos_ipch_ea.csv,TOTAL :: indice_sa
+A3,S06,claude-haiku-5-5,core,sa,2014-01,2026-10,153,0.86,0.998,pass,0.086,dados/calculos_ipch_ea.csv,TOT_X_NRG_FOOD :: indice_sa
+A3,S06,claude-haiku-5-5,neig,sa,2014-01,2026-10,153,0.5255,0.9379,pass,0.095,dados/calculos_ipch_ea.csv,IGD_NNRG :: indice_sa
+A3,S06,claude-haiku-5-5,serv,sa,2014-01,2026-10,153,0.9478,0.9919,pass,0.103,dados/calculos_ipch_ea.csv,SERV :: indice_sa
+A3,S06,claude-haiku-5-5,energy,sa,2014-01,2026-10,153,0.4758,0.9016,pass,1.278,dados/calculos_ipch_ea.csv,NRG :: indice_sa
+A3,S06,claude-haiku-5-5,food,sa,2014-01,2026-10,153,0.9871,0.9794,pass,0.074,dados/calculos_ipch_ea.csv,FOOD :: indice_sa
+A3,S06,gpt-6-luna,total,none,,,,,,no saved series,,,
+A3,S06,gpt-6-luna,core,none,,,,,,no saved series,,,
+A3,S06,gpt-6-luna,neig,none,,,,,,no saved series,,,
+A3,S06,gpt-6-luna,serv,none,,,,,,no saved series,,,
+A3,S06,gpt-6-luna,energy,none,,,,,,no saved series,,,
+A3,S06,gpt-6-luna,food,none,,,,,,no saved series,,,
+A3,S06,gpt-6-astra,total,sa,2020-01,2026-10,81,0.2611,0.1377,official ECB SA,0.009,entrega/dados_e_calculos.csv,TOTAL | Total :: indice_sa
+A3,S06,gpt-6-astra,core,sa,2020-01,2026-10,81,0.6162,0.7106,official ECB SA,0.013,entrega/dados_e_calculos.csv,TOT_X_NRG_FOOD | Núcleo :: indice_sa
+A3,S06,gpt-6-astra,neig,sa,2020-01,2026-10,81,0.3471,0.8135,official ECB SA,0.0,entrega/dados_e_calculos.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa
+A3,S06,gpt-6-astra,serv,sa,2020-01,2026-10,81,0.9144,0.9673,official ECB SA,0.018,entrega/dados_e_calculos.csv,SERV | Serviços :: indice_sa
+A3,S06,gpt-6-astra,energy,sa,2020-01,2026-10,81,0.1967,0.225,official ECB SA,0.0,entrega/dados_e_calculos.csv,NRG | Energia :: indice_sa
+A3,S06,gpt-6-astra,food,sa,2020-01,2026-10,81,0.9989,0.9521,official ECB SA,0.009,entrega/dados_e_calculos.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa"
+A3,S06,claude-opus-5-5,total,sa,2001-01,2026-10,309,0.5295,0.5805,pass,0.119,entrega/hicp_ea_dados_e_calculos.csv,TOTAL | HICP cheio :: indice_SA_proprio
+A3,S06,claude-opus-5-5,core,sa,2001-01,2026-10,309,0.4922,0.7769,pass,0.094,entrega/hicp_ea_dados_e_calculos.csv,"TOT_X_NRG_FOOD | Núcleo (ex. energia, alimentos, álcool e tabaco) :: indice_SA_proprio"
+A3,S06,claude-opus-5-5,neig,sa,2001-01,2026-10,309,0.7301,0.511,pass,0.108,entrega/hicp_ea_dados_e_calculos.csv,IGD_NNRG | Bens industriais não energéticos :: indice_SA_proprio
+A3,S06,claude-opus-5-5,serv,sa,2001-01,2026-10,309,0.2062,0.7286,pass,0.112,entrega/hicp_ea_dados_e_calculos.csv,SERV | Serviços :: indice_SA_proprio
+A3,S06,claude-opus-5-5,energy,sa,2001-01,2026-10,309,0.0645,0.3307,pass,1.318,entrega/hicp_ea_dados_e_calculos.csv,NRG | Energia :: indice_SA_proprio
+A3,S06,claude-opus-5-5,food,sa,2001-01,2026-10,309,0.9063,0.9417,pass,0.08,entrega/hicp_ea_dados_e_calculos.csv,"FOOD | Alimentos, álcool e tabaco :: indice_SA_proprio"
+A3,S06,gpt-6.1-sol,total,sa,2015-01,2026-10,141,0.4274,0.6998,official ECB SA,0.009,entrega/dados_e_calculos.csv,Total | TOTAL :: indice_sa_2025_100
+A3,S06,gpt-6.1-sol,core,sa,2015-01,2026-10,141,0.9115,0.9706,official ECB SA,0.013,entrega/dados_e_calculos.csv,Núcleo | TOT_X_NRG_FOOD :: indice_sa_2025_100
+A3,S06,gpt-6.1-sol,neig,sa,2015-01,2026-10,141,0.6887,0.995,official ECB SA,0.0,entrega/dados_e_calculos.csv,Bens industriais não energéticos | IGD_NNRG :: indice_sa_2025_100
+A3,S06,gpt-6.1-sol,serv,sa,2015-01,2026-10,141,0.9223,0.9723,official ECB SA,0.018,entrega/dados_e_calculos.csv,Serviços | SERV :: indice_sa_2025_100
+A3,S06,gpt-6.1-sol,energy,sa,2015-01,2026-10,141,0.1956,0.4772,official ECB SA,0.0,entrega/dados_e_calculos.csv,Energia | NRG :: indice_sa_2025_100
+A3,S06,gpt-6.1-sol,food,sa,2015-01,2026-10,141,0.9837,0.591,official ECB SA,0.009,entrega/dados_e_calculos.csv,"Alimentos, álcool e tabaco | FOOD :: indice_sa_2025_100"
+A3,S06,grok-4.7,total,sa,2017-01,2026-10,117,0.3453,0.3836,official ECB SA,0.009,entrega/dados_e_calculos.csv,TOTAL | Total :: indice_sa_calendario
+A3,S06,grok-4.7,core,sa,2017-01,2026-10,117,0.8719,0.9338,official ECB SA,0.013,entrega/dados_e_calculos.csv,"TOT_X_NRG_FOOD | Núcleo (exclui energia, alimentos, álcool e tabaco) :: indice_sa_calendario"
+A3,S06,grok-4.7,neig,sa,2017-01,2026-10,117,0.651,0.9885,official ECB SA,0.0,entrega/dados_e_calculos.csv,IGD_NNRG | Bens industriais não energéticos :: indice_sa_calendario
+A3,S06,grok-4.7,serv,sa,2017-01,2026-10,117,0.9131,0.9607,official ECB SA,0.018,entrega/dados_e_calculos.csv,SERV | Serviços :: indice_sa_calendario
+A3,S06,grok-4.7,energy,sa,2017-01,2026-10,117,0.1563,0.2092,official ECB SA,0.0,entrega/dados_e_calculos.csv,NRG | Energia :: indice_sa_calendario
+A3,S06,grok-4.7,food,sa,2017-01,2026-10,117,0.9981,0.8121,official ECB SA,0.009,entrega/dados_e_calculos.csv,"FOOD | Alimentos, álcool e tabaco :: indice_sa_calendario"
+A3,S06,claude-fable-5-1,total,sa,1997-01,2026-10,357,0.0545,0.0925,official ECB SA,0.009,entrega/dados_e_calculos.csv,total :: indice_sa_bce_2025=100
+A3,S06,claude-fable-5-1,core,sa,1997-01,2026-10,357,0.6594,0.8818,official ECB SA,0.013,entrega/dados_e_calculos.csv,core :: indice_sa_bce_2025=100
+A3,S06,claude-fable-5-1,neig,sa,1996-01,2026-10,369,0.8307,0.9975,official ECB SA,0.0,entrega/dados_e_calculos.csv,neig :: indice_sa_bce_2025=100
+A3,S06,claude-fable-5-1,serv,sa,1997-01,2026-10,357,0.4297,0.5778,official ECB SA,0.018,entrega/dados_e_calculos.csv,serv :: indice_sa_bce_2025=100
+A3,S06,claude-fable-5-1,energy,sa,1990-01,2026-10,441,0.0023,0.0022,official ECB SA,0.0,entrega/dados_e_calculos.csv,energia :: indice_sa_bce_2025=100
+A3,S06,claude-fable-5-1,food,sa,1996-01,2026-10,369,0.9845,0.8441,official ECB SA,0.009,entrega/dados_e_calculos.csv,alim :: indice_sa_bce_2025=100

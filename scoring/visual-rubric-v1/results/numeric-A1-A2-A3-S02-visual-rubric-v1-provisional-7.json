@@ -1,0 +1,6833 @@
+{
+ "rubric_version": "visual-rubric-v1-provisional-7",
+ "model_requested": "jev-1.14.0",
+ "shift_tolerances": 0,
+ "status": "provisional, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-claude-fable-r1",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/01_nivel_total_sa.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/02_nivel_grupos_sa.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/03_nivel_origem_sa.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/04_nivel_setores_nominal_sa.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/05_taxas_total_yoy_3msaar.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/06_taxas_aberturas_ultimo_mes.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/07_taxas_grupos_yoy_3msaar.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/08_taxas_origem_yoy_3msaar.png"
+   ],
+   "N_choice_mean": 20.0,
+   "N_mean": 10.333333333333334,
+   "N_sd": 1.2013880860626736,
+   "N_upper_mean": 12.566666666666665,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "f765a37e3851f714cc529a1e5f6687014136d3454e86e736ec3f0b166d6956fb",
+     "usage": {
+      "input_tokens": 19182,
+      "output_tokens": 495
+     },
+     "N": 10.4,
+     "N_upper": 12.6,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.9,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.1,
+       "undetermined": 0.3
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.1,
+       "undetermined": 0.4
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 2.3000000000000003,
+       "undetermined": 0.7000000000000001
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_01",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "f765a37e3851f714cc529a1e5f6687014136d3454e86e736ec3f0b166d6956fb",
+     "usage": {
+      "input_tokens": 19182,
+      "output_tokens": 495
+     },
+     "N": 9.1,
+     "N_upper": 11.399999999999999,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.8,
+       "undetermined": 0.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.1,
+       "undetermined": 0.4
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 2.4,
+       "undetermined": 0.6
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_01",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "f765a37e3851f714cc529a1e5f6687014136d3454e86e736ec3f0b166d6956fb",
+     "usage": {
+      "input_tokens": 19182,
+      "output_tokens": 495
+     },
+     "N": 11.5,
+     "N_upper": 13.7,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.9,
+       "undetermined": 0.8999999999999999
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.1,
+       "undetermined": 0.3
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.7999999999999998,
+       "undetermined": 0.5
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 2.7,
+       "undetermined": 0.5
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_01",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-claude-haiku-r1",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-haiku-r1/work/entrega/01_nivel_sa.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-haiku-r1/work/entrega/02_yoy_3msaar.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-haiku-r1/work/entrega/03_variacao_mensal_sa.png"
+   ],
+   "N_choice_mean": 10.0,
+   "N_mean": 5.833333333333333,
+   "N_sd": 0.15275252316519508,
+   "N_upper_mean": 6.866666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "568ba18badb732badb8c31ad3a8623a0ed95f171751e05eade005239d62b151b",
+     "usage": {
+      "input_tokens": 11051,
+      "output_tokens": 495
+     },
+     "N": 5.7,
+     "N_upper": 6.7,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 0.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 4.9,
+       "undetermined": 0.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "568ba18badb732badb8c31ad3a8623a0ed95f171751e05eade005239d62b151b",
+     "usage": {
+      "input_tokens": 11051,
+      "output_tokens": 495
+     },
+     "N": 5.8,
+     "N_upper": 6.9,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 0.7000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.0,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "568ba18badb732badb8c31ad3a8623a0ed95f171751e05eade005239d62b151b",
+     "usage": {
+      "input_tokens": 11051,
+      "output_tokens": 495
+     },
+     "N": 6.000000000000001,
+     "N_upper": 7.000000000000001,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 0.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.300000000000001,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-claude-opus-r1",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g1_nivel_total.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g2_aberturas_nivel.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g3_setores_nivel.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g4_taxas_total.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g5_taxas_aberturas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 2.766666666666667,
+   "N_sd": 0.11547005383792526,
+   "N_upper_mean": 7.833333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "5f8bc729ff27eed65f931204e3645929de034d5a08c536f04307e04f3c2ec268",
+     "usage": {
+      "input_tokens": 14030,
+      "output_tokens": 494
+     },
+     "N": 2.9000000000000004,
+     "N_upper": 7.6,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 2.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 1.3
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "OUTRO_VALOR",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "5f8bc729ff27eed65f931204e3645929de034d5a08c536f04307e04f3c2ec268",
+     "usage": {
+      "input_tokens": 14030,
+      "output_tokens": 494
+     },
+     "N": 2.7,
+     "N_upper": 8.8,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.1,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 2.7
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 1.6
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.7000000000000001
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "OUTRO_VALOR",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "5f8bc729ff27eed65f931204e3645929de034d5a08c536f04307e04f3c2ec268",
+     "usage": {
+      "input_tokens": 14030,
+      "output_tokens": 495
+     },
+     "N": 2.7,
+     "N_upper": 7.1000000000000005,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.2000000000000002,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 1.7000000000000002
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 1.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.7000000000000001,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-claude-sonnet-low-normal-r1",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-sonnet-low-normal-r1/work/entrega/g1_nivel_total.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-sonnet-low-normal-r1/work/entrega/g2_grupos_bens.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-sonnet-low-normal-r1/work/entrega/g3_origem.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-sonnet-low-normal-r1/work/entrega/g4_taxas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 1.5333333333333332,
+   "N_sd": 0.05773502691896263,
+   "N_upper_mean": 6.1000000000000005,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "7580cfbd4a68f35cec324884e0ee3e476b895813159d18a8aebcb0c928aff1d3",
+     "usage": {
+      "input_tokens": 10869,
+      "output_tokens": 495
+     },
+     "N": 1.5,
+     "N_upper": 6.0,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 1.4000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 1.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 1.4000000000000001
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "7580cfbd4a68f35cec324884e0ee3e476b895813159d18a8aebcb0c928aff1d3",
+     "usage": {
+      "input_tokens": 10869,
+      "output_tokens": 495
+     },
+     "N": 1.6,
+     "N_upper": 6.3999999999999995,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 1.4000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 1.7000000000000002
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 1.5
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "7580cfbd4a68f35cec324884e0ee3e476b895813159d18a8aebcb0c928aff1d3",
+     "usage": {
+      "input_tokens": 10869,
+      "output_tokens": 495
+     },
+     "N": 1.5,
+     "N_upper": 5.9,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 1.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 1.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 1.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-codex-astra-r1",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-astra-r1/work/entrega/graficos/01_total.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-astra-r1/work/entrega/graficos/02_aberturas.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-astra-r1/work/entrega/graficos/03_taxas_total.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-astra-r1/work/entrega/graficos/04_taxas_aberturas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 4.066666666666667,
+   "N_sd": 0.115470053837925,
+   "N_upper_mean": 5.266666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a9ae0202e647c24a202d91793564cac63c7044a3390f6e45066c81aef28a1983",
+     "usage": {
+      "input_tokens": 13311,
+      "output_tokens": 495
+     },
+     "N": 4.2,
+     "N_upper": 5.8,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 0.7000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.4,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a9ae0202e647c24a202d91793564cac63c7044a3390f6e45066c81aef28a1983",
+     "usage": {
+      "input_tokens": 13311,
+      "output_tokens": 495
+     },
+     "N": 4.0,
+     "N_upper": 4.9,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.2000000000000002,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.4,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a9ae0202e647c24a202d91793564cac63c7044a3390f6e45066c81aef28a1983",
+     "usage": {
+      "input_tokens": 13311,
+      "output_tokens": 495
+     },
+     "N": 4.000000000000001,
+     "N_upper": 5.1000000000000005,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.3000000000000003,
+       "undetermined": 0.4
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-codex-luna-r1",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-luna-r1/work/entrega/encomendas_alemanha.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 1.366666666666667,
+   "N_sd": 0.11547005383792507,
+   "N_upper_mean": 3.9000000000000004,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a51e0d530d08057a87da061e1d269b9d770ebac659e6914cb5829d473696c782",
+     "usage": {
+      "input_tokens": 7179,
+      "output_tokens": 495
+     },
+     "N": 1.5,
+     "N_upper": 4.0,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6,
+       "undetermined": 1.4000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a51e0d530d08057a87da061e1d269b9d770ebac659e6914cb5829d473696c782",
+     "usage": {
+      "input_tokens": 7179,
+      "output_tokens": 495
+     },
+     "N": 1.3000000000000003,
+     "N_upper": 3.8000000000000003,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.5,
+       "undetermined": 0.8999999999999999
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 1.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a51e0d530d08057a87da061e1d269b9d770ebac659e6914cb5829d473696c782",
+     "usage": {
+      "input_tokens": 7179,
+      "output_tokens": 495
+     },
+     "N": 1.3,
+     "N_upper": 3.9000000000000004,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6,
+       "undetermined": 1.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-codex-sol-low-normal-r1",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-sol-low-normal-r1/work/entrega/graficos/01_nivel_total.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-sol-low-normal-r1/work/entrega/graficos/02_origem_niveis.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-sol-low-normal-r1/work/entrega/graficos/03_taxas_total.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-sol-low-normal-r1/work/entrega/graficos/04_aberturas_mensais.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.733333333333334,
+   "N_sd": 0.1527525231651946,
+   "N_upper_mean": 5.633333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "b58df88fbe6cdd43d6a53707714a82052c3eb5e330acca24946a215f67a0f504",
+     "usage": {
+      "input_tokens": 13442,
+      "output_tokens": 495
+     },
+     "N": 3.7,
+     "N_upper": 5.6000000000000005,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 1.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.0,
+       "undetermined": 0.7000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "b58df88fbe6cdd43d6a53707714a82052c3eb5e330acca24946a215f67a0f504",
+     "usage": {
+      "input_tokens": 13442,
+      "output_tokens": 495
+     },
+     "N": 3.9000000000000004,
+     "N_upper": 5.800000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.2,
+       "undetermined": 0.8
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "b58df88fbe6cdd43d6a53707714a82052c3eb5e330acca24946a215f67a0f504",
+     "usage": {
+      "input_tokens": 13442,
+      "output_tokens": 495
+     },
+     "N": 3.6000000000000005,
+     "N_upper": 5.500000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5000000000000002,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.1,
+       "undetermined": 0.8
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-grok-low-normal-r1",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-grok-low-normal-r1/work/entrega/figuras/01_nivel_total_x13.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-grok-low-normal-r1/work/entrega/figuras/02_nivel_destino_x13.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-grok-low-normal-r1/work/entrega/figuras/03_nivel_grupos_x13.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-grok-low-normal-r1/work/entrega/figuras/04_taxas_total.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-grok-low-normal-r1/work/entrega/figuras/05_taxas_destino.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-grok-low-normal-r1/work/entrega/figuras/06_taxas_grupos.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 1.9333333333333333,
+   "N_sd": 0.05773502691896256,
+   "N_upper_mean": 6.8999999999999995,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "9316614fee11bb10e10ad2bf7b3bb82ca208d384bab16aa5fa609279eb2f0bc4",
+     "usage": {
+      "input_tokens": 20632,
+      "output_tokens": 495
+     },
+     "N": 2.0,
+     "N_upper": 6.699999999999999,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.5,
+       "undetermined": 1.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.4,
+       "undetermined": 1.7000000000000002
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.8999999999999999
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.6
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "9316614fee11bb10e10ad2bf7b3bb82ca208d384bab16aa5fa609279eb2f0bc4",
+     "usage": {
+      "input_tokens": 20632,
+      "output_tokens": 495
+     },
+     "N": 1.9,
+     "N_upper": 6.7,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.5,
+       "undetermined": 1.4000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.4,
+       "undetermined": 1.7000000000000002
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 1.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.7000000000000001,
+       "undetermined": 0.7000000000000001
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "9316614fee11bb10e10ad2bf7b3bb82ca208d384bab16aa5fa609279eb2f0bc4",
+     "usage": {
+      "input_tokens": 20632,
+      "output_tokens": 495
+     },
+     "N": 1.9000000000000001,
+     "N_upper": 7.300000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6,
+       "undetermined": 1.7000000000000002
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.4,
+       "undetermined": 2.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 1.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.7000000000000001,
+       "undetermined": 0.7000000000000001
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-kimi-pro-low-normal-r2",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-kimi-pro-low-normal-r2/work/entrega/graficos/01_nivel_total_sa.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-kimi-pro-low-normal-r2/work/entrega/graficos/02_niveis_aberturas_sa.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-kimi-pro-low-normal-r2/work/entrega/graficos/03_total_yoy_3msaar.png",
+    "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-kimi-pro-low-normal-r2/work/entrega/graficos/04_aberturas_3msaar.png"
+   ],
+   "N_choice_mean": 10.0,
+   "N_mean": 7.833333333333333,
+   "N_sd": 0.1527525231651945,
+   "N_upper_mean": 10.466666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a3f3cf64956802fd036a2a1fa9ba643afcd787c42b517addc08acef92abb7bb8",
+     "usage": {
+      "input_tokens": 16530,
+      "output_tokens": 495
+     },
+     "N": 7.8,
+     "N_upper": 10.299999999999999,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 7.4,
+       "undetermined": 0.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 1.7999999999999998
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a3f3cf64956802fd036a2a1fa9ba643afcd787c42b517addc08acef92abb7bb8",
+     "usage": {
+      "input_tokens": 16530,
+      "output_tokens": 495
+     },
+     "N": 7.699999999999999,
+     "N_upper": 10.2,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 7.3,
+       "undetermined": 0.7000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 1.7000000000000002
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a3f3cf64956802fd036a2a1fa9ba643afcd787c42b517addc08acef92abb7bb8",
+     "usage": {
+      "input_tokens": 16530,
+      "output_tokens": 495
+     },
+     "N": 7.999999999999999,
+     "N_upper": 10.9,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 7.6,
+       "undetermined": 0.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.3,
+       "undetermined": 2.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S02",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a2-s02-high-normal-20261029-v2",
+   "final_attempt_id": "a2-s02-claude-fable-high-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-fable-high-normal-primary/work/entrega/graficos/01_nivel_total_sa.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-fable-high-normal-primary/work/entrega/graficos/02_nivel_origem_sa.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-fable-high-normal-primary/work/entrega/graficos/03_nivel_grupos_bens_sa.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-fable-high-normal-primary/work/entrega/graficos/04_nivel_ramos_sa.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-fable-high-normal-primary/work/entrega/graficos/05_total_yoy_3msaar.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-fable-high-normal-primary/work/entrega/graficos/06_ex_grandes_yoy_3msaar.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-fable-high-normal-primary/work/entrega/graficos/07_barras_aberturas_ultimo_mes.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-fable-high-normal-primary/work/entrega/graficos/08_yoy_grupos_bens.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-fable-high-normal-primary/work/entrega/graficos/09_mom_total_vs_exgrandes.png"
+   ],
+   "N_choice_mean": 30.0,
+   "N_mean": 28.833333333333332,
+   "N_sd": 0.37859388972001956,
+   "N_upper_mean": 29.033333333333335,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "7996b0a0afd31e83623d3ef9f100526f23e28b9c9ef078cc4e49f5361736e663",
+     "usage": {
+      "input_tokens": 21332,
+      "output_tokens": 495
+     },
+     "N": 29.1,
+     "N_upper": 29.3,
+     "N_choice": 30.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.1,
+       "undetermined": 0.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_03",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "7996b0a0afd31e83623d3ef9f100526f23e28b9c9ef078cc4e49f5361736e663",
+     "usage": {
+      "input_tokens": 21332,
+      "output_tokens": 495
+     },
+     "N": 28.4,
+     "N_upper": 28.700000000000003,
+     "N_choice": 30.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.6,
+       "undetermined": 0.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.7,
+       "undetermined": 0.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.8,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_03",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "7996b0a0afd31e83623d3ef9f100526f23e28b9c9ef078cc4e49f5361736e663",
+     "usage": {
+      "input_tokens": 21332,
+      "output_tokens": 495
+     },
+     "N": 29.0,
+     "N_upper": 29.1,
+     "N_choice": 30.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.6,
+       "undetermined": 0.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.3,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.9,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_03",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S02",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a2-s02-high-normal-20261029-v2",
+   "final_attempt_id": "a2-s02-claude-haiku-high-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-haiku-high-normal-primary/work/entrega/figuras/fig01_nivel_total_SA.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-haiku-high-normal-primary/work/entrega/figuras/fig02_aberturas_nivel_SA.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-haiku-high-normal-primary/work/entrega/figuras/fig03_yoy_3msaar_total.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-haiku-high-normal-primary/work/entrega/figuras/fig04_3msaar_total_vs_sem_grandes.png"
+   ],
+   "N_choice_mean": 20.0,
+   "N_mean": 13.9,
+   "N_sd": 0.17320508075688712,
+   "N_upper_mean": 14.233333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "1dac3cbf2d7a1fcc2035db02e051c09f882c98ab874262247e881875bcd42376",
+     "usage": {
+      "input_tokens": 14739,
+      "output_tokens": 495
+     },
+     "N": 14.0,
+     "N_upper": 14.2,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 4.9,
+       "undetermined": 0.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.1,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_05",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "1dac3cbf2d7a1fcc2035db02e051c09f882c98ab874262247e881875bcd42376",
+     "usage": {
+      "input_tokens": 14739,
+      "output_tokens": 495
+     },
+     "N": 13.700000000000001,
+     "N_upper": 14.100000000000001,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.300000000000001,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.4,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_05",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "1dac3cbf2d7a1fcc2035db02e051c09f882c98ab874262247e881875bcd42376",
+     "usage": {
+      "input_tokens": 14739,
+      "output_tokens": 495
+     },
+     "N": 14.0,
+     "N_upper": 14.4,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.2,
+       "undetermined": 0.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.8,
+       "undetermined": 0.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_05",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S02",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-a2-s02-high-normal-20261029-v2",
+   "final_attempt_id": "a2-s02-claude-opus-high-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-opus-high-normal-primary/work/entrega/g1_nivel_total_sa.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-opus-high-normal-primary/work/entrega/g2_aberturas_niveis_sa.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-opus-high-normal-primary/work/entrega/g3_taxas_total.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-opus-high-normal-primary/work/entrega/g4_taxas_aberturas.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-opus-high-normal-primary/work/entrega/g5_carteira_sa.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 36.63333333333333,
+   "N_sd": 0.35118845842842256,
+   "N_upper_mean": 36.96666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "1d76d84cfb86de31f82d5cceeb0049b8945648fd46e52bb84a14e95b4a4f7bb8",
+     "usage": {
+      "input_tokens": 14810,
+      "output_tokens": 495
+     },
+     "N": 36.6,
+     "N_upper": 37.0,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.3,
+       "undetermined": 0.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.3,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 8.299999999999999,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_03",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "1d76d84cfb86de31f82d5cceeb0049b8945648fd46e52bb84a14e95b4a4f7bb8",
+     "usage": {
+      "input_tokens": 14810,
+      "output_tokens": 495
+     },
+     "N": 37.0,
+     "N_upper": 37.3,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.5,
+       "undetermined": 0.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.7,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.399999999999999,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 8.4,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_03",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "1d76d84cfb86de31f82d5cceeb0049b8945648fd46e52bb84a14e95b4a4f7bb8",
+     "usage": {
+      "input_tokens": 14810,
+      "output_tokens": 495
+     },
+     "N": 36.300000000000004,
+     "N_upper": 36.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.4,
+       "undetermined": 0.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.6,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.200000000000001,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 8.100000000000001,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_03",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S02",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-a2-s02-high-normal-20261029-v2",
+   "final_attempt_id": "a2-s02-claude-sonnet-high-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-sonnet-high-normal-primary/work/entrega/graficos/g1_nivel_sa_total.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-sonnet-high-normal-primary/work/entrega/graficos/g2_aberturas_nivel_sa.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-sonnet-high-normal-primary/work/entrega/graficos/g3_taxas_total.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-sonnet-high-normal-primary/work/entrega/graficos/g4_taxas_aberturas.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-claude-sonnet-high-normal-primary/work/entrega/graficos/g5_mom_recente.png"
+   ],
+   "N_choice_mean": 10.0,
+   "N_mean": 5.566666666666667,
+   "N_sd": 0.23094010767585,
+   "N_upper_mean": 9.833333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "2127b87e62fc1b532983ddacf70af3ac4337163b5a2864581218bf803abe91c7",
+     "usage": {
+      "input_tokens": 14239,
+      "output_tokens": 495
+     },
+     "N": 5.7,
+     "N_upper": 9.600000000000001,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.0,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.8999999999999999
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.6,
+       "undetermined": 0.8999999999999999
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "2127b87e62fc1b532983ddacf70af3ac4337163b5a2864581218bf803abe91c7",
+     "usage": {
+      "input_tokens": 14239,
+      "output_tokens": 495
+     },
+     "N": 5.300000000000001,
+     "N_upper": 10.0,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.9,
+       "undetermined": 0.8999999999999999
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5,
+       "undetermined": 1.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 1.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 1.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "2127b87e62fc1b532983ddacf70af3ac4337163b5a2864581218bf803abe91c7",
+     "usage": {
+      "input_tokens": 14239,
+      "output_tokens": 495
+     },
+     "N": 5.7,
+     "N_upper": 9.9,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.3,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 1.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 1.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S02",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-a2-s02-high-normal-20261029-v2",
+   "final_attempt_id": "a2-s02-codex-astra-high-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-astra-high-normal-primary/work/entrega/graficos/01_nivel_total.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-astra-high-normal-primary/work/entrega/graficos/02_niveis_origens.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-astra-high-normal-primary/work/entrega/graficos/03_niveis_categorias.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-astra-high-normal-primary/work/entrega/graficos/04_taxas_total_sem_grandes.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-astra-high-normal-primary/work/entrega/graficos/05_taxas_origens.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-astra-high-normal-primary/work/entrega/graficos/06_taxas_categorias.png"
+   ],
+   "N_choice_mean": 30.0,
+   "N_mean": 18.2,
+   "N_sd": 0.2645751311064588,
+   "N_upper_mean": 19.433333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a1bee08770c33ec8c47d184fc89ba031fccdce39e5e62310c195394aa3820bb8",
+     "usage": {
+      "input_tokens": 27768,
+      "output_tokens": 495
+     },
+     "N": 18.5,
+     "N_upper": 19.8,
+     "N_choice": 30.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.700000000000001,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.8,
+       "undetermined": 0.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.3,
+       "undetermined": 0.5
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 5.699999999999999,
+       "undetermined": 0.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a1bee08770c33ec8c47d184fc89ba031fccdce39e5e62310c195394aa3820bb8",
+     "usage": {
+      "input_tokens": 27768,
+      "output_tokens": 495
+     },
+     "N": 18.1,
+     "N_upper": 19.299999999999997,
+     "N_choice": 30.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.4,
+       "undetermined": 0.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 6.1,
+       "undetermined": 0.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.4000000000000001,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 5.2,
+       "undetermined": 0.3
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a1bee08770c33ec8c47d184fc89ba031fccdce39e5e62310c195394aa3820bb8",
+     "usage": {
+      "input_tokens": 27768,
+      "output_tokens": 495
+     },
+     "N": 18.0,
+     "N_upper": 19.200000000000003,
+     "N_choice": 30.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.0,
+       "undetermined": 0.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 5.6000000000000005,
+       "undetermined": 0.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.7999999999999998,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 5.6000000000000005,
+       "undetermined": 0.3
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S02",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a2-s02-high-normal-20261029-v2",
+   "final_attempt_id": "a2-s02-codex-luna-high-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-luna-high-normal-primary/work/entrega/01_nivel_sa.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-luna-high-normal-primary/work/entrega/02_taxas.png"
+   ],
+   "N_choice_mean": 20.0,
+   "N_mean": 11.533333333333333,
+   "N_sd": 0.25166114784235744,
+   "N_upper_mean": 12.833333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "718e5e770b0a1473d927d3ca308cb0b0e2a4f7ac7f2a95b764b879d4ae3dc587",
+     "usage": {
+      "input_tokens": 9213,
+      "output_tokens": 495
+     },
+     "N": 11.799999999999999,
+     "N_upper": 13.2,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.299999999999999,
+       "undetermined": 0.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.5,
+       "undetermined": 0.8999999999999999
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "718e5e770b0a1473d927d3ca308cb0b0e2a4f7ac7f2a95b764b879d4ae3dc587",
+     "usage": {
+      "input_tokens": 9213,
+      "output_tokens": 495
+     },
+     "N": 11.3,
+     "N_upper": 12.6,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.200000000000001,
+       "undetermined": 0.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.1,
+       "undetermined": 0.8999999999999999
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "718e5e770b0a1473d927d3ca308cb0b0e2a4f7ac7f2a95b764b879d4ae3dc587",
+     "usage": {
+      "input_tokens": 9213,
+      "output_tokens": 495
+     },
+     "N": 11.5,
+     "N_upper": 12.7,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.5,
+       "undetermined": 0.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 3.0,
+       "undetermined": 0.8999999999999999
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S02",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-a2-s02-high-normal-20261029-v2",
+   "final_attempt_id": "a2-s02-codex-sol-high-normal-primary",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-sol-high-normal-primary/work/entrega/graficos/01_total_nivel.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-sol-high-normal-primary/work/entrega/graficos/02_aberturas_nivel.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-sol-high-normal-primary/work/entrega/graficos/03_setores_nivel.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-sol-high-normal-primary/work/entrega/graficos/04_taxas_principais.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-sol-high-normal-primary/work/entrega/graficos/05_taxas_adicionais.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-codex-sol-high-normal-primary/work/entrega/graficos/06_variacao_mensal.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 35.93333333333333,
+   "N_sd": 0.1154700538379268,
+   "N_upper_mean": 36.23333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a058f4837b95f637864e4aeb36ef44f3aee14b9c9a6e6cdf9856630d8839055c",
+     "usage": {
+      "input_tokens": 24853,
+      "output_tokens": 495
+     },
+     "N": 35.8,
+     "N_upper": 36.099999999999994,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.2,
+       "undetermined": 0.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.399999999999999,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.200000000000001,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.0,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_05",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_03",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a058f4837b95f637864e4aeb36ef44f3aee14b9c9a6e6cdf9856630d8839055c",
+     "usage": {
+      "input_tokens": 24853,
+      "output_tokens": 495
+     },
+     "N": 36.0,
+     "N_upper": 36.3,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.5,
+       "undetermined": 0.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.9,
+       "undetermined": 0.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.399999999999999,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.200000000000001,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_05",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_03",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a058f4837b95f637864e4aeb36ef44f3aee14b9c9a6e6cdf9856630d8839055c",
+     "usage": {
+      "input_tokens": 24853,
+      "output_tokens": 495
+     },
+     "N": 36.0,
+     "N_upper": 36.3,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.5,
+       "undetermined": 0.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.0,
+       "undetermined": 0.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.399999999999999,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 9.1,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_05",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "FAIXA_03",
+      "N_externo_yoy": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A2",
+   "task": "S02",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a2-s02-high-normal-20261029-v2",
+   "final_attempt_id": "a2-s02-grok-high-normal-timeout-retry1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  },
+  {
+   "phase": "A2",
+   "task": "S02",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-a2-s02-high-normal-20261029-v2",
+   "final_attempt_id": "a2-s02-kimi-pro-high-normal-timeout-retry1",
+   "disposition": "new_harmonization_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-kimi-pro-high-normal-timeout-retry1/work/entrega/graficos/01_nivel_total_sa.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-kimi-pro-high-normal-timeout-retry1/work/entrega/graficos/02_aberturas_mom.png",
+    "execucoes/pilot-a2-s02-high-normal-20261029-v2/attempts/a2-s02-kimi-pro-high-normal-timeout-retry1/work/entrega/graficos/03_taxas_total.png"
+   ],
+   "N_choice_mean": 20.0,
+   "N_mean": 16.466666666666665,
+   "N_sd": 2.2898325994127458,
+   "N_upper_mean": 16.666666666666668,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "a7cce9ddfbbc743424b8286b87be86b3b5532e4aa040f4fa9b695becaaaad15a",
+     "usage": {
+      "input_tokens": 17295,
+      "output_tokens": 495
+     },
+     "N": 17.2,
+     "N_upper": 17.5,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 7.800000000000001,
+       "undetermined": 0.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.399999999999999,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "a7cce9ddfbbc743424b8286b87be86b3b5532e4aa040f4fa9b695becaaaad15a",
+     "usage": {
+      "input_tokens": 17295,
+      "output_tokens": 495
+     },
+     "N": 13.899999999999999,
+     "N_upper": 14.1,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 7.199999999999999,
+       "undetermined": 0.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 6.7,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "a7cce9ddfbbc743424b8286b87be86b3b5532e4aa040f4fa9b695becaaaad15a",
+     "usage": {
+      "input_tokens": 17295,
+      "output_tokens": 495
+     },
+     "N": 18.299999999999997,
+     "N_upper": 18.4,
+     "N_choice": 20.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 8.9,
+       "undetermined": 0.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 9.399999999999999,
+       "undetermined": 0.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_03",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S02",
+   "model": "gpt-6-astra",
+   "source_campaign_id": "pilot-a3-s02-low-normal-20261104-v1",
+   "final_attempt_id": "a3-s02-codex-astra-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-astra-primary/work/entrega/01_nivel_total.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-astra-primary/work/entrega/02_niveis_aberturas.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-astra-primary/work/entrega/03_taxas.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-astra-primary/work/entrega/04_variacao_mensal.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.7999999999999994,
+   "N_sd": 0.20000000000000018,
+   "N_upper_mean": 7.333333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "4b9d0343078e3d9576f097b4737f5084b8e1e82ab6ec2bab2e4a54892f50ae2c",
+     "usage": {
+      "input_tokens": 17756,
+      "output_tokens": 495
+     },
+     "N": 3.5999999999999996,
+     "N_upper": 7.5,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.0,
+       "undetermined": 1.3
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 0.8
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.0,
+       "undetermined": 0.8
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "4b9d0343078e3d9576f097b4737f5084b8e1e82ab6ec2bab2e4a54892f50ae2c",
+     "usage": {
+      "input_tokens": 17756,
+      "output_tokens": 495
+     },
+     "N": 4.0,
+     "N_upper": 7.6000000000000005,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5000000000000002,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.0,
+       "undetermined": 1.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 0.6
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.0,
+       "undetermined": 0.8
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "4b9d0343078e3d9576f097b4737f5084b8e1e82ab6ec2bab2e4a54892f50ae2c",
+     "usage": {
+      "input_tokens": 17756,
+      "output_tokens": 495
+     },
+     "N": 3.8,
+     "N_upper": 6.9,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.2,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 0.4
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8999999999999999,
+       "undetermined": 0.8
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S02",
+   "model": "claude-sonnet-5-5",
+   "source_campaign_id": "pilot-a3-s02-low-normal-20261104-v1",
+   "final_attempt_id": "a3-s02-claude-sonnet-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-sonnet-low-normal-primary/work/entrega/01_nivel_total_SA.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-sonnet-low-normal-primary/work/entrega/02_aberturas_nivel_SA.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-sonnet-low-normal-primary/work/entrega/03_taxas_yoy_3msaar.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 2.9666666666666663,
+   "N_sd": 0.1527525231651946,
+   "N_upper_mean": 5.433333333333334,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "817648ca9509a672cf423710f1e5edb7ebc73b959ac1b58fc98bdde71c79d9b8",
+     "usage": {
+      "input_tokens": 10269,
+      "output_tokens": 495
+     },
+     "N": 3.0,
+     "N_upper": 5.5,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 1.4000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 1.1
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "817648ca9509a672cf423710f1e5edb7ebc73b959ac1b58fc98bdde71c79d9b8",
+     "usage": {
+      "input_tokens": 10269,
+      "output_tokens": 495
+     },
+     "N": 2.8,
+     "N_upper": 5.4,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 1.1
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5,
+       "undetermined": 1.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "817648ca9509a672cf423710f1e5edb7ebc73b959ac1b58fc98bdde71c79d9b8",
+     "usage": {
+      "input_tokens": 10269,
+      "output_tokens": 495
+     },
+     "N": 3.0999999999999996,
+     "N_upper": 5.4,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 1.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7999999999999998,
+       "undetermined": 1.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S02",
+   "model": "claude-haiku-5-5",
+   "source_campaign_id": "pilot-a3-s02-low-normal-20261104-v1",
+   "final_attempt_id": "a3-s02-claude-haiku-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-haiku-primary/work/entrega/figura_encomendas_industria_alemanha.png"
+   ],
+   "N_choice_mean": 10.0,
+   "N_mean": 9.133333333333333,
+   "N_sd": 0.3214550253664317,
+   "N_upper_mean": 10.299999999999999,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "81290f520b225cbae1fb3ccc23f67c366803a2165a9dd3bae6c68db307853347",
+     "usage": {
+      "input_tokens": 7879,
+      "output_tokens": 495
+     },
+     "N": 9.0,
+     "N_upper": 10.1,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.4000000000000004,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 6.6000000000000005,
+       "undetermined": 0.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "81290f520b225cbae1fb3ccc23f67c366803a2165a9dd3bae6c68db307853347",
+     "usage": {
+      "input_tokens": 7879,
+      "output_tokens": 495
+     },
+     "N": 8.9,
+     "N_upper": 10.0,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.2,
+       "undetermined": 0.4
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 6.7,
+       "undetermined": 0.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "81290f520b225cbae1fb3ccc23f67c366803a2165a9dd3bae6c68db307853347",
+     "usage": {
+      "input_tokens": 7879,
+      "output_tokens": 495
+     },
+     "N": 9.5,
+     "N_upper": 10.8,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.7,
+       "undetermined": 0.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 6.800000000000001,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S02",
+   "model": "claude-opus-5-5",
+   "source_campaign_id": "pilot-a3-s02-low-normal-20261104-v1",
+   "final_attempt_id": "a3-s02-claude-opus-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-opus-primary/work/entrega/fig1_painel_encomendas.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-opus-primary/work/entrega/fig2_taxas_aberturas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.6666666666666665,
+   "N_sd": 0.05773502691896263,
+   "N_upper_mean": 9.700000000000001,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "ccf78eda228cbfad4b9afdacb9528d6126b2833473a06429f29655ec8b31cc45",
+     "usage": {
+      "input_tokens": 9770,
+      "output_tokens": 495
+     },
+     "N": 3.7,
+     "N_upper": 9.8,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.1,
+       "undetermined": 1.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.7000000000000001,
+       "undetermined": 1.7999999999999998
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 2.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.4000000000000001,
+       "undetermined": 1.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "ccf78eda228cbfad4b9afdacb9528d6126b2833473a06429f29655ec8b31cc45",
+     "usage": {
+      "input_tokens": 9770,
+      "output_tokens": 495
+     },
+     "N": 3.7,
+     "N_upper": 9.9,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.2,
+       "undetermined": 1.6
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 1.9
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 1.7000000000000002
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.2,
+       "undetermined": 1.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "ccf78eda228cbfad4b9afdacb9528d6126b2833473a06429f29655ec8b31cc45",
+     "usage": {
+      "input_tokens": 9770,
+      "output_tokens": 495
+     },
+     "N": 3.6,
+     "N_upper": 9.399999999999999,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.2000000000000002,
+       "undetermined": 1.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 1.7999999999999998
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 1.7999999999999998
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.1,
+       "undetermined": 0.7000000000000001
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S02",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-a3-s02-low-normal-20261104-v1",
+   "final_attempt_id": "a3-s02-claude-fable-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-fable-primary/work/entrega/01_nivel_total_sa.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-fable-primary/work/entrega/02_aberturas_nivel_sa.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-fable-primary/work/entrega/03_setores_nivel_sa.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-fable-primary/work/entrega/04_taxas_total_yoy_3msaar.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-claude-fable-primary/work/entrega/05_taxas_aberturas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.5,
+   "N_sd": 0.2645751311064588,
+   "N_upper_mean": 11.166666666666666,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "c4fe589c14bdfd21d9067c4308907059d60c8f329ff84798c33bf64c5af6ed8f",
+     "usage": {
+      "input_tokens": 17853,
+      "output_tokens": 495
+     },
+     "N": 3.3000000000000003,
+     "N_upper": 11.3,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.4000000000000001,
+       "undetermined": 1.7000000000000002
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 1.9
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 2.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.7000000000000001,
+       "undetermined": 2.2
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "c4fe589c14bdfd21d9067c4308907059d60c8f329ff84798c33bf64c5af6ed8f",
+     "usage": {
+      "input_tokens": 17853,
+      "output_tokens": 495
+     },
+     "N": 3.8,
+     "N_upper": 11.0,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 1.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.8,
+       "undetermined": 1.7999999999999998
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.5,
+       "undetermined": 2.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 2.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "c4fe589c14bdfd21d9067c4308907059d60c8f329ff84798c33bf64c5af6ed8f",
+     "usage": {
+      "input_tokens": 17853,
+      "output_tokens": 495
+     },
+     "N": 3.4000000000000004,
+     "N_upper": 11.200000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 1.4000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6,
+       "undetermined": 1.7999999999999998
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 2.3000000000000003
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 2.3000000000000003
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S02",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-a3-s02-low-normal-20261104-v1",
+   "final_attempt_id": "a3-s02-grok-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-grok-low-normal-primary/work/entrega/01_nivel_sa.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-grok-low-normal-primary/work/entrega/02_aberturas_sa.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-grok-low-normal-primary/work/entrega/03_yoy_3msaar.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-grok-low-normal-primary/work/entrega/04_destino_yoy_3msaar.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 4.966666666666668,
+   "N_sd": 0.1527525231651945,
+   "N_upper_mean": 9.466666666666667,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "f1bc0178f4e9f9fd6fb810f61eb5822e201587bdec07133f2d9dd7e68cfca568",
+     "usage": {
+      "input_tokens": 20901,
+      "output_tokens": 494
+     },
+     "N": 5.1000000000000005,
+     "N_upper": 9.3,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5000000000000002,
+       "undetermined": 1.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 1.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.3,
+       "undetermined": 1.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.6,
+       "undetermined": 0.7000000000000001
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "OUTRO_VALOR",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "f1bc0178f4e9f9fd6fb810f61eb5822e201587bdec07133f2d9dd7e68cfca568",
+     "usage": {
+      "input_tokens": 20901,
+      "output_tokens": 495
+     },
+     "N": 5.0,
+     "N_upper": 9.700000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.4000000000000001,
+       "undetermined": 1.4000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 1.3
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 1.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.5,
+       "undetermined": 1.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "OUTRO_VALOR",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "f1bc0178f4e9f9fd6fb810f61eb5822e201587bdec07133f2d9dd7e68cfca568",
+     "usage": {
+      "input_tokens": 20901,
+      "output_tokens": 495
+     },
+     "N": 4.800000000000001,
+     "N_upper": 9.4,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5000000000000002,
+       "undetermined": 1.3
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.5,
+       "undetermined": 1.2
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.4,
+       "undetermined": 1.3
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 1.4000000000000001,
+       "undetermined": 0.8
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S02",
+   "model": "gpt-6.1-sol",
+   "source_campaign_id": "pilot-a3-s02-low-normal-20261104-v1",
+   "final_attempt_id": "a3-s02-codex-sol-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-sol-low-normal-primary/work/entrega/01_nivel_total.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-sol-low-normal-primary/work/entrega/02_aberturas.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-sol-low-normal-primary/work/entrega/03_taxas.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.033333333333333,
+   "N_sd": 0.11547005383792487,
+   "N_upper_mean": 5.900000000000001,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "12475dcec7c770ab0fcb226cab7983d458f5077ca743a57fafcd44f77dad6f6b",
+     "usage": {
+      "input_tokens": 12679,
+      "output_tokens": 495
+     },
+     "N": 2.9000000000000004,
+     "N_upper": 6.0,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.2000000000000002,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6,
+       "undetermined": 0.8
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.5
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8999999999999999,
+       "undetermined": 1.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "12475dcec7c770ab0fcb226cab7983d458f5077ca743a57fafcd44f77dad6f6b",
+     "usage": {
+      "input_tokens": 12679,
+      "output_tokens": 495
+     },
+     "N": 3.0999999999999996,
+     "N_upper": 5.800000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.4000000000000001,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.6,
+       "undetermined": 0.8
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.3
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8999999999999999,
+       "undetermined": 0.8
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "12475dcec7c770ab0fcb226cab7983d458f5077ca743a57fafcd44f77dad6f6b",
+     "usage": {
+      "input_tokens": 12679,
+      "output_tokens": 495
+     },
+     "N": 3.1,
+     "N_upper": 5.9,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.6,
+       "undetermined": 0.7000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 0.5,
+       "undetermined": 1.0
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.2,
+       "undetermined": 0.5
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.8,
+       "undetermined": 0.6
+      }
+     },
+     "choices": {
+      "N_total_yoy": "NAO_MOSTRADO",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S02",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-a3-s02-low-normal-20261104-v1",
+   "final_attempt_id": "a3-s02-kimi-pro-low-normal-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-kimi-pro-low-normal-primary/work/entrega/figura_1_nivel_total.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-kimi-pro-low-normal-primary/work/entrega/figura_2_yoy_3msaar.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-kimi-pro-low-normal-primary/work/entrega/figura_3_aberturas.png"
+   ],
+   "N_choice_mean": 10.0,
+   "N_mean": 9.566666666666668,
+   "N_sd": 0.3055050463303892,
+   "N_upper_mean": 11.100000000000001,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "cbfe86ac8657d0d6fab506e9dd460d2344440bc01d54834b081e160ed2b8bf89",
+     "usage": {
+      "input_tokens": 13935,
+      "output_tokens": 495
+     },
+     "N": 9.5,
+     "N_upper": 10.700000000000001,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.7,
+       "undetermined": 0.5
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 6.7,
+       "undetermined": 0.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "cbfe86ac8657d0d6fab506e9dd460d2344440bc01d54834b081e160ed2b8bf89",
+     "usage": {
+      "input_tokens": 13935,
+      "output_tokens": 495
+     },
+     "N": 9.3,
+     "N_upper": 11.3,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.4,
+       "undetermined": 0.8
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 6.800000000000001,
+       "undetermined": 0.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.5
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "cbfe86ac8657d0d6fab506e9dd460d2344440bc01d54834b081e160ed2b8bf89",
+     "usage": {
+      "input_tokens": 13935,
+      "output_tokens": 495
+     },
+     "N": 9.9,
+     "N_upper": 11.3,
+     "N_choice": 10.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.7,
+       "undetermined": 0.7000000000000001
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 7.1,
+       "undetermined": 0.5
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.2
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "FAIXA_03",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A3",
+   "task": "S02",
+   "model": "gpt-6-luna",
+   "source_campaign_id": "pilot-a3-s02-low-normal-20261104-v1",
+   "final_attempt_id": "a3-s02-codex-luna-primary",
+   "disposition": "reuse_compatible_full_product_grade",
+   "status": "judged",
+   "references": {
+    "N_total_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado por calendário",
+       2.67,
+       0.15
+      ],
+      [
+       "YoY ajustado sazonal e por calendário",
+       2.99,
+       0.15
+      ]
+     ]
+    },
+    "N_total_3m": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "3m/3m SAAR",
+       5.4,
+       0.3
+      ]
+     ]
+    },
+    "N_domestico_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       1.23,
+       0.15
+      ]
+     ]
+    },
+    "N_externo_yoy": {
+     "period": "2026-08",
+     "unit": "% (taxa de variação)",
+     "variants": [
+      [
+       "YoY ajustado sazonal e por calendário",
+       4.24,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-luna-primary/work/entrega/01_nivel_sa.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-luna-primary/work/entrega/02_taxas.png",
+    "execucoes/pilot-a3-s02-low-normal-20261104-v1/attempts/a3-s02-codex-luna-primary/work/entrega/03_aberturas_origem.png"
+   ],
+   "N_choice_mean": 0.0,
+   "N_mean": 3.766666666666667,
+   "N_sd": 0.20816659994661313,
+   "N_upper_mean": 6.400000000000001,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "f6ce04c03df1d97c0ff179085cbb603930da05483d7677bd290acfcf3acdd651",
+     "usage": {
+      "input_tokens": 12701,
+      "output_tokens": 495
+     },
+     "N": 3.7000000000000006,
+     "N_upper": 6.6000000000000005,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.3000000000000003,
+       "undetermined": 1.2
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.3,
+       "undetermined": 1.6
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "f6ce04c03df1d97c0ff179085cbb603930da05483d7677bd290acfcf3acdd651",
+     "usage": {
+      "input_tokens": 12701,
+      "output_tokens": 495
+     },
+     "N": 4.0,
+     "N_upper": 6.500000000000001,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.2,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.7000000000000002,
+       "undetermined": 1.4000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "f6ce04c03df1d97c0ff179085cbb603930da05483d7677bd290acfcf3acdd651",
+     "usage": {
+      "input_tokens": 12701,
+      "output_tokens": 495
+     },
+     "N": 3.6,
+     "N_upper": 6.1000000000000005,
+     "N_choice": 0.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 2.1,
+       "undetermined": 1.0
+      },
+      "N_total_3m": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": null,
+       "supported": 1.4000000000000001,
+       "undetermined": 1.4000000000000001
+      },
+      "N_domestico_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.0,
+       "undetermined": 0.0
+      },
+      "N_externo_yoy": {
+       "state": "answered",
+       "weight": 10.0,
+       "group": "N_components",
+       "supported": 0.1,
+       "undetermined": 0.1
+      }
+     },
+     "choices": {
+      "N_total_yoy": "FAIXA_04",
+      "N_total_3m": "NAO_MOSTRADO",
+      "N_domestico_yoy": "NAO_MOSTRADO",
+      "N_externo_yoy": "NAO_MOSTRADO"
+     },
+     "admitted": {
+      "N_total_yoy": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ],
+      "N_total_3m": [
+       "FAIXA_03"
+      ],
+      "N_domestico_yoy": [
+       "FAIXA_03"
+      ],
+      "N_externo_yoy": [
+       "FAIXA_03"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

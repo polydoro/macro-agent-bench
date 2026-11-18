@@ -1,0 +1,314 @@
+{
+ "rubric_version": "visual-rubric-v1-provisional-7",
+ "model_requested": "jev-1.14.0",
+ "shift_tolerances": 0,
+ "status": "provisional, not a published score",
+ "rows": [
+  {
+   "phase": "A1",
+   "task": "S02",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-taskwise-s02-low-normal-20261026-v8",
+   "final_attempt_id": "taskwise-v8-s02-kimi-pro-low-normal-r1",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  },
+  {
+   "phase": "A1",
+   "task": "S05",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-one-s05-low-normal-20261027-v11",
+   "final_attempt_id": "one-s05-grok-low-normal-primary",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "claude-fable-5-1",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-claude-fable-primary",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g1_nivel_sa_ocupados_desempregados.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g2_taxa_desemprego_nsa_sa.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g3_aberturas_idade_sexo_sa.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g4_desemprego_variacoes_pp.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g5_ocupados_yoy_3msaar.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-claude-fable-primary/work/entrega/g6_taxas_emprego_participacao_sa.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 38.266666666666666,
+   "N_sd": 0.461880215351699,
+   "N_upper_mean": 38.53333333333333,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "b83d49661ac9737c5adb0b91f247180005e3183266ff0a256a51334f39d68149",
+     "usage": {
+      "input_tokens": 14202,
+      "output_tokens": 142
+     },
+     "N": 38.8,
+     "N_upper": 38.8,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.8,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "b83d49661ac9737c5adb0b91f247180005e3183266ff0a256a51334f39d68149",
+     "usage": {
+      "input_tokens": 14202,
+      "output_tokens": 142
+     },
+     "N": 38.0,
+     "N_upper": 38.4,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.0,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "b83d49661ac9737c5adb0b91f247180005e3183266ff0a256a51334f39d68149",
+     "usage": {
+      "input_tokens": 14202,
+      "output_tokens": 142
+     },
+     "N": 38.0,
+     "N_upper": 38.4,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.0,
+       "undetermined": 0.4
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_05"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "grok-4.7",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-grok-low-normal-primary",
+   "disposition": "scored",
+   "status": "judged",
+   "references": {
+    "N_total_native": {
+     "period": "2026-09",
+     "unit": "% da força de trabalho, 15–74 anos",
+     "variants": [
+      [
+       "taxa série original",
+       8.1,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada",
+       8.6,
+       0.15
+      ],
+      [
+       "taxa dessazonalizada e suavizada (SCB)",
+       8.7,
+       0.15
+      ]
+     ]
+    }
+   },
+   "fixed": {},
+   "images": [
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/01_taxa_desemprego_15_74.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/02_taxa_desemprego_sexo_tc.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/03_taxa_desemprego_idade_tc.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/04_nivel_desempregados.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/05_nivel_ocupados_sa.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/06_ocupacao_yoy_3msaar.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/07_taxas_ocupacao_participacao.png",
+    "execucoes/pilot-one-s10-low-normal-20261027-v16/attempts/one-s10-grok-low-normal-primary/work/entrega/figuras/08_variacao_taxa_pp.png"
+   ],
+   "N_choice_mean": 40.0,
+   "N_mean": 37.6,
+   "N_sd": 0.40000000000000213,
+   "N_upper_mean": 37.6,
+   "repeats": [
+    {
+     "repeat": 0,
+     "request_sha256": "ef6e6681230dbede743688a6b1ac86b17ff0d4271b97965a81bfa0cae391598b",
+     "usage": {
+      "input_tokens": 23892,
+      "output_tokens": 142
+     },
+     "N": 37.199999999999996,
+     "N_upper": 37.199999999999996,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 37.199999999999996,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 1,
+     "request_sha256": "ef6e6681230dbede743688a6b1ac86b17ff0d4271b97965a81bfa0cae391598b",
+     "usage": {
+      "input_tokens": 23892,
+      "output_tokens": 142
+     },
+     "N": 38.0,
+     "N_upper": 38.0,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 38.0,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    },
+    {
+     "repeat": 2,
+     "request_sha256": "ef6e6681230dbede743688a6b1ac86b17ff0d4271b97965a81bfa0cae391598b",
+     "usage": {
+      "input_tokens": 23892,
+      "output_tokens": 142
+     },
+     "N": 37.6,
+     "N_upper": 37.6,
+     "N_choice": 40.0,
+     "pending": 0.0,
+     "questions": {
+      "N_total_native": {
+       "state": "answered",
+       "weight": 40.0,
+       "group": null,
+       "supported": 37.6,
+       "undetermined": 0.0
+      }
+     },
+     "choices": {
+      "N_total_native": "FAIXA_03"
+     },
+     "admitted": {
+      "N_total_native": [
+       "FAIXA_03",
+       "FAIXA_05"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "phase": "A1",
+   "task": "S10",
+   "model": "kimi-code/k3.1-pro",
+   "source_campaign_id": "pilot-one-s10-low-normal-20261027-v16",
+   "final_attempt_id": "one-s10-kimi-pro-low-normal-primary",
+   "disposition": "verified_absence",
+   "status": "verified_absence",
+   "N_mean": 0.0
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+arm,role,version,period,rate,change_1m_pp,change_12m_pp
+A1,total,nsa,2026-09,8.1,-0.4,-0.2
+A2,total,nsa,2026-09,8.1,-0.4,-0.2
+A3,total,nsa,2026-09,8.1,-0.4,-0.2
+A1,total,sa,2026-09,8.6,-0.3,-0.2
+A2,total,sa,2026-09,8.6,-0.3,-0.2
+A3,total,sa,2026-09,8.6,-0.3,-0.2
+A1,total,sa_suavizada,2026-09,8.7,0.0,-0.1
+A2,total,sa_suavizada,2026-09,8.7,0.0,-0.1
+A3,total,sa_suavizada,2026-09,8.7,0.0,-0.1

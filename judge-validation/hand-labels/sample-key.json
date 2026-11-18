@@ -1,0 +1,197 @@
+[
+ {
+  "code": "D01",
+  "task": "S01",
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a3-s01-claude-sonnet-low-normal-primary",
+  "images": [
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-sonnet-low-normal-primary/work/entrega/01_nivel_total_sa.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-sonnet-low-normal-primary/work/entrega/02_nivel_aberturas_sa.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-sonnet-low-normal-primary/work/entrega/03_taxas_aberturas.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-sonnet-low-normal-primary/work/entrega/04_taxas_setores_transformacao.png"
+  ]
+ },
+ {
+  "code": "D02",
+  "task": "S01",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a3-s01-codex-sol-low-normal-primary",
+  "images": [
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-codex-sol-low-normal-primary/work/entrega/graficos/01_total_sa.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-codex-sol-low-normal-primary/work/entrega/graficos/02_aberturas_sa.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-codex-sol-low-normal-primary/work/entrega/graficos/03_yoy_3msaar.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-codex-sol-low-normal-primary/work/entrega/graficos/04_ritmo.png"
+  ]
+ },
+ {
+  "code": "D03",
+  "task": "S01",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a3-s01-claude-opus-primary",
+  "images": [
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-opus-primary/work/entrega/fig_producao_industrial_DE.png"
+  ]
+ },
+ {
+  "code": "D04",
+  "task": "S01",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a3-s01-codex-astra-primary",
+  "images": [
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-codex-astra-primary/work/entrega/01_nivel_total.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-codex-astra-primary/work/entrega/02_niveis_aberturas.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-codex-astra-primary/work/entrega/03_taxas.png"
+  ]
+ },
+ {
+  "code": "D05",
+  "task": "S01",
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a3-s01-claude-fable-primary",
+  "images": [
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-fable-primary/work/entrega/01_nivel_sa_total.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-fable-primary/work/entrega/02_aberturas_nivel_sa.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-fable-primary/work/entrega/03_taxas_yoy_3msaar.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-fable-primary/work/entrega/04_aberturas_taxas.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-fable-primary/work/entrega/05_comparacao_yoy_3msaar_ultimo_mes.png",
+   "execucoes/pilot-a3-s01-low-normal-20261104-v1/attempts/a3-s01-claude-fable-primary/work/entrega/06_setores_nivel_sa.png"
+  ]
+ },
+ {
+  "code": "D06",
+  "task": "S02",
+  "phase": "A1",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "taskwise-v8-s02-claude-opus-r1",
+  "images": [
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g1_nivel_total.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g2_aberturas_nivel.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g3_setores_nivel.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g4_taxas_total.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-opus-r1/work/entrega/g5_taxas_aberturas.png"
+  ]
+ },
+ {
+  "code": "D07",
+  "task": "S02",
+  "phase": "A1",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "taskwise-v8-s02-codex-astra-r1",
+  "images": [
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-astra-r1/work/entrega/graficos/01_total.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-astra-r1/work/entrega/graficos/02_aberturas.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-astra-r1/work/entrega/graficos/03_taxas_total.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-astra-r1/work/entrega/graficos/04_taxas_aberturas.png"
+  ]
+ },
+ {
+  "code": "D08",
+  "task": "S02",
+  "phase": "A1",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "taskwise-v8-s02-claude-sonnet-low-normal-r1",
+  "images": [
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-sonnet-low-normal-r1/work/entrega/g1_nivel_total.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-sonnet-low-normal-r1/work/entrega/g2_grupos_bens.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-sonnet-low-normal-r1/work/entrega/g3_origem.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-sonnet-low-normal-r1/work/entrega/g4_taxas.png"
+  ]
+ },
+ {
+  "code": "D09",
+  "task": "S02",
+  "phase": "A1",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "taskwise-v8-s02-codex-sol-low-normal-r1",
+  "images": [
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-sol-low-normal-r1/work/entrega/graficos/01_nivel_total.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-sol-low-normal-r1/work/entrega/graficos/02_origem_niveis.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-sol-low-normal-r1/work/entrega/graficos/03_taxas_total.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-codex-sol-low-normal-r1/work/entrega/graficos/04_aberturas_mensais.png"
+  ]
+ },
+ {
+  "code": "D10",
+  "task": "S02",
+  "phase": "A1",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "taskwise-v8-s02-claude-fable-r1",
+  "images": [
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/01_nivel_total_sa.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/02_nivel_grupos_sa.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/03_nivel_origem_sa.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/04_nivel_setores_nominal_sa.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/05_taxas_total_yoy_3msaar.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/06_taxas_aberturas_ultimo_mes.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/07_taxas_grupos_yoy_3msaar.png",
+   "execucoes/pilot-taskwise-s02-low-normal-20261026-v8/attempts/taskwise-v8-s02-claude-fable-r1/work/entrega/graficos/08_taxas_origem_yoy_3msaar.png"
+  ]
+ },
+ {
+  "code": "D11",
+  "task": "S09",
+  "phase": "A3",
+  "model": "claude-fable-5-1",
+  "final_attempt_id": "a3-s09-claude-fable-primary",
+  "images": [
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-fable-primary/work/entrega/fig1_nivel_total_sa.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-fable-primary/work/entrega/fig2_aberturas_nivel_sa.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-fable-primary/work/entrega/fig3_total_yoy_3msaar.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-fable-primary/work/entrega/fig4_aberturas_yoy_3msaar.png"
+  ]
+ },
+ {
+  "code": "D12",
+  "task": "S09",
+  "phase": "A3",
+  "model": "claude-sonnet-5-5",
+  "final_attempt_id": "a3-s09-claude-sonnet-low-normal-primary",
+  "images": [
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-sonnet-low-normal-primary/work/entrega/01_nivel_sa_total.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-sonnet-low-normal-primary/work/entrega/02_nivel_sa_aberturas.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-sonnet-low-normal-primary/work/entrega/03_taxas_total.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-sonnet-low-normal-primary/work/entrega/04_taxas_aberturas.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-sonnet-low-normal-primary/work/entrega/05_ultimo_mes_categorias.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-sonnet-low-normal-primary/work/entrega/06_valor_vs_volume.png"
+  ]
+ },
+ {
+  "code": "D13",
+  "task": "S09",
+  "phase": "A3",
+  "model": "gpt-6-astra",
+  "final_attempt_id": "a3-s09-codex-astra-primary",
+  "images": [
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-codex-astra-primary/work/entrega/01_nivel_total.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-codex-astra-primary/work/entrega/02_niveis_aberturas.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-codex-astra-primary/work/entrega/03_taxas.png"
+  ]
+ },
+ {
+  "code": "D14",
+  "task": "S09",
+  "phase": "A3",
+  "model": "claude-opus-5-5",
+  "final_attempt_id": "a3-s09-claude-opus-primary",
+  "images": [
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-claude-opus-primary/work/entrega/varejo_noruega.png"
+  ]
+ },
+ {
+  "code": "D15",
+  "task": "S09",
+  "phase": "A3",
+  "model": "gpt-6.1-sol",
+  "final_attempt_id": "a3-s09-codex-sol-low-normal-primary",
+  "images": [
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-codex-sol-low-normal-primary/work/entrega/01_nivel_total.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-codex-sol-low-normal-primary/work/entrega/02_niveis_aberturas.png",
+   "execucoes/pilot-a3-s09-low-normal-20261105-v1/attempts/a3-s09-codex-sol-low-normal-primary/work/entrega/03_taxas.png"
+  ]
+ }
+]

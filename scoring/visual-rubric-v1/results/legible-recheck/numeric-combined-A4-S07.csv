@@ -1,0 +1,19 @@
+phase,task,model,status,N_total,N_correct,N_legible,code_paths
+A4e,S07,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A4e,S07,claude-haiku-5-5,scored,40.0,30.0,10.0,total_3m:ambiguous
+A4e,S07,claude-opus-5-5,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous
+A4e,S07,claude-sonnet-5-5,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A4e,S07,gpt-6-astra,scored,30.0,30.0,0.0,total_3m:ambiguous servicos_yoy:ambiguous
+A4e,S07,gpt-6-luna,scored,30.0,30.0,0.0,total_3m:ambiguous
+A4e,S07,gpt-6.1-sol,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous
+A4e,S07,grok-4.7,scored,30.0,30.0,0.0,total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous
+A4e,S07,kimi-code/k3.1-pro,scored,30.0,30.0,0.0,total_3m:ambiguous
+A4s,S07,claude-fable-5-1,scored,40.0,30.0,10.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A4s,S07,claude-haiku-5-5,scored,40.0,30.0,10.0,total_3m:ambiguous
+A4s,S07,claude-opus-5-5,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous
+A4s,S07,claude-sonnet-5-5,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A4s,S07,gpt-6-astra,scored,30.0,30.0,0.0,total_3m:ambiguous servicos_yoy:ambiguous
+A4s,S07,gpt-6-luna,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous construcao_yoy:ambiguous
+A4s,S07,gpt-6.1-sol,scored,30.0,30.0,0.0,total_yoy:ambiguous total_3m:ambiguous servicos_yoy:ambiguous
+A4s,S07,grok-4.7,scored,30.0,30.0,0.0,total_3m:ambiguous servicos_yoy:ambiguous producao_yoy:ambiguous
+A4s,S07,kimi-code/k3.1-pro,scored,30.0,30.0,0.0,total_3m:ambiguous

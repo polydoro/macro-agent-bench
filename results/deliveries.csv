@@ -1,0 +1,721 @@
+suite,task,model,cli,method,arm,status,total,visual_60,correct_30,legible_10,method_50,numbers_30,shown_10,answer_10,minutes,revision_minutes,attempts,timed_out,output_ktokens,judge_sd,before_review_total
+S,S01,Fable 5.1,Claude Code,low_effort,A1,delivered,79.81,44.81,30.0,5.0,,,,,3.88,,1,False,17.5,0.13,
+S,S01,Fable 5.1,Claude Code,high_effort,A2,delivered,93.26,53.26,30.0,10.0,,,,,10.47,,1,False,48.5,0.18,
+S,S01,Fable 5.1,Claude Code,examples,A3,delivered,92.8,52.8,30.0,10.0,,,,,5.34,,1,False,25.1,0.43,
+S,S01,Fable 5.1,Claude Code,self_review,A4s,delivered,80.93,45.93,30.0,5.0,,,,,7.88,4.0,,,35.8,0.23,79.81
+S,S01,Fable 5.1,Claude Code,external_review,A4e,delivered,81.23,46.23,30.0,5.0,,,,,7.52,3.64,,,27.3,0.04,79.81
+S,S01,GPT-6 Astra,Codex,low_effort,A1,delivered,83.07,53.07,30.0,0.0,,,,,4.64,,1,False,9.2,0.38,
+S,S01,GPT-6 Astra,Codex,high_effort,A2,delivered,95.08,55.08,30.0,10.0,,,,,27.26,,2,True,,0.53,
+S,S01,GPT-6 Astra,Codex,examples,A3,delivered,80.39,54.14,26.25,0.0,,,,,3.4,,1,False,7.2,0.3,
+S,S01,GPT-6 Astra,Codex,self_review,A4s,delivered,83.03,53.03,30.0,0.0,,,,,7.27,2.63,,,12.9,0.24,83.07
+S,S01,GPT-6 Astra,Codex,external_review,A4e,delivered,83.07,53.07,30.0,0.0,,,,,10.26,5.62,,,13.2,0.38,83.07
+S,S01,GPT-6 Luna,Codex,low_effort,A1,delivered,69.38,39.38,30.0,0.0,,,,,2.12,,1,False,7.8,0.23,
+S,S01,GPT-6 Luna,Codex,high_effort,A2,delivered,78.82,52.57,26.25,0.0,,,,,2.85,,1,False,12.9,0.54,
+S,S01,GPT-6 Luna,Codex,examples,A3,delivered,84.81,54.81,30.0,0.0,,,,,5.74,,1,False,13.3,0.29,
+S,S01,GPT-6 Luna,Codex,self_review,A4s,delivered,70.71,40.71,30.0,0.0,,,,,6.6,4.49,,,19.2,0.21,69.38
+S,S01,GPT-6 Luna,Codex,external_review,A4e,delivered,69.38,39.38,30.0,0.0,,,,,7.02,4.91,,,12.8,0.23,69.38
+S,S01,GPT-6.1 Sol,Codex,low_effort,A1,delivered,70.87,40.87,30.0,0.0,,,,,2.98,,1,False,7.7,1.08,
+S,S01,GPT-6.1 Sol,Codex,high_effort,A2,delivered,95.9,55.9,30.0,10.0,,,,,9.16,,1,False,22.4,0.46,
+S,S01,GPT-6.1 Sol,Codex,examples,A3,delivered,78.53,43.53,30.0,5.0,,,,,4.99,,1,False,11.5,0.03,
+S,S01,GPT-6.1 Sol,Codex,self_review,A4s,delivered,71.36,41.36,30.0,0.0,,,,,6.25,3.27,,,12.9,0.56,70.87
+S,S01,GPT-6.1 Sol,Codex,external_review,A4e,delivered,72.34,42.34,30.0,0.0,,,,,9.31,6.33,,,14.9,0.51,70.87
+S,S01,Grok 4.7,Grok CLI,low_effort,A1,delivered,84.03,54.03,30.0,0.0,,,,,9.9,,1,False,39.6,0.15,
+S,S01,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,25.9,,
+S,S01,Grok 4.7,Grok CLI,examples,A3,delivered,94.58,54.58,30.0,10.0,,,,,5.37,,1,False,20.5,0.21,
+S,S01,Grok 4.7,Grok CLI,self_review,A4s,delivered,83.68,53.68,30.0,0.0,,,,,15.45,5.55,,,63.9,0.14,84.03
+S,S01,Grok 4.7,Grok CLI,external_review,A4e,delivered,83.3,53.3,30.0,0.0,,,,,17.79,7.9,,,64.9,0.1,84.03
+S,S01,Haiku 5.5,Claude Code,low_effort,A1,delivered,50.16,32.66,15.0,2.5,,,,,1.52,,1,False,13.1,0.2,
+S,S01,Haiku 5.5,Claude Code,high_effort,A2,delivered,80.98,50.98,30.0,0.0,,,,,3.43,,1,False,40.9,0.75,
+S,S01,Haiku 5.5,Claude Code,examples,A3,delivered,59.86,44.86,15.0,0.0,,,,,1.02,,1,False,12.6,0.16,
+S,S01,Haiku 5.5,Claude Code,self_review,A4s,delivered,55.77,35.77,15.0,5.0,,,,,5.27,3.76,,,56.1,0.25,50.16
+S,S01,Haiku 5.5,Claude Code,external_review,A4e,delivered,59.05,41.55,15.0,2.5,,,,,4.06,2.55,,,23.6,0.35,50.16
+S,S01,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,81.71,51.71,30.0,0.0,,,,,11.6,,1,False,,0.18,
+S,S01,Kimi k3.1-pro,Kimi Code,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,9.92,,1,False,,,
+S,S01,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,65.06,42.56,22.5,0.0,,,,,4.26,,1,False,,0.25,
+S,S01,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,81.71,51.71,30.0,0.0,,,,,18.09,6.49,,,,0.18,81.71
+S,S01,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,81.85,51.85,30.0,0.0,,,,,20.44,8.84,,,,0.39,81.71
+S,S01,Opus 5.5,Claude Code,low_effort,A1,delivered,84.94,54.94,30.0,0.0,,,,,1.9,,1,False,9.6,0.32,
+S,S01,Opus 5.5,Claude Code,high_effort,A2,delivered,96.18,56.18,30.0,10.0,,,,,6.54,,1,False,36.7,0.5,
+S,S01,Opus 5.5,Claude Code,examples,A3,delivered,74.37,44.37,30.0,0.0,,,,,1.72,,1,False,8.2,1.22,
+S,S01,Opus 5.5,Claude Code,self_review,A4s,delivered,84.25,54.25,30.0,0.0,,,,,5.13,3.23,,,25.8,0.22,84.94
+S,S01,Opus 5.5,Claude Code,external_review,A4e,delivered,85.1,55.1,30.0,0.0,,,,,4.56,2.66,,,16.1,0.25,84.94
+S,S01,Sonnet 5.5,Claude Code,low_effort,A1,delivered,74.46,48.21,26.25,0.0,,,,,0.72,,1,False,5.6,0.4,
+S,S01,Sonnet 5.5,Claude Code,high_effort,A2,delivered,85.45,55.45,30.0,0.0,,,,,3.21,,1,False,18.3,0.47,
+S,S01,Sonnet 5.5,Claude Code,examples,A3,delivered,84.73,54.73,30.0,0.0,,,,,1.66,,1,False,7.9,0.48,
+S,S01,Sonnet 5.5,Claude Code,self_review,A4s,delivered,71.41,45.16,26.25,0.0,,,,,2.16,1.44,,,14.6,0.02,74.46
+S,S01,Sonnet 5.5,Claude Code,external_review,A4e,delivered,83.52,53.52,30.0,0.0,,,,,4.27,3.55,,,14.0,0.42,74.46
+S,S02,Fable 5.1,Claude Code,low_effort,A1,delivered,83.02,53.02,30.0,0.0,,,,,6.21,,1,False,27.9,0.33,
+S,S02,Fable 5.1,Claude Code,high_effort,A2,delivered,82.91,45.41,30.0,7.5,,,,,8.84,,1,False,43.9,0.31,
+S,S02,Fable 5.1,Claude Code,examples,A3,delivered,83.99,53.99,30.0,0.0,,,,,5.01,,1,False,21.5,0.26,
+S,S02,Fable 5.1,Claude Code,self_review,A4s,delivered,86.08,56.08,30.0,0.0,,,,,11.32,5.11,,,54.4,0.36,83.02
+S,S02,Fable 5.1,Claude Code,external_review,A4e,delivered,82.93,52.93,30.0,0.0,,,,,10.8,4.59,,,41.7,0.27,83.02
+S,S02,GPT-6 Astra,Codex,low_effort,A1,delivered,79.39,49.39,30.0,0.0,,,,,4.59,,1,False,6.6,0.64,
+S,S02,GPT-6 Astra,Codex,high_effort,A2,delivered,89.35,49.35,30.0,10.0,,,,,14.84,,1,False,23.2,0.33,
+S,S02,GPT-6 Astra,Codex,examples,A3,delivered,83.08,53.08,30.0,0.0,,,,,4.03,,1,False,9.4,0.62,
+S,S02,GPT-6 Astra,Codex,self_review,A4s,delivered,79.39,49.39,30.0,0.0,,,,,8.37,3.78,,,11.2,0.64,79.39
+S,S02,GPT-6 Astra,Codex,external_review,A4e,delivered,79.39,49.39,30.0,0.0,,,,,9.43,4.84,,,10.5,0.64,79.39
+S,S02,GPT-6 Luna,Codex,low_effort,A1,delivered,55.77,40.77,15.0,0.0,,,,,1.58,,1,False,6.0,1.23,
+S,S02,GPT-6 Luna,Codex,high_effort,A2,delivered,61.66,44.16,15.0,2.5,,,,,3.32,,1,False,13.8,0.14,
+S,S02,GPT-6 Luna,Codex,examples,A3,delivered,67.25,37.25,30.0,0.0,,,,,3.59,,1,False,9.5,0.5,
+S,S02,GPT-6 Luna,Codex,self_review,A4s,delivered,58.24,43.24,15.0,0.0,,,,,3.11,1.52,,,10.0,0.2,55.77
+S,S02,GPT-6 Luna,Codex,external_review,A4e,delivered,55.17,40.17,15.0,0.0,,,,,5.56,3.97,,,9.7,0.47,55.77
+S,S02,GPT-6.1 Sol,Codex,low_effort,A1,delivered,70.33,40.33,30.0,0.0,,,,,4.48,,1,False,8.7,0.72,
+S,S02,GPT-6.1 Sol,Codex,high_effort,A2,delivered,96.56,56.56,30.0,10.0,,,,,11.99,,1,False,27.6,0.21,
+S,S02,GPT-6.1 Sol,Codex,examples,A3,delivered,75.54,45.54,30.0,0.0,,,,,2.46,,1,False,6.0,0.82,
+S,S02,GPT-6.1 Sol,Codex,self_review,A4s,delivered,70.33,40.33,30.0,0.0,,,,,6.48,2.0,,,12.3,0.72,70.33
+S,S02,GPT-6.1 Sol,Codex,external_review,A4e,delivered,70.33,40.33,30.0,0.0,,,,,9.09,4.61,,,14.1,0.72,70.33
+S,S02,Grok 4.7,Grok CLI,low_effort,A1,delivered,76.98,46.98,30.0,0.0,,,,,4.09,,1,False,18.3,0.59,
+S,S02,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,3.7,,
+S,S02,Grok 4.7,Grok CLI,examples,A3,delivered,84.16,54.16,30.0,0.0,,,,,8.71,,1,False,32.4,0.31,
+S,S02,Grok 4.7,Grok CLI,self_review,A4s,delivered,78.48,48.48,30.0,0.0,,,,,7.84,3.75,,,35.4,1.17,76.98
+S,S02,Grok 4.7,Grok CLI,external_review,A4e,delivered,76.98,46.98,30.0,0.0,,,,,7.72,3.64,,,21.9,0.59,76.98
+S,S02,Haiku 5.5,Claude Code,low_effort,A1,delivered,53.6,46.1,7.5,0.0,,,,,1.85,,1,False,15.8,0.02,
+S,S02,Haiku 5.5,Claude Code,high_effort,A2,delivered,66.26,46.26,15.0,5.0,,,,,3.5,,1,False,44.6,0.24,
+S,S02,Haiku 5.5,Claude Code,examples,A3,delivered,51.86,36.86,15.0,0.0,,,,,2.23,,1,False,25.1,0.23,
+S,S02,Haiku 5.5,Claude Code,self_review,A4s,delivered,52.39,44.89,7.5,0.0,,,,,4.09,2.24,,,40.8,0.09,53.6
+S,S02,Haiku 5.5,Claude Code,external_review,A4e,delivered,48.79,41.29,7.5,0.0,,,,,4.83,2.98,,,29.7,1.18,53.6
+S,S02,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,78.77,46.27,30.0,2.5,,,,,15.0,,1,True,,1.22,
+S,S02,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,73.52,38.52,30.0,5.0,,,,,30.0,,2,True,,0.09,
+S,S02,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,49.95,34.95,15.0,0.0,,,,,10.48,,1,False,,0.3,
+S,S02,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,73.2,43.2,30.0,0.0,,,,,22.96,7.96,,,,0.42,0.0
+S,S02,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,58.71,41.21,15.0,2.5,,,,,32.45,17.44,,,,0.54,0.0
+S,S02,Opus 5.5,Claude Code,low_effort,A1,delivered,81.99,51.99,30.0,0.0,,,,,2.26,,1,False,11.4,0.24,
+S,S02,Opus 5.5,Claude Code,high_effort,A2,delivered,89.52,49.52,30.0,10.0,,,,,6.47,,1,False,31.9,1.1,
+S,S02,Opus 5.5,Claude Code,examples,A3,delivered,82.42,52.42,30.0,0.0,,,,,2.07,,1,False,10.7,0.47,
+S,S02,Opus 5.5,Claude Code,self_review,A4s,delivered,82.15,52.15,30.0,0.0,,,,,3.91,1.64,,,18.2,0.69,81.99
+S,S02,Opus 5.5,Claude Code,external_review,A4e,delivered,83.62,53.62,30.0,0.0,,,,,5.04,2.78,,,17.5,0.13,81.99
+S,S02,Sonnet 5.5,Claude Code,low_effort,A1,delivered,67.48,44.98,22.5,0.0,,,,,1.59,,1,False,9.7,0.24,
+S,S02,Sonnet 5.5,Claude Code,high_effort,A2,delivered,87.53,55.03,30.0,2.5,,,,,6.86,,1,False,50.2,0.31,
+S,S02,Sonnet 5.5,Claude Code,examples,A3,delivered,57.46,42.46,15.0,0.0,,,,,1.6,,1,False,10.3,0.6,
+S,S02,Sonnet 5.5,Claude Code,self_review,A4s,delivered,69.77,47.27,22.5,0.0,,,,,3.4,1.82,,,24.0,0.29,67.48
+S,S02,Sonnet 5.5,Claude Code,external_review,A4e,delivered,82.26,52.26,30.0,0.0,,,,,4.97,3.38,,,18.7,0.45,67.48
+S,S03,Fable 5.1,Claude Code,low_effort,A1,delivered,86.7,54.2,30.0,2.5,,,,,7.38,,1,False,28.8,0.25,
+S,S03,Fable 5.1,Claude Code,high_effort,A2,delivered,95.69,55.69,30.0,10.0,,,,,7.26,,1,False,35.4,0.14,
+S,S03,Fable 5.1,Claude Code,examples,A3,delivered,93.88,53.88,30.0,10.0,,,,,6.64,,1,False,18.7,0.3,
+S,S03,Fable 5.1,Claude Code,self_review,A4s,delivered,87.5,55.0,30.0,2.5,,,,,12.5,5.12,,,48.5,0.4,86.7
+S,S03,Fable 5.1,Claude Code,external_review,A4e,delivered,84.54,54.54,30.0,0.0,,,,,13.05,5.67,,,42.6,0.4,86.7
+S,S03,GPT-6 Astra,Codex,low_effort,A1,delivered,96.08,56.08,30.0,10.0,,,,,6.38,,1,False,11.2,0.29,
+S,S03,GPT-6 Astra,Codex,high_effort,A2,delivered,98.4,58.4,30.0,10.0,,,,,7.44,,1,False,16.3,0.02,
+S,S03,GPT-6 Astra,Codex,examples,A3,delivered,85.34,55.34,30.0,0.0,,,,,2.81,,1,False,6.1,0.16,
+S,S03,GPT-6 Astra,Codex,self_review,A4s,delivered,86.23,56.23,30.0,0.0,,,,,9.61,3.22,,,16.0,0.37,96.08
+S,S03,GPT-6 Astra,Codex,external_review,A4e,delivered,96.08,56.08,30.0,10.0,,,,,11.14,4.76,,,13.1,0.29,96.08
+S,S03,GPT-6 Luna,Codex,low_effort,A1,delivered,56.56,34.06,22.5,0.0,,,,,3.01,,1,False,7.6,0.82,
+S,S03,GPT-6 Luna,Codex,high_effort,A2,delivered,73.25,50.75,22.5,0.0,,,,,4.48,,1,False,13.8,0.26,
+S,S03,GPT-6 Luna,Codex,examples,A3,delivered,68.82,46.32,22.5,0.0,,,,,3.95,,1,False,8.6,0.58,
+S,S03,GPT-6 Luna,Codex,self_review,A4s,delivered,63.58,41.08,22.5,0.0,,,,,5.57,2.56,,,14.0,0.7,56.56
+S,S03,GPT-6 Luna,Codex,external_review,A4e,delivered,53.04,30.54,22.5,0.0,,,,,10.09,7.08,,,18.2,1.12,56.56
+S,S03,GPT-6.1 Sol,Codex,low_effort,A1,delivered,82.93,52.93,30.0,0.0,,,,,3.46,,1,False,6.1,0.62,
+S,S03,GPT-6.1 Sol,Codex,high_effort,A2,delivered,97.57,57.57,30.0,10.0,,,,,7.58,,1,False,21.5,0.34,
+S,S03,GPT-6.1 Sol,Codex,examples,A3,delivered,84.21,54.21,30.0,0.0,,,,,3.28,,1,False,6.6,0.38,
+S,S03,GPT-6.1 Sol,Codex,self_review,A4s,delivered,82.93,52.93,30.0,0.0,,,,,6.17,2.71,,,11.3,0.62,82.93
+S,S03,GPT-6.1 Sol,Codex,external_review,A4e,delivered,82.93,52.93,30.0,0.0,,,,,7.63,4.17,,,10.7,0.62,82.93
+S,S03,Grok 4.7,Grok CLI,low_effort,A1,delivered,90.83,55.83,30.0,5.0,,,,,7.92,,1,False,31.5,0.33,
+S,S03,Grok 4.7,Grok CLI,high_effort,A2,delivered,90.06,55.06,30.0,5.0,,,,,30.0,,2,True,2.5,0.24,
+S,S03,Grok 4.7,Grok CLI,examples,A3,delivered,87.73,55.23,30.0,2.5,,,,,8.46,,1,False,27.7,0.08,
+S,S03,Grok 4.7,Grok CLI,self_review,A4s,delivered,89.78,54.78,30.0,5.0,,,,,15.63,7.71,,,64.8,0.44,90.83
+S,S03,Grok 4.7,Grok CLI,external_review,A4e,delivered,90.83,55.83,30.0,5.0,,,,,13.15,5.23,,,41.3,0.33,90.83
+S,S03,Haiku 5.5,Claude Code,low_effort,A1,delivered,58.03,43.03,15.0,0.0,,,,,1.12,,1,False,10.1,0.75,
+S,S03,Haiku 5.5,Claude Code,high_effort,A2,delivered,68.64,53.64,15.0,0.0,,,,,6.22,,1,False,60.6,0.21,
+S,S03,Haiku 5.5,Claude Code,examples,A3,delivered,52.78,37.78,15.0,0.0,,,,,4.01,,1,False,28.9,0.22,
+S,S03,Haiku 5.5,Claude Code,self_review,A4s,delivered,75.74,45.74,30.0,0.0,,,,,5.7,4.57,,,61.4,0.67,58.03
+S,S03,Haiku 5.5,Claude Code,external_review,A4e,delivered,54.77,39.77,15.0,0.0,,,,,6.53,5.41,,,53.1,1.27,58.03
+S,S03,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,82.42,44.92,30.0,7.5,,,,,6.09,,1,False,,0.38,
+S,S03,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,81.22,46.22,30.0,5.0,,,,,30.0,,2,True,,0.25,
+S,S03,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,79.21,44.21,30.0,5.0,,,,,7.4,,1,False,,0.75,
+S,S03,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,82.0,44.5,30.0,7.5,,,,,9.59,3.5,,,,0.26,82.42
+S,S03,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,82.42,44.92,30.0,7.5,,,,,11.23,5.14,,,,0.38,82.42
+S,S03,Opus 5.5,Claude Code,low_effort,A1,delivered,84.27,54.27,30.0,0.0,,,,,1.86,,1,False,9.1,1.81,
+S,S03,Opus 5.5,Claude Code,high_effort,A2,delivered,92.79,52.79,30.0,10.0,,,,,6.89,,1,False,35.6,0.56,
+S,S03,Opus 5.5,Claude Code,examples,A3,delivered,85.25,55.25,30.0,0.0,,,,,1.85,,1,False,9.1,0.04,
+S,S03,Opus 5.5,Claude Code,self_review,A4s,delivered,85.92,55.92,30.0,0.0,,,,,4.54,2.68,,,21.7,0.22,84.27
+S,S03,Opus 5.5,Claude Code,external_review,A4e,delivered,85.84,55.84,30.0,0.0,,,,,4.43,2.56,,,15.5,0.37,84.27
+S,S03,Sonnet 5.5,Claude Code,low_effort,A1,delivered,84.93,54.93,30.0,0.0,,,,,4.93,,1,False,17.2,0.19,
+S,S03,Sonnet 5.5,Claude Code,high_effort,A2,delivered,92.89,52.89,30.0,10.0,,,,,5.42,,1,False,37.5,0.16,
+S,S03,Sonnet 5.5,Claude Code,examples,A3,delivered,64.91,49.91,15.0,0.0,,,,,2.59,,1,False,13.7,0.49,
+S,S03,Sonnet 5.5,Claude Code,self_review,A4s,delivered,84.83,54.83,30.0,0.0,,,,,6.71,1.78,,,27.3,0.09,84.93
+S,S03,Sonnet 5.5,Claude Code,external_review,A4e,delivered,85.27,55.27,30.0,0.0,,,,,7.92,2.99,,,23.1,0.3,84.93
+S,S04,Fable 5.1,Claude Code,low_effort,A1,delivered,97.09,57.09,30.0,10.0,,,,,4.02,,1,False,17.1,0.19,
+S,S04,Fable 5.1,Claude Code,high_effort,A2,delivered,98.12,58.12,30.0,10.0,,,,,8.7,,1,False,41.5,0.1,
+S,S04,Fable 5.1,Claude Code,examples,A3,delivered,92.62,57.62,30.0,5.0,,,,,2.68,,1,False,13.0,0.26,
+S,S04,Fable 5.1,Claude Code,self_review,A4s,delivered,97.15,57.15,30.0,10.0,,,,,8.58,4.56,,,37.4,0.39,97.09
+S,S04,Fable 5.1,Claude Code,external_review,A4e,delivered,97.2,57.2,30.0,10.0,,,,,11.58,7.56,,,39.4,0.17,97.09
+S,S04,GPT-6 Astra,Codex,low_effort,A1,delivered,90.24,55.24,30.0,5.0,,,,,2.74,,1,False,4.7,0.43,
+S,S04,GPT-6 Astra,Codex,high_effort,A2,delivered,97.4,57.4,30.0,10.0,,,,,7.4,,1,False,16.7,0.3,
+S,S04,GPT-6 Astra,Codex,examples,A3,delivered,88.0,53.0,30.0,5.0,,,,,2.1,,1,False,4.9,0.48,
+S,S04,GPT-6 Astra,Codex,self_review,A4s,delivered,90.24,55.24,30.0,5.0,,,,,6.32,3.58,,,9.5,0.43,90.24
+S,S04,GPT-6 Astra,Codex,external_review,A4e,delivered,90.12,55.12,30.0,5.0,,,,,7.69,4.94,,,8.3,0.32,90.24
+S,S04,GPT-6 Luna,Codex,low_effort,A1,delivered,84.28,49.28,30.0,5.0,,,,,1.57,,1,False,4.3,0.67,
+S,S04,GPT-6 Luna,Codex,high_effort,A2,delivered,78.8,43.8,30.0,5.0,,,,,1.25,,1,False,7.8,0.42,
+S,S04,GPT-6 Luna,Codex,examples,A3,delivered,91.41,56.41,30.0,5.0,,,,,2.29,,1,False,6.2,0.33,
+S,S04,GPT-6 Luna,Codex,self_review,A4s,delivered,81.02,51.02,30.0,0.0,,,,,3.43,1.86,,,9.1,0.31,84.28
+S,S04,GPT-6 Luna,Codex,external_review,A4e,delivered,83.41,48.41,30.0,5.0,,,,,4.57,3.0,,,8.3,0.23,84.28
+S,S04,GPT-6.1 Sol,Codex,low_effort,A1,delivered,88.35,53.35,30.0,5.0,,,,,2.33,,1,False,5.0,0.23,
+S,S04,GPT-6.1 Sol,Codex,high_effort,A2,delivered,97.46,57.46,30.0,10.0,,,,,6.66,,1,False,17.2,0.11,
+S,S04,GPT-6.1 Sol,Codex,examples,A3,delivered,90.91,55.91,30.0,5.0,,,,,2.58,,1,False,5.6,0.4,
+S,S04,GPT-6.1 Sol,Codex,self_review,A4s,delivered,90.13,55.13,30.0,5.0,,,,,4.2,1.88,,,8.9,0.09,88.35
+S,S04,GPT-6.1 Sol,Codex,external_review,A4e,delivered,89.93,54.93,30.0,5.0,,,,,6.95,4.62,,,10.4,0.29,88.35
+S,S04,Grok 4.7,Grok CLI,low_effort,A1,delivered,90.07,55.07,30.0,5.0,,,,,3.97,,1,False,16.9,0.28,
+S,S04,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,0.3,,
+S,S04,Grok 4.7,Grok CLI,examples,A3,delivered,89.39,54.39,30.0,5.0,,,,,3.52,,1,False,14.0,0.1,
+S,S04,Grok 4.7,Grok CLI,self_review,A4s,delivered,90.48,55.48,30.0,5.0,,,,,8.53,4.56,,,36.0,0.34,90.07
+S,S04,Grok 4.7,Grok CLI,external_review,A4e,delivered,91.51,56.51,30.0,5.0,,,,,9.39,5.42,,,30.9,0.32,90.07
+S,S04,Haiku 5.5,Claude Code,low_effort,A1,delivered,46.79,46.79,0.0,0.0,,,,,1.41,,1,False,18.0,1.82,
+S,S04,Haiku 5.5,Claude Code,high_effort,A2,delivered,98.18,58.18,30.0,10.0,,,,,4.92,,1,False,53.7,0.28,
+S,S04,Haiku 5.5,Claude Code,examples,A3,delivered,83.2,48.2,30.0,5.0,,,,,2.85,,1,False,29.8,0.16,
+S,S04,Haiku 5.5,Claude Code,self_review,A4s,delivered,80.7,50.7,30.0,0.0,,,,,5.07,3.66,,,62.7,1.13,46.79
+S,S04,Haiku 5.5,Claude Code,external_review,A4e,delivered,50.92,50.92,0.0,0.0,,,,,6.26,4.85,,,55.1,1.48,46.79
+S,S04,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,90.17,55.17,30.0,5.0,,,,,5.42,,1,False,,0.53,
+S,S04,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,93.13,54.8,30.0,8.33,,,,,9.78,,1,False,,0.32,
+S,S04,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,86.85,46.85,30.0,10.0,,,,,8.0,,1,False,,0.85,
+S,S04,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,91.84,56.84,30.0,5.0,,,,,11.07,5.65,,,,0.14,90.17
+S,S04,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,90.44,55.44,30.0,5.0,,,,,9.56,4.14,,,,0.48,90.17
+S,S04,Opus 5.5,Claude Code,low_effort,A1,delivered,91.09,56.09,30.0,5.0,,,,,1.56,,1,False,9.3,0.08,
+S,S04,Opus 5.5,Claude Code,high_effort,A2,delivered,95.63,55.63,30.0,10.0,,,,,9.11,,1,False,45.9,0.19,
+S,S04,Opus 5.5,Claude Code,examples,A3,delivered,92.08,57.08,30.0,5.0,,,,,1.15,,1,False,6.9,0.43,
+S,S04,Opus 5.5,Claude Code,self_review,A4s,delivered,91.0,56.0,30.0,5.0,,,,,2.67,1.11,,,14.5,0.12,91.09
+S,S04,Opus 5.5,Claude Code,external_review,A4e,delivered,91.43,56.43,30.0,5.0,,,,,4.68,3.12,,,14.3,0.3,91.09
+S,S04,Sonnet 5.5,Claude Code,low_effort,A1,delivered,91.06,56.06,30.0,5.0,,,,,1.63,,1,False,10.0,0.3,
+S,S04,Sonnet 5.5,Claude Code,high_effort,A2,delivered,96.63,56.63,30.0,10.0,,,,,2.4,,1,False,15.9,0.29,
+S,S04,Sonnet 5.5,Claude Code,examples,A3,delivered,82.48,42.48,30.0,10.0,,,,,1.59,,1,False,10.8,0.35,
+S,S04,Sonnet 5.5,Claude Code,self_review,A4s,delivered,91.38,56.38,30.0,5.0,,,,,2.54,0.91,,,15.8,0.25,91.06
+S,S04,Sonnet 5.5,Claude Code,external_review,A4e,delivered,91.35,56.35,30.0,5.0,,,,,3.9,2.27,,,13.6,0.46,91.06
+S,S05,Fable 5.1,Claude Code,low_effort,A1,delivered,95.49,56.49,30.0,9.0,,,,,11.91,,1,False,27.3,0.43,
+S,S05,Fable 5.1,Claude Code,high_effort,A2,delivered,92.71,54.21,30.0,8.5,,,,,14.12,,1,False,54.1,0.19,
+S,S05,Fable 5.1,Claude Code,examples,A3,delivered,96.96,56.96,30.0,10.0,,,,,8.49,,1,False,20.0,0.12,
+S,S05,Fable 5.1,Claude Code,self_review,A4s,delivered,83.55,56.05,21.0,6.5,,,,,17.26,5.35,,,53.2,0.37,95.49
+S,S05,Fable 5.1,Claude Code,external_review,A4e,delivered,95.99,56.49,30.0,9.5,,,,,17.76,5.85,,,45.8,0.43,95.49
+S,S05,GPT-6 Astra,Codex,low_effort,A1,delivered,91.73,53.73,28.5,9.5,,,,,9.62,,1,False,7.0,0.45,
+S,S05,GPT-6 Astra,Codex,high_effort,A2,delivered,95.71,55.71,30.0,10.0,,,,,9.54,,1,False,19.3,0.72,
+S,S05,GPT-6 Astra,Codex,examples,A3,delivered,92.4,54.4,28.5,9.5,,,,,3.33,,1,False,6.9,0.37,
+S,S05,GPT-6 Astra,Codex,self_review,A4s,delivered,91.73,53.73,28.5,9.5,,,,,12.71,3.09,,,13.2,0.45,91.73
+S,S05,GPT-6 Astra,Codex,external_review,A4e,delivered,91.59,53.59,28.5,9.5,,,,,13.25,3.63,,,11.3,0.48,91.73
+S,S05,GPT-6 Luna,Codex,low_effort,A1,delivered,56.08,50.08,6.0,0.0,,,,,3.49,,1,False,6.5,0.26,
+S,S05,GPT-6 Luna,Codex,high_effort,A2,delivered,85.47,55.47,30.0,0.0,,,,,2.93,,1,False,13.6,0.46,
+S,S05,GPT-6 Luna,Codex,examples,A3,delivered,84.41,55.91,28.5,0.0,,,,,3.19,,1,False,8.2,0.23,
+S,S05,GPT-6 Luna,Codex,self_review,A4s,delivered,65.25,50.25,15.0,0.0,,,,,4.94,1.45,,,10.3,0.31,56.08
+S,S05,GPT-6 Luna,Codex,external_review,A4e,delivered,65.06,48.56,16.5,0.0,,,,,8.12,4.63,,,14.8,0.9,56.08
+S,S05,GPT-6.1 Sol,Codex,low_effort,A1,delivered,83.3,54.8,28.5,0.0,,,,,2.51,,1,False,5.4,0.36,
+S,S05,GPT-6.1 Sol,Codex,high_effort,A2,delivered,95.57,55.57,30.0,10.0,,,,,13.12,,1,False,27.0,0.39,
+S,S05,GPT-6.1 Sol,Codex,examples,A3,delivered,90.47,52.47,28.5,9.5,,,,,2.33,,1,False,5.6,0.92,
+S,S05,GPT-6.1 Sol,Codex,self_review,A4s,delivered,83.3,54.8,28.5,0.0,,,,,4.9,2.39,,,10.6,0.36,83.3
+S,S05,GPT-6.1 Sol,Codex,external_review,A4e,delivered,83.3,54.8,28.5,0.0,,,,,6.58,4.07,,,9.9,0.36,83.3
+S,S05,Grok 4.7,Grok CLI,low_effort,A1,delivered,77.13,54.63,22.5,0.0,,,,,25.32,,2,True,43.7,0.36,
+S,S05,Grok 4.7,Grok CLI,high_effort,A2,delivered,96.97,56.97,30.0,10.0,,,,,30.0,,2,True,13.6,0.17,
+S,S05,Grok 4.7,Grok CLI,examples,A3,delivered,79.06,54.56,24.0,0.5,,,,,12.97,,1,False,38.2,0.17,
+S,S05,Grok 4.7,Grok CLI,self_review,A4s,delivered,82.2,53.7,28.5,0.0,,,,,27.03,12.03,,,45.1,0.32,0.0
+S,S05,Grok 4.7,Grok CLI,external_review,A4e,no delivery,0.0,0.0,0.0,0.0,,,,,38.99,23.99,,,12.7,,0.0
+S,S05,Haiku 5.5,Claude Code,low_effort,A1,delivered,69.7,54.7,15.0,0.0,,,,,14.48,,1,False,68.6,0.46,
+S,S05,Haiku 5.5,Claude Code,high_effort,A2,delivered,53.71,36.71,13.5,3.5,,,,,25.44,,2,True,,0.51,
+S,S05,Haiku 5.5,Claude Code,examples,A3,delivered,56.06,36.56,15.0,4.5,,,,,20.42,,2,True,,0.66,
+S,S05,Haiku 5.5,Claude Code,self_review,A4s,delivered,71.24,56.24,15.0,0.0,,,,,42.43,27.94,,,,0.23,69.7
+S,S05,Haiku 5.5,Claude Code,external_review,A4e,delivered,70.34,55.34,15.0,0.0,,,,,19.34,4.85,,,96.9,0.35,69.7
+S,S05,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,56.0,36.5,15.0,4.5,,,,,9.27,,1,False,,0.13,
+S,S05,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,86.36,56.36,30.0,0.0,,,,,28.17,,2,True,,0.15,
+S,S05,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,72.65,56.15,16.5,0.0,,,,,12.46,,1,False,,0.26,
+S,S05,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,56.0,36.5,15.0,4.5,,,,,13.15,3.88,,,,0.13,56.0
+S,S05,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,69.83,36.33,27.0,6.5,,,,,17.03,7.77,,,,0.3,56.0
+S,S05,Opus 5.5,Claude Code,low_effort,A1,delivered,85.9,55.9,30.0,0.0,,,,,1.47,,1,False,7.0,0.6,
+S,S05,Opus 5.5,Claude Code,high_effort,A2,delivered,77.35,55.35,16.5,5.5,,,,,12.77,,1,False,55.4,0.23,
+S,S05,Opus 5.5,Claude Code,examples,A3,delivered,96.29,56.29,30.0,10.0,,,,,4.42,,1,False,10.4,0.51,
+S,S05,Opus 5.5,Claude Code,self_review,A4s,delivered,86.39,56.39,30.0,0.0,,,,,4.15,2.69,,,22.0,0.5,85.9
+S,S05,Opus 5.5,Claude Code,external_review,A4e,delivered,85.9,55.9,30.0,0.0,,,,,4.77,3.31,,,14.6,0.6,85.9
+S,S05,Sonnet 5.5,Claude Code,low_effort,A1,delivered,71.22,56.22,15.0,0.0,,,,,4.52,,1,False,13.4,0.2,
+S,S05,Sonnet 5.5,Claude Code,high_effort,A2,delivered,96.61,56.61,30.0,10.0,,,,,9.44,,1,False,39.2,0.25,
+S,S05,Sonnet 5.5,Claude Code,examples,A3,delivered,80.13,57.63,22.5,0.0,,,,,1.61,,1,False,9.5,0.25,
+S,S05,Sonnet 5.5,Claude Code,self_review,A4s,delivered,86.72,56.72,30.0,0.0,,,,,7.53,3.01,,,28.0,0.57,71.22
+S,S05,Sonnet 5.5,Claude Code,external_review,A4e,delivered,86.13,56.13,30.0,0.0,,,,,8.28,3.76,,,26.2,0.58,71.22
+S,S06,Fable 5.1,Claude Code,low_effort,A1,delivered,54.16,54.16,0.0,0.0,,,,,2.12,,1,False,9.7,0.17,
+S,S06,Fable 5.1,Claude Code,high_effort,A2,delivered,95.31,55.31,30.0,10.0,,,,,11.18,,1,False,53.1,0.35,
+S,S06,Fable 5.1,Claude Code,examples,A3,delivered,96.96,56.96,30.0,10.0,,,,,27.86,,2,True,,0.07,
+S,S06,Fable 5.1,Claude Code,self_review,A4s,delivered,55.33,55.33,0.0,0.0,,,,,5.46,3.34,,,25.7,0.27,54.16
+S,S06,Fable 5.1,Claude Code,external_review,A4e,delivered,94.29,54.29,30.0,10.0,,,,,12.63,10.51,,,51.1,0.13,54.16
+S,S06,GPT-6 Astra,Codex,low_effort,A1,delivered,95.11,55.11,30.0,10.0,,,,,4.04,,1,False,8.1,0.45,
+S,S06,GPT-6 Astra,Codex,high_effort,A2,delivered,97.17,57.17,30.0,10.0,,,,,11.29,,1,False,19.4,0.33,
+S,S06,GPT-6 Astra,Codex,examples,A3,delivered,90.86,50.86,30.0,10.0,,,,,4.76,,1,False,8.9,0.66,
+S,S06,GPT-6 Astra,Codex,self_review,A4s,delivered,95.11,55.11,30.0,10.0,,,,,6.49,2.45,,,13.9,0.45,95.11
+S,S06,GPT-6 Astra,Codex,external_review,A4e,delivered,95.11,55.11,30.0,10.0,,,,,7.54,3.5,,,12.5,0.45,95.11
+S,S06,GPT-6 Luna,Codex,low_effort,A1,delivered,65.2,36.7,28.5,0.0,,,,,1.12,,1,False,3.7,0.7,
+S,S06,GPT-6 Luna,Codex,high_effort,A2,delivered,85.9,55.9,30.0,0.0,,,,,2.62,,1,False,12.2,0.15,
+S,S06,GPT-6 Luna,Codex,examples,A3,delivered,58.89,43.89,15.0,0.0,,,,,5.24,,1,False,8.9,0.66,
+S,S06,GPT-6 Luna,Codex,self_review,A4s,delivered,76.16,47.66,28.5,0.0,,,,,4.63,3.51,,,13.1,0.91,65.2
+S,S06,GPT-6 Luna,Codex,external_review,A4e,delivered,81.72,53.22,28.5,0.0,,,,,4.95,3.84,,,8.6,0.06,65.2
+S,S06,GPT-6.1 Sol,Codex,low_effort,A1,delivered,85.65,55.65,30.0,0.0,,,,,2.04,,1,False,5.1,0.24,
+S,S06,GPT-6.1 Sol,Codex,high_effort,A2,delivered,94.01,54.01,30.0,10.0,,,,,14.59,,1,False,29.7,0.64,
+S,S06,GPT-6.1 Sol,Codex,examples,A3,delivered,95.41,55.41,30.0,10.0,,,,,5.33,,1,False,12.0,0.36,
+S,S06,GPT-6.1 Sol,Codex,self_review,A4s,delivered,85.61,55.61,30.0,0.0,,,,,4.88,2.84,,,10.8,0.43,85.65
+S,S06,GPT-6.1 Sol,Codex,external_review,A4e,delivered,85.65,55.65,30.0,0.0,,,,,5.39,3.35,,,8.3,0.24,85.65
+S,S06,Grok 4.7,Grok CLI,low_effort,A1,delivered,75.03,56.03,16.5,2.5,,,,,7.92,,1,False,33.5,0.11,
+S,S06,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,3.4,,
+S,S06,Grok 4.7,Grok CLI,examples,A3,delivered,94.4,54.4,30.0,10.0,,,,,10.23,,1,False,28.3,0.89,
+S,S06,Grok 4.7,Grok CLI,self_review,A4s,delivered,72.65,53.65,16.5,2.5,,,,,14.38,6.46,,,64.1,0.22,75.03
+S,S06,Grok 4.7,Grok CLI,external_review,A4e,delivered,75.24,56.24,16.5,2.5,,,,,16.67,8.75,,,63.4,0.36,75.03
+S,S06,Haiku 5.5,Claude Code,low_effort,A1,delivered,54.69,34.69,15.0,5.0,,,,,2.12,,1,False,22.9,0.79,
+S,S06,Haiku 5.5,Claude Code,high_effort,A2,delivered,81.93,51.93,22.5,7.5,,,,,7.02,,1,False,79.2,0.52,
+S,S06,Haiku 5.5,Claude Code,examples,A3,delivered,84.39,54.39,30.0,0.0,,,,,3.0,,1,False,24.8,1.31,
+S,S06,Haiku 5.5,Claude Code,self_review,A4s,delivered,62.49,42.49,15.0,5.0,,,,,6.09,3.97,,,73.6,0.26,54.69
+S,S06,Haiku 5.5,Claude Code,external_review,A4e,delivered,58.78,38.78,15.0,5.0,,,,,7.84,5.72,,,71.8,0.91,54.69
+S,S06,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,71.63,55.13,16.5,0.0,,,,,6.21,,1,False,,0.22,
+S,S06,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,97.76,57.76,30.0,10.0,,,,,28.79,,2,True,,0.27,
+S,S06,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,83.99,55.49,28.5,0.0,,,,,11.79,,1,False,,0.5,
+S,S06,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,72.28,55.78,16.5,0.0,,,,,10.74,4.53,,,,0.45,71.63
+S,S06,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,71.63,55.13,16.5,0.0,,,,,9.61,3.4,,,,0.22,71.63
+S,S06,Opus 5.5,Claude Code,low_effort,A1,delivered,92.1,52.1,30.0,10.0,,,,,2.97,,1,False,14.5,0.21,
+S,S06,Opus 5.5,Claude Code,high_effort,A2,delivered,95.0,55.0,30.0,10.0,,,,,23.33,,2,True,,0.12,
+S,S06,Opus 5.5,Claude Code,examples,A3,delivered,95.29,56.79,30.0,8.5,,,,,4.3,,1,False,12.8,0.07,
+S,S06,Opus 5.5,Claude Code,self_review,A4s,delivered,94.5,54.5,30.0,10.0,,,,,5.25,2.28,,,24.1,0.41,92.1
+S,S06,Opus 5.5,Claude Code,external_review,A4e,delivered,85.18,55.18,30.0,0.0,,,,,7.43,4.45,,,30.1,0.31,92.1
+S,S06,Sonnet 5.5,Claude Code,low_effort,A1,delivered,58.54,55.54,3.0,0.0,,,,,2.29,,1,False,12.2,0.16,
+S,S06,Sonnet 5.5,Claude Code,high_effort,A2,delivered,92.13,54.63,28.5,9.0,,,,,9.19,,1,False,60.1,0.66,
+S,S06,Sonnet 5.5,Claude Code,examples,A3,delivered,95.85,55.85,30.0,10.0,,,,,1.35,,1,False,9.9,0.28,
+S,S06,Sonnet 5.5,Claude Code,self_review,A4s,delivered,84.33,54.33,30.0,0.0,,,,,4.44,2.16,,,25.6,0.69,58.54
+S,S06,Sonnet 5.5,Claude Code,external_review,A4e,delivered,86.23,56.23,30.0,0.0,,,,,6.45,4.16,,,22.8,0.11,58.54
+S,S07,Fable 5.1,Claude Code,low_effort,A1,delivered,97.54,57.54,30.0,10.0,,,,,10.32,,1,False,25.9,0.25,
+S,S07,Fable 5.1,Claude Code,high_effort,A2,delivered,94.6,57.93,30.0,6.67,,,,,12.84,,1,False,53.0,0.12,
+S,S07,Fable 5.1,Claude Code,examples,A3,delivered,95.58,55.58,30.0,10.0,,,,,5.03,,1,False,24.6,0.24,
+S,S07,Fable 5.1,Claude Code,self_review,A4s,delivered,97.92,57.92,30.0,10.0,,,,,15.92,5.61,,,54.4,0.2,97.54
+S,S07,Fable 5.1,Claude Code,external_review,A4e,delivered,97.1,57.1,30.0,10.0,,,,,17.66,7.34,,,49.9,0.18,97.54
+S,S07,GPT-6 Astra,Codex,low_effort,A1,delivered,83.99,53.99,30.0,0.0,,,,,2.63,,1,False,5.5,0.31,
+S,S07,GPT-6 Astra,Codex,high_effort,A2,delivered,94.07,54.07,30.0,10.0,,,,,9.32,,1,False,17.7,0.09,
+S,S07,GPT-6 Astra,Codex,examples,A3,delivered,85.91,55.91,30.0,0.0,,,,,3.11,,1,False,5.6,0.34,
+S,S07,GPT-6 Astra,Codex,self_review,A4s,delivered,86.46,56.46,30.0,0.0,,,,,4.75,2.12,,,10.2,0.25,83.99
+S,S07,GPT-6 Astra,Codex,external_review,A4e,delivered,82.71,52.71,30.0,0.0,,,,,6.09,3.46,,,9.3,0.67,83.99
+S,S07,GPT-6 Luna,Codex,low_effort,A1,delivered,81.87,51.87,30.0,0.0,,,,,1.03,,1,False,4.4,0.39,
+S,S07,GPT-6 Luna,Codex,high_effort,A2,delivered,87.12,57.12,30.0,0.0,,,,,1.92,,1,False,10.9,0.35,
+S,S07,GPT-6 Luna,Codex,examples,A3,delivered,85.82,55.82,30.0,0.0,,,,,2.78,,1,False,7.5,0.2,
+S,S07,GPT-6 Luna,Codex,self_review,A4s,delivered,84.57,54.57,30.0,0.0,,,,,5.42,4.39,,,16.8,0.13,81.87
+S,S07,GPT-6 Luna,Codex,external_review,A4e,delivered,82.99,52.99,30.0,0.0,,,,,5.47,4.43,,,12.8,0.36,81.87
+S,S07,GPT-6.1 Sol,Codex,low_effort,A1,delivered,79.69,49.69,30.0,0.0,,,,,2.47,,1,False,6.3,0.33,
+S,S07,GPT-6.1 Sol,Codex,high_effort,A2,delivered,98.71,58.71,30.0,10.0,,,,,10.27,,1,False,25.8,0.13,
+S,S07,GPT-6.1 Sol,Codex,examples,A3,delivered,87.52,57.52,30.0,0.0,,,,,2.94,,1,False,6.8,0.21,
+S,S07,GPT-6.1 Sol,Codex,self_review,A4s,delivered,79.26,49.26,30.0,0.0,,,,,4.64,2.17,,,11.2,0.63,79.69
+S,S07,GPT-6.1 Sol,Codex,external_review,A4e,delivered,79.69,49.69,30.0,0.0,,,,,6.6,4.13,,,12.0,0.33,79.69
+S,S07,Grok 4.7,Grok CLI,low_effort,A1,delivered,86.79,56.79,30.0,0.0,,,,,6.21,,1,False,26.7,0.44,
+S,S07,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,11.1,,
+S,S07,Grok 4.7,Grok CLI,examples,A3,delivered,87.28,57.28,30.0,0.0,,,,,6.1,,1,False,25.2,0.4,
+S,S07,Grok 4.7,Grok CLI,self_review,A4s,delivered,85.81,55.81,30.0,0.0,,,,,11.03,4.83,,,50.1,0.08,86.79
+S,S07,Grok 4.7,Grok CLI,external_review,A4e,delivered,86.87,56.87,30.0,0.0,,,,,11.32,5.11,,,39.6,0.4,86.79
+S,S07,Haiku 5.5,Claude Code,low_effort,A1,delivered,95.31,55.31,30.0,10.0,,,,,3.19,,1,False,39.6,0.89,
+S,S07,Haiku 5.5,Claude Code,high_effort,A2,delivered,79.72,49.72,30.0,0.0,,,,,6.06,,1,False,75.4,0.54,
+S,S07,Haiku 5.5,Claude Code,examples,A3,delivered,46.28,46.28,0.0,0.0,,,,,2.02,,1,False,25.8,0.7,
+S,S07,Haiku 5.5,Claude Code,self_review,A4s,delivered,97.11,57.11,30.0,10.0,,,,,6.68,3.49,,,79.8,0.14,95.31
+S,S07,Haiku 5.5,Claude Code,external_review,A4e,delivered,97.07,57.07,30.0,10.0,,,,,7.38,4.19,,,70.3,0.2,95.31
+S,S07,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,86.87,56.87,30.0,0.0,,,,,7.46,,1,False,,0.38,
+S,S07,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,82.35,47.35,30.0,5.0,,,,,30.0,,2,True,,0.32,
+S,S07,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,87.0,57.0,30.0,0.0,,,,,7.53,,1,False,,0.45,
+S,S07,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,87.28,57.28,30.0,0.0,,,,,10.91,3.45,,,,0.35,86.87
+S,S07,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,87.54,57.54,30.0,0.0,,,,,11.9,4.45,,,,0.06,86.87
+S,S07,Opus 5.5,Claude Code,low_effort,A1,delivered,83.76,53.76,30.0,0.0,,,,,2.84,,1,False,8.7,0.66,
+S,S07,Opus 5.5,Claude Code,high_effort,A2,delivered,96.82,56.82,30.0,10.0,,,,,9.44,,1,False,46.0,0.51,
+S,S07,Opus 5.5,Claude Code,examples,A3,delivered,96.42,56.42,30.0,10.0,,,,,1.44,,1,False,8.6,0.22,
+S,S07,Opus 5.5,Claude Code,self_review,A4s,delivered,83.76,53.76,30.0,0.0,,,,,3.6,0.76,,,12.6,0.66,83.76
+S,S07,Opus 5.5,Claude Code,external_review,A4e,delivered,86.62,56.62,30.0,0.0,,,,,5.97,3.13,,,11.7,0.42,83.76
+S,S07,Sonnet 5.5,Claude Code,low_effort,A1,delivered,82.07,52.07,30.0,0.0,,,,,2.24,,1,False,9.0,1.06,
+S,S07,Sonnet 5.5,Claude Code,high_effort,A2,delivered,86.66,56.66,30.0,0.0,,,,,5.53,,1,False,30.2,0.33,
+S,S07,Sonnet 5.5,Claude Code,examples,A3,delivered,97.69,57.69,30.0,10.0,,,,,2.88,,1,False,10.9,0.21,
+S,S07,Sonnet 5.5,Claude Code,self_review,A4s,delivered,82.07,52.07,30.0,0.0,,,,,3.04,0.8,,,14.6,1.06,82.07
+S,S07,Sonnet 5.5,Claude Code,external_review,A4e,delivered,82.36,52.36,30.0,0.0,,,,,4.91,2.67,,,15.4,0.73,82.07
+S,S08,Fable 5.1,Claude Code,low_effort,A1,delivered,80.68,50.68,30.0,0.0,,,,,4.44,,1,False,20.5,0.94,
+S,S08,Fable 5.1,Claude Code,high_effort,A2,delivered,96.76,56.76,30.0,10.0,,,,,9.84,,1,False,46.4,0.1,
+S,S08,Fable 5.1,Claude Code,examples,A3,delivered,97.58,57.58,30.0,10.0,,,,,5.06,,1,False,19.2,0.42,
+S,S08,Fable 5.1,Claude Code,self_review,A4s,delivered,80.76,50.76,30.0,0.0,,,,,8.53,4.08,,,37.8,0.34,80.68
+S,S08,Fable 5.1,Claude Code,external_review,A4e,delivered,79.26,49.26,30.0,0.0,,,,,10.2,5.75,,,42.4,0.63,80.68
+S,S08,GPT-6 Astra,Codex,low_effort,A1,delivered,84.76,54.76,30.0,0.0,,,,,2.66,,1,False,6.5,0.7,
+S,S08,GPT-6 Astra,Codex,high_effort,A2,delivered,96.66,56.66,30.0,10.0,,,,,7.65,,1,False,18.1,0.48,
+S,S08,GPT-6 Astra,Codex,examples,A3,delivered,88.33,53.33,30.0,5.0,,,,,3.25,,1,False,7.3,0.59,
+S,S08,GPT-6 Astra,Codex,self_review,A4s,delivered,85.16,55.16,30.0,0.0,,,,,4.9,2.25,,,10.8,0.19,84.76
+S,S08,GPT-6 Astra,Codex,external_review,A4e,delivered,84.76,54.76,30.0,0.0,,,,,6.31,3.65,,,9.9,0.7,84.76
+S,S08,GPT-6 Luna,Codex,low_effort,A1,delivered,83.75,53.75,30.0,0.0,,,,,3.55,,1,False,16.4,0.32,
+S,S08,GPT-6 Luna,Codex,high_effort,A2,delivered,72.01,42.01,30.0,0.0,,,,,2.83,,1,False,12.5,1.56,
+S,S08,GPT-6 Luna,Codex,examples,A3,delivered,76.79,46.79,30.0,0.0,,,,,3.84,,1,False,10.6,0.23,
+S,S08,GPT-6 Luna,Codex,self_review,A4s,delivered,83.35,53.35,30.0,0.0,,,,,6.82,3.26,,,24.5,0.37,83.75
+S,S08,GPT-6 Luna,Codex,external_review,A4e,delivered,83.53,53.53,30.0,0.0,,,,,7.87,4.32,,,24.1,1.04,83.75
+S,S08,GPT-6.1 Sol,Codex,low_effort,A1,delivered,86.17,56.17,30.0,0.0,,,,,2.45,,1,False,6.9,0.71,
+S,S08,GPT-6.1 Sol,Codex,high_effort,A2,delivered,92.99,57.99,30.0,5.0,,,,,12.28,,1,False,31.2,0.04,
+S,S08,GPT-6.1 Sol,Codex,examples,A3,delivered,83.6,53.6,30.0,0.0,,,,,3.24,,1,False,7.7,0.18,
+S,S08,GPT-6.1 Sol,Codex,self_review,A4s,delivered,86.17,56.17,30.0,0.0,,,,,5.0,2.55,,,12.5,0.71,86.17
+S,S08,GPT-6.1 Sol,Codex,external_review,A4e,delivered,86.17,56.17,30.0,0.0,,,,,6.37,3.92,,,11.4,0.71,86.17
+S,S08,Grok 4.7,Grok CLI,low_effort,A1,delivered,79.92,49.92,30.0,0.0,,,,,5.54,,1,False,25.3,0.51,
+S,S08,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,11.2,,
+S,S08,Grok 4.7,Grok CLI,examples,A3,delivered,82.09,47.09,30.0,5.0,,,,,8.79,,1,False,33.0,0.34,
+S,S08,Grok 4.7,Grok CLI,self_review,A4s,delivered,80.33,50.33,30.0,0.0,,,,,15.51,9.97,,,68.1,0.4,79.92
+S,S08,Grok 4.7,Grok CLI,external_review,A4e,delivered,79.86,49.86,30.0,0.0,,,,,11.18,5.64,,,42.5,0.31,79.92
+S,S08,Haiku 5.5,Claude Code,low_effort,A1,delivered,63.13,43.13,15.0,5.0,,,,,1.36,,1,False,14.8,0.23,
+S,S08,Haiku 5.5,Claude Code,high_effort,A2,delivered,86.74,46.74,30.0,10.0,,,,,7.49,,1,False,83.5,0.18,
+S,S08,Haiku 5.5,Claude Code,examples,A3,delivered,57.91,42.91,15.0,0.0,,,,,16.44,,2,True,,0.42,
+S,S08,Haiku 5.5,Claude Code,self_review,A4s,delivered,67.49,47.49,15.0,5.0,,,,,3.52,2.16,,,41.4,0.44,63.13
+S,S08,Haiku 5.5,Claude Code,external_review,A4e,delivered,64.52,44.52,15.0,5.0,,,,,4.33,2.97,,,33.3,0.66,63.13
+S,S08,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,87.97,47.97,30.0,10.0,,,,,4.17,,1,False,,0.2,
+S,S08,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,86.62,46.62,30.0,10.0,,,,,30.0,,2,True,,0.22,
+S,S08,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,88.48,48.48,30.0,10.0,,,,,8.16,,1,False,,0.15,
+S,S08,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,85.9,45.9,30.0,10.0,,,,,8.62,4.45,,,,0.18,87.97
+S,S08,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,87.92,47.92,30.0,10.0,,,,,8.04,3.87,,,,0.17,87.97
+S,S08,Opus 5.5,Claude Code,low_effort,A1,delivered,76.63,46.63,30.0,0.0,,,,,2.18,,1,False,12.1,0.26,
+S,S08,Opus 5.5,Claude Code,high_effort,A2,delivered,96.65,56.65,30.0,10.0,,,,,9.4,,1,False,55.7,0.04,
+S,S08,Opus 5.5,Claude Code,examples,A3,delivered,77.89,47.89,30.0,0.0,,,,,2.27,,1,False,12.5,0.16,
+S,S08,Opus 5.5,Claude Code,self_review,A4s,delivered,76.64,46.64,30.0,0.0,,,,,3.26,1.08,,,17.9,0.18,76.63
+S,S08,Opus 5.5,Claude Code,external_review,A4e,delivered,76.13,46.13,30.0,0.0,,,,,5.21,3.03,,,17.2,0.07,76.63
+S,S08,Sonnet 5.5,Claude Code,low_effort,A1,delivered,84.47,54.47,30.0,0.0,,,,,2.25,,1,False,15.1,0.28,
+S,S08,Sonnet 5.5,Claude Code,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,0.07,,1,False,,,
+S,S08,Sonnet 5.5,Claude Code,examples,A3,delivered,96.85,56.85,30.0,10.0,,,,,2.05,,1,False,14.1,0.37,
+S,S08,Sonnet 5.5,Claude Code,self_review,A4s,delivered,82.52,52.52,30.0,0.0,,,,,3.28,1.03,,,21.6,0.29,84.47
+S,S08,Sonnet 5.5,Claude Code,external_review,A4e,delivered,86.08,56.08,30.0,0.0,,,,,5.39,3.14,,,19.8,0.34,84.47
+S,S09,Fable 5.1,Claude Code,low_effort,A1,delivered,77.29,47.29,30.0,0.0,,,,,3.34,,1,False,17.4,0.4,
+S,S09,Fable 5.1,Claude Code,high_effort,A2,delivered,96.06,56.06,30.0,10.0,,,,,7.14,,2,False,33.7,0.23,
+S,S09,Fable 5.1,Claude Code,examples,A3,delivered,94.39,54.39,30.0,10.0,,,,,2.76,,1,False,12.6,0.51,
+S,S09,Fable 5.1,Claude Code,self_review,A4s,delivered,77.29,47.29,30.0,0.0,,,,,6.02,2.68,,,29.1,0.4,77.29
+S,S09,Fable 5.1,Claude Code,external_review,A4e,delivered,77.54,47.54,30.0,0.0,,,,,7.58,4.25,,,26.1,0.22,77.29
+S,S09,GPT-6 Astra,Codex,low_effort,A1,delivered,85.31,55.31,30.0,0.0,,,,,3.12,,1,False,7.5,0.67,
+S,S09,GPT-6 Astra,Codex,high_effort,A2,delivered,95.82,55.82,30.0,10.0,,,,,6.16,,1,False,16.7,0.06,
+S,S09,GPT-6 Astra,Codex,examples,A3,delivered,82.04,52.04,30.0,0.0,,,,,2.15,,1,False,4.6,0.29,
+S,S09,GPT-6 Astra,Codex,self_review,A4s,delivered,85.31,55.31,30.0,0.0,,,,,5.17,2.04,,,11.9,0.67,85.31
+S,S09,GPT-6 Astra,Codex,external_review,A4e,delivered,87.08,57.08,30.0,0.0,,,,,7.03,3.91,,,13.1,0.12,85.31
+S,S09,GPT-6 Luna,Codex,low_effort,A1,delivered,76.88,46.88,30.0,0.0,,,,,1.52,,1,False,7.6,1.28,
+S,S09,GPT-6 Luna,Codex,high_effort,A2,delivered,75.01,45.01,30.0,0.0,,,,,2.43,,1,False,11.7,0.15,
+S,S09,GPT-6 Luna,Codex,examples,A3,delivered,68.88,38.88,30.0,0.0,,,,,1.44,,1,False,3.7,0.14,
+S,S09,GPT-6 Luna,Codex,self_review,A4s,delivered,76.13,46.13,30.0,0.0,,,,,4.49,2.98,,,15.7,0.36,76.88
+S,S09,GPT-6 Luna,Codex,external_review,A4e,delivered,77.19,47.19,30.0,0.0,,,,,6.59,5.07,,,17.8,0.53,76.88
+S,S09,GPT-6.1 Sol,Codex,low_effort,A1,delivered,84.75,54.75,30.0,0.0,,,,,1.93,,1,False,6.6,0.26,
+S,S09,GPT-6.1 Sol,Codex,high_effort,A2,delivered,96.31,56.31,30.0,10.0,,,,,6.09,,1,False,20.3,0.15,
+S,S09,GPT-6.1 Sol,Codex,examples,A3,delivered,83.21,53.21,30.0,0.0,,,,,2.58,,1,False,5.4,0.03,
+S,S09,GPT-6.1 Sol,Codex,self_review,A4s,delivered,84.68,54.68,30.0,0.0,,,,,3.91,1.97,,,11.2,0.11,84.75
+S,S09,GPT-6.1 Sol,Codex,external_review,A4e,delivered,84.75,54.75,30.0,0.0,,,,,5.19,3.26,,,10.5,0.26,84.75
+S,S09,Grok 4.7,Grok CLI,low_effort,A1,delivered,81.44,51.44,30.0,0.0,,,,,3.67,,1,False,17.6,0.09,
+S,S09,Grok 4.7,Grok CLI,high_effort,A2,delivered,89.03,54.03,30.0,5.0,,,,,30.0,,2,True,4.3,0.14,
+S,S09,Grok 4.7,Grok CLI,examples,A3,delivered,83.39,53.39,30.0,0.0,,,,,5.55,,1,False,23.4,0.18,
+S,S09,Grok 4.7,Grok CLI,self_review,A4s,delivered,82.74,52.74,30.0,0.0,,,,,8.94,5.27,,,39.3,0.35,81.44
+S,S09,Grok 4.7,Grok CLI,external_review,A4e,delivered,81.91,51.91,30.0,0.0,,,,,8.57,4.9,,,33.1,0.58,81.44
+S,S09,Haiku 5.5,Claude Code,low_effort,A1,delivered,57.89,42.89,15.0,0.0,,,,,1.16,,1,False,14.2,0.12,
+S,S09,Haiku 5.5,Claude Code,high_effort,A2,delivered,77.84,42.84,30.0,5.0,,,,,3.59,,1,False,47.3,0.34,
+S,S09,Haiku 5.5,Claude Code,examples,A3,delivered,62.13,47.13,15.0,0.0,,,,,1.33,,1,False,15.6,0.26,
+S,S09,Haiku 5.5,Claude Code,self_review,A4s,delivered,74.79,44.79,30.0,0.0,,,,,2.99,1.83,,,36.8,0.6,57.89
+S,S09,Haiku 5.5,Claude Code,external_review,A4e,delivered,83.24,53.24,30.0,0.0,,,,,5.43,4.27,,,51.4,0.42,57.89
+S,S09,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,74.27,44.27,30.0,0.0,,,,,5.13,,1,False,,0.44,
+S,S09,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,83.46,43.46,30.0,10.0,,,,,12.71,,1,False,,0.78,
+S,S09,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,74.38,44.38,30.0,0.0,,,,,7.4,,1,False,,0.12,
+S,S09,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,73.78,43.78,30.0,0.0,,,,,9.25,4.12,,,,1.03,74.27
+S,S09,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,74.17,44.17,30.0,0.0,,,,,8.38,3.25,,,,0.19,74.27
+S,S09,Opus 5.5,Claude Code,low_effort,A1,delivered,73.98,43.98,30.0,0.0,,,,,1.18,,1,False,7.2,0.04,
+S,S09,Opus 5.5,Claude Code,high_effort,A2,delivered,97.09,57.09,30.0,10.0,,,,,4.62,,1,False,27.0,0.06,
+S,S09,Opus 5.5,Claude Code,examples,A3,delivered,74.97,44.97,30.0,0.0,,,,,1.0,,1,False,5.6,0.16,
+S,S09,Opus 5.5,Claude Code,self_review,A4s,delivered,74.71,44.71,30.0,0.0,,,,,2.56,1.38,,,14.4,0.26,73.98
+S,S09,Opus 5.5,Claude Code,external_review,A4e,delivered,73.9,43.9,30.0,0.0,,,,,3.62,2.44,,,12.1,0.4,73.98
+S,S09,Sonnet 5.5,Claude Code,low_effort,A1,delivered,84.53,54.53,30.0,0.0,,,,,1.11,,1,False,9.1,0.16,
+S,S09,Sonnet 5.5,Claude Code,high_effort,A2,delivered,90.61,55.61,30.0,5.0,,,,,2.63,,1,False,18.7,0.06,
+S,S09,Sonnet 5.5,Claude Code,examples,A3,delivered,84.03,54.03,30.0,0.0,,,,,1.21,,1,False,9.1,0.25,
+S,S09,Sonnet 5.5,Claude Code,self_review,A4s,delivered,84.94,54.94,30.0,0.0,,,,,2.02,0.9,,,15.6,0.46,84.53
+S,S09,Sonnet 5.5,Claude Code,external_review,A4e,delivered,84.5,54.5,30.0,0.0,,,,,3.25,2.14,,,14.9,0.61,84.53
+S,S10,Fable 5.1,Claude Code,low_effort,A1,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,,,
+S,S10,Fable 5.1,Claude Code,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,,,
+S,S10,Fable 5.1,Claude Code,examples,A3,delivered,96.92,56.92,30.0,10.0,,,,,25.07,,2,True,,0.2,
+S,S10,Fable 5.1,Claude Code,self_review,A4s,delivered,97.38,57.38,30.0,10.0,,,,,21.09,6.09,,,,0.08,96.53
+S,S10,Fable 5.1,Claude Code,external_review,A4e,delivered,97.23,57.23,30.0,10.0,,,,,21.43,6.43,,,,0.24,96.53
+S,S10,GPT-6 Astra,Codex,low_effort,A1,delivered,86.15,56.15,30.0,0.0,,,,,7.23,,1,False,8.6,0.28,
+S,S10,GPT-6 Astra,Codex,high_effort,A2,delivered,97.25,57.25,30.0,10.0,,,,,8.65,,1,False,19.3,0.13,
+S,S10,GPT-6 Astra,Codex,examples,A3,delivered,85.53,55.53,30.0,0.0,,,,,4.64,,1,False,7.3,0.08,
+S,S10,GPT-6 Astra,Codex,self_review,A4s,delivered,86.15,56.15,30.0,0.0,,,,,9.21,1.98,,,12.8,0.28,86.15
+S,S10,GPT-6 Astra,Codex,external_review,A4e,delivered,86.15,56.15,30.0,0.0,,,,,12.24,5.01,,,13.9,0.28,86.15
+S,S10,GPT-6 Luna,Codex,low_effort,A1,delivered,77.77,37.77,30.0,10.0,,,,,5.85,,1,False,6.7,0.1,
+S,S10,GPT-6 Luna,Codex,high_effort,A2,delivered,95.88,55.88,30.0,10.0,,,,,4.51,,1,False,12.3,0.08,
+S,S10,GPT-6 Luna,Codex,examples,A3,delivered,90.25,50.25,30.0,10.0,,,,,10.96,,1,False,10.1,0.36,
+S,S10,GPT-6 Luna,Codex,self_review,A4s,delivered,82.2,52.2,30.0,0.0,,,,,8.54,2.69,,,11.9,0.28,77.77
+S,S10,GPT-6 Luna,Codex,external_review,A4e,delivered,71.85,31.85,30.0,10.0,,,,,8.82,2.97,,,11.0,0.3,77.77
+S,S10,GPT-6.1 Sol,Codex,low_effort,A1,delivered,83.45,53.45,30.0,0.0,,,,,2.18,,1,False,5.0,0.05,
+S,S10,GPT-6.1 Sol,Codex,high_effort,A2,delivered,97.45,57.45,30.0,10.0,,,,,7.85,,1,False,18.7,0.05,
+S,S10,GPT-6.1 Sol,Codex,examples,A3,delivered,89.22,59.22,30.0,0.0,,,,,5.0,,1,False,11.1,0.37,
+S,S10,GPT-6.1 Sol,Codex,self_review,A4s,delivered,83.45,53.45,30.0,0.0,,,,,4.19,2.01,,,8.7,0.05,83.45
+S,S10,GPT-6.1 Sol,Codex,external_review,A4e,delivered,83.45,53.45,30.0,0.0,,,,,5.27,3.09,,,8.7,0.05,83.45
+S,S10,Grok 4.7,Grok CLI,low_effort,A1,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,1.2,,
+S,S10,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,0.6,,
+S,S10,Grok 4.7,Grok CLI,examples,A3,delivered,96.98,56.98,30.0,10.0,,,,,28.41,,2,True,27.4,0.35,
+S,S10,Grok 4.7,Grok CLI,self_review,A4s,delivered,96.0,56.0,30.0,10.0,,,,,21.44,6.44,,,27.2,0.18,96.35
+S,S10,Grok 4.7,Grok CLI,external_review,A4e,delivered,96.18,56.18,30.0,10.0,,,,,18.93,3.93,,,7.5,0.3,96.35
+S,S10,Haiku 5.5,Claude Code,low_effort,A1,delivered,88.4,58.4,30.0,0.0,,,,,14.37,,1,False,24.6,0.09,
+S,S10,Haiku 5.5,Claude Code,high_effort,A2,delivered,96.2,56.2,30.0,10.0,,,,,22.57,,2,True,,0.05,
+S,S10,Haiku 5.5,Claude Code,examples,A3,delivered,82.73,52.73,30.0,0.0,,,,,3.87,,1,False,21.4,0.32,
+S,S10,Haiku 5.5,Claude Code,self_review,A4s,delivered,88.83,58.83,30.0,0.0,,,,,32.63,18.26,,,,0.08,88.4
+S,S10,Haiku 5.5,Claude Code,external_review,A4e,delivered,88.48,58.48,30.0,0.0,,,,,17.34,2.97,,,42.0,0.1,88.4
+S,S10,Kimi k3.1-pro,Kimi Code,low_effort,A1,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,,,
+S,S10,Kimi k3.1-pro,Kimi Code,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,,,
+S,S10,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,86.07,56.07,30.0,0.0,,,,,,,1,False,,0.23,
+S,S10,Kimi k3.1-pro,Kimi Code,self_review,A4s,no delivery,0.0,0.0,0.0,0.0,,,,,45.01,30.01,,,,,0.0
+S,S10,Kimi k3.1-pro,Kimi Code,external_review,A4e,no delivery,0.0,0.0,0.0,0.0,,,,,37.32,22.32,,,,,0.0
+S,S10,Opus 5.5,Claude Code,low_effort,A1,delivered,85.87,55.87,30.0,0.0,,,,,3.48,,1,False,8.2,0.1,
+S,S10,Opus 5.5,Claude Code,high_effort,A2,delivered,98.1,58.1,30.0,10.0,,,,,30.0,,2,True,,0.26,
+S,S10,Opus 5.5,Claude Code,examples,A3,delivered,85.62,55.62,30.0,0.0,,,,,6.1,,1,False,9.1,0.2,
+S,S10,Opus 5.5,Claude Code,self_review,A4s,delivered,85.95,55.95,30.0,0.0,,,,,5.36,1.87,,,11.5,0.05,85.87
+S,S10,Opus 5.5,Claude Code,external_review,A4e,delivered,85.87,55.87,30.0,0.0,,,,,6.49,3.0,,,15.0,0.1,85.87
+S,S10,Sonnet 5.5,Claude Code,low_effort,A1,delivered,84.93,54.93,30.0,0.0,,,,,5.28,,1,False,7.9,0.32,
+S,S10,Sonnet 5.5,Claude Code,high_effort,A2,delivered,88.83,58.83,30.0,0.0,,,,,30.0,,2,True,,0.08,
+S,S10,Sonnet 5.5,Claude Code,examples,A3,delivered,88.17,58.17,30.0,0.0,,,,,7.8,,1,False,9.5,0.08,
+S,S10,Sonnet 5.5,Claude Code,self_review,A4s,delivered,84.73,54.73,30.0,0.0,,,,,8.54,3.26,,,14.5,0.5,84.93
+S,S10,Sonnet 5.5,Claude Code,external_review,A4e,delivered,86.18,56.18,30.0,0.0,,,,,7.95,2.67,,,12.0,0.78,84.93
+S,S11,Fable 5.1,Claude Code,low_effort,A1,delivered,83.55,53.55,30.0,0.0,,,,,6.21,,1,False,29.2,0.3,
+S,S11,Fable 5.1,Claude Code,high_effort,A2,delivered,94.25,55.25,30.0,9.0,,,,,10.3,,1,False,47.2,0.76,
+S,S11,Fable 5.1,Claude Code,examples,A3,delivered,86.26,56.26,30.0,0.0,,,,,22.4,,2,True,,0.52,
+S,S11,Fable 5.1,Claude Code,self_review,A4s,delivered,83.22,53.22,30.0,0.0,,,,,13.99,7.79,,,63.5,0.42,83.55
+S,S11,Fable 5.1,Claude Code,external_review,A4e,delivered,83.26,53.26,30.0,0.0,,,,,15.27,9.06,,,61.3,0.11,83.55
+S,S11,GPT-6 Astra,Codex,low_effort,A1,delivered,97.42,57.42,30.0,10.0,,,,,6.13,,1,False,8.2,0.34,
+S,S11,GPT-6 Astra,Codex,high_effort,A2,delivered,95.79,55.79,30.0,10.0,,,,,7.55,,1,False,16.7,0.35,
+S,S11,GPT-6 Astra,Codex,examples,A3,delivered,97.27,57.27,30.0,10.0,,,,,6.03,,1,False,7.8,0.21,
+S,S11,GPT-6 Astra,Codex,self_review,A4s,delivered,97.39,57.39,30.0,10.0,,,,,9.88,3.75,,,13.4,0.14,97.42
+S,S11,GPT-6 Astra,Codex,external_review,A4e,delivered,97.3,57.3,30.0,10.0,,,,,9.56,3.44,,,10.4,0.13,97.42
+S,S11,GPT-6 Luna,Codex,low_effort,A1,delivered,69.01,34.01,30.0,5.0,,,,,1.48,,1,False,6.6,0.49,
+S,S11,GPT-6 Luna,Codex,high_effort,A2,delivered,76.32,36.32,30.0,10.0,,,,,2.15,,1,False,12.5,0.22,
+S,S11,GPT-6 Luna,Codex,examples,A3,delivered,82.98,52.98,30.0,0.0,,,,,6.33,,1,False,9.2,0.14,
+S,S11,GPT-6 Luna,Codex,self_review,A4s,delivered,69.01,34.01,30.0,5.0,,,,,3.27,1.79,,,11.8,0.49,69.01
+S,S11,GPT-6 Luna,Codex,external_review,A4e,delivered,73.35,33.35,30.0,10.0,,,,,5.22,3.73,,,12.9,0.42,69.01
+S,S11,GPT-6.1 Sol,Codex,low_effort,A1,delivered,96.7,56.7,30.0,10.0,,,,,3.39,,1,False,6.7,0.22,
+S,S11,GPT-6.1 Sol,Codex,high_effort,A2,delivered,96.68,56.68,30.0,10.0,,,,,6.92,,1,False,20.9,0.31,
+S,S11,GPT-6.1 Sol,Codex,examples,A3,delivered,94.02,54.02,30.0,10.0,,,,,4.93,,1,False,7.8,0.21,
+S,S11,GPT-6.1 Sol,Codex,self_review,A4s,delivered,97.41,57.41,30.0,10.0,,,,,5.7,2.31,,,12.0,0.08,96.7
+S,S11,GPT-6.1 Sol,Codex,external_review,A4e,delivered,96.7,56.7,30.0,10.0,,,,,7.03,3.64,,,11.6,0.22,96.7
+S,S11,Grok 4.7,Grok CLI,low_effort,A1,delivered,94.63,55.63,30.0,9.0,,,,,11.59,,1,False,40.0,0.28,
+S,S11,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,3.0,,
+S,S11,Grok 4.7,Grok CLI,examples,A3,delivered,82.17,52.17,30.0,0.0,,,,,12.11,,1,False,40.7,0.4,
+S,S11,Grok 4.7,Grok CLI,self_review,A4s,delivered,87.08,54.08,30.0,3.0,,,,,18.69,7.1,,,62.1,0.12,94.63
+S,S11,Grok 4.7,Grok CLI,external_review,A4e,delivered,95.52,56.52,30.0,9.0,,,,,20.97,9.39,,,73.1,0.02,94.63
+S,S11,Haiku 5.5,Claude Code,low_effort,A1,delivered,84.86,54.86,30.0,0.0,,,,,5.16,,1,False,31.4,0.73,
+S,S11,Haiku 5.5,Claude Code,high_effort,A2,delivered,91.46,52.46,30.0,9.0,,,,,5.99,,1,False,72.6,0.64,
+S,S11,Haiku 5.5,Claude Code,examples,A3,delivered,71.58,55.58,12.0,4.0,,,,,6.26,,1,False,63.7,0.09,
+S,S11,Haiku 5.5,Claude Code,self_review,A4s,delivered,93.92,55.92,30.0,8.0,,,,,11.38,6.23,,,56.1,0.16,84.86
+S,S11,Haiku 5.5,Claude Code,external_review,A4e,no delivery,0.0,0.0,0.0,0.0,,,,,7.5,2.34,,,42.1,,84.86
+S,S11,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,84.61,54.61,30.0,0.0,,,,,12.84,,1,False,,0.15,
+S,S11,Kimi k3.1-pro,Kimi Code,high_effort,A2,no delivery,0.0,0.0,0.0,0.0,,,,,30.0,,2,True,,,
+S,S11,Kimi k3.1-pro,Kimi Code,examples,A3,no delivery,0.0,0.0,0.0,0.0,,,,,0.03,,1,False,,,
+S,S11,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,85.35,55.35,30.0,0.0,,,,,20.99,8.15,,,,0.18,84.61
+S,S11,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,85.13,55.13,30.0,0.0,,,,,21.98,9.14,,,,0.17,84.61
+S,S11,Opus 5.5,Claude Code,low_effort,A1,delivered,85.37,55.37,30.0,0.0,,,,,3.18,,1,False,16.4,0.68,
+S,S11,Opus 5.5,Claude Code,high_effort,A2,delivered,95.35,55.35,30.0,10.0,,,,,9.87,,1,False,56.9,0.38,
+S,S11,Opus 5.5,Claude Code,examples,A3,delivered,96.66,56.66,30.0,10.0,,,,,9.58,,1,False,13.8,0.46,
+S,S11,Opus 5.5,Claude Code,self_review,A4s,delivered,85.34,55.34,30.0,0.0,,,,,5.27,2.09,,,27.1,0.31,85.37
+S,S11,Opus 5.5,Claude Code,external_review,A4e,delivered,85.49,55.49,30.0,0.0,,,,,5.75,2.57,,,21.5,0.4,85.37
+S,S11,Sonnet 5.5,Claude Code,low_effort,A1,delivered,92.72,53.72,30.0,9.0,,,,,2.21,,1,False,13.9,0.53,
+S,S11,Sonnet 5.5,Claude Code,high_effort,A2,delivered,86.15,55.15,30.0,1.0,,,,,10.28,,1,False,70.1,0.19,
+S,S11,Sonnet 5.5,Claude Code,examples,A3,delivered,87.04,57.04,30.0,0.0,,,,,3.57,,1,False,17.7,0.15,
+S,S11,Sonnet 5.5,Claude Code,self_review,A4s,delivered,94.7,54.7,30.0,10.0,,,,,3.27,1.06,,,19.8,0.35,92.72
+S,S11,Sonnet 5.5,Claude Code,external_review,A4e,delivered,92.59,53.59,30.0,9.0,,,,,4.25,2.04,,,18.0,0.13,92.72
+C,C01,Fable 5.1,Claude Code,low_effort,A1,delivered,95.06,,,,45.06,30.0,10.0,10.0,8.88,,1,False,45.2,,
+C,C01,Fable 5.1,Claude Code,high_effort,A2,delivered,95.33,,,,45.33,30.0,10.0,10.0,13.91,,1,False,63.2,,
+C,C01,Fable 5.1,Claude Code,examples,A3,delivered,96.33,,,,46.33,30.0,10.0,10.0,11.86,,1,False,49.9,,
+C,C01,Fable 5.1,Claude Code,self_review,A4s,delivered,96.23,,,,46.23,30.0,10.0,10.0,18.38,9.5,,,94.4,,95.06
+C,C01,Fable 5.1,Claude Code,external_review,A4e,delivered,95.7,,,,45.7,30.0,10.0,10.0,16.54,7.66,,,69.1,,95.06
+C,C01,GPT-6 Astra,Codex,low_effort,A1,delivered,92.32,,,,42.32,30.0,10.0,10.0,9.43,,1,False,12.7,,
+C,C01,GPT-6 Astra,Codex,high_effort,A2,delivered,96.47,,,,46.47,30.0,10.0,10.0,13.56,,1,False,33.7,,
+C,C01,GPT-6 Astra,Codex,examples,A3,delivered,87.63,,,,45.13,22.5,10.0,10.0,8.49,,1,False,12.2,,
+C,C01,GPT-6 Astra,Codex,self_review,A4s,delivered,92.33,,,,42.33,30.0,10.0,10.0,12.89,3.46,,,19.3,,92.32
+C,C01,GPT-6 Astra,Codex,external_review,A4e,delivered,92.35,,,,42.35,30.0,10.0,10.0,14.19,4.77,,,16.3,,92.32
+C,C01,GPT-6 Luna,Codex,low_effort,A1,delivered,72.52,,,,37.52,15.0,10.0,10.0,1.45,,1,False,5.7,,
+C,C01,GPT-6 Luna,Codex,high_effort,A2,delivered,73.99,,,,31.49,22.5,10.0,10.0,3.8,,1,False,17.7,,
+C,C01,GPT-6 Luna,Codex,examples,A3,delivered,80.09,,,,37.59,22.5,10.0,10.0,4.31,,1,False,10.5,,
+C,C01,GPT-6 Luna,Codex,self_review,A4s,delivered,74.66,,,,39.66,15.0,10.0,10.0,3.77,2.31,,,12.0,,72.52
+C,C01,GPT-6 Luna,Codex,external_review,A4e,delivered,72.15,,,,37.15,15.0,10.0,10.0,5.2,3.75,,,10.7,,72.52
+C,C01,GPT-6.1 Sol,Codex,low_effort,A1,delivered,94.84,,,,44.84,30.0,10.0,10.0,5.65,,1,False,11.3,,
+C,C01,GPT-6.1 Sol,Codex,high_effort,A2,delivered,97.84,,,,47.84,30.0,10.0,10.0,13.26,,1,False,32.8,,
+C,C01,GPT-6.1 Sol,Codex,examples,A3,delivered,93.31,,,,43.31,30.0,10.0,10.0,12.4,,1,False,24.7,,
+C,C01,GPT-6.1 Sol,Codex,self_review,A4s,delivered,94.92,,,,44.92,30.0,10.0,10.0,8.67,3.02,,,18.6,,94.84
+C,C01,GPT-6.1 Sol,Codex,external_review,A4e,delivered,95.29,,,,45.29,30.0,10.0,10.0,8.9,3.25,,,14.7,,94.84
+C,C01,Grok 4.7,Grok CLI,low_effort,A1,delivered,93.65,,,,43.65,30.0,10.0,10.0,10.06,,1,False,42.9,,
+C,C01,Grok 4.7,Grok CLI,high_effort,A2,delivered,89.17,,,,46.67,22.5,10.0,10.0,36.67,,1,False,148.1,,
+C,C01,Grok 4.7,Grok CLI,examples,A3,delivered,81.04,,,,46.04,15.0,10.0,10.0,12.48,,1,False,51.3,,
+C,C01,Grok 4.7,Grok CLI,self_review,A4s,delivered,94.75,,,,44.75,30.0,10.0,10.0,17.49,7.43,,,72.0,,93.65
+C,C01,Grok 4.7,Grok CLI,external_review,A4e,delivered,95.19,,,,45.19,30.0,10.0,10.0,20.45,10.39,,,78.1,,93.65
+C,C01,Haiku 5.5,Claude Code,low_effort,A1,delivered,74.17,,,,39.17,15.0,10.0,10.0,2.01,,1,False,23.9,,
+C,C01,Haiku 5.5,Claude Code,high_effort,A2,delivered,80.85,,,,38.35,22.5,10.0,10.0,8.36,,1,False,80.7,,
+C,C01,Haiku 5.5,Claude Code,examples,A3,delivered,75.79,,,,40.79,15.0,10.0,10.0,1.14,,1,False,13.9,,
+C,C01,Haiku 5.5,Claude Code,self_review,A4s,delivered,77.39,,,,42.39,15.0,10.0,10.0,4.78,2.77,,,59.3,,74.17
+C,C01,Haiku 5.5,Claude Code,external_review,A4e,delivered,84.94,,,,42.44,22.5,10.0,10.0,6.92,4.91,,,56.6,,74.17
+C,C01,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,93.16,,,,43.16,30.0,10.0,10.0,10.85,,1,False,,,
+C,C01,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,95.88,,,,45.88,30.0,10.0,10.0,33.54,,1,False,,,
+C,C01,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,96.01,,,,46.01,30.0,10.0,10.0,18.12,,1,False,,,
+C,C01,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,92.62,,,,42.62,30.0,10.0,10.0,18.79,7.94,,,,,93.16
+C,C01,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,92.95,,,,42.95,30.0,10.0,10.0,19.06,8.21,,,,,93.16
+C,C01,Opus 5.5,Claude Code,low_effort,A1,delivered,96.97,,,,46.97,30.0,10.0,10.0,2.84,,1,False,16.7,,
+C,C01,Opus 5.5,Claude Code,high_effort,A2,delivered,95.9,,,,45.9,30.0,10.0,10.0,15.01,,1,False,83.9,,
+C,C01,Opus 5.5,Claude Code,examples,A3,delivered,95.73,,,,45.73,30.0,10.0,10.0,1.44,,1,False,8.2,,
+C,C01,Opus 5.5,Claude Code,self_review,A4s,delivered,97.5,,,,47.5,30.0,10.0,10.0,5.14,2.3,,,27.5,,96.97
+C,C01,Opus 5.5,Claude Code,external_review,A4e,delivered,97.4,,,,47.4,30.0,10.0,10.0,6.08,3.24,,,22.4,,96.97
+C,C01,Sonnet 5.5,Claude Code,low_effort,A1,delivered,78.87,,,,43.87,15.0,10.0,10.0,1.71,,1,False,11.3,,
+C,C01,Sonnet 5.5,Claude Code,high_effort,A2,delivered,96.23,,,,46.23,30.0,10.0,10.0,8.13,,1,False,59.5,,
+C,C01,Sonnet 5.5,Claude Code,examples,A3,delivered,60.74,,,,35.74,15.0,10.0,0.0,1.75,,1,False,11.8,,
+C,C01,Sonnet 5.5,Claude Code,self_review,A4s,delivered,79.43,,,,44.43,15.0,10.0,10.0,3.6,1.89,,,25.3,,78.87
+C,C01,Sonnet 5.5,Claude Code,external_review,A4e,delivered,93.33,,,,43.33,30.0,10.0,10.0,5.64,3.93,,,23.8,,78.87
+C,C02,Fable 5.1,Claude Code,low_effort,A1,delivered,91.96,,,,46.96,25.0,10.0,10.0,4.03,,1,False,19.6,,
+C,C02,Fable 5.1,Claude Code,high_effort,A2,delivered,87.05,,,,47.05,30.0,10.0,0.0,10.98,,1,False,53.6,,
+C,C02,Fable 5.1,Claude Code,examples,A3,delivered,92.94,,,,47.94,25.0,10.0,10.0,3.53,,1,False,17.4,,
+C,C02,Fable 5.1,Claude Code,self_review,A4s,delivered,91.77,,,,46.77,25.0,10.0,10.0,9.68,5.65,,,47.8,,91.96
+C,C02,Fable 5.1,Claude Code,external_review,A4e,delivered,96.98,,,,46.98,30.0,10.0,10.0,10.2,6.17,,,35.1,,91.96
+C,C02,GPT-6 Astra,Codex,low_effort,A1,delivered,95.59,,,,45.59,30.0,10.0,10.0,4.38,,1,False,7.6,,
+C,C02,GPT-6 Astra,Codex,high_effort,A2,delivered,85.14,,,,45.14,30.0,10.0,0.0,6.7,,1,False,18.9,,
+C,C02,GPT-6 Astra,Codex,examples,A3,delivered,86.96,,,,46.96,30.0,10.0,0.0,4.85,,1,False,8.1,,
+C,C02,GPT-6 Astra,Codex,self_review,A4s,delivered,95.74,,,,45.74,30.0,10.0,10.0,7.81,3.43,,,13.7,,95.59
+C,C02,GPT-6 Astra,Codex,external_review,A4e,delivered,95.59,,,,45.59,30.0,10.0,10.0,8.01,3.63,,,10.0,,95.59
+C,C02,GPT-6 Luna,Codex,low_effort,A1,delivered,58.98,,,,32.32,10.0,6.67,10.0,1.0,,1,False,4.2,,
+C,C02,GPT-6 Luna,Codex,high_effort,A2,delivered,85.89,,,,45.89,30.0,10.0,0.0,3.94,,1,False,20.6,,
+C,C02,GPT-6 Luna,Codex,examples,A3,delivered,54.35,,,,34.35,10.0,3.33,6.67,1.7,,1,False,3.4,,
+C,C02,GPT-6 Luna,Codex,self_review,A4s,delivered,59.88,,,,33.21,10.0,6.67,10.0,4.31,3.31,,,13.5,,58.98
+C,C02,GPT-6 Luna,Codex,external_review,A4e,delivered,63.99,,,,37.32,10.0,6.67,10.0,4.87,3.88,,,10.6,,58.98
+C,C02,GPT-6.1 Sol,Codex,low_effort,A1,delivered,85.83,,,,45.83,30.0,10.0,0.0,3.57,,1,False,8.4,,
+C,C02,GPT-6.1 Sol,Codex,high_effort,A2,delivered,96.75,,,,46.75,30.0,10.0,10.0,11.17,,1,False,36.5,,
+C,C02,GPT-6.1 Sol,Codex,examples,A3,delivered,77.69,,,,47.69,20.0,10.0,0.0,4.34,,1,False,10.3,,
+C,C02,GPT-6.1 Sol,Codex,self_review,A4s,delivered,85.93,,,,45.93,30.0,10.0,0.0,6.82,3.25,,,13.8,,85.83
+C,C02,GPT-6.1 Sol,Codex,external_review,A4e,delivered,85.46,,,,45.46,30.0,10.0,0.0,7.89,4.31,,,12.7,,85.83
+C,C02,Grok 4.7,Grok CLI,low_effort,A1,delivered,86.27,,,,46.27,20.0,10.0,10.0,14.81,,1,False,63.6,,
+C,C02,Grok 4.7,Grok CLI,high_effort,A2,delivered,86.38,,,,46.38,30.0,10.0,0.0,35.38,,1,False,141.1,,
+C,C02,Grok 4.7,Grok CLI,examples,A3,delivered,96.83,,,,46.83,30.0,10.0,10.0,11.28,,1,False,46.1,,
+C,C02,Grok 4.7,Grok CLI,self_review,A4s,delivered,85.78,,,,45.78,20.0,10.0,10.0,21.93,7.12,,,96.5,,86.27
+C,C02,Grok 4.7,Grok CLI,external_review,A4e,delivered,86.4,,,,46.4,20.0,10.0,10.0,25.97,11.16,,,101.8,,86.27
+C,C02,Haiku 5.5,Claude Code,low_effort,A1,delivered,84.27,,,,47.61,20.0,6.67,10.0,1.94,,1,False,23.0,,
+C,C02,Haiku 5.5,Claude Code,high_effort,A2,delivered,73.63,,,,43.63,20.0,10.0,0.0,6.09,,1,False,77.5,,
+C,C02,Haiku 5.5,Claude Code,examples,A3,delivered,83.1,,,,43.1,20.0,10.0,10.0,2.18,,1,False,22.9,,
+C,C02,Haiku 5.5,Claude Code,self_review,A4s,delivered,92.17,,,,47.17,25.0,10.0,10.0,4.13,2.19,,,51.1,,84.27
+C,C02,Haiku 5.5,Claude Code,external_review,A4e,delivered,91.12,,,,46.12,25.0,10.0,10.0,6.74,4.79,,,52.1,,84.27
+C,C02,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,76.97,,,,46.97,20.0,10.0,0.0,7.0,,1,False,,,
+C,C02,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,97.09,,,,47.09,30.0,10.0,10.0,19.21,,1,False,,,
+C,C02,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,95.15,,,,45.15,30.0,10.0,10.0,14.15,,1,False,,,
+C,C02,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,92.5,,,,47.5,25.0,10.0,10.0,14.92,7.91,,,,,76.97
+C,C02,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,82.43,,,,47.43,25.0,10.0,0.0,17.31,10.31,,,,,76.97
+C,C02,Opus 5.5,Claude Code,low_effort,A1,delivered,86.72,,,,46.72,20.0,10.0,10.0,2.24,,1,False,11.0,,
+C,C02,Opus 5.5,Claude Code,high_effort,A2,delivered,86.35,,,,46.35,20.0,10.0,10.0,9.64,,1,False,56.6,,
+C,C02,Opus 5.5,Claude Code,examples,A3,delivered,90.69,,,,45.69,25.0,10.0,10.0,2.52,,1,False,10.8,,
+C,C02,Opus 5.5,Claude Code,self_review,A4s,delivered,96.36,,,,46.36,30.0,10.0,10.0,3.59,1.35,,,17.4,,86.72
+C,C02,Opus 5.5,Claude Code,external_review,A4e,delivered,91.45,,,,46.45,25.0,10.0,10.0,5.58,3.34,,,19.4,,86.72
+C,C02,Sonnet 5.5,Claude Code,low_effort,A1,delivered,90.34,,,,40.34,30.0,10.0,10.0,1.31,,1,False,8.8,,
+C,C02,Sonnet 5.5,Claude Code,high_effort,A2,delivered,96.66,,,,46.66,30.0,10.0,10.0,6.04,,1,False,44.4,,
+C,C02,Sonnet 5.5,Claude Code,examples,A3,delivered,96.08,,,,46.08,30.0,10.0,10.0,1.81,,1,False,10.8,,
+C,C02,Sonnet 5.5,Claude Code,self_review,A4s,delivered,91.13,,,,41.13,30.0,10.0,10.0,2.12,0.81,,,14.3,,90.34
+C,C02,Sonnet 5.5,Claude Code,external_review,A4e,delivered,90.03,,,,40.03,30.0,10.0,10.0,5.0,3.69,,,16.3,,90.34
+C,C03,Fable 5.1,Claude Code,low_effort,A1,delivered,94.11,,,,47.36,30.0,10.0,6.75,7.83,,1,False,36.5,,
+C,C03,Fable 5.1,Claude Code,high_effort,A2,delivered,83.15,,,,34.84,30.0,10.0,,11.95,,1,False,,,
+C,C03,Fable 5.1,Claude Code,examples,A3,delivered,98.02,,,,48.22,30.0,10.0,,5.78,,1,False,26.3,,
+C,C03,Fable 5.1,Claude Code,self_review,A4s,delivered,97.92,,,,48.13,30.0,10.0,,15.78,7.95,,,75.7,,94.11
+C,C03,Fable 5.1,Claude Code,external_review,A4e,delivered,94.2,,,,47.45,30.0,10.0,6.75,15.96,8.14,,,63.3,,94.11
+C,C03,GPT-6 Astra,Codex,low_effort,A1,delivered,75.61,,,,43.86,15.0,10.0,6.75,6.13,,1,False,12.8,,
+C,C03,GPT-6 Astra,Codex,high_effort,A2,delivered,97.97,,,,48.17,30.0,10.0,,8.34,,1,False,22.8,,
+C,C03,GPT-6 Astra,Codex,examples,A3,delivered,97.53,,,,47.78,30.0,10.0,,5.99,,1,False,10.9,,
+C,C03,GPT-6 Astra,Codex,self_review,A4s,delivered,91.88,,,,45.13,30.0,10.0,6.75,11.3,5.17,,,23.2,,75.61
+C,C03,GPT-6 Astra,Codex,external_review,A4e,delivered,75.51,,,,43.76,15.0,10.0,6.75,10.87,4.74,,,17.5,,75.61
+C,C03,GPT-6 Luna,Codex,low_effort,A1,delivered,24.56,,,,24.56,0.0,0.0,0.0,2.03,,1,False,7.9,,
+C,C03,GPT-6 Luna,Codex,high_effort,A2,delivered,77.14,,,,44.43,15.0,10.0,,2.53,,1,False,17.8,,
+C,C03,GPT-6 Luna,Codex,examples,A3,delivered,83.85,,,,35.47,30.0,10.0,,2.32,,1,False,5.7,,
+C,C03,GPT-6 Luna,Codex,self_review,A4s,delivered,68.91,,,,33.91,30.0,5.0,0.0,5.3,3.27,,,16.7,,24.56
+C,C03,GPT-6 Luna,Codex,external_review,A4e,delivered,31.34,,,,31.34,0.0,0.0,0.0,6.95,4.92,,,16.5,,24.56
+C,C03,GPT-6.1 Sol,Codex,low_effort,A1,delivered,91.09,,,,43.09,30.0,10.0,8.0,4.04,,1,False,9.8,,
+C,C03,GPT-6.1 Sol,Codex,high_effort,A2,delivered,96.49,,,,46.84,30.0,10.0,,6.27,,1,False,20.7,,
+C,C03,GPT-6.1 Sol,Codex,examples,A3,delivered,75.09,,,,42.58,15.0,10.0,,5.91,,1,False,12.6,,
+C,C03,GPT-6.1 Sol,Codex,self_review,A4s,delivered,91.08,,,,43.08,30.0,10.0,8.0,8.43,4.39,,,20.8,,91.09
+C,C03,GPT-6.1 Sol,Codex,external_review,A4e,delivered,92.15,,,,44.15,30.0,10.0,8.0,7.59,3.55,,,14.0,,91.09
+C,C03,Grok 4.7,Grok CLI,low_effort,A1,delivered,67.58,,,,41.58,15.0,10.0,1.0,12.6,,1,False,51.8,,
+C,C03,Grok 4.7,Grok CLI,high_effort,A2,delivered,97.23,,,,47.51,30.0,10.0,,42.83,,1,False,154.9,,
+C,C03,Grok 4.7,Grok CLI,examples,A3,delivered,98.3,,,,48.47,30.0,10.0,,13.23,,1,False,54.2,,
+C,C03,Grok 4.7,Grok CLI,self_review,A4s,delivered,93.05,,,,43.75,30.0,10.0,,24.05,11.44,,,107.0,,67.58
+C,C03,Grok 4.7,Grok CLI,external_review,A4e,delivered,68.87,,,,42.87,15.0,10.0,1.0,21.75,9.15,,,81.8,,67.58
+C,C03,Haiku 5.5,Claude Code,low_effort,A1,delivered,87.56,,,,45.56,30.0,10.0,2.0,2.64,,1,False,33.3,,
+C,C03,Haiku 5.5,Claude Code,high_effort,A2,delivered,96.25,,,,46.63,30.0,10.0,,9.9,,1,False,120.0,,
+C,C03,Haiku 5.5,Claude Code,examples,A3,delivered,94.02,,,,44.62,30.0,10.0,,3.45,,1,False,40.8,,
+C,C03,Haiku 5.5,Claude Code,self_review,A4s,delivered,96.72,,,,47.05,30.0,10.0,,6.46,3.82,,,82.7,,87.56
+C,C03,Haiku 5.5,Claude Code,external_review,A4e,delivered,87.83,,,,45.83,30.0,10.0,2.0,6.51,3.86,,,56.2,,87.56
+C,C03,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,77.54,,,,42.54,15.0,10.0,10.0,19.11,,1,False,,,
+C,C03,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,95.07,,,,45.57,30.0,10.0,,19.85,,1,False,,,
+C,C03,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,95.37,,,,45.84,30.0,10.0,,9.47,,1,False,,,
+C,C03,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,76.27,,,,43.64,15.0,10.0,,24.16,5.05,,,,,77.54
+C,C03,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,92.91,,,,42.91,30.0,10.0,10.0,28.34,9.23,,,,,77.54
+C,C03,Opus 5.5,Claude Code,low_effort,A1,delivered,91.78,,,,43.78,30.0,10.0,8.0,2.19,,1,False,12.6,,
+C,C03,Opus 5.5,Claude Code,high_effort,A2,delivered,97.93,,,,48.13,30.0,10.0,,13.28,,1,False,63.1,,
+C,C03,Opus 5.5,Claude Code,examples,A3,delivered,78.98,,,,46.08,15.0,10.0,,2.19,,1,False,11.3,,
+C,C03,Opus 5.5,Claude Code,self_review,A4s,delivered,94.14,,,,44.73,30.0,10.0,,4.88,2.69,,,26.8,,91.78
+C,C03,Opus 5.5,Claude Code,external_review,A4e,delivered,92.7,,,,44.7,30.0,10.0,8.0,7.53,5.34,,,28.3,,91.78
+C,C03,Sonnet 5.5,Claude Code,low_effort,A1,delivered,91.55,,,,46.8,30.0,10.0,4.75,2.09,,1,False,13.6,,
+C,C03,Sonnet 5.5,Claude Code,high_effort,A2,delivered,80.84,,,,47.75,15.0,10.0,,6.08,,1,False,43.6,,
+C,C03,Sonnet 5.5,Claude Code,examples,A3,delivered,56.97,,,,41.27,0.0,10.0,,1.29,,1,False,8.6,,
+C,C03,Sonnet 5.5,Claude Code,self_review,A4s,delivered,97.06,,,,47.35,30.0,10.0,,3.71,1.62,,,25.5,,91.55
+C,C03,Sonnet 5.5,Claude Code,external_review,A4e,delivered,90.74,,,,45.99,30.0,10.0,4.75,6.59,4.5,,,24.3,,91.55
+C,C04,Fable 5.1,Claude Code,low_effort,A1,delivered,91.75,,,,44.75,27.0,10.0,10.0,5.8,,1,False,28.6,,
+C,C04,Fable 5.1,Claude Code,high_effort,A2,delivered,96.86,,,,46.86,30.0,10.0,10.0,12.18,,1,False,56.2,,
+C,C04,Fable 5.1,Claude Code,examples,A3,delivered,86.0,,,,48.0,18.0,10.0,10.0,4.77,,1,False,22.1,,
+C,C04,Fable 5.1,Claude Code,self_review,A4s,delivered,93.68,,,,46.68,27.0,10.0,10.0,12.66,6.86,,,64.4,,91.75
+C,C04,Fable 5.1,Claude Code,external_review,A4e,delivered,92.46,,,,45.46,27.0,10.0,10.0,15.94,10.14,,,65.7,,91.75
+C,C04,GPT-6 Astra,Codex,low_effort,A1,delivered,71.37,,,,40.37,15.0,10.0,6.0,3.69,,1,False,6.6,,
+C,C04,GPT-6 Astra,Codex,high_effort,A2,delivered,77.84,,,,43.84,18.0,10.0,6.0,9.78,,1,False,25.8,,
+C,C04,GPT-6 Astra,Codex,examples,A3,delivered,79.36,,,,47.36,12.0,10.0,10.0,6.03,,1,False,12.0,,
+C,C04,GPT-6 Astra,Codex,self_review,A4s,delivered,69.47,,,,38.48,15.0,10.0,6.0,5.8,2.11,,,11.1,,71.37
+C,C04,GPT-6 Astra,Codex,external_review,A4e,delivered,70.9,,,,39.9,15.0,10.0,6.0,7.32,3.63,,,10.7,,71.37
+C,C04,GPT-6 Luna,Codex,low_effort,A1,delivered,67.63,,,,39.63,12.0,10.0,6.0,0.67,,1,False,4.0,,
+C,C04,GPT-6 Luna,Codex,high_effort,A2,delivered,67.53,,,,36.53,15.0,10.0,6.0,1.95,,1,False,11.4,,
+C,C04,GPT-6 Luna,Codex,examples,A3,delivered,65.73,,,,34.73,15.0,10.0,6.0,1.92,,1,False,4.1,,
+C,C04,GPT-6 Luna,Codex,self_review,A4s,delivered,71.71,,,,43.71,12.0,10.0,6.0,2.49,1.82,,,8.4,,67.63
+C,C04,GPT-6 Luna,Codex,external_review,A4e,delivered,66.32,,,,38.32,12.0,10.0,6.0,3.54,2.88,,,7.3,,67.63
+C,C04,GPT-6.1 Sol,Codex,low_effort,A1,delivered,70.65,,,,38.65,18.0,10.0,4.0,4.0,,1,False,11.2,,
+C,C04,GPT-6.1 Sol,Codex,high_effort,A2,no delivery,0.0,,,,0.0,0.0,0.0,0.0,4.55,,1,False,,,
+C,C04,GPT-6.1 Sol,Codex,examples,A3,delivered,79.32,,,,44.32,15.0,10.0,10.0,6.48,,1,False,13.6,,
+C,C04,GPT-6.1 Sol,Codex,self_review,A4s,delivered,70.62,,,,38.62,18.0,10.0,4.0,5.86,1.86,,,15.3,,70.65
+C,C04,GPT-6.1 Sol,Codex,external_review,A4e,delivered,70.58,,,,38.58,18.0,10.0,4.0,8.18,4.18,,,16.5,,70.65
+C,C04,Grok 4.7,Grok CLI,low_effort,A1,delivered,72.49,,,,43.49,9.0,10.0,10.0,13.09,,1,False,37.4,,
+C,C04,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,,,,0.0,0.0,0.0,0.0,0.02,,1,False,,,
+C,C04,Grok 4.7,Grok CLI,examples,A3,delivered,64.32,,,,44.32,6.0,10.0,4.0,6.41,,1,False,27.1,,
+C,C04,Grok 4.7,Grok CLI,self_review,A4s,delivered,69.03,,,,44.03,9.0,10.0,6.0,24.7,11.6,,,92.2,,72.49
+C,C04,Grok 4.7,Grok CLI,external_review,A4e,delivered,72.49,,,,43.49,9.0,10.0,10.0,20.23,7.14,,,61.1,,72.49
+C,C04,Haiku 5.5,Claude Code,low_effort,A1,delivered,31.5,,,,28.83,0.0,0.0,2.67,1.21,,1,False,12.6,,
+C,C04,Haiku 5.5,Claude Code,high_effort,A2,delivered,54.54,,,,39.54,9.0,0.0,6.0,8.65,,1,False,92.2,,
+C,C04,Haiku 5.5,Claude Code,examples,A3,delivered,18.18,,,,18.18,0.0,0.0,0.0,1.2,,1,False,11.0,,
+C,C04,Haiku 5.5,Claude Code,self_review,A4s,delivered,45.42,,,,41.42,0.0,0.0,4.0,7.99,6.78,,,82.4,,31.5
+C,C04,Haiku 5.5,Claude Code,external_review,A4e,delivered,31.24,,,,29.9,0.0,0.0,1.33,5.3,4.08,,,41.1,,31.5
+C,C04,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,58.55,,,,41.55,3.0,10.0,4.0,11.44,,1,False,,,
+C,C04,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,73.99,,,,47.99,6.0,10.0,10.0,25.92,,1,False,,,
+C,C04,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,62.08,,,,45.08,3.0,10.0,4.0,14.63,,1,False,,,
+C,C04,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,60.33,,,,43.33,3.0,10.0,4.0,18.69,7.25,,,,,58.55
+C,C04,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,59.8,,,,42.8,3.0,10.0,4.0,19.69,8.25,,,,,58.55
+C,C04,Opus 5.5,Claude Code,low_effort,A1,delivered,75.92,,,,43.92,12.0,10.0,10.0,1.58,,1,False,9.3,,
+C,C04,Opus 5.5,Claude Code,high_effort,A2,delivered,92.65,,,,45.65,27.0,10.0,10.0,8.82,,1,False,51.6,,
+C,C04,Opus 5.5,Claude Code,examples,A3,delivered,75.38,,,,46.38,9.0,10.0,10.0,2.03,,1,False,10.7,,
+C,C04,Opus 5.5,Claude Code,self_review,A4s,delivered,75.73,,,,46.73,9.0,10.0,10.0,3.33,1.75,,,19.9,,75.92
+C,C04,Opus 5.5,Claude Code,external_review,A4e,delivered,78.36,,,,46.36,12.0,10.0,10.0,5.24,3.66,,,20.5,,75.92
+C,C04,Sonnet 5.5,Claude Code,low_effort,A1,delivered,65.14,,,,39.14,6.0,10.0,10.0,2.31,,1,False,10.3,,
+C,C04,Sonnet 5.5,Claude Code,high_effort,A2,delivered,91.3,,,,47.3,24.0,10.0,10.0,6.12,,1,False,43.0,,
+C,C04,Sonnet 5.5,Claude Code,examples,A3,delivered,73.08,,,,47.08,6.0,10.0,10.0,4.44,,1,False,17.2,,
+C,C04,Sonnet 5.5,Claude Code,self_review,A4s,delivered,59.21,,,,39.21,6.0,10.0,4.0,3.9,1.59,,,20.3,,65.14
+C,C04,Sonnet 5.5,Claude Code,external_review,A4e,delivered,64.13,,,,38.13,6.0,10.0,10.0,5.56,3.25,,,16.3,,65.14
+C,C05,Fable 5.1,Claude Code,low_effort,A1,delivered,97.42,,,,47.42,30.0,10.0,10.0,10.87,,1,False,34.5,,
+C,C05,Fable 5.1,Claude Code,high_effort,A2,delivered,97.76,,,,47.76,30.0,10.0,10.0,24.02,,1,False,69.2,,
+C,C05,Fable 5.1,Claude Code,examples,A3,delivered,96.39,,,,46.39,30.0,10.0,10.0,10.04,,1,False,30.4,,
+C,C05,Fable 5.1,Claude Code,self_review,A4s,delivered,97.71,,,,47.71,30.0,10.0,10.0,17.82,6.95,,,67.4,,97.42
+C,C05,Fable 5.1,Claude Code,external_review,A4e,delivered,98.09,,,,48.09,30.0,10.0,10.0,17.73,6.87,,,57.6,,97.42
+C,C05,GPT-6 Astra,Codex,low_effort,A1,delivered,85.42,,,,42.92,22.5,10.0,10.0,7.22,,1,False,9.9,,
+C,C05,GPT-6 Astra,Codex,high_effort,A2,delivered,93.21,,,,43.21,30.0,10.0,10.0,9.95,,1,False,23.3,,
+C,C05,GPT-6 Astra,Codex,examples,A3,delivered,90.58,,,,40.58,30.0,10.0,10.0,9.94,,1,False,11.2,,
+C,C05,GPT-6 Astra,Codex,self_review,A4s,delivered,92.71,,,,42.71,30.0,10.0,10.0,10.08,2.87,,,14.8,,85.42
+C,C05,GPT-6 Astra,Codex,external_review,A4e,delivered,93.68,,,,43.68,30.0,10.0,10.0,12.73,5.51,,,15.1,,85.42
+C,C05,GPT-6 Luna,Codex,low_effort,A1,delivered,67.05,,,,32.05,15.0,10.0,10.0,1.79,,1,False,7.9,,
+C,C05,GPT-6 Luna,Codex,high_effort,A2,delivered,86.03,,,,43.53,22.5,10.0,10.0,4.57,,1,False,20.5,,
+C,C05,GPT-6 Luna,Codex,examples,A3,delivered,80.93,,,,38.43,22.5,10.0,10.0,4.2,,1,False,7.2,,
+C,C05,GPT-6 Luna,Codex,self_review,A4s,delivered,69.26,,,,34.26,15.0,10.0,10.0,3.89,2.1,,,12.9,,67.05
+C,C05,GPT-6 Luna,Codex,external_review,A4e,delivered,74.78,,,,39.78,15.0,10.0,10.0,7.29,5.49,,,16.5,,67.05
+C,C05,GPT-6.1 Sol,Codex,low_effort,A1,delivered,91.05,,,,41.05,30.0,10.0,10.0,4.11,,1,False,9.2,,
+C,C05,GPT-6.1 Sol,Codex,high_effort,A2,delivered,97.82,,,,47.82,30.0,10.0,10.0,12.88,,1,False,32.3,,
+C,C05,GPT-6.1 Sol,Codex,examples,A3,delivered,83.62,,,,41.12,22.5,10.0,10.0,4.61,,1,False,8.2,,
+C,C05,GPT-6.1 Sol,Codex,self_review,A4s,delivered,88.63,,,,38.63,30.0,10.0,10.0,8.05,3.94,,,18.1,,91.05
+C,C05,GPT-6.1 Sol,Codex,external_review,A4e,delivered,90.62,,,,40.62,30.0,10.0,10.0,8.58,4.48,,,13.9,,91.05
+C,C05,Grok 4.7,Grok CLI,low_effort,A1,delivered,97.11,,,,47.11,30.0,10.0,10.0,7.92,,1,False,35.6,,
+C,C05,Grok 4.7,Grok CLI,high_effort,A2,no delivery,0.0,,,,0.0,0.0,0.0,0.0,0.02,,1,False,,,
+C,C05,Grok 4.7,Grok CLI,examples,A3,delivered,95.36,,,,45.36,30.0,10.0,10.0,15.47,,1,False,33.0,,
+C,C05,Grok 4.7,Grok CLI,self_review,A4s,delivered,97.11,,,,47.11,30.0,10.0,10.0,7.95,0.03,,,,,97.11
+C,C05,Grok 4.7,Grok CLI,external_review,A4e,delivered,97.11,,,,47.11,30.0,10.0,10.0,10.14,2.22,,,,,97.11
+C,C05,Haiku 5.5,Claude Code,low_effort,A1,delivered,61.84,,,,41.84,0.0,10.0,10.0,1.75,,1,False,16.9,,
+C,C05,Haiku 5.5,Claude Code,high_effort,A2,delivered,83.12,,,,48.12,15.0,10.0,10.0,7.53,,1,False,86.9,,
+C,C05,Haiku 5.5,Claude Code,examples,A3,delivered,52.2,,,,34.7,7.5,0.0,10.0,2.58,,1,False,20.2,,
+C,C05,Haiku 5.5,Claude Code,self_review,A4s,delivered,79.63,,,,44.63,15.0,10.0,10.0,5.59,3.84,,,60.6,,61.84
+C,C05,Haiku 5.5,Claude Code,external_review,A4e,delivered,84.09,,,,41.59,22.5,10.0,10.0,8.38,6.63,,,65.5,,61.84
+C,C05,Kimi k3.1-pro,Kimi Code,low_effort,A1,delivered,54.19,,,,44.19,0.0,0.0,10.0,7.94,,1,False,,,
+C,C05,Kimi k3.1-pro,Kimi Code,high_effort,A2,delivered,91.85,,,,41.85,30.0,10.0,10.0,19.51,,1,False,,,
+C,C05,Kimi k3.1-pro,Kimi Code,examples,A3,delivered,89.23,,,,46.73,22.5,10.0,10.0,14.32,,1,False,,,
+C,C05,Kimi k3.1-pro,Kimi Code,self_review,A4s,delivered,54.63,,,,44.63,0.0,0.0,10.0,15.74,7.81,,,,,54.19
+C,C05,Kimi k3.1-pro,Kimi Code,external_review,A4e,delivered,87.17,,,,44.67,22.5,10.0,10.0,20.01,12.07,,,,,54.19
+C,C05,Opus 5.5,Claude Code,low_effort,A1,delivered,89.08,,,,46.58,22.5,10.0,10.0,3.16,,1,False,17.6,,
+C,C05,Opus 5.5,Claude Code,high_effort,A2,delivered,97.85,,,,47.85,30.0,10.0,10.0,13.22,,1,False,66.3,,
+C,C05,Opus 5.5,Claude Code,examples,A3,delivered,94.73,,,,44.73,30.0,10.0,10.0,4.79,,1,False,15.8,,
+C,C05,Opus 5.5,Claude Code,self_review,A4s,delivered,89.62,,,,47.12,22.5,10.0,10.0,6.54,3.38,,,33.3,,89.08
+C,C05,Opus 5.5,Claude Code,external_review,A4e,delivered,89.53,,,,47.03,22.5,10.0,10.0,8.63,5.47,,,31.6,,89.08
+C,C05,Sonnet 5.5,Claude Code,low_effort,A1,delivered,85.93,,,,43.43,22.5,10.0,10.0,3.05,,1,False,18.8,,
+C,C05,Sonnet 5.5,Claude Code,high_effort,A2,delivered,96.63,,,,46.63,30.0,10.0,10.0,17.88,,1,False,75.1,,
+C,C05,Sonnet 5.5,Claude Code,examples,A3,delivered,52.08,,,,42.08,0.0,0.0,10.0,1.79,,1,False,9.7,,
+C,C05,Sonnet 5.5,Claude Code,self_review,A4s,delivered,85.7,,,,43.2,22.5,10.0,10.0,4.59,1.54,,,28.6,,85.93
+C,C05,Sonnet 5.5,Claude Code,external_review,A4e,delivered,86.25,,,,43.75,22.5,10.0,10.0,5.58,2.53,,,23.7,,85.93

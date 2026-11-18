@@ -1,0 +1,11 @@
+You are checking economic deliveries (charts plus report text) for one narrow fact: does the delivery SHOW a specific number as digits?
+
+For each delivery folder listed below:
+1. Read `questions.json`. Each question has an id, the admitted series (in Portuguese; any one of them counts), the admitted period(s) (2026-08 = August 2026; 2026-Q2 or 2026Q2 = second quarter; for revision questions the "period" is a sample of vintages and does not need to match), a unit, and `text_snippets`: excerpts of the delivery's report around numbers that might be relevant. Table excerpts come as "[table header] ... [row] ...".
+2. Open every image file `img*.png` (or .jpg) in the folder with the Read tool. Look at all of them.
+3. For each question decide whether the delivery shows, as digits, the value of an admitted series at an admitted period. It counts ONLY if the number appears as text: a data label on/next to a bar or line end, a table cell, an annotation, a title/subtitle/caption on a chart, OR a text snippet whose wording (or table header + row) clearly states that series at that period. It does NOT count if you would have to estimate it from an axis, gridlines, bar length or line position, however clearly. A number for another period, another series, or another transformation (level instead of YoY, m/m instead of YoY, 3m/3m not annualised instead of 3m/3m SAAR, annualised q/q instead of q/q, mean ABSOLUTE revision instead of mean revision) does not count. For revision questions (N_qoq_* / N_yoy_*), the number must be a MEAN revision (later estimate minus first estimate) for that horizon and measure (q/q growth vs YoY growth).
+4. Write `result.json` in that folder: a JSON list, one object per question:
+   {"id": "<question id>", "printed": "yes" | "no" | "unclear", "value": <the shown number as a float, or null>, "values": [<every shown number that matches an admitted series at an admitted period, as floats>], "where": "<imgN and where on it, or 'text snippet k', or why not>"}
+   Use "unclear" only if digits are printed but you cannot read them reliably.
+
+Be literal and strict. Do not guess values. Do not use any knowledge of economic data. Work folder by folder; write each result.json before moving on. When done, reply with one line per folder: code and counts of yes/no/unclear.
