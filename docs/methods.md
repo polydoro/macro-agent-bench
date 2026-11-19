@@ -22,9 +22,9 @@ For both review methods the score that counts is the one after revision. The sco
 
 ## Worked examples (A3)
 
-A library of 16 examples, two per task family; every model got the same two for a given task, from the same kind of work but a different country or indicator, so they show the form, not the answer. For German industrial production, for instance, the two were Swedish household consumption and Spanish industrial turnover. Each example is four small files: a one-line request (`pedido.txt`), the finished chart (`figura.png`), a short note on how to build and read it (`solucao.txt`) and the table behind the chart (`dados_e_calculos.csv`).
+A library of 16 examples, two per task family; every model got the same two for a given task, from the same kind of work but a different country or indicator, so they show the form, not the answer. For German industrial production, for instance, the two were Swedish household consumption and Spanish industrial turnover. Each example is four small files: a one-line request (`pedido.txt`), the finished chart (`figura.png`), a short note on how to build and read it (`solucao.txt`) and a small file listing the source charts it was made from (`dados_e_calculos.csv`; for the 14 examples from my own work it holds no numbers).
 
-Fourteen of the sixteen come from my own day-to-day work, built over time with earlier AI models and refined; two (the nowcast pair) are public examples. **The examples themselves are not published here.**
+Fourteen of the sixteen come from my own day-to-day work, built over time with earlier AI models and refined; two (the nowcast pair) are public examples. **One example is published, byte for byte: [examples/es-industrial-turnover/](../examples/es-industrial-turnover/) (Spanish industrial turnover, used in six simple tasks). The other fifteen are not.**
 
 The request in A3 adds, before the task:
 

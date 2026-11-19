@@ -1,0 +1,9 @@
+Faturamento industrial da Espanha
+
+Mostrar o nível e depois YoY/3m SAAR no mesmo painel da manufatura. Faturamento industrial pode refletir preços; não o chamar de volume de produção nem de vendas no varejo. Fontes, recorte e data devem acompanhar o produto.
+
+Fonte e período: INE Espanha; índice de faturamento industrial, série ajustada sazonalmente e por calendário, base indicada no gráfico. Snapshot histórico do repositório.
+
+Limites: Comparação de forma e interpretação; não é a divulgação reservada de encomendas alemãs ou varejo espanhol.
+
+Exemplo histórico de apresentação. Não copiar seus valores ou conclusões para a nova tarefa. Não se alega nota máxima, revisão científica ou holdout intocado.

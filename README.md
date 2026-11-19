@@ -53,6 +53,7 @@ Evidence first (all reproducible from [`results/deliveries.csv`](results/deliver
 | [`scoring/answer-keys/`](scoring/answer-keys/) | Answer keys for the simple tasks, built from the official files the agents downloaded, plus the seasonal-adjustment test |
 | [`scoring/scoreboard-v1/`](scoring/scoreboard-v1/) | Script that joins scores and run times into the tables in `results/` |
 | [`judge-validation/`](judge-validation/) | Hand labels, agreement and κ, judge repeat variance |
+| [`examples/es-industrial-turnover/`](examples/es-industrial-turnover/) | One of the worked examples, exactly as the agents received it, with an English translation |
 
 The scoring code is published for transparency. It reads the agents' deliveries, which are not in this repository, so it does not run end to end from here; `analysis/` does. Files named `NOTES.md` are the working logs kept while scoring, lightly edited; they record every rule change and why.
 
